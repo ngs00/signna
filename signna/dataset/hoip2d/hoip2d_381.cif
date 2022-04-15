@@ -1,0 +1,98 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_EAMNCL11
+#This CIF has been generated from an entry in the Cambridge Structural Database
+_database_code_depnum_ccdc_archive 'CCDC 1148005'
+_database_code_CSD               EAMNCL11
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1107/S0567740877011911 1977
+_audit_creation_method           'Created from the CSD'
+_audit_update_record             
+;
+2020-05-04 downloaded from the CCDC.
+;
+_database_code_NBS               510661
+_chemical_formula_moiety         '(C2 H8 N1 1+)2n,0.5n(Cl8 Mn2 4-)'
+_chemical_name_systematic        
+'catena-(bis(Ethylammonium) tetrachloro-manganese(ii))'
+_chemical_absolute_configuration unk
+_diffrn_ambient_temperature      126
+_exptl_crystal_density_diffrn    1.663
+#These two values have been output from a single CSD field.
+_refine_ls_R_factor_gt           0.04
+_refine_ls_wR_factor_gt          0.04
+_diffrn_radiation_probe          x-ray
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_H-M   'P b c a'
+_symmetry_Int_Tables_number      61
+_space_group_name_Hall           '-P 2ac 2ab'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,-y,1/2+z
+3 1/2+x,1/2-y,-z
+4 -x,1/2+y,1/2-z
+5 -x,-y,-z
+6 1/2+x,y,1/2-z
+7 1/2-x,1/2+y,z
+8 x,1/2-y,1/2+z
+_cell_length_a                   7.325(8)
+_cell_length_b                   7.151(11)
+_cell_length_c                   22.035(19)
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     1154.22
+_cell_formula_units_Z            4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Mn1 Mn 0.00000 0.00000 0.00000
+Cl1 Cl -0.26890 -0.23140 0.01130
+Cl2 Cl 0.04130 -0.01340 0.11170
+Cl1B Cl 0.23110 -0.26860 -0.01130
+Cl1D Cl 0.26890 0.23140 -0.01130
+Cl1F Cl -0.23110 0.26860 0.01130
+Cl2D Cl -0.04130 0.01340 -0.11170
+Mn1B Mn -0.50000 -0.50000 0.00000
+Mn1B Mn 0.50000 -0.50000 0.00000
+Mn1B Mn 0.50000 0.50000 0.00000
+Mn1B Mn -0.50000 0.50000 0.00000
+Cl1B Cl -0.76890 -0.26860 -0.01130
+Cl1D Cl -0.73110 -0.76860 -0.01130
+Cl1F Cl -0.23110 -0.73140 0.01130
+Cl2B Cl -0.45870 -0.48660 -0.11170
+Cl2F Cl -0.54130 -0.51340 0.11170
+N1 N 0.48350 0.01980 0.10360
+H1 H 0.35750 -0.00430 0.09450
+H2 H 0.49530 0.14640 0.09490
+H3 H 0.54300 -0.03710 0.06620
+C1 C 0.55620 -0.02990 0.16450
+H4 H 0.55070 -0.17990 0.17000
+H5 H 0.69610 0.01660 0.16780
+C2 C 0.44730 0.06010 0.21390
+H6 H 0.50340 0.02130 0.25740
+H7 H 0.30720 0.01380 0.21110
+H8 H 0.45260 0.21020 0.20880
+
+#END

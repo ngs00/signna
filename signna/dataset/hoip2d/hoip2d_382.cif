@@ -1,0 +1,75 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_PRAMPD
+#This CIF has been generated from an entry in the Cambridge Structural Database
+_database_code_depnum_ccdc_archive 'CCDC 1237937'
+_database_code_CSD               PRAMPD
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1107/S0567740877006761 1977
+_audit_creation_method           'Created from the CSD'
+_audit_update_record             
+;
+2020-05-04 downloaded from the CCDC.
+;
+_database_code_NBS               522716
+_chemical_formula_moiety         '2(C3 H10 N1 1+),Cl4 Pd1 2-'
+_chemical_name_systematic        'bis(Propylammonium) tetrachloro-palladium(ii)'
+_chemical_absolute_configuration unk
+_diffrn_ambient_temperature      295
+_exptl_crystal_density_diffrn    1.75306
+#These two values have been output from a single CSD field.
+_refine_ls_R_factor_gt           0.095
+_refine_ls_wR_factor_gt          0.095
+_diffrn_radiation_probe          x-ray
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 21/c'
+_symmetry_Int_Tables_number      14
+_space_group_name_Hall           '-P 2ybc'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,1/2+y,1/2-z
+3 -x,-y,-z
+4 x,1/2-y,1/2+z
+_cell_length_a                   12.42(1)
+_cell_length_b                   8.038(4)
+_cell_length_c                   7.404(3)
+_cell_angle_alpha                90
+_cell_angle_beta                 109.20(2)
+_cell_angle_gamma                90
+_cell_volume                     698.041
+_cell_formula_units_Z            2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Pd1 Pd 0.00000 0.00000 0.00000
+Cl1 Cl 0.02810 0.20790 0.22790
+Cl2 Cl 0.19310 -0.05340 0.09000
+Cl1B Cl -0.02810 -0.20790 -0.22790
+Cl2B Cl -0.19310 0.05340 -0.09000
+N1 N 0.15780 -0.45770 0.08910
+C1 C 0.46940 -0.62750 0.22120
+C2 C 0.27530 -0.48900 0.12090
+C3 C 0.33900 -0.62360 0.16890
+
+#END

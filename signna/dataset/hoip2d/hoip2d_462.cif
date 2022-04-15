@@ -1,0 +1,121 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_JIMDIS
+#This CIF has been generated from an entry in the Cambridge Structural Database
+_database_code_depnum_ccdc_archive 'CCDC 1186562'
+_database_code_CSD               JIMDIS
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1021/ja00006a076 1991
+_audit_creation_method           'Created from the CSD'
+_audit_update_record             
+;
+2020-05-10 downloaded from the CCDC.
+;
+_database_code_NBS               600757
+_chemical_formula_moiety         '(C8 H12 N1 1+)2n,n(C1 H6 N1 1+),n(I7 Pb2 3-)'
+_chemical_name_systematic        
+'catena-(bis(Phenylethylammonium) methylammonium heptaiodo-di-lead)'
+_chemical_absolute_configuration unk
+_diffrn_ambient_temperature      295
+_exptl_crystal_density_diffrn    3.01
+#These two values have been output from a single CSD field.
+_refine_ls_R_factor_gt           0.059
+_refine_ls_wR_factor_gt          0.059
+_diffrn_radiation_probe          x-ray
+_symmetry_cell_setting           triclinic
+_symmetry_space_group_name_H-M   'P -1'
+_symmetry_Int_Tables_number      2
+_space_group_name_Hall           '-P 1'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,-y,-z
+_cell_length_a                   8.794(1)
+_cell_length_b                   8.792(1)
+_cell_length_c                   22.766(2)
+_cell_angle_alpha                94.02(1)
+_cell_angle_beta                 97.02(1)
+_cell_angle_gamma                90.18(1)
+_cell_volume                     1742.58
+_cell_formula_units_Z            2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Pb1 Pb 0.2984(1) 0.2771(1) 0.1450(1)
+Pb2 Pb 0.2048(1) 0.2255(1) -0.1450(1)
+I1 I 0.2510(3) 0.2515(3) 0.0002(1)
+I2 I -0.0051(2) 0.0759(2) 0.1406(1)
+I4 I 0.4927(2) -0.0262(2) 0.1412(1)
+I6 I 0.1421(3) 0.1983(3) -0.2836(1)
+I7 I 0.6008(2) 0.4704(3) 0.1424(1)
+I9 I 0.0965(2) 0.5778(2) 0.1415(1)
+I11 I 0.3399(3) 0.2849(2) 0.2840(1)
+I2A I 0.0051(2) -0.0759(2) -0.1406(1)
+I4A I 0.5073(2) 0.0262(2) -0.1412(1)
+I7A I 0.3992(2) 0.5296(3) -0.1424(1)
+I9A I -0.0965(2) 0.4222(2) -0.1415(1)
+Pb2A Pb -0.2048(1) -0.2255(1) 0.1450(1)
+Pb2A Pb 0.7952(1) -0.2255(1) 0.1450(1)
+Pb2A Pb 0.7952(1) 0.7745(1) 0.1450(1)
+Pb2A Pb -0.2048(1) 0.7745(1) 0.1450(1)
+Pb1A Pb -0.2984(1) -0.2771(1) -0.1450(1)
+Pb1A Pb 0.7016(1) -0.2771(1) -0.1450(1)
+Pb1A Pb 0.7016(1) 0.7229(1) -0.1450(1)
+Pb1A Pb -0.2984(1) 0.7229(1) -0.1450(1)
+I1A I -0.2510(3) -0.2515(3) -0.0002(1)
+I4 I -0.5073(2) -0.0262(2) 0.1412(1)
+I6A I -0.1421(3) -0.1983(3) 0.2836(1)
+I7 I -0.3992(2) -0.5296(3) 0.1424(1)
+I9 I 0.0965(2) -0.4222(2) 0.1415(1)
+I4A I -0.4927(2) 0.0262(2) -0.1412(1)
+I7A I -0.6008(2) -0.4704(3) -0.1424(1)
+I9A I -0.0965(2) -0.5778(2) -0.1415(1)
+I11A I -0.3399(3) -0.2849(2) -0.2840(1)
+I3? I 0.0892(46) -0.0158(47) 0.1416(20)
+I5? I 0.6046(32) 0.0726(32) 0.1407(15)
+I8? I 0.4875(25) 0.5765(25) 0.1370(11)
+I10? I -0.0066(38) 0.5326(41) -0.1369(18)
+N1? N 0.7379(86) 0.2809(83) 0.0014(35)
+N2? N 0.2588(27) 0.8682(27) 0.2550(12)
+N3? N 0.8872(35) 1.3514(37) 0.2661(16)
+C1? C 0.633(15) 0.157(16) 0.0108(62)
+C2? C 0.7966(78) 0.1823(84) -0.0140(32)
+C3? C 0.2421(41) 0.9550(42) 0.4084(19)
+C4? C 0.3412(53) 0.8608(57) 0.3854(25)
+C5? C 0.3741(49) 0.7648(49) 0.2842(22)
+C6? C 0.4536(64) 0.7997(64) 0.3445(29)
+C7? C 0.3400(86) 0.7337(89) 0.3549(39)
+C8? C 0.5097(66) 0.9409(67) 0.4049(30)
+C9? C 0.2886(97) 1.105(10) 0.4531(45)
+C10? C 0.109(11) 0.806(11) 0.4638(48)
+C11? C 0.9080(61) 1.2565(62) 0.3431(28)
+C12? C 0.9527(85) 1.4042(85) 0.4013(39)
+C13? C 0.8301(57) 1.3331(58) 0.3827(25)
+C14? C 0.7008(51) 1.5341(51) 0.4340(21)
+C15? C 0.7647(43) 1.2278(43) 0.2606(19)
+C16? C 0.7635(46) 1.4509(47) 0.3995(21)
+C17? C 0.7664(71) 1.2061(73) 0.4031(32)
+C18? C 0.8330(98) 1.6155(95) 0.4477(42)
+C19? C 0.6085(77) 1.3934(83) 0.4494(36)
+
+#END

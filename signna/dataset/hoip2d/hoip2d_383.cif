@@ -1,0 +1,48 @@
+#======================================================================
+
+# CRYSTAL DATA
+
+#----------------------------------------------------------------------
+
+data_VESTA_phase_1
+
+
+_chemical_name_common                  ''
+_cell_length_a                         7.33000
+_cell_length_b                         24.66000
+_cell_length_c                         7.65000
+_cell_angle_alpha                      90
+_cell_angle_beta                       90
+_cell_angle_gamma                      90
+_space_group_name_H-M_alt              'P c a b'
+_space_group_IT_number                 61
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+   '-x, -y, -z'
+   'x+1/2, -y, -z+1/2'
+   '-x+1/2, y, z+1/2'
+   '-x+1/2, y+1/2, -z'
+   'x+1/2, -y+1/2, z'
+   '-x, -y+1/2, z+1/2'
+   'x, y+1/2, -z+1/2'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_B_iso_or_equiv
+   _atom_site_type_symbol
+   Сu        1.0     0.000000      0.000000      0.000000     Biso  1.000000 Cu
+   Cl1        1.0     0.046200      0.091700      0.011700     Biso  1.000000 Cl
+   Cl2        1.0     0.211400     -0.012300      0.217700     Biso  1.000000 Cl
+   N          1.0    -0.032100      0.417500     -0.002100     Biso  2.900000 N
+   C3         0.5000  0.104600      0.265700      0.045200     Biso  7.000000 C
+   C2         0.5000 -0.003400      0.321400      0.097100     Biso 12.000000 C
+   C1         1.0     0.041000      0.372700      0.006300     Biso  8.000000 C
+   C4         0.5000 -0.011300      0.321100     -0.071800     Biso 11.000000 C
+   C5         0.5000  0.114800      0.264700     -0.006500     Biso  7.000000 C

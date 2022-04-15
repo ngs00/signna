@@ -1,0 +1,79 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_SAGJOZ
+#This CIF has been generated from an entry in the Cambridge Structural Database
+_database_code_depnum_ccdc_archive 'CCDC 1253993'
+_database_code_CSD               SAGJOZ
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1021/ja00234a010 1988
+_audit_creation_method           'Created from the CSD'
+_audit_update_record             
+;
+2020-05-04 downloaded from the CCDC.
+;
+_database_code_NBS               585855
+_chemical_formula_moiety         'C5 H8 N2 2+,Br4 Cu1 2-'
+_chemical_name_systematic        '3-Ammoniumpyridinium tetrabromo-copper(ii)'
+_chemical_absolute_configuration unk
+_diffrn_ambient_temperature      140
+_exptl_crystal_density_diffrn    2.951
+#These two values have been output from a single CSD field.
+_refine_ls_R_factor_gt           0.068
+_refine_ls_wR_factor_gt          0.068
+_diffrn_radiation_probe          x-ray
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 21/c'
+_symmetry_Int_Tables_number      14
+_space_group_name_Hall           '-P 2ybc'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,1/2+y,1/2-z
+3 -x,-y,-z
+4 x,1/2-y,1/2+z
+_cell_length_a                   7.179(1)
+_cell_length_b                   8.766(2)
+_cell_length_c                   17.218(3)
+_cell_angle_alpha                90
+_cell_angle_beta                 95.29(1)
+_cell_angle_gamma                90
+_cell_volume                     1078.93
+_exptl_crystal_colour            violet
+_cell_formula_units_Z            4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1 Cu 0.2362(3) 0.2834(2) 0.2372(1)
+Br1 Br 0.1867(3) 0.2209(2) 0.0990(1)
+Br2 Br 0.5144(3) 0.1240(2) 0.2487(1)
+Br3 Br 0.2647(3) 0.3146(2) 0.3786(1)
+Br4 Br 0.0035(3) 0.4818(2) 0.2222(1)
+N1 N 0.6826(22) 0.1918(17) 0.0716(9)
+C1 C 0.7188(24) 0.1302(21) 0.0025(9)
+C2 C 0.7613(25) 0.2239(21) -0.0576(10)
+C3 C 0.7682(26) 0.3801(21) -0.0462(10)
+C4 C 0.7254(27) 0.4400(23) 0.0251(10)
+C5 C 0.6851(28) 0.3417(21) 0.0828(11)
+N2 N 0.7965(22) 0.1563(17) -0.1316(8)
+
+#END

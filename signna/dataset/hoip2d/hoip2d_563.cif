@@ -1,0 +1,132 @@
+data_x1
+_audit_creation_method 'Olex2 1.2
+(compiled 2018.05.29 svn.r3508 for OlexSys, GUI svn.r5506)
+'
+_audit_creation_date	2019-09-12
+_audit_update_record	2019-09-12
+_chemical_formula_sum	'C2 I2 N4 Pb S2'
+_chemical_name_systematic
+;
+C4I2N4PbS2
+;
+_chemical_formula_weight	605.170
+_refine_ls_R_factor_all	0.056
+_cell_length_a	 6.4409(5)
+_cell_length_b	18.8578(13)
+_cell_length_c	 6.2954(4)
+_cell_angle_alpha	90.000
+_cell_angle_beta	90.000
+_cell_angle_gamma	90.000
+_cell_volume	764.6(1)
+_cell_formula_units_Z	2
+_symmetry_int_tables_number	59
+_symmetry_space_group_name_H-M	'P m m n'
+_symmetry_space_group_name_Hall	'-P_2ab_2a'
+
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,1/2-y,z
+3 1/2+x,-y,-z
+4 -x,1/2+y,-z
+5 -x,-y,-z
+6 1/2+x,1/2+y,-z
+7 1/2-x,y,z
+8 x,1/2-y,z
+
+loop_
+_atom_type_symbol
+_atom_type_oxidation_number
+_atom_type_radius_bond
+Pb	?	1.200
+I	?	1.200
+S	?	1.200
+N	?	1.200
+C	?	1.200
+
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_Wyckoff_symbol
+_atom_site_attached_hydrogens
+_atom_site_calc_flag
+_atom_site_thermal_displace_type
+_atom_site_u_iso_or_equiv
+Pb Pb  0.7500  0.7500  0.4062(1)  1.000 2 a ? d Uani  0.0414(4)
+I2 I  0.7500  0.7500 -0.0916(3)  1.000 2 a ? d Uani  0.0737(7)
+I1 I  0.2500  0.7500  0.3838(4)  1.000 2 b ? d Uani  0.0741(7)
+S S  0.7500  0.5931(3)  0.3397(13)  1.000 4 e ? d Uani  0.087(2)
+N2 N  0.7500  0.4122(13)  0.045(5)  1.000 4 e ? d Uani  0.17(2)
+N1 N  0.7500  0.5346(16)  0.727(6)  1.000 4 e ? d Uani  0.149(16)
+C C  0.7500  0.5634(15)  0.554(6)  1.000 4 e ? d Uani  0.095(9)
+
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb  0.0382(5)  0.0564(6)  0.0296(5)  0.00000  0.00000  0.00000
+I2  0.1020(17)  0.0912(14)  0.0279(8)  0.00000  0.00000  0.00000
+I1  0.0311(8)  0.1080(17)  0.0834(14)  0.00000  0.00000  0.00000
+S  0.121(6)  0.056(3)  0.086(4)  0.00000  0.00000 -0.010(3)
+N2  0.36(7)  0.061(14)  0.091(19)  0.00000  0.00000 -0.013(13)
+N1  0.24(5)  0.089(18)  0.11(2)  0.00000  0.00000  0.036(18)
+C  0.080(17)  0.068(14)  0.14(3)  0.00000  0.00000 -0.035(17)
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pb I2 . .  3.1335(16) no
+Pb I2 . 1_556  3.1619(16) no
+Pb I1 . 1_655  3.2235(3) no
+Pb I1 . .  3.2235(3) no
+Pb S . 2_665  2.988(6) no
+Pb S . .  2.988(6) no
+I2 Pb . 1_554  3.1619(16) no
+I1 Pb . 1_455  3.2235(3) no
+S C . .  1.46(4) no
+N1 C . .  1.22(5) no
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+I2 Pb I2 . . 1_556 180.0() no
+I2 Pb I1 . . 1_655 87.50(4) no
+I2 Pb I1 1_556 . 1_655 92.50(4) no
+I2 Pb I1 . . . 87.50(4) no
+I2 Pb I1 1_556 . . 92.50(4) no
+I1 Pb I1 . . 1_655 175.00(9) no
+S Pb I2 . . . 81.95(16) no
+S Pb I2 2_665 . 1_556 98.05(16) no
+S Pb I2 . . 1_556 98.05(16) no
+S Pb I2 2_665 . . 81.95(16) no
+S Pb I1 . . . 89.65(1) no
+S Pb I1 2_665 . . 89.65(1) no
+S Pb I1 2_665 . 1_655 89.65(1) no
+S Pb I1 . . 1_655 89.65(1) no
+S Pb S 2_665 . . 163.9(3) no
+Pb I2 Pb . . 1_554 180.00 no
+Pb I1 Pb . . 1_455 175.00(9) no
+C S Pb . . . 104.5(11) no
+N1 C S . . . 176.(3) no

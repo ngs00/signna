@@ -1,0 +1,109 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_ECEDEV
+#This CIF has been generated from an entry in the Cambridge Structural Database
+_database_code_depnum_ccdc_archive 'CCDC 1148469'
+_database_code_CSD               ECEDEV
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1021/ic000794i 2000
+_audit_creation_method           'Created from the CSD'
+_audit_update_record             
+;
+2020-04-25 downloaded from the CCDC.
+;
+_database_code_NBS               760301
+_chemical_formula_moiety         '(C20 H22 N2 S4 2+)n,n(I4 Sb1 2-)'
+_chemical_name_systematic        
+"catena-((5,5'''-bis(2-Ammonioethyl)-2,2':5',2'':5'',2'''-quaterthiophene) bis(\m~2~-iodo)-di-iodo-antimony(iii))"
+_chemical_absolute_configuration unk
+_diffrn_ambient_temperature      295
+_exptl_crystal_density_diffrn    2.46
+#These two values have been output from a single CSD field.
+_refine_ls_R_factor_gt           0.062
+_refine_ls_wR_factor_gt          0.062
+_diffrn_radiation_probe          x-ray
+_refine_special_details          'C2/c refinement'
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'C 2/m'
+_symmetry_Int_Tables_number      12
+_space_group_name_Hall           '-C 2y'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 -x,y,-z
+3 1/2+x,1/2+y,z
+4 1/2-x,1/2+y,-z
+5 -x,-y,-z
+6 x,-y,z
+7 1/2-x,1/2-y,-z
+8 1/2+x,1/2-y,z
+_cell_length_a                   39.439(7)
+_cell_length_b                   5.952(1)
+_cell_length_c                   6.031(1)
+_cell_angle_alpha                90
+_cell_angle_beta                 92.245(3)
+_cell_angle_gamma                90
+_cell_volume                     1414.64
+_exptl_crystal_colour            'dark red'
+_cell_formula_units_Z            2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Sb1 Sb 0.00000 0.0000 0.0000
+I1 I 0.07999(5) 0.0000 0.0074(3)
+I2 I 0.00000 0.0794(5) 0.5000
+I3 I -0.0012(1) 0.5000 0.0765(5)
+I1A I -0.07999(5) 0.0000 -0.0074(3)
+I2 I 0.00000 0.0794(5) -0.5000
+I2D I 0.00000 -0.0794(5) -0.5000
+I2D I 0.00000 -0.0794(5) 0.5000
+I3 I -0.0012(1) -0.5000 0.0765(5)
+I3A I 0.0012(1) -0.5000 -0.0765(5)
+I3A I 0.0012(1) 0.5000 -0.0765(5)
+Sb1 Sb 0.00000 0.0000 1.0000
+Sb1 Sb 0.00000 1.0000 0.0000
+S1 S 0.1585(2) 0.5000 0.851(1)
+S2 S 0.2110(2) 0.379(2) 1.266(2)
+N1 N 0.069(1) 0.5000 0.664(7)
+C1 C 0.079(4) 0.5000 0.45(2)
+C3 C 0.118(2) 0.5000 0.41(2)
+C5 C 0.1401(9) 0.405(5) 0.583(5)
+C6 C 0.1523(9) 0.210(7) 0.531(6)
+C7 C 0.1758(7) 0.092(5) 0.670(5)
+C8 C 0.1812(8) 0.224(6) 0.877(5)
+C9 C 0.2038(7) 0.179(5) 1.061(5)
+C10 C 0.2225(7) 0.0000 1.098(4)
+C11 C 0.2434(6) 0.0000 1.282(4)
+C12 C 0.2415(8) 0.204(6) 1.409(5)
+C5E C 0.1401(9) 0.595(5) 0.583(5)
+C8E C 0.1812(8) 0.776(6) 0.877(5)
+S2E S 0.2110(2) 0.621(2) 1.266(2)
+C7E C 0.1758(7) -0.092(5) 0.670(5)
+C9E C 0.2038(7) -0.179(5) 1.061(5)
+C12E C 0.2415(8) -0.204(6) 1.409(5)
+C12F C 0.2585(8) 0.296(6) 1.591(5)
+N2? N 0.069(1) 0.33(1) 0.507(9)
+C2? C 0.083(2) 0.5000 0.50(1)
+C4? C 0.118(2) 0.42(1) 0.48(1)
+
+#END

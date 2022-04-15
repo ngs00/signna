@@ -1,0 +1,2890 @@
+
+#=======================================================================
+data_global
+#=======================================================================
+
+_audit_creation_method                   'Jana2006 Version : 19/07/2016'
+
+
+# 1. PROCESSING SUMMARY (IUCr Office Use Only)
+
+_journal_date_recd_electronic            ?
+_journal_date_to_coeditor                ?
+_journal_date_from_coeditor              ?
+_journal_date_accepted                   ?
+_journal_date_printers_first             ?
+_journal_date_printers_final             ?
+_journal_date_proofs_out                 ?
+_journal_date_proofs_in                  ?
+_journal_coeditor_name                   ?
+_journal_coeditor_code                   ?
+_journal_coeditor_notes
+; ?
+;
+_journal_techeditor_code                 ?
+_journal_paper_category                  ?
+_journal_techeditor_notes
+; ?
+;
+_journal_coden_ASTM                      ?
+_journal_name_full                       ?
+_journal_year                            ?
+_journal_volume                          ?
+_journal_issue                           ?
+_journal_page_first                      ?
+_journal_page_last                       ?
+_journal_suppl_publ_number               ?
+_journal_suppl_publ_pages                ?
+
+#=======================================================================
+
+# 2. SUBMISSION DETAILS
+
+_publ_contact_author_name                'Mercouri G. Kanatzidis'
+_publ_contact_author_address
+;
+   Department of Chemistry
+     2145 Sheridan Road
+   Northwestern University
+   Evanston, IL 60208-3113
+           USA
+;
+_publ_contact_author_email               m-kanatzidis@northwestern.edu
+_publ_contact_author_fax                 '847-491-5937'
+_publ_contact_author_phone               '847-467-1541'
+
+_publ_requested_journal                  ?
+_publ_requested_category                 ?
+
+_publ_contact_letter
+; ?
+;
+
+#=======================================================================
+
+# 3. TITLE AND AUTHOR LIST
+
+_publ_section_title
+; ?
+;
+_publ_section_title_footnote
+; ?
+;
+loop_
+ _publ_author_name
+ _publ_author_footnote
+ _publ_author_address
+; ?      # name
+;
+; ?      # footnote
+;
+; ?      # address
+;
+
+#=======================================================================
+
+# 4. TEXT
+
+_publ_section_synopsis
+; ?
+;
+_publ_section_abstract
+; ?
+;
+_publ_section_comment
+; ?
+;
+_publ_section_introduction
+; ?
+;
+_publ_section_experimental
+; ?
+;
+_publ_section_exptl_prep
+; ?
+;
+_publ_section_exptl_refinement
+; ?
+;
+_publ_section_exptl_solution
+; ?
+;
+_publ_section_discussion
+; ?
+;
+_publ_section_acknowledgements
+; ?
+;
+_publ_section_references
+;
+Petricek, V., Dusek, M. & Palatinus L. (2014). Z. Kristallogr. 229(5), 345-352.
+
+Palatinus L. & Chapuis G. (2007). J. Appl. Cryst. 40, 786-790.
+
+enable this reference if Diamond ver. 3 was used for visualization
+Brandenburg, K. & Putz, H. (2005). DIAMOND Version 3.
+Crystal Impact GbR, Postfach 1251, D-53002 Bonn, Germany.
+
+ enable this reference if Xshape wase used for crystal shape refinement
+Stoe & Cie (1998). X-SHAPE. Stoe & Cie, Darmstadt, Germany.
+;
+_publ_section_figure_captions
+; ?
+;
+_publ_section_table_legends
+; ?
+;
+
+#=======================================================================
+data_GAMAPbI4
+#=======================================================================
+
+# 5. CHEMICAL DATA
+
+_chemical_name_systematic
+; ?
+;
+_chemical_name_common     'Guanidinium Methylammonium Lead Iodide'
+_chemical_formula_moiety                 'GAMAPbI4'
+_chemical_formula_structural             ?
+_chemical_formula_analytical             ?
+_chemical_formula_iupac                  ?
+_chemical_formula_sum                    'C2 H12 I4 N4 Pb1'
+_chemical_formula_weight                 807
+_chemical_melting_point                  ?
+_chemical_compound_source                ?
+_chemical_absolute_configuration         .
+
+#=======================================================================
+
+# 6. CRYSTAL DATA
+
+_symmetry_cell_setting                   orthorhombic
+_symmetry_space_group_name_H-M           'I m m a'
+_symmetry_space_group_name_Hall          '-I -2x;-2yb;-2zb'
+_symmetry_Int_Tables_number              74
+
+loop_
+ _space_group_symop_id
+ _space_group_symop_operation_xyz
+ 1   x,y,z
+ 2   -x,-y+1/2,z
+ 3   -x,y+1/2,-z
+ 4   x,-y,-z
+ 5   -x,-y,-z
+ 6   x,y+1/2,-z
+ 7   x,-y+1/2,z
+ 8   -x,y,z
+ 9   x+1/2,y+1/2,z+1/2
+ 10  -x+1/2,-y,z+1/2
+ 11  -x+1/2,y,-z+1/2
+ 12  x+1/2,-y+1/2,-z+1/2
+ 13  -x+1/2,-y+1/2,-z+1/2
+ 14  x+1/2,y,-z+1/2
+ 15  x+1/2,-y,z+1/2
+ 16  -x+1/2,y+1/2,z+1/2
+
+_cell_length_a                           6.4286(6)
+_cell_length_b                           12.4577(9)
+_cell_length_c                           18.8258(13)
+_cell_angle_alpha                        90
+_cell_angle_beta                         90
+_cell_angle_gamma                        90
+_cell_volume                             1507.7(2)
+
+loop_
+ _twin_individual_id
+ _twin_individual_mass_fraction_refined
+ _twin_individual_twin_matrix_11
+ _twin_individual_twin_matrix_12
+ _twin_individual_twin_matrix_13
+ _twin_individual_twin_matrix_21
+ _twin_individual_twin_matrix_22
+ _twin_individual_twin_matrix_23
+ _twin_individual_twin_matrix_31
+ _twin_individual_twin_matrix_32
+ _twin_individual_twin_matrix_33
+1 0.907(9)
+1 0 0
+0 1 0
+0 0 1
+2 0.093(9)
+0 0 3
+0 -1 0
+0.3333 0 0
+
+_cell_formula_units_Z                    4
+
+_cell_measurement_reflns_used    3756
+_cell_measurement_theta_min      3.27
+_cell_measurement_theta_max      29.63
+_cell_measurement_temperature            293
+_cell_special_details
+; ?
+;
+
+_exptl_crystal_density_diffrn            3.5551
+_exptl_crystal_density_meas              ?
+_exptl_crystal_density_method            ?
+_exptl_crystal_F_000                     1392
+
+_exptl_absorpt_coefficient_mu            19.349
+_exptl_crystal_description               'Rectangular needle'
+_exptl_crystal_size_max                  0.1111
+_exptl_crystal_size_mid                  0.0225
+_exptl_crystal_size_min                  0.0167
+_exptl_crystal_size_rad                  ?
+_exptl_crystal_colour                    'Red'
+_exptl_absorpt_correction_type           'Integration'
+_exptl_absorpt_process_details           'X-SHAPE'
+_exptl_absorpt_correction_T_min          0.1725
+_exptl_absorpt_correction_T_max          0.5297
+loop_
+ _exptl_crystal_face_index_h
+ _exptl_crystal_face_index_k
+ _exptl_crystal_face_index_l
+ _exptl_crystal_face_perp_dist
+ ? ? ? ?
+
+#=======================================================================
+
+# 7. EXPERIMENTAL DATA
+
+_exptl_special_details                   ?
+
+_diffrn_ambient_temperature              293
+_diffrn_measurement_device         '2-circle goniometer'
+_diffrn_measurement_device_type    'STOE IPDS 2T'
+_diffrn_detector                   'image plate (34 cm diameter)'
+_diffrn_detector_type              'STOE'
+_diffrn_detector_area_resol_mean   6.67
+_diffrn_source           'sealed X-ray tube, 12 x 0.4 mm long-fine focus'
+_diffrn_source_voltage             40
+_diffrn_source_current             30
+_diffrn_source_power               1.20
+_diffrn_radiation_type             'Mo K\a'
+_diffrn_radiation_wavelength       0.71073
+_diffrn_radiation_monochromator    'plane graphite'
+_diffrn_radiation_polarisn_norm    0
+_diffrn_radiation_collimation      '0.5 mm diameter, monocapillary'
+_diffrn_measurement_method         'rotation method'
+_diffrn_measurement_details
+; 180 frames, detector distance = 100 mm
+;
+
+_diffrn_reflns_number                    7172
+_diffrn_reflns_theta_min                 3.27
+_diffrn_reflns_theta_max                 29.23
+_diffrn_reflns_theta_full                29.23
+_diffrn_measured_fraction_theta_max      0.99
+_diffrn_measured_fraction_theta_full     0.99
+_diffrn_reflns_av_R_equivalents          0.1277
+_diffrn_reflns_av_unetI/netI             0.0353
+_diffrn_reflns_limit_h_min               -8
+_diffrn_reflns_limit_h_max               8
+_diffrn_reflns_limit_k_min               -17
+_diffrn_reflns_limit_k_max               16
+_diffrn_reflns_limit_l_min               -25
+_diffrn_reflns_limit_l_max               25
+_diffrn_reflns_reduction_process         ?
+
+_diffrn_standards_number                 ?
+_diffrn_standards_interval_count         ?
+_diffrn_standards_interval_time          ?
+_diffrn_standards_decay_%                ?
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+  ? ? ?
+
+_diffrn_radiation_probe                  X-ray
+
+#=======================================================================
+
+# 8. REFINEMENT DATA
+
+_refine_special_details
+; ?
+;
+
+_reflns_number_total                     784
+_reflns_number_gt                        615
+_reflns_threshold_expression             'I>2\s(I)'
+
+_refine_ls_structure_factor_coef         Fsqd
+_refine_ls_R_factor_gt                   0.0575
+_refine_ls_wR_factor_gt                  0.1356
+_refine_ls_R_factor_all                  0.0677
+_refine_ls_wR_factor_ref                 0.1361
+_refine_ls_goodness_of_fit_ref           3.18
+_refine_ls_goodness_of_fit_gt            3.60
+_refine_ls_restrained_S_gt               ?
+_refine_ls_restrained_S_all              ?
+_refine_ls_number_reflns                 784
+_refine_ls_number_parameters             28
+_refine_ls_number_restraints             3
+_refine_ls_number_constraints            39
+_refine_ls_weighting_scheme              sigma
+_refine_ls_weighting_details             'w=1/(\s^2^(I)+0.0004I^2^)'
+_refine_ls_hydrogen_treatment            'constr'
+_refine_ls_shift/su_max                  0.0298
+_refine_ls_shift/su_mean                 0.0023
+_refine_diff_density_max                 1.84
+_refine_diff_density_min                 -2.31
+_refine_ls_extinction_method             'none'
+_refine_ls_extinction_coef               ?
+_refine_ls_abs_structure_details         ?
+_refine_ls_abs_structure_Flack           ?
+_refine_ls_abs_structure_Rogers          ?
+
+loop_
+ _atom_type_symbol
+ _atom_type_scat_dispersion_real
+ _atom_type_scat_dispersion_imag
+ _atom_type_scat_source
+ C    0.0033  0.0016
+ 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+ H    0.0000  0.0000
+ 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+ I   -0.4742  1.8119
+ 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+ N    0.0061  0.0033
+ 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+ Pb  -3.3944 10.1111
+ 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+
+_computing_data_collection       'STOE X-AREA'
+_computing_cell_refinement       'STOE X-AREA'
+_computing_data_reduction        'STOE X-RED'
+_computing_structure_solution            'Superflip'
+_computing_structure_refinement          'Jana2006'
+_computing_molecular_graphics            ?
+_computing_publication_material          ?
+
+loop_
+ _restr_distance_atom_site_label_1
+ _restr_distance_site_symmetry_1
+ _restr_distance_atom_site_label_2
+ _restr_distance_site_symmetry_2
+ _restr_distance_target
+ _restr_distance_target_weight_param
+C1 . N1 . 1.5 0.001
+C2 . N2 . 1.35 0.001
+C2 . N3 . 1.35 0.001
+
+loop_
+ _restr_angle_atom_site_label_1
+ _restr_angle_site_symmetry_1
+ _restr_angle_atom_site_label_2
+ _restr_angle_site_symmetry_2
+ _restr_angle_atom_site_label_3
+ _restr_angle_site_symmetry_3
+ _restr_angle_target
+ _restr_angle_target_weight_param
+ ? ? ? ? ? ? ? ?
+
+loop_
+ _restr_torsion_atom_site_label_1
+ _restr_torsion_site_symmetry_1
+ _restr_torsion_atom_site_label_2
+ _restr_torsion_site_symmetry_2
+ _restr_torsion_atom_site_label_3
+ _restr_torsion_site_symmetry_3
+ _restr_torsion_atom_site_label_4
+ _restr_torsion_site_symmetry_4
+ _restr_torsion_angle_target
+ _restr_torsion_weight_param
+ ? ? ? ? ? ? ? ? ? ?
+
+loop_
+ _restr_equal_distance_atom_site_label_1
+ _restr_equal_distance_site_symmetry_1
+ _restr_equal_distance_atom_site_label_2
+ _restr_equal_distance_site_symmetry_2
+ _restr_equal_distance_class_class_id
+ _restr_equal_distance_class_target_weight_param
+ ? ? ? ? ? ?
+
+loop_
+ _restr_equal_angle_atom_site_label_1
+ _restr_equal_angle_site_symmetry_1
+ _restr_equal_angle_atom_site_label_2
+ _restr_equal_angle_site_symmetry_2
+ _restr_equal_angle_atom_site_label_3
+ _restr_equal_angle_site_symmetry_3
+ _restr_equal_angle_class_class_id
+ _restr_equal_angle_class_target_weight_param
+ ? ? ? ? ? ? ? ?
+
+loop_
+ _restr_equal_torsion_atom_site_label_1
+ _restr_equal_torsion_site_symmetry_1
+ _restr_equal_torsion_atom_site_label_2
+ _restr_equal_torsion_site_symmetry_2
+ _restr_equal_torsion_atom_site_label_3
+ _restr_equal_torsion_site_symmetry_3
+ _restr_equal_torsion_atom_site_label_4
+ _restr_equal_torsion_site_symmetry_4
+ _restr_equal_torsion_class_class_id
+ _restr_equal_torsion_class_target_weight_param
+ ? ? ? ? ? ? ? ? ? ?
+
+
+#=======================================================================
+
+# 9. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+loop_
+ _atom_site_label
+ _atom_site_type_symbol
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_adp_type
+ _atom_site_U_iso_or_equiv
+ _atom_site_site_symmetry_multiplicity
+ _atom_site_occupancy
+ _atom_site_calc_flag
+ _atom_site_refinement_flags
+ _atom_site_disorder_assembly
+ _atom_site_disorder_group
+  Pb1 Pb 0 0 0 Uani 0.0316(4) 4 1 d . . .
+  I1 I 0 0.0418(2) 0.16667(11) Uani 0.0661(9) 8 1 d . . .
+  I2 I 0.5 0 0 Uani 0.0686(12) 4 1 d . . .
+  I3 I 0 0.75 0.03061(19) Uani 0.0781(15) 4 1 d . . .
+  N1 N 0.5 0.25 0.111(5) Uiso 0.22(3) 4 1 d . . .
+  N2 N 0 0.75 0.2231(15) Uiso 0.054(5) 4 1 d . . .
+  N3 N 0 0.8461(14) 0.3279(13) Uiso 0.054(5) 8 1 d . . .
+  C1 C 0.5 0.25 0.191(5) Uiso 0.22(3) 4 1 d . . .
+  C2 C 0 0.75 0.2948(15) Uiso 0.054(5) 4 1 d . . .
+  H1n3 H 0 0.849085 0.374093 Uiso 0.0648 8 1 d . . .
+  H2n3 H 0 0.905008 0.303118 Uiso 0.0648 8 1 d . . .
+  H1n2 H 0 0.68952 0.199953 Uiso 0.0648 8 1 d . . .
+  H2n2 H 0 0.81048 0.199953 Uiso 0.0648 8 1 d . . .
+  H1n1 H 0.593053 0.295049 0.095676 Uiso 0.2657 16 0.25 d . . .
+  H2n1 H 0.529076 0.18589 0.095676 Uiso 0.2657 16 0.25 d . . .
+  H3n1 H 0.377871 0.269061 0.095676 Uiso 0.2657 16 0.25 d . . .
+  H1c1 H 0.622129 0.230939 0.206162 Uiso 0.2657 16 0.25 d . . .
+  H2c1 H 0.470924 0.31411 0.206162 Uiso 0.2657 16 0.25 d . . .
+  H3c1 H 0.406947 0.204951 0.206162 Uiso 0.2657 16 0.25 d . . .
+
+loop_
+ _atom_site_aniso_label
+ _atom_site_aniso_type_symbol
+ _atom_site_aniso_U_11
+ _atom_site_aniso_U_22
+ _atom_site_aniso_U_33
+ _atom_site_aniso_U_12
+ _atom_site_aniso_U_13
+ _atom_site_aniso_U_23
+ Pb1 Pb 0.0249(7) 0.0278(7) 0.0421(8) 0 0 0.0032(8)
+ I1 I 0.0905(19) 0.0634(15) 0.0445(13) 0 0 -0.0018(11)
+ I2 I 0.0212(12) 0.111(3) 0.074(2) 0 0 0.021(2)
+ I3 I 0.155(4) 0.0223(16) 0.0573(19) 0 0 0
+
+loop_
+ _jana_atom_site_ADP_C_label
+ _jana_atom_site_ADP_C_type_symbol
+ _jana_atom_site_ADP_C_111
+ _jana_atom_site_ADP_C_112
+ _jana_atom_site_ADP_C_113
+ _jana_atom_site_ADP_C_122
+ _jana_atom_site_ADP_C_123
+ _jana_atom_site_ADP_C_133
+ _jana_atom_site_ADP_C_222
+ _jana_atom_site_ADP_C_223
+ _jana_atom_site_ADP_C_233
+ _jana_atom_site_ADP_C_333
+ ? ? ? ? ? ? ? ? ? ? ? ?
+
+loop_
+ _jana_atom_site_ADP_D_label
+ _jana_atom_site_ADP_D_type_symbol
+ _jana_atom_site_ADP_D_1111
+ _jana_atom_site_ADP_D_1112
+ _jana_atom_site_ADP_D_1113
+ _jana_atom_site_ADP_D_1122
+ _jana_atom_site_ADP_D_1123
+ _jana_atom_site_ADP_D_1133
+ _jana_atom_site_ADP_D_1222
+ _jana_atom_site_ADP_D_1223
+ _jana_atom_site_ADP_D_1233
+ _jana_atom_site_ADP_D_1333
+ _jana_atom_site_ADP_D_2222
+ _jana_atom_site_ADP_D_2223
+ _jana_atom_site_ADP_D_2233
+ _jana_atom_site_ADP_D_2333
+ _jana_atom_site_ADP_D_3333
+ ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+loop_
+ _jana_atom_site_ADP_E_label
+ _jana_atom_site_ADP_E_type_symbol
+ _jana_atom_site_ADP_E_11111
+ _jana_atom_site_ADP_E_11112
+ _jana_atom_site_ADP_E_11113
+ _jana_atom_site_ADP_E_11122
+ _jana_atom_site_ADP_E_11123
+ _jana_atom_site_ADP_E_11133
+ _jana_atom_site_ADP_E_11222
+ _jana_atom_site_ADP_E_11223
+ _jana_atom_site_ADP_E_11233
+ _jana_atom_site_ADP_E_11333
+ _jana_atom_site_ADP_E_12222
+ _jana_atom_site_ADP_E_12223
+ _jana_atom_site_ADP_E_12233
+ _jana_atom_site_ADP_E_12333
+ _jana_atom_site_ADP_E_13333
+ _jana_atom_site_ADP_E_22222
+ _jana_atom_site_ADP_E_22223
+ _jana_atom_site_ADP_E_22233
+ _jana_atom_site_ADP_E_22333
+ _jana_atom_site_ADP_E_23333
+ _jana_atom_site_ADP_E_33333
+ ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+loop_
+ _jana_atom_site_ADP_F_label
+ _jana_atom_site_ADP_F_type_symbol
+ _jana_atom_site_ADP_F_111111
+ _jana_atom_site_ADP_F_111112
+ _jana_atom_site_ADP_F_111113
+ _jana_atom_site_ADP_F_111122
+ _jana_atom_site_ADP_F_111123
+ _jana_atom_site_ADP_F_111133
+ _jana_atom_site_ADP_F_111222
+ _jana_atom_site_ADP_F_111223
+ _jana_atom_site_ADP_F_111233
+ _jana_atom_site_ADP_F_111333
+ _jana_atom_site_ADP_F_112222
+ _jana_atom_site_ADP_F_112223
+ _jana_atom_site_ADP_F_112233
+ _jana_atom_site_ADP_F_112333
+ _jana_atom_site_ADP_F_113333
+ _jana_atom_site_ADP_F_122222
+ _jana_atom_site_ADP_F_122223
+ _jana_atom_site_ADP_F_122233
+ _jana_atom_site_ADP_F_122333
+ _jana_atom_site_ADP_F_123333
+ _jana_atom_site_ADP_F_133333
+ _jana_atom_site_ADP_F_222222
+ _jana_atom_site_ADP_F_222223
+ _jana_atom_site_ADP_F_222233
+ _jana_atom_site_ADP_F_222333
+ _jana_atom_site_ADP_F_223333
+ _jana_atom_site_ADP_F_233333
+ _jana_atom_site_ADP_F_333333
+ ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+
+#=======================================================================
+
+# 10. MOLECULAR GEOMETRY
+
+
+loop_
+ _geom_bond_atom_site_label_1
+ _geom_bond_atom_site_label_2
+ _geom_bond_site_symmetry_1
+ _geom_bond_site_symmetry_2
+ _geom_bond_distance
+ _geom_bond_publ_flag
+  Pb1 I1 . . 3.181(2) ?
+  Pb1 I1 . 4_555 3.181(2) ?
+  Pb1 I2 . 1_455 3.2143(6) ?
+  Pb1 I2 . . 3.2143(6) ?
+  Pb1 I3 . 1_545 3.1673(8) ?
+  Pb1 I3 . 3_545 3.1673(8) ?
+  I1 N2 . 1_545 3.787(8) ?
+  I1 N3 . 1_545 3.89(2) ?
+  I1 N3 . 11_445 4.036(11) ?
+  I1 N3 . 11_545 4.036(11) ?
+  I2 N1 . . 3.75(5) ?
+  I2 N1 . 3_645 3.75(5) ?
+  I2 N3 . 10_564 3.76(2) ?
+  I2 N3 . 11_545 3.76(2) ?
+  I3 N1 . 3_555 4.18(6) ?
+  I3 N1 . 3_655 4.18(6) ?
+  I3 N2 . . 3.62(3) ?
+  N1 C1 . . 1.50(12) ?
+  N1 H1n1 . . 0.87 ?
+  N1 H1n1 . 2_655 0.87 ?
+  N1 H1n1 . 7_555 0.87 ?
+  N1 H1n1 . 8_655 0.87 ?
+  N1 H2n1 . . 0.87 ?
+  N1 H2n1 . 2_655 0.87 ?
+  N1 H2n1 . 7_555 0.87 ?
+  N1 H2n1 . 8_655 0.87 ?
+  N1 H3n1 . . 0.87 ?
+  N1 H3n1 . 2_655 0.87 ?
+  N1 H3n1 . 7_555 0.87 ?
+  N1 H3n1 . 8_655 0.87 ?
+  N2 C2 . . 1.35(4) ?
+  N2 H1n2 . . 0.87 ?
+  N2 H1n2 . 2_565 0.87 ?
+  N3 C2 . . 1.35(2) ?
+  N3 H1n3 . . 0.87 ?
+  N3 H2n3 . . 0.87 ?
+  C1 H1c1 . . 0.87 ?
+  C1 H1c1 . 2_655 0.87 ?
+  C1 H1c1 . 7_555 0.87 ?
+  C1 H1c1 . 8_655 0.87 ?
+  C1 H2c1 . . 0.87 ?
+  C1 H2c1 . 2_655 0.87 ?
+  C1 H2c1 . 7_555 0.87 ?
+  C1 H2c1 . 8_655 0.87 ?
+  C1 H3c1 . . 0.87 ?
+  C1 H3c1 . 2_655 0.87 ?
+  C1 H3c1 . 7_555 0.87 ?
+  C1 H3c1 . 8_655 0.87 ?
+  H1n1 H2n1 . 2_655 0.8202 ?
+  H1n1 H2n1 . 7_555 0.4749 ?
+  H1n1 H3n1 . 2_655 0.8202 ?
+  H1n1 H3n1 . 8_655 0.3738 ?
+  H2n1 H2n1 . 8_655 0.3738 ?
+  H2n1 H3n1 . 2_655 0.8202 ?
+  H3n1 H3n1 . 7_555 0.4749 ?
+  H1c1 H1c1 . 7_555 0.4749 ?
+  H1c1 H2c1 . 2_655 0.8202 ?
+  H1c1 H3c1 . 2_655 0.8202 ?
+  H1c1 H3c1 . 8_655 0.3738 ?
+  H2c1 H2c1 . 8_655 0.3738 ?
+  H2c1 H3c1 . 2_655 0.8202 ?
+  H2c1 H3c1 . 7_555 0.4749 ?
+
+loop_
+ _geom_angle_atom_site_label_1
+ _geom_angle_atom_site_label_2
+ _geom_angle_atom_site_label_3
+ _geom_angle_site_symmetry_1
+ _geom_angle_site_symmetry_2
+ _geom_angle_site_symmetry_3
+ _geom_angle
+ _geom_angle_publ_flag
+  I1 Pb1 I1 . . 4_555 180.0(5) ?
+  I1 Pb1 I2 . . 1_455 90 ?
+  I1 Pb1 I2 . . . 90 ?
+  I1 Pb1 I3 . . 1_545 88.94(8) ?
+  I1 Pb1 I3 . . 3_545 91.06(8) ?
+  I1 Pb1 I2 4_555 . 1_455 90 ?
+  I1 Pb1 I2 4_555 . . 90 ?
+  I1 Pb1 I3 4_555 . 1_545 91.06(8) ?
+  I1 Pb1 I3 4_555 . 3_545 88.94(8) ?
+  I2 Pb1 I2 1_455 . . 180.0(5) ?
+  I2 Pb1 I3 1_455 . 1_545 90 ?
+  I2 Pb1 I3 1_455 . 3_545 90 ?
+  I2 Pb1 I3 . . 1_545 90 ?
+  I2 Pb1 I3 . . 3_545 90 ?
+  I3 Pb1 I3 1_545 . 3_545 180.0(5) ?
+  Pb1 I1 N2 . . 1_545 96.9(4) ?
+  Pb1 I1 N3 . . 1_545 131.8(3) ?
+  Pb1 I1 N3 . . 11_445 85.8(3) ?
+  Pb1 I1 N3 . . 11_545 85.8(3) ?
+  N2 I1 N3 1_545 . 1_545 35.0(5) ?
+  N2 I1 N3 1_545 . 11_445 54.1(2) ?
+  N2 I1 N3 1_545 . 11_545 54.1(2) ?
+  N3 I1 N3 1_545 . 11_445 66.6(3) ?
+  N3 I1 N3 1_545 . 11_545 66.6(3) ?
+  N3 I1 N3 11_445 . 11_545 105.6(3) ?
+  Pb1 I2 Pb1 . . 1_655 180.0(5) ?
+  Pb1 I2 N1 . . . 90 ?
+  Pb1 I2 N1 . . 3_645 90 ?
+  Pb1 I2 N3 . . 10_564 90 ?
+  Pb1 I2 N3 . . 11_545 90 ?
+  Pb1 I2 N1 1_655 . . 90 ?
+  Pb1 I2 N1 1_655 . 3_645 90 ?
+  Pb1 I2 N3 1_655 . 10_564 90 ?
+  Pb1 I2 N3 1_655 . 11_545 90 ?
+  N1 I2 N1 . . 3_645 180.0(5) ?
+  N1 I2 N3 . . 10_564 93.3(11) ?
+  N1 I2 N3 . . 11_545 86.7(11) ?
+  N1 I2 N3 3_645 . 10_564 86.7(11) ?
+  N1 I2 N3 3_645 . 11_545 93.3(11) ?
+  N3 I2 N3 10_564 . 11_545 180.0(5) ?
+  Pb1 I3 Pb1 1_565 . 2_555 159.04(13) ?
+  Pb1 I3 N1 1_565 . 3_555 83.33(14) ?
+  Pb1 I3 N1 1_565 . 3_655 83.33(14) ?
+  Pb1 I3 N2 1_565 . . 100.48(6) ?
+  Pb1 I3 N1 2_555 . 3_555 83.33(14) ?
+  Pb1 I3 N1 2_555 . 3_655 83.33(14) ?
+  Pb1 I3 N2 2_555 . . 100.48(6) ?
+  N1 I3 N1 3_555 . 3_655 100.6(13) ?
+  N1 I3 N2 3_555 . . 129.7(9) ?
+  N1 I3 N2 3_655 . . 129.7(9) ?
+  I2 N1 I2 . . 2_655 112(2) ?
+  I2 N1 I3 . . 3_545 69.1(10) ?
+  I2 N1 I3 . . 3_645 69.1(10) ?
+  I2 N1 C1 . . . 123.9(11) ?
+  I2 N1 H1n1 . . . 110.47 ?
+  I2 N1 H1n1 . . 2_655 43.83 ?
+  I2 N1 H1n1 . . 7_555 43.83 ?
+  I2 N1 H1n1 . . 8_655 110.47 ?
+  I2 N1 H2n1 . . . 18.57 ?
+  I2 N1 H2n1 . . 2_655 125.19 ?
+  I2 N1 H2n1 . . 7_555 125.19 ?
+  I2 N1 H2n1 . . 8_655 18.57 ?
+  I2 N1 H3n1 . . . 92.34 ?
+  I2 N1 H3n1 . . 2_655 65.64 ?
+  I2 N1 H3n1 . . 7_555 65.64 ?
+  I2 N1 H3n1 . . 8_655 92.34 ?
+  I2 N1 I3 2_655 . 3_545 69.1(10) ?
+  I2 N1 I3 2_655 . 3_645 69.1(10) ?
+  I2 N1 C1 2_655 . . 123.9(11) ?
+  I2 N1 H1n1 2_655 . . 43.83 ?
+  I2 N1 H1n1 2_655 . 2_655 110.47 ?
+  I2 N1 H1n1 2_655 . 7_555 110.47 ?
+  I2 N1 H1n1 2_655 . 8_655 43.83 ?
+  I2 N1 H2n1 2_655 . . 125.19 ?
+  I2 N1 H2n1 2_655 . 2_655 18.57 ?
+  I2 N1 H2n1 2_655 . 7_555 18.57 ?
+  I2 N1 H2n1 2_655 . 8_655 125.19 ?
+  I2 N1 H3n1 2_655 . . 65.64 ?
+  I2 N1 H3n1 2_655 . 2_655 92.34 ?
+  I2 N1 H3n1 2_655 . 7_555 92.34 ?
+  I2 N1 H3n1 2_655 . 8_655 65.64 ?
+  I3 N1 I3 3_545 . 3_645 100.6(18) ?
+  I3 N1 C1 3_545 . . 129.7(9) ?
+  I3 N1 H1n1 3_545 . . 108.44 ?
+  I3 N1 H1n1 3_545 . 2_655 42.1 ?
+  I3 N1 H1n1 3_545 . 7_555 108.44 ?
+  I3 N1 H1n1 3_545 . 8_655 42.1 ?
+  I3 N1 H2n1 3_545 . . 87.28 ?
+  I3 N1 H2n1 3_545 . 2_655 67.78 ?
+  I3 N1 H2n1 3_545 . 7_555 87.28 ?
+  I3 N1 H2n1 3_545 . 8_655 67.78 ?
+  I3 N1 H3n1 3_545 . . 24.86 ?
+  I3 N1 H3n1 3_545 . 2_655 118.79 ?
+  I3 N1 H3n1 3_545 . 7_555 24.86 ?
+  I3 N1 H3n1 3_545 . 8_655 118.79 ?
+  I3 N1 C1 3_645 . . 129.7(9) ?
+  I3 N1 H1n1 3_645 . . 42.1 ?
+  I3 N1 H1n1 3_645 . 2_655 108.44 ?
+  I3 N1 H1n1 3_645 . 7_555 42.1 ?
+  I3 N1 H1n1 3_645 . 8_655 108.44 ?
+  I3 N1 H2n1 3_645 . . 67.78 ?
+  I3 N1 H2n1 3_645 . 2_655 87.28 ?
+  I3 N1 H2n1 3_645 . 7_555 67.78 ?
+  I3 N1 H2n1 3_645 . 8_655 87.28 ?
+  I3 N1 H3n1 3_645 . . 118.79 ?
+  I3 N1 H3n1 3_645 . 2_655 24.86 ?
+  I3 N1 H3n1 3_645 . 7_555 118.79 ?
+  I3 N1 H3n1 3_645 . 8_655 24.86 ?
+  C1 N1 H1n1 . . . 109.47 ?
+  C1 N1 H1n1 . . 2_655 109.47 ?
+  C1 N1 H1n1 . . 7_555 109.47 ?
+  C1 N1 H1n1 . . 8_655 109.47 ?
+  C1 N1 H2n1 . . . 109.47 ?
+  C1 N1 H2n1 . . 2_655 109.47 ?
+  C1 N1 H2n1 . . 7_555 109.47 ?
+  C1 N1 H2n1 . . 8_655 109.47 ?
+  C1 N1 H3n1 . . . 109.47 ?
+  C1 N1 H3n1 . . 2_655 109.47 ?
+  C1 N1 H3n1 . . 7_555 109.47 ?
+  C1 N1 H3n1 . . 8_655 109.47 ?
+  H1n1 N1 H1n1 . . 2_655 141.06 ?
+  H1n1 N1 H1n1 . . 7_555 80.34 ?
+  H1n1 N1 H1n1 . . 8_655 86.88 ?
+  H1n1 N1 H2n1 . . . 109.47 ?
+  H1n1 N1 H2n1 . . 2_655 56.25 ?
+  H1n1 N1 H2n1 . . 7_555 31.68 ?
+  H1n1 N1 H2n1 . . 8_655 128.96 ?
+  H1n1 N1 H3n1 . . . 109.47 ?
+  H1n1 N1 H3n1 . . 2_655 56.25 ?
+  H1n1 N1 H3n1 . . 7_555 133.27 ?
+  H1n1 N1 H3n1 . . 8_655 24.81 ?
+  H1n1 N1 H1n1 2_655 . 7_555 86.88 ?
+  H1n1 N1 H1n1 2_655 . 8_655 80.34 ?
+  H1n1 N1 H2n1 2_655 . . 56.25 ?
+  H1n1 N1 H2n1 2_655 . 2_655 109.47 ?
+  H1n1 N1 H2n1 2_655 . 7_555 128.96 ?
+  H1n1 N1 H2n1 2_655 . 8_655 31.68 ?
+  H1n1 N1 H3n1 2_655 . . 56.25 ?
+  H1n1 N1 H3n1 2_655 . 2_655 109.47 ?
+  H1n1 N1 H3n1 2_655 . 7_555 24.81 ?
+  H1n1 N1 H3n1 2_655 . 8_655 133.27 ?
+  H1n1 N1 H1n1 7_555 . 8_655 141.06 ?
+  H1n1 N1 H2n1 7_555 . . 31.68 ?
+  H1n1 N1 H2n1 7_555 . 2_655 128.96 ?
+  H1n1 N1 H2n1 7_555 . 7_555 109.47 ?
+  H1n1 N1 H2n1 7_555 . 8_655 56.25 ?
+  H1n1 N1 H3n1 7_555 . . 133.27 ?
+  H1n1 N1 H3n1 7_555 . 2_655 24.81 ?
+  H1n1 N1 H3n1 7_555 . 7_555 109.47 ?
+  H1n1 N1 H3n1 7_555 . 8_655 56.25 ?
+  H1n1 N1 H2n1 8_655 . . 128.96 ?
+  H1n1 N1 H2n1 8_655 . 2_655 31.68 ?
+  H1n1 N1 H2n1 8_655 . 7_555 56.25 ?
+  H1n1 N1 H2n1 8_655 . 8_655 109.47 ?
+  H1n1 N1 H3n1 8_655 . . 24.81 ?
+  H1n1 N1 H3n1 8_655 . 2_655 133.27 ?
+  H1n1 N1 H3n1 8_655 . 7_555 56.25 ?
+  H1n1 N1 H3n1 8_655 . 8_655 109.47 ?
+  H2n1 N1 H2n1 . . 2_655 141.06 ?
+  H2n1 N1 H2n1 . . 7_555 133.27 ?
+  H2n1 N1 H2n1 . . 8_655 24.81 ?
+  H2n1 N1 H3n1 . . . 109.47 ?
+  H2n1 N1 H3n1 . . 2_655 56.25 ?
+  H2n1 N1 H3n1 . . 7_555 80.34 ?
+  H2n1 N1 H3n1 . . 8_655 86.88 ?
+  H2n1 N1 H2n1 2_655 . 7_555 24.81 ?
+  H2n1 N1 H2n1 2_655 . 8_655 133.27 ?
+  H2n1 N1 H3n1 2_655 . . 56.25 ?
+  H2n1 N1 H3n1 2_655 . 2_655 109.47 ?
+  H2n1 N1 H3n1 2_655 . 7_555 86.88 ?
+  H2n1 N1 H3n1 2_655 . 8_655 80.34 ?
+  H2n1 N1 H2n1 7_555 . 8_655 141.06 ?
+  H2n1 N1 H3n1 7_555 . . 80.34 ?
+  H2n1 N1 H3n1 7_555 . 2_655 86.88 ?
+  H2n1 N1 H3n1 7_555 . 7_555 109.47 ?
+  H2n1 N1 H3n1 7_555 . 8_655 56.25 ?
+  H2n1 N1 H3n1 8_655 . . 86.88 ?
+  H2n1 N1 H3n1 8_655 . 2_655 80.34 ?
+  H2n1 N1 H3n1 8_655 . 7_555 56.25 ?
+  H2n1 N1 H3n1 8_655 . 8_655 109.47 ?
+  H3n1 N1 H3n1 . . 2_655 141.06 ?
+  H3n1 N1 H3n1 . . 7_555 31.68 ?
+  H3n1 N1 H3n1 . . 8_655 128.96 ?
+  H3n1 N1 H3n1 2_655 . 7_555 128.96 ?
+  H3n1 N1 H3n1 2_655 . 8_655 31.68 ?
+  H3n1 N1 H3n1 7_555 . 8_655 141.06 ?
+  I1 N2 I1 1_565 . 2_555 147.4(8) ?
+  I1 N2 I3 1_565 . . 73.7(4) ?
+  I1 N2 C2 1_565 . . 106.3(4) ?
+  I1 N2 H1n2 1_565 . . 133.72 ?
+  I1 N2 H1n2 1_565 . 2_565 13.72 ?
+  I1 N2 I3 2_555 . . 73.7(4) ?
+  I1 N2 C2 2_555 . . 106.3(4) ?
+  I1 N2 H1n2 2_555 . . 13.72 ?
+  I1 N2 H1n2 2_555 . 2_565 133.72 ?
+  I3 N2 C2 . . . 180.0(5) ?
+  I3 N2 H1n2 . . . 60 ?
+  I3 N2 H1n2 . . 2_565 60 ?
+  C2 N2 H1n2 . . . 120 ?
+  C2 N2 H1n2 . . 2_565 120 ?
+  H1n2 N2 H1n2 . . 2_565 120 ?
+  I1 N3 I1 1_565 . 11_465 69.0(3) ?
+  I1 N3 I1 1_565 . 11_565 69.0(3) ?
+  I1 N3 I2 1_565 . 10_565 110.6(4) ?
+  I1 N3 C2 1_565 . . 101.2(16) ?
+  I1 N3 H1n3 1_565 . . 138.77 ?
+  I1 N3 H2n3 1_565 . . 18.77 ?
+  I1 N3 I1 11_465 . 11_565 105.6(4) ?
+  I1 N3 I2 11_465 . 10_565 70.8(3) ?
+  I1 N3 C2 11_465 . . 123.2(6) ?
+  I1 N3 H1n3 11_465 . . 87.07 ?
+  I1 N3 H2n3 11_465 . . 60.25 ?
+  I1 N3 I2 11_565 . 10_565 70.8(3) ?
+  I1 N3 C2 11_565 . . 123.2(6) ?
+  I1 N3 H1n3 11_565 . . 87.07 ?
+  I1 N3 H2n3 11_565 . . 60.25 ?
+  I2 N3 C2 10_565 . . 148.2(16) ?
+  I2 N3 H1n3 10_565 . . 28.16 ?
+  I2 N3 H2n3 10_565 . . 91.84 ?
+  C2 N3 H1n3 . . . 120 ?
+  C2 N3 H2n3 . . . 120 ?
+  H1n3 N3 H2n3 . . . 120 ?
+  N1 C1 H1c1 . . . 109.47 ?
+  N1 C1 H1c1 . . 2_655 109.47 ?
+  N1 C1 H1c1 . . 7_555 109.47 ?
+  N1 C1 H1c1 . . 8_655 109.47 ?
+  N1 C1 H2c1 . . . 109.47 ?
+  N1 C1 H2c1 . . 2_655 109.47 ?
+  N1 C1 H2c1 . . 7_555 109.47 ?
+  N1 C1 H2c1 . . 8_655 109.47 ?
+  N1 C1 H3c1 . . . 109.47 ?
+  N1 C1 H3c1 . . 2_655 109.47 ?
+  N1 C1 H3c1 . . 7_555 109.47 ?
+  N1 C1 H3c1 . . 8_655 109.47 ?
+  H1c1 C1 H1c1 . . 2_655 141.06 ?
+  H1c1 C1 H1c1 . . 7_555 31.68 ?
+  H1c1 C1 H1c1 . . 8_655 128.96 ?
+  H1c1 C1 H2c1 . . . 109.47 ?
+  H1c1 C1 H2c1 . . 2_655 56.25 ?
+  H1c1 C1 H2c1 . . 7_555 80.34 ?
+  H1c1 C1 H2c1 . . 8_655 86.88 ?
+  H1c1 C1 H3c1 . . . 109.47 ?
+  H1c1 C1 H3c1 . . 2_655 56.25 ?
+  H1c1 C1 H3c1 . . 7_555 133.27 ?
+  H1c1 C1 H3c1 . . 8_655 24.81 ?
+  H1c1 C1 H1c1 2_655 . 7_555 128.96 ?
+  H1c1 C1 H1c1 2_655 . 8_655 31.68 ?
+  H1c1 C1 H2c1 2_655 . . 56.25 ?
+  H1c1 C1 H2c1 2_655 . 2_655 109.47 ?
+  H1c1 C1 H2c1 2_655 . 7_555 86.88 ?
+  H1c1 C1 H2c1 2_655 . 8_655 80.34 ?
+  H1c1 C1 H3c1 2_655 . . 56.25 ?
+  H1c1 C1 H3c1 2_655 . 2_655 109.47 ?
+  H1c1 C1 H3c1 2_655 . 7_555 24.81 ?
+  H1c1 C1 H3c1 2_655 . 8_655 133.27 ?
+  H1c1 C1 H1c1 7_555 . 8_655 141.06 ?
+  H1c1 C1 H2c1 7_555 . . 80.34 ?
+  H1c1 C1 H2c1 7_555 . 2_655 86.88 ?
+  H1c1 C1 H2c1 7_555 . 7_555 109.47 ?
+  H1c1 C1 H2c1 7_555 . 8_655 56.25 ?
+  H1c1 C1 H3c1 7_555 . . 133.27 ?
+  H1c1 C1 H3c1 7_555 . 2_655 24.81 ?
+  H1c1 C1 H3c1 7_555 . 7_555 109.47 ?
+  H1c1 C1 H3c1 7_555 . 8_655 56.25 ?
+  H1c1 C1 H2c1 8_655 . . 86.88 ?
+  H1c1 C1 H2c1 8_655 . 2_655 80.34 ?
+  H1c1 C1 H2c1 8_655 . 7_555 56.25 ?
+  H1c1 C1 H2c1 8_655 . 8_655 109.47 ?
+  H1c1 C1 H3c1 8_655 . . 24.81 ?
+  H1c1 C1 H3c1 8_655 . 2_655 133.27 ?
+  H1c1 C1 H3c1 8_655 . 7_555 56.25 ?
+  H1c1 C1 H3c1 8_655 . 8_655 109.47 ?
+  H2c1 C1 H2c1 . . 2_655 141.06 ?
+  H2c1 C1 H2c1 . . 7_555 133.27 ?
+  H2c1 C1 H2c1 . . 8_655 24.81 ?
+  H2c1 C1 H3c1 . . . 109.47 ?
+  H2c1 C1 H3c1 . . 2_655 56.25 ?
+  H2c1 C1 H3c1 . . 7_555 31.68 ?
+  H2c1 C1 H3c1 . . 8_655 128.96 ?
+  H2c1 C1 H2c1 2_655 . 7_555 24.81 ?
+  H2c1 C1 H2c1 2_655 . 8_655 133.27 ?
+  H2c1 C1 H3c1 2_655 . . 56.25 ?
+  H2c1 C1 H3c1 2_655 . 2_655 109.47 ?
+  H2c1 C1 H3c1 2_655 . 7_555 128.96 ?
+  H2c1 C1 H3c1 2_655 . 8_655 31.68 ?
+  H2c1 C1 H2c1 7_555 . 8_655 141.06 ?
+  H2c1 C1 H3c1 7_555 . . 31.68 ?
+  H2c1 C1 H3c1 7_555 . 2_655 128.96 ?
+  H2c1 C1 H3c1 7_555 . 7_555 109.47 ?
+  H2c1 C1 H3c1 7_555 . 8_655 56.25 ?
+  H2c1 C1 H3c1 8_655 . . 128.96 ?
+  H2c1 C1 H3c1 8_655 . 2_655 31.68 ?
+  H2c1 C1 H3c1 8_655 . 7_555 56.25 ?
+  H2c1 C1 H3c1 8_655 . 8_655 109.47 ?
+  H3c1 C1 H3c1 . . 2_655 141.06 ?
+  H3c1 C1 H3c1 . . 7_555 80.34 ?
+  H3c1 C1 H3c1 . . 8_655 86.88 ?
+  H3c1 C1 H3c1 2_655 . 7_555 86.88 ?
+  H3c1 C1 H3c1 2_655 . 8_655 80.34 ?
+  H3c1 C1 H3c1 7_555 . 8_655 141.06 ?
+  N2 C2 N3 . . . 117.5(14) ?
+  N2 C2 N3 . . 2_565 117.5(14) ?
+  N3 C2 N3 . . 2_565 125(3) ?
+  N1 H1n1 H2n1 . . 2_655 61.87 ?
+  N1 H1n1 H2n1 . . 7_555 74.16 ?
+  N1 H1n1 H3n1 . . 2_655 61.87 ?
+  N1 H1n1 H3n1 . . 8_655 77.59 ?
+  H2n1 H1n1 H2n1 2_655 . 7_555 13.17 ?
+  H2n1 H1n1 H3n1 2_655 . 2_655 120 ?
+  H2n1 H1n1 H3n1 2_655 . 8_655 136.83 ?
+  H2n1 H1n1 H3n1 7_555 . 2_655 133.17 ?
+  H2n1 H1n1 H3n1 7_555 . 8_655 150 ?
+  H3n1 H1n1 H3n1 2_655 . 8_655 16.83 ?
+  N1 H2n1 H1n1 . . 2_655 61.87 ?
+  N1 H2n1 H1n1 . . 7_555 74.16 ?
+  N1 H2n1 H2n1 . . 8_655 77.59 ?
+  N1 H2n1 H3n1 . . 2_655 61.87 ?
+  H1n1 H2n1 H1n1 2_655 . 7_555 133.17 ?
+  H1n1 H2n1 H2n1 2_655 . 8_655 16.83 ?
+  H1n1 H2n1 H3n1 2_655 . 2_655 120 ?
+  H1n1 H2n1 H2n1 7_555 . 8_655 150 ?
+  H1n1 H2n1 H3n1 7_555 . 2_655 13.17 ?
+  H2n1 H2n1 H3n1 8_655 . 2_655 136.83 ?
+  N1 H3n1 H1n1 . . 2_655 61.87 ?
+  N1 H3n1 H1n1 . . 8_655 77.59 ?
+  N1 H3n1 H2n1 . . 2_655 61.87 ?
+  N1 H3n1 H3n1 . . 7_555 74.16 ?
+  H1n1 H3n1 H1n1 2_655 . 8_655 136.83 ?
+  H1n1 H3n1 H2n1 2_655 . 2_655 120 ?
+  H1n1 H3n1 H3n1 2_655 . 7_555 13.17 ?
+  H1n1 H3n1 H2n1 8_655 . 2_655 16.83 ?
+  H1n1 H3n1 H3n1 8_655 . 7_555 150 ?
+  H2n1 H3n1 H3n1 2_655 . 7_555 133.17 ?
+  C1 H1c1 H1c1 . . 7_555 74.16 ?
+  C1 H1c1 H2c1 . . 2_655 61.87 ?
+  C1 H1c1 H3c1 . . 2_655 61.87 ?
+  C1 H1c1 H3c1 . . 8_655 77.59 ?
+  H1c1 H1c1 H2c1 7_555 . 2_655 133.17 ?
+  H1c1 H1c1 H3c1 7_555 . 2_655 13.17 ?
+  H1c1 H1c1 H3c1 7_555 . 8_655 150 ?
+  H2c1 H1c1 H3c1 2_655 . 2_655 120 ?
+  H2c1 H1c1 H3c1 2_655 . 8_655 16.83 ?
+  H3c1 H1c1 H3c1 2_655 . 8_655 136.83 ?
+  C1 H2c1 H1c1 . . 2_655 61.87 ?
+  C1 H2c1 H2c1 . . 8_655 77.59 ?
+  C1 H2c1 H3c1 . . 2_655 61.87 ?
+  C1 H2c1 H3c1 . . 7_555 74.16 ?
+  H1c1 H2c1 H2c1 2_655 . 8_655 136.83 ?
+  H1c1 H2c1 H3c1 2_655 . 2_655 120 ?
+  H1c1 H2c1 H3c1 2_655 . 7_555 13.17 ?
+  H2c1 H2c1 H3c1 8_655 . 2_655 16.83 ?
+  H2c1 H2c1 H3c1 8_655 . 7_555 150 ?
+  H3c1 H2c1 H3c1 2_655 . 7_555 133.17 ?
+  C1 H3c1 H1c1 . . 2_655 61.87 ?
+  C1 H3c1 H1c1 . . 8_655 77.59 ?
+  C1 H3c1 H2c1 . . 2_655 61.87 ?
+  C1 H3c1 H2c1 . . 7_555 74.16 ?
+  H1c1 H3c1 H1c1 2_655 . 8_655 16.83 ?
+  H1c1 H3c1 H2c1 2_655 . 2_655 120 ?
+  H1c1 H3c1 H2c1 2_655 . 7_555 133.17 ?
+  H1c1 H3c1 H2c1 8_655 . 2_655 136.83 ?
+  H1c1 H3c1 H2c1 8_655 . 7_555 150 ?
+  H2c1 H3c1 H2c1 2_655 . 7_555 13.17 ?
+
+loop_
+ _geom_torsion_atom_site_label_1
+ _geom_torsion_atom_site_label_2
+ _geom_torsion_atom_site_label_3
+ _geom_torsion_atom_site_label_4
+ _geom_torsion_site_symmetry_1
+ _geom_torsion_site_symmetry_2
+ _geom_torsion_site_symmetry_3
+ _geom_torsion_site_symmetry_4
+ _geom_torsion
+ _geom_torsion_publ_flag
+ ? ? ? ? ? ? ? ? ? ?
+
+loop_
+ _geom_hbond_atom_site_label_D
+ _geom_hbond_atom_site_label_H
+ _geom_hbond_atom_site_label_A
+ _geom_hbond_site_symmetry_D
+ _geom_hbond_site_symmetry_H
+ _geom_hbond_site_symmetry_A
+ _geom_hbond_distance_DH
+ _geom_hbond_distance_HA
+ _geom_hbond_distance_DA
+ _geom_hbond_angle_DHA
+ _geom_hbond_publ_flag
+ ? ? ? ? ? ? ? ? ? ? ?
+
+
+#=======================================================================
+
+# 11. STRUCTURE-FACTOR LIST
+
+loop_
+ _refln_index_h
+ _refln_index_k
+ _refln_index_l
+ _refln_F_squared_calc
+ _refln_F_squared_meas
+ _refln_F_squared_sigma
+ _refln_observed_status
+   2   0   0  991934. 1010740.    4254. o
+   4   0   0  288248.  276606.    2260. o
+   6   0   0   75729.   66059.    1079. o
+   0   2   0  211197.  308893.    3358. o
+   2   2   0  219017.  221444.    1550. o
+   4   2   0  127204.  125112.    1035. o
+   6   2   0   49438.   45994.     657. o
+   0   4   0  572239.  813585.   14367. o
+   2   4   0  354329.  351885.    2089. o
+   4   4   0  130991.  127066.    1080. o
+   6   4   0   41189.   38281.     636. o
+   0   6   0   31946.   40698.    1013. o
+   2   6   0   36485.   43146.     688. o
+   4   6   0   33781.   33010.     715. o
+   6   6   0   19380.   17690.     584. o
+   0   8   0   83421.  128588.     326. o
+   2   8   0   60453.   55393.     966. o
+   4   8   0   28758.   28583.     580. o
+   6   8   0   12374.   12115.     705. o
+   0  10   0    1177.    2938.     606. o
+   2  10   0     421.     719.     395. <
+   4  10   0    3009.    3317.     513. o
+   0  12   0   20134.   30754.     899. o
+   2  12   0   15005.   13392.     603. o
+   4  12   0    7738.    7102.     555. o
+   0  14   0     200.     134.    1161. <
+   2  14   0     426.     521.     561. <
+   1   0   1  156971.  150046.    1977. o
+   3   0   1   64365.   63634.     760. o
+   5   0   1   12758.   11734.     481. o
+   7   0   1    2134.    1864.     466. o
+   2   1   1     131.      87.     213. <
+   4   1   1      23.     111.     229. <
+   6   1   1       2.     292.     276. <
+   1   2   1   17524.   14435.     549. o
+   3   2   1   11725.   11774.     284. o
+   5   2   1    6334.    5839.     272. o
+   7   2   1    1953.    1974.     316. o
+   0   3   1   54709.   56903.    1306. o
+   2   3   1   37533.   38196.     464. o
+   4   3   1    9290.    9913.     287. o
+   6   3   1    1166.    1066.     292. o
+   1   4   1  120311.  103969.    1376. o
+   3   4   1   47190.   44535.     520. o
+   5   4   1   10853.    9960.     332. o
+   7   4   1    2366.    2037.     332. o
+   0   5   1   44042.   45337.     892. o
+   2   5   1   26542.   27132.     443. o
+   4   5   1    7450.    6693.     313. o
+   6   5   1    1055.     719.     348. o
+   1   6   1     659.     758.     292. o
+   3   6   1    1909.    1809.     300. o
+   5   6   1    3151.    3515.     347. o
+   7   6   1    1768.    2108.     426. o
+   0   7   1   38533.   36769.     793. o
+   2   7   1   24140.   23608.     397. o
+   4   7   1    6497.    6289.     333. o
+   6   7   1     879.     798.     363. o
+   1   8   1   35426.   30251.     554. o
+   3   8   1   16685.   16358.     360. o
+   5   8   1    5780.    5877.     363. o
+   0   9   1    2504.    2827.     418. o
+   2   9   1    1785.    1864.     284. o
+   4   9   1     602.     695.     316. o
+   6   9   1      86.     379.     387. <
+   1  10   1     441.     647.     308. o
+   3  10   1    1110.     821.     308. o
+   5  10   1    2456.    2282.     364. o
+   0  11   1    2557.    2132.     411. o
+   2  11   1    1626.    1382.     316. o
+   4  11   1     467.     568.     379. <
+   1  12   1   16821.   13419.     435. o
+   3  12   1    8951.    8233.     438. o
+   0  13   1     622.     592.     513. <
+   2  13   1     373.     576.     339. <
+   1  14   1     316.     395.     363. <
+   2   0   2  111078.  110991.    1111. o
+   4   0   2   61344.   64469.     648. o
+   6   0   2   29672.   26974.     552. o
+   1   1   2      66.     166.     308. <
+   3   1   2    1000.     884.     213. o
+   5   1   2     373.     347.     276. <
+   7   1   2      57.     600.     339. <
+   0   2   2   45550.   33254.    1406. o
+   2   2   2   45257.   45411.     524. o
+   4   2   2   45289.   47122.     354. o
+   6   2   2   29306.   28793.     413. o
+   1   3   2   83229.   78573.     953. o
+   3   3   2   22469.   22557.     355. o
+   5   3   2    3180.    2614.     278. o
+   7   3   2     237.      87.     316. <
+   0   4   2  205797.  195789.    2480. o
+   2   4   2  145726.  148570.     730. o
+   4   4   2   66317.   65525.     506. o
+   6   4   2   27018.   25151.     456. o
+   1   5   2   15681.   14908.     404. o
+   3   5   2    8095.    8577.     281. o
+   5   5   2    1821.    1666.     308. o
+   7   5   2     167.     379.     324. <
+   0   6   2   35176.   36282.     806. o
+   2   6   2   37818.   40204.     430. o
+   4   6   2   33599.   36067.     370. o
+   6   6   2   19126.   19224.     458. o
+   1   7   2   39347.   41377.     506. o
+   3   7   2   14685.   15076.     352. o
+   5   7   2    2411.    2061.     293. o
+   0   8   2  133275.  130660.    1326. o
+   2   8   2   94729.   95075.     699. o
+   4   8   2   40732.   41290.     479. o
+   6   8   2   14665.   13706.     560. o
+   1   9   2    2537.    1848.     286. o
+   3   9   2    1511.    1082.     324. o
+   5   9   2     441.     442.     308. <
+   0  10   2   20900.   18992.     595. o
+   2  10   2   21065.   19472.     424. o
+   4  10   2   16843.   16509.     407. o
+   1  11   2    1687.    1895.     339. o
+   3  11   2     510.     490.     347. <
+   5  11   2      50.     237.     387. <
+   0  12   2   47098.   43918.     968. o
+   2  12   2   33783.   28514.     578. o
+   4  12   2   14637.   12884.     464. o
+   1  13   2     910.     940.     379. o
+   3  13   2     282.     387.     371. <
+   0  14   2    3552.    2543.     578. o
+   2  14   2    4108.    3333.     428. o
+   1   0   3    1264.    2196.     631. o
+   3   0   3    1968.    7093.     368. o
+   5   0   3     470.     663.     489. <
+   7   0   3     315.     466.     434. <
+   0   1   3    1826.    1478.     498. o
+   2   1   3     901.    5473.     292. o
+   4   1   3      49.     276.     253. <
+   6   1   3       5.     245.     276. <
+   1   2   3  129561.  183381.    3232. o
+   3   2   3   25517.   25801.     384. o
+   5   2   3    1619.    1279.     269. o
+   7   2   3     266.     647.     331. <
+   0   3   3    4147.    3376.     563. o
+   2   3   3    2042.    4305.     228. o
+   4   3   3     227.     197.     253. <
+   6   3   3       5.     150.     284. <
+   1   4   3    6922.   12820.     367. o
+   3   4   3    2981.    4676.     253. o
+   5   4   3    1486.    2069.     275. o
+   7   4   3     842.    1105.     324. o
+   0   5   3    2753.    2923.     497. o
+   2   5   3    1161.    4012.     284. o
+   4   5   3      49.     292.     292. <
+   6   5   3       9.      32.     332. <
+   1   6   3    1460.    2330.     283. o
+   3   6   3    3703.    5735.     307. o
+   5   6   3    3939.    4226.     347. o
+   0   7   3    3727.    3160.     428. o
+   2   7   3    1845.    3807.     319. o
+   4   7   3     242.     442.     300. <
+   6   7   3      13.      87.     316. <
+   1   8   3   80153.  123926.    2065. o
+   3   8   3   37340.   35603.     502. o
+   5   8   3   11145.   10543.     454. o
+   0   9   3    1768.    1271.     482. o
+   2   9   3     758.    2187.     282. o
+   4   9   3      35.     197.     284. <
+   6   9   3       5.     371.     434. <
+   1  10   3   13956.   19705.     329. o
+   3  10   3   11912.   12402.     407. o
+   5  10   3    6663.    7015.     362. o
+   0  11   3    1664.    1666.     426. o
+   2  11   3     839.    1698.     354. o
+   4  11   3     113.     355.     395. <
+   1  12   3   45483.   62790.    1249. o
+   3  12   3   23276.   20345.     516. o
+   0  13   3     752.     774.     521. <
+   2  13   3     343.     987.     379. o
+   1  14   3    4798.    4842.     497. o
+   0   0   4  161950.   98280.    2699. o
+   2   0   4  121345.  124176.    1045. o
+   4   0   4   63789.   65270.     638. o
+   6   0   4   29924.   29261.     532. o
+   1   1   4   42311.   34065.     716. o
+   3   1   4   12149.   11996.     294. o
+   5   1   4    1481.    1461.     292. o
+   7   1   4     116.       8.     324. <
+   0   2   4   25983.   27988.     957. o
+   2   2   4   31669.   34722.     407. o
+   4   2   4   35773.   38888.     318. o
+   6   2   4   24411.   25598.     392. o
+   1   3   4    9838.    9943.     379. o
+   3   3   4    5325.    5081.     278. o
+   5   3   4    1566.    1106.     253. o
+   7   3   4     215.     474.     347. <
+   0   4   4  187158.  173204.    2249. o
+   2   4   4  134948.  135766.     840. o
+   4   4   4   63742.   63957.     526. o
+   6   4   4   26382.   21706.     430. o
+   1   5   4   71744.   71271.     804. o
+   3   5   4   24941.   27381.     350. o
+   5   5   4    3733.    3744.     340. o
+   7   5   4     293.     782.     402. <
+   0   6   4   33083.   34418.     852. o
+   2   6   4   34402.   33982.     476. o
+   4   6   4   29369.   31120.     358. o
+   6   6   4   16585.   17077.     406. o
+   1   7   4    5963.    6828.     327. o
+   3   7   4    3950.    4044.     308. o
+   5   7   4    1281.    1011.     356. o
+   0   8   4  117559.  116340.    1525. o
+   2   8   4   85650.   83177.     748. o
+   4   8   4   38769.   39068.     477. o
+   6   8   4   14408.   14069.     611. o
+   1   9   4   21225.   19360.     450. o
+   3   9   4    7612.    7443.     357. o
+   5   9   4    1184.    1366.     363. o
+   0  10   4   21369.   19641.     710. o
+   2  10   4   20413.   18481.     450. o
+   4  10   4   15134.   14214.     412. o
+   1  11   4    1261.    1153.     340. o
+   3  11   4     268.     355.     355. <
+   5  11   4      11.     395.     434. <
+   0  12   4   40863.   38336.     947. o
+   2  12   4   30086.   27126.     571. o
+   4  12   4   13806.   12022.     494. o
+   1  13   4     810.     869.     418. o
+   3  13   4     168.     426.     387. <
+   0  14   4    4048.    3151.     799. o
+   2  14   4    4289.    3570.     444. o
+   1   0   5  113112.  111794.    1498. o
+   3   0   5   43827.   41994.     616. o
+   5   0   5   10004.    9279.     439. o
+   7   0   5    1910.    1982.     466. o
+   0   1   5   39767.   30590.    1021. o
+   2   1   5   19471.   22252.     337. o
+   4   1   5    2863.    3499.     251. o
+   6   1   5     166.     174.     276. <
+   1   2   5   23297.   23456.     523. o
+   3   2   5   16281.   18406.     335. o
+   5   2   5    6906.    7862.     310. o
+   7   2   5    1944.    1887.     355. o
+   0   3   5     648.     521.     458. <
+   2   3   5    1067.    1098.     261. o
+   4   3   5     946.    1129.     252. o
+   6   3   5     194.     174.     308. <
+   1   4   5   72728.   71312.     835. o
+   3   4   5   31382.   29727.     414. o
+   5   4   5    8639.    7254.     317. o
+   7   4   5    2143.    1856.     356. o
+   0   5   5  109241.  107235.    1443. o
+   2   5   5   61492.   60906.     637. o
+   4   5   5   12892.   12311.     338. o
+   6   5   5    1236.    1003.     332. o
+   1   6   5    3063.    2536.     309. o
+   3   6   5    4293.    4432.     308. o
+   5   6   5    3565.    4360.     329. o
+   0   7   5    1135.     932.     584. <
+   2   7   5    1277.     884.     340. o
+   4   7   5     794.     458.     284. <
+   6   7   5     135.     308.     363. <
+   1   8   5   18120.   17536.     465. o
+   3   8   5   10151.    9295.     385. o
+   5   8   5    4417.    3933.     341. o
+   0   9   5   19824.   20844.     688. o
+   2   9   5   11130.   10703.     422. o
+   4   9   5    2078.    2022.     308. o
+   1  10   5    1096.     821.     324. o
+   3  10   5    2267.    1895.     309. o
+   5  10   5    2646.    3064.     410. o
+   0  11   5    2052.    2827.     647. o
+   2  11   5     981.     979.     324. o
+   4  11   5     113.     308.     379. <
+   1  12   5    8899.    6535.     530. o
+   3  12   5    5574.    4724.     406. o
+   0  13   5    1182.    1003.     655. <
+   2  13   5     525.     545.     411. <
+   1  14   5    1063.     963.     703. <
+   0   0   6  681186.  471679.    8523. o
+   2   0   6  459770.  640821.   10677. o
+   4   0   6  175415.  161382.    1515. o
+   6   0   6   52439.   44554.     756. o
+   1   1   6   18232.   12867.     439. o
+   3   1   6    3896.    4614.     241. o
+   5   1   6     240.     182.     284. <
+   7   1   6       5.     166.     284. <
+   0   2   6  355275.  328780.    3018. o
+   2   2   6  255946.  338896.    5801. o
+   4   2   6  119027.  125005.     358. o
+   6   2   6   41821.   39058.     485. o
+   1   3   6   14347.   13694.     402. o
+   3   3   6    3055.    5569.     256. o
+   5   3   6     140.     316.     308. <
+   7   3   6       0.     324.     324. <
+   0   4   6  243875.  245749.    2013. o
+   2   4   6  177617.  226337.    4041. o
+   4   4   6   80060.   82337.     470. o
+   6   4   6   28667.   27012.     462. o
+   1   5   6   12470.   11085.     422. o
+   3   5   6    3253.    4447.     304. o
+   5   5   6     293.     316.     292. <
+   0   6   6   59820.   63795.    1013. o
+   2   6   6   52474.   61346.     438. o
+   4   6   6   34572.   41378.     303. o
+   6   6   6   16888.   16611.     383. o
+   1   7   6    6981.    5856.     478. o
+   3   7   6    1612.    2977.     321. o
+   5   7   6      73.     213.     339. <
+   0   8   6   31110.   59066.     661. o
+   2   8   6   25765.   29378.     494. o
+   4   8   6   16176.   15356.     419. o
+   6   8   6    8525.    8130.     507. o
+   1   9   6    5225.    5704.     401. o
+   3   9   6    1332.    1642.     323. o
+   5   9   6      96.     166.     395. <
+   0  10   6    1537.    1271.     585. o
+   2  10   6    2564.    2543.     387. o
+   4  10   6    4322.    4423.     395. o
+   1  11   6    3460.    3191.     490. o
+   3  11   6     890.    1358.     331. o
+   0  12   6    6660.   12182.     811. o
+   2  12   6    5840.    6446.     448. o
+   4  12   6    4240.    3696.     451. o
+   1  13   6    1854.    2179.     481. o
+   3  13   6     460.     821.     395. o
+   0  14   6    1324.    1042.     640. <
+   1   0   7   67416.   62690.     962. o
+   3   0   7   29532.   28838.     651. o
+   5   0   7    8262.    7175.     440. o
+   7   0   7    1829.    2022.     513. o
+   0   1   7   11128.    7529.     515. o
+   2   1   7    3776.    2892.     264. o
+   4   1   7     162.     300.     292. <
+   6   1   7       2.     -39.     284. <
+   1   2   7   38116.   39436.     540. o
+   3   2   7   21384.   21884.     348. o
+   5   2   7    7266.    7214.     308. o
+   7   2   7    1864.    1714.     332. o
+   0   3   7   88610.   79652.    1367. o
+   2   3   7   48570.   52748.     568. o
+   4   3   7   10126.   10466.     313. o
+   6   3   7    1084.     790.     300. o
+   1   4   7   37212.   33351.     610. o
+   3   4   7   18870.   17699.     341. o
+   5   4   7    6425.    5578.     297. o
+   7   4   7    1837.    1911.     371. o
+   0   5   7    9470.   10138.     550. o
+   2   5   7    8292.    8395.     355. o
+   4   5   7    4319.    4036.     301. o
+   6   5   7    1084.    1129.     347. o
+   1   6   7    7011.    6228.     414. o
+   3   6   7    6041.    5981.     332. o
+   5   6   7    3704.    4012.     299. o
+   0   7   7   57161.   52238.    1019. o
+   2   7   7   33949.   33011.     562. o
+   4   7   7    7974.    8131.     370. o
+   6   7   7     984.    1019.     426. o
+   1   8   7    9070.    8758.     452. o
+   3   8   7    6274.    6534.     354. o
+   5   8   7    3450.    3412.     355. o
+   0   9   7      11.     -39.     592. <
+   2   9   7      46.      95.     340. <
+   4   9   7     261.     379.     395. <
+   1  10   7    2521.    1769.     459. o
+   3  10   7    2913.    2543.     380. o
+   5  10   7    2489.    2788.     402. o
+   0  11   7    9180.    9530.     742. o
+   2  11   7    5298.    5000.     585. o
+   4  11   7    1167.    1619.     426. o
+   1  12   7    4876.    4028.     515. o
+   3  12   7    3694.    3056.     420. o
+   0  13   7    2701.    2116.     790. o
+   2  13   7    1354.    1421.     521. o
+   1  14   7    2108.    1548.     522. o
+   0   0   8   36058.   37706.    1019. o
+   2   0   8   35230.   36663.     597. o
+   4   0   8   29189.   28260.     590. o
+   6   0   8   17981.   17049.     600. o
+   1   1   8    1103.    1651.     260. o
+   3   1   8      73.     245.     253. <
+   5   1   8      38.      87.     308. <
+   7   1   8      19.     434.     403. <
+   0   2   8   51412.   46501.     873. o
+   2   2   8   46346.   44262.     563. o
+   4   2   8   33688.   36880.     340. o
+   6   2   8   18968.   19675.     426. o
+   1   3   8   59095.   61220.     547. o
+   3   3   8   19352.   19418.     371. o
+   5   3   8    2448.    2014.     317. o
+   7   3   8     137.     197.     363. <
+   0   4   8   61164.   56931.    1114. o
+   2   4   8   51810.   48204.     623. o
+   4   4   8   33204.   31520.     438. o
+   6   4   8   16874.   15646.     393. o
+   1   5   8    2112.    2251.     292. o
+   3   5   8    1922.    1832.     261. o
+   5   5   8     694.     711.     308. o
+   0   6   8   50281.   48965.     918. o
+   2   6   8   42573.   43292.     549. o
+   4   6   8   26545.   29796.     355. o
+   6   6   8   12838.   13396.     350. o
+   1   7   8   41681.   41618.     596. o
+   3   7   8   14378.   14668.     385. o
+   5   7   8    1970.    1690.     379. o
+   0   8   8   46773.   40913.     976. o
+   2   8   8   37902.   36481.     656. o
+   4   8   8   21406.   21105.     439. o
+   1   9   8      28.     347.     426. <
+   3   9   8      59.     174.     355. <
+   5   9   8     103.     237.     363. <
+   0  10   8   31332.   29879.     838. o
+   2  10   8   25622.   23670.     660. o
+   4  10   8   14598.   14987.     479. o
+   1  11   8    4679.    3855.     429. o
+   3  11   8    1335.    1263.     379. o
+   0  12   8   16763.   16643.     839. o
+   2  12   8   13688.   12101.     695. o
+   1  13   8    2531.    2353.     529. o
+   1   0   9   22301.   16942.     543. o
+   3   0   9    5912.    7301.     389. o
+   5   0   9     421.     703.     403. <
+   7   0   9     290.     734.     576. <
+   0   1   9    9657.    6202.     405. o
+   2   1   9    4103.    5736.     252. o
+   4   1   9     327.     655.     308. o
+   6   1   9       0.     166.     379. <
+   1   2   9   11376.   18568.     376. o
+   3   2   9    3465.    3626.     268. o
+   5   2   9     343.     600.     268. o
+   7   2   9     296.     608.     347. <
+   0   3   9   14293.   13313.     529. o
+   2   3   9    7104.    8386.     364. o
+   4   3   9    1074.    1098.     292. o
+   6   3   9      86.     268.     347. <
+   1   4   9    1218.    1350.     276. o
+   3   4   9     407.     679.     260. o
+   5   4   9     745.     726.     261. o
+   0   5   9    7095.    7469.     536. o
+   2   5   9    3109.    4407.     320. o
+   4   5   9     194.     458.     292. <
+   6   5   9       8.     308.     355. <
+   1   6   9   14203.   14483.     528. o
+   3   6   9    8863.   12882.     362. o
+   5   6   9    4098.    5371.     327. o
+   0   7   9    9389.    9454.     648. o
+   2   7   9    5049.    5775.     352. o
+   4   7   9     928.     900.     292. o
+   6   7   9     112.     276.     403. <
+   1   8   9   21151.   23741.     550. o
+   3   8   9   13482.   17202.     431. o
+   5   8   9    5887.    5585.     404. o
+   0   9   9    3283.    3451.     545. o
+   2   9   9    1424.    1611.     450. o
+   4   9   9      66.     261.     347. <
+   1  10   9   24616.   20147.     628. o
+   3  10   9   14311.   18648.     499. o
+   0  11   9    3752.    4210.     552. o
+   2  11   9    2029.    2843.     583. o
+   4  11   9     370.     624.     466. <
+   1  12   9   14587.   13501.     584. o
+   3  12   9    9486.   11077.     721. o
+   0  13   9    1421.    1492.     845. <
+   2  13   9     652.    1019.     632. <
+   0   0  10   25040.   24979.     825. o
+   2   0  10   25104.   23949.     560. o
+   4   0  10   22702.   23919.     499. o
+   6   0  10   14623.   15794.     496. o
+   1   1  10   27784.   27570.     416. o
+   3   1  10    8588.    8283.     287. o
+   5   1  10    1128.     892.     348. o
+   0   2  10   43858.   27135.     847. o
+   2   2  10   38317.   39820.     442. o
+   4   2  10   25801.   30710.     273. o
+   6   2  10   14096.   15224.     384. o
+   1   3  10    1401.    1824.     252. o
+   3   3  10    1553.    2030.     244. o
+   5   3  10     715.    1058.     331. o
+   0   4  10   32088.   32214.     720. o
+   2   4  10   30126.   28701.     423. o
+   4   4  10   23018.   21929.     427. o
+   6   4  10   12907.   12867.     427. o
+   1   5  10   46791.   42978.     660. o
+   3   5  10   16938.   17718.     386. o
+   5   5  10    2659.    2646.     387. o
+   0   6  10   52461.   48796.     832. o
+   2   6  10   41715.   42916.     522. o
+   4   6  10   23077.   23017.     491. o
+   6   6  10   10369.   10375.     498. o
+   1   7  10    1935.    2085.     403. o
+   3   7  10    1683.    2037.     307. o
+   5   7  10     696.     940.     450. o
+   0   8  10   28688.   29341.     801. o
+   2   8  10   24943.   23974.     596. o
+   4   8  10   15997.   15195.     505. o
+   1   9  10   14788.   14604.     602. o
+   3   9  10    5354.    5522.     466. o
+   5   9  10     851.     908.     387. o
+   0  10  10   30619.   28684.     749. o
+   2  10  10   23772.   22706.     604. o
+   4  10  10   12241.   12060.     546. o
+   1  11  10    1353.    1192.     427. o
+   3  11  10     323.     308.     442. <
+   0  12  10   10301.    9870.     713. o
+   2  12  10    9039.    7506.     629. o
+   1  13  10     815.     876.     553. <
+   1   0  11   15342.    9473.     453. o
+   3   0  11   10378.   11755.     449. o
+   5   0  11    4370.    4810.     465. o
+   0   1  11   16836.   17708.     507. o
+   2   1  11    9173.   10277.     356. o
+   4   1  11    1571.    1674.     284. o
+   6   1  11      99.     229.     324. <
+   1   2  11   51772.   51444.     541. o
+   3   2  11   24330.   28069.     302. o
+   5   2  11    7047.    8493.     331. o
+   0   3  11     469.     845.     387. o
+   2   3  11     562.     632.     300. o
+   4   3  11     378.     663.     292. o
+   6   3  11      56.     284.     355. <
+   1   4  11    9281.    8111.     348. o
+   3   4  11    7260.    6645.     374. o
+   5   4  11    3799.    3380.     380. o
+   0   5  11   41834.   42456.     921. o
+   2   5  11   24669.   25432.     432. o
+   4   5  11    5395.    5190.     317. o
+   6   5  11     472.     466.     347. <
+   1   6  11   16526.   16470.     523. o
+   3   6  11    9066.   10779.     367. o
+   5   6  11    3604.    4138.     401. o
+   0   7  11     450.      47.     545. <
+   2   7  11     474.     371.     355. <
+   4   7  11     253.     268.     340. <
+   1   8  11    1140.    1034.     411. o
+   3   8  11    1796.    1611.     411. o
+   5   8  11    1808.    1911.     458. o
+   0   9  11    8572.    9751.     627. o
+   2   9  11    4772.    5032.     473. o
+   4   9  11     822.     876.     442. <
+   1  10  11    6968.    6257.     540. o
+   3  10  11    4538.    4455.     458. o
+   0  11  11    1438.    2408.     647. o
+   2  11  11     775.    1098.     592. <
+   1  12  11     685.     663.     521. <
+   0  13  11     399.    1074.     734. <
+   0   0  12  149106.  127086.    1932. o
+   2   0  12  117975.  104314.    1328. o
+   4   0  12   60073.   74599.    1474. o
+   6   0  12   21932.   21227.     631. o
+   1   1  12    2443.    2591.     284. o
+   3   1  12     519.     411.     261. <
+   5   1  12      19.     213.     332. <
+   0   2  12  212896.  196505.    1882. o
+   2   2  12  152725.  143488.    1233. o
+   4   2  12   64561.   81583.    1517. o
+   6   2  12   20903.   22016.     412. o
+   1   3  12    2040.    2527.     291. o
+   3   3  12     374.     569.     260. o
+   5   3  12       3.     158.     292. <
+   0   4  12   51259.   48448.     863. o
+   2   4  12   44315.   53619.     322. o
+   4   4  12   27421.   32714.     275. o
+   6   4  12   12245.   12265.     411. o
+   1   5  12    3001.    3491.     322. o
+   3   5  12     853.     798.     276. o
+   5   5  12      95.     189.     292. <
+   0   6  12   54872.   51910.    1342. o
+   2   6  12   41863.   43492.     588. o
+   4   6  12   21216.   27779.     348. o
+   1   7  12    1365.    1540.     371. o
+   3   7  12     275.     640.     371. <
+   5   7  12       4.     134.     387. <
+   0   8  12    2653.    1437.     593. o
+   2   8  12    3656.    3965.     513. o
+   4   8  12    4808.    5521.     448. o
+   1   9  12    1002.    1571.     402. o
+   3   9  12     233.     434.     403. <
+   0  10  12    6656.    7149.     638. o
+   2  10  12    5612.    5277.     570. o
+   4  10  12    3812.    5126.     510. o
+   1  11  12     849.     869.     521. <
+   3  11  12     214.     632.     505. <
+   0  12  12     274.      79.     726. <
+   2  12  12     550.     450.     616. <
+   1   0  13   13236.   12678.     471. o
+   3   0  13    9539.    8978.     430. o
+   5   0  13    4374.    3847.     404. o
+   0   1  13      10.      32.     363. <
+   2   1  13       7.      16.     284. <
+   4   1  13      64.     300.     245. <
+   6   1  13      35.     458.     332. <
+   1   2  13   38308.   36181.     540. o
+   3   2  13   17801.   18225.     342. o
+   5   2  13    5074.    5332.     347. o
+   0   3  13   20386.   20184.     524. o
+   2   3  13   12538.   12809.     433. o
+   4   3  13    3204.    2993.     316. o
+   6   3  13     435.     529.     308. <
+   1   4  13    5026.    5040.     324. o
+   3   4  13    4789.    4542.     356. o
+   5   4  13    2975.    3009.     371. o
+   0   5  13   10424.   10806.     607. o
+   2   5  13    7957.    8495.     360. o
+   4   5  13    3395.    3696.     363. o
+   1   6  13   13678.   12975.     472. o
+   3   6  13    7190.    7269.     395. o
+   5   6  13    2748.    3325.     409. o
+   0   7  13   16728.   17470.     635. o
+   2   7  13   10630.    9871.     447. o
+   4   7  13    2989.    3064.     363. o
+   1   8  13     574.     861.     395. o
+   3   8  13    1247.    1437.     458. o
+   0   9  13     887.    1074.     655. <
+   2   9  13     833.    1327.     497. o
+   4   9  13     524.    1169.     489. o
+   1  10  13    5362.    5245.     506. o
+   3  10  13    3247.    3506.     442. o
+   0  11  13    2254.    2559.     710. o
+   2  11  13    1417.    1642.     513. o
+   1  12  13     392.     624.     513. <
+   0   0  14    2956.    2685.     537. o
+   2   0  14    5002.    4835.     522. o
+   4   0  14    8028.    7933.     427. o
+   6   0  14    6638.    6722.     600. o
+   1   1  14      12.     134.     261. <
+   3   1  14      36.      32.     284. <
+   5   1  14      21.     253.     308. <
+   0   2  14   30705.   25451.     706. o
+   2   2  14   24384.   25530.     368. o
+   4   2  14   14233.   15020.     363. o
+   1   3  14   12943.   12066.     364. o
+   3   3  14    5046.    4676.     286. o
+   5   3  14     849.     647.     324. <
+   0   4  14    8256.    7152.     463. o
+   2   4  14    9614.    8931.     368. o
+   4   4  14    9947.    9878.     372. o
+   1   5  14    3683.    4123.     322. o
+   3   5  14    1816.    2014.     300. o
+   5   5  14     380.     545.     363. <
+   0   6  14   31886.   33978.     866. o
+   2   6  14   24192.   24491.     479. o
+   4   6  14   12271.   13981.     420. o
+   1   7  14    9879.    9546.     634. o
+   3   7  14    3972.    3894.     403. o
+   0   8  14    8799.    8281.     618. o
+   2   8  14    8786.    8518.     586. o
+   4   8  14    7111.    6778.     530. o
+   1   9  14     372.     418.     418. <
+   3   9  14     241.     332.     434. <
+   0  10  14   21799.   20944.     766. o
+   2  10  14   16224.   15423.     567. o
+   1  11  14     686.     766.     458. <
+   1   0  15   15478.   13761.     488. o
+   3   0  15    4072.    4376.     449. o
+   5   0  15     213.     245.     466. <
+   0   1  15     163.     521.     363. <
+   2   1  15      71.     189.     292. <
+   4   1  15       4.     118.     276. <
+   1   2  15     271.     608.     268. o
+   3   2  15     249.     537.     292. <
+   5   2  15     314.     719.     347. o
+   0   3  15     990.    1256.     410. o
+   2   3  15     637.     790.     332. o
+   4   3  15     209.     292.     347. <
+   1   4  15    2608.    1990.     325. o
+   3   4  15     392.     600.     395. <
+   5   4  15     301.     908.     339. o
+   0   5  15      84.     379.     505. <
+   2   5  15      25.      16.     324. <
+   4   5  15       2.     379.     426. <
+   1   6  15   13999.   14546.     422. o
+   3   6  15    7325.    8390.     413. o
+   0   7  15     805.     742.     600. <
+   2   7  15     556.     632.     442. <
+   4   7  15     223.     411.     387. <
+   1   8  15    3583.    2993.     506. o
+   3   8  15    3363.    3072.     616. o
+   0   9  15       3.     221.     616. <
+   2   9  15       2.      55.     442. <
+   1  10  15   16843.   18871.     552. o
+   0  11  15     248.     632.     766. <
+   0   0  16    1473.    1263.     545. o
+   2   0  16    2736.    2906.     442. o
+   4   0  16    4873.    5798.     495. o
+   1   1  16    1179.     916.     269. o
+   3   1  16     509.     426.     276. <
+   5   1  16     106.     150.     340. <
+   0   2  16   22038.   21437.     552. o
+   2   2  16   17446.   18221.     370. o
+   4   2  16   10075.   11829.     357. o
+   1   3  16    5528.    5522.     324. o
+   3   3  16    2654.    3427.     338. o
+   5   3  16     650.    1034.     308. o
+   0   4  16    3511.    2938.     443. o
+   2   4  16    4552.    4226.     349. o
+   4   4  16    5444.    5806.     394. o
+   1   5  16    5849.    6146.     362. o
+   3   5  16    2582.    2669.     324. o
+   0   6  16   26081.   27754.     727. o
+   2   6  16   19719.   20183.     485. o
+   4   6  16    9832.    9774.     411. o
+   1   7  16    4632.    5379.     591. o
+   3   7  16    2247.    2653.     465. o
+   0   8  16    5464.    5269.     680. o
+   2   8  16    5546.    4621.     665. o
+   1   9  16    1356.    1350.     466. o
+   0  10  16   15777.   13644.     809. o
+   1   0  17    5323.    5293.     442. o
+   3   0  17    4318.    4715.     425. o
+   5   0  17    2262.    3340.     480. o
+   0   1  17     192.     395.     403. <
+   2   1  17     127.     316.     324. <
+   4   1  17      32.     103.     340. <
+   1   2  17   20725.   18883.     404. o
+   3   2  17   10097.   11450.     361. o
+   0   3  17    4184.    3570.     428. o
+   2   3  17    2667.    3191.     386. o
+   4   3  17     691.     940.     339. o
+   1   4  17    3116.    3183.     308. o
+   3   4  17    2986.    3593.     441. o
+   0   5  17    3624.    2677.     570. o
+   2   5  17    2368.    2203.     356. o
+   4   5  17     634.     663.     363. <
+   1   6  17    7494.    8161.     439. o
+   3   6  17    3988.    4644.     425. o
+   0   7  17    2745.    2938.     916. o
+   2   7  17    1723.    2037.     466. o
+   1   8  17     348.     584.     434. <
+   0   9  17     230.     458.     608. <
+   2   9  17     136.     276.     497. <
+   0   0  18   38008.   37110.     905. o
+   2   0  18   31172.   31065.     666. o
+   4   0  18   17109.   17361.     583. o
+   1   1  18      89.     229.     284. <
+   3   1  18      19.     253.     308. <
+   0   2  18   55161.   53383.     749. o
+   2   2  18   40392.   36848.     567. o
+   4   2  18   17743.   18817.     390. o
+   1   3  18     101.     253.     347. <
+   3   3  18      29.     347.     355. <
+   0   4  18   13642.    9185.     553. o
+   2   4  18   12218.   12574.     400. o
+   4   4  18    8131.    8777.     383. o
+   1   5  18       1.      16.     355. <
+   3   5  18       4.     340.     347. <
+   0   6  18   15196.   15573.     693. o
+   2   6  18   11677.   10985.     447. o
+   1   7  18      37.     316.     529. <
+   0   8  18     707.     853.     687. <
+   2   8  18    1053.     916.     632. <
+   1   0  19    4610.    4779.     442. o
+   3   0  19    3465.    2970.     467. o
+   0   1  19    1067.    1484.     434. o
+   2   1  19     635.     963.     331. o
+   4   1  19     146.     695.     347. <
+   1   2  19   12576.   14093.     365. o
+   3   2  19    6520.    7236.     376. o
+   0   3  19    1815.    2029.     442. o
+   2   3  19    1384.    1516.     410. o
+   1   4  19    1778.    1816.     371. o
+   3   4  19    1694.    1943.     363. o
+   0   5  19    7102.    7410.     615. o
+   2   5  19    4766.    5102.     418. o
+   1   6  19    4902.    4486.     443. o
+   0   7  19    1920.    2314.     821. o
+   2   7  19    1471.    1635.     505. o
+   0   0  20     732.     679.     545. <
+   2   0  20    1132.     853.     442. <
+   1   1  20    1139.    1161.     324. o
+   3   1  20     413.    1026.     394. o
+   0   2  20    5841.    5498.     491. o
+   2   2  20    4944.    5008.     395. o
+   1   3  20     689.     663.     371. <
+   3   3  20     394.     703.     355. <
+   0   4  20    2114.    1769.     490. o
+   2   4  20    2368.    2156.     387. o
+   1   5  20    3801.    4099.     410. o
+   0   6  20    6983.    6430.     634. o
+   1   0  21    1541.    1564.     458. o
+   0   1  21     464.     442.     458. <
+   2   1  21     263.     592.     331. <
+   1   2  21     109.     316.     355. <
+   0   3  21     107.     647.     474. <
+   2   3  21      38.     355.     403. <
+   1   4  21      99.     418.     371. <
+   0   5  21     429.     861.     632. <
+   0   0  22     882.     900.     671. <
+   1   1  22       0.     284.     355. <
+   0   2  22    2486.    2259.     529. o
+
+loop_
+ _twin_refln_datum_id
+ _twin_refln_individual_id
+ _twin_refln_index_h
+ _twin_refln_index_k
+ _twin_refln_index_l
+ _twin_refln_F_squared_calc
+ _twin_refln_F_squared_meas
+ _twin_refln_F_squared_sigma
+ _twin_refln_include_status
+         1    2   0   0   6 967710.00 749564.00  10543.40 o
+         1    1   2   0   0 967710.00 749564.00  10543.40 o
+         2    2   0   0  12 279283.00 257451.00   2449.25 o
+         2    1   4   0   0 279283.00 257451.00   2449.25 o
+         3    2   0   0  18  73186.30  63623.80   1043.84 o
+         3    1   6   0   0  73186.30  63623.80   1043.84 o
+         4    2   0  -2   0 244711.00 265653.00   4012.30 o
+         4    1   0   2   0 244711.00 265653.00   4012.30 o
+         5    2   0  -2   6 225412.00 202742.00   2189.90 o
+         5    1   2   2   0 225412.00 202742.00   2189.90 o
+         6    2   0  -2  12 132393.00 119214.00   1308.93 o
+         6    1   4   2   0 132393.00 119214.00   1308.93 o
+         7    2   0  -2  18  50099.80  44409.60    679.47 o
+         7    1   6   2   0  50099.80  44409.60    679.47 o
+         8    2   0  -4   0 575908.00 673962.00  13147.50 o
+         8    1   0   4   0 575908.00 673962.00  13147.50 o
+         9    2   0  -4   6 353068.00 317706.00   3065.63 o
+         9    1   2   4   0 353068.00 317706.00   3065.63 o
+        10    2   0  -4  12 126490.00 121213.00   1078.28 o
+        10    1   4   4   0 126490.00 121213.00   1078.28 o
+        11    2   0  -4  18  39792.40  36996.50    614.58 o
+        11    1   6   4   0  39792.40  36996.50    614.58 o
+        12    2   0  -6   0  28741.30  39232.70    957.56 o
+        12    1   0   6   0  28741.30  39232.70    957.56 o
+        13    2   0  -6   6  36377.90  41606.70    680.91 o
+        13    1   2   6   0  36377.90  41606.70    680.91 o
+        14    2   0  -6  12  35554.00  31896.20    727.42 o
+        14    1   4   6   0  35554.00  31896.20    727.42 o
+        15    2   0  -6  18  19694.00  17131.30    573.24 o
+        15    1   6   6   0  19694.00  17131.30    573.24 o
+        16    2   0  -8   0  83828.60 123273.00    542.52 o
+        16    1   0   8   0  83828.60 123273.00    542.52 o
+        17    2   0  -8   6  58523.10  53323.60    935.56 o
+        17    1   2   8   0  58523.10  53323.60    935.56 o
+        18    2   0  -8  12  27433.50  27645.90    556.24 o
+        18    1   4   8   0  27433.50  27645.90    556.24 o
+        19    2   0  -8  18  12115.20  11739.90    683.32 o
+        19    1   6   8   0  12115.20  11739.90    683.32 o
+        20    2   0 -10   0   1664.46   2848.83    588.36 o
+        20    1   0  10   0   1664.46   2848.83    588.36 o
+        21    2   0 -10   6    481.12    696.89    382.81 <
+        21    1   2  10   0    481.12    696.89    382.81 <
+        22    2   0 -10  12   3292.26   3216.42    497.91 o
+        22    1   4  10   0   3292.26   3216.42    497.91 o
+        23    2   0 -12   0  20406.40  29774.90    876.69 o
+        23    1   0  12   0  20406.40  29774.90    876.69 o
+        24    2   0 -12   6  14639.20  12972.90    584.73 o
+        24    1   2  12   0  14639.20  12972.90    584.73 o
+        25    2   0 -12  12   7533.04   6884.67    538.35 o
+        25    1   4  12   0   7533.04   6884.67    538.35 o
+        26    2   0 -14   0    220.44    130.19   1125.75 <
+        26    1   0  14   0    220.44    130.19   1125.75 <
+        27    2   0 -14   6    421.75    505.44    543.71 <
+        27    1   2  14   0    421.75    505.44    543.71 <
+        28    1   1   0   1 155494.00 133206.00   2075.48 o
+        29    1   3   0   1  57893.90  60943.50    640.13 o
+        30    1   5   0   1  12143.50  11364.70    464.71 o
+        31    1   7   0   1   2257.93   1807.32    452.35 o
+        32    1   2   1   1     89.75     84.24    206.77 <
+        33    1   4   1   1     11.16    107.21    222.08 <
+        34    1   6   1   1      2.49    283.35    267.98 <
+        35    1   1   2   1  14021.40  13899.50    506.33 o
+        36    1   3   2   1  10977.80  11395.30    271.11 o
+        37    1   5   2   1   5933.54   5659.37    261.99 o
+        38    1   7   2   1   2025.45   1914.54    306.51 o
+        39    1   0   3   1  55474.60  54043.50   1279.95 o
+        40    1   2   3   1  33272.90  36720.80    381.73 o
+        41    1   4   3   1   8190.70   9603.31    270.94 o
+        42    1   6   3   1   1016.85   1033.85    283.33 o
+        43    1   1   4   1 106408.00  97756.20   1137.93 o
+        44    1   3   4   1  42447.30  42870.30    425.33 o
+        45    1   5   4   1  10314.20   9649.26    319.51 o
+        46    1   7   4   1   2445.94   1975.80    322.47 o
+        47    1   0   5   1  43294.80  43528.90    869.92 o
+        48    1   2   5   1  25854.60  26190.80    431.12 o
+        49    1   4   5   1   6838.01   6486.45    300.73 o
+        50    1   6   5   1    908.07    696.89    337.09 o
+        51    1   1   6   1    624.44    735.18    283.28 o
+        52    1   3   6   1   1559.52   1753.71    290.71 o
+        53    1   5   6   1   2851.88   3407.87    335.54 o
+        54    1   7   6   1   1772.10   2044.72    413.20 o
+        55    1   0   7   1  34968.40  35441.90    736.82 o
+        56    1   2   7   1  21936.40  22821.30    360.81 o
+        57    1   4   7   1   5854.53   6095.88    320.44 o
+        58    1   6   7   1    768.54    773.47    352.27 o
+        59    1   1   8   1  30900.10  29200.50    480.76 o
+        60    1   3   8   1  15061.50  15837.00    335.14 o
+        61    1   5   8   1   5484.70   5697.66    351.37 o
+        62    1   0   9   1   2432.35   2741.61    405.35 o
+        63    1   2   9   1   1677.76   1807.32    275.47 o
+        64    1   4   9   1    527.66    673.92    306.25 o
+        65    1   6   9   1     69.40    367.59    375.19 <
+        66    1   1  10   1    537.54    627.97    298.62 o
+        67    1   3  10   1    817.34    796.45    298.68 o
+        68    1   5  10   1   2184.14   2213.20    352.23 o
+        69    1   0  11   1   2247.98   2067.70    398.48 o
+        70    1   2  11   1   1435.21   1340.17    306.44 o
+        71    1   4  11   1    415.30    551.39    367.54 <
+        72    1   1  12   1  15218.80  12995.90    410.89 o
+        73    1   3  12   1   8277.67   7979.78    422.72 o
+        74    1   0  13   1    745.03    574.36    497.84 <
+        75    1   2  13   1    453.65    559.04    329.26 <
+        76    1   1  14   1    221.81    382.91    352.23 <
+        77    1   2   0   2 102656.00 104304.00    996.77 o
+        78    1   4   0   2  57658.40  61985.00    588.18 o
+        79    1   6   0   2  28358.30  26091.30    529.38 o
+        80    1   1   1   2     65.97    160.82    298.66 <
+        81    1   3   1   2    611.03    857.71    206.52 o
+        82    1   5   1   2    283.08    336.96    268.02 <
+        83    1   7   1   2     46.59    582.02    329.12 <
+        84    1   0   2   2  37649.10  31536.20   1291.38 o
+        85    1   2   2   2  41648.70  43536.50    460.72 o
+        86    1   4   2   2  42116.20  45420.40    283.69 o
+        87    1   6   2   2  27735.00  27852.70    388.32 o
+        88    1   1   3   2  77240.10  74284.00    867.75 o
+        89    1   3   3   2  21801.00  21795.10    344.72 o
+        90    1   5   3   2   2911.42   2534.84    269.03 o
+        91    1   7   3   2    199.65     84.24    306.34 <
+        92    1   0   4   2 189304.00 179515.00   2286.84 o
+        93    1   2   4   2 134500.00 139960.00    518.82 o
+        94    1   4   4   2  62619.70  63026.50    444.39 o
+        95    1   6   4   2  25936.30  24337.60    438.43 o
+        96    1   1   5   2  13454.00  14412.60    373.38 o
+        97    1   3   5   2   6846.23   8309.08    264.39 o
+        98    1   5   5   2   1500.24   1615.87    298.51 o
+        99    1   7   5   2    127.58    367.59    313.92 <
+       100    1   0   6   2  33546.60  34959.40    772.14 o
+       101    1   2   6   2  35590.60  38765.50    392.91 o
+       102    1   4   6   2  31492.50  34852.20    332.52 o
+       103    1   6   6   2  18267.40  18616.90    440.27 o
+       104    1   1   7   2  38178.20  39891.30    493.25 o
+       105    1   3   7   2  13969.80  14596.40    337.57 o
+       106    1   5   7   2   2198.86   1998.78    283.74 o
+       107    1   0   8   2 126059.00 124430.00   1239.30 o
+       108    1   2   8   2  90190.10  91147.20    646.67 o
+       109    1   4   8   2  39256.60  39891.30    460.45 o
+       110    1   6   8   2  14322.20  13279.20    543.09 o
+       111    1   1   9   2   2116.10   1792.01    276.29 o
+       112    1   3   9   2   1244.33   1049.17    314.17 o
+       113    1   5   9   2    355.29    428.86    298.64 <
+       114    1   0  10   2  19928.20  18379.50    572.83 o
+       115    1   2  10   2  19922.60  18846.70    404.43 o
+       116    1   4  10   2  15934.80  15990.20    389.96 o
+       117    1   1  11   2   1505.82   1837.95    328.83 o
+       118    1   3  11   2    448.38    474.80    336.95 <
+       119    1   5  11   2     40.19    229.74    375.23 <
+       120    1   0  12   2  45547.50  42418.40    935.60 o
+       121    1   2  12   2  32817.70  27577.00    561.01 o
+       122    1   4  12   2  14337.60  12482.80    451.11 o
+       123    1   1  13   2   1059.33    911.32    367.69 o
+       124    1   3  13   2    342.22    375.25    359.92 <
+       125    1   0  14   2   3220.74   2465.92    560.02 o
+       126    1   2  14   2   3754.91   3231.74    414.69 o
+       127    2   1   0   3   1796.02   2128.96    612.36 o
+       127    1   1   0   3   1796.02   2128.96    612.36 o
+       128    2   1   0   9   3217.25   6877.01    360.24 o
+       128    1   3   0   3   3217.25   6877.01    360.24 o
+       129    2   1   0  15   1755.74    643.28    475.44 <
+       129    1   5   0   3   1755.74    643.28    475.44 <
+       130    2   1   0  21    569.86    451.83    421.23 <
+       130    1   7   0   3    569.86    451.83    421.23 <
+       131    1   0   1   3   1715.52   1432.07    482.70 o
+       132    2   1  -1   6   2509.09   5307.09    287.53 o
+       132    1   2   1   3   2509.09   5307.09    287.53 o
+       133    2   1  -1  12    325.30    268.04    245.08 <
+       133    1   4   1   3    325.30    268.04    245.08 <
+       134    2   1  -1  18     15.39    237.40    268.00 <
+       134    1   6   1   3     15.39    237.40    268.00 <
+       135    2   1  -2   3 126827.00 170179.00   3079.80 o
+       135    1   1   2   3 126827.00 170179.00   3079.80 o
+       136    2   1  -2   9  24370.60  24911.90    365.61 o
+       136    1   3   2   3  24370.60  24911.90    365.61 o
+       137    2   1  -2  15   1286.53   1240.62    260.44 o
+       137    1   5   2   3   1286.53   1240.62    260.44 o
+       138    2   1  -2  21    352.28    627.97    321.52 <
+       138    1   7   2   3    352.28    627.97    321.52 <
+       139    1   0   3   3   3722.43   3270.03    544.49 o
+       140    2   1  -3   6   3178.24   4173.69    225.26 o
+       140    1   2   3   3   3178.24   4173.69    225.26 o
+       141    2   1  -3  12    449.64    191.45    245.14 <
+       141    1   4   3   3    449.64    191.45    245.14 <
+       142    2   1  -3  18     18.91    145.51    275.68 <
+       142    1   6   3   3     18.91    145.51    275.68 <
+       143    2   1  -4   3   8027.25  12413.80    364.64 o
+       143    1   1   4   3   8027.25  12413.80    364.64 o
+       144    2   1  -4   9   3522.28   4533.62    248.20 o
+       144    1   3   4   3   3522.28   4533.62    248.20 o
+       145    2   1  -4  15   1969.44   2006.43    267.96 o
+       145    1   5   4   3   1969.44   2006.43    267.96 o
+       146    2   1  -4  21   1012.01   1072.14    313.93 o
+       146    1   7   4   3   1012.01   1072.14    313.93 o
+       147    1   0   5   3   2322.74   2833.51    481.71 o
+       148    2   1  -5   6   2203.99   3890.34    278.02 o
+       148    1   2   5   3   2203.99   3890.34    278.02 o
+       149    2   1  -5  12    365.10    283.35    283.38 <
+       149    1   4   5   3    365.10    283.35    283.38 <
+       150    2   1  -5  18      8.59     30.63    321.64 <
+       150    1   6   5   3      8.59     30.63    321.64 <
+       151    2   1  -6   3   1404.46   2259.15    274.06 o
+       151    1   1   6   3   1404.46   2259.15    274.06 o
+       152    2   1  -6   9   4850.71   5559.81    303.02 o
+       152    1   3   6   3   4850.71   5559.81    303.02 o
+       153    2   1  -6  15   5296.77   4097.11    341.20 o
+       153    1   5   6   3   5296.77   4097.11    341.20 o
+       154    1   0   7   3   3465.58   3063.26    414.37 o
+       155    2   1  -7   6   2446.38   3691.22    310.50 o
+       155    1   2   7   3   2446.38   3691.22    310.50 o
+       156    2   1  -7  12    400.67    428.86    291.00 <
+       156    1   4   7   3    400.67    428.86    291.00 <
+       157    2   1  -7  18     20.97     84.24    306.32 <
+       157    1   6   7   3     20.97     84.24    306.32 <
+       158    2   1  -8   3  84277.10 118939.00   2072.59 o
+       158    1   1   8   3  84277.10 118939.00   2072.59 o
+       159    2   1  -8   9  37765.60  34392.70    517.73 o
+       159    1   3   8   3  37765.60  34392.70    517.73 o
+       160    2   1  -8  15  11062.70  10216.00    441.91 o
+       160    1   5   8   3  11062.70  10216.00    441.91 o
+       161    1   0   9   3   1650.05   1232.96    467.47 o
+       162    2   1  -9   6   1255.23   2121.31    274.15 o
+       162    1   2   9   3   1255.23   2121.31    274.15 o
+       163    2   1  -9  12    146.64    191.45    275.68 <
+       163    1   4   9   3    146.64    191.45    275.68 <
+       164    2   1  -9  18     13.65    359.93    421.14 <
+       164    1   6   9   3     13.65    359.93    421.14 <
+       165    2   1 -10   3  14452.00  19084.10    330.47 o
+       165    1   1  10   3  14452.00  19084.10    330.47 o
+       166    2   1 -10   9  13461.90  12015.60    410.15 o
+       166    1   3  10   3  13461.90  12015.60    410.15 o
+       167    2   1 -10  15   7926.13   6800.43    358.34 o
+       167    1   5  10   3   7926.13   6800.43    358.34 o
+       168    1   0  11   3   1667.58   1615.87    413.59 o
+       169    2   1 -11   6   1219.94   1646.50    344.12 o
+       169    1   2  11   3   1219.94   1646.50    344.12 o
+       170    2   1 -11  12    220.11    344.62    382.88 <
+       170    1   4  11   3    220.11    344.62    382.88 <
+       171    2   1 -12   3  48439.90  60660.10    325.94 o
+       171    1   1  12   3  48439.90  60660.10    325.94 o
+       172    2   1 -12   9  23906.90  19696.70    515.37 o
+       172    1   3  12   3  23906.90  19696.70    515.37 o
+       173    1   0  13   3    756.69    750.50    505.44 <
+       174    2   1 -13   6    550.73    957.27    367.35 o
+       174    1   2  13   3    550.73    957.27    367.35 o
+       175    2   1 -14   3   4743.33   4694.44    482.59 o
+       175    1   1  14   3   4743.33   4694.44    482.59 o
+       176    1   0   0   4 146307.00  88796.20   2438.74 o
+       177    1   2   0   4 109188.00 116886.00    814.70 o
+       178    1   4   0   4  59266.10  62758.50    555.88 o
+       179    1   6   0   4  28470.70  28304.50    507.92 o
+       180    1   1   1   4  39534.00  32562.40    671.46 o
+       181    1   3   1   4  11135.00  11609.70    278.19 o
+       182    1   5   1   4   1376.67   1416.76    283.30 o
+       183    1   7   1   4    106.49      7.66    313.99 <
+       184    1   0   2   4  24215.60  26895.40    914.19 o
+       185    1   2   2   4  29998.50  33435.40    380.74 o
+       186    1   4   2   4  33546.00  37540.20    274.61 o
+       187    1   6   2   4  23134.20  24774.10    370.66 o
+       188    1   1   3   4   9305.75   9618.63    365.42 o
+       189    1   3   3   4   4790.10   4924.19    267.38 o
+       190    1   5   3   4   1318.53   1072.14    245.37 o
+       191    1   7   3   4    174.38    459.49    336.88 <
+       192    1   0   4   4 169974.00 160622.00   2006.97 o
+       193    1   2   4   4 123636.00 128435.00    599.52 o
+       194    1   4   4   4  59887.00  61556.10    457.13 o
+       195    1   6   4   4  25276.70  21006.30    412.12 o
+       196    1   1   5   4  66816.50  68180.40    724.94 o
+       197    1   3   5   4  23186.80  26466.50    319.74 o
+       198    1   5   5   4   3397.46   3629.96    328.63 o
+       199    1   7   5   4    251.18    758.16    390.36 <
+       200    1   0   6   4  31852.90  33190.40    820.63 o
+       201    1   2   6   4  32655.90  32792.20    449.19 o
+       202    1   4   6   4  27629.70  30088.80    328.98 o
+       203    1   6   6   4  15850.20  16541.60    390.60 o
+       204    1   1   7   4   5692.41   6616.63    316.77 o
+       205    1   3   7   4   3552.38   3920.97    297.42 o
+       206    1   5   7   4   1097.03    980.24    344.71 o
+       207    1   0   8   4 110801.00 111104.00   1425.80 o
+       208    1   2   8   4  81231.10  79859.10    687.45 o
+       209    1   4   8   4  37224.10  37754.60    455.62 o
+       210    1   6   8   4  14037.00  13631.50    592.20 o
+       211    1   1   9   4  19927.80  18731.80    428.04 o
+       212    1   3   9   4   7169.69   7213.97    344.37 o
+       213    1   5   9   4   1101.69   1324.86    352.06 o
+       214    1   0  10   4  20508.50  19007.50    685.41 o
+       215    1   2  10   4  19440.60  17889.40    431.56 o
+       216    1   4  10   4  14394.10  13769.30    396.48 o
+       217    1   1  11   4   1381.94   1118.09    329.56 o
+       218    1   3  11   4    330.25    344.62    344.61 <
+       219    1   5  11   4     19.33    382.91    421.14 <
+       220    1   0  12   4  39403.10  37050.10    914.68 o
+       221    1   2  12   4  29123.40  26244.50    552.30 o
+       222    1   4  12   4  13472.30  11648.00    479.74 o
+       223    1   1  13   4    733.39    842.40    405.82 o
+       224    1   3  13   4    155.84    413.54    375.19 <
+       225    1   0  14   4   3719.60   3055.60    774.22 o
+       226    1   2  14   4   3961.26   3461.48    429.98 o
+       227    1   1   0   5 103831.00 104763.00   1359.50 o
+       228    1   3   0   5  40925.90  40427.30    568.62 o
+       229    1   5   0   5   9686.86   8990.66    425.24 o
+       230    1   7   0   5   2041.55   1922.19    451.97 o
+       231    1   0   1   5  38874.00  29269.40    984.46 o
+       232    1   2   1   5  18676.40  21488.70    322.95 o
+       233    1   4   1   5   2768.19   3392.56    242.89 o
+       234    1   6   1   5    154.05    168.48    268.03 <
+       235    1   1   2   5  20969.60  22606.80    486.01 o
+       236    1   3   2   5  14638.10  17805.20    309.52 o
+       237    1   5   2   5   6508.63   7619.85    299.23 o
+       238    1   7   2   5   2034.94   1830.30    344.92 o
+       239    1   0   3   5    465.93    505.44    444.16 <
+       240    1   2   3   5    797.22   1064.48    252.44 o
+       241    1   4   3   5    692.75   1095.11    244.64 o
+       242    1   6   3   5    133.17    168.48    298.66 <
+       243    1   1   4   5  65841.40  68126.80    710.18 o
+       244    1   3   4   5  28944.00  28702.70    372.60 o
+       245    1   5   4   5   8282.10   7030.17    306.88 o
+       246    1   7   4   5   2227.08   1799.66    345.26 o
+       247    1   0   5   5 102734.00 101861.00   1350.25 o
+       248    1   2   5   5  57768.70  58500.60    577.99 o
+       249    1   4   5   5  11930.40  11923.70    321.71 o
+       250    1   6   5   5   1085.58    972.58    321.74 o
+       251    1   1   6   5   2421.19   2458.26    298.59 o
+       252    1   3   6   5   3656.55   4296.22    296.33 o
+       253    1   5   6   5   3306.31   4227.29    318.63 o
+       254    1   0   7   5    893.65    903.66    566.70 <
+       255    1   2   7   5    974.27    857.71    329.39 o
+       256    1   4   7   5    572.54    444.17    275.75 <
+       257    1   6   7   5     84.65    298.67    352.24 <
+       258    1   1   8   5  15923.00  16970.40    433.59 o
+       259    1   3   8   5   9192.68   9005.97    368.82 o
+       260    1   5   8   5   4200.49   3813.75    330.53 o
+       261    1   0   9   5  18670.10  20171.50    662.13 o
+       262    1   2   9   5  10484.20  10369.10    406.67 o
+       263    1   4   9   5   1926.21   1960.48    298.61 o
+       264    1   1  10   5    766.78    796.45    313.96 o
+       265    1   3  10   5   1843.99   1837.95    298.68 o
+       266    1   5  10   5   2412.06   2971.36    397.18 o
+       267    1   0  11   5   2296.22   2741.61    627.48 o
+       268    1   2  11   5   1159.76    949.61    314.17 o
+       269    1   4  11   5    163.91    298.67    367.57 <
+       270    1   1  12   5   7915.53   6333.28    511.13 o
+       271    1   3  12   5   5086.79   4579.57    392.21 o
+       272    1   0  13   5   1033.22    972.58    635.65 <
+       273    1   2  13   5    457.32    528.41    398.20 <
+       274    1   1  14   5    835.61    934.29    681.54 <
+       275    2   2   0   0 718399.00 379568.00   9841.64 o
+       275    1   0   0   6 718399.00 379568.00   9841.64 o
+       276    2   2   0   6 458718.00 566657.00  10120.40 o
+       276    1   2   0   6 458718.00 566657.00  10120.40 o
+       277    2   2   0  12 169264.00 153086.00   1520.96 o
+       277    1   4   0   6 169264.00 153086.00   1520.96 o
+       278    2   2   0  18  50648.20  43015.80    730.19 o
+       278    1   6   0   6  50648.20  43015.80    730.19 o
+       279    2   2  -1   3  16856.80  12421.50    416.76 o
+       279    1   1   1   6  16856.80  12421.50    416.76 o
+       280    2   2  -1   9   4223.05   4472.35    236.17 o
+       280    1   3   1   6   4223.05   4472.35    236.17 o
+       281    2   2  -1  15    265.15    176.14    275.71 <
+       281    1   5   1   6    265.15    176.14    275.71 <
+       282    2   2  -1  21     37.92    160.82    275.68 <
+       282    1   7   1   6     37.92    160.82    275.68 <
+       283    2   2  -2   0 335552.00 291323.00   3259.75 o
+       283    1   0   2   6 335552.00 291323.00   3259.75 o
+       284    2   2  -2   6 253538.00 312935.00   5581.44 o
+       284    1   2   2   6 253538.00 312935.00   5581.44 o
+       285    2   2  -2  12 121334.00 119475.00    770.81 o
+       285    1   4   2   6 121334.00 119475.00    770.81 o
+       286    2   2  -2  18  41914.40  37747.00    501.72 o
+       286    1   6   2   6  41914.40  37747.00    501.72 o
+       287    2   2  -3   3  13356.00  13240.90    383.97 o
+       287    1   1   3   6  13356.00  13240.90    383.97 o
+       288    2   2  -3   9   3656.47   5398.99    251.63 o
+       288    1   3   3   6   3656.47   5398.99    251.63 o
+       289    2   2  -3  15    214.60    306.33    298.64 <
+       289    1   5   3   6    214.60    306.33    298.64 <
+       290    2   2  -3  21      5.91    313.98    313.93 <
+       290    1   7   3   6      5.91    313.98    313.93 <
+       291    2   2  -4   0 253945.00 226918.00   2658.23 o
+       291    1   0   4   6 253945.00 226918.00   2658.23 o
+       292    2   2  -4   6 177067.00 213187.00   3931.17 o
+       292    1   2   4   6 177067.00 213187.00   3931.17 o
+       293    2   2  -4  12  77030.90  79131.60    455.82 o
+       293    1   4   4   6  77030.90  79131.60    455.82 o
+       294    2   2  -4  18  27700.10  26137.20    446.80 o
+       294    1   6   4   6  27700.10  26137.20    446.80 o
+       295    2   2  -5   3  11867.10  10729.10    406.60 o
+       295    1   1   5   6  11867.10  10729.10    406.60 o
+       296    2   2  -5   9   3510.04   4311.53    295.76 o
+       296    1   3   5   6   3510.04   4311.53    295.76 o
+       297    2   2  -5  15    312.40    306.33    283.35 <
+       297    1   5   5   6    312.40    306.33    283.35 <
+       298    2   2  -6   0  56517.30  61295.80    957.44 o
+       298    1   0   6   6  56517.30  61295.80    957.44 o
+       299    2   2  -6   6  51903.30  59074.90    465.77 o
+       299    1   2   6   6  51903.30  59074.90    465.77 o
+       300    2   2  -6  12  35667.60  39990.80    359.64 o
+       300    1   4   6   6  35667.60  39990.80    359.64 o
+       301    2   2  -6  18  17096.60  16089.80    379.40 o
+       301    1   6   6   6  17096.60  16089.80    379.40 o
+       302    2   2  -7   3   6756.68   5674.68    463.26 o
+       302    1   1   7   6   6756.68   5674.68    463.26 o
+       303    2   2  -7   9   2112.56   2887.12    312.25 o
+       303    1   3   7   6   2112.56   2887.12    312.25 o
+       304    2   2  -7  15    138.99    206.77    329.29 <
+       304    1   5   7   6    138.99    206.77    329.29 <
+       305    2   2  -8   0  33008.90  57068.50    686.56 o
+       305    1   0   8   6  33008.90  57068.50    686.56 o
+       306    2   2  -8   6  25444.60  28411.70    485.62 o
+       306    1   2   8   6  25444.60  28411.70    485.62 o
+       307    2   2  -8  12  15403.30  14872.10    403.54 o
+       307    1   4   8   6  15403.30  14872.10    403.54 o
+       308    2   2  -8  18   8359.34   7880.23    492.21 o
+       308    1   6   8   6   8359.34   7880.23    492.21 o
+       309    2   2  -9   3   5242.49   5529.18    389.50 o
+       309    1   1   9   6   5242.49   5529.18    389.50 o
+       310    2   2  -9   9   1534.99   1592.89    313.91 o
+       310    1   3   9   6   1534.99   1592.89    313.91 o
+       311    2   2  -9  15    112.42    160.82    382.90 <
+       311    1   5   9   6    112.42    160.82    382.90 <
+       312    2   2 -10   0   1194.51   1232.96    566.68 o
+       312    1   0  10   6   1194.51   1232.96    566.68 o
+       313    2   2 -10   6   2335.63   2465.92    375.02 o
+       313    1   2  10   6   2335.63   2465.92    375.02 o
+       314    2   2 -10  12   4539.40   4288.56    383.67 o
+       314    1   4  10   6   4539.40   4288.56    383.67 o
+       315    2   2 -11   3   3539.47   3093.89    475.62 o
+       315    1   1  11   6   3539.47   3093.89    475.62 o
+       316    2   2 -11   9   1145.50   1317.20    321.46 o
+       316    1   3  11   6   1145.50   1317.20    321.46 o
+       317    2   2 -12   0   7337.97  11808.90    788.66 o
+       317    1   0  12   6   7337.97  11808.90    788.66 o
+       318    2   2 -12   6   5858.57   6249.04    435.05 o
+       318    1   2  12   6   5858.57   6249.04    435.05 o
+       319    2   2 -12  12   4108.64   3584.01    437.72 o
+       319    1   4  12   6   4108.64   3584.01    437.72 o
+       320    2   2 -13   3   1957.94   2113.65    466.96 o
+       320    1   1  13   6   1957.94   2113.65    466.96 o
+       321    2   2 -13   9    572.18    796.45    382.79 o
+       321    1   3  13   6    572.18    796.45    382.79 o
+       322    2   2 -14   0   1131.70   1010.87    620.36 <
+       322    1   0  14   6   1131.70   1010.87    620.36 <
+       323    1   1   0   7  60859.50  59863.70    853.67 o
+       324    1   3   0   7  27509.00  27845.00    616.29 o
+       325    1   5   0   7   7986.23   6953.59    425.94 o
+       326    1   7   0   7   1954.42   1960.48    497.77 o
+       327    1   0   1   7   9671.62   7282.89    493.01 o
+       328    1   2   1   7   3710.25   2802.88    255.68 o
+       329    1   4   1   7    207.05    291.01    283.33 <
+       330    1   6   1   7      0.23    -38.29    275.69 <
+       331    1   1   2   7  35231.40  37938.40    492.11 o
+       332    1   3   2   7  19716.90  21159.40    320.70 o
+       333    1   5   2   7   6991.10   6991.88    298.66 o
+       334    1   7   2   7   1978.34   1661.82    322.11 o
+       335    1   0   3   7  82813.80  75838.60   1275.93 o
+       336    1   2   3   7  45977.00  50742.80    528.28 o
+       337    1   4   3   7   9569.50  10139.40    301.35 o
+       338    1   6   3   7    999.06    765.81    291.19 o
+       339    1   1   4   7  33906.60  32133.60    556.92 o
+       340    1   3   4   7  17447.20  17123.60    318.68 o
+       341    1   5   4   7   6200.25   5406.65    287.56 o
+       342    1   7   4   7   1928.68   1853.27    360.04 o
+       343    1   0   5   7   8650.55   9817.74    530.57 o
+       344    1   2   5   7   7371.40   8132.95    339.94 o
+       345    1   4   5   7   3724.22   3913.31    290.34 o
+       346    1   6   5   7    930.22   1095.11    336.82 o
+       347    1   1   6   7   5961.66   6034.62    397.93 o
+       348    1   3   6   7   5360.64   5797.21    319.59 o
+       349    1   5   6   7   3502.71   3890.34    289.67 o
+       350    1   0   7   7  54512.40  50283.40    973.19 o
+       351    1   2   7   7  32438.40  31888.50    537.24 o
+       352    1   4   7   7   7600.77   7880.23    358.32 o
+       353    1   6   7   7    920.07    987.90    413.50 o
+       354    1   1   8   7   7768.94   8485.22    432.89 o
+       355    1   3   8   7   5598.38   6333.28    341.14 o
+       356    1   5   8   7   3269.45   3308.32    344.52 o
+       357    1   0   9   7     19.38    -38.29    574.36 <
+       358    1   2   9   7     24.89     91.90    329.30 <
+       359    1   4   9   7    202.34    367.59    382.87 <
+       360    1   1  10   7   2026.93   1715.42    444.51 o
+       361    1   3  10   7   2519.52   2465.92    367.69 o
+       362    1   5  10   7   2324.02   2703.32    389.90 o
+       363    1   0  11   7   8869.00   9235.72    718.63 o
+       364    1   2  11   7   5176.76   4847.60    567.47 o
+       365    1   4  11   7   1170.19   1569.92    413.17 o
+       366    1   1  12   7   4218.44   3905.65    498.45 o
+       367    1   3  12   7   3313.82   2963.70    406.59 o
+       368    1   0  13   7   2959.50   2052.38    766.56 o
+       369    1   2  13   7   1523.41   1378.47    505.55 o
+       370    1   1  14   7   1831.47   1501.00    505.72 o
+       371    1   0   0   8  31625.70  36284.30    951.23 o
+       372    1   2   0   8  31840.70  35342.30    541.28 o
+       373    1   4   0   8  27165.00  27316.60    557.07 o
+       374    1   6   0   8  17041.80  16511.00    578.46 o
+       375    1   1   1   8   1060.10   1600.55    251.91 o
+       376    1   3   1   8     83.59    237.40    245.03 <
+       377    1   5   1   8     21.15     84.24    298.66 <
+       378    1   7   1   8     13.54    421.20    390.49 <
+       379    1   0   2   8  47810.40  44631.70    814.82 o
+       380    1   2   2   8  42946.20  42602.20    505.59 o
+       381    1   4   2   8  31514.10  35633.30    299.12 o
+       382    1   6   2   8  18014.10  19053.50    408.70 o
+       383    1   1   3   8  54303.00  58753.30    450.35 o
+       384    1   3   3   8  17830.10  18785.40    346.62 o
+       385    1   5   3   8   2226.52   1952.83    306.81 o
+       386    1   7   3   8    115.66    191.45    352.27 <
+       387    1   0   4   8  55542.00  54640.80   1023.85 o
+       388    1   2   4   8  47548.10  46400.70    547.55 o
+       389    1   4   4   8  31010.60  30464.10    401.84 o
+       390    1   6   4   8  16060.70  15155.50    377.61 o
+       391    1   1   5   8   1901.05   2182.57    282.80 o
+       392    1   3   5   8   1557.54   1776.69    252.32 o
+       393    1   5   5   8    520.24    689.23    298.57 o
+       394    1   0   6   8  47358.60  47158.80    868.27 o
+       395    1   2   6   8  40100.40  41767.50    508.92 o
+       396    1   4   6   8  25134.90  28825.20    332.31 o
+       397    1   6   6   8  12336.10  12980.60    338.19 o
+       398    1   1   7   8  39066.30  40159.30    553.80 o
+       399    1   3   7   8  13489.60  14205.90    368.07 o
+       400    1   5   7   8   1807.99   1638.84    367.80 o
+       401    1   0   8   8  44086.70  39470.10    929.06 o
+       402    1   2   8   8  35805.10  35242.80    621.26 o
+       403    1   4   8   8  20387.40  20431.90    420.62 o
+       404    1   1   9   8     64.81    336.96    413.50 <
+       405    1   3   9   8     20.27    168.48    344.60 <
+       406    1   5   9   8     63.37    229.74    352.25 <
+       407    1   0  10   8  30055.50  28894.20    807.75 o
+       408    1   2  10   8  24559.10  22905.50    636.77 o
+       409    1   4  10   8  14035.30  14519.80    463.16 o
+       410    1   1  11   8   4394.90   3737.17    415.21 o
+       411    1   3  11   8   1266.59   1225.30    367.63 o
+       412    1   0  12   8  16004.80  16120.40    811.15 o
+       413    1   2  12   8  13094.00  11724.60    672.90 o
+       414    1   1  13   8   2816.72   2282.13    513.78 o
+       415    2   3   0   3  19588.20  16365.40    505.39 o
+       415    1   1   0   9  19588.20  16365.40    505.39 o
+       416    2   3   0   9   5237.05   7076.12    374.54 o
+       416    1   3   0   9   5237.05   7076.12    374.54 o
+       417    2   3   0  15    620.42    681.58    390.54 <
+       417    1   5   0   9    620.42    681.58    390.54 <
+       418    2   3   0  21    450.27    712.21    558.97 <
+       418    1   7   0   9    450.27    712.21    558.97 <
+       419    1   0   1   9   9671.73   6003.98    393.63 o
+       420    2   3  -1   6   4626.18   5559.81    247.49 o
+       420    1   2   1   9   4626.18   5559.81    247.49 o
+       421    2   3  -1  12    428.58    635.63    298.56 o
+       421    1   4   1   9    428.58    635.63    298.56 o
+       422    2   3  -1  18      2.95    160.82    367.58 <
+       422    1   6   1   9      2.95    160.82    367.58 <
+       423    2   3  -2   3  11363.40  17973.70    367.35 o
+       423    1   1   2   9  11363.40  17973.70    367.35 o
+       424    2   3  -2   9   2705.16   3515.09    257.67 o
+       424    1   3   2   9   2705.16   3515.09    257.67 o
+       425    2   3  -2  15    318.38    582.02    260.24 o
+       425    1   5   2   9    318.38    582.02    260.24 o
+       426    2   3  -2  21    435.79    589.68    336.89 <
+       426    1   7   2   9    435.79    589.68    336.89 <
+       427    1   0   3   9  14223.40  12881.00    514.79 o
+       428    2   3  -3   6   7481.93   8125.29    356.14 o
+       428    1   2   3   9   7481.93   8125.29    356.14 o
+       429    2   3  -3  12   1178.20   1064.48    283.47 o
+       429    1   4   3   9   1178.20   1064.48    283.47 o
+       430    2   3  -3  18     98.92    260.38    336.93 <
+       430    1   6   3   9     98.92    260.38    336.93 <
+       431    2   3  -4   3   1408.40   1309.54    268.17 o
+       431    1   1   4   9   1408.40   1309.54    268.17 o
+       432    2   3  -4   9    438.72    658.60    252.58 o
+       432    1   3   4   9    438.72    658.60    252.58 o
+       433    2   3  -4  15    906.35    704.55    252.88 o
+       433    1   5   4   9    906.35    704.55    252.88 o
+       434    1   0   5   9   6819.22   7236.94    519.23 o
+       435    2   3  -5   6   3353.67   4273.24    310.87 o
+       435    1   2   5   9   3353.67   4273.24    310.87 o
+       436    2   3  -5  12    291.11    444.17    283.30 <
+       436    1   4   5   9    291.11    444.17    283.30 <
+       437    2   3  -5  18      7.49    298.67    344.57 <
+       437    1   6   5   9      7.49    298.67    344.57 <
+       438    2   3  -6   3  14578.00  14022.10    517.18 o
+       438    1   1   6   9  14578.00  14022.10    517.18 o
+       439    2   3  -6   9   9787.72  12482.80    360.51 o
+       439    1   3   6   9   9787.72  12482.80    360.51 o
+       440    2   3  -6  15   4954.82   5207.54    320.57 o
+       440    1   5   6   9   4954.82   5207.54    320.57 o
+       441    1   0   7   9   9364.63   9159.14    628.77 o
+       442    2   3  -7   6   5301.22   5598.10    343.35 o
+       442    1   2   7   9   5301.22   5598.10    343.35 o
+       443    2   3  -7  12   1030.20    873.03    283.49 o
+       443    1   4   7   9   1030.20    873.03    283.49 o
+       444    2   3  -7  18    128.33    268.04    390.54 <
+       444    1   6   7   9    128.33    268.04    390.54 <
+       445    2   3  -8   3  23494.70  22974.40    564.76 o
+       445    1   1   8   9  23494.70  22974.40    564.76 o
+       446    2   3  -8   9  13993.10  16664.10    426.24 o
+       446    1   3   8   9  13993.10  16664.10    426.24 o
+       447    2   3  -8  15   5952.79   5414.31    392.62 o
+       447    1   5   8   9   5952.79   5414.31    392.62 o
+       448    1   0   9   9   3216.98   3346.61    528.20 o
+       449    2   3  -9   6   1565.79   1562.26    436.52 o
+       449    1   2   9   9   1565.79   1562.26    436.52 o
+       450    2   3  -9  12     99.10    252.72    336.93 <
+       450    1   4   9   9     99.10    252.72    336.93 <
+       451    2   3 -10   3  24945.30  19497.60    618.93 o
+       451    1   1  10   9  24945.30  19497.60    618.93 o
+       452    2   3 -10   9  15155.50  18065.60    494.62 o
+       452    1   3  10   9  15155.50  18065.60    494.62 o
+       453    1   0  11   9   3880.37   4081.79    535.67 o
+       454    2   3 -11   6   2245.48   2756.93    566.08 o
+       454    1   2  11   9   2245.48   2756.93    566.08 o
+       455    2   3 -11  12    445.11    604.99    451.78 <
+       455    1   4  11   9    445.11    604.99    451.78 <
+       456    2   3 -12   3  16103.40  13080.10    579.01 o
+       456    1   1  12   9  16103.40  13080.10    579.01 o
+       457    2   3 -12   9   9883.91  10736.70    701.17 o
+       457    1   3  12   9   9883.91  10736.70    701.17 o
+       458    1   0  13   9   1457.47   1447.39    819.43 <
+       459    2   3 -13   6    733.74    987.90    612.55 <
+       459    1   2  13   9    733.74    987.90    612.55 <
+       460    1   0   0  10  23013.90  24123.10    787.58 o
+       461    1   2   0  10  23159.70  23142.90    528.61 o
+       462    1   4   0  10  21036.20  23142.90    471.77 o
+       463    1   6   0  10  13788.20  15301.00    477.79 o
+       464    1   1   1  10  25845.20  26619.70    384.31 o
+       465    1   3   1  10   8159.69   8025.73    276.74 o
+       466    1   5   1  10   1075.68    865.37    337.11 o
+       467    1   0   2  10  39135.50  26129.60    778.24 o
+       468    1   2   2  10  34730.70  38413.20    371.61 o
+       469    1   4   2  10  24079.40  29705.90    239.37 o
+       470    1   6   2  10  13391.00  14749.60    369.13 o
+       471    1   1   3  10   1185.12   1769.03    244.06 o
+       472    1   3   3  10   1246.16   1968.14    236.00 o
+       473    1   5   3  10    565.73   1026.19    321.31 o
+       474    1   0   4  10  29986.40  31099.70    683.67 o
+       475    1   2   4  10  28051.10  27730.10    389.08 o
+       476    1   4   4  10  21518.30  21220.70    402.45 o
+       477    1   6   4  10  12276.50  12467.50    412.01 o
+       478    1   1   5  10  44097.50  41430.50    617.53 o
+       479    1   3   5  10  15912.20  17154.20    368.14 o
+       480    1   5   5  10   2437.96   2565.48    375.02 o
+       481    1   0   6  10  48864.20  47021.00    773.72 o
+       482    1   2   6  10  39073.10  41430.50    477.61 o
+       483    1   4   6  10  21849.00  22277.50    469.45 o
+       484    1   6   6  10   9961.44  10055.10    481.94 o
+       485    1   1   7  10   1670.16   2021.75    390.11 o
+       486    1   3   7  10   1405.61   1975.80    297.76 o
+       487    1   5   7  10    571.57    911.32    436.35 o
+       488    1   0   8  10  26999.20  28373.40    767.92 o
+       489    1   2   8  10  23463.50  23196.50    569.62 o
+       490    1   4   8  10  15143.70  14718.90    485.94 o
+       491    1   1   9  10  14136.00  14144.60    581.96 o
+       492    1   3   9  10   5131.03   5353.04    451.14 o
+       493    1   5   9  10    804.53    880.69    375.20 o
+       494    1   0  10  10  29622.10  27745.40    724.42 o
+       495    1   2  10  10  23010.70  21978.90    584.96 o
+       496    1   4  10  10  11884.00  11686.30    529.58 o
+       497    1   1  11  10   1496.52   1156.38    413.82 o
+       498    1   3  11  10    390.62    298.67    428.88 <
+       499    1   0  12  10   9697.25   9565.02    689.72 o
+       500    1   2  12  10   8533.77   7275.23    609.25 o
+       501    1   1  13  10    795.72    850.05    536.05 <
+       502    1   1   0  11  13559.00   9166.80    428.35 o
+       503    1   3   0  11   9507.16  11387.70    431.85 o
+       504    1   5   0  11   4266.08   4663.81    450.77 o
+       505    1   0   1  11  15113.40  17131.30    479.66 o
+       506    1   2   1  11   8312.58   9955.58    340.37 o
+       507    1   4   1  11   1458.07   1623.53    275.44 o
+       508    1   6   1  11     89.86    222.09    313.96 <
+       509    1   1   2  11  49469.70  49525.20    511.67 o
+       510    1   3   2  11  23371.50  27148.10    288.06 o
+       511    1   5   2  11   6989.05   8232.50    321.33 o
+       512    1   0   3  11    419.53    819.42    375.05 o
+       513    1   2   3  11    449.75    612.65    290.93 o
+       514    1   4   3  11    261.39    643.28    283.17 o
+       515    1   6   3  11     31.17    275.69    344.58 <
+       516    1   1   4  11   8039.72   7857.25    330.47 o
+       517    1   3   4  11   6559.24   6440.50    360.50 o
+       518    1   5   4  11   3669.81   3277.68    368.56 o
+       519    1   0   5  11  38508.20  40963.40    866.17 o
+       520    1   2   5  11  22708.50  24598.00    399.71 o
+       521    1   4   5  11   4897.31   5031.40    305.74 o
+       522    1   6   5  11    399.86    451.83    336.94 <
+       523    1   1   6  11  15613.40  15944.30    502.67 o
+       524    1   3   6  11   8685.67  10445.70    354.78 o
+       525    1   5   6  11   3571.00   4012.87    389.40 o
+       526    1   0   7  11    316.80     45.95    528.43 <
+       527    1   2   7  11    319.18    359.93    344.61 <
+       528    1   4   7  11    151.71    260.38    329.28 <
+       529    1   1   8  11    873.12   1003.22    398.14 o
+       530    1   3   8  11   1547.17   1562.26    398.21 o
+       531    1   5   8  11   1721.30   1853.27    444.03 o
+       532    1   0   9  11   7956.92   9450.15    606.80 o
+       533    1   2   9  11   4417.70   4878.24    458.22 o
+       534    1   4   9  11    735.88    850.05    428.80 <
+       535    1   1  10  11   6423.65   6065.25    521.89 o
+       536    1   3  10  11   4265.71   4319.19    444.03 o
+       537    1   0  11  11   1654.63   2335.73    627.36 o
+       538    1   2  11  11    931.18   1064.48    574.30 <
+       539    1   1  12  11    504.83    643.28    505.39 <
+       540    1   0  13  11    348.49   1041.51    712.00 <
+       541    2   4   0   0 156847.00 120708.00   2121.65 o
+       541    1   0   0  12 156847.00 120708.00   2121.65 o
+       542    2   4   0   6 119087.00  99693.70   1409.01 o
+       542    1   2   0  12 119087.00  99693.70   1409.01 o
+       543    2   4   0  12  58213.10  71932.90   1425.14 o
+       543    1   4   0  12  58213.10  71932.90   1425.14 o
+       544    2   4   0  18  21208.20  20554.50    610.95 o
+       544    1   6   0  12  21208.20  20554.50    610.95 o
+       545    2   4  -1   3   2675.75   2511.87    276.10 o
+       545    1   1   1  12   2675.75   2511.87    276.10 o
+       546    2   4  -1   9    632.28    398.22    252.84 <
+       546    1   3   1  12    632.28    398.22    252.84 <
+       547    2   4  -1  15     26.49    206.77    321.62 <
+       547    1   5   1  12     26.49    206.77    321.62 <
+       548    2   4  -2   0 204993.00 185182.00   1898.38 o
+       548    1   0   2  12 204993.00 185182.00   1898.38 o
+       549    2   4  -2   6 149544.00 136614.00   1301.71 o
+       549    1   2   2  12 149544.00 136614.00   1301.71 o
+       550    2   4  -2  12  64484.90  78641.50   1489.86 o
+       550    1   4   2  12  64484.90  78641.50   1489.86 o
+       551    2   4  -2  18  20736.80  21320.30    405.51 o
+       551    1   6   2  12  20736.80  21320.30    405.51 o
+       552    2   4  -3   3   2170.00   2450.61    282.73 o
+       552    1   1   3  12   2170.00   2450.61    282.73 o
+       553    2   4  -3   9    530.92    551.39    252.71 o
+       553    1   3   3  12    530.92    551.39    252.71 o
+       554    2   4  -3  15     26.96    153.16    283.34 <
+       554    1   5   3  12     26.96    153.16    283.34 <
+       555    2   4  -4   0  56329.40  46691.70    937.39 o
+       555    1   0   4  12  56329.40  46691.70    937.39 o
+       556    2   4  -4   6  45769.50  51746.10    413.88 o
+       556    1   2   4  12  45769.50  51746.10    413.88 o
+       557    2   4  -4  12  26717.60  31651.10    271.27 o
+       557    1   4   4  12  26717.60  31651.10    271.27 o
+       558    2   4  -4  18  11914.90  11885.40    398.46 o
+       558    1   6   4  12  11914.90  11885.40    398.46 o
+       559    2   4  -5   3   3068.76   3384.90    313.10 o
+       559    1   1   5  12   3068.76   3384.90    313.10 o
+       560    2   4  -5   9    914.10    773.47    268.15 o
+       560    1   3   5  12    914.10    773.47    268.15 o
+       561    2   4  -5  15    102.39    183.79    283.34 <
+       561    1   5   5  12    102.39    183.79    283.34 <
+       562    2   4  -6   0  53650.40  50046.00   1301.99 o
+       562    1   0   6  12  53650.40  50046.00   1301.99 o
+       563    2   4  -6   6  41959.80  42004.90    596.49 o
+       563    1   2   6  12  41959.80  42004.90    596.49 o
+       564    2   4  -6  12  21899.20  26895.40    360.64 o
+       564    1   4   6  12  21899.20  26895.40    360.64 o
+       565    2   4  -7   3   1412.79   1493.34    359.85 o
+       565    1   1   7  12   1412.79   1493.34    359.85 o
+       566    2   4  -7   9    396.12    620.31    359.84 <
+       566    1   3   7  12    396.12    620.31    359.84 <
+       567    2   4  -7  15     29.72    130.19    375.24 <
+       567    1   5   7  12     29.72    130.19    375.24 <
+       568    2   4  -8   0   4748.26   1393.78    578.26 o
+       568    1   0   8  12   4748.26   1393.78    578.26 o
+       569    2   4  -8   6   4512.98   3844.39    499.23 o
+       569    1   2   8  12   4512.98   3844.39    499.23 o
+       570    2   4  -8  12   4780.54   5353.04    434.70 o
+       570    1   4   8  12   4780.54   5353.04    434.70 o
+       571    2   4  -9   3   1066.32   1523.97    390.14 o
+       571    1   1   9  12   1066.32   1523.97    390.14 o
+       572    2   4  -9   9    271.93    421.20    390.53 <
+       572    1   3   9  12    271.93    421.20    390.53 <
+       573    2   4 -10   0   6481.13   6930.62    619.00 o
+       573    1   0  10  12   6481.13   6930.62    619.00 o
+       574    2   4 -10   6   5722.77   5115.64    552.95 o
+       574    1   2  10  12   5722.77   5115.64    552.95 o
+       575    2   4 -10  12   4106.32   4970.13    495.61 o
+       575    1   4  10  12   4106.32   4970.13    495.61 o
+       576    2   4 -11   3    900.04    842.40    505.46 <
+       576    1   1  11  12    900.04    842.40    505.46 <
+       577    2   4 -11   9    277.49    612.65    490.03 <
+       577    1   3  11  12    277.49    612.65    490.03 <
+       578    2   4 -12   0    954.34     76.58    704.67 <
+       578    1   0  12  12    954.34     76.58    704.67 <
+       579    2   4 -12   6    841.50    436.51    597.44 <
+       579    1   2  12  12    841.50    436.51    597.44 <
+       580    1   1   0  13  12239.00  12276.00    451.56 o
+       581    1   3   0  13   8866.73   8699.65    414.48 o
+       582    1   5   0  13   4261.65   3729.52    391.98 o
+       583    1   0   1  13     10.77     30.63    352.27 <
+       584    1   2   1  13      2.98     15.32    275.69 <
+       585    1   4   1  13     46.12    291.01    237.35 <
+       586    1   6   1  13     27.43    444.17    321.54 <
+       587    1   1   2  13  36369.90  34928.80    509.89 o
+       588    1   3   2  13  17268.80  17644.40    331.71 o
+       589    1   5   2  13   5144.45   5169.25    336.86 o
+       590    1   0   3  13  18827.20  19528.30    498.25 o
+       591    1   2   3  13  11579.90  12406.20    414.80 o
+       592    1   4   3  13   2929.98   2902.44    306.39 o
+       593    1   6   3  13    385.70    513.10    298.61 <
+       594    1   1   4  13   4531.36   4885.89    312.55 o
+       595    1   3   4  13   4415.81   4403.43    344.66 o
+       596    1   5   4  13   2909.94   2917.75    359.92 o
+       597    1   0   5  13   9563.86  10468.70    585.50 o
+       598    1   2   5  13   7205.77   8232.50    346.09 o
+       599    1   4   5  13   3012.14   3584.01    350.80 o
+       600    1   1   6  13  12971.50  12567.00    454.85 o
+       601    1   3   6  13   6980.23   7045.49    382.59 o
+       602    1   5   6  13   2774.66   3224.08    397.30 o
+       603    1   0   7  13  15765.70  16916.80    612.07 o
+       604    1   2   7  13  10004.50   9565.02    431.50 o
+       605    1   4   7  13   2786.73   2971.36    351.87 o
+       606    1   1   8  13    421.78    834.74    382.71 o
+       607    1   3   8  13   1057.75   1393.78    443.91 o
+       608    1   0   9  13    794.44   1041.51    635.53 <
+       609    1   2   9  13    740.76   1286.57    482.13 o
+       610    1   4   9  13    467.93   1133.41    474.46 o
+       611    1   1  10  13   5127.67   5085.01    490.24 o
+       612    1   3  10  13   3161.09   3400.22    428.36 o
+       613    1   0  11  13   2186.34   2481.24    688.96 o
+       614    1   2  11  13   1386.11   1592.89    497.61 o
+       615    1   1  12  13    274.13    604.99    497.69 <
+       616    1   0   0  14   2319.60   2603.77    520.39 o
+       617    1   2   0  14   4212.16   4686.78    504.30 o
+       618    1   4   0  14   7273.77   7688.77    411.51 o
+       619    1   6   0  14   6243.70   6517.08    581.21 o
+       620    1   1   1  14     12.99    130.19    252.71 <
+       621    1   3   1  14     29.08     30.63    275.69 <
+       622    1   5   1  14     15.33    245.06    298.63 <
+       623    1   0   2  14  29298.00  24598.00    678.18 o
+       624    1   2   2  14  23293.20  24697.50    350.23 o
+       625    1   4   2  14  13596.90  14550.50    349.73 o
+       626    1   1   3  14  11750.40  11686.30    345.20 o
+       627    1   3   3  14   4548.96   4533.62    275.76 o
+       628    1   5   3  14    744.60    627.97    314.05 <
+       629    1   0   4  14   7041.00   6930.62    444.63 o
+       630    1   2   4  14   8414.09   8653.70    350.72 o
+       631    1   4   4  14   9083.38   9572.68    356.51 o
+       632    1   1   5  14   3264.98   3997.55    311.64 o
+       633    1   3   5  14   1542.51   1952.83    290.33 o
+       634    1   5   5  14    299.44    528.41    352.20 <
+       635    1   0   6  14  30677.90  32853.40    835.70 o
+       636    1   2   6  14  23292.70  23701.90    461.61 o
+       637    1   4   6  14  11821.80  13547.30    406.78 o
+       638    1   1   7  14   9106.84   9251.04    612.07 o
+       639    1   3   7  14   3625.69   3775.46    390.18 o
+       640    1   0   8  14   7926.50   8025.73    596.98 o
+       641    1   2   8  14   7990.62   8255.48    565.68 o
+       642    1   4   8  14   6630.17   6570.69    513.30 o
+       643    1   1   9  14    295.74    405.88    405.86 <
+       644    1   3   9  14    186.94    321.64    421.17 <
+       645    1   0  10  14  21391.20  20278.80    743.47 o
+       646    1   2  10  14  15924.50  14941.00    551.04 o
+       647    1   1  11  14    605.43    742.84    444.11 <
+       648    2   5   0   3  13254.80  13325.20    458.95 o
+       648    1   1   0  15  13254.80  13325.20    458.95 o
+       649    2   5   0   9   3206.05   4242.61    434.04 o
+       649    1   3   0  15   3206.05   4242.61    434.04 o
+       650    2   5   0  15    161.07    237.40    451.82 <
+       650    1   5   0  15    161.07    237.40    451.82 <
+       651    1   0   1  15    172.47    505.44    352.17 <
+       652    2   5  -1   6    104.02    183.79    283.34 <
+       652    1   2   1  15    104.02    183.79    283.34 <
+       653    2   5  -1  12      7.88    114.87    268.03 <
+       653    1   4   1  15      7.88    114.87    268.03 <
+       654    2   5  -2   3    514.48    589.68    260.33 o
+       654    1   1   2  15    514.48    589.68    260.33 o
+       655    2   5  -2   9    420.78    520.75    283.30 <
+       655    1   3   2  15    420.78    520.75    283.30 <
+       656    2   5  -2  15    538.66    696.89    336.88 o
+       656    1   5   2  15    538.66    696.89    336.88 o
+       657    1   0   3  15    987.42   1217.64    398.05 o
+       658    2   5  -3   6    654.68    765.81    321.58 o
+       658    1   2   3  15    654.68    765.81    321.58 o
+       659    2   5  -3  12    213.14    283.35    336.94 <
+       659    1   4   3  15    213.14    283.35    336.94 <
+       660    2   5  -4   3   2411.93   1929.85    314.84 o
+       660    1   1   4  15   2411.93   1929.85    314.84 o
+       661    2   5  -4   9    395.30    582.02    382.84 <
+       661    1   3   4  15    395.30    582.02    382.84 <
+       662    2   5  -4  15    412.17    880.69    329.02 o
+       662    1   5   4  15    412.17    880.69    329.02 o
+       663    1   0   5  15     73.00    367.59    490.08 <
+       664    2   5  -5   6     52.60     15.32    313.98 <
+       664    1   2   5  15     52.60     15.32    313.98 <
+       665    2   5  -5  12     13.09    367.59    413.48 <
+       665    1   4   5  15     13.09    367.59    413.48 <
+       666    2   5  -6   3  14722.90  14091.00    419.33 o
+       666    1   1   6  15  14722.90  14091.00    419.33 o
+       667    2   5  -6   9   8020.12   8132.95    405.28 o
+       667    1   3   6  15   8020.12   8132.95    405.28 o
+       668    1   0   7  15    816.30    719.86    582.05 <
+       669    2   5  -7   6    578.92    612.65    428.84 <
+       669    1   2   7  15    578.92    612.65    428.84 <
+       670    2   5  -7  12    235.14    398.22    375.21 <
+       670    1   4   7  15    235.14    398.22    375.21 <
+       671    2   5  -8   3   4358.88   2902.44    492.80 o
+       671    1   1   8  15   4358.88   2902.44    492.80 o
+       672    2   5  -8   9   3696.17   2979.02    598.36 o
+       672    1   3   8  15   3696.17   2979.02    598.36 o
+       673    1   0   9  15      2.68    214.43    597.32 <
+       674    2   5  -9   6     13.39     53.61    428.86 <
+       674    1   2   9  15     13.39     53.61    428.86 <
+       675    2   5 -10   3  17318.10  18280.00    542.97 o
+       675    1   1  10  15  17318.10  18280.00    542.97 o
+       676    1   0  11  15    264.27    612.65    742.78 <
+       677    1   0   0  16   1124.68   1225.30    528.35 o
+       678    1   2   0  16   2255.53   2818.20    427.93 o
+       679    1   4   0  16   4357.74   5621.08    478.82 o
+       680    1   1   1  16   1028.55    888.34    260.51 o
+       681    1   3   1  16    442.67    413.54    268.05 <
+       682    1   5   1  16     91.19    145.51    329.30 <
+       683    1   0   2  16  21035.00  20745.90    531.44 o
+       684    1   2   2  16  16709.80  17644.40    355.64 o
+       685    1   4   2  16   9683.22  11464.20    345.29 o
+       686    1   1   3  16   5013.85   5353.04    312.47 o
+       687    1   3   3  16   2349.40   3323.63    326.93 o
+       688    1   5   3  16    553.19   1003.22    298.33 o
+       689    1   0   4  16   2953.49   2848.83    429.04 o
+       690    1   2   4  16   3946.30   4097.11    336.48 o
+       691    1   4   4  16   4947.04   5628.73    380.33 o
+       692    1   1   5  16   5176.84   5958.03    348.89 o
+       693    1   3   5  16   2240.76   2588.45    313.25 o
+       694    1   0   6  16  25138.70  26857.10    702.93 o
+       695    1   2   6  16  19030.20  19543.60    469.19 o
+       696    1   4   6  16   9500.06   9473.12    398.39 o
+       697    1   1   7  16   4245.82   5215.19    572.16 o
+       698    1   3   7  16   2014.91   2573.14    451.04 o
+       699    1   0   8  16   4838.52   5107.98    658.05 o
+       700    1   2   8  16   4971.70   4480.01    644.23 o
+       701    1   1   9  16   1190.33   1309.54    451.74 o
+       702    1   0  10  16  15668.90  13218.00    785.24 o
+       703    1   1   0  17   4738.64   5130.96    427.63 o
+       704    1   3   0  17   3982.41   4571.91    411.87 o
+       705    1   5   0  17   2237.36   3239.39    465.48 o
+       706    1   0   1  17    130.49    382.91    390.51 <
+       707    1   2   1  17     84.71    306.33    313.94 <
+       708    1   4   1  17     19.50     99.56    329.30 <
+       709    1   1   2  17  20318.80  18280.00    394.64 o
+       710    1   3   2  17  10039.40  11096.60    351.42 o
+       711    1   0   3  17   3858.51   3461.48    414.46 o
+       712    1   2   3  17   2426.12   3093.89    373.88 o
+       713    1   4   3  17    600.70    911.32    329.10 o
+       714    1   1   4  17   2720.51   3086.23    297.70 o
+       715    1   3   4  17   2736.92   3484.45    427.35 o
+       716    1   0   5  17   3094.66   2596.11    552.05 o
+       717    1   2   5  17   1993.56   2136.62    344.39 o
+       718    1   4   5  17    506.57    643.28    352.21 <
+       719    1   1   6  17   7492.28   7910.86    426.83 o
+       720    1   3   6  17   4047.59   4502.99    412.26 o
+       721    1   0   7  17   2486.80   2848.83    888.05 o
+       722    1   2   7  17   1531.58   1975.80    451.35 o
+       723    1   1   8  17    268.29    566.70    421.11 <
+       724    1   0   9  17    150.23    444.17    589.63 <
+       725    1   2   9  17     83.21    268.04    482.44 <
+       726    2   6   0   0  39373.90  35870.70    904.47 o
+       726    1   0   0  18  39373.90  35870.70    904.47 o
+       727    2   6   0   6  31488.20  30050.50    661.23 o
+       727    1   2   0  18  31488.20  30050.50    661.23 o
+       728    2   6   0  12  16843.10  16817.30    566.91 o
+       728    1   4   0  18  16843.10  16817.30    566.91 o
+       729    2   6  -1   3    106.40    222.09    275.67 <
+       729    1   1   1  18    106.40    222.09    275.67 <
+       730    2   6  -1   9     24.94    245.06    298.63 <
+       730    1   3   1  18     24.94    245.06    298.63 <
+       731    2   6  -2   0  54405.90  51524.00    745.46 o
+       731    1   0   2  18  54405.90  51524.00    745.46 o
+       732    2   6  -2   6  40295.80  35618.00    570.54 o
+       732    1   2   2  18  40295.80  35618.00    570.54 o
+       733    2   6  -2  12  17907.70  18226.40    386.60 o
+       733    1   4   2  18  17907.70  18226.40    386.60 o
+       734    2   6  -3   3    120.76    245.06    336.94 <
+       734    1   1   3  18    120.76    245.06    336.94 <
+       735    2   6  -3   9     44.53    336.96    344.56 <
+       735    1   3   3  18     44.53    336.96    344.56 <
+       736    2   6  -4   0  15288.90   8898.76    548.50 o
+       736    1   0   4  18  15288.90   8898.76    548.50 o
+       737    2   6  -4   6  13040.20  12184.10    397.79 o
+       737    1   2   4  18  13040.20  12184.10    397.79 o
+       738    2   6  -4  12   8247.34   8508.20    373.68 o
+       738    1   4   4  18   8247.34   8508.20    373.68 o
+       739    2   6  -5   3      6.49     15.32    344.62 <
+       739    1   1   5  18      6.49     15.32    344.62 <
+       740    2   6  -5   9      2.14    329.30    336.90 <
+       740    1   3   5  18      2.14    329.30    336.90 <
+       741    2   6  -6   0  16052.90  15086.50    679.78 o
+       741    1   0   6  18  16052.90  15086.50    679.78 o
+       742    2   6  -6   6  12561.70  10644.80    442.10 o
+       742    1   2   6  18  12561.70  10644.80    442.10 o
+       743    2   6  -7   3     48.75    306.33    513.07 <
+       743    1   1   7  18     48.75    306.33    513.07 <
+       744    2   6  -8   0   1729.97    827.08    666.67 <
+       744    1   0   8  18   1729.97    827.08    666.67 <
+       745    2   6  -8   6   1687.26    888.34    613.05 <
+       745    1   2   8  18   1687.26    888.34    613.05 <
+       746    1   1   0  19   4189.66   4633.18    427.62 o
+       747    1   3   0  19   3246.30   2879.46    452.48 o
+       748    1   0   1  19   1058.35   1439.73    420.88 o
+       749    1   2   1  19    625.81    934.29    321.43 o
+       750    1   4   1  19    138.39    673.92    336.75 <
+       751    1   1   2  19  12396.10  13654.50    355.30 o
+       752    1   3   2  19   6516.52   7014.86    365.11 o
+       753    1   0   3  19   1473.63   1968.14    428.30 o
+       754    1   2   3  19   1124.85   1470.36    397.91 o
+       755    1   1   4  19   1611.87   1761.37    359.74 o
+       756    1   3   4  19   1605.26   1883.90    351.90 o
+       757    1   0   5  19   6694.47   7183.34    595.80 o
+       758    1   2   5  19   4459.38   4947.16    404.35 o
+       759    1   1   6  19   4893.60   4349.82    430.39 o
+       760    1   0   7  19   1609.84   2243.84    796.02 o
+       761    1   2   7  19   1236.05   1585.24    489.84 o
+       762    1   0   0  20    622.63    658.60    528.40 <
+       763    1   2   0  20    998.99    827.08    428.95 <
+       764    1   1   1  20   1164.25   1125.75    314.02 o
+       765    1   3   1  20    420.02    995.56    382.58 o
+       766    1   0   2  20   5695.39   5330.07    475.92 o
+       767    1   2   2  20   4820.38   4855.26    382.79 o
+       768    1   1   3  20    512.34    643.28    359.87 <
+       769    1   3   3  20    296.53    681.58    344.45 <
+       770    1   0   4  20   1848.32   1715.42    474.94 o
+       771    1   2   4  20   2112.54   2090.67    375.28 o
+       772    1   1   5  20   3597.84   3974.58    397.25 o
+       773    1   0   6  20   6784.73   6233.73    614.19 o
+       774    2   7   0   3   1157.21   1516.31    443.87 o
+       774    1   1   0  21   1157.21   1516.31    443.87 o
+       775    1   0   1  21    520.20    428.86    444.20 <
+       776    2   7  -1   6    297.94    574.36    321.53 <
+       776    1   2   1  21    297.94    574.36    321.53 <
+       777    2   7  -2   3    128.26    306.33    344.58 <
+       777    1   1   2  21    128.26    306.33    344.58 <
+       778    1   0   3  21    141.94    627.97    459.36 <
+       779    2   7  -3   6     55.78    344.62    390.52 <
+       779    1   2   3  21     55.78    344.62    390.52 <
+       780    2   7  -4   3    185.24    405.88    359.88 <
+       780    1   1   4  21    185.24    405.88    359.88 <
+       781    1   0   5  21    494.79    834.74    612.54 <
+       782    1   0   0  22    794.88    873.03    650.91 <
+       783    1   1   1  22      5.68    275.69    344.58 <
+       784    1   0   2  22   2417.68   2190.23    513.36 o
+

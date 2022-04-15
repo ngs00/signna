@@ -1,0 +1,54 @@
+#======================================================================
+
+# CRYSTAL DATA
+
+#----------------------------------------------------------------------
+
+data_VESTA_phase_1
+
+
+_chemical_name_common                  ''
+_cell_length_a                         13.1313(9)
+_cell_length_b                         7.9763(6)
+_cell_length_c                         11.7972(8)
+_cell_angle_alpha                      90
+_cell_angle_beta                       91.4752(15)
+_cell_angle_gamma                      90
+_space_group_name_H-M_alt              'P 21/c'
+_space_group_IT_number                 14
+
+loop_
+_space_group_symop_operation_xyz
+   'x, y, z'
+   '-x, -y, -z'
+   '-x, y+1/2, -z+1/2'
+   'x, -y+1/2, z+1/2'
+
+loop_
+   _atom_site_label
+   _atom_site_occupancy
+   _atom_site_fract_x
+   _atom_site_fract_y
+   _atom_site_fract_z
+   _atom_site_adp_type
+   _atom_site_U_iso_or_equiv
+   _atom_site_type_symbol
+   Pb1        1.0     0.18823(2)    0.75436(3)    0.76100(2)   Uiso  0.015966 Pb
+   Br1        1.0     0.19448(4)    0.82039(8)    0.51130(4)   Uiso  0.022002 Br
+   Br2        1.0     0.32217(4)    1.02601(8)    0.80592(5)   Uiso  0.023756 Br
+   Br3        1.0     0.37389(5)    0.53976(8)    0.73664(5)   Uiso  0.025251 Br
+   Br4        1.0     0.01659(4)    1.01333(7)    0.74766(5)   Uiso  0.021803 Br
+
+loop_
+   _atom_site_aniso_label
+   _atom_site_aniso_U_11
+   _atom_site_aniso_U_22
+   _atom_site_aniso_U_33
+   _atom_site_aniso_U_12
+   _atom_site_aniso_U_13
+   _atom_site_aniso_U_23
+   Pb1	 0.01425  0.02048  0.01308 -0.00060 -0.00137  0.00107
+   Br1	 0.02250  0.03070  0.01280 -0.00070  0.00031  0.00020
+   Br2	 0.01950  0.02390  0.02760 -0.00380 -0.00460  0.00330
+   Br3	 0.02260  0.02880  0.02440  0.00250  0.00150  0.00380
+   Br4	 0.01910  0.02300  0.02330  0.00120  0.00037  0.00200

@@ -1,0 +1,77 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC) in cooperation with FIZ Karlsruhe.
+# 
+# Please note that these data are only for research purposes or private use.
+# For detailed information please see under Terms & Conditions.
+# Full information about CCDC and FIZ Karlsruhe data access policies and 
+# citation guidelines are available at http://www.ccdc.cam.ac.uk/access/V1
+# 
+# Audit and citation data items may have been added by FIZ Karlsruhe. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_415012-ICSD
+_database_code_depnum_ccdc_archive 'CCDC 1729224'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1002/zaac.200400484 2005
+_audit_update_record             
+;
+2018-03-01 deposited with the CCDC.	2020-05-10 downloaded from the CCDC.
+;
+_database_code_ICSD              415012
+_chemical_name_systematic        
+;
+Trithallium Nonaiododibismuthate(III)
+;
+_chemical_formula_sum            'Bi2 I9 Tl3'
+_cell_length_a                   14.389
+_cell_length_b                   7.7154
+_cell_length_c                   20.91
+_cell_angle_alpha                90
+_cell_angle_beta                 93.309
+_cell_angle_gamma                90
+_cell_volume                     2317.49
+_cell_formula_units_Z            4
+_symmetry_space_group_name_H-M   'P 1 21/n 1'
+_symmetry_Int_Tables_number      14
+_symmetry_cell_setting           monoclinic
+_refine_ls_R_factor_all          0.039
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 '-x+1/2, y+1/2, -z+1/2'
+2 '-x, -y, -z'
+3 'x+1/2, -y+1/2, z+1/2'
+4 'x, y, z'
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Tl1 Tl1+ 0.96021 0.04625 0.28514
+Tl2 Tl1+ 0.30062 0.04442 0.95019
+Tl3 Tl1+ 0.3651 0.95579 0.38246
+Bi1 Bi3+ 0.33266 0.01664 0.65505
+Bi2 Bi3+ 0.3324 0.99918 0.15578
+I1 I1- 0.01059 0.62644 0.23982
+I2 I1- 0.34302 0.60549 0.91591
+I3 I1- 0.33201 0.39695 0.42647
+I4 I1- 0.09411 0.32348 0.95271
+I5 I1- 0.03456 0.31773 0.42245
+I6 I1- 0.42996 0.33329 0.61991
+I7 I1- 0.36251 0.32476 0.0861
+I8 I1- 0.76405 0.33464 0.29029
+I9 I1- 0.68833 0.33842 0.7539
+
+#End of data_415012-ICSD
+
+

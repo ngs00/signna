@@ -1,0 +1,508 @@
+
+#######################################################################
+#
+#                 Cambridge Crystallographic Data Centre
+#                                CCDC 
+#
+#######################################################################
+#
+# If this CIF has been generated directly or indirectly from an entry in the 
+# Cambridge Structural Database, then it will include bibliographic, chemical, 
+# crystal, experimental, refinement or atomic coordinate data resulting from 
+# the CCDC's data processing and validation procedures. Files generated from 
+# CSD entries are Copyright 2013 Cambridge Crystallographic Data Centre. They 
+# may be used in bona fide research applications only, and may not be copied or 
+# further disseminated in any form, whether machine-readable or not, except for 
+# the purposes of generating routine backup copies on your local computer 
+# system.
+# 
+# Files arising from any other source may also contain material that is the 
+# copyright of third parties, including the originator, and you should check 
+# with the originator concerning the permitted uses of the information 
+# contained in this CIF.
+#
+# For further information on the CCDC and the free tools enCIFer and Mercury
+# for validating and visualising CIF files, please visit www.ccdc.cam.ac.uk
+#
+#######################################################################
+
+data_Final
+_publ_contact_author_name        'Hemamala Karunadasa'
+_publ_contact_author_address     
+;Chemistry Dept.
+Stanford University
+;
+_publ_contact_author_email       hemamala@stanford.edu
+loop_
+_publ_author_name
+_publ_author_address
+'Karunadasa, Hemamala I.'
+;Chemistry Dept.
+Stanford University
+;
+'Dohner, Emma R.'
+;Chemistry Dept.
+Stanford University
+;
+
+data_I
+_chemical_name_systematic               ?
+_chemical_name_common                   [PbBr4](NMPDA)
+_chemical_formula_moiety                ?
+_chemical_formula_sum                   'C4 H14 Br4 N2 Pb'
+_chemical_formula_iupac                 ?
+_chemical_formula_weight                617.00
+
+_chemical_melting_point                 ?
+
+_space_group_crystal_system             monoclinic
+_space_group_name_H-M_alt               'P 1 21/c 1'
+_space_group_name_Hall                  '-P 2ybc'
+loop_
+    _space_group_symop_operation_xyz
+    'x, y, z'
+    '-x, y+1/2, -z+1/2'
+    '-x, -y, -z'
+    'x, -y-1/2, z-1/2'
+
+_cell_length_a                          8.3162(4)
+_cell_length_b                          8.3161(3)
+_cell_length_c                          20.1181(9)
+_cell_angle_alpha                       90
+_cell_angle_beta                        101.695(2)
+_cell_angle_gamma                       90
+_cell_volume                            1362.45(10)
+_cell_formula_units_Z                   4
+_cell_measurement_reflns_used           9916
+_cell_measurement_theta_min             2.6585
+_cell_measurement_theta_max             25.3949
+_cell_measurement_temperature           100.(2)
+
+_exptl_crystal_description              plate
+_exptl_crystal_colour                   colourless
+_exptl_crystal_size_max                 0.050
+_exptl_crystal_size_mid                 0.020
+_exptl_crystal_size_min                 0.010
+_exptl_crystal_density_diffrn           3.008
+_exptl_crystal_density_meas             ?
+_exptl_crystal_density_method           'not measured'
+_exptl_crystal_F_000                    1096
+
+_exptl_absorpt_coefficient_mu           24.072
+_exptl_absorpt_correction_type          multi-scan
+_exptl_absorpt_process_details          'SADABS V2008/1 (Bruker AXS Inc.)'
+_exptl_absorpt_correction_T_min         0.42
+_exptl_absorpt_correction_T_max         0.79
+
+_exptl_special_details                  
+;
+; 
+
+_diffrn_ambient_temperature             100.(2)
+
+_diffrn_source                          ?
+_diffrn_source_type                     ?
+
+_diffrn_radiation_type                  ?
+_diffrn_radiation_wavelength            0.71073
+_diffrn_radiation_monochromator         ?
+
+_diffrn_measurement_device_type         ?
+_diffrn_measurement_method              ?
+
+_diffrn_detector_area_resol_mean        10.4167
+
+_diffrn_reflns_number                   16003
+_diffrn_reflns_av_R_equivalents         0.0452
+_diffrn_reflns_av_sigmaI/netI           0.0296
+_diffrn_reflns_theta_min                2.07
+_diffrn_reflns_theta_max                25.02
+_diffrn_reflns_theta_full               25.02
+_diffrn_measured_fraction_theta_max     0.995
+_diffrn_measured_fraction_theta_full    0.995
+_diffrn_reflns_limit_h_min              -9
+_diffrn_reflns_limit_h_max              9
+_diffrn_reflns_limit_k_min              -9
+_diffrn_reflns_limit_k_max              9
+_diffrn_reflns_limit_l_min              -23
+_diffrn_reflns_limit_l_max              23
+
+_refine_special_details                 
+;
+Refinement of F^2^ against ALL reflections.  The weighted R-factor wR and
+goodness of fit S are based on F^2^, conventional R-factors R are based
+on F, with F set to zero for negative F^2^. The threshold expression of
+F^2^ > 2sigma(F^2^) is used only for calculating R-factors(gt) etc. and is
+not relevant to the choice of reflections for refinement.  R-factors based
+on F^2^ are statistically about twice as large as those based on F, and R-
+factors based on ALL data will be even larger.
+;
+
+_reflns_number_total                    2467
+_reflns_number_gt                       2166
+_reflns_threshold_expression            >2sigma(I)
+
+_refine_ls_structure_factor_coef        Fsqd
+_refine_ls_matrix_type                  full
+_refine_ls_R_factor_all                 0.0822
+_refine_ls_R_factor_gt                  0.0755
+_refine_ls_wR_factor_gt                 0.1719
+_refine_ls_wR_factor_ref                0.1748
+_refine_ls_goodness_of_fit_ref          1.161
+_refine_ls_restrained_S_all             1.126
+_refine_ls_number_reflns                2467
+_refine_ls_number_parameters            160
+_refine_ls_number_restraints            164
+_refine_ls_hydrogen_treatment           constr
+_refine_ls_weighting_scheme             calc
+_refine_ls_weighting_details
+    'calc w=1/[\s^2^(Fo^2^)+(0.0001P)^2^+161.2138P] where P=(Fo^2^+2Fc^2^)/3'
+
+_atom_sites_solution_hydrogens          geom
+_atom_sites_solution_primary            direct
+_atom_sites_solution_secondary          difmap
+
+_refine_ls_shift/su_max                 0.001
+_refine_ls_shift/su_mean                0.000
+_refine_diff_density_max                6.863
+_refine_diff_density_min                -5.756
+_refine_ls_extinction_method            none
+_refine_ls_extinction_coef              ?
+_iucr_refine_instructions_details
+;
+
+TITL p21c in P2(1)/c
+CELL 0.71073   8.3162   8.3161  20.1181  90.000 101.695  90.000
+ZERR    4.00   0.0004   0.0003   0.0009   0.000   0.002   0.000
+LATT 1
+SYMM -X, 0.5+Y, 0.5-Z
+SFAC C  H  Br N  Pb
+UNIT 16  56  16  8  4
+L.S. 10
+ACTA
+FMAP 2
+PLAN 10
+TWIN 1 0 0 0 -1 0 -1 0 -1
+CONF
+TEMP -173
+SIZE 0.05 0.02 0.01
+DFIX 1.54 C1 N1 N1 C3 C3 C4 C4 C5 C5 N2
+DELU N2 > N2A
+SIMU N2 > N2A
+WGHT    0.000100  161.213791
+BASF   0.86508
+FVAR       0.04832   0.37267
+PART 4
+PB1   5    0.750415    0.354388    0.250906    11.00000    0.02307    0.02216 =
+         0.03372    0.00122    0.00881   -0.00050
+BR1   3    0.815285    0.374746    0.403990    11.00000    0.08650    0.04701 =
+         0.04308    0.00036   -0.00213    0.00133
+BR2   3    0.538276    0.642232    0.249512    11.00000    0.05148    0.04117 =
+         0.06595    0.00576    0.02129    0.02343
+BR3   3    0.682216    0.333563    0.099240    11.00000    0.08632    0.07244 =
+         0.04232    0.00884   -0.00308   -0.04055
+BR4   3    1.027574    0.570713    0.242867    11.00000    0.04825    0.04192 =
+         0.06647   -0.00796    0.01696   -0.02225
+PART 1
+N2    4    0.453713    0.112431    0.948741    21.00000    0.08404    0.05343 =
+         0.11636   -0.01136   -0.02186    0.01298
+AFIX 137
+H1A   2    0.535910    0.096441    0.925707    21.00000   -1.50000
+H1B   2    0.453170    0.030585    0.978718    21.00000   -1.50000
+H1C   2    0.470153    0.207312    0.971648    21.00000   -1.50000
+AFIX   0
+C5    1    0.288212    0.117417    0.898379    21.00000    0.06980    0.04552 =
+         0.05825   -0.02002    0.00440    0.01579
+AFIX  23
+H1D   2    0.301522    0.113407    0.850609    21.00000   -1.20000
+H1E   2    0.213381    0.030574    0.906785    21.00000   -1.20000
+AFIX   0
+C4    1    0.231968    0.283271    0.917818    21.00000    0.06041    0.04968 =
+         0.04585   -0.02487    0.00619    0.00799
+AFIX  23
+H3A   2    0.114551    0.302525    0.898018    21.00000   -1.20000
+H3B   2    0.298984    0.370649    0.903912    21.00000   -1.20000
+AFIX   0
+C3    1    0.262387    0.265836    0.995296    21.00000    0.05703    0.04132 =
+         0.04779   -0.00766    0.00956    0.00695
+AFIX  23
+H4A   2    0.230052    0.157142    1.007803    21.00000   -1.20000
+H4B   2    0.380151    0.282092    1.015363    21.00000   -1.20000
+AFIX   0
+N1    4    0.158400    0.393769    1.021258    21.00000    0.06167    0.03564 =
+         0.04087    0.00088    0.02080    0.00139
+AFIX  23
+H5A   2    0.184856    0.492085    1.005450    21.00000   -1.20000
+H5B   2    0.049973    0.374157    1.002214    21.00000   -1.20000
+AFIX   0
+C1    1    0.174020    0.406858    1.098062    21.00000    0.07122    0.05466 =
+         0.04026   -0.01319    0.01179   -0.00655
+AFIX 137
+H2A   2    0.282879    0.448842    1.118585    21.00000   -1.50000
+H2B   2    0.159767    0.300289    1.116844    21.00000   -1.50000
+H2C   2    0.089431    0.479838    1.108016    21.00000   -1.50000
+SAME C1   N1   C3   C4   C5   N2
+PART 2
+AFIX   0
+C1A   1    0.139924    0.315781    1.123509   -21.00000    0.07648    0.06404 =
+         0.04001   -0.02853   -0.03203    0.05175
+AFIX 137
+H1A1  2    0.041807    0.359480    1.093626   -21.00000   -1.50000
+H1A2  2    0.191627    0.399675    1.154902   -21.00000   -1.50000
+H1A3  2    0.108670    0.225259    1.149397   -21.00000   -1.50000
+AFIX   0
+N1A   4    0.259578    0.258672    1.081298   -21.00000    0.05093    0.05715 =
+         0.05816    0.02485    0.01374   -0.02104
+AFIX  23
+H1A4  2    0.279054    0.151411    1.090883   -21.00000   -1.20000
+H1A5  2    0.357028    0.311818    1.096716   -21.00000   -1.20000
+AFIX   0
+C3A   1    0.219682    0.275401    1.004788   -21.00000    0.05788    0.04433 =
+         0.05701    0.00672   -0.00238    0.00235
+AFIX  23
+H3A1  2    0.249880    0.384328    0.991675   -21.00000   -1.20000
+H3A2  2    0.100392    0.260288    0.987659   -21.00000   -1.20000
+AFIX   0
+C4A   1    0.315615    0.148868    0.973812   -21.00000    0.06038    0.05675 =
+         0.07031    0.00183   -0.00021    0.00693
+AFIX  23
+H4A1  2    0.269104    0.039885    0.976050   -21.00000   -1.20000
+H4A2  2    0.433329    0.148175    0.995966   -21.00000   -1.20000
+AFIX   0
+C5A   1    0.289069    0.211087    0.900604   -21.00000    0.05926    0.07600 =
+         0.06186   -0.00432   -0.00188   -0.01024
+AFIX  23
+H5A1  2    0.171192    0.217740    0.879011   -21.00000   -1.20000
+H5A2  2    0.342186    0.316671    0.897677   -21.00000   -1.20000
+AFIX   0
+N2A   4    0.376731    0.075335    0.870778   -21.00000    0.03429    0.06733 =
+         0.08198   -0.00041    0.01515   -0.03029
+AFIX 137
+H2A1  2    0.302953    0.021086    0.839075   -21.00000   -1.50000
+H2A2  2    0.422846    0.006610    0.904483   -21.00000   -1.50000
+H2A3  2    0.456504    0.117609    0.851043   -21.00000   -1.50000
+PART
+HKLF 4
+ 
+REM  p21c in P2(1)/c
+REM R1 =  0.0755 for   2166 Fo > 4sig(Fo)  and  0.0822 for all   2467 data
+REM    160 parameters refined using    164 restraints
+ 
+END  
+     
+WGHT      0.0001    161.0974 
+REM Highest difference peak  6.863,  deepest hole -5.756,  1-sigma level  0.658
+Q1    1   0.8069  0.3827  0.2465  11.00000  0.05    6.86
+Q2    1   0.3218  0.0787  0.7490  11.00000  0.05    4.57
+Q3    1   0.5727  0.3979  0.9421  11.00000  0.05    4.39
+Q4    1   1.1777  0.4211  0.2529  11.00000  0.05    4.16
+Q5    1   0.7509  0.7714  0.2537  11.00000  0.05    3.90
+Q6    1   0.9769  0.7196  0.2500  11.00000  0.05    3.90
+Q7    1  -0.0773  0.1751  1.0552  11.00000  0.05    3.78
+Q8    1   0.9067  0.6220  0.2415  11.00000  0.05    3.23
+Q9    1   0.7630  0.2413  0.2489  11.00000  0.05    3.16
+Q10   1   0.6642  0.4640  0.0927  11.00000  0.05    2.95
+
+
+;
+loop_
+    _atom_type_symbol
+    _atom_type_description
+    _atom_type_scat_dispersion_real
+    _atom_type_scat_dispersion_imag
+    _atom_type_scat_source
+    C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+    H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+    Br Br -0.2901 2.4595
+     'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+    N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+    Pb Pb -3.3944 10.1111
+     'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+
+_computing_data_collection              ?
+_computing_cell_refinement              'SAINT V8.18C (Bruker AXS Inc., 2011)'
+_computing_data_reduction               'SAINT V8.18C (Bruker AXS Inc., 2011)'
+_computing_structure_solution           'SHELXS-97 (Sheldrick, 2008)'
+_computing_structure_refinement         'SHELXL-97 (Sheldrick, 2008)'
+_computing_molecular_graphics           ?
+_computing_publication_material         ?
+
+loop_
+    _atom_site_type_symbol
+    _atom_site_label
+    _atom_site_fract_x
+    _atom_site_fract_y
+    _atom_site_fract_z
+    _atom_site_U_iso_or_equiv
+    _atom_site_adp_type
+    _atom_site_calc_flag
+    _atom_site_refinement_flags
+    _atom_site_occupancy
+    _atom_site_disorder_assembly
+    _atom_site_disorder_group
+    Pb Pb1 0.75041(10) 0.35439(12) 0.25091(5) 0.0259(3) Uani d . 1.0 . 4
+    Br Br1 0.8153(5) 0.3747(4) 0.40399(16) 0.0610(10) Uani d . 1.0 A 4
+    Br Br2 0.5383(4) 0.6422(4) 0.24951(17) 0.0515(8) Uani d . 1.0 . 4
+    Br Br3 0.6822(5) 0.3336(5) 0.09924(16) 0.0693(12) Uani d . 1.0 B 4
+    Br Br4 1.0276(4) 0.5707(4) 0.24287(18) 0.0515(8) Uani d . 1.0 . 4
+    N N2 0.454(9) 0.112(9) 0.949(5) 0.09(2) Uani d PDU 0.37(3) C 1
+    H H1A 0.5359 0.0964 0.9257 0.136 Uiso calc PR 0.37(3) C 1
+    H H1B 0.4532 0.0306 0.9787 0.136 Uiso calc PR 0.37(3) C 1
+    H H1C 0.4702 0.2073 0.9716 0.136 Uiso calc PR 0.37(3) C 1
+    C C5 0.288(9) 0.117(8) 0.898(4) 0.059(12) Uani d PDU 0.37(3) C 1
+    H H1D 0.3015 0.1134 0.8506 0.071 Uiso calc PR 0.37(3) C 1
+    H H1E 0.2134 0.0306 0.9068 0.071 Uiso calc PR 0.37(3) C 1
+    C C4 0.232(10) 0.283(8) 0.918(3) 0.053(11) Uani d PDU 0.37(3) C 1
+    H H3A 0.1146 0.3025 0.898 0.063 Uiso calc PR 0.37(3) C 1
+    H H3B 0.299 0.3706 0.9039 0.063 Uiso calc PR 0.37(3) C 1
+    C C3 0.262(12) 0.266(11) 0.995(3) 0.049(11) Uani d PDU 0.37(3) C 1
+    H H4A 0.2301 0.1571 1.0078 0.059 Uiso calc PR 0.37(3) C 1
+    H H4B 0.3802 0.2821 1.0154 0.059 Uiso calc PR 0.37(3) C 1
+    N N1 0.158(8) 0.394(6) 1.021(2) 0.045(11) Uani d PDU 0.37(3) C 1
+    H H5A 0.1849 0.4921 1.0054 0.054 Uiso calc PR 0.37(3) C 1
+    H H5B 0.05 0.3742 1.0022 0.054 Uiso calc PR 0.37(3) C 1
+    C C1 0.174(12) 0.407(10) 1.098(3) 0.055(17) Uani d PDU 0.37(3) C 1
+    H H2A 0.2829 0.4488 1.1186 0.083 Uiso calc PR 0.37(3) C 1
+    H H2B 0.1598 0.3003 1.1168 0.083 Uiso calc PR 0.37(3) C 1
+    H H2C 0.0894 0.4798 1.108 0.083 Uiso calc PR 0.37(3) C 1
+    C C1A 0.140(6) 0.316(7) 1.124(2) 0.066(15) Uani d PDU 0.63(3) C 2
+    H H1A1 0.0418 0.3595 1.0936 0.1 Uiso calc PR 0.63(3) C 2
+    H H1A2 0.1916 0.3997 1.1549 0.1 Uiso calc PR 0.63(3) C 2
+    H H1A3 0.1087 0.2253 1.1494 0.1 Uiso calc PR 0.63(3) C 2
+    N N1A 0.260(4) 0.259(5) 1.0813(17) 0.055(9) Uani d PDU 0.63(3) C 2
+    H H1A4 0.2791 0.1514 1.0909 0.066 Uiso calc PR 0.63(3) C 2
+    H H1A5 0.357 0.3118 1.0967 0.066 Uiso calc PR 0.63(3) C 2
+    C C3A 0.220(8) 0.275(8) 1.0048(18) 0.055(9) Uani d PDU 0.63(3) C 2
+    H H3A1 0.2499 0.3843 0.9917 0.066 Uiso calc PR 0.63(3) C 2
+    H H3A2 0.1004 0.2603 0.9877 0.066 Uiso calc PR 0.63(3) C 2
+    C C4A 0.316(7) 0.149(6) 0.974(2) 0.064(9) Uani d PDU 0.63(3) C 2
+    H H4A1 0.2691 0.0399 0.976 0.077 Uiso calc PR 0.63(3) C 2
+    H H4A2 0.4333 0.1482 0.996 0.077 Uiso calc PR 0.63(3) C 2
+    C C5A 0.289(7) 0.211(6) 0.901(2) 0.068(10) Uani d PDU 0.63(3) C 2
+    H H5A1 0.1712 0.2177 0.879 0.081 Uiso calc PR 0.63(3) C 2
+    H H5A2 0.3422 0.3167 0.8977 0.081 Uiso calc PR 0.63(3) C 2
+    N N2A 0.377(5) 0.075(5) 0.871(2) 0.061(10) Uani d PDU 0.63(3) C 2
+    H H2A1 0.303 0.0211 0.8391 0.091 Uiso calc PR 0.63(3) C 2
+    H H2A2 0.4228 0.0066 0.9045 0.091 Uiso calc PR 0.63(3) C 2
+    H H2A3 0.4565 0.1176 0.851 0.091 Uiso calc PR 0.63(3) C 2
+
+loop_
+    _atom_site_aniso_label
+    _atom_site_aniso_U_11
+    _atom_site_aniso_U_22
+    _atom_site_aniso_U_33
+    _atom_site_aniso_U_12
+    _atom_site_aniso_U_13
+    _atom_site_aniso_U_23
+    Pb1 0.0231(4) 0.0222(4) 0.0337(5) -0.0005(4) 0.0088(4) 0.0012(4)
+    Br1 0.087(3) 0.0470(19) 0.0431(17) 0.0013(19) -0.0021(18) 0.0004(15)
+    Br2 0.0515(18) 0.0412(15) 0.0660(19) 0.0234(15) 0.0213(15) 0.0058(17)
+    Br3 0.086(3) 0.072(3) 0.0423(17) -0.041(2) -0.0031(18) 0.0088(17)
+    Br4 0.0483(17) 0.0419(15) 0.066(2) -0.0222(15) 0.0170(15) -0.0080(16)
+    N2 0.08(3) 0.05(4) 0.12(4) 0.01(3) -0.02(3) -0.01(4)
+    C5 0.07(2) 0.05(2) 0.06(2) 0.02(2) 0.00(2) -0.02(2)
+    C4 0.06(2) 0.05(2) 0.046(17) 0.01(2) 0.006(19) -0.025(19)
+    C3 0.06(3) 0.04(2) 0.048(17) 0.01(2) 0.010(19) -0.008(18)
+    N1 0.06(3) 0.04(2) 0.041(19) 0.00(2) 0.02(2) 0.001(19)
+    C1 0.07(4) 0.05(4) 0.04(2) -0.01(3) 0.01(3) -0.01(3)
+    C1A 0.08(3) 0.06(3) 0.04(2) 0.05(3) -0.032(17) -0.03(2)
+    N1A 0.05(2) 0.06(2) 0.058(14) -0.021(17) 0.014(15) 0.025(16)
+    C3A 0.06(2) 0.044(18) 0.057(14) 0.002(17) -0.002(15) 0.007(16)
+    C4A 0.06(2) 0.057(19) 0.070(15) 0.007(17) 0.000(16) 0.002(16)
+    C5A 0.06(2) 0.08(3) 0.062(16) -0.01(2) -0.002(17) -0.004(19)
+    N2A 0.034(19) 0.07(2) 0.08(2) -0.030(18) 0.015(18) 0.00(2)
+
+_geom_special_details                   
+;
+All esds (except the esd in the dihedral angle between two l.s. planes)
+are estimated using the full covariance matrix.  The cell esds are taken
+into account individually in the estimation of esds in distances, angles
+and torsion angles; correlations between esds in cell parameters are only
+used when they are defined by crystal symmetry.  An approximate (isotropic)
+treatment of cell esds is used for estimating esds involving l.s. planes.
+;
+
+loop_
+    _geom_bond_atom_site_label_1
+    _geom_bond_atom_site_label_2
+    _geom_bond_site_symmetry_2
+    _geom_bond_distance
+    _geom_bond_publ_flag
+    Pb1 Br4 . 2.954(3) ?
+    Pb1 Br2 . 2.970(3) ?
+    Pb1 Br2 2_645 2.978(3) ?
+    Pb1 Br4 2_745 2.983(3) ?
+    Pb1 Br3 . 2.993(3) ?
+    Pb1 Br1 . 3.022(3) ?
+    Br2 Pb1 2_655 2.978(3) ?
+    Br4 Pb1 2_755 2.983(3) ?
+    N2 C5 . 1.535(19) ?
+    C5 C4 . 1.532(19) ?
+    C4 C3 . 1.535(19) ?
+    C3 N1 . 1.528(19) ?
+    N1 C1 . 1.528(19) ?
+    C1A N1A . 1.51(3) ?
+    N1A C3A . 1.51(3) ?
+    C3A C4A . 1.53(3) ?
+    C4A C5A . 1.53(3) ?
+    C5A N2A . 1.53(3) ?
+
+loop_
+    _geom_angle_atom_site_label_1
+    _geom_angle_atom_site_label_2
+    _geom_angle_atom_site_label_3
+    _geom_angle_site_symmetry_1
+    _geom_angle_site_symmetry_3
+    _geom_angle
+    _geom_angle_publ_flag
+    Br4 Pb1 Br2 . . 88.70(11) ?
+    Br4 Pb1 Br2 . 2_645 176.54(10) ?
+    Br2 Pb1 Br2 . 2_645 90.03(3) ?
+    Br4 Pb1 Br4 . 2_745 90.04(3) ?
+    Br2 Pb1 Br4 . 2_745 177.72(11) ?
+    Br2 Pb1 Br4 2_645 2_745 91.34(11) ?
+    Br4 Pb1 Br3 . . 88.17(10) ?
+    Br2 Pb1 Br3 . . 92.73(12) ?
+    Br2 Pb1 Br3 2_645 . 88.67(10) ?
+    Br4 Pb1 Br3 2_745 . 89.13(12) ?
+    Br4 Pb1 Br1 . . 92.38(11) ?
+    Br2 Pb1 Br1 . . 86.99(10) ?
+    Br2 Pb1 Br1 2_645 . 90.76(11) ?
+    Br4 Pb1 Br1 2_745 . 91.17(10) ?
+    Br3 Pb1 Br1 . . 179.37(11) ?
+    Pb1 Br2 Pb1 . 2_655 162.63(13) ?
+    Pb1 Br4 Pb1 . 2_755 164.28(13) ?
+    C4 C5 N2 . . 98.(3) ?
+    C5 C4 C3 . . 100.(3) ?
+    N1 C3 C4 . . 107.(4) ?
+    C1 N1 C3 . . 117.(4) ?
+    C1A N1A C3A . . 121.(3) ?
+    N1A C3A C4A . . 109.(3) ?
+    C3A C4A C5A . . 100.(3) ?
+    N2A C5A C4A . . 98.(3) ?
+
+loop_
+    _geom_torsion_atom_site_label_1
+    _geom_torsion_atom_site_label_2
+    _geom_torsion_atom_site_label_3
+    _geom_torsion_atom_site_label_4
+    _geom_torsion_site_symmetry_1
+    _geom_torsion_site_symmetry_2
+    _geom_torsion_site_symmetry_3
+    _geom_torsion_site_symmetry_4
+    _geom_torsion
+    _geom_torsion_publ_flag
+   
+    Br3 Pb1 Br2 Pb1 . . . 2_655 90.0(4) ?
+    Br1 Pb1 Br2 Pb1 . . . 2_655 -89.4(4) ?
+    Br2 Pb1 Br4 Pb1 . . . 2_755 20.5(5) ?
+    Br4 Pb1 Br4 Pb1 2_745 . . 2_755 -157.6(6) ?
+    Br3 Pb1 Br4 Pb1 . . . 2_755 113.3(5) ?
+    Br1 Pb1 Br4 Pb1 . . . 2_755 -66.4(5) ?
+    N2 C5 C4 C3 . . . . -49.(8) ?
+    C5 C4 C3 N1 . . . . -160.(8) ?
+    C4 C3 N1 C1 . . . . -177.(8) ?
+    C1A N1A C3A C4A . . . . -155.(5) ?
+    N1A C3A C4A C5A . . . . -168.(5) ?
+    C3A C4A C5A N2A . . . . -176.(5) ?
+

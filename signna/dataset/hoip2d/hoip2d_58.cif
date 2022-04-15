@@ -1,0 +1,283 @@
+
+#######################################################################
+#
+#                 Cambridge Crystallographic Data Centre
+#                                CCDC 
+#
+#######################################################################
+#
+# If this CIF has been generated directly or indirectly from an entry in the 
+# Cambridge Structural Database, then it will include bibliographic, chemical, 
+# crystal, experimental, refinement or atomic coordinate data resulting from 
+# the CCDC's data processing and validation procedures. Files generated from 
+# CSD entries are Copyright 2013 Cambridge Crystallographic Data Centre. They 
+# may be used in bona fide research applications only, and may not be copied or 
+# further disseminated in any form, whether machine-readable or not, except for 
+# the purposes of generating routine backup copies on your local computer 
+# system.
+# 
+# Files arising from any other source may also contain material that is the 
+# copyright of third parties, including the originator, and you should check 
+# with the originator concerning the permitted uses of the information 
+# contained in this CIF.
+#
+# For further information on the CCDC and the free tools enCIFer and Mercury
+# for validating and visualising CIF files, please visit www.ccdc.cam.ac.uk
+#
+#######################################################################
+
+data_ds1
+_publ_contact_author_name        'Hemamala Karunadasa'
+_publ_contact_author_address     
+;Chemistry Dept.
+Stanford University
+;
+_publ_contact_author_email       hemamala@stanford.edu
+loop_
+_publ_author_name
+_publ_author_address
+'Karunadasa, Hemamala I'
+;Chemistry Dept.
+Stanford University
+;
+_audit_creation_date             2013-09-16
+_audit_creation_method           
+;
+  Olex2 1.2
+  (compiled 2013.04.25 svn.r2679, GUI svn.r4466)
+;
+_chemical_formula_moiety         'Br4 Pb, C3 H12 N2'
+_chemical_formula_sum            'C3 H12 Br4 N2 Pb'
+_chemical_formula_weight         602.97
+_chemical_absolute_configuration unk
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+_atom_type_scat_dispersion_source
+Pb -3.20855 10.15388
+'International Tables Volume C Table 6.1.1.4 (pp. 500-502)'
+'Henke, Gullikson and Davis, At. Data and Nucl. Data Tables, 1993, 54, 2'
+H 0.00000 0.00000 'International Tables Volume C Table 6.1.1.4 (pp. 500-502)'
+'Henke, Gullikson and Davis, At. Data and Nucl. Data Tables, 1993, 54, 2'
+C 0.00347 0.00161 'International Tables Volume C Table 6.1.1.4 (pp. 500-502)'
+'Henke, Gullikson and Davis, At. Data and Nucl. Data Tables, 1993, 54, 2'
+Br -0.28346 2.55990 'International Tables Volume C Table 6.1.1.4 (pp. 500-502)'
+'Henke, Gullikson and Davis, At. Data and Nucl. Data Tables, 1993, 54, 2'
+N 0.00653 0.00323 'International Tables Volume C Table 6.1.1.4 (pp. 500-502)'
+'Henke, Gullikson and Davis, At. Data and Nucl. Data Tables, 1993, 54, 2'
+
+_space_group_crystal_system      orthorhombic
+_space_group_IT_number           19
+_space_group_name_H-M_alt        'P 21 21 21'
+_space_group_name_Hall           'P 2ac 2ab'
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 x+1/2,-y+1/2,-z
+3 -x,y+1/2,-z+1/2
+4 -x+1/2,-y,z+1/2
+
+_cell_length_a                   6.0761(3)
+_cell_length_b                   8.3926(5)
+_cell_length_c                   23.7433(16)
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     1210.77(12)
+_cell_formula_units_Z            4
+_cell_measurement_temperature    100(2)
+_cell_measurement_reflns_used    8524
+_cell_measurement_theta_min      2.5747
+_cell_measurement_theta_max      25.3528
+_exptl_absorpt_coefficient_mu    27.086
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_correction_T_min  0.3445
+_exptl_absorpt_correction_T_max  0.7734
+_exptl_absorpt_process_details   'SADABS V2008/1 (Bruker AXS Inc.)'
+_exptl_crystal_density_diffrn    3.3076
+_exptl_crystal_F_000             1064
+_exptl_crystal_size_max          0.05
+_exptl_crystal_size_mid          0.025
+_exptl_crystal_size_min          0.01
+
+_diffrn_ambient_temperature      100(2)
+_diffrn_radiation_wavelength     0.71073
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_monochromator  graphite
+_diffrn_reflns_av_R_equivalents  0.0915
+_diffrn_reflns_av_unetI/netI     0.0522
+_diffrn_reflns_limit_h_max       7
+_diffrn_reflns_limit_h_min       -7
+_diffrn_reflns_limit_k_max       9
+_diffrn_reflns_limit_k_min       -9
+_diffrn_reflns_limit_l_max       28
+_diffrn_reflns_limit_l_min       -28
+_diffrn_reflns_number            17740
+_diffrn_reflns_theta_full        25.0270
+_diffrn_reflns_theta_max         25.03
+_diffrn_reflns_theta_min         2.57
+_diffrn_measured_fraction_theta_full 0.9911
+_diffrn_measured_fraction_theta_max 0.9911
+_reflns_Friedel_coverage         0.995
+_reflns_limit_h_max              7
+_reflns_limit_h_min              -7
+_reflns_limit_k_max              9
+_reflns_limit_k_min              -9
+_reflns_limit_l_max              28
+_reflns_limit_l_min              -27
+_reflns_number_gt                1789
+_reflns_number_total             2125
+_reflns_threshold_expression     I>=2u(I)
+_computing_molecular_graphics    
+;
+O. V. Dolomanov, L. J. Bourhis, R. J. Gildea, J. A. K. Howard and H. Puschmann,
+OLEX2: a complete structure solution, refinement and analysis program.
+J. Appl. Cryst. (2009). 42, 339-341.
+;
+_computing_publication_material  
+;
+O. V. Dolomanov, L. J. Bourhis, R. J. Gildea, J. A. K. Howard and H. Puschmann,
+OLEX2: a complete structure solution, refinement and analysis program.
+J. Appl. Cryst. (2009). 42, 339-341.
+;
+_refine_diff_density_max         4.8787
+_refine_diff_density_min         -1.8210
+_refine_diff_density_rms         0.4601
+_refine_ls_abs_structure_details 
+'Flack, H. D. (1983). Acta Cryst. A39, 876-881.'
+_refine_ls_abs_structure_Flack   0.54(2)
+_refine_ls_d_res_high            0.8400
+_refine_ls_d_res_low             7.9128
+_refine_ls_goodness_of_fit_ref   1.0360
+_refine_ls_hydrogen_treatment    mixed
+_refine_ls_matrix_type           full
+_refine_ls_number_constraints    19
+_refine_ls_number_parameters     81
+_refine_ls_number_reflns         2125
+_refine_ls_number_restraints     0
+_refine_ls_R_factor_all          0.0517
+_refine_ls_R_factor_gt           0.0339
+_refine_ls_restrained_S_all      1.0360
+_refine_ls_shift/su_max          0.0004
+_refine_ls_shift/su_mean         0.0001
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_weighting_details     
+'w=1/[\s^2^(Fo^2^)+(0.0300P)^2^+3.8664P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme      calc
+_refine_ls_wR_factor_ref         0.0687
+_iucr_refine_instructions_details 
+;
+1. Fixed Uiso
+ At 1.2 times of:
+  All C(H,H) groups, All N(H,H) groups, All N(H,H,H) groups
+ At 1.5 times of:
+  All C(H,H,H) groups
+2. Rigid bond restraints
+ All non-hydrogen atoms
+ with sigma for 1-2 distances of 0.01 and sigma for 1-3 distances of 0.01
+3. Uiso/Uaniso restraints and constraints
+All non-hydrogen atoms have similar U: within 1.7A with sigma of 0.04 and sigma
+for terminal atoms of 0.08
+Uanis(C4) = Uanis(N2)
+Uanis(C4) = Uanis(C3)
+4.a Secondary CH2 refined with riding coordinates:
+ N2(H2a,H2b), C3(H3a,H3b), C4(H4a,H4b)
+4.b Idealised Me refined as rotating group:
+ N1(H1a,H1b,H1c), C5(H5a,H5b,H5c)
+
+;
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_refinement_flags_posn
+_atom_site_refinement_flags_adp
+Pb1 Pb 0.51417(10) 0.68169(5) 0.663352(17) 0.01251(13) Uani 1.000000 . U
+Br2 Br 1.0332(2) 0.67350(13) 0.64595(5) 0.0165(3) Uani 1.000000 . U
+Br4 Br 0.5210(2) 0.85405(12) 0.55577(5) 0.0168(3) Uani 1.000000 . U
+Br5 Br 0.5353(2) 0.37094(13) 0.59780(5) 0.0177(3) Uani 1.000000 . U
+Br1 Br 0.5020(3) 0.98817(12) 0.72590(4) 0.0190(3) Uani 1.000000 . U
+N1 N 1.0243(19) 0.9638(10) 0.5297(4) 0.018(2) Uani 1.000000 . U
+C5 C 1.000(3) 1.2648(12) 0.7086(4) 0.020(3) Uani 1.000000 . U
+C3 C 1.014(3) 1.1098(11) 0.6207(4) 0.0153(16) Uani 1.000000 . U
+C4 C 1.034(2) 1.1242(12) 0.5573(4) 0.0153(16) Uani 1.000000 . U
+N2 N 1.0371(19) 1.2679(10) 0.6465(4) 0.0153(16) Uani 1.000000 . U
+H1a H 1.048(13) 0.9746(15) 0.4920(6) 0.021(3) Uiso 1.000000 GR .
+H1b H 1.130(9) 0.899(3) 0.545(2) 0.021(3) Uiso 1.000000 GR .
+H1c H 0.889(5) 0.920(4) 0.535(3) 0.021(3) Uiso 1.000000 GR .
+H5a H 0.848(5) 1.234(9) 0.7164(4) 0.030(4) Uiso 1.000000 GR .
+H5b H 1.101(10) 1.188(7) 0.7259(6) 0.030(4) Uiso 1.000000 GR .
+H5c H 1.028(12) 1.371(3) 0.7242(6) 0.030(4) Uiso 1.000000 GR .
+H3a H 0.870(3) 1.0636(11) 0.6307(4) 0.0183(19) Uiso 1.000000 R .
+H3b H 1.131(3) 1.0381(11) 0.6352(4) 0.0183(19) Uiso 1.000000 R .
+H4a H 1.175(2) 1.1766(12) 0.5476(4) 0.0183(19) Uiso 1.000000 R .
+H4b H 0.913(2) 1.1915(12) 0.5428(4) 0.0183(19) Uiso 1.000000 R .
+H2a H 0.9373(19) 1.3363(10) 0.6303(4) 0.0183(19) Uiso 1.000000 R .
+H2b H 1.1759(19) 1.3065(10) 0.6393(4) 0.0183(19) Uiso 1.000000 R .
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb1 0.0143(2) 0.0086(2) 0.0146(2) -0.0003(3) -0.0002(3) -0.00052(16)
+Br2 0.0178(7) 0.0104(5) 0.0213(6) -0.0006(6) -0.0009(6) 0.0014(5)
+Br4 0.0171(7) 0.0154(6) 0.0180(6) -0.0005(7) -0.0013(7) 0.0017(4)
+Br5 0.0234(8) 0.0118(6) 0.0178(6) 0.0000(6) 0.0010(6) -0.0017(5)
+Br1 0.0217(7) 0.0141(6) 0.0213(6) -0.0010(8) 0.0017(8) -0.0052(4)
+N1 0.009(6) 0.018(5) 0.026(6) -0.009(6) 0.008(6) -0.006(4)
+C5 0.022(7) 0.018(6) 0.019(6) 0.009(8) 0.013(9) -0.000(5)
+C3 0.022(4) 0.010(3) 0.014(3) 0.001(3) 0.006(4) -0.005(2)
+C4 0.022(4) 0.010(3) 0.014(3) 0.001(3) 0.006(4) -0.005(2)
+N2 0.022(4) 0.010(3) 0.014(3) 0.001(3) 0.006(4) -0.005(2)
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+Pb1 Br2 2.9521(16) 1_455
+Pb1 Br4 2.9358(12) .
+Pb1 Br5 3.0398(12) .
+Pb1 Br1 3.0922(11) 3_646
+Pb1 Br1 2.9710(11) .
+N1 C4 1.498(12) .
+C5 N2 1.490(13) .
+C3 C4 1.516(14) .
+C3 N2 1.468(12) .
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+Br4 Pb1 Br2 84.48(4) . 1_455
+Br5 Pb1 Br2 87.14(4) . 1_455
+Br5 Pb1 Br4 88.66(3) . .
+Br1 Pb1 Br2 93.76(4) . 1_455
+Br1 Pb1 Br2 94.32(4) 3_646 1_455
+Br1 Pb1 Br4 90.50(3) . .
+Br1 Pb1 Br4 177.60(4) 3_646 .
+Br1 Pb1 Br5 178.71(5) . .
+Br1 Pb1 Br5 89.20(3) 3_646 .
+N2 C3 C4 109.7(8) . .
+C3 C4 N1 111.1(8) . .
+C3 N2 C5 112.6(8) . .
+
+
+

@@ -1,0 +1,94 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_JEPLIZ
+#This CIF has been generated from an entry in the Cambridge Structural Database
+_database_code_depnum_ccdc_archive 'CCDC 1184820'
+_database_code_CSD               JEPLIZ
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1107/S0108270189012680 1990
+_audit_creation_method           'Created from the CSD'
+_audit_update_record             
+;
+2020-05-04 downloaded from the CCDC.
+;
+_database_code_NBS               595648
+_chemical_formula_moiety         'C5 H16 N2 2+,Br4 Cu1 2-'
+_chemical_name_systematic        '1,5-Pentanediammonium tetrabromo-copper(ii)'
+_chemical_absolute_configuration unk
+_diffrn_ambient_temperature      295
+_exptl_crystal_density_diffrn    2.469
+#These two values have been output from a single CSD field.
+_refine_ls_R_factor_gt           0.0734
+_refine_ls_wR_factor_gt          0.0734
+_diffrn_radiation_probe          x-ray
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 21/n'
+_symmetry_Int_Tables_number      14
+_space_group_name_Hall           '-P 2yn'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,1/2+y,1/2-z
+3 -x,-y,-z
+4 1/2+x,1/2-y,1/2+z
+_cell_length_a                   8.142(3)
+_cell_length_b                   7.560(2)
+_cell_length_c                   21.736(10)
+_cell_angle_alpha                90
+_cell_angle_beta                 101.49(3)
+_cell_angle_gamma                90
+_cell_volume                     1311.11
+_cell_formula_units_Z            4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1 Cu 0.0000 0.0000 0.0000
+Br1 Br 0.1102(3) -0.0215(4) 0.1132(1)
+Br3 Br 0.2010(3) -0.2224(4) -0.0175(2)
+Br1B Br -0.1102(3) 0.0215(4) -0.1132(1)
+Br3B Br -0.2010(3) 0.2224(4) 0.0175(2)
+Cu2 Cu 0.5000 0.5000 0.0000
+Br2 Br 0.5175(3) 0.4888(4) 0.1134(1)
+Br4 Br 0.7179(3) 0.7247(4) 0.0150(1)
+Br2B Br 0.4825(3) 0.5112(4) -0.1134(1)
+Br4B Br 0.2821(3) 0.2753(4) -0.0150(1)
+N1 N 0.5298(24) 0.0055(36) 0.1033(10)
+C1 C 0.6651(38) -0.0245(49) 0.1569(14)
+C2 C 0.6470(60) 0.0492(61) 0.2189(22)
+C3 C 0.5036(50) -0.008(10) 0.2399(17)
+C4 C 0.5259(51) 0.0094(86) 0.3144(29)
+C5 C 0.3877(53) -0.0408(46) 0.3362(13)
+N2 N 0.4018(27) 0.0136(31) 0.4001(12)
+H1 H 0.5518 -0.0586 0.0677
+H2 H 0.5221 0.1296 0.0937
+H3 H 0.4260 -0.0345 0.1130
+H4 H 0.2962 0.0011 0.4130
+H5 H 0.4391 0.1340 0.4059
+H6 H 0.4841 -0.0666 0.4231
+H7 H 0.6786 -0.1502 0.1619
+H8 H 0.7650 0.0256 0.1469
+H9 H 0.6423 0.1758 0.2154
+H10 H 0.7439 0.0155 0.2495
+H11 H 0.4094 0.0622 0.2202
+
+#END

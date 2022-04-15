@@ -1,0 +1,96 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_PYDAMN
+#This CIF has been generated from an entry in the Cambridge Structural Database
+_database_code_depnum_ccdc_archive 'CCDC 1240479'
+_database_code_CSD               PYDAMN
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1016/0301-0104(75)80098-X 1975
+_audit_creation_method           'Created from the CSD'
+_audit_update_record             
+;
+2020-04-25 downloaded from the CCDC.
+;
+_database_code_NBS               523293
+_chemical_formula_moiety         'C3 H12 N2 2+,Cl4 Mn1 2-'
+_chemical_name_systematic        
+'1,3-Propanediammonium tetrachloro-manganese(ii)'
+_chemical_absolute_configuration unk
+_diffrn_ambient_temperature      295
+_exptl_crystal_density_diffrn    1.807
+#These two values have been output from a single CSD field.
+_refine_ls_R_factor_gt           0.091
+_refine_ls_wR_factor_gt          0.091
+_diffrn_radiation_probe          neutron
+_diffrn_source                   'neutron radiation'
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_H-M   'I m m a'
+_symmetry_Int_Tables_number      74
+_space_group_name_Hall           '-I 2b 2'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2+x,1/2+y,1/2+z
+3 -x,y,z
+4 1/2-x,1/2+y,1/2+z
+5 x,1/2-y,z
+6 1/2+x,-y,1/2+z
+7 -x,1/2-y,z
+8 1/2-x,-y,1/2+z
+9 -x,-y,-z
+10 1/2-x,1/2-y,1/2-z
+11 x,-y,-z
+12 1/2+x,1/2-y,1/2-z
+13 -x,1/2+y,-z
+14 1/2-x,y,1/2-z
+15 x,1/2+y,-z
+16 1/2+x,y,1/2-z
+_cell_length_a                   7.172(4)
+_cell_length_b                   19.0(1)
+_cell_length_c                   7.361(4)
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     1003.07
+_cell_formula_units_Z            4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cl1 Cl 0.25000 0.01450 0.25000
+Cl2 Cl 0.00000 0.12980 -0.04670
+Mn1 Mn 0.00000 0.00000 0.00000
+Mn1E Mn 0.50000 0.00000 0.50000
+Cl1H Cl -0.25000 -0.01450 -0.25000
+Cl1B Cl -0.25000 0.01450 0.25000
+Cl1J Cl 0.25000 -0.01450 -0.25000
+Cl2H Cl 0.00000 -0.12980 0.04670
+Cl1H Cl 0.75000 -0.01450 0.75000
+Cl1B Cl 0.75000 0.01450 0.25000
+Cl1J Cl 0.25000 -0.01450 0.75000
+Cl2E Cl 0.50000 -0.12980 0.45330
+Cl2M Cl 0.50000 0.12980 0.54670
+Mn1E Mn -0.50000 0.00000 -0.50000
+Mn1E Mn -0.50000 0.00000 0.50000
+Mn1E Mn 0.50000 0.00000 -0.50000
+
+#END

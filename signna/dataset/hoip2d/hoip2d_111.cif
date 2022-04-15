@@ -1,0 +1,398 @@
+##############################################################################
+###                                                                        ###
+###        Electronic paper (Acta Crystallographica Section E)             ###
+###                                                                        ###
+##############################################################################
+#                                                                            #
+# This CIF contains the data in a paper accepted for publication in Acta     #
+# Crystallographica Section E. It conforms to the requirements of Notes      #
+# for Authors for Section E, and has been peer reviewed under the auspices   #
+# of the IUCr Commission on Journals.                                        #
+#                                                                            #
+# Full details of the Crystallographic Information File format               #
+# are given in the paper "The Crystallographic Information File (CIF):       #
+# a New Standard Archive File for Crystallography" by S. R. Hall, F. H.      #
+# Allen and I. D. Brown [Acta Cryst. (1991), A47, 655-685].                  #
+#                                                                            #
+# The current version of the core CIF dictionary is obtainable from          #
+# ftp://ftp.iucr.org/pub/cif_core.dic. The current version number is 2.4.    #
+#                                                                            #
+# Software is freely available for graphical display of the structure(s) in  #
+# this CIF.  For information consult the CIF home page http://www.iucr.org/  #
+# cif/home.html                                                              #
+#                                                                            #
+# This file may be used for bona fide research purposes within the           #
+# scientific community so long as proper attribution is given to the journal # 
+# article from which it was obtained.                                        #
+#                                                                            #
+##############################################################################
+                                             
+data_I
+_audit_creation_method     SHELXL-97
+_chemical_name_systematic
+;
+Poly[1,4-bis(ammoniomethyl)cyclohexane [di-\m-iodido-diiodidoplumbate(II)]]
+;
+_chemical_name_common     ?
+_chemical_formula_moiety     'C8 H20 N2, I4 Pb'
+_chemical_formula_sum     'C8 H20 I4 N2 Pb'
+_chemical_formula_iupac     '(C8 H20 N2) [Pb I4]'
+_chemical_formula_weight     859.05
+_chemical_melting_point     ?
+_symmetry_cell_setting     monoclinic
+_symmetry_space_group_name_H-M     'P 21/c'
+_symmetry_space_group_name_Hall     '-P 2ybc'
+loop_
+    _symmetry_equiv_pos_as_xyz
+    'x, y, z'
+    '-x, y+1/2, -z+1/2'
+    '-x, -y, -z'
+    'x, -y-1/2, z-1/2'
+_cell_length_a     12.2793(17)
+_cell_length_b     8.7413(12)
+_cell_length_c     8.7829(13)
+_cell_angle_alpha     90.00
+_cell_angle_beta     95.922(3)
+_cell_angle_gamma     90.00
+_cell_volume     937.7(2)
+_cell_formula_units_Z     2
+_cell_measurement_reflns_used     6011
+_cell_measurement_theta_min     2.97
+_cell_measurement_theta_max     28.16
+_cell_measurement_temperature     173(2)
+_exptl_crystal_description     plate
+_exptl_crystal_colour     orange
+_exptl_crystal_size_max     0.36
+_exptl_crystal_size_mid     0.26
+_exptl_crystal_size_min     0.08
+_exptl_crystal_density_diffrn     3.043
+_exptl_crystal_density_meas     ?
+_exptl_crystal_density_method     'not measured'
+_exptl_crystal_F_000     752
+_exptl_absorpt_coefficient_mu     15.562
+_exptl_absorpt_correction_type     integration
+_exptl_absorpt_process_details     '(XPREP; Bruker, 2005)'
+_exptl_absorpt_correction_T_min     0.0431
+_exptl_absorpt_correction_T_max     0.2876
+_exptl_special_details
+;
+Numerical intergration absorption corrections based on indexed crystal faces
+were applied using the XPREP routine (Bruker, 2005)
+;
+_diffrn_ambient_temperature     173(2)
+_diffrn_radiation_type     MoK\a
+_diffrn_radiation_wavelength     0.71073
+_diffrn_radiation_source     'fine-focus sealed tube'
+_diffrn_radiation_monochromator     graphite
+_diffrn_measurement_device_type     'Bruker APEXII CCD area-detector'
+_diffrn_measurement_method     '\f and \w scans'
+_diffrn_detector_area_resol_mean     ?
+_diffrn_reflns_number     5435
+_diffrn_reflns_av_R_equivalents     0.0796
+_diffrn_reflns_av_sigmaI/netI     0.0558
+_diffrn_reflns_theta_min     1.67
+_diffrn_reflns_theta_max     27.99
+_diffrn_reflns_theta_full     27.99
+_diffrn_measured_fraction_theta_max     1.000
+_diffrn_measured_fraction_theta_full     1.000
+_diffrn_reflns_limit_h_min     -16
+_diffrn_reflns_limit_h_max     16
+_diffrn_reflns_limit_k_min     -11
+_diffrn_reflns_limit_k_max     10
+_diffrn_reflns_limit_l_min     -9
+_diffrn_reflns_limit_l_max     11
+_diffrn_standards_number     ?
+_diffrn_standards_interval_count     ?
+_diffrn_standards_interval_time     ?
+_diffrn_standards_decay_%     ?
+_refine_special_details
+;
+Refinement of <i>F</i>^2^ against ALL reflections. The weighted <i>R</i>-factor
+wR and goodness of fit <i>S</i> are based on <i>F</i>^2^, conventional
+<i>R</i>-factors <i>R</i> are based on <i>F</i>, with <i>F</i> set to zero for
+negative <i>F</i>^2^. The threshold expression of <i>F</i>^2^ >
+\s(<i>F</i>^2^) is used only for calculating <i>R</i>-factors(gt) etc. and is
+not relevant to the choice of reflections for refinement. <i>R</i>-factors
+based on <i>F</i>^2^ are statistically about twice as large as those based on
+<i>F</i>, and <i>R</i>- factors based on ALL data will be even larger.
+;
+_reflns_number_total     2264
+_reflns_number_gt     2085
+_reflns_threshold_expression     I>2\s(I)
+_refine_ls_structure_factor_coef     Fsqd
+_refine_ls_matrix_type     full
+_refine_ls_R_factor_all     0.0365
+_refine_ls_R_factor_gt     0.0332
+_refine_ls_wR_factor_gt     0.0917
+_refine_ls_wR_factor_ref     0.0934
+_refine_ls_goodness_of_fit_ref     1.077
+_refine_ls_restrained_S_all     1.077
+_refine_ls_number_reflns     2264
+_refine_ls_number_parameters     70
+_refine_ls_number_restraints     0
+_refine_ls_hydrogen_treatment     constr
+_refine_ls_weighting_scheme     calc
+_refine_ls_weighting_details
+              'w=1/[\s^2^(Fo^2^)+(0.0511P)^2^+1.0393P] where P=(Fo^2^+2Fc^2^)/3'
+_atom_sites_solution_hydrogens     geom
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary     difmap
+_refine_ls_shift/su_max     0.009
+_refine_ls_shift/su_mean     0.002
+_refine_diff_density_max     1.760
+_refine_diff_density_min     -2.791
+_refine_ls_extinction_method     none
+_refine_ls_extinction_coef     ?
+loop_
+    _atom_type_symbol
+    _atom_type_description
+    _atom_type_scat_dispersion_real
+    _atom_type_scat_dispersion_imag
+    _atom_type_scat_source
+    'C' 'C' 0.0033 0.0016
+                         'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+    'H' 'H' 0.0000 0.0000
+                         'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+    'N' 'N' 0.0061 0.0033
+                         'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+    'I' 'I' -0.4742 1.8119
+                         'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+    'Pb' 'Pb' -3.3944 10.1111
+                         'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+_computing_data_collection     'APEX2 (Bruker, 2005)'
+_computing_cell_refinement     'SAINT (Bruker, 2005)'
+_computing_data_reduction     'SAINT (Bruker, 2005)'
+_computing_structure_solution     'SHELXS97 (Sheldrick, 2008)'
+_computing_structure_refinement     'SHELXL97 (Sheldrick, 2008)'
+_computing_molecular_graphics
+;
+<i>ORTEP-3 for Windows</i> (Farrugia, 1997) and DIAMOND (Brandenburg,
+1999)
+;
+_computing_publication_material
+;
+<i>WinGX</i> (Farrugia, 1999) and <i>PLATON</i> (Spek, 2009)
+;
+loop_
+    _atom_site_type_symbol
+    _atom_site_label
+    _atom_site_fract_x
+    _atom_site_fract_y
+    _atom_site_fract_z
+    _atom_site_U_iso_or_equiv
+    _atom_site_adp_type
+    _atom_site_calc_flag
+    _atom_site_refinement_flags
+    _atom_site_occupancy
+    _atom_site_disorder_assembly
+    _atom_site_disorder_group
+    C C1 0.2676(6) 0.0434(9) -0.4667(9) 0.0333(15) Uani d . 1 . .
+    H H1A 0.2773 0.1355 -0.4011 0.040 Uiso calc R 1 . .
+    H H1B 0.2216 0.0719 -0.5617 0.040 Uiso calc R 1 . .
+    C C2 0.3794(6) -0.0123(8) -0.5065(8) 0.0273(15) Uani d . 1 . .
+    H H2 0.3672 -0.0991 -0.5804 0.033 Uiso calc R 1 . .
+    C C3 0.4366(6) 0.1194(9) -0.5867(8) 0.0306(14) Uani d . 1 . .
+    H H3A 0.3890 0.1529 -0.6785 0.037 Uiso calc R 1 . .
+    H H3B 0.4475 0.2077 -0.5162 0.037 Uiso calc R 1 . .
+    C C4 0.4542(6) -0.0685(9) -0.3667(8) 0.0299(14) Uani d . 1 . .
+    H H4A 0.4654 0.0151 -0.2906 0.036 Uiso calc R 1 . .
+    H H4B 0.4187 -0.1550 -0.3183 0.036 Uiso calc R 1 . .
+    N N1 0.2111(5) -0.0797(7) -0.3841(6) 0.0274(12) Uani d . 1 . .
+    H H1C 0.1450 -0.0448 -0.3610 0.041 Uiso calc R 1 . .
+    H H1D 0.2531 -0.1050 -0.2962 0.041 Uiso calc R 1 . .
+    H H1E 0.2012 -0.1637 -0.4451 0.041 Uiso calc R 1 . .
+    I I1 -0.26315(4) 0.02539(5) -0.02301(5) 0.02714(13) Uani d . 1 . .
+    I I2 0.00031(4) 0.18981(5) -0.30914(4) 0.02605(14) Uani d . 1 . .
+    Pb Pb1 0.0000 0.0000 0.0000 0.01915(11) Uani d S 1 . .
+loop_
+    _atom_site_aniso_label
+    _atom_site_aniso_U_11
+    _atom_site_aniso_U_22
+    _atom_site_aniso_U_33
+    _atom_site_aniso_U_12
+    _atom_site_aniso_U_13
+    _atom_site_aniso_U_23
+    C1 0.036(4) 0.026(3) 0.039(4) 0.002(3) 0.005(3) 0.004(3)
+    C2 0.027(4) 0.027(4) 0.028(3) -0.003(3) 0.003(3) -0.001(2)
+    C3 0.028(3) 0.030(3) 0.034(3) 0.000(3) 0.001(3) 0.010(3)
+    C4 0.023(3) 0.035(4) 0.031(3) -0.003(3) 0.002(3) 0.008(3)
+    N1 0.025(3) 0.031(3) 0.026(3) -0.004(2) 0.003(2) -0.001(2)
+    I1 0.0262(2) 0.0257(2) 0.0288(2) -0.00327(17) -0.00048(18) -0.00028(16)
+    I2 0.0356(2) 0.0218(2) 0.0212(2) 0.00569(16) 0.00513(16) 0.00779(14)
+    Pb1 0.02537(19) 0.01599(17) 0.01602(16) 0.00087(11) 0.00182(12) 0.00032(10)
+_geom_special_details
+;
+All esds (except the esd in the dihedral angle between two l.s. planes) are
+estimated using the full covariance matrix. The cell esds are taken into
+account individually in the estimation of esds in distances, angles and
+torsion angles; correlations between esds in cell parameters are only used
+when they are defined by crystal symmetry. An approximate (isotropic)
+treatment of cell esds is used for estimating esds involving l.s. planes.
+;
+loop_
+    _geom_bond_atom_site_label_1
+    _geom_bond_atom_site_label_2
+    _geom_bond_site_symmetry_2
+    _geom_bond_distance
+    _geom_bond_publ_flag
+    C1 N1 . 1.507(9) ?
+    C1 C2 . 1.530(10) ?
+    C1 H1A . 0.9900 ?
+    C1 H1B . 0.9900 ?
+    C2 C4 . 1.536(10) ?
+    C2 C3 . 1.554(9) ?
+    C2 H2 . 1.0000 ?
+    C3 C4 3_654 1.510(10) ?
+    C3 H3A . 0.9900 ?
+    C3 H3B . 0.9900 ?
+    C4 C3 3_654 1.510(10) ?
+    C4 H4A . 0.9900 ?
+    C4 H4B . 0.9900 ?
+    N1 H1C . 0.9100 ?
+    N1 H1D . 0.9100 ?
+    N1 H1E . 0.9100 ?
+    I1 Pb1 . 3.2243(6) ?
+    I2 Pb1 . 3.1824(5) ?
+    I2 Pb1 2_554 3.1875(5) ?
+    Pb1 I2 3 3.1824(5) y
+    Pb1 I2 4_566 3.1875(5) y
+    Pb1 I2 2_544 3.1875(5) ?
+    Pb1 I1 3 3.2243(6) y
+loop_
+    _geom_angle_atom_site_label_1
+    _geom_angle_atom_site_label_2
+    _geom_angle_atom_site_label_3
+    _geom_angle_site_symmetry_1
+    _geom_angle_site_symmetry_3
+    _geom_angle
+    _geom_angle_publ_flag
+    N1 C1 C2 . . 110.5(6) ?
+    N1 C1 H1A . . 109.5 ?
+    C2 C1 H1A . . 109.5 ?
+    N1 C1 H1B . . 109.5 ?
+    C2 C1 H1B . . 109.5 ?
+    H1A C1 H1B . . 108.1 ?
+    C4 C2 C1 . . 113.3(6) ?
+    C4 C2 C3 . . 109.8(6) ?
+    C1 C2 C3 . . 109.0(6) ?
+    C4 C2 H2 . . 108.2 ?
+    C1 C2 H2 . . 108.2 ?
+    C3 C2 H2 . . 108.2 ?
+    C4 C3 C2 3_654 . 111.1(6) ?
+    C4 C3 H3A 3_654 . 109.4 ?
+    C2 C3 H3A . . 109.4 ?
+    C4 C3 H3B 3_654 . 109.4 ?
+    C2 C3 H3B . . 109.4 ?
+    H3A C3 H3B . . 108.0 ?
+    C3 C4 C2 3_654 . 110.6(6) ?
+    C3 C4 H4A 3_654 . 109.5 ?
+    C2 C4 H4A . . 109.5 ?
+    C3 C4 H4B 3_654 . 109.5 ?
+    C2 C4 H4B . . 109.5 ?
+    H4A C4 H4B . . 108.1 ?
+    C1 N1 H1C . . 109.5 ?
+    C1 N1 H1D . . 109.5 ?
+    H1C N1 H1D . . 109.5 ?
+    C1 N1 H1E . . 109.5 ?
+    H1C N1 H1E . . 109.5 ?
+    H1D N1 H1E . . 109.5 ?
+    Pb1 I2 Pb1 . 2_554 153.144(15) ?
+    I2 Pb1 I2 . 3 180.00(2) ?
+    I2 Pb1 I2 . 4_566 90.294(11) ?
+    I2 Pb1 I2 3 4_566 89.706(11) ?
+    I2 Pb1 I2 . 2_544 89.706(11) ?
+    I2 Pb1 I2 3 2_544 90.294(11) ?
+    I2 Pb1 I2 4_566 2_544 180.0 ?
+    I2 Pb1 I1 . 3 89.999(12) ?
+    I2 Pb1 I1 3 3 90.001(12) ?
+    I2 Pb1 I1 4_566 3 94.518(12) ?
+    I2 Pb1 I1 2_544 3 85.482(12) ?
+    I2 Pb1 I1 . . 90.001(12) ?
+    I2 Pb1 I1 3 . 89.999(12) ?
+    I2 Pb1 I1 4_566 . 85.482(12) ?
+    I2 Pb1 I1 2_544 . 94.518(12) ?
+    I1 Pb1 I1 3 . 180.0 ?
+loop_
+    _geom_torsion_atom_site_label_1
+    _geom_torsion_atom_site_label_2
+    _geom_torsion_atom_site_label_3
+    _geom_torsion_atom_site_label_4
+    _geom_torsion_site_symmetry_1
+    _geom_torsion_site_symmetry_2
+    _geom_torsion_site_symmetry_3
+    _geom_torsion_site_symmetry_4
+    _geom_torsion
+    _geom_torsion_publ_flag
+    N1 C1 C2 C4 . . . . -55.7(8) ?
+    N1 C1 C2 C3 . . . . -178.2(6) ?
+    C4 C2 C3 C4 . . . 3_654 57.3(8) ?
+    C1 C2 C3 C4 . . . 3_654 -178.1(6) ?
+    C1 C2 C4 C3 . . . 3_654 -179.1(6) ?
+    C3 C2 C4 C3 . . . 3_654 -57.0(9) ?
+    Pb1 I2 Pb1 I2 2_554 . . 4_566 -0.35(4) ?
+    Pb1 I2 Pb1 I2 2_554 . . 2_544 179.65(4) ?
+    Pb1 I2 Pb1 I1 2_554 . . 3 -94.87(4) ?
+    Pb1 I2 Pb1 I1 2_554 . . . 85.13(4) ?
+loop_
+    _geom_hbond_atom_site_label_D
+    _geom_hbond_atom_site_label_H
+    _geom_hbond_atom_site_label_A
+    _geom_hbond_site_symmetry_A
+    _geom_hbond_distance_DH
+    _geom_hbond_distance_HA
+    _geom_hbond_distance_DA
+    _geom_hbond_angle_DHA
+    N1 H1D I1 3 0.91 2.88 3.598(5) 137
+    N1 H1E I1 2_544 0.91 2.84 3.619(6) 144
+    N1 H1E I2 3_554 0.91 3.12 3.672(6) 121
+    N1 H1C I2 . 0.91 2.78 3.611(6) 152
+data_global
+_journal_date_recd_electronic     2010-04-27
+_journal_date_accepted     2010-05-07
+_journal_name_full     'Acta Crystallographica, Section E'
+_journal_year     2010
+_journal_volume     66
+_journal_issue      6
+_journal_page_first     m660
+_journal_page_last     m660
+_journal_paper_category     QM
+_journal_coeditor_code     WM2340
+_publ_contact_author_name     'David Gordon Billing'
+_publ_contact_author_address
+;
+Molecular Sciences Institute
+School of Chemistry
+University of the Witwatersrand
+Private Bag 3
+PO Wits 2050
+South Africa
+;
+_publ_contact_author_email     'david.billing@wits.ac.za'
+_publ_contact_author_fax     '+27117176749'
+_publ_contact_author_phone     '+27117176759'
+_publ_section_title
+;
+Poly[1,4-bis(ammoniomethyl)cyclohexane [di-\m-iodido-diiodidoplumbate(II)]]
+;
+loop_
+    _publ_author_name
+    _publ_author_footnote
+    _publ_author_address
+    'Rayner, Matthew Kyle' .
+;
+Molecular Sciences Institute
+School of Chemistry
+University of the Witwatersrand
+Private Bag 3
+PO Wits 2050
+South Africa
+;
+    'Billing, David Gordon' .
+;
+Molecular Sciences Institute
+School of Chemistry
+University of the Witwatersrand
+Private Bag 3
+PO Wits 2050
+South Africa
+;

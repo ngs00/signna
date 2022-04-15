@@ -1,0 +1,3643 @@
+#=======================================================================
+data_global
+#=======================================================================
+_audit_creation_method             'Jana2006 Version : 25/10/2015'
+# 1. PROCESSING SUMMARY (IUCr Office Use Only)
+_journal_date_recd_electronic      ?
+_journal_date_to_coeditor          ?
+_journal_date_from_coeditor        ?
+_journal_date_accepted             ?
+_journal_date_printers_first       ?
+_journal_date_printers_final       ?
+_journal_date_proofs_out           ?
+_journal_date_proofs_in            ?
+_journal_coeditor_name             ?
+_journal_coeditor_code             ?
+_journal_coeditor_notes
+;
+ ?
+;
+_journal_techeditor_code           ?
+_journal_paper_category            ?
+_journal_techeditor_notes
+;
+ ?
+;
+_journal_coden_ASTM                ?
+_journal_name_full                 ?
+_journal_year                      ?
+_journal_volume                    ?
+_journal_issue                     ?
+_journal_page_first                ?
+_journal_page_last                 ?
+_journal_suppl_publ_number         ?
+_journal_suppl_publ_pages          ?
+#=======================================================================
+# 2. SUBMISSION DETAILS
+
+_publ_contact_author_name                'Mercouri G. Kanatzidis'
+_publ_contact_author_address
+;
+   Department of Chemistry
+     2145 Sheridan Road
+   Northwestern University
+   Evanston, IL 60208-3113
+           USA
+;
+_publ_contact_author_email               m-kanatzidis@northwestern.edu
+_publ_contact_author_fax                 '847-491-5937'
+_publ_contact_author_phone               '847-467-1541'
+
+_publ_requested_journal                  ?
+_publ_requested_category                 ?
+
+_publ_contact_letter
+; ?
+;
+
+#=======================================================================
+# 3. TITLE AND AUTHOR LIST
+_publ_section_title
+;
+ ?
+;
+_publ_section_title_footnote
+;
+ ?
+;
+loop_
+  _publ_author_name
+  _publ_author_footnote
+  _publ_author_address
+
+;
+
+
+ ?      # name
+;
+;
+
+
+ ?      # footnote
+;
+;
+
+
+ ?      # address
+;
+
+#=======================================================================
+# 4. TEXT
+
+_publ_section_synopsis
+; ?
+;
+_publ_section_abstract
+; ?
+;
+_publ_section_comment
+; ?
+;
+_publ_section_introduction
+; ?
+;
+_publ_section_experimental
+; ?
+;
+_publ_section_exptl_prep
+; ?
+;
+_publ_section_exptl_refinement
+; ?
+;
+_publ_section_exptl_solution
+; ?
+;
+_publ_section_discussion
+; ?
+;
+_publ_section_acknowledgements
+; ?
+;
+_publ_section_references
+;
+Petricek, V., Dusek, M. & Palatinus L. (2014). Z. Kristallogr. 229(5), 345-352.
+
+Palatinus L. & Chapuis G. (2007). J. Appl. Cryst. 40, 786-790.
+
+enable this reference if Diamond ver. 3 was used for visualization
+Brandenburg, K. & Putz, H. (2005). DIAMOND Version 3.
+Crystal Impact GbR, Postfach 1251, D-53002 Bonn, Germany.
+
+ enable this reference if Xshape wase used for crystal shape refinement
+Stoe & Cie (1998). X-SHAPE. Stoe & Cie, Darmstadt, Germany.
+;
+_publ_section_figure_captions
+; ?
+;
+_publ_section_table_legends
+; ?
+;
+
+#=======================================================================
+data_esv_2_129a_ht
+_audit_creation_date               2021-03-16
+_audit_creation_method
+;
+Olex2 1.2
+(compiled 2018.05.29 svn.r3508 for OlexSys, GUI svn.r5506)
+;
+_shelx_SHELXL_version_number       '2017/1'
+_audit_contact_author_address      ?
+_audit_contact_author_email        ?
+_audit_contact_author_name         ''
+_audit_contact_author_phone        ?
+_publ_contact_author_id_orcid      ?
+_publ_section_references
+;
+Dolomanov, O.V., Bourhis, L.J., Gildea, R.J, Howard, J.A.K. & Puschmann, H.
+ (2009), J. Appl. Cryst. 42, 339-341.
+
+Sheldrick, G.M. (2015). Acta Cryst. C71, 3-8.
+;
+_chemical_name_common             'Hexylammonium Methylammonium Lead Bromide'
+_chemical_name_systematic          ?
+_chemical_formula_moiety          
+ '0.5(Br14 Pb4), 2(C6 H16 N), 0.5(C2 N2), 2(H)'
+_chemical_formula_sum              'C13 H34 Br7 N3 Pb2'
+_chemical_formula_weight           1206.18
+_chemical_melting_point            ?
+_chemical_oxdiff_formula           'C13 H38 N3 Pb2 Br7'
+loop_
+  _atom_type_symbol
+  _atom_type_description
+  _atom_type_scat_dispersion_real
+  _atom_type_scat_dispersion_imag
+  _atom_type_scat_source
+ 'C' 'C' 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+ 'H' 'H' 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+ 'Br' 'Br' -0.2901 2.4595
+ 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+ 'N' 'N' 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+ 'Pb' 'Pb' -3.3944 10.1111
+ 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+
+_shelx_space_group_comment
+;
+The symmetry employed for this shelxl refinement is uniquely defined
+by the following loop, which should always be used as a source of
+symmetry information in preference to the above space-group names.
+They are only intended as comments.
+;
+_space_group_crystal_system        'monoclinic'
+_space_group_IT_number             15
+_space_group_name_H-M_alt          'C 1 2/c 1'
+_space_group_name_Hall             '-C 2yc'
+loop_
+  _space_group_symop_operation_xyz
+ 'x, y, z'
+ '-x, y, -z+1/2'
+ 'x+1/2, y+1/2, z'
+ '-x+1/2, y+1/2, -z+1/2'
+ '-x, -y, -z'
+ 'x, -y, z-1/2'
+ '-x+1/2, -y+1/2, -z'
+ 'x+1/2, -y+1/2, z-1/2'
+
+_cell_length_a                     48.559
+_cell_length_b                     8.328
+_cell_length_c                     8.325
+_cell_angle_alpha                  90
+_cell_angle_beta                   90.05
+_cell_angle_gamma                  90
+_cell_volume                       3366.5
+_cell_formula_units_Z              4
+_cell_measurement_reflns_used      3073
+_cell_measurement_temperature      322.99(14)
+_cell_measurement_theta_max        28.8570
+_cell_measurement_theta_min        2.5060
+_shelx_estimated_absorpt_T_max     ?
+_shelx_estimated_absorpt_T_min     ?
+_exptl_absorpt_coefficient_mu      18.301
+_exptl_absorpt_correction_T_max    0.01383
+_exptl_absorpt_correction_T_min    0.00206
+_exptl_absorpt_correction_type     numerical
+_exptl_absorpt_process_details
+;
+CrysAlisPro 1.171.40.25a (Rigaku Oxford Diffraction, 2018)
+Spherical absorption correction
+ using equivalent radius and absorption coefficient.
+Empirical absorption correction using spherical harmonics,
+ implemented in SCALE3 ABSPACK scaling algorithm.
+;
+_exptl_absorpt_special_details     ?
+_exptl_crystal_colour              'light yellow'
+_exptl_crystal_density_diffrn      2.380
+_exptl_crystal_density_meas        ?
+_exptl_crystal_density_method      ?
+_exptl_crystal_description         'light yellow plate'
+_exptl_crystal_F_000               2168
+_exptl_crystal_size_max            0.155
+_exptl_crystal_size_mid            0.144
+_exptl_crystal_size_min            0.056
+_exptl_transmission_factor_max     ?
+_exptl_transmission_factor_min     ?
+_diffrn_reflns_av_R_equivalents    0.0884
+_diffrn_reflns_av_unetI/netI       0.0433
+_diffrn_reflns_Laue_measured_fraction_full  0.971
+_diffrn_reflns_Laue_measured_fraction_max  0.971
+_diffrn_reflns_limit_h_max         ?
+_diffrn_reflns_limit_h_min         ?
+_diffrn_reflns_limit_k_max         ?
+_diffrn_reflns_limit_k_min         ?
+_diffrn_reflns_limit_l_max         ?
+_diffrn_reflns_limit_l_min         ?
+_diffrn_reflns_number              2945
+_diffrn_reflns_point_group_measured_fraction_full  0.971
+_diffrn_reflns_point_group_measured_fraction_max  0.971
+_diffrn_reflns_theta_full          25.240
+_diffrn_reflns_theta_max           25.240
+_diffrn_reflns_theta_min           2.481
+_diffrn_ambient_environment        air
+_diffrn_ambient_temperature        322.99(14)
+_diffrn_detector                   'CCD plate'
+_diffrn_detector_area_resol_mean   10.0000
+_diffrn_detector_type              HyPix
+_diffrn_measured_fraction_theta_full  0.971
+_diffrn_measured_fraction_theta_max  0.971
+_diffrn_measurement_details
+;
+List of Runs (angles in degrees, time in seconds):
+
+  # Type    Start    End  Width  t~exp~   \w     \q     \k     \f   Frames
+--------------------------------------------------------------------------
+  1  \w     -9.00  76.00   0.50   50.00    --    4.87  57.00 -30.00  170
+  2  \w     -4.00  54.00   0.50   50.00    --    4.87  57.00  90.00  116
+  3  \w    -17.00  25.00   0.50   50.00    --    4.87 -99.00   0.00   84
+;
+_diffrn_measurement_device         'four-circle diffractometer'
+_diffrn_measurement_device_type   
+ 'XtaLAB Synergy, Single source at offset/far, HyPix'
+_diffrn_measurement_method         '\w scans'
+_diffrn_orient_matrix_type        
+ 'CrysAlisPro convention (1999,Acta A55,543-557)'
+_diffrn_orient_matrix_UB_11        0.0108893000
+_diffrn_orient_matrix_UB_12        -0.0520980000
+_diffrn_orient_matrix_UB_13        0.0226085000
+_diffrn_orient_matrix_UB_21        -0.0093354000
+_diffrn_orient_matrix_UB_22        -0.0654711000
+_diffrn_orient_matrix_UB_23        0.0019500000
+_diffrn_orient_matrix_UB_31        0.0027630000
+_diffrn_orient_matrix_UB_32        -0.0159042000
+_diffrn_orient_matrix_UB_33        -0.0821277000
+_diffrn_radiation_monochromator    mirror
+_diffrn_radiation_probe            x-ray
+_diffrn_radiation_type             MoK\a
+_diffrn_radiation_wavelength       0.71073
+_diffrn_source                     'micro-focus sealed X-ray tube'
+_diffrn_source_type                'PhotonJet (Mo) X-ray Source'
+_reflns_Friedel_coverage           0.000
+_reflns_Friedel_fraction_full      .
+_reflns_Friedel_fraction_max       .
+_reflns_number_gt                  1739
+_reflns_number_total               2945
+_reflns_odcompleteness_completeness  95.00
+_reflns_odcompleteness_iscentric   1
+_reflns_odcompleteness_theta       26.32
+_reflns_special_details
+;
+ Reflections were merged by SHELXL according to the crystal
+ class for the calculation of statistics and refinement.
+ 
+ _reflns_Friedel_fraction is defined as the number of unique
+ Friedel pairs measured divided by the number that would be
+ possible theoretically, ignoring centric projections and
+ systematic absences.
+;
+_reflns_threshold_expression       'I > 2\s(I)'
+_computing_cell_refinement         'CrysAlisPro 1.171.40.25a (Rigaku OD, 2018)'
+_computing_data_collection         'CrysAlisPro 1.171.40.25a (Rigaku OD, 2018)'
+_computing_data_reduction          'CrysAlisPro 1.171.40.25a (Rigaku OD, 2018)'
+_computing_molecular_graphics      'Olex2 (Dolomanov et al., 2009)'
+_computing_publication_material    'Olex2 (Dolomanov et al., 2009)'
+_computing_structure_refinement    'ShelXL (Sheldrick, 2015)'
+_computing_structure_solution      ?
+_refine_diff_density_max           2.296
+_refine_diff_density_min           -0.870
+_refine_diff_density_rms           0.357
+_refine_ls_extinction_coef         .
+_refine_ls_extinction_method       none
+_refine_ls_goodness_of_fit_ref     1.053
+_refine_ls_hydrogen_treatment      mixed
+_refine_ls_matrix_type             full
+_refine_ls_number_parameters       78
+_refine_ls_number_reflns           2945
+_refine_ls_number_restraints       18
+_refine_ls_R_factor_all            0.1130
+_refine_ls_R_factor_gt             0.0884
+_refine_ls_restrained_S_all        1.059
+_refine_ls_shift/su_max            0.1594
+_refine_ls_shift/su_mean           0.0043
+_refine_ls_structure_factor_coef   Fsqd
+_refine_ls_weighting_details      
+ 'w=1/[\s^2^(Fo^2^)+(0.1721P)^2^+24.6685P] where P=(Fo^2^+2Fc^2^)/3'
+_refine_ls_weighting_scheme        calc
+_refine_ls_wR_factor_gt            0.2669
+_refine_ls_wR_factor_ref           0.2932
+_refine_special_details            ?
+_olex2_refinement_description
+;
+1. Fixed Uiso
+ At 1.2 times of:
+  All C(H,H) groups, All N(H,H,H) groups
+ At 1.5 times of:
+  All C(H,H,H) groups
+2. Restrained distances
+ N2-C2 = C2-C3
+ 1.5 with sigma of 0.02
+ C2-C3 = C3-C4
+ 1.5 with sigma of 0.02
+ C3-C4 = C4-C5
+ 1.5 with sigma of 0.02
+ C4-C5 = C5-C6
+ 1.5 with sigma of 0.02
+ C5-C6 = C6-C7
+ 1.5 with sigma of 0.02
+ C3-C7
+ 2 with sigma of 0.02
+ C7-C3
+ 2.2 with sigma of 0.02
+ C8-NA
+ 1.5 with sigma of 0.02
+ N2-C3
+ 2.45 with sigma of 0.04
+ C2-C4
+ 2.45 with sigma of 0.04
+ C3-C5
+ 2.45 with sigma of 0.04
+ C4-C6
+ 2.45 with sigma of 0.04
+ C5-C7
+ 2.45 with sigma of 0.04
+3. Uiso/Uaniso restraints and constraints
+Uiso(N2) = Uiso(C2) = Uiso(C3) = Uiso(C5) = Uiso(C4) = Uiso(C7) = Uiso(C6)
+4. Others
+ Fixed Sof: C8(0.5) H8(0.5) NA(0.5) HA(0.5)
+5.a Secondary CH2 refined with riding coordinates:
+ C3(H3A,H3B), C4(H4A,H4B), C5(H5A,H5B), C6(H6A,H6B), C2(H2D,H2E)
+5.b Idealised Me refined as rotating group:
+ N2(H2A,H2B,H2C), C7(H3C,H7A,H7B)
+;
+_atom_sites_solution_hydrogens     mixed
+_atom_sites_solution_primary       ?
+_atom_sites_solution_secondary     ?
+loop_
+  _atom_site_label
+  _atom_site_type_symbol
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_U_iso_or_equiv
+  _atom_site_adp_type
+  _atom_site_occupancy
+  _atom_site_site_symmetry_order
+  _atom_site_calc_flag
+  _atom_site_refinement_flags_posn
+  _atom_site_refinement_flags_adp
+  _atom_site_refinement_flags_occupancy
+  _atom_site_disorder_assembly
+  _atom_site_disorder_group
+ Pb1 Pb 0.06328(2) 0.24990(6) 0.24995(7) 0.0953(5) Uani 1 1 d . . . . .
+ Br1 Br 0.000000 0.2498(4) 0.250000 0.1372(15) Uani 1 2 d S T P . .
+ Br2 Br 0.06243(8) -0.0299(4) 0.0316(4) 0.1768(15) Uani 1 1 d . . . . .
+ Br3 Br 0.06243(8) 0.5291(4) 0.4723(4) 0.1817(15) Uani 1 1 d . . . . .
+ Br4 Br 0.12223(10) 0.2483(4) 0.2504(10) 0.215(2) Uani 1 1 d . . . . .
+ C3 C 0.3345(13) 0.228(7) 0.205(8) 0.43(2) Uiso 1 1 d D . . . .
+ H3A H 0.336772 0.200861 0.092446 0.516 Uiso 1 1 calc R U . . .
+ H3B H 0.330505 0.341455 0.212316 0.516 Uiso 1 1 calc R U . . .
+ N2 N 0.3844(13) 0.282(6) 0.218(9) 0.43(2) Uiso 1 1 d D . . . .
+ H2A H 0.377904 0.358731 0.154388 0.516 Uiso 1 1 calc R U . . .
+ H2B H 0.394491 0.213591 0.160392 0.516 Uiso 1 1 calc R U . . .
+ H2C H 0.394723 0.324885 0.294861 0.516 Uiso 1 1 calc R U . . .
+ C4 C 0.3107(13) 0.134(6) 0.273(10) 0.43(2) Uiso 1 1 d D . . . .
+ H4A H 0.313541 0.019655 0.256123 0.516 Uiso 1 1 calc R U . . .
+ H4B H 0.293711 0.164579 0.219347 0.516 Uiso 1 1 calc R U . . .
+ C5 C 0.3088(15) 0.170(5) 0.450(9) 0.43(2) Uiso 1 1 d D . . . .
+ H5A H 0.324300 0.123057 0.506730 0.516 Uiso 1 1 calc R U . . .
+ H5B H 0.291906 0.127296 0.494316 0.516 Uiso 1 1 calc R U . . .
+ C6 C 0.3094(14) 0.350(5) 0.463(10) 0.43(2) Uiso 1 1 d D . . . .
+ H6A H 0.325255 0.384364 0.525325 0.516 Uiso 1 1 calc R U . . .
+ H6B H 0.292878 0.388324 0.516624 0.516 Uiso 1 1 calc R U . . .
+ C7 C 0.3109(14) 0.418(5) 0.295(10) 0.43(2) Uiso 1 1 d D . . . .
+ H3C H 0.302595 0.344096 0.221131 0.645 Uiso 1 1 calc R U . . .
+ H7A H 0.329861 0.434347 0.266169 0.645 Uiso 1 1 calc R U . . .
+ H7B H 0.301322 0.518703 0.291085 0.645 Uiso 1 1 calc R U . . .
+ C2 C 0.3609(13) 0.193(9) 0.292(9) 0.43(2) Uiso 1 1 d D . . . .
+ H2D H 0.359050 0.225227 0.403878 0.516 Uiso 1 1 calc R U . . .
+ H2E H 0.364562 0.078862 0.289499 0.516 Uiso 1 1 calc R U . . .
+ C8 C -0.001(2) 0.342(5) -0.176(9) 0.23(4) Uiso 0.5 1 d D . P . .
+ H8 H -0.021330 0.360446 -0.165287 0.273 Uiso 0.5 1 calc R U P . .
+ H H 0.8413(15) -3.991(8) -3.964(8) 0.016(18) Uiso 1 1 d . . . . .
+ NA N 0.000(3) 0.163(5) -0.164(12) 0.35(6) Uiso 0.5 1 d D . P . .
+ HA H 0.019802 0.143986 -0.139858 0.419 Uiso 0.5 1 calc R U P . .
+
+loop_
+  _atom_site_aniso_label
+  _atom_site_aniso_U_11
+  _atom_site_aniso_U_22
+  _atom_site_aniso_U_33
+  _atom_site_aniso_U_23
+  _atom_site_aniso_U_13
+  _atom_site_aniso_U_12
+ Pb1 0.1577(9) 0.0636(6) 0.0647(6) -0.0002(2) -0.0006(4) -0.0001(3)
+ Br1 0.150(3) 0.127(4) 0.134(4) 0.000 -0.001(3) 0.000
+ Br2 0.280(4) 0.130(2) 0.1203(18) -0.0653(16) -0.032(2) 0.035(2)
+ Br3 0.261(4) 0.137(2) 0.147(2) -0.0812(19) 0.038(2) -0.038(2)
+ Br4 0.139(3) 0.249(6) 0.257(6) 0.001(3) 0.001(3) 0.003(2)
+
+_geom_special_details
+;
+ All esds (except the esd in the dihedral angle between two l.s. planes)
+ are estimated using the full covariance matrix.  The cell esds are taken
+ into account individually in the estimation of esds in distances, angles
+ and torsion angles; correlations between esds in cell parameters are only
+ used when they are defined by crystal symmetry.  An approximate (isotropic)
+ treatment of cell esds is used for estimating esds involving l.s. planes.
+;
+loop_
+  _geom_bond_atom_site_label_1
+  _geom_bond_atom_site_label_2
+  _geom_bond_distance
+  _geom_bond_site_symmetry_2
+  _geom_bond_publ_flag
+ Pb1 Br1 3.0726(8) . ?
+ Pb1 Br2 2.956(2) . ?
+ Pb1 Br2 2.976(2) 6_556 ?
+ Pb1 Br3 2.955(2) 6_565 ?
+ Pb1 Br3 2.973(2) . ?
+ Pb1 Br4 2.863(5) . ?
+ C3 C4 1.508(15) . ?
+ C3 C2 1.498(15) . ?
+ N2 C2 1.49(2) . ?
+ C4 C5 1.507(14) . ?
+ C5 C6 1.507(14) . ?
+ C6 C7 1.511(19) . ?
+ C8 C8 1.23(15) 2_554 ?
+ C8 NA 1.50(2) . ?
+ C8 NA 2.00(10) 2_554 ?
+ NA NA 1.4(2) 2_554 ?
+
+loop_
+  _geom_angle_atom_site_label_1
+  _geom_angle_atom_site_label_2
+  _geom_angle_atom_site_label_3
+  _geom_angle
+  _geom_angle_site_symmetry_1
+  _geom_angle_site_symmetry_3
+  _geom_angle_publ_flag
+ Br2 Pb1 Br1 89.15(8) 6_556 . ?
+ Br2 Pb1 Br1 89.22(9) . . ?
+ Br2 Pb1 Br2 89.940(17) . 6_556 ?
+ Br2 Pb1 Br3 178.32(10) . . ?
+ Br3 Pb1 Br1 89.19(9) . . ?
+ Br3 Pb1 Br1 89.26(8) 6_565 . ?
+ Br3 Pb1 Br2 90.56(9) 6_565 . ?
+ Br3 Pb1 Br2 89.48(9) . 6_556 ?
+ Br3 Pb1 Br2 178.33(10) 6_565 6_556 ?
+ Br3 Pb1 Br3 89.981(17) 6_565 . ?
+ Br4 Pb1 Br1 179.70(10) . . ?
+ Br4 Pb1 Br2 90.61(13) . . ?
+ Br4 Pb1 Br2 90.60(16) . 6_556 ?
+ Br4 Pb1 Br3 90.98(15) . 6_565 ?
+ Br4 Pb1 Br3 90.98(14) . . ?
+ Pb1 Br1 Pb1 179.97(11) 2 . ?
+ Pb1 Br2 Pb1 165.88(16) . 6 ?
+ Pb1 Br3 Pb1 166.95(18) 6_566 . ?
+ C2 C3 C4 112(3) . . ?
+ C3 C4 C5 108(2) . . ?
+ C4 C5 C6 106(2) . . ?
+ C5 C6 C7 108(2) . . ?
+ N2 C2 C3 111(3) . . ?
+ C8 C8 NA 93(4) 2_554 . ?
+ C8 C8 NA 48(3) 2_554 2_554 ?
+ NA C8 NA 45(6) . 2_554 ?
+ C8 NA C8 38(4) . 2_554 ?
+ NA NA C8 48(3) 2_554 2_554 ?
+ NA NA C8 86(4) 2_554 . ?
+
+_shelx_res_file
+;
+TITL esv_2_129a_ht
+    esv_2_129a_ht.res
+    created by SHELXL-2017/1 at 15:55:21 on 07-Feb-2020
+CELL 0.71073 48.559 8.3282 8.3246 90 90.049 90
+ZERR 4 0 0 0 0 0 0
+LATT 7
+SYMM -X,+Y,0.5-Z
+SFAC C H Br N Pb
+UNIT 52 136 28 12 8
+DFIX 1.5 N2 C2 C2 C3
+DFIX 1.5 C2 C3 C3 C4
+DFIX 1.5 C3 C4 C4 C5
+DFIX 1.5 C4 C5 C5 C6
+DFIX 1.5 C5 C6 C6 C7
+DFIX 2 C3 C7
+DFIX 2.2 C7 C3
+DFIX 1.5 C8 NA
+DANG 2.45 N2 C3
+DANG 2.45 C2 C4
+DANG 2.45 C3 C5
+DANG 2.45 C4 C6
+DANG 2.45 C5 C7
+EADP N2 C2 C3 C5 C4 C7 C6
+
+L.S. 4 0 0
+PLAN  20
+fmap 2 53
+ACTA
+REM <olex2.extras>
+REM <HklSrc "%.\\esv_2_129a_ht_sx.hkl">
+REM </olex2.extras>
+
+WGHT    0.172100   24.668499
+FVAR       7.70134
+PB1   5    0.063277    0.249900    0.249950    11.00000    0.15767    0.06358 =
+         0.06472   -0.00024   -0.00061   -0.00010
+BR1   3    0.000000    0.249790    0.250000    10.50000    0.14995    0.12745 =
+         0.13433    0.00000   -0.00064    0.00000
+BR2   3    0.062426   -0.029895    0.031565    11.00000    0.28042    0.12953 =
+         0.12035   -0.06532   -0.03173    0.03522
+BR3   3    0.062434    0.529131    0.472309    11.00000    0.26123    0.13670 =
+         0.14725   -0.08118    0.03765   -0.03829
+BR4   3    0.122230    0.248296    0.250446    11.00000    0.13948    0.24904 =
+         0.25724    0.00065    0.00134    0.00304
+C3    1    0.334536    0.227609    0.205090    11.00000    0.43011
+AFIX  23
+H3A   2    0.336772    0.200861    0.092446    11.00000   -1.20000
+H3B   2    0.330505    0.341455    0.212316    11.00000   -1.20000
+AFIX   0
+N2    4    0.384368    0.281522    0.217999    11.00000    0.43011
+AFIX 137
+H2A   2    0.377904    0.358731    0.154388    11.00000   -1.20000
+H2B   2    0.394491    0.213591    0.160392    11.00000   -1.20000
+H2C   2    0.394723    0.324885    0.294861    11.00000   -1.20000
+AFIX   0
+C4    1    0.310668    0.133715    0.272717    11.00000    0.43011
+AFIX  23
+H4A   2    0.313541    0.019655    0.256123    11.00000   -1.20000
+H4B   2    0.293711    0.164579    0.219347    11.00000   -1.20000
+AFIX   0
+C5    1    0.308841    0.169969    0.449710    11.00000    0.43011
+AFIX  23
+H5A   2    0.324300    0.123057    0.506730    11.00000   -1.20000
+H5B   2    0.291906    0.127296    0.494316    11.00000   -1.20000
+AFIX   0
+C6    1    0.309385    0.350349    0.463203    11.00000    0.43011
+AFIX  23
+H6A   2    0.325255    0.384364    0.525325    11.00000   -1.20000
+H6B   2    0.292878    0.388324    0.516624    11.00000   -1.20000
+AFIX   0
+C7    1    0.310932    0.418044    0.295072    11.00000    0.43011
+AFIX 137
+H3C   2    0.302595    0.344096    0.221131    11.00000   -1.50000
+H7A   2    0.329861    0.434347    0.266169    11.00000   -1.50000
+H7B   2    0.301322    0.518703    0.291085    11.00000   -1.50000
+AFIX   0
+C2    1    0.360881    0.193304    0.292338    11.00000    0.43011
+AFIX  23
+H2D   2    0.359050    0.225227    0.403878    11.00000   -1.20000
+H2E   2    0.364562    0.078862    0.289499    11.00000   -1.20000
+AFIX   0
+
+C8    1   -0.001500    0.341682   -0.176414    10.50000    0.22775
+AFIX  13
+H8    2   -0.021330    0.360446   -0.165287    10.50000   -1.20000
+AFIX   0
+
+H     2    0.841312   -3.991188   -3.964442    11.00000    0.01563
+NA    4    0.000322    0.162670   -0.164419    10.50000    0.34927
+AFIX  13
+HA    2    0.019802    0.143986   -0.139858    10.50000   -1.20000
+AFIX   0
+HKLF 4
+
+
+
+
+REM  esv_2_129a_ht
+REM R1 =  0.0884 for    1739 Fo > 4sig(Fo)  and  0.1130 for all    2945 data
+REM     78 parameters refined using     18 restraints
+
+END
+
+WGHT      0.1734     23.7583
+
+REM Highest difference peak  2.296,  deepest hole -0.870,  1-sigma level  0.357
+Q1    1   0.0616  0.3418  0.2724  11.00000  0.05    2.30
+Q2    1   0.0611  0.1550  0.2492  11.00000  0.05    2.23
+Q3    1   0.0610  0.2581  0.1591  11.00000  0.05    2.07
+Q4    1   0.0428  0.2448  0.2590  11.00000  0.05    2.02
+Q5    1   0.0638  0.2403  0.3374  11.00000  0.05    1.98
+Q6    1   0.0765  0.2549  0.2276  11.00000  0.05    1.88
+Q7    1   0.1225  0.3148  0.1935  11.00000  0.05    1.30
+Q8    1   0.0011  0.1726  0.3072  11.00000  0.05    1.29
+Q9    1   0.1237  0.3162  0.3043  11.00000  0.05    1.28
+Q10   1   0.1216  0.1838  0.1917  11.00000  0.05    1.28
+Q11   1   0.0000  0.1662  0.2500  10.50000  0.05    1.24
+Q12   1  -0.0004  0.3354  0.2297  11.00000  0.05    1.23
+Q13   1   0.1225  0.1851  0.3098  11.00000  0.05    1.20
+Q14   1   0.0589  0.0423 -0.0558  11.00000  0.05    1.19
+Q15   1   0.0810  0.5042  0.4959  11.00000  0.05    1.13
+Q16   1   0.3934  0.2429  0.2751  11.00000  0.05    1.12
+Q17   1   0.0808  0.0022 -0.0096  11.00000  0.05    1.07
+Q18   1   0.3426  0.2527  0.2610  11.00000  0.05    0.96
+Q19   1   0.0604  0.5440  0.4346  11.00000  0.05    0.91
+Q20   1   0.0122  0.2453 -0.2101  11.00000  0.05    0.80
+;
+_shelx_res_checksum                12580
+_shelx_hkl_file
+;
+   6   0   010154731  386423
+   8   0   027078824 1067289
+  10   0   011954191  482656
+  12   0   0  641856   28381
+  14   0   031431919 1270440
+  16   0   069486696 2806597
+  18   0   023389704 1337602
+  20   0   0  316159   23958
+  22   0   0 6772291  389353
+  24   0   0 2965280  172414
+  26   0   0  595779   38436
+  28   0   0   18155   10973
+  30   0   0 1312495   77963
+  32   0   0 3703655  214009
+  34   0   0 1249470   75090
+  36   0   0   23843   12065
+  38   0   0  257386   20970
+  40   0   0   56188   12237
+  42   0   0   -7469   10744
+  44   0   0    3390   10054
+  46   0   0   25394    7871
+  48   0   0   81008    9077
+  50   0   0   22866    7296
+  52   0   0    1666    9020
+  54   0   0   12065    9709
+  56   0   0    9709    9250
+  58   0   0  -10973    8963
+   1   1   0    3964    1034
+   3   1   0    5745    1781
+   5   1   0     919    1551
+   7   1   0    1781    2241
+   9   1   0    1264    2815
+  11   1   0   36367    4251
+  13   1   0   41538    4826
+  15   1   0    4826    4941
+  17   1   0   10112    5573
+  19   1   0    3275    7296
+  21   1   0    4424    7067
+  23   1   0   -2585    5918
+  25   1   0    1264    5458
+  27   1   0    2643    6377
+  29   1   0    6205    6779
+  31   1   0   -9882    6147
+  33   1   0    -689    6205
+  35   1   0   -1436    5745
+  37   1   0     977    5573
+  39   1   0   -1264    6664
+  41   1   0    2470    6090
+  43   1   0    2413    6032
+  45   1   0       0    5975
+  47   1   0   -1551    5918
+  49   1   0   -7928    5918
+  51   1   0   -2643    9020
+  53   1   0   -3734    9767
+  55   1   0     345    9997
+  57   1   0   -9537    8618
+   0   2   026810005 1531216
+   2   2   0 4545330  183962
+   4   2   0 1447967   58946
+   6   2   0  104908    5573
+   8   2   0 2579086  104793
+  10   2   0  197750    9365
+  12   2   0  137196    5860
+  14   2   0 2014791   58199
+  16   2   0 8875731  293523
+  18   2   0 2982688   99392
+  20   2   0  189592    8560
+  22   2   0  670927   23785
+  24   2   0   26830    5573
+  26   2   0    2298    5630
+  28   2   0    -919    6090
+  30   2   0  348620   12984
+  32   2   0  871722   27175
+  34   2   0  224064    9422
+  36   2   0   49811    6492
+  38   2   0  104218    7124
+  40   2   0   14420    5803
+  42   2   0   -5745    5401
+  44   2   0    9192    5458
+  46   2   0   22866    5630
+  48   2   0   52626    5745
+  50   2   0    8101    4826
+  52   2   0   -6377    5228
+  54   2   0    3045    5171
+  56   2   0    7411    5860
+   1   3   0    -689    2643
+   3   3   0   18557    3619
+   5   3   0   30794    3217
+   7   3   0    2585    2873
+   9   3   0   20970    4137
+  11   3   0    1206    2758
+  13   3   0    4137    2988
+  15   3   0     172    3102
+  17   3   0    4309    3677
+  19   3   0   13616    4137
+  21   3   0   29186    3964
+  23   3   0    1034    4424
+  25   3   0   10456    4309
+  27   3   0    2470    4654
+  29   3   0     230    4826
+  31   3   0    6837    4596
+  33   3   0     345    4022
+  35   3   0    1206    4481
+  37   3   0    2988    5286
+  39   3   0    1149    5458
+  41   3   0   -3849    4769
+  43   3   0    2930    4481
+  45   3   0    2356    4711
+  47   3   0    4079    5171
+  49   3   0   10973    5458
+  51   3   0   -7584    6894
+  53   3   0   -5688    6377
+  55   3   0    3102    5975
+   0   4   028777111 1162315
+   2   4   012738241  326041
+   4   4   0  155753    7067
+   6   4   0 7574669  251066
+   8   4   0 9362696  268072
+  10   4   0 3539170  117088
+  12   4   0   47111    3045
+  14   4   0 6025815  172471
+  16   4   0 9975078  284905
+  18   4   0 3080184   88419
+  20   4   0   76239    4596
+  22   4   0 1513405   43893
+  24   4   0 1051030   36827
+  26   4   0  214526    9250
+  28   4   0   16144    4309
+  30   4   0  520517   15397
+  32   4   0  844375   29301
+  34   4   0  209528    9365
+  36   4   0   14938    4539
+  38   4   0   58946    4769
+  40   4   0   38263    4941
+  42   4   0   -6032    5688
+  44   4   0     517    5228
+  46   4   0   14593    5458
+  48   4   0   25681    5401
+  50   4   0   22923    6607
+  52   4   0    2930    6262
+   1   5   0    3045    2183
+   3   5   0    5171    2528
+   5   5   0    4654    3045
+   7   5   0    2356    3102
+   9   5   0    3045    3619
+  11   5   0    8905    3160
+  13   5   0   16891    2815
+  15   5   0   -1149    2700
+  17   5   0    4941    2758
+  19   5   0    1609    3045
+  21   5   0    -287    3390
+  23   5   0    1149    3390
+  25   5   0   -2930    3447
+  27   5   0    -632    3677
+  29   5   0    5401    4079
+  31   5   0    1609    4022
+  33   5   0   -1379    4654
+  35   5   0    4941    4366
+  37   5   0    1092    4826
+  39   5   0   -1551    5573
+  41   5   0  -11950    6722
+  43   5   0   -2470    7239
+  45   5   0   13616    8618
+  47   5   0   -4366    6664
+  49   5   0    9135    6492
+   0   6   0 2373695   79169
+   2   6   0 1272681   32978
+   4   6   0   41595    3505
+   6   6   0  635306   16948
+   8   6   0 1229477   41308
+  10   6   0  569983   19821
+  12   6   0    7756    3390
+  14   6   0  672133   19821
+  16   6   0 1246770   32173
+  18   6   0  585782   15627
+  20   6   0    7756    2930
+  22   6   0  216365    7641
+  24   6   0  344885    9652
+  26   6   0  112089    4941
+  28   6   0    2298    3619
+  30   6   0  134725    5860
+  32   6   0  185053    7182
+  34   6   0   64864    4941
+  36   6   0    -747    5056
+  38   6   0   31426    5745
+  40   6   0   23383    6492
+  42   6   0    3102    5228
+  44   6   0   -9020    6320
+  46   6   0    6205    7584
+   1   7   0    -862    2643
+   3   7   0    5745    2700
+   5   7   0    1149    2700
+   7   7   0    1838    3102
+   9   7   0    -575    3102
+  11   7   0       0    3275
+  13   7   0    3160    3102
+  15   7   0   -1551    3102
+  17   7   0    3964    3160
+  19   7   0    3102    3217
+  21   7   0   -2068    2873
+  23   7   0    1609    3102
+  25   7   0    2988    2930
+  27   7   0    1034    2988
+  29   7   0    2758    3160
+  31   7   0   -8331    3734
+  33   7   0   -1494    3619
+  35   7   0    2815    4769
+  37   7   0    6664    5171
+  39   7   0   -4022    5515
+  41   7   0   -4596    5803
+   0   8   0  968874   40504
+   2   8   0  511554   15512
+   4   8   0   24245    3562
+   6   8   0  415092   12754
+   8   8   0  719301   21200
+  10   8   0  220961    6607
+  12   8   0   46536    2873
+  14   8   0  364247    9939
+  16   8   0  389468   12008
+  18   8   0  119213    5056
+  20   8   0    7641    3275
+  22   8   0  143803    6435
+  24   8   0  150467    6664
+  26   8   0   27003    3964
+  28   8   0   16374    3447
+  30   8   0   60727    4711
+  32   8   0   49351    4654
+  34   8   0   16661    4137
+   1   9   0     460    5286
+   3   9   0   -2700    3734
+   5   9   0   -4309    3677
+   7   9   0   -2643    3045
+   9   9   0   -1206    3045
+  11   9   0    2298    2758
+  13   9   0     575    2815
+  15   9   0    2183    2758
+  17   9   0    1092    2873
+  19   9   0    -804    2873
+  21   9   0     689    3734
+  23   9   0    3102    3562
+  25   9   0    5458    4596
+ -57   1   1    6722    6262
+ -55   1   1   -7699    8905
+ -53   1   1    9595    7009
+ -51   1   1    8733    7124
+ -49   1   1   55958    7182
+ -47   1   1   58486    6147
+ -45   1   1    5918    5171
+ -43   1   1   -1264    5630
+ -41   1   1   -2068    4826
+ -39   1   1   79744    5860
+ -37   1   1  139436    6894
+ -35   1   1   59233    7009
+ -33   1   1 1222065   39987
+ -31   1   1 1429927   46077
+ -29   1   1  125131    8216
+ -27   1   1   48719    5401
+ -25   1   1  189592    7928
+ -23   1   1 1043562   35103
+ -21   1   1 1859612   60842
+ -19   1   1  366832   13789
+ -17   1   115959356  522355
+ -15   1   119935219  568374
+ -13   1   1 1461641   42687
+ -11   1   1 2850260   73366
+  -9   1   1 3480971   88993
+  -7   1   110530871  296453
+  -5   1   1 5867132  194131
+  -3   1   1 4830005  201887
+  -1   1   138815616 1567296
+   1   1   137968944 1533629
+   3   1   1 5264574  212975
+   5   1   1 6128080  248021
+   7   1   1 7317455  418826
+   9   1   1 2771781  159717
+  11   1   1 2537548  103529
+  13   1   1 1194833   40963
+  15   1   117601569  586300
+  17   1   114629165  419458
+  19   1   1  350114   11663
+  21   1   1 1910630   64117
+  23   1   1 1102910   37976
+  25   1   1  223432   10571
+  27   1   1   55039    6952
+  29   1   1  142309    9020
+  31   1   1 1625495   53143
+  33   1   1 1374831   47456
+  35   1   1   67277    7067
+  37   1   1  169829    9709
+  39   1   1  111630    8388
+  41   1   1   -2815    6550
+  43   1   1   10341    6320
+  45   1   1   12754    6147
+  47   1   1   51535    5803
+  49   1   1   44296    5515
+  51   1   1    3792    5343
+  53   1   1   14593    6492
+  55   1   1    3332    6435
+  57   1   1   -4079    6377
+ -56   2   1     115    5343
+ -54   2   1     919    5515
+ -52   2   1   -1551    5515
+ -50   2   1    7411    5515
+ -48   2   1    7756    5056
+ -46   2   1    2068    4883
+ -44   2   1   -3102    5056
+ -42   2   1    2700    6032
+ -40   2   1    9595    5573
+ -38   2   1     115    4711
+ -36   2   1    3275    4366
+ -34   2   1   -3102    4941
+ -32   2   1    5171    4769
+ -30   2   1   19878    4769
+ -28   2   1   19706    4539
+ -26   2   1   11490    4826
+ -24   2   1   10169    4366
+ -22   2   1   73711    5458
+ -20   2   1  137253    7067
+ -18   2   1   45789    4941
+ -16   2   1   13903    4194
+ -14   2   1  290651   13444
+ -12   2   1  625597   26371
+ -10   2   1  311678   11490
+  -8   2   1   23843    3619
+  -6   2   1  718325   22981
+  -4   2   1 1136060   38033
+  -2   2   1  512014   17523
+   0   2   1   16719    2585
+   2   2   1  454160   13444
+   4   2   1 1040172   30162
+   6   2   1  622150   21487
+   8   2   1   26830    2585
+  10   2   1  325926   11605
+  12   2   1  645188   22004
+  14   2   1  288065    9480
+  16   2   1   15684    3849
+  18   2   1   49811    5918
+  20   2   1  162130    9307
+  22   2   1   78767    6320
+  24   2   1   16029    5401
+  26   2   1   11663    5630
+  28   2   1   30047    5918
+  30   2   1   24647    6320
+  32   2   1    9939    6377
+  34   2   1   -6492    6779
+  36   2   1    2873    6090
+  38   2   1   -7067    5515
+  40   2   1    9307    5975
+  42   2   1    1838    5401
+  44   2   1    5918    6262
+  46   2   1   -1494    6147
+  48   2   1    3102    6722
+  50   2   1    1034    6894
+  52   2   1  -11146    8675
+  54   2   1   -6894    8388
+  56   2   1     977    8503
+ -55   3   1    3505    5171
+ -53   3   1   -4309    5573
+ -51   3   1   -6205    5688
+ -49   3   1   28611    6205
+ -47   3   1   38321    5515
+ -45   3   1    6377    4941
+ -43   3   1     172    4424
+ -41   3   1    9824    4366
+ -39   3   1   62336    5343
+ -37   3   1   68426    5171
+ -35   3   1   52511    4998
+ -33   3   1  776868   20913
+ -31   3   1  882810   24245
+ -29   3   1  136621    5860
+ -27   3   1   58486    4654
+ -25   3   1  440084   16144
+ -23   3   1 1145252   39585
+ -21   3   1  830356   24475
+ -19   3   1  607672   18270
+ -17   3   1 9484437  321790
+ -15   3   111397135  264223
+ -13   3   1 1319045   39125
+ -11   3   1 1274634   36884
+  -9   3   1 5464622  156442
+  -7   3   1 7378814  211022
+  -5   3   1 2600171   66530
+  -3   3   1 3140968   80491
+  -1   3   124745461  706777
+   1   3   125602992  731137
+   3   3   1 2892832   73194
+   5   3   1 2614534   75262
+   7   3   1 7342389  187639
+   9   3   1 5272272  150869
+  11   3   1 1259926   36597
+  13   3   1 1383276   57395
+  15   3   112425012  503741
+  17   3   110010124  331039
+  19   3   1  621518   21545
+  21   3   1  852073   28841
+  23   3   1 1050226   35793
+  25   3   1  424687   15799
+  27   3   1   49868    6722
+  29   3   1  152133   11146
+  31   3   1  917741   39699
+  33   3   1  747051   26830
+  35   3   1   61876    7182
+  37   3   1   82846    7124
+  39   3   1   93762    7928
+  41   3   1   23958    7411
+  43   3   1   -5975    6205
+  45   3   1    1838    5803
+  47   3   1   31829    6492
+  49   3   1   21889    6492
+  51   3   1   -6090    5975
+  53   3   1    2068    6262
+  55   3   1    8560    6262
+ -52   4   1   -4596    7067
+ -50   4   1   -2873    7469
+ -48   4   1   10801    8675
+ -46   4   1   -7067    7067
+ -44   4   1    1838    5515
+ -42   4   1    7526    6090
+ -40   4   1    4424    6205
+ -38   4   1     977    6032
+ -36   4   1     287    6262
+ -34   4   1   -7584    5228
+ -32   4   1    4079    5745
+ -30   4   1   25107    6550
+ -28   4   1   20970    4481
+ -26   4   1    6722    4137
+ -24   4   1   10916    4309
+ -22   4   1   87040    5343
+ -20   4   1  150984    7009
+ -18   4   1   62048    4596
+ -16   4   1   19649    3447
+ -14   4   1  285422    8273
+ -12   4   1  522757   15742
+ -10   4   1  229004    7641
+  -8   4   1   19534    3390
+  -6   4   1  487827   14650
+  -4   4   1  975710   28496
+  -2   4   1  529709   14478
+   0   4   1   16316    2988
+   2   4   1  521091   18040
+   4   4   1  956062   39585
+   6   4   1  480990   16661
+   8   4   1   17983    2988
+  10   4   1  224983    6607
+  12   4   1  482024   12927
+  14   4   1  264797    9882
+  16   4   1   15167    3160
+  18   4   1   64634    4022
+  20   4   1  162590    6262
+  22   4   1   84455    5401
+  24   4   1   12639    4539
+  26   4   1    1092    4883
+  28   4   1   29760    4309
+  30   4   1   16259    4366
+  32   4   1    2758    4769
+  34   4   1   -4481    5171
+  36   4   1    2068    4137
+  38   4   1    7296    4941
+  40   4   1    7641    5228
+  42   4   1    3505    4769
+  44   4   1   -2068    4826
+  46   4   1    7756    4711
+  48   4   1   -4079    4654
+  50   4   1    3217    4481
+  52   4   1    -230    5630
+ -49   5   1   10399    7182
+ -47   5   1    4998    5803
+ -45   5   1    9652    6147
+ -43   5   1    6262    6377
+ -41   5   1   12352    5975
+ -39   5   1   33437    5688
+ -37   5   1   27635    4596
+ -35   5   1   12008    4826
+ -33   5   1  193154    8388
+ -31   5   1  274392   10916
+ -29   5   1  102150    5745
+ -27   5   1    4481    4194
+ -25   5   1  212228    8790
+ -23   5   1  473981   17236
+ -21   5   1  195567    8331
+ -19   5   1  156672    7009
+ -17   5   1 1792623   46019
+ -15   5   1 2391505   56246
+ -13   5   1  598939   17925
+ -11   5   1  129440    6032
+  -9   5   1 1360583   45560
+  -7   5   1 1783488   45904
+  -5   5   1  418712   12467
+  -3   5   1  727172   21774
+  -1   5   1 4430368  126682
+   1   5   1 4536252  129899
+   3   5   1  769342   32116
+   5   5   1  446518   19361
+   7   5   1 1815719   74228
+   9   5   1 1356101   45445
+  11   5   1  127371    4826
+  13   5   1  573086   17006
+  15   5   1 2388632   68828
+  17   5   1 1830771   47111
+  19   5   1  161441    5975
+  21   5   1  207230    7239
+  23   5   1  500236   15225
+  25   5   1  216422    7584
+  27   5   1    4251    3907
+  29   5   1  104448    5343
+  31   5   1  304554   11203
+  33   5   1  179825    7067
+  35   5   1    8963    4941
+  37   5   1   37459    5458
+  39   5   1   53603    6377
+  41   5   1    3619    6147
+  43   5   1   -2643    6492
+  45   5   1   10456    5975
+  47   5   1    9824    6262
+  49   5   1   -1896    5803
+ -46   6   1   -3447    6147
+ -44   6   1    5515    6032
+ -42   6   1   -4137    5458
+ -40   6   1   -1666    5515
+ -38   6   1    1321    4941
+ -36   6   1    1264    4539
+ -34   6   1    7641    4998
+ -32   6   1    8848    4539
+ -30   6   1    7986    4137
+ -28   6   1    9537    3907
+ -26   6   1    4137    3907
+ -24   6   1    5056    3217
+ -22   6   1   26888    3332
+ -20   6   1   50558    3907
+ -18   6   1   31082    3160
+ -16   6   1    3160    3332
+ -14   6   1   84972    4539
+ -12   6   1  176148    6377
+ -10   6   1   82042    3505
+  -8   6   1    7067    2413
+  -6   6   1  149146    4481
+  -4   6   1  303233    8618
+  -2   6   1  156902    5803
+   0   6   1    6090    2643
+   2   6   1  149203    5630
+   4   6   1  294787   10801
+   6   6   1  145009    7986
+   8   6   1    4539    4596
+  10   6   1   85202    4654
+  12   6   1  161843    5745
+  14   6   1   82616    4022
+  16   6   1    4711    2930
+  18   6   1   24934    2930
+  20   6   1   47226    3217
+  22   6   1   28554    3045
+  24   6   1     575    2988
+  26   6   1    8675    3332
+  28   6   1   13559    3734
+  30   6   1    3677    3677
+  32   6   1    4481    3792
+  34   6   1    2815    3677
+  36   6   1    7526    4826
+  38   6   1   -3792    7354
+  40   6   1   -3505    6779
+  42   6   1     460    5975
+  44   6   1  -10169    5745
+  46   6   1  -11261    5573
+ -41   7   1   11835    5515
+ -39   7   1   26773    5171
+ -37   7   1    9020    5286
+ -35   7   1   10226    6090
+ -33   7   1   63829    4998
+ -31   7   1  120420    6205
+ -29   7   1   54867    4137
+ -27   7   1    9077    3447
+ -25   7   1  193384    6377
+ -23   7   1  313172   11950
+ -21   7   1   85202    4596
+ -19   7   1   94624    4596
+ -17   7   1  685347   20281
+ -15   7   1  898782   26198
+ -13   7   1  267785    8503
+ -11   7   1   92441    3849
+  -9   7   1  987661   23555
+  -7   7   1 1185813   28669
+  -5   7   1  204989    6320
+  -3   7   1  381368   11835
+  -1   7   1 1747178   50558
+   1   7   1 1704319   48719
+   3   7   1  368039   11318
+   5   7   1  219755    7469
+   7   7   1 1184090   34471
+   9   7   1 1012480   34299
+  11   7   1   93475    4481
+  13   7   1  266119    8675
+  15   7   1  903148   26543
+  17   7   1  680579   17925
+  19   7   1   92843    3907
+  21   7   1   75665    3907
+  23   7   1  300935    8618
+  25   7   1  188730    6032
+  27   7   1    3677    3045
+  29   7   1   50615    3964
+  31   7   1  114904    5228
+  33   7   1   79686    5515
+  35   7   1   11203    4251
+  37   7   1     862    5688
+  39   7   1   25509    7354
+  41   7   1    3907    6320
+ -34   8   1       0    3964
+ -32   8   1    2528    3849
+ -30   8   1    2643    4654
+ -28   8   1     172    4711
+ -26   8   1    1838    4194
+ -24   8   1    2011    4194
+ -22   8   1    1666    3447
+ -20   8   1    3792    3447
+ -18   8   1    5458    2700
+ -16   8   1    5228    2643
+ -14   8   1   10801    2700
+ -12   8   1   23326    3102
+ -10   8   1   12525    2758
+  -8   8   1   -1321    2873
+  -6   8   1   22234    2988
+  -4   8   1   43779    3160
+  -2   8   1   27635    4022
+   0   8   1    4424    3677
+   2   8   1   19764    3907
+   4   8   1   41883    3505
+   6   8   1   24072    3332
+   8   8   1    1609    3160
+  10   8   1   16604    2815
+  12   8   1   25279    2873
+  14   8   1   14765    3275
+  16   8   1     747    3045
+  18   8   1    5803    3102
+  20   8   1    5458    3505
+  22   8   1    8273    3562
+  24   8   1    2585    2988
+  26   8   1   -1206    3102
+  28   8   1    1781    3677
+  30   8   1    4539    3964
+  32   8   1    3447    4079
+  34   8   1   -3734    4251
+ -23   9   1   89683    4309
+ -21   9   1   19074    3217
+ -19   9   1   27462    3160
+ -17   9   1  131393    4654
+ -15   9   1  202347    8101
+ -13   9   1   70494    4711
+ -11   9   1   25566    4022
+  -9   9   1  250664    9480
+  -7   9   1  278643    8963
+  -5   9   1   56303    3792
+  -3   9   1   88476    4366
+  -1   9   1  367694   11376
+   1   9   1  396592   14191
+   3   9   1   96175    5343
+   5   9   1   49639    5343
+   7   9   1  300188   11088
+   9   9   1  256524    8158
+  11   9   1   29530    3160
+  13   9   1   65036    3332
+  15   9   1  202806    6722
+  17   9   1  150697    5515
+  19   9   1   20396    3677
+  21   9   1   22751    4539
+  23   9   1   81525    5918
+ -56   0   2    -172    7871
+ -54   0   2    1494    7871
+ -52   0   2    9767    7871
+ -50   0   2    1321    7009
+ -48   0   2   59463    6779
+ -46   0   2   17178    5918
+ -44   0   2   10112    5918
+ -42   0   2    1321    6032
+ -40   0   2   11605    6262
+ -38   0   2   70896    7124
+ -36   0   2   26658    6032
+ -34   0   2  146848    9365
+ -32   0   2  783590   31599
+ -30   0   2  283756   14880
+ -28   0   2    2873    7871
+ -26   0   2    9250    7756
+ -24   0   2   25968    7526
+ -22   0   2  788704   48490
+ -20   0   2  182698   14938
+ -18   0   2 3097994  178676
+ -16   0   2 8989946  514599
+ -14   0   2 2043689   83133
+ -12   0   2  126510    6894
+ -10   0   2  189937    9077
+  -8   0   2 2513706  101863
+  -6   0   2  102035    5228
+  -4   0   2 1431191   82501
+   0   0   226239218 1498296
+   2   0   2 4696027  268474
+   4   0   2 1464054   59348
+   6   0   2  114100    7526
+   8   0   2 2604193  149261
+  12   0   2  144837   10284
+  14   0   2 1905861  109849
+  16   0   2 7983613  456802
+  18   0   2 2693359  155006
+  20   0   2  212975   15857
+  22   0   2  838342   50903
+  24   0   2   35161    6607
+  26   0   2   12237    7067
+  28   0   2   12984    7756
+  30   0   2  425836   19476
+  32   0   2  842881   33207
+  34   0   2  227453   12754
+  36   0   2   25336    7871
+  38   0   2   90832    9365
+  40   0   2   15684    7928
+  42   0   2     115    7526
+  44   0   2   -1953    7354
+  46   0   2   35965    7928
+  48   0   2   43606    7699
+  50   0   2   16604    7009
+  52   0   2    4022    8848
+ -55   1   2     115    6435
+ -53   1   2   12352    6262
+ -51   1   2   -6550    6205
+ -49   1   2    9020    6377
+ -47   1   2   -4022    6492
+ -45   1   2    -919    5515
+ -43   1   2    3964    5401
+ -41   1   2   -1206    5630
+ -39   1   2    4137    5630
+ -37   1   2   -1551    5343
+ -35   1   2    2183    6090
+ -33   1   2   -5113    6032
+ -31   1   2   10514    5458
+ -29   1   2   27864    5630
+ -27   1   2   25049    5630
+ -25   1   2   12812    6262
+ -23   1   2   38723    4941
+ -21   1   2  128808    5745
+ -19   1   2  105195    4883
+ -17   1   2    7584    3217
+ -15   1   2  114847    4309
+ -13   1   2  489608   14995
+ -11   1   2  530628   14076
+  -9   1   2   69747    2930
+  -7   1   2  237450    6090
+  -5   1   2  961635   27635
+  -3   1   2  899586   36942
+  -1   1   2  147710    6837
+   1   1   2  139839    9365
+   3   1   2  858106   49868
+   5   1   2  944744   54809
+   7   1   2  232566   10284
+   9   1   2   76526    6492
+  11   1   2  519827   30852
+  13   1   2  520747   22349
+  15   1   2  106401    4826
+  17   1   2   13616    4424
+  19   1   2  112204    6952
+  21   1   2  136047    8560
+  23   1   2   29588    5630
+  25   1   2    2413    4711
+  27   1   2   23843    6032
+  29   1   2   29128    6147
+  31   1   2    4424    6032
+  33   1   2   -1551    6320
+  35   1   2   -7067    6837
+  37   1   2    2183    7411
+  39   1   2    7699    6722
+  41   1   2   -3045    6032
+  43   1   2     919    6262
+  45   1   2   -3619    6492
+  47   1   2    2356    6262
+  49   1   2   -2068    5860
+  51   1   2    1724    6262
+  53   1   2    1838    8618
+  55   1   2   -7813    8388
+ -54   2   2    2988    4883
+ -52   2   2   -5458    4769
+ -50   2   2   11835    4998
+ -48   2   2   31082    6435
+ -46   2   2   16891    5573
+ -44   2   2   -4654    4251
+ -42   2   2    3102    3849
+ -40   2   2   40389    4826
+ -38   2   2   93245    5745
+ -36   2   2    7067    4539
+ -34   2   2  410381   13386
+ -32   2   2 1512716   43204
+ -30   2   2  798758   24015
+ -28   2   2   -4137    4941
+ -26   2   2  401246   13329
+ -24   2   2 1765104   51477
+ -22   2   2 2767874   77216
+ -20   2   2  116053    5918
+ -18   2   2 7484067  192580
+ -16   2   221892673  565502
+ -14   2   211630850  299958
+ -12   2   2    8158    2873
+ -10   2   2 7348767  192063
+  -8   2   214027411  476566
+  -6   2   214453017  587391
+  -4   2   2 1159787   30162
+  -2   2   234989129  894531
+   0   2   289999999 3634655
+   2   2   232495129 1072575
+   4   2   2 1024775   36482
+   6   2   215285039  618300
+   8   2   215924597  643809
+  10   2   2 7594662  249860
+  12   2   2    2528    3505
+  14   2   2 9841100  403946
+  16   2   216640566  683336
+  18   2   2 6194552  204760
+  20   2   2  102322    5745
+  22   2   2 2571273   79859
+  24   2   2 1557931   47513
+  26   2   2  376714   13961
+  28   2   2    5975    4883
+  30   2   2  742857   25394
+  32   2   2 1395686   46594
+  34   2   2  444795   16316
+  36   2   2    4366    5918
+  38   2   2  136047    7928
+  40   2   2   64461    6894
+  42   2   2   13961    6894
+  44   2   2   13846    6262
+  46   2   2   25796    5975
+  48   2   2   46479    6779
+  50   2   2   18212    6377
+  52   2   2   -4998    8560
+  54   2   2   -2873    8675
+ -53   3   2   -3849    4826
+ -51   3   2    -287    5515
+ -49   3   2    4079    5056
+ -47   3   2    4022    4539
+ -45   3   2   -4022    4079
+ -43   3   2    1724    4137
+ -41   3   2    4711    4194
+ -39   3   2   -3102    4079
+ -37   3   2    2068    4769
+ -35   3   2    9767    4539
+ -33   3   2   -3045    4481
+ -31   3   2   -1838    4309
+ -29   3   2    8388    4481
+ -27   3   2    7124    4366
+ -25   3   2    -517    4251
+ -23   3   2    1953    4998
+ -21   3   2   21430    5056
+ -19   3   2   24532    5286
+ -17   3   2    8158    3907
+ -15   3   2   20051    4022
+ -13   3   2   97267    5113
+ -11   3   2   62451    3677
+  -9   3   2   11318    2988
+  -7   3   2   21545    3160
+  -5   3   2  113181    5286
+  -3   3   2  146790    6090
+  -1   3   2   34988    2413
+   1   3   2   43089    2815
+   3   3   2  177757    7067
+   5   3   2  133002    6779
+   7   3   2   16661    3505
+   9   3   2   10169    2758
+  11   3   2   49122    4596
+  13   3   2   70609    5401
+  15   3   2   21717    3849
+  17   3   2   11433    4366
+  19   3   2   30679    4022
+  21   3   2   20625    3792
+  23   3   2    5745    3849
+  25   3   2    2528    3907
+  27   3   2   13789    4137
+  29   3   2   19017    4251
+  31   3   2    1264    3619
+  33   3   2     460    3792
+  35   3   2    1379    3849
+  37   3   2   -6607    4769
+  39   3   2   -1321    4309
+  41   3   2   -3734    4366
+  43   3   2    -230    4424
+  45   3   2   -2413    4366
+  47   3   2     804    5803
+  49   3   2    6205    5688
+  51   3   2    1092    5401
+  53   3   2   18442    7756
+ -52   4   2   -2930    4826
+ -50   4   2   -6377    4366
+ -48   4   2   21028    5343
+ -46   4   2   13616    5458
+ -44   4   2    3505    4654
+ -42   4   2    6492    4596
+ -40   4   2   35965    4826
+ -38   4   2   43893    5228
+ -36   4   2   -2528    4424
+ -34   4   2   88304    5918
+ -32   4   2  291455   12065
+ -30   4   2  192695    8618
+ -28   4   2    8848    4481
+ -26   4   2   68655    5228
+ -24   4   2  256179   10169
+ -22   4   2  333280    9767
+ -20   4   2    4998    3102
+ -18   4   2 1041436   29645
+ -16   4   2 2477396   64634
+ -14   4   2 1126293   29243
+ -12   4   2    6664    3677
+ -10   4   2  365224   10169
+  -8   4   2  529652   15857
+  -6   4   2  520000   15455
+  -4   4   2   31139    3275
+  -2   4   2 2034497   52396
+   0   4   2 5011382  128923
+   2   4   2 1974747   51075
+   4   4   2   20568    2758
+   6   4   2  495525   13099
+   8   4   2  513508   13789
+  10   4   2  345230    9537
+  12   4   2    2011    3045
+  14   4   2  968414   27922
+  16   4   2 2190594  126740
+  18   4   2 1359089   80261
+  20   4   2    4137    9480
+  22   4   2  412507   26543
+  24   4   2  310701   14535
+  26   4   2   76814    6492
+  28   4   2    9595    5401
+  30   4   2  260373   12812
+  32   4   2  379299   17121
+  34   4   2  100197    7296
+  36   4   2    -230    4424
+  38   4   2   51879    5056
+  40   4   2   28037    4137
+  42   4   2    2356    3907
+  44   4   2    2413    4998
+  46   4   2   16316    5688
+  48   4   2    4366    5573
+  50   4   2   -2068    5113
+  52   4   2   -6550    5171
+ -49   5   2   -3849    4998
+ -47   5   2   -8216    6147
+ -45   5   2   -4366    5860
+ -43   5   2   -3332    5745
+ -41   5   2   -2241    4883
+ -39   5   2   -4366    4309
+ -37   5   2   -3160    4251
+ -35   5   2    -575    4309
+ -33   5   2   -2068    4366
+ -31   5   2    3505    4366
+ -29   5   2    4654    4481
+ -27   5   2     862    4251
+ -25   5   2    2930    3964
+ -23   5   2    6837    4251
+ -21   5   2    7641    4654
+ -19   5   2    9709    4194
+ -17   5   2    4596    4079
+ -15   5   2     230    3562
+ -13   5   2   -1379    3275
+ -11   5   2    3390    3907
+  -9   5   2    8273    3907
+  -7   5   2     172    3390
+  -5   5   2   10629    2930
+  -3   5   2   10744    2585
+  -1   5   2    1206    2413
+   1   5   2     862    2413
+   3   5   2    7469    3505
+   5   5   2   10916    3619
+   7   5   2    2356    2298
+   9   5   2    8043    2413
+  11   5   2   -2068    2413
+  13   5   2    3160    2700
+  15   5   2    3160    2700
+  17   5   2    1092    3160
+  19   5   2    8216    3390
+  21   5   2    4424    3390
+  23   5   2   -1206    4022
+  25   5   2     632    3964
+  27   5   2    1379    5458
+  29   5   2    4251    5458
+  31   5   2   -2470    5515
+  33   5   2   -1838    4998
+  35   5   2   -3160    5573
+  37   5   2   -4137    5171
+  39   5   2   -2930    5343
+  41   5   2    8158    4998
+  43   5   2     632    4941
+  45   5   2   -2815    5056
+  47   5   2    3505    5228
+  49   5   2   -2758    5515
+ -44   6   2    -689    5228
+ -42   6   2    -632    4883
+ -40   6   2   29703    5401
+ -38   6   2   47111    5515
+ -36   6   2    4998    4309
+ -34   6   2   36540    4769
+ -32   6   2  173391    7239
+ -30   6   2  153685    6722
+ -28   6   2   24072    4251
+ -26   6   2   91694    5458
+ -24   6   2  429972   12122
+ -22   6   2  403717   14880
+ -20   6   2   18097    4366
+ -18   6   2  556539   16661
+ -16   6   2 1745053   49064
+ -14   6   2 1368339   45789
+ -12   6   2   71700    5113
+ -10   6   2  826162   28037
+  -8   6   2 2356689   78250
+  -6   6   2 1446818   48202
+  -4   6   2   33265    3447
+  -2   6   2 2035071   58429
+   0   6   2 4212911  120822
+   2   6   2 2106484   60325
+   4   6   2   46881    5573
+   6   6   2 1538857   62968
+   8   6   2 2420805   80088
+  10   6   2  804216   20970
+  12   6   2   69115    3332
+  14   6   2 1265787   32518
+  16   6   2 1606650   48087
+  18   6   2  557631   16604
+  20   6   2   15972    3447
+  22   6   2  402625   11088
+  24   6   2  418022   12237
+  26   6   2   85259    4366
+  28   6   2   16316    4424
+  30   6   2  177815    7641
+  32   6   2  172989    7526
+  34   6   2   35046    4596
+  36   6   2   -1609    5056
+  38   6   2   23326    5401
+  40   6   2   27060    5056
+  42   6   2    -460    4654
+  44   6   2    3734    4424
+ -39   7   2    1379    4883
+ -37   7   2    2011    4769
+ -35   7   2   -3332    4941
+ -33   7   2     -57    4137
+ -31   7   2   -1264    3332
+ -29   7   2   -1206    4022
+ -27   7   2     287    4309
+ -25   7   2   -2011    4596
+ -23   7   2    1321    3907
+ -21   7   2    -115    3217
+ -19   7   2     230    2988
+ -17   7   2    2413    3275
+ -15   7   2    2528    3562
+ -13   7   2   12008    3505
+ -11   7   2    6550    3332
+  -9   7   2    -804    3160
+  -7   7   2    6262    3275
+  -5   7   2   13903    2930
+  -3   7   2    8905    2815
+  -1   7   2   -1149    2700
+   1   7   2    4251    3217
+   3   7   2   11605    2873
+   5   7   2   13214    3619
+   7   7   2    3217    3217
+   9   7   2     919    3275
+  11   7   2    7584    3332
+  13   7   2    9077    3390
+  15   7   2     747    2758
+  17   7   2    1321    2873
+  19   7   2    3447    2930
+  21   7   2    4251    2700
+  23   7   2   -2011    2873
+  25   7   2       0    2758
+  27   7   2    3677    3447
+  29   7   2   -1953    3907
+  31   7   2    -804    4194
+  33   7   2     632    4022
+  35   7   2    1551    4079
+  37   7   2   -2183    3849
+  39   7   2   -1551    4826
+ -32   8   2   43779    3849
+ -30   8   2   38148    3849
+ -28   8   2     575    3907
+ -26   8   2   45043    4366
+ -24   8   2  139954    5401
+ -22   8   2   84340    5056
+ -20   8   2    5688    3734
+ -18   8   2  165060    6435
+ -16   8   2  342702    9767
+ -14   8   2  214009    7469
+ -12   8   2   12927    3677
+ -10   8   2  224236    7641
+  -8   8   2  508107   15282
+  -6   8   2  233773    7756
+  -4   8   2   22177    2988
+  -2   8   2  351090   10916
+   0   8   2  596928   17638
+   2   8   2  345288   10629
+   4   8   2   22521    3275
+   6   8   2  247619    7239
+   8   8   2  534822   15857
+  10   8   2  232796    7584
+  12   8   2   10284    3505
+  14   8   2  223144   10284
+  16   8   2  369705   15972
+  18   8   2  174138    8618
+  20   8   2    3562    3505
+  22   8   2   73309    3907
+  24   8   2  138460    6320
+  26   8   2   51994    4251
+  28   8   2    1494    4137
+  30   8   2   41595    4539
+  32   8   2   47858    4481
+ -21   9   2   -1953    4481
+ -19   9   2    1092    4366
+ -17   9   2     747    4194
+ -15   9   2    6377    3562
+ -13   9   2     402    3505
+ -11   9   2    3045    3447
+  -9   9   2    -115    3217
+  -7   9   2    2700    3102
+  -5   9   2    9709    3562
+  -3   9   2   10686    3160
+  -1   9   2    2815    3045
+   1   9   2   -1206    3045
+   3   9   2    4194    3045
+   5   9   2    3447    2528
+   7   9   2    1494    2470
+   9   9   2    -517    2413
+  11   9   2    6262    2988
+  13   9   2    6032    2873
+  15   9   2   -2298    2930
+  17   9   2   -1436    3964
+  19   9   2    1149    4137
+  21   9   2   -3964    4424
+ -55   1   3    2585    4539
+ -53   1   3     689    4826
+ -51   1   3    2585    4883
+ -49   1   3   21200    5515
+ -47   1   3   34586    6435
+ -45   1   3   -2873    4539
+ -43   1   3  -11720    4998
+ -41   1   3   11433    4998
+ -39   1   3   67334    6550
+ -37   1   3   65840    5401
+ -35   1   3   39814    4826
+ -33   1   3  630710   18959
+ -31   1   3  870113   24360
+ -29   1   3  124039    6032
+ -27   1   3   64404    4826
+ -25   1   3  450827   14938
+ -23   1   3 1160247   34586
+ -21   1   3  807318   24302
+ -19   1   3  603650   18500
+ -17   1   3 9283239  234750
+ -15   1   310710179  277724
+ -13   1   3 1393330   32690
+ -11   1   3 1264120   29875
+  -9   1   3 5118013  168737
+  -7   1   3 7180202  237737
+  -5   1   3 2618843   87098
+  -3   1   3 3160789  128176
+  -1   1   325465452 1454517
+   1   1   324693926 1410451
+   3   1   3 3146426  127601
+   5   1   3 2621428  106459
+   7   1   3 7536291  304899
+   9   1   3 5440262  180572
+  11   1   3 1211839   49524
+  13   1   3 1352195   55269
+  15   1   311365077  459790
+  17   1   3 9457090  382517
+  19   1   3  614738   21257
+  21   1   3  863219   29875
+  23   1   3 1273887   43434
+  25   1   3  533444   23613
+  27   1   3   76756    8560
+  29   1   3  167818   12295
+  31   1   3  931702   39987
+  33   1   3  795885   35046
+  35   1   3   76354    9480
+  37   1   3  106172   10571
+  39   1   3  121454   10801
+  41   1   3   10284    9135
+  43   1   3   20740    9997
+  45   1   3    6320    7986
+  47   1   3   41136    7699
+  49   1   3   40274   11261
+  51   1   3     804    9939
+ -54   2   3    5056    6090
+ -52   2   3    -747    6090
+ -50   2   3     862    5975
+ -48   2   3   -5975    5918
+ -46   2   3    1724    5803
+ -44   2   3     977    4366
+ -42   2   3    1149    4481
+ -40   2   3   -2413    4539
+ -38   2   3   -3160    3964
+ -36   2   3   -1379    4194
+ -34   2   3    -919    3907
+ -32   2   3   -3332    4481
+ -30   2   3    8848    4137
+ -28   2   3   10169    3964
+ -26   2   3   -1609    3792
+ -24   2   3    5401    3849
+ -22   2   3   16719    3619
+ -20   2   3   30162    3907
+ -18   2   3   21545    3677
+ -16   2   3    3907    3160
+ -14   2   3   49926    3332
+ -12   2   3  106172    5228
+ -10   2   3   31197    3619
+  -8   2   3   11146    3045
+  -6   2   3   65036    3562
+  -4   2   3  196774    7526
+  -2   2   3  131508    5343
+   0   2   3    7526    2183
+   2   2   3  127371    5401
+   4   2   3  193212    9250
+   6   2   3   60670    3562
+   8   2   3   11318    2988
+  10   2   3   28726    3447
+  12   2   3  102782    5458
+  14   2   3   60095    6320
+  16   2   3    7009    6320
+  18   2   3   22521    5745
+  20   2   3   33724    4654
+  22   2   3   14995    4654
+  24   2   3    9365    4711
+  26   2   3   11490    4711
+  28   2   3   14076    4883
+  30   2   3    1264    4194
+  32   2   3    1494    3849
+  34   2   3     287    3907
+  36   2   3     115    4022
+  38   2   3   -2930    4079
+  40   2   3     230    4309
+  42   2   3     862    4309
+  44   2   3    1551    4424
+  46   2   3   -1264    5688
+  48   2   3    1896    5803
+  50   2   3    6205    8618
+ -51   3   3    -804    4251
+ -49   3   3   10916    4424
+ -47   3   3   14535    4654
+ -45   3   3    7986    4539
+ -43   3   3   -5343    3964
+ -41   3   3    8733    3964
+ -39   3   3   46364    4137
+ -37   3   3   45157    4481
+ -35   3   3   11778    4079
+ -33   3   3  261293    9020
+ -31   3   3  364017   11548
+ -29   3   3  119213    5630
+ -27   3   3     517    3734
+ -25   3   3  108010    5286
+ -23   3   3  408542   12869
+ -21   3   3  334774   10744
+ -19   3   3   90889    4711
+ -17   3   3 2173646   64002
+ -15   3   3 2765289   95026
+ -13   3   3  590436   20913
+ -11   3   3  100886    6435
+  -9   3   3  825013   24072
+  -7   3   3 1425274   41078
+  -5   3   3  635881   16719
+  -3   3   3  639328   16489
+  -1   3   3 6016910  243597
+   1   3   3 6027424  244057
+   3   3   3  652082   38780
+   5   3   3  580669   24245
+   7   3   3 1374544   55786
+   9   3   3  821509   27405
+  11   3   3  103184    4941
+  13   3   3  620139   21372
+  15   3   3 3289827  108929
+  17   3   3 2325033   94796
+  19   3   3   82042    5803
+  21   3   3  315815   14363
+  23   3   3  392226   12122
+  25   3   3  113640    5630
+  27   3   3    4769    3217
+  29   3   3  112319    5688
+  31   3   3  378380   12467
+  33   3   3  280711    9767
+  35   3   3    4137    3505
+  37   3   3   44066    4539
+  39   3   3   45157    4251
+  41   3   3   12008    3964
+  43   3   3   -4596    3964
+  45   3   3   11203    4309
+  47   3   3   23096    5745
+  49   3   3   16374    5630
+  51   3   3   -7813    5515
+ -50   4   3    -402    4251
+ -48   4   3   -1609    4079
+ -46   4   3     115    3964
+ -44   4   3    1609    3907
+ -42   4   3   -2183    3505
+ -40   4   3   -2873    3562
+ -38   4   3   -4711    3447
+ -36   4   3   -3160    3390
+ -34   4   3   -3619    3332
+ -32   4   3    4998    3332
+ -30   4   3    8216    3275
+ -28   4   3    9882    3275
+ -26   4   3    3562    3275
+ -24   4   3    1379    2988
+ -22   4   3   15570    2873
+ -20   4   3   41021    3045
+ -18   4   3   13961    2930
+ -16   4   3    -287    2758
+ -14   4   3   57682    3160
+ -12   4   3  133806    4769
+ -10   4   3   72160    3907
+  -8   4   3    9422    2873
+  -6   4   3  117432    4654
+  -4   4   3  226764    7354
+  -2   4   3  103069    4596
+   0   4   3   -4137    3734
+   2   4   3   98416    6032
+   4   4   3  218606   10284
+   6   4   3  110021    6205
+   8   4   3    6492    3734
+  10   4   3   78020    5228
+  12   4   3  124614    6722
+  14   4   3   66185    5056
+  16   4   3    2126    3849
+  18   4   3    9709    3619
+  20   4   3   34299    4539
+  22   4   3   14765    3332
+  24   4   3    3734    2873
+  26   4   3    2700    2988
+  28   4   3    3619    3045
+  30   4   3     460    3045
+  32   4   3    1551    3217
+  34   4   3    4711    3332
+  36   4   3    2413    3332
+  38   4   3    4826    3275
+  40   4   3    -115    3447
+  42   4   3   -2068    4424
+  44   4   3    -575    4596
+  46   4   3   -6090    4711
+  48   4   3     345    4826
+  50   4   3    -919    4826
+ -47   5   3   10629    3907
+ -45   5   3    -804    3619
+ -43   5   3   -1034    3562
+ -41   5   3   15972    3505
+ -39   5   3   33724    3332
+ -37   5   3   15684    3160
+ -35   5   3   24360    3275
+ -33   5   3  188443    5860
+ -31   5   3  247734    7813
+ -29   5   3   74515    3792
+ -27   5   3   39412    3505
+ -25   5   3  434798   10858
+ -23   5   3  648635   15570
+ -21   5   3  172471    5745
+ -19   5   3  281516    7411
+ -17   5   3 2151584   56303
+ -15   5   3 2739780   79284
+ -13   5   3  578544   17523
+ -11   5   3  384527   12008
+  -9   5   3 2657911   76124
+  -7   5   3 3160732   90257
+  -5   5   3  644441   18959
+  -3   5   3 1070104   31024
+  -1   5   3 6080165  174138
+   1   5   3 6024609  199819
+   3   5   3 1102335   45732
+   5   5   3  629274   21717
+   7   5   3 3300628  109619
+   9   5   3 2856867   94681
+  11   5   3  386194   13789
+  13   5   3  592389   20510
+  15   5   3 2741446  112147
+  17   5   3 2039438   68885
+  19   5   3  246298   11031
+  21   5   3  149433    7469
+  23   5   3  528043   22751
+  25   5   3  217399   13559
+  27   5   3   23670    4481
+  29   5   3   52684    5171
+  31   5   3  214009    9767
+  33   5   3  167071    8503
+  35   5   3   16661    4826
+  37   5   3   11950    5745
+  39   5   3   23268    6262
+  41   5   3   16087    4137
+  43   5   3    1838    4079
+  45   5   3    1551    4194
+  47   5   3   14765    6664
+ -42   6   3    4481    4022
+ -40   6   3    -115    3734
+ -38   6   3    1321    3619
+ -36   6   3    -402    3390
+ -34   6   3     747    3275
+ -32   6   3    -115    3275
+ -30   6   3    3964    3217
+ -28   6   3    4654    3562
+ -26   6   3    3505    3562
+ -24   6   3    7584    3275
+ -22   6   3    7411    3045
+ -20   6   3   17753    3045
+ -18   6   3   10399    3619
+ -16   6   3   -1321    3677
+ -14   6   3   23843    3677
+ -12   6   3   56246    4079
+ -10   6   3   30450    3562
+  -8   6   3    1494    3102
+  -6   6   3   42515    3447
+  -4   6   3   95371    4309
+  -2   6   3   46594    3332
+   0   6   3    2470    2470
+   2   6   3   52109    4079
+   4   6   3  106976    5458
+   6   6   3   52856    4309
+   8   6   3     460    3677
+  10   6   3   29818    3045
+  12   6   3   59923    3562
+  14   6   3   31943    3447
+  16   6   3    -460    3275
+  18   6   3    6894    2528
+  20   6   3   15225    2700
+  22   6   3    8963    2815
+  24   6   3    -575    2700
+  26   6   3    1781    2758
+  28   6   3    5630    2873
+  30   6   3   -1034    2758
+  32   6   3   -1149    3619
+  34   6   3   -2183    3562
+  36   6   3    4654    3734
+  38   6   3   -2183    3792
+  40   6   3    3964    3964
+  42   6   3    2873    4194
+ -37   7   3    8848    3562
+ -35   7   3    4711    3447
+ -33   7   3   32575    3734
+ -31   7   3   60612    3792
+ -29   7   3   32058    3792
+ -27   7   3    4941    3505
+ -25   7   3   69919    4194
+ -23   7   3  135645    5860
+ -21   7   3   42170    4079
+ -19   7   3   34931    3964
+ -17   7   3  263188   10399
+ -15   7   3  350861   13042
+ -13   7   3  108585    5918
+ -11   7   3   23096    4022
+  -9   7   3  254973    9365
+  -7   7   3  309897   11146
+  -5   7   3   50443    3792
+  -3   7   3  103586    4424
+  -1   7   3  455423   16776
+   1   7   3  510405   15972
+   3   7   3  116398    4079
+   5   7   3   67851    3907
+   7   7   3  408140   14593
+   9   7   3  344541   12525
+  11   7   3   24819    4022
+  13   7   3  125993    6147
+  15   7   3  347126   10744
+  17   7   3  252905    8216
+  19   7   3   23843    2643
+  21   7   3   34242    2988
+  23   7   3  133978    5343
+  25   7   3   61014    3734
+  27   7   3    3045    3045
+  29   7   3   26715    3332
+  31   7   3   58544    4022
+  33   7   3   29128    3562
+  35   7   3   -1436    3275
+  37   7   3    3447    3332
+ -30   8   3    2815    4539
+ -28   8   3   -1092    4424
+ -26   8   3    8675    4424
+ -24   8   3     632    3677
+ -22   8   3    3619    3677
+ -20   8   3    8388    3275
+ -18   8   3    6032    3275
+ -16   8   3     919    4194
+ -14   8   3   10112    4022
+ -12   8   3   11950    3907
+ -10   8   3    7296    3619
+  -8   8   3     -57    3447
+  -6   8   3    8331    3332
+  -4   8   3   22119    3390
+  -2   8   3   12295    3792
+   0   8   3    3275    3619
+   2   8   3   12237    2470
+   4   8   3   22751    2470
+   6   8   3   15972    4309
+   8   8   3    4711    4309
+  10   8   3   14880    6550
+  12   8   3    9652    4769
+  14   8   3    4711    4654
+  16   8   3   -5573    4596
+  18   8   3    7641    6032
+  20   8   3    6205    3619
+  22   8   3    4424    3734
+  24   8   3     919    2643
+  26   8   3     345    2700
+  28   8   3    1206    2758
+  30   8   3     804    2700
+ -17   9   3  141275    5515
+ -15   9   3  181377    6779
+ -13   9   3   58946    4194
+ -11   9   3   25509    3619
+  -9   9   3  215618    7411
+  -7   9   3  241127    7871
+  -5   9   3   43606    4079
+  -3   9   3   54235    4194
+  -1   9   3  248481   12122
+   1   9   3  261867    9595
+   3   9   3   65553    3160
+   5   9   3   65438    5228
+   7   9   3  303807   13444
+   9   9   3  271347   12295
+  11   9   3   33380    4998
+  13   9   3   70321    5630
+  15   9   3  219755   14765
+  17   9   3  149491   11203
+ -52   0   4    1206    6779
+ -50   0   4    7124    7239
+ -48   0   4   38436    8560
+ -46   0   4   18500    9997
+ -44   0   4   15397    8618
+ -42   0   4    4424    7124
+ -40   0   4   44985    7067
+ -38   0   4   91119    8963
+ -36   0   4    4769    7411
+ -34   0   4  176551    8733
+ -32   0   4  753830   25911
+ -30   0   4  488803   17523
+ -28   0   4   21315    5228
+ -26   0   4  229349    9652
+ -24   0   4 1166050   39125
+ -22   0   4 1531560   51305
+ -20   0   4   67794    4941
+ -18   0   4 3076967  101805
+ -16   0   410023511  330982
+ -14   0   4 5424406  219582
+ -12   0   4   56475    5286
+ -10   0   4 3248462  131623
+  -8   0   4 8269725  334429
+  -6   0   4 6919714  395960
+  -2   0   412231858  698848
+   0   0   428505132 1627735
+   2   0   412525151  715510
+   4   0   4  258133   15914
+   6   0   4 7588974  433707
+   8   0   4 9301452  531490
+  10   0   4 3575479  204702
+  12   0   4   48202    5745
+  14   0   4 5919931  338566
+  16   0   4 9959911  569236
+  18   0   4 3109197  126165
+  20   0   4   73366    5458
+  22   0   4 1505764   61531
+  24   0   4 1081250   44525
+  26   0   4  240667   11261
+  28   0   4   26773    7584
+  30   0   4  577969   35276
+  32   0   4  942561   56418
+  34   0   4  262499   19419
+  36   0   4   -7239   10744
+  38   0   4   80605   13674
+  40   0   4   69804   18212
+  42   0   4    4309   14420
+  44   0   4    9365   11031
+  46   0   4    9939    9422
+  48   0   4    4481   12467
+ -53   1   4   -5113    4998
+ -51   1   4    4711    5630
+ -49   1   4    -804    5171
+ -47   1   4   -8560    4826
+ -45   1   4    2011    4596
+ -43   1   4    3390    4596
+ -41   1   4   -2126    4481
+ -39   1   4    5056    5056
+ -37   1   4    3217    4826
+ -35   1   4    7411    4194
+ -33   1   4     115    3849
+ -31   1   4    8963    4137
+ -29   1   4   29128    4194
+ -27   1   4   18844    4424
+ -25   1   4    7871    3734
+ -23   1   4   39010    3677
+ -21   1   4  145929    5401
+ -19   1   4  141275    4711
+ -17   1   4   13214    2815
+ -15   1   4  107263    4711
+ -13   1   4  420148   12869
+ -11   1   4  409577   12467
+  -9   1   4   59980    4022
+  -7   1   4  170805    6837
+  -5   1   4  789278   32575
+  -3   1   4  874422   35965
+  -1   1   4  152708   10571
+   1   1   4  150984    6952
+   3   1   4  839894   48892
+   5   1   4  769572   31714
+   7   1   4  161556    7813
+   9   1   4   57337    3332
+  11   1   4  384010   13099
+  13   1   4  416011   17523
+  15   1   4  115019    4998
+  17   1   4   12869    3102
+  19   1   4  125418    5573
+  21   1   4  149376    6492
+  23   1   4   44066    4194
+  25   1   4    2183    4079
+  27   1   4   30335    4481
+  29   1   4   38148    5171
+  31   1   4    4998    4998
+  33   1   4    5401    6377
+  35   1   4    3562    5918
+  37   1   4     172    5515
+  39   1   4    2873    5286
+  41   1   4   -2298    5860
+  43   1   4   -3390    5803
+  45   1   4   -2356    5860
+  47   1   4    3160    6032
+  49   1   4       0    5515
+ -52   2   4    -804    5688
+ -50   2   4   -3734    5860
+ -48   2   4   19361    6320
+ -46   2   4    8618    5745
+ -44   2   4    -460    5688
+ -42   2   4    3332    4826
+ -40   2   4   32346    4769
+ -38   2   4   52684    5113
+ -36   2   4    9422    4711
+ -34   2   4   98990    5918
+ -32   2   4  354365   12008
+ -30   2   4  227855    8848
+ -28   2   4    9020    5515
+ -26   2   4   64634    4826
+ -24   2   4  269221    8503
+ -22   2   4  327248   10226
+ -20   2   4    7354    3619
+ -18   2   4 1060223   27520
+ -16   2   4 2542949   71643
+ -14   2   4 1117617   28611
+ -12   2   4    5228    2988
+ -10   2   4  356204   12467
+  -8   2   4  537638   18500
+  -6   2   4  513163   15340
+  -4   2   4   38263    3332
+  -2   2   4 2224721   91464
+   0   2   4 5250268  214354
+   2   2   4 2116768   86236
+   4   2   4   39814    4424
+   6   2   4  525170   22177
+   8   2   4  547807   23096
+  10   2   4  356950   12410
+  12   2   4    5745    3045
+  14   2   4 1063555   35678
+  16   2   4 2760290  112319
+  18   2   4 1084238   44755
+  20   2   4     689    5228
+  22   2   4  355801   16661
+  24   2   4  301911   12180
+  26   2   4   70034    5573
+  28   2   4    8101    4309
+  30   2   4  251526   10571
+  32   2   4  422676   15799
+  34   2   4  133404    7182
+  36   2   4    7124    4883
+  38   2   4   64519    5745
+  40   2   4   34701    5171
+  42   2   4    9422    4826
+  44   2   4    1321    5515
+  46   2   4   19821    5918
+  48   2   4   19993    9307
+  50   2   4   -3505    7986
+ -49   3   4   -3562    4366
+ -47   3   4    2815    4366
+ -45   3   4    -287    4251
+ -43   3   4     804    3907
+ -41   3   4    5056    3907
+ -39   3   4    4424    3849
+ -37   3   4    7239    3964
+ -35   3   4    1551    4079
+ -33   3   4    6090    4022
+ -31   3   4    4826    3964
+ -29   3   4   10686    4309
+ -27   3   4    3390    3217
+ -25   3   4    -862    3045
+ -23   3   4    7067    3102
+ -21   3   4   37401    3677
+ -19   3   4   44698    3849
+ -17   3   4    5688    3792
+ -15   3   4   18500    3734
+ -13   3   4  107838    5918
+ -11   3   4  115536    5515
+  -9   3   4   22349    2930
+  -7   3   4   42170    3332
+  -5   3   4  173333    5975
+  -3   3   4  148514    5171
+  -1   3   4   27462    2988
+   1   3   4   32173    3964
+   3   3   4  177642    8848
+   5   3   4  192752    9422
+   7   3   4   42400    4769
+   9   3   4   20568    4424
+  11   3   4  120764    7067
+  13   3   4  103127    4711
+  15   3   4   16661    2700
+  17   3   4    4711    4022
+  19   3   4   26485    4654
+  21   3   4   33265    4769
+  23   3   4    3734    4481
+  25   3   4    2988    3792
+  27   3   4    7756    3849
+  29   3   4    9192    3907
+  31   3   4   -6894    3907
+  33   3   4    -862    3964
+  35   3   4    6492    4194
+  37   3   4     172    4194
+  39   3   4   -1034    4137
+  41   3   4     -57    5113
+  43   3   4    6377    5171
+  45   3   4    -517    7182
+  47   3   4   11433    7239
+  49   3   4    2643    7124
+ -48   4   4    7584    3964
+ -46   4   4   12927    3907
+ -44   4   4    1551    3734
+ -42   4   4    4998    3447
+ -40   4   4   34242    3734
+ -38   4   4   41366    3734
+ -36   4   4   -2126    3390
+ -34   4   4   81697    4826
+ -32   4   4  266176    9135
+ -30   4   4  209126    7584
+ -28   4   4   12410    3562
+ -26   4   4  132485    5630
+ -24   4   4  536776   19419
+ -22   4   4  550507   19649
+ -20   4   4   18500    3964
+ -18   4   4 1073322   36425
+ -16   4   4 3281267  109274
+ -14   4   4 2157330   61531
+ -12   4   4   57510    3792
+ -10   4   4 1582406   45157
+  -8   4   4 4260999  122086
+  -6   4   4 2745123   90602
+  -4   4   4   56303    5113
+  -2   4   4 4127365  137196
+   0   4   4 9066989  299441
+   2   4   4 4376076  251009
+   4   4   4   68426    5975
+   6   4   4 2856063  116168
+   8   4   4 4233192  171725
+  10   4   4 1582061   51822
+  12   4   4   58314    4137
+  14   4   4 2264650   75435
+  16   4   4 3373650  112032
+  18   4   4 1165418   47800
+  20   4   4   16891    4424
+  22   4   4  612268   25739
+  24   4   4  596469   25164
+  26   4   4  139092    6320
+  28   4   4   16202    3677
+  30   4   4  226247    8963
+  32   4   4  259741   10112
+  34   4   4   70494    4711
+  36   4   4     575    3562
+  38   4   4   30679    4769
+  40   4   4   26371    5688
+  42   4   4     345    5573
+  44   4   4    5228    6147
+  46   4   4    6779    6320
+ -43   5   4   -1436    3677
+ -41   5   4   -6147    3447
+ -39   5   4    2873    3217
+ -37   5   4    3964    3160
+ -35   5   4   -2700    2873
+ -33   5   4    3677    2815
+ -31   5   4    1666    2758
+ -29   5   4    1838    2873
+ -27   5   4    4022    2643
+ -25   5   4     460    2585
+ -23   5   4   -1724    2470
+ -21   5   4   -4539    2643
+ -19   5   4      57    2643
+ -17   5   4    2068    3217
+ -15   5   4     402    3160
+ -13   5   4    5975    3160
+ -11   5   4    6090    2873
+  -9   5   4     747    2758
+  -7   5   4    1379    2643
+  -5   5   4    -804    3332
+  -3   5   4    4424    3390
+  -1   5   4     517    3217
+   1   5   4   -3562    6492
+   3   5   4    5343    6550
+   5   5   4    2815    4424
+   7   5   4   -1379    3332
+   9   5   4    1551    3390
+  11   5   4    3964    3447
+  13   5   4    9135    3505
+  15   5   4    2758    3390
+  17   5   4    3102    3390
+  19   5   4     287    3964
+  21   5   4    1953    4251
+  23   5   4   -1953    4309
+  25   5   4   -6147    4251
+  27   5   4    2528    4883
+  29   5   4    3849    4883
+  31   5   4   -2413    4826
+  33   5   4    5515    7354
+  37   5   4   -1551    4654
+  39   5   4    7469    4826
+ -40   6   4   13386    3907
+ -38   6   4   16431    3505
+ -36   6   4    4137    3619
+ -34   6   4   22694    3505
+ -32   6   4   68828    4539
+ -30   6   4   56361    3907
+ -28   6   4    5228    2930
+ -26   6   4   40561    3447
+ -24   6   4  151214    5745
+ -22   6   4  109102    4769
+ -20   6   4    5573    2988
+ -18   6   4  180342    5803
+ -16   6   4  415150   12754
+ -14   6   4  243827    7986
+ -12   6   4    4654    3045
+ -10   6   4  162934    5803
+  -8   6   4  373497   11376
+  -6   6   4  197693    6550
+  -4   6   4   13961    3505
+  -2   6   4  398316   14076
+   0   6   4  762908   31886
+   2   6   4  368039   23211
+   4   6   4    4769    6779
+   6   6   4  202174   14535
+   8   6   4  434798   18844
+  10   6   4  170173    6664
+  12   6   4    9595    3160
+  14   6   4  243310    7756
+  16   6   4  415437   12410
+  18   6   4  179423    6205
+  20   6   4    1436    3332
+  22   6   4   94796    4941
+  24   6   4  127257    5745
+  26   6   4   45560    5113
+  28   6   4     919    5630
+  30   6   4   69460    7411
+  32   6   4   78652    7871
+  34   6   4   16891    5975
+  38   6   4    6032    6894
+  40   6   4    9882    7526
+ -33   7   4    1551    3447
+ -31   7   4   -1551    3907
+ -29   7   4     460    3849
+ -27   7   4   -1494    3390
+ -25   7   4    1034    3332
+ -23   7   4    1092    2930
+ -21   7   4    1264    2873
+ -19   7   4    4366    2930
+ -17   7   4     575    3160
+ -15   7   4    2758    3160
+ -13   7   4    8618    3045
+ -11   7   4    6607    2930
+  -9   7   4       0    2930
+  -7   7   4    2011    2815
+  -5   7   4   12122    2758
+  -3   7   4   17408    4883
+  -1   7   4    8331    4596
+   1   7   4    4654    4654
+   3   7   4   17351    4769
+   5   7   4   15742    7067
+   7   7   4    8101    4366
+   9   7   4    3160    4309
+  11   7   4    7411    4424
+  13   7   4   10686    4424
+  15   7   4    4883    3045
+  17   7   4   -1034    3045
+  19   7   4    -230    3160
+  21   7   4     747    3390
+  23   7   4    4194    3619
+  25   7   4   -1436    3734
+  27   7   4   -1609    3792
+  29   7   4     402    3792
+  31   7   4   -4309    3907
+  33   7   4    4539    3907
+ -26   8   4   22004    3792
+ -24   8   4   99565    5918
+ -22   8   4   95083    5745
+ -20   8   4    1379    3447
+ -18   8   4  105540    5860
+ -16   8   4  254973    9250
+ -14   8   4  209528    7067
+ -12   8   4   15512    3217
+ -10   8   4  180802    6205
+  -8   8   4  500926   14708
+  -6   8   4  288755    8848
+  -4   8   4   24417    5113
+  -2   8   4  380161   16604
+   0   8   4  701951   29186
+   2   8   4  382287   16776
+   4   8   4   17983    4998
+   6   8   4  336900   15052
+   8   8   4  538327   18615
+  10   8   4  203840   10054
+  12   8   4   20396    4826
+  14   8   4  249457   11720
+  16   8   4  315930   14248
+  18   8   4  108010    6779
+  20   8   4    -632    5401
+  22   8   4   98473    8445
+  24   8   4  119615    9422
+  -9   9   4     402    3217
+  -7   9   4    -402    1838
+  -5   9   4    9422    6032
+  -3   9   4    6607    6205
+  -1   9   4    2470    4654
+   1   9   4   -1321    4481
+   3   9   4    2930    4481
+   5   9   4    2873    4654
+   7   9   4     977    4769
+   9   9   4    1436    3734
+ -49   1   5   11663    4596
+ -47   1   5   12927    4998
+ -45   1   5     804    5056
+ -43   1   5    1379    5860
+ -41   1   5   12180    4826
+ -39   1   5   43549    4654
+ -37   1   5   26026    3964
+ -35   1   5   22521    4309
+ -33   1   5  209758    7296
+ -31   1   5  314034   10916
+ -29   1   5  111630    5171
+ -27   1   5   11835    3619
+ -25   1   5  224006    7067
+ -23   1   5  524596   14191
+ -21   1   5  206656    7296
+ -19   1   5  160234    6090
+ -17   1   5 1713109   49466
+ -15   1   5 2263157   65208
+ -13   1   5  542866   16087
+ -11   1   5  123177    4826
+  -9   1   5 1269406   42572
+  -7   1   5 1729828   57739
+  -5   1   5  406991   14191
+  -3   1   5  804618   33265
+  -1   1   5 4091745  165750
+   1   1   5 4317819  174999
+   3   1   5  761701   31197
+   5   1   5  422331   25222
+   7   1   5 1847088  106229
+   9   1   5 1381668   56361
+  11   1   5  133174    6894
+  13   1   5  572511   23670
+  15   1   5 2329916   94566
+  17   1   5 1789865   59406
+  19   1   5  177872    6894
+  21   1   5  203783    7641
+  23   1   5  510175   15110
+  25   1   5  224236    7411
+  27   1   5    6952    3102
+  29   1   5  124786    5171
+  31   1   5  313574    9882
+  33   1   5  209356    7354
+  35   1   5   14076    4883
+  37   1   5   33092    6320
+  39   1   5   34816    5860
+  41   1   5   16719    4941
+  43   1   5    4539    5515
+  45   1   5    1206    6377
+  47   1   5   24245    6664
+  49   1   5  -12410   10629
+ -48   2   5   -2815    4596
+ -46   2   5   -2930    4424
+ -44   2   5   -5458    4481
+ -42   2   5    1092    4596
+ -40   2   5    5171    3907
+ -38   2   5    1838    3964
+ -36   2   5   -2873    4769
+ -34   2   5   -4998    5573
+ -32   2   5     632    5171
+ -30   2   5   -2700    4596
+ -28   2   5    1666    3562
+ -26   2   5    5401    3619
+ -24   2   5    2470    3734
+ -22   2   5    5171    4137
+ -20   2   5   16259    4711
+ -18   2   5    2011    3619
+ -16   2   5    -919    3275
+ -14   2   5    3160    3275
+ -12   2   5    1551    3390
+ -10   2   5    3102    3217
+  -8   2   5    5286    2815
+  -6   2   5    2758    2758
+  -4   2   5   17580    3160
+  -2   2   5    3275    3562
+   0   2   5   -1206    3505
+   2   2   5    8043    3390
+   4   2   5   19878    5745
+   6   2   5    1034    5228
+   8   2   5    6205    4022
+  10   2   5    4998    4022
+  12   2   5   -1436    2930
+  14   2   5    3217    2988
+  16   2   5   -2643    2585
+  18   2   5    2930    2815
+  20   2   5   12352    3332
+  22   2   5    4194    3562
+  24   2   5    2356    3907
+  26   2   5    6607    4251
+  28   2   5   -2873    5343
+  30   2   5    1724    4941
+  32   2   5   -2011    4251
+  34   2   5    -402    4711
+  36   2   5    4711    4998
+  38   2   5    1494    4539
+  40   2   5    6377    4711
+  42   2   5   -6377    6147
+  44   2   5    1609    5458
+  46   2   5    9077    5401
+  48   2   5    3390    9020
+ -47   3   5   17523    5343
+ -45   3   5     345    5515
+ -43   3   5     977    4769
+ -41   3   5   18500    4251
+ -39   3   5   37459    4424
+ -37   3   5   16948    4251
+ -35   3   5   19591    4366
+ -33   3   5  202921    6894
+ -31   3   5  297717    9020
+ -29   3   5   88706    4769
+ -27   3   5   36769    3907
+ -25   3   5  452551   12639
+ -23   3   5  704134   20798
+ -21   3   5  190454    7526
+ -19   3   5  305301   10226
+ -17   3   5 2271947   63944
+ -15   3   5 2517095   85202
+ -13   3   5  534880   16202
+ -11   3   5  388549   12927
+  -9   3   5 2771034   79859
+  -7   3   5 3350554   86063
+  -5   3   5  658115   17408
+  -3   3   5 1036093   29588
+  -1   3   5 6287165  254686
+   1   3   5 6458832  264395
+   3   3   5 1093602   44640
+   5   3   5  693448   28841
+   7   3   5 3471548   99622
+   9   3   5 2897946   82444
+  11   3   5  445312   15742
+  13   3   5  624505   21487
+  15   3   5 2564781   84857
+  17   3   5 1948433   80663
+  19   3   5  265199    9422
+  21   3   5  206024   10341
+  23   3   5  746074   31369
+  25   3   5  467603   20281
+  27   3   5   37344    4309
+  29   3   5   82674    5113
+  31   3   5  314436   11720
+  33   3   5  213377    8790
+  35   3   5   33150    4366
+  37   3   5   12869    4194
+  39   3   5   37172    5630
+  41   3   5   16316    5171
+  43   3   5   -2700    6952
+  45   3   5    5401    7124
+  47   3   5   23498    7469
+ -44   4   5   -3907    4194
+ -42   4   5    1953    4366
+ -40   4   5    -689    3792
+ -38   4   5    5803    3677
+ -36   4   5    5573    3677
+ -34   4   5   -1838    3562
+ -32   4   5    1149    4022
+ -30   4   5    2585    4079
+ -28   4   5    1953    3964
+ -26   4   5     345    4998
+ -24   4   5    1436    3849
+ -22   4   5    3964    3677
+ -20   4   5    1724    3562
+ -18   4   5    -115    3160
+ -16   4   5   -1321    2988
+ -14   4   5    3102    3390
+ -12   4   5    2413    3390
+ -10   4   5     345    3217
+  -8   4   5    -287    3045
+  -6   4   5   -3275    2298
+  -4   4   5    1551    2126
+  -2   4   5   -1781    2528
+   0   4   5     632    3505
+   2   4   5   -2930    6377
+   4   4   5    2988    5918
+   6   4   5    4424    4194
+   8   4   5   -2068    4309
+  10   4   5    1724    4539
+  12   4   5    6607    4654
+  14   4   5    4424    4654
+  16   4   5    1838    4539
+  18   4   5   -4424    3332
+  20   4   5   -2988    2528
+  22   4   5    -804    2700
+  24   4   5     345    2815
+  26   4   5   -1149    3849
+  28   4   5    2470    3390
+  30   4   5    2758    3447
+  32   4   5   -1436    3390
+  34   4   5   -3734    4251
+  36   4   5     172    4251
+  38   4   5   -1379    4769
+  40   4   5   -3505    5171
+ -41   5   5    3332    3505
+ -39   5   5   12410    3390
+ -37   5   5    8790    3217
+ -35   5   5   -1436    3160
+ -33   5   5   30852    3160
+ -31   5   5   62680    3907
+ -29   5   5   26600    4022
+ -27   5   5    4481    3332
+ -25   5   5   54752    3907
+ -23   5   5  128578    5113
+ -21   5   5   48949    3332
+ -19   5   5   17983    2988
+ -17   5   5  236186    6952
+ -15   5   5  374761   10226
+ -13   5   5  122488    4826
+ -11   5   5   11433    3505
+  -9   5   5  199244    7756
+  -7   5   5  268474    9939
+  -5   5   5   51707    3907
+  -3   5   5   91177    4826
+  -1   5   5  526147   22349
+   1   5   5  456170   19304
+   3   5   5   81869    5113
+   5   5   5   54120    7699
+   7   5   5  271462   12525
+   9   5   5  219525   10686
+  11   5   5   12410    4883
+  13   5   5  133059    7756
+  15   5   5  379759   16833
+  17   5   5  236473    8675
+  19   5   5   18327    3964
+  21   5   5   51535    4539
+  23   5   5  124212    6837
+  25   5   5   57682    5056
+  27   5   5    4251    4309
+  29   5   5   38148    4826
+  31   5   5   74228    5745
+ -36   6   5    -862    4309
+ -34   6   5   -3562    3792
+ -32   6   5    -689    3332
+ -30   6   5   -2643    3390
+ -28   6   5    3160    3390
+ -26   6   5     345    3332
+ -24   6   5   -1149    3332
+ -22   6   5   -3677    2930
+ -20   6   5    1149    2873
+ -18   6   5    5515    2815
+ -16   6   5    6435    2988
+ -14   6   5    -575    3045
+ -12   6   5    5688    2873
+ -10   6   5    4022    3447
+  -8   6   5    1092    3390
+  -6   6   5    5458    3505
+  -4   6   5   11031    3447
+  -2   6   5    4941    4654
+   0   6   5    4079    4769
+   2   6   5    9192    6837
+   4   6   5    9422    6894
+   6   6   5    2241    6722
+   8   6   5    3447    3160
+  10   6   5    3505    3332
+  12   6   5    5056    4826
+  14   6   5   -2126    4883
+  16   6   5   -1264    3447
+  18   6   5    6090    3447
+  20   6   5    1034    3907
+  22   6   5    4481    3964
+  24   6   5   -4596    4251
+  26   6   5    3160    4366
+  28   6   5    2126    4481
+  30   6   5     345    4539
+  32   6   5    6147    4769
+  34   6   5     230    5228
+  36   6   5   -1953    5113
+ -29   7   5   20166    3505
+ -27   7   5    4079    3390
+ -25   7   5  124556    6032
+ -23   7   5  171380    7067
+ -21   7   5   47628    3619
+ -19   7   5   54005    3792
+ -17   7   5  341668   12122
+ -15   7   5  465478   16087
+ -13   7   5  123522    4883
+ -11   7   5   83938    4998
+  -9   7   5  638811   21602
+  -7   7   5  707122   23785
+  -5   7   5  164313    8560
+  -3   7   5  201083   10054
+  -1   7   5  994268   41078
+   1   7   5 1008975   41710
+   3   7   5  204128   10284
+   5   7   5  153397    8445
+   7   7   5  781062   46306
+   9   7   5  637834   38206
+  11   7   5   89338    9537
+  13   7   5  103529    6147
+  15   7   5  444565   15512
+  17   7   5  330005   11605
+  19   7   5   46364    3619
+  21   7   5   36884    3619
+  23   7   5  140068    6894
+  25   7   5   83938    5056
+  27   7   5    7986    3447
+  29   7   5   15972    3734
+ -18   8   5     517    3505
+ -16   8   5   -2528    4251
+ -14   8   5       0    4079
+ -12   8   5    5688    7411
+ -10   8   5   -2413    4481
+  -8   8   5    2930    4251
+  -6   8   5    7699    7354
+  -4   8   5   12927    7296
+  -2   8   5    7009    7124
+   0   8   5    4424    7124
+   2   8   5    5975    7124
+   4   8   5    9767    7009
+   6   8   5    7756    7354
+   8   8   5    8503    7124
+  10   8   5    1666    7354
+  12   8   5    3160    6894
+  14   8   5     804    6952
+  16   8   5    4251    3907
+  18   8   5    6435    4079
+ -46   0   6    4194    6377
+ -44   0   6   -2700    6894
+ -42   0   6    8733    6952
+ -40   0   6   46019    7584
+ -38   0   6   27922    6722
+ -36   0   6     517    6377
+ -34   0   6   81640    7182
+ -32   0   6  199761   15742
+ -30   0   6  150755   13386
+ -28   0   6   -3792    5228
+ -26   0   6  109159    7182
+ -24   0   6  332074   14995
+ -22   0   6  212688   10399
+ -20   0   6   11031    4941
+ -18   0   6  560906   23728
+ -16   0   6 1073552   44181
+ -14   0   6  639960   26830
+ -12   0   6    9192    4137
+ -10   0   6  516495   21832
+  -8   0   6 1163637   47743
+  -6   0   6  579980   24072
+  -4   0   6   63255    6320
+  -2   0   6 1124282   64806
+   0   0   6 2187664  125418
+   2   0   6 1146573   66013
+   4   0   6   51707    5171
+   6   0   6  601409   34988
+  14   0   6  671731   39010
+  16   0   6 1261133   72620
+  18   0   6  573373   33552
+  20   0   6    8158    4826
+  22   0   6  221995   10054
+  24   0   6  358387   15397
+  26   0   6  115939    6435
+  28   0   6    2643    3964
+  30   0   6  145986    7756
+  32   0   6  181032    9020
+  34   0   6   65840    5401
+  36   0   6    4654    4883
+  38   0   6   37976    5860
+  40   0   6   22981    5630
+  42   0   6    7239    5515
+  44   0   6    1494    5975
+  46   0   6    7928    6090
+ -45   1   6    7641    5573
+ -43   1   6    1206    5113
+ -41   1   6   -4137    4711
+ -39   1   6    5056    4251
+ -37   1   6   -1494    4596
+ -35   1   6    4998    4481
+ -33   1   6    8331    4998
+ -31   1   6    -804    6205
+ -29   1   6    6664    4654
+ -27   1   6    7354    4137
+ -25   1   6    -115    3677
+ -23   1   6   12295    3505
+ -21   1   6   45789    3677
+ -19   1   6   46709    3677
+ -17   1   6    5573    3160
+ -15   1   6   25451    3160
+ -13   1   6  125935    4998
+ -11   1   6  123867    4826
+  -9   1   6   20913    2988
+  -7   1   6   51477    3390
+  -5   1   6  223949    6435
+  -3   1   6  233830    8445
+  -1   1   6   42342    3505
+   1   1   6   48202    3562
+   3   1   6  236990   10226
+   5   1   6  235439   14823
+   7   1   6   44468    5573
+   9   1   6   28611    5228
+  11   1   6  126682    9135
+  13   1   6  136104    9709
+  15   1   6   25336    5458
+  17   1   6    6435    3045
+  19   1   6   46938    3217
+  21   1   6   40849    3217
+  23   1   6   11318    2988
+  25   1   6     632    2758
+  27   1   6    9307    2815
+  29   1   6   13099    2873
+  31   1   6    5515    3102
+  33   1   6    -862    3160
+  35   1   6   -6147    3619
+  37   1   6    7296    3562
+  39   1   6     517    3907
+  41   1   6   -1264    4309
+  43   1   6    3332    4424
+  45   1   6    2988    3849
+ -44   2   6    4194    4481
+ -42   2   6    2643    4481
+ -40   2   6   32116    4998
+ -38   2   6   37689    4941
+ -36   2   6   -8388    6550
+ -34   2   6   42285    6147
+ -32   2   6  146675    7756
+ -30   2   6  138287    6952
+ -28   2   6   23728    5228
+ -26   2   6   77446    5975
+ -24   2   6  408542   14823
+ -22   2   6  407681   14650
+ -20   2   6   16316    3562
+ -18   2   6  507533   15282
+ -16   2   6 1647384   47513
+ -14   2   6 1228385   35505
+ -12   2   6   68540    3792
+ -10   2   6  756818   22234
+  -8   2   6 2262180   64978
+  -6   2   6 1490252   43147
+  -4   2   6   51132    3102
+  -2   2   6 2093673   84972
+   0   2   6 4186311  169484
+   2   2   6 2050354   83478
+   4   2   6   46306    6779
+   6   2   6 1482266   85604
+   8   2   6 2461079  141390
+  10   2   6  822026   48030
+  12   2   6   76124    5401
+  14   2   6 1293996   43147
+  16   2   6 1702940   69402
+  18   2   6  533041   22349
+  20   2   6   12812    2758
+  22   2   6  383206   12927
+  24   2   6  425606   13674
+  26   2   6   78652    3907
+  28   2   6   20223    3275
+  30   2   6  172184    6262
+  32   2   6  174540    6722
+  34   2   6   35850    3964
+  36   2   6    1838    3275
+  38   2   6   34184    3907
+  40   2   6   22406    4481
+  42   2   6    8963    4079
+  44   2   6    5515    4194
+ -43   3   6    4539    4826
+ -41   3   6     230    5056
+ -39   3   6   -1609    4769
+ -37   3   6    3447    4022
+ -35   3   6   -1609    4137
+ -33   3   6    -517    5113
+ -31   3   6   -3849    5228
+ -29   3   6    4309    5056
+ -27   3   6    4596    5228
+ -25   3   6    6032    6205
+ -23   3   6    6262    5745
+ -21   3   6   19361    4998
+ -19   3   6   10858    4424
+ -17   3   6    3562    3217
+ -15   3   6    7239    3102
+ -13   3   6   43779    3792
+ -11   3   6   48892    3677
+  -9   3   6   12065    3160
+  -7   3   6   19189    2585
+  -5   3   6   80491    3217
+  -3   3   6   87902    4481
+  -1   3   6   16891    2988
+   1   3   6   16948    3792
+   3   3   6   85604    5228
+   5   3   6   88936    5171
+   7   3   6   18385    3447
+   9   3   6    8905    2585
+  11   3   6   49007    3619
+  13   3   6   51994    3734
+  15   3   6   10284    3332
+  17   3   6    1781    4194
+  19   3   6   24877    5745
+  21   3   6   16144    4826
+  23   3   6    6607    4539
+  25   3   6    1092    3447
+  27   3   6    5171    3505
+  29   3   6    7813    3045
+  31   3   6    -517    3102
+  33   3   6    1551    3045
+  35   3   6    5803    3447
+  37   3   6    7526    3619
+  39   3   6    3562    4826
+ -40   4   6   14363    4194
+ -38   4   6   17178    4309
+ -36   4   6   -3792    4194
+ -34   4   6   25279    4366
+ -32   4   6   75952    5458
+ -30   4   6   65783    5228
+ -28   4   6    2126    4309
+ -26   4   6   44123    3964
+ -24   4   6  136679    6607
+ -22   4   6   98645    5745
+ -20   4   6    6435    3619
+ -18   4   6  176493    6607
+ -16   4   6  416586   12352
+ -14   4   6  250836    8790
+ -12   4   6    4826    3045
+ -10   4   6  160004    5343
+  -8   4   6  374646   10744
+  -6   4   6  181434    5860
+  -4   4   6   14880    3045
+  -2   4   6  332763   10858
+   0   4   6  722921   29933
+   2   4   6  413311   25451
+   4   4   6   10744    6090
+   6   4   6  198210   13789
+   8   4   6  376369   23383
+  10   4   6  174023    8848
+  12   4   6    7641    4711
+  14   4   6  256639   11893
+  16   4   6  434856   18787
+  18   4   6  220099   15167
+  20   4   6   10341    6607
+  22   4   6   86006    5401
+  24   4   6  116513    6607
+  26   4   6   18212    3907
+  28   4   6    5458    2241
+  30   4   6   47053    3619
+  32   4   6   48202    5056
+  34   4   6   20970    7296
+ -35   5   6   -2700    3849
+ -33   5   6     689    3792
+ -31   5   6    2068    3792
+ -29   5   6   -3562    3619
+ -27   5   6   -3849    3217
+ -25   5   6     517    3160
+ -23   5   6    1436    3102
+ -21   5   6    4711    3102
+ -19   5   6    1724    3160
+ -17   5   6    -402    3102
+ -15   5   6    2815    3332
+ -13   5   6    1551    3102
+ -11   5   6    1436    2873
+  -9   5   6    3964    3849
+  -7   5   6     287    3275
+  -5   5   6    4022    3275
+  -3   5   6    6722    3275
+  -1   5   6    4366    3275
+   1   5   6    1781    3505
+   3   5   6    4596    3562
+   5   5   6    -632    6550
+   7   5   6   -2298    6550
+   9   5   6    2241    6550
+  11   5   6    3792    4481
+  13   5   6   13157    4769
+  15   5   6    3102    4654
+  17   5   6   -2470    4769
+  19   5   6    2241    7296
+  21   5   6    1724    7124
+  23   5   6    -862    6779
+  25   5   6    4654    6894
+  27   5   6   -5056    6664
+  29   5   6   -4539    2873
+  31   5   6    1551    3217
+  33   5   6     -57    3677
+  35   5   6     632    4022
+ -30   6   6   46421    3907
+ -28   6   6    -402    3390
+ -26   6   6   44411    4309
+ -24   6   6  170805    7239
+ -22   6   6  140011    6377
+ -20   6   6    5745    4654
+ -18   6   6  189879    9422
+ -16   6   6  530571   22636
+ -14   6   6  370509   16202
+ -12   6   6   16833    4539
+ -10   6   6  313689   11261
+  -8   6   6  805250   27003
+  -6   6   6  492595   20913
+  -4   6   6   42802    5573
+  -2   6   6  687301   28841
+   0   6   6 1313472   53833
+   2   6   6  628355   26428
+   4   6   6   36252    7699
+   6   6   6  541027   32633
+   8   6   6  889934   52339
+  10   6   6  349654   22177
+  12   6   6   23096    5171
+  14   6   6  381483   16891
+  16   6   6  537810   32460
+  18   6   6  196659   14018
+  28   6   6    1781    2183
+  30   6   6   26428    3562
+ -21   7   6    7182    4883
+ -19   7   6     747    4769
+ -17   7   6    6779    7354
+ -15   7   6   -1551    7296
+ -13   7   6    2470    7239
+ -11   7   6    6779    7239
+  -9   7   6   -3275    7239
+  -7   7   6    -689    7124
+  -5   7   6    5228    6952
+  -3   7   6    4137    7009
+  -1   7   6    8618    6894
+   1   7   6    1321    6837
+   3   7   6    5343    6894
+   5   7   6   -4481    6837
+   7   7   6   -5286    7296
+   9   7   6    8963    7009
+  11   7   6    7124    7124
+  13   7   6    1781    6722
+  15   7   6   -1034    6894
+  17   7   6   -5515    6550
+  19   7   6    -230    6837
+ -41   1   7    8560    6435
+ -39   1   7   26198    7239
+ -37   1   7   10054    6894
+ -35   1   7   -2298    6607
+ -33   1   7   67851    7239
+ -31   1   7  112721    6607
+ -29   1   7   50213    4769
+ -27   1   7    8043    3677
+ -25   1   7  180859    6722
+ -23   1   7  287318    9365
+ -21   1   7   71413    4137
+ -19   1   7   96232    4539
+ -17   1   7  647141   19189
+ -15   1   7  832884   24360
+ -13   1   7  247389    7124
+ -11   1   7   89740    3677
+  -9   1   7  900506   23498
+  -7   1   7 1061487   27232
+  -5   1   7  204185    5918
+  -3   1   7  341151   10226
+  -1   1   7 1560804   51879
+   1   1   7 1577465   64059
+   3   1   7  348735   21028
+   5   1   7  212458   13674
+   7   1   7 1162775   67162
+   9   1   7  955717   55326
+  17   1   7  679774   39757
+  19   1   7   92211    5401
+  21   1   7   82272    5286
+  23   1   7  289846   10112
+  25   1   7  181549    5975
+  27   1   7    7354    2758
+  29   1   7   57107    3275
+  31   1   7  123292    4826
+  33   1   7   76584    3907
+  35   1   7   10514    3102
+  37   1   7    5860    3332
+  39   1   7   21430    4251
+  41   1   7    8101    5286
+ -38   2   7   -5975    8388
+ -36   2   7    -230    6952
+ -34   2   7   -4481    6205
+ -32   2   7    5458    5343
+ -30   2   7    2873    6550
+ -28   2   7    3677    6320
+ -26   2   7   -3849    4424
+ -24   2   7   -1092    4194
+ -22   2   7    -575    3447
+ -20   2   7    5745    3217
+ -18   2   7    2068    3275
+ -16   2   7    2356    2758
+ -14   2   7    7067    2643
+ -12   2   7   13157    2700
+ -10   2   7    2413    2873
+  -8   2   7    4137    2873
+  -6   2   7    9997    2298
+  -4   2   7   14478    2298
+  -2   2   7    7469    3045
+   0   2   7    -919    3505
+   2   2   7    1896    3447
+   4   2   7   17063    3562
+   6   2   7   13674    5573
+   8   2   7    9365    5401
+  10   2   7    2815    5171
+  12   2   7    9767    5228
+  16   2   7    -402    3447
+  18   2   7    1436    3505
+  20   2   7    4596    3619
+  22   2   7    -689    3734
+  24   2   7   -7124    3849
+  26   2   7     575    2930
+  28   2   7   -2241    2758
+  30   2   7   -4654    2988
+  32   2   7     -57    3217
+  34   2   7    -402    4711
+  36   2   7   -4883    4079
+  38   2   7   -6032    3619
+ -37   3   7   13846    6837
+ -35   3   7   -1666    6550
+ -33   3   7   39412    7009
+ -31   3   7   67162    7928
+ -29   3   7   59750    9652
+ -27   3   7   17121    8216
+ -25   3   7   78709    8273
+ -23   3   7  109102    8216
+ -21   3   7   35103    4424
+ -19   3   7   28669    3332
+ -17   3   7  248308    7526
+ -15   3   7  343162    9652
+ -13   3   7  113008    4883
+ -11   3   7   25049    3275
+  -9   3   7  294213    8158
+  -7   3   7  352010    9480
+  -5   3   7   68311    3677
+  -3   3   7  127544    4883
+  -1   3   7  556941   19074
+   1   3   7  526377   21889
+   3   3   7  112779    6090
+   5   3   7   65266    4596
+   7   3   7  383264   16202
+   9   3   7  294155   12582
+  11   3   7   23843    2758
+  13   3   7  117605    6090
+  15   3   7  357812   12582
+  17   3   7  297947   13157
+  19   3   7   30679    4654
+  21   3   7   40849    5113
+  23   3   7  157362    9020
+  25   3   7   85604    6262
+  27   3   7     575    4769
+  29   3   7   28439    5343
+  31   3   7   56131    3907
+  33   3   7   31254    3907
+  35   3   7    1321    3792
+  37   3   7    6492    3792
+ -34   4   7    4309    5343
+ -32   4   7    3447    5401
+ -30   4   7    3390    5343
+ -28   4   7    3275    5630
+ -26   4   7   -3505    4309
+ -24   4   7    3332    4194
+ -22   4   7    8905    4137
+ -20   4   7   10973    4194
+ -18   4   7    1781    3390
+ -16   4   7    3102    3447
+ -14   4   7    5573    3102
+ -12   4   7    9077    2585
+ -10   4   7    5113    2413
+  -8   4   7    2183    2356
+  -6   4   7    8560    2873
+  -4   4   7   14478    2815
+  -2   4   7    7124    2758
+   0   4   7   -1551    2758
+   2   4   7    4481    3734
+   4   4   7   21372    6262
+   6   4   7    8101    6147
+   8   4   7    -345    6205
+  10   4   7    9824    6320
+  12   4   7    5573    6320
+  14   4   7   14420    6205
+  16   4   7   -3160    4366
+  18   4   7     115    6147
+  20   4   7     977    6377
+  22   4   7    7756    6664
+  24   4   7    1838    3505
+  26   4   7    4998    6550
+  28   4   7    1666    6894
+  30   4   7    -632    6262
+  32   4   7   -1436    6664
+ -29   5   7   15340    3964
+ -27   5   7    8273    3849
+ -25   5   7   86638    4194
+ -23   5   7  141562    5343
+ -21   5   7   38436    3390
+ -19   5   7   44870    3447
+ -17   5   7  317481    9365
+ -15   5   7  399810   13099
+ -13   5   7  103127    4711
+ -11   5   7   71241    3907
+  -9   5   7  513795   16259
+  -7   5   7  770376   45560
+  -5   5   7  178044    8618
+  -3   5   7  207747    9767
+  -1   5   7  977492   40159
+   1   5   7  914696   37631
+   3   5   7  203381    9480
+   5   5   7  159085    7928
+   7   5   7  769974   45502
+   9   5   7  654725   38895
+  11   5   7   93762    9422
+  13   5   7  125763   10571
+  15   5   7  508394   30622
+  17   5   7  379874   16661
+  19   5   7   45100    7928
+  21   5   7   46364    7756
+ -22   6   7    -517    7067
+ -20   6   7    -689    7182
+ -18   6   7   -1609    7124
+ -16   6   7    -287    7067
+ -14   6   7    -287    7239
+ -12   6   7    4826    7067
+ -10   6   7    4883    7067
+  -8   6   7   -8101    7124
+  -6   6   7   -1494    6952
+  -4   6   7   12927    6952
+  -2   6   7    1264    6664
+   0   6   7   14191    6894
+   2   6   7    8101    6607
+   4   6   7    3102    6550
+   6   6   7     115    6779
+   8   6   7    7124    6837
+  10   6   7   -5343    6837
+  12   6   7    6492    6607
+  14   6   7   -7469    6550
+  16   6   7   -4366    6320
+  18   6   7   12639    6550
+  -7   7   7   61933    8445
+  -5   7   7   12180    7296
+  -3   7   7   19534    7182
+  -1   7   7   79973    8733
+   1   7   7   72505    8445
+   3   7   7   13099    6894
+   5   7   7   12295    7239
+   7   7   7   53431    7928
+ -34   0   8    -287    7986
+ -32   0   8   67449    9480
+ -30   0   8   63197    8790
+ -28   0   8   11663    6894
+ -26   0   8   20568    4941
+ -24   0   8  138287    7756
+ -22   0   8  116973    7009
+ -20   0   8   14938    4711
+ -18   0   8  105023    6550
+ -16   0   8  360915   15799
+ -14   0   8  328741   11663
+ -12   0   8   36884    3562
+ -10   0   8  195797    7584
+  -8   0   8  621116   20798
+  -6   0   8  371831   12812
+  -4   0   8   27405    3562
+  -2   0   8  428076   17810
+   0   0   8  742512   42974
+   2   0   8  416873   24532
+   4   0   8   18500    4137
+  24   0   8  144320   10226
+  26   0   8   29071    3734
+  28   0   8    9480    3562
+  30   0   8   65955    4826
+  32   0   8   55097    4539
+  34   0   8   11950    3792
+ -33   1   8    1321    5688
+ -31   1   8    2356    5688
+ -29   1   8    8503    5056
+ -27   1   8    2758    4137
+ -25   1   8     689    3964
+ -23   1   8   -2528    3217
+ -21   1   8    4883    3160
+ -19   1   8    7354    3102
+ -17   1   8     230    2643
+ -15   1   8     804    2643
+ -13   1   8   17983    2643
+ -11   1   8   20913    2298
+  -9   1   8    2528    2241
+  -7   1   8    5515    2241
+  -5   1   8   36942    2643
+  -3   1   8   31369    2470
+  -1   1   8    5458    2528
+   1   1   8    6032    3390
+   3   1   8   41883    5515
+   5   1   8   37918    5515
+   7   1   8    9192    4596
+  19   1   8   18729    4769
+  21   1   8    9077    5056
+  23   1   8   -4022    3447
+  25   1   8     804    2873
+  27   1   8    5228    2988
+  29   1   8   -2930    3160
+  31   1   8    1321    2528
+  33   1   8    1781    3102
+ -32   2   8   46019    6779
+ -30   2   8   38378    6664
+ -28   2   8    1149    5918
+ -26   2   8   49294    6262
+ -24   2   8  144148    6894
+ -22   2   8   76182    4998
+ -20   2   8    7067    3217
+ -18   2   8  146963    5630
+ -16   2   8  307829    8733
+ -14   2   8  194246    5975
+ -12   2   8    8043    2758
+ -10   2   8  207517    6032
+  -8   2   8  451344   11778
+  -6   2   8  218491    6147
+  -4   2   8   31771    3102
+  -2   2   8  335406   10284
+   0   2   8  576131   19591
+   2   2   8  321043   13846
+   4   2   8   21602    3792
+   6   2   8  233658   10514
+   8   2   8  504488   29933
+  10   2   8  206426   13501
+  16   2   8  309323   18557
+  18   2   8  164601   10801
+  20   2   8    4366    4539
+  22   2   8   91119    5515
+  24   2   8  138230    7067
+  26   2   8   52971    4826
+  28   2   8     460    5573
+  30   2   8   43779    6550
+  32   2   8   57625    7009
+ -29   3   8    9709    7986
+ -27   3   8    2470    7009
+ -25   3   8     689    4481
+ -23   3   8    6320    4251
+ -21   3   8    9652    4366
+ -19   3   8   10744    3619
+ -17   3   8    4251    3505
+ -15   3   8    4424    3275
+ -13   3   8   16259    3332
+ -11   3   8    8675    2815
+  -9   3   8    2873    2068
+  -7   3   8    5228    3217
+  -5   3   8   24417    3332
+  -3   3   8   21947    3160
+  -1   3   8    8733    2988
+   1   3   8    3275    2930
+   3   3   8   24302    3677
+   5   3   8   17351    3619
+   7   3   8    4998    3332
+   9   3   8    4998    3390
+  11   3   8   12237    2585
+  13   3   8    9882    2528
+  15   3   8     747    3849
+  17   3   8   -2815    4194
+  19   3   8    5745    5401
+  21   3   8    2988    5458
+  23   3   8    2528    5918
+  25   3   8   -4769    6032
+  27   3   8   -1896    6147
+  29   3   8   -5975    6262
+ -24   4   8  101575    5860
+ -22   4   8   80433    5401
+ -20   4   8       0    4366
+ -18   4   8   95371    5573
+ -16   4   8  287146   10973
+ -14   4   8  216710    7469
+ -12   4   8   15914    3849
+ -10   4   8  164486    6952
+  -8   4   8  454274   15742
+  -6   4   8  255145    9307
+  -4   4   8   18040    3447
+  -2   4   8  286974    9824
+   0   4   8  566651   18097
+   2   4   8  318802   10514
+   4   4   8   27520    4251
+   6   4   8  303922   19361
+   8   4   8  526434   31484
+  10   4   8  191201   13214
+  12   4   8   19821    6262
+  14   4   8  248481   16144
+  22   4   8  102782    9020
+  24   4   8  114617    9824
+ -19   5   8   -1551    4769
+ -17   5   8   -4137    4769
+ -15   5   8    1206    4596
+ -13   5   8    3160    6550
+ -11   5   8    1034    6952
+  -9   5   8   -2930    6952
+  -7   5   8   -2068    6550
+  -5   5   8    6147    6837
+  -3   5   8   18212    6722
+  -1   5   8    5573    6435
+   1   5   8    4596    6722
+   3   5   8    7756    6664
+   5   5   8   11778    6722
+   7   5   8    1896    6320
+   9   5   8   -2528    6837
+  11   5   8    9135    6320
+  13   5   8   11318    6492
+  15   5   8    2815    6147
+ -23   1   9   81180    4826
+ -21   1   9   21832    3160
+ -19   1   9   22809    3160
+ -17   1   9  131451    5113
+ -15   1   9  179538    6032
+ -13   1   9   59520    3045
+ -11   1   9   23900    2585
+  -9   1   9  215158    6147
+  -7   1   9  267670    8043
+  -5   1   9   52281    2815
+  -3   1   9   76986    3447
+  -1   1   9  329431   11663
+   1   1   9  335234   11778
+   3   1   9   84225    5228
+   5   1   9   55556    5860
+  19   1   9   27692    4998
+  21   1   9   19591    5113
+ -22   2   9   -3275    3217
+ -20   2   9   -2413    3160
+ -18   2   9   -1436    3217
+ -16   2   9   -3505    3102
+ -14   2   9    2930    2930
+ -12   2   9    5458    2873
+ -10   2   9    1551    2873
+  -8   2   9     172    2758
+  -6   2   9    4137    3045
+  -4   2   9    4769    2988
+  -2   2   9    3275    2988
+   0   2   9     345    2988
+   2   2   9    1781    2988
+   4   2   9    1666    3505
+   6   2   9   -3160    3447
+   8   2   9     517    3390
+  10   2   9   -5113    4424
+ -17   3   9  122201    6205
+ -15   3   9  174482    6320
+ -13   3   9   61819    3849
+ -11   3   9   28956    3332
+  -9   3   9  224466    8445
+  -7   3   9  265774    9709
+  -5   3   9   58199    3907
+  -3   3   9   71011    4022
+  -1   3   9  326386   11433
+   1   3   9  329373   11548
+   3   3   9   70839    3964
+   5   3   9   57107    4424
+   7   3   9  287318   18040
+   9   3   9  245608   15742
+  11   3   9   27003    6205
+  -8   4   9   -8733    6262
+  -6   4   9    1149    6032
+  -4   4   9   10801    6550
+  -2   4   9    9939    6090
+   0   4   9    3217    5975
+   2   4   9    2298    5975
+   4   4   9   -1379    6090
+   6   4   9    2643    5860
+   8   4   9    1436    5918
+;
+_shelx_hkl_checksum                86526
+_olex2_submission_special_instructions  'No special instructions were received'
+_oxdiff_exptl_absorpt_empirical_details
+;
+Empirical correction (ABSPACK) includes:
+- Absorption correction using spherical harmonics
+- Frame scaling
+;
+_oxdiff_exptl_absorpt_empirical_full_max  3.292
+_oxdiff_exptl_absorpt_empirical_full_min  0.599
+
+# start Validation Reply Form
+_vrf_SHFSU01_esv_2_129a_ht
+;
+PROBLEM: The absolute value of parameter shift to su ratio > 0.10
+RESPONSE: The organic hexylammonium cation was found to be disordered at 323K.
+;
+_vrf_PLAT305_esv_2_129a_ht
+;
+PROBLEM: Isolated Hydrogen Atom   (Outside Bond Range ??)          H Check 
+RESPONSE: The organic hexylammonium cation was found to be disordered at 323K.
+;
+_vrf_PLAT351_esv_2_129a_ht
+;
+PROBLEM: Long   C-H (X0.96,N1.08A)  C7       - H3B      .       1.34 Ang.  
+RESPONSE: The organic hexylammonium cation was found to be disordered at 323K.
+;
+_vrf_PLAT410_esv_2_129a_ht
+;
+PROBLEM: Short Intra H...H Contact  H3C      ..H4B      .       1.56 Ang.  
+RESPONSE: The organic hexylammonium cation was found to be disordered at 323K.
+;
+_vrf_PLAT601_esv_2_129a_ht
+;
+PROBLEM: Unit Cell Contains Solvent Accessible VOIDS of .        226 Ang**3
+RESPONSE: The organic hexylammonium cation was found to be disordered at 323K.
+;
+# end Validation Reply Form

@@ -1,0 +1,83 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_ZZZPMY14
+#This CIF has been generated from an entry in the Cambridge Structural Database
+_database_code_depnum_ccdc_archive 'CCDC 1319987'
+_database_code_CSD               ZZZPMY14
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1107/S0108270187095568 1987
+_audit_creation_method           'Created from the CSD'
+_audit_update_record             
+;
+2020-05-04 downloaded from the CCDC.
+;
+_database_code_NBS               576359
+_chemical_formula_moiety         '(C1 H6 N1 1+)2n,n(Cl4 Cu1 2-)'
+_chemical_name_systematic        
+'catena-(bis(Methylammonium) bis(\m~2~-chloro)-di-chloro-copper(ii))'
+_chemical_absolute_configuration unk
+_diffrn_ambient_temperature      100
+_exptl_crystal_density_diffrn    1.818
+#These two values have been output from a single CSD field.
+_refine_ls_R_factor_gt           0.04
+_refine_ls_wR_factor_gt          0.04
+_diffrn_radiation_probe          x-ray
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 21/a'
+_symmetry_Int_Tables_number      14
+_space_group_name_Hall           '-P 2yab'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,1/2+y,-z
+3 -x,-y,-z
+4 1/2+x,1/2-y,z
+_cell_length_a                   7.155(4)
+_cell_length_b                   7.424(4)
+_cell_length_c                   9.814(3)
+_cell_angle_alpha                90
+_cell_angle_beta                 109.18(7)
+_cell_angle_gamma                90
+_cell_volume                     492.37
+_exptl_crystal_colour            brown
+_cell_formula_units_Z            2
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1 Cu 0.0000 0.0000 0.0000
+Cl1 Cl 0.1314(2) 0.0383(2) 0.2470(1)
+Cl2 Cl 0.2124(2) 0.2142(2) -0.0307(1)
+Cl1B Cl -0.1314(2) -0.0383(2) -0.2470(1)
+Cl2A Cl 0.2876(2) -0.2858(2) 0.0307(1)
+Cl2B Cl -0.2124(2) -0.2142(2) 0.0307(1)
+Cl2C Cl -0.2876(2) 0.2858(2) -0.0307(1)
+Cu1A Cu 0.5000 0.5000 0.0000
+Cu1A Cu 0.5000 -0.5000 0.0000
+N1 N -0.4045(6) 0.0268(6) 0.2240(4)
+C1 C -0.3150(8) -0.0352(9) 0.3724(6)
+H1 H -0.397(9) 0.109(9) 0.207(7)
+H2 H -0.174(9) -0.026(9) 0.395(7)
+H3 H -0.326(9) -0.158(9) 0.385(7)
+H4 H -0.362(9) -0.025(9) 0.440(7)
+
+#END

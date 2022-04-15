@@ -1,0 +1,108 @@
+data_82
+_audit_creation_date              2020-05-03
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'PBCA'
+_symmetry_Int_Tables_number       61
+_symmetry_cell_setting            orthorhombic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x+1/2,-y,z+1/2
+  -x,y+1/2,-z+1/2
+  x+1/2,-y+1/2,-z
+  -x,-y,-z
+  x+1/2,y,-z+1/2
+  x,-y+1/2,z+1/2
+  -x+1/2,y+1/2,z
+_cell_length_a                    9.2206
+_cell_length_b                    8.8513
+_cell_length_c                    31.9795
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+C1     C     0.02990   0.44370   0.10520   0.04967  Uani   1.00
+H1D    H     0.03400   0.34920   0.08870   0.06000  Uiso   1.00
+H1E    H     0.09730   0.43310   0.12910   0.06000  Uiso   1.00
+C2     C    -0.12070   0.46560   0.12130   0.04133  Uani   1.00
+H2A    H    -0.18700   0.48400   0.09750   0.05000  Uiso   1.00
+H2B    H    -0.12320   0.55580   0.13960   0.05000  Uiso   1.00
+C3     C    -0.17300   0.32990   0.14570   0.03667  Uani   1.00
+H3A    H    -0.16330   0.24010   0.12740   0.04400  Uiso   1.00
+H3B    H    -0.27780   0.34380   0.15120   0.04400  Uiso   1.00
+C4     C    -0.09960   0.29450   0.18680   0.03633  Uani   1.00
+H4A    H    -0.10830   0.38260   0.20570   0.04400  Uiso   1.00
+H4B    H     0.00480   0.27550   0.18190   0.04400  Uiso   1.00
+C5     C    -0.16780   0.15630   0.20740   0.04433  Uani   1.00
+H5A    H    -0.27030   0.17980   0.21400   0.05300  Uiso   1.00
+H5B    H    -0.16750   0.07220   0.18700   0.05300  Uiso   1.00
+C6     C    -0.09400   0.10340   0.24700   0.04767  Uani   1.00
+H6A    H     0.01110   0.09140   0.24160   0.05700  Uiso   1.00
+H6B    H    -0.13330   0.00330   0.25500   0.05700  Uiso   1.00
+N1     N     0.07850   0.57420   0.07810   0.03967  Uani   1.00
+H1A    H     0.01750   0.58350   0.05590   0.05900  Uiso   1.00
+H1B    H     0.17020   0.55680   0.06880   0.05900  Uiso   1.00
+H1C    H     0.07690   0.66100   0.09340   0.05900  Uiso   1.00
+I1     I    -0.05544   0.01952  -0.09776   0.03020  Uani   1.00
+I2     I    -0.28654   0.21169   0.00753   0.03223  Uani   1.00
+Pb1    Pb    0.00000   0.00000   0.00000   0.02059  Uani   1.00
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+C1        0.06200   0.03100   0.05600   0.00200   0.03000   0.00400
+C2        0.04400   0.03300   0.04700  -0.00500   0.00500   0.00200
+C3        0.04400   0.02800   0.03800  -0.00200   0.00900  -0.00300
+C4        0.02700   0.03600   0.04600  -0.00500   0.00400   0.00200
+C5        0.03900   0.04200   0.05200  -0.01300  -0.01300   0.00900
+C6        0.05800   0.04100   0.04400   0.00500  -0.01300   0.00200
+N1        0.03500   0.03100   0.05300   0.00500   0.01300   0.00500
+I1        0.03460   0.02790   0.02810   0.00058   0.00380  -0.00040
+I2        0.02770   0.02480   0.04420   0.01132   0.00720   0.00480
+Pb1       0.01783   0.01673   0.02720  -0.00009  -0.00032  -0.00008
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+C1     C2      1.494   .     S
+C1     N1      1.512   .     S
+C1     H1D     0.990   .     S
+C1     H1E     0.990   .     S
+C2     C3      1.511   .     S
+C2     H2A     0.990   .     S
+C2     H2B     0.990   .     S
+C3     C4      1.511   .     S
+C3     H3A     0.991   .     S
+C3     H3B     0.990   .     S
+C4     C5      1.525   .     S
+C4     H4A     0.990   .     S
+C4     H4B     0.990   .     S
+C5     C6      1.512   .     S
+C5     H5A     0.990   .     S
+C5     H5B     0.990   .     S
+C6     H6A     0.990   .     S
+C6     H6B     0.991   .     S
+N1     H1A     0.909   .     S
+N1     H1B     0.909   .     S
+N1     H1C     0.911   .     S
+I1     Pb1     3.172   .     S
+I2     Pb1     3.248   .     S
+I2     Pb1     3.232   4_455 S
+Pb1    I1      3.172   5     S
+Pb1    I2      3.248   5     S
+Pb1    I2      3.232   4     S
+Pb1    I2      3.232   8_445 S

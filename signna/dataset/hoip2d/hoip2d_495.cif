@@ -1,0 +1,5250 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_I
+_audit_block_doi                 10.5517/ccdc.csd.cc236cvk
+_database_code_depnum_ccdc_archive 'CCDC 1942548'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1021/jacs.9b06398 2019
+loop_
+_audit_author_name
+_audit_author_address
+'Mercouri G. Kanatzidis'
+;Northwestern University
+United States of America
+;
+_audit_update_record             
+;
+2019-07-22 deposited with the CCDC.	2020-05-11 downloaded from the CCDC.
+;
+#=======================================================================
+
+# 5. CHEMICAL DATA
+
+_chemical_name_systematic        
+; ?
+;
+_chemical_name_common            ?
+_chemical_formula_moiety         ?
+_chemical_formula_structural     ?
+_chemical_formula_analytical     ?
+_chemical_formula_iupac          ?
+_chemical_formula_sum            'C7 H16 I7 N3 Pb2'
+_chemical_formula_weight         1444.9
+_chemical_melting_point          ?
+_chemical_compound_source        ?
+_chemical_absolute_configuration ?
+
+#=======================================================================
+
+# 6. CRYSTAL DATA
+
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'C 1 c 1'
+_symmetry_space_group_name_Hall  'C -2yc'
+_symmetry_Int_Tables_number      9
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 x,-y,z+1/2
+3 x+1/2,y+1/2,z
+4 x+1/2,-y+1/2,z+1/2
+
+_cell_length_a                   34.678(4)
+_cell_length_b                   8.7791(10)
+_cell_length_c                   8.7644(9)
+_cell_angle_alpha                90
+_cell_angle_beta                 104.536(8)
+_cell_angle_gamma                90
+_cell_volume                     2582.8(5)
+
+loop_
+_twin_individual_id
+_twin_individual_mass_fraction_refined
+_twin_individual_twin_matrix_11
+_twin_individual_twin_matrix_12
+_twin_individual_twin_matrix_13
+_twin_individual_twin_matrix_21
+_twin_individual_twin_matrix_22
+_twin_individual_twin_matrix_23
+_twin_individual_twin_matrix_31
+_twin_individual_twin_matrix_32
+_twin_individual_twin_matrix_33
+1 0.517(19) 1 0 0 0 1 0 0 0 1
+2 0.483(19) -1 0 0 0 -1 0 0 0 -1
+
+_cell_formula_units_Z            4
+
+_cell_measurement_reflns_used    6576
+_cell_measurement_theta_min      2.27
+_cell_measurement_theta_max      29.67
+_cell_measurement_temperature    293
+_cell_special_details            
+; ?
+;
+
+_exptl_crystal_density_diffrn    3.7159
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    ?
+_exptl_crystal_F_000             2456
+
+_exptl_absorpt_coefficient_mu    21.381
+_exptl_crystal_description       'square plate'
+_exptl_crystal_size_max          0.0389
+_exptl_crystal_size_mid          0.0215
+_exptl_crystal_size_min          0.0110
+_exptl_crystal_size_rad          ?
+_exptl_crystal_colour            red
+_exptl_absorpt_correction_type   numerical
+_exptl_absorpt_process_details   X-SHAPE
+_exptl_absorpt_correction_T_min  0.2335
+_exptl_absorpt_correction_T_max  0.6396
+loop_
+_exptl_crystal_face_index_h
+_exptl_crystal_face_index_k
+_exptl_crystal_face_index_l
+_exptl_crystal_face_perp_dist
+? ? ? ?
+
+#=======================================================================
+
+# 7. EXPERIMENTAL DATA
+
+_exptl_special_details           ?
+
+_diffrn_ambient_temperature      293
+_diffrn_source                   
+'sealed X-ray tube, 12 x 0.4 mm long-fine focus'
+_diffrn_source_power             2.00
+_diffrn_source_voltage           50
+_diffrn_source_current           40
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_source         'X-ray tube'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_radiation_monochromator  graphite
+_diffrn_measurement_device       'four-circle diffractometer'
+_diffrn_measurement_device_type  'IPDS Stoe'
+_diffrn_detector                 'image plate (34 cm diameter)'
+_diffrn_detector_area_resol_mean 6.67
+_diffrn_measurement_method       'rotation method'
+_diffrn_measurement_specimen_support ?
+
+_diffrn_reflns_number            11874
+_diffrn_reflns_theta_min         2.4
+_diffrn_reflns_theta_max         29.25
+_diffrn_reflns_theta_full        29.25
+_diffrn_measured_fraction_theta_max 0.98
+_diffrn_measured_fraction_theta_full 0.98
+_diffrn_reflns_av_R_equivalents  0.0453
+_diffrn_reflns_av_unetI/netI     0.0313
+_diffrn_reflns_limit_h_min       -47
+_diffrn_reflns_limit_h_max       47
+_diffrn_reflns_limit_k_min       -11
+_diffrn_reflns_limit_k_max       12
+_diffrn_reflns_limit_l_min       -10
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_reduction_process ?
+
+_diffrn_standards_number         ?
+_diffrn_standards_interval_count ?
+_diffrn_standards_interval_time  ?
+_diffrn_standards_decay_%        ?
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+? ? ?
+
+_diffrn_radiation_probe          X-ray
+
+#=======================================================================
+
+# 8. REFINEMENT DATA
+
+_refine_special_details          
+; The structure was refined based on the following considerations.
+ The perovskite lattice was refined anisotropically without
+ any constraints on the Pb and I atoms. The highly anisotropic shape of
+ the thermal ellipsoids of coordinated iodide ions appears due to a high
+ thermal motion relative to the Pb-I bond vector. It is typical for the
+ halide perovskites structures at room temperature and therefore no 
+ special treatment was used.All organic atoms were refined isotropically.
+ Restraints were applied to the C-C and C-N bond lengths. Each cation was
+ treated as having equivalent thermal parameters. 
+;
+
+_reflns_number_total             4457
+_reflns_number_gt                3339
+_reflns_threshold_expression     I>2\s(I)
+
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_R_factor_gt           0.0393
+_refine_ls_wR_factor_gt          0.0709
+_refine_ls_R_factor_all          0.0591
+_refine_ls_wR_factor_ref         0.0734
+_refine_ls_goodness_of_fit_ref   1.75
+_refine_ls_goodness_of_fit_gt    1.96
+_refine_ls_restrained_S_gt       ?
+_refine_ls_restrained_S_all      ?
+_refine_ls_number_reflns         4457
+_refine_ls_number_parameters     116
+_refine_ls_number_restraints     18
+_refine_ls_number_constraints    73
+_refine_ls_weighting_scheme      sigma
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0004I^2^)
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_shift/su_max          0.0335
+_refine_ls_shift/su_mean         0.0072
+_refine_diff_density_max         1.09
+_refine_diff_density_min         -0.83
+_refine_ls_extinction_method     none
+_refine_ls_extinction_coef       ?
+_refine_ls_abs_structure_details 
+;  2122 of Friedel pairs used in the refinement
+;
+_refine_ls_abs_structure_Flack   0.483(19)
+_refine_ls_abs_structure_Rogers  ?
+
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C 0.0033 0.0016 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+H 0.0000 0.0000 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+I -0.4742 1.8119 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+N 0.0061 0.0033 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Pb -3.3944 10.1111 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+
+_computing_data_collection       'STOE X-AREA'
+_computing_cell_refinement       'STOE X-AREA'
+_computing_data_reduction        'STOE X-RED'
+_computing_structure_solution    JANA2006
+_computing_structure_refinement  JANA2006
+_computing_molecular_graphics    ?
+_computing_publication_material  ?
+
+loop_
+_restr_distance_atom_site_label_1
+_restr_distance_site_symmetry_1
+_restr_distance_atom_site_label_2
+_restr_distance_site_symmetry_2
+_restr_distance_target
+_restr_distance_target_weight_param
+N2 . C2 . 1.5 0.001
+C2 . C3 . 1.5 0.001
+C3 . C4 . 1.33 0.001
+C4 . C5 . 1.33 0.001
+C5 . N3 . 1.33 0.001
+N3 . C6 . 1.33 0.001
+C6 . C7 . 1.33 0.001
+C7 . C3 . 1.33 0.001
+N1 . C1 . 1.5 0.001
+
+loop_
+_restr_angle_atom_site_label_1
+_restr_angle_site_symmetry_1
+_restr_angle_atom_site_label_2
+_restr_angle_site_symmetry_2
+_restr_angle_atom_site_label_3
+_restr_angle_site_symmetry_3
+_restr_angle_target
+_restr_angle_target_weight_param
+N2 . C2 . C3 . 109.47 0.01
+C2 . C3 . C4 . 120 0.01
+C2 . C3 . C7 . 120 0.01
+C3 . C4 . C5 . 120 0.01
+C4 . C5 . N3 . 120 0.01
+C5 . N3 . C6 . 120 0.01
+N3 . C6 . C7 . 120 0.01
+C6 . C7 . C3 . 120 0.01
+C7 . C3 . C4 . 120 0.01
+
+loop_
+_restr_torsion_atom_site_label_1
+_restr_torsion_site_symmetry_1
+_restr_torsion_atom_site_label_2
+_restr_torsion_site_symmetry_2
+_restr_torsion_atom_site_label_3
+_restr_torsion_site_symmetry_3
+_restr_torsion_atom_site_label_4
+_restr_torsion_site_symmetry_4
+_restr_torsion_angle_target
+_restr_torsion_weight_param
+? ? ? ? ? ? ? ? ? ?
+
+loop_
+_restr_equal_distance_atom_site_label_1
+_restr_equal_distance_site_symmetry_1
+_restr_equal_distance_atom_site_label_2
+_restr_equal_distance_site_symmetry_2
+_restr_equal_distance_class_class_id
+_restr_equal_distance_class_target_weight_param
+? ? ? ? ? ?
+
+loop_
+_restr_equal_angle_atom_site_label_1
+_restr_equal_angle_site_symmetry_1
+_restr_equal_angle_atom_site_label_2
+_restr_equal_angle_site_symmetry_2
+_restr_equal_angle_atom_site_label_3
+_restr_equal_angle_site_symmetry_3
+_restr_equal_angle_class_class_id
+_restr_equal_angle_class_target_weight_param
+? ? ? ? ? ? ? ?
+
+loop_
+_restr_equal_torsion_atom_site_label_1
+_restr_equal_torsion_site_symmetry_1
+_restr_equal_torsion_atom_site_label_2
+_restr_equal_torsion_site_symmetry_2
+_restr_equal_torsion_atom_site_label_3
+_restr_equal_torsion_site_symmetry_3
+_restr_equal_torsion_atom_site_label_4
+_restr_equal_torsion_site_symmetry_4
+_restr_equal_torsion_class_class_id
+_restr_equal_torsion_class_target_weight_param
+? ? ? ? ? ? ? ? ? ?
+
+
+#=======================================================================
+
+# 9. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Pb1 Pb 0.13424(4) 0.24953(17) 0.09990(17) Uani 0.0360(5) 4 1 d . . .
+Pb2 Pb -0.06146(4) 0.2505(2) -0.09589(16) Uani 0.0454(6) 4 1 d . . .
+I1 I 0.13514(11) 0.4435(3) 0.4066(3) Uani 0.0658(12) 4 1 d . . .
+I2 I -0.05995(11) -0.0568(3) -0.2873(4) Uani 0.0678(12) 4 1 d . . .
+I3 I -0.05972(11) 0.4408(3) -0.4041(4) Uani 0.0658(11) 4 1 d . . .
+I4 I 0.13470(11) 0.0591(3) -0.2087(4) Uani 0.0642(12) 4 1 d . . .
+I5 I 0.03717(16) 0.24980(16) 0.0033(6) Uani 0.0686(4) 4 1 d . . .
+I6 I 0.22741(9) 0.2482(5) 0.1914(5) Uani 0.092(2) 4 1 d . . .
+I7 I -0.15326(10) 0.2510(5) -0.1894(5) Uani 0.0958(19) 4 1 d . . .
+C2 C -0.2706(4) 0.266(4) -0.834(4) Uiso 0.170(9) 4 1 d . . .
+N3 N -0.1474(4) 0.235(2) -0.671(2) Uiso 0.104(3) 4 1 d . . .
+C5 C -0.1707(4) 0.146(2) -0.610(2) Uiso 0.104(3) 4 1 d . . .
+C1 C 0.0230(8) 0.338(3) 0.418(3) Uiso 0.125(7) 4 1 d . . .
+C6 C -0.1634(4) 0.334(2) -0.784(3) Uiso 0.104(3) 4 1 d . . .
+N2 N -0.2900(4) 0.166(3) -0.736(3) Uiso 0.170(9) 4 1 d . . .
+N1 N 0.0481(7) 0.197(2) 0.461(3) Uiso 0.125(7) 4 1 d . . .
+C4 C -0.2101(4) 0.156(3) -0.662(3) Uiso 0.104(3) 4 1 d . . .
+C7 C -0.2028(4) 0.343(2) -0.837(2) Uiso 0.104(3) 4 1 d . . .
+C3 C -0.2262(4) 0.255(2) -0.775(2) Uiso 0.104(3) 4 1 d . . .
+H1n1 H 0.05594 0.166444 0.379122 Uiso 0.15 4 1 d . . .
+H2n1 H 0.068817 0.218463 0.537267 Uiso 0.15 4 1 d . . .
+H3n1 H 0.034187 0.12624 0.49061 Uiso 0.15 4 1 d . . .
+H1n2 H -0.301816 0.089941 -0.793284 Uiso 0.204 4 1 d . . .
+H2n2 H -0.271913 0.130629 -0.656359 Uiso 0.204 4 1 d . . .
+H3n2 H -0.307372 0.218313 -0.702424 Uiso 0.204 4 1 d . . .
+H1n3 H -0.121625 0.229646 -0.635575 Uiso 0.125 4 1 d . . .
+H1c1 H 0.000914 0.315907 0.33017 Uiso 0.15 4 1 d . . .
+H2c1 H 0.013278 0.368945 0.506549 Uiso 0.15 4 1 d . . .
+H3c1 H 0.038789 0.417923 0.390319 Uiso 0.15 4 1 d . . .
+H1c2 H -0.27884 0.369201 -0.827159 Uiso 0.204 4 1 d . . .
+H2c2 H -0.278391 0.232891 -0.94225 Uiso 0.204 4 1 d . . .
+H1c5 H -0.159154 0.073374 -0.529557 Uiso 0.125 4 1 d . . .
+H1c6 H -0.14656 0.398059 -0.828021 Uiso 0.125 4 1 d . . .
+H1c4 H -0.226991 0.092357 -0.61734 Uiso 0.125 4 1 d . . .
+H1c7 H -0.214373 0.412997 -0.919961 Uiso 0.125 4 1 d . . .
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb1 Pb 0.0444(11) 0.0301(4) 0.0327(5) 0.0024(6) 0.0082(6) 0.0000(5)
+Pb2 Pb 0.0417(12) 0.0471(6) 0.0487(8) 0.0029(7) 0.0140(7) 0.0003(7)
+I1 I 0.102(3) 0.0515(14) 0.0407(14) 0.0132(14) 0.0111(15) -0.0126(12)
+I2 I 0.094(3) 0.0603(15) 0.0511(16) 0.0016(14) 0.0223(17) -0.0211(13)
+I3 I 0.087(2) 0.0511(13) 0.0622(17) -0.0009(13) 0.0235(16) 0.0240(12)
+I4 I 0.095(3) 0.0405(12) 0.0673(18) -0.0148(13) 0.0397(18) -0.0228(13)
+I5 I 0.0322(5) 0.0872(8) 0.0830(8) -0.006(2) 0.0082(5) 0.013(2)
+I6 I 0.0308(19) 0.114(4) 0.127(4) 0.0007(18) 0.011(2) 0.018(2)
+I7 I 0.035(2) 0.132(4) 0.115(3) 0.003(2) 0.008(2) 0.018(2)
+
+loop_
+_jana_atom_site_ADP_C_label
+_jana_atom_site_ADP_C_type_symbol
+_jana_atom_site_ADP_C_111
+_jana_atom_site_ADP_C_112
+_jana_atom_site_ADP_C_113
+_jana_atom_site_ADP_C_122
+_jana_atom_site_ADP_C_123
+_jana_atom_site_ADP_C_133
+_jana_atom_site_ADP_C_222
+_jana_atom_site_ADP_C_223
+_jana_atom_site_ADP_C_233
+_jana_atom_site_ADP_C_333
+? ? ? ? ? ? ? ? ? ? ? ?
+
+loop_
+_jana_atom_site_ADP_D_label
+_jana_atom_site_ADP_D_type_symbol
+_jana_atom_site_ADP_D_1111
+_jana_atom_site_ADP_D_1112
+_jana_atom_site_ADP_D_1113
+_jana_atom_site_ADP_D_1122
+_jana_atom_site_ADP_D_1123
+_jana_atom_site_ADP_D_1133
+_jana_atom_site_ADP_D_1222
+_jana_atom_site_ADP_D_1223
+_jana_atom_site_ADP_D_1233
+_jana_atom_site_ADP_D_1333
+_jana_atom_site_ADP_D_2222
+_jana_atom_site_ADP_D_2223
+_jana_atom_site_ADP_D_2233
+_jana_atom_site_ADP_D_2333
+_jana_atom_site_ADP_D_3333
+? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+loop_
+_jana_atom_site_ADP_E_label
+_jana_atom_site_ADP_E_type_symbol
+_jana_atom_site_ADP_E_11111
+_jana_atom_site_ADP_E_11112
+_jana_atom_site_ADP_E_11113
+_jana_atom_site_ADP_E_11122
+_jana_atom_site_ADP_E_11123
+_jana_atom_site_ADP_E_11133
+_jana_atom_site_ADP_E_11222
+_jana_atom_site_ADP_E_11223
+_jana_atom_site_ADP_E_11233
+_jana_atom_site_ADP_E_11333
+_jana_atom_site_ADP_E_12222
+_jana_atom_site_ADP_E_12223
+_jana_atom_site_ADP_E_12233
+_jana_atom_site_ADP_E_12333
+_jana_atom_site_ADP_E_13333
+_jana_atom_site_ADP_E_22222
+_jana_atom_site_ADP_E_22223
+_jana_atom_site_ADP_E_22233
+_jana_atom_site_ADP_E_22333
+_jana_atom_site_ADP_E_23333
+_jana_atom_site_ADP_E_33333
+? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+loop_
+_jana_atom_site_ADP_F_label
+_jana_atom_site_ADP_F_type_symbol
+_jana_atom_site_ADP_F_111111
+_jana_atom_site_ADP_F_111112
+_jana_atom_site_ADP_F_111113
+_jana_atom_site_ADP_F_111122
+_jana_atom_site_ADP_F_111123
+_jana_atom_site_ADP_F_111133
+_jana_atom_site_ADP_F_111222
+_jana_atom_site_ADP_F_111223
+_jana_atom_site_ADP_F_111233
+_jana_atom_site_ADP_F_111333
+_jana_atom_site_ADP_F_112222
+_jana_atom_site_ADP_F_112223
+_jana_atom_site_ADP_F_112233
+_jana_atom_site_ADP_F_112333
+_jana_atom_site_ADP_F_113333
+_jana_atom_site_ADP_F_122222
+_jana_atom_site_ADP_F_122223
+_jana_atom_site_ADP_F_122233
+_jana_atom_site_ADP_F_122333
+_jana_atom_site_ADP_F_123333
+_jana_atom_site_ADP_F_133333
+_jana_atom_site_ADP_F_222222
+_jana_atom_site_ADP_F_222223
+_jana_atom_site_ADP_F_222233
+_jana_atom_site_ADP_F_222333
+_jana_atom_site_ADP_F_223333
+_jana_atom_site_ADP_F_233333
+_jana_atom_site_ADP_F_333333
+? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+
+#=======================================================================
+
+# 10. MOLECULAR GEOMETRY
+
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pb1 I1 . . 3.176(3) ?
+Pb1 I1 . 2_564 3.187(3) ?
+Pb1 I4 . . 3.183(4) ?
+Pb1 I4 . 2_555 3.185(3) ?
+Pb1 I5 . . 3.258(6) ?
+Pb1 I6 . . 3.128(3) ?
+Pb2 I2 . . 3.184(3) ?
+Pb2 I2 . 2_555 3.184(4) ?
+Pb2 I3 . . 3.190(4) ?
+Pb2 I3 . 2_565 3.181(3) ?
+Pb2 I5 . . 3.311(6) ?
+Pb2 I7 . . 3.081(4) ?
+I1 N2 . 3_556 3.71(2) ?
+I1 N2 . 4_556 3.66(2) ?
+I1 N1 . . 3.84(3) ?
+I2 N3 . 2_555 3.776(17) ?
+I2 N1 . 2_554 4.03(2) ?
+I3 N3 . . 3.792(15) ?
+I4 N2 . 4_555 3.61(2) ?
+I4 N1 . 1_554 3.81(2) ?
+I5 N1 . . 3.96(3) ?
+I5 N1 . 2_554 3.97(2) ?
+I6 N2 . 3_556 3.79(3) ?
+I6 N2 . 4_555 3.72(3) ?
+C2 N2 . . 1.50(4) ?
+C2 C3 . . 1.500(17) ?
+C2 H1c2 . . 0.96 ?
+C2 H2c2 . . 0.96 ?
+N3 C5 . . 1.33(3) ?
+N3 C6 . . 1.33(3) ?
+N3 H1n3 . . 0.8699 ?
+C5 C4 . . 1.33(2) ?
+C5 H1c5 . . 0.96 ?
+C1 N1 . . 1.50(3) ?
+C1 H1c1 . . 0.9601 ?
+C1 H2c1 . . 0.9601 ?
+C1 H3c1 . . 0.9599 ?
+C6 C7 . . 1.33(2) ?
+C6 H1c6 . . 0.9599 ?
+N2 H1n2 . . 0.87 ?
+N2 H2n2 . . 0.87 ?
+N2 H3n2 . . 0.8701 ?
+N1 H1n1 . . 0.8699 ?
+N1 H2n1 . . 0.8699 ?
+N1 H3n1 . . 0.8701 ?
+C4 C3 . . 1.33(3) ?
+C4 H1c4 . . 0.9601 ?
+C7 C3 . . 1.33(3) ?
+C7 H1c7 . . 0.96 ?
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+I1 Pb1 I1 . . 2_564 89.83(8) ?
+I1 Pb1 I4 . . . 178.88(11) ?
+I1 Pb1 I4 . . 2_555 90.73(9) ?
+I1 Pb1 I5 . . . 90.56(12) ?
+I1 Pb1 I6 . . . 89.70(11) ?
+I1 Pb1 I4 2_564 . . 89.40(8) ?
+I1 Pb1 I4 2_564 . 2_555 178.99(11) ?
+I1 Pb1 I5 2_564 . . 90.49(9) ?
+I1 Pb1 I6 2_564 . . 89.55(11) ?
+I4 Pb1 I4 . . 2_555 90.02(9) ?
+I4 Pb1 I5 . . . 90.27(11) ?
+I4 Pb1 I6 . . . 89.47(11) ?
+I4 Pb1 I5 2_555 . . 90.34(10) ?
+I4 Pb1 I6 2_555 . . 89.62(11) ?
+I5 Pb1 I6 . . . 179.73(13) ?
+I2 Pb2 I2 . . 2_555 89.77(9) ?
+I2 Pb2 I3 . . . 89.49(9) ?
+I2 Pb2 I3 . . 2_565 177.97(11) ?
+I2 Pb2 I5 . . . 89.09(10) ?
+I2 Pb2 I7 . . . 90.78(12) ?
+I2 Pb2 I3 2_555 . . 177.91(11) ?
+I2 Pb2 I3 2_555 . 2_565 90.71(9) ?
+I2 Pb2 I5 2_555 . . 88.88(11) ?
+I2 Pb2 I7 2_555 . . 91.27(12) ?
+I3 Pb2 I3 . . 2_565 89.97(9) ?
+I3 Pb2 I5 . . . 89.16(11) ?
+I3 Pb2 I7 . . . 90.69(11) ?
+I3 Pb2 I5 2_565 . . 88.95(9) ?
+I3 Pb2 I7 2_565 . . 91.19(12) ?
+I5 Pb2 I7 . . . 179.80(14) ?
+Pb1 I1 Pb1 . . 2_565 154.68(11) ?
+Pb1 I1 N2 . . 3_556 81.7(4) ?
+Pb1 I1 N2 . . 4_556 116.0(4) ?
+Pb1 I1 N1 . . . 87.8(4) ?
+Pb1 I1 N2 2_565 . 3_556 80.6(4) ?
+Pb1 I1 N2 2_565 . 4_556 82.3(4) ?
+Pb1 I1 N1 2_565 . . 107.3(4) ?
+N2 I1 N2 3_556 . 4_556 91.1(5) ?
+N2 I1 N1 3_556 . . 167.8(5) ?
+N2 I1 N1 4_556 . . 99.1(5) ?
+Pb2 I2 Pb2 . . 2_554 154.31(11) ?
+Pb2 I2 N3 . . 2_555 95.1(3) ?
+Pb2 I2 N1 . . 2_554 96.4(3) ?
+Pb2 I2 N3 2_554 . 2_555 99.5(3) ?
+Pb2 I2 N1 2_554 . 2_554 96.3(4) ?
+N3 I2 N1 2_555 . 2_554 115.4(4) ?
+Pb2 I3 Pb2 . . 2_564 153.08(11) ?
+Pb2 I3 N3 . . . 95.2(3) ?
+Pb2 I3 N3 2_564 . . 100.0(3) ?
+Pb1 I4 Pb1 . . 2_554 153.37(11) ?
+Pb1 I4 N2 . . 4_555 82.2(4) ?
+Pb1 I4 N1 . . 1_554 107.9(4) ?
+Pb1 I4 N2 2_554 . 4_555 116.2(4) ?
+Pb1 I4 N1 2_554 . 1_554 88.4(3) ?
+N2 I4 N1 4_555 . 1_554 100.4(5) ?
+Pb1 I5 Pb2 . . . 179.85(18) ?
+Pb1 I5 N1 . . . 84.6(4) ?
+Pb1 I5 N1 . . 2_554 84.6(4) ?
+Pb2 I5 N1 . . . 95.5(4) ?
+Pb2 I5 N1 . . 2_554 95.4(4) ?
+N1 I5 N1 . . 2_554 89.6(5) ?
+Pb1 I6 N2 . . 3_556 80.9(2) ?
+Pb1 I6 N2 . . 4_555 81.1(2) ?
+N2 I6 N2 3_556 . 4_555 88.8(6) ?
+N2 C2 C3 . . . 109(2) ?
+N2 C2 H1c2 . . . 109.47 ?
+N2 C2 H2c2 . . . 109.47 ?
+C3 C2 H1c2 . . . 109.48 ?
+C3 C2 H2c2 . . . 109.48 ?
+H1c2 C2 H2c2 . . . 109.47 ?
+I2 N3 I3 2_554 . . 77.9(2) ?
+I2 N3 C5 2_554 . . 118.2(12) ?
+I2 N3 C6 2_554 . . 106.3(13) ?
+I2 N3 H1n3 2_554 . . 41.25 ?
+I3 N3 C5 . . . 120.7(12) ?
+I3 N3 C6 . . . 105.8(11) ?
+I3 N3 H1n3 . . . 38.46 ?
+C5 N3 C6 . . . 120.0(13) ?
+C5 N3 H1n3 . . . 120 ?
+C6 N3 H1n3 . . . 120.01 ?
+N3 C5 C4 . . . 120.0(17) ?
+N3 C5 H1c5 . . . 120.01 ?
+C4 C5 H1c5 . . . 119.99 ?
+N1 C1 H1c1 . . . 109.47 ?
+N1 C1 H2c1 . . . 109.47 ?
+N1 C1 H3c1 . . . 109.48 ?
+H1c1 C1 H2c1 . . . 109.46 ?
+H1c1 C1 H3c1 . . . 109.47 ?
+H2c1 C1 H3c1 . . . 109.47 ?
+N3 C6 C7 . . . 120.0(19) ?
+N3 C6 H1c6 . . . 120 ?
+C7 C6 H1c6 . . . 120 ?
+I1 N2 I1 3_444 . 4_453 75.2(4) ?
+I1 N2 I4 3_444 . 4_454 75.5(4) ?
+I1 N2 I6 3_444 . 3_444 72.7(5) ?
+I1 N2 I6 3_444 . 4_454 73.5(5) ?
+I1 N2 C2 3_444 . . 162.5(12) ?
+I1 N2 H1n2 3_444 . . 61.43 ?
+I1 N2 H2n2 3_444 . . 88.02 ?
+I1 N2 H3n2 3_444 . . 63.83 ?
+I1 N2 I4 4_453 . 4_454 82.1(3) ?
+I1 N2 I6 4_453 . 3_444 73.3(5) ?
+I1 N2 I6 4_453 . 4_454 144.6(6) ?
+I1 N2 C2 4_453 . . 89.3(14) ?
+I1 N2 H1n2 4_453 . . 34.58 ?
+I1 N2 H2n2 4_453 . . 144.01 ?
+I1 N2 H3n2 4_453 . . 91.56 ?
+I4 N2 I6 4_454 . 3_444 143.7(6) ?
+I4 N2 I6 4_454 . 4_454 74.5(5) ?
+I4 N2 C2 4_454 . . 94.7(15) ?
+I4 N2 H1n2 4_454 . . 107.65 ?
+I4 N2 H2n2 4_454 . . 124.68 ?
+I4 N2 H3n2 4_454 . . 17.38 ?
+I6 N2 I6 3_444 . 4_454 111.9(7) ?
+I6 N2 C2 3_444 . . 110.9(17) ?
+I6 N2 H1n2 3_444 . . 40.41 ?
+I6 N2 H2n2 3_444 . . 71.37 ?
+I6 N2 H3n2 3_444 . . 136.36 ?
+I6 N2 C2 4_454 . . 118.4(16) ?
+I6 N2 H1n2 4_454 . . 131.83 ?
+I6 N2 H2n2 4_454 . . 50.14 ?
+I6 N2 H3n2 4_454 . . 59.89 ?
+C2 N2 H1n2 . . . 109.48 ?
+C2 N2 H2n2 . . . 109.48 ?
+C2 N2 H3n2 . . . 109.48 ?
+H1n2 N2 H2n2 . . . 109.47 ?
+H1n2 N2 H3n2 . . . 109.46 ?
+H2n2 N2 H3n2 . . . 109.47 ?
+I1 N1 I2 . . 2_555 139.5(7) ?
+I1 N1 I4 . . 1_556 77.3(4) ?
+I1 N1 I5 . . . 71.8(5) ?
+I1 N1 I5 . . 2_555 131.7(7) ?
+I1 N1 C1 . . . 86.1(14) ?
+I1 N1 H1n1 . . . 70.01 ?
+I1 N1 H2n1 . . . 56.88 ?
+I1 N1 H3n1 . . . 162.88 ?
+I2 N1 I4 2_555 . 1_556 139.6(6) ?
+I2 N1 I5 2_555 . . 69.5(4) ?
+I2 N1 I5 2_555 . 2_555 69.5(4) ?
+I2 N1 C1 2_555 . . 73.4(12) ?
+I2 N1 H1n1 2_555 . . 84.22 ?
+I2 N1 H2n1 2_555 . . 163.16 ?
+I2 N1 H3n1 2_555 . . 55.24 ?
+I4 N1 I5 1_556 . . 131.6(7) ?
+I4 N1 I5 1_556 . 2_555 71.9(4) ?
+I4 N1 C1 1_556 . . 138.4(15) ?
+I4 N1 H1n1 1_556 . . 100.25 ?
+I4 N1 H2n1 1_556 . . 30.82 ?
+I4 N1 H3n1 1_556 . . 86.16 ?
+I5 N1 I5 . . 2_555 102.9(5) ?
+I5 N1 C1 . . . 75.6(15) ?
+I5 N1 H1n1 . . . 34.26 ?
+I5 N1 H2n1 . . . 127.37 ?
+I5 N1 H3n1 . . . 117.97 ?
+I5 N1 C1 2_555 . . 140.5(15) ?
+I5 N1 H1n1 2_555 . . 79.91 ?
+I5 N1 H2n1 2_555 . . 102.51 ?
+I5 N1 H3n1 2_555 . . 35.63 ?
+C1 N1 H1n1 . . . 109.47 ?
+C1 N1 H2n1 . . . 109.47 ?
+C1 N1 H3n1 . . . 109.47 ?
+H1n1 N1 H2n1 . . . 109.48 ?
+H1n1 N1 H3n1 . . . 109.47 ?
+H2n1 N1 H3n1 . . . 109.47 ?
+C5 C4 C3 . . . 120.0(19) ?
+C5 C4 H1c4 . . . 120 ?
+C3 C4 H1c4 . . . 120 ?
+C6 C7 C3 . . . 120.0(18) ?
+C6 C7 H1c7 . . . 120.01 ?
+C3 C7 H1c7 . . . 120 ?
+C2 C3 C4 . . . 120.0(19) ?
+C2 C3 C7 . . . 120.0(19) ?
+C4 C3 C7 . . . 120.0(13) ?
+
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+? ? ? ? ? ? ? ? ? ?
+
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_D
+_geom_hbond_site_symmetry_H
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+N2 H2n2 C4 . . . 0.87 2.17 2.68(2) 117.45 ?
+C4 H1c4 N2 . . . 0.96 2.26 2.68(2) 105.22 ?
+
+
+#=======================================================================
+
+# 11. STRUCTURE-FACTOR LIST
+
+loop_
+_refln_index_h
+_refln_index_k
+_refln_index_l
+_refln_F_squared_calc
+_refln_F_squared_meas
+_refln_F_squared_sigma
+_refln_observed_status
+4 0 0 516262.00 522430.00 4325.78 o
+-4 0 0 516313.00 496268.00 4264.42 o
+6 0 0 412649.00 404069.00 3182.98 o
+-6 0 0 412241.00 389934.00 3090.94 o
+8 0 0 4949.50 4410.15 1334.55 o
+-8 0 0 4881.04 3972.97 1058.44 o
+12 0 0 387159.00 421311.00 2124.54 o
+-12 0 0 387096.00 394789.00 1994.15 o
+14 0 0 425545.00 460941.00 2047.84 o
+-14 0 0 425543.00 432271.00 1894.45 o
+16 0 0 115354.00 108244.00 1181.15 o
+-16 0 0 115173.00 102369.00 1073.78 o
+18 0 0 7324.48 7646.81 774.65 o
+-18 0 0 7316.54 7462.74 720.96 o
+20 0 0 681094.00 708347.00 2032.51 o
+-20 0 0 680738.00 675573.00 1917.46 o
+22 0 0 269920.00 282978.00 1365.23 o
+-22 0 0 269790.00 274150.00 1288.53 o
+24 0 0 121541.00 120148.00 1004.75 o
+-24 0 0 121473.00 118338.00 943.39 o
+26 0 0 25790.60 25348.80 736.30 o
+-26 0 0 25779.00 24765.90 720.96 o
+28 0 0 1378.96 1334.55 598.25 o
+-28 0 0 1381.11 1211.83 559.90 o
+30 0 0 97923.50 104425.00 874.36 o
+-30 0 0 97847.20 99554.30 782.32 o
+32 0 0 122230.00 125233.00 935.72 o
+-32 0 0 122107.00 123377.00 859.02 o
+34 0 0 21982.90 20463.10 682.61 o
+-34 0 0 21960.10 19458.30 628.93 o
+36 0 0 5707.54 6649.74 605.92 o
+-36 0 0 5715.22 6066.83 582.91 o
+38 0 0 718.06 728.63 582.91 <
+-38 0 0 729.87 130.39 529.22 <
+40 0 0 7746.34 6695.76 659.60 o
+-40 0 0 7741.75 7217.30 590.58 o
+1 1 0 276.95 153.40 621.26 <
+-1 1 0 276.67 46.02 506.21 <
+3 1 0 230.89 306.79 636.59 <
+-3 1 0 231.15 375.82 575.24 <
+5 1 0 590.81 306.79 966.40 <
+-5 1 0 590.34 644.27 644.27 <
+7 1 0 114.19 552.23 636.59 <
+-7 1 0 114.18 322.13 575.24 <
+9 1 0 91.10 7.67 598.25 <
+-9 1 0 90.48 107.38 613.59 <
+11 1 0 144.94 406.50 590.58 <
+-11 1 0 144.96 161.07 559.90 <
+13 1 0 236.97 214.76 521.55 <
+-13 1 0 236.71 529.22 483.20 <
+15 1 0 342.36 -391.16 552.23 <
+-15 1 0 343.12 268.44 506.21 <
+17 1 0 168.40 920.38 490.87 <
+-17 1 0 168.32 168.74 483.20 <
+19 1 0 69.17 322.13 490.87 <
+-19 1 0 68.74 352.81 490.87 <
+21 1 0 3.95 -7.67 444.85 <
+-21 1 0 4.00 -245.43 444.85 <
+23 1 0 242.26 414.17 483.20 <
+-23 1 0 242.49 621.26 444.85 <
+25 1 0 56.88 989.41 490.87 o
+-25 1 0 56.85 222.43 452.52 <
+27 1 0 22.91 805.33 452.52 <
+-27 1 0 22.91 176.41 406.50 <
+29 1 0 45.07 874.36 429.51 o
+-29 1 0 45.08 368.15 375.82 <
+31 1 0 5.55 705.62 414.17 <
+-31 1 0 5.54 345.14 375.82 <
+33 1 0 45.93 398.83 437.18 <
+-33 1 0 46.01 329.80 398.83 <
+35 1 0 45.83 260.77 421.84 <
+-35 1 0 45.79 314.46 383.49 <
+37 1 0 1.61 506.21 414.17 <
+-37 1 0 1.63 467.86 360.48 <
+39 1 0 2.59 -345.14 437.18 <
+-39 1 0 2.59 368.15 383.49 <
+0 2 0 434875.00 428981.00 1718.04 o
+2 2 0 12006.40 12402.10 437.18 o
+-2 2 0 11997.60 12210.40 475.53 o
+4 2 0 47979.90 52384.90 559.90 o
+-4 2 0 48114.00 53174.90 590.58 o
+6 2 0 131342.00 146478.00 797.66 o
+-6 2 0 131564.00 151011.00 820.67 o
+8 2 0 17576.50 16973.30 759.31 o
+-8 2 0 17600.80 16735.60 398.83 o
+10 2 0 222834.00 236300.00 1296.20 o
+-10 2 0 222902.00 232649.00 766.98 o
+12 2 0 18015.00 22058.40 720.96 o
+-12 2 0 18047.50 21329.80 544.56 o
+14 2 0 9624.39 8912.33 460.19 o
+-14 2 0 9797.29 8927.67 429.51 o
+16 2 0 73998.80 81890.70 628.93 o
+-16 2 0 74360.70 79367.30 636.59 o
+18 2 0 5475.02 5085.09 429.51 o
+-18 2 0 5479.74 5330.53 490.87 o
+20 2 0 87928.00 89476.20 674.95 o
+-20 2 0 88049.80 84605.80 667.27 o
+22 2 0 53821.30 57815.10 644.27 o
+-22 2 0 53797.30 55299.40 605.92 o
+24 2 0 21362.70 22641.30 529.22 o
+-24 2 0 21398.10 21575.20 467.86 o
+26 2 0 14010.40 14112.50 498.54 o
+-26 2 0 14241.60 12823.90 452.52 o
+28 2 0 51.33 360.48 437.18 <
+-28 2 0 53.16 997.08 406.50 o
+30 2 0 20991.90 22664.30 498.54 o
+-30 2 0 21058.70 20785.20 444.85 o
+32 2 0 48259.50 49953.60 567.57 o
+-32 2 0 48214.00 50030.30 506.21 o
+34 2 0 8965.09 9119.42 437.18 o
+-34 2 0 8970.85 8337.10 398.83 o
+36 2 0 953.99 291.45 452.52 <
+-36 2 0 1020.60 651.93 398.83 <
+38 2 0 1399.21 1602.99 429.51 o
+-38 2 0 1409.91 2032.50 391.16 o
+1 3 0 36.80 276.11 337.47 <
+-1 3 0 36.48 230.10 337.47 <
+3 3 0 616.27 2017.16 360.48 o
+-3 3 0 618.16 2270.27 322.13 o
+5 3 0 565.54 245.43 306.79 <
+-5 3 0 565.03 460.19 299.12 <
+7 3 0 17.43 521.55 360.48 <
+-7 3 0 17.41 1112.12 345.14 o
+9 3 0 129.42 345.14 437.18 <
+-9 3 0 127.45 214.76 360.48 <
+11 3 0 696.44 590.58 552.23 <
+-11 3 0 696.56 337.47 276.11 <
+13 3 0 404.38 1119.79 552.23 o
+-13 3 0 404.39 636.59 283.78 o
+15 3 0 413.63 -368.15 521.55 <
+-15 3 0 414.68 161.07 306.79 <
+17 3 0 331.10 1250.18 575.24 o
+-17 3 0 330.74 467.86 337.47 <
+19 3 0 26.88 667.28 621.26 <
+-19 3 0 26.19 1066.11 368.15 o
+21 3 0 6.38 38.35 621.26 <
+-21 3 0 6.43 644.27 352.81 <
+23 3 0 284.61 1978.81 628.93 o
+-23 3 0 285.07 1342.22 398.83 o
+25 3 0 32.83 -682.61 552.23 <
+-25 3 0 32.81 161.07 429.51 <
+27 3 0 203.05 951.06 659.60 <
+-27 3 0 203.08 1012.42 429.51 o
+29 3 0 1.77 1119.79 521.55 o
+-29 3 0 1.85 1518.62 475.53 o
+31 3 0 5.12 -253.10 621.26 <
+-31 3 0 5.03 674.94 383.49 <
+33 3 0 32.27 1357.56 598.25 o
+-33 3 0 32.37 1127.46 398.83 o
+35 3 0 58.61 76.70 559.90 <
+-35 3 0 58.54 475.53 414.17 <
+37 3 0 30.39 912.71 621.26 <
+-37 3 0 30.39 598.25 414.17 <
+2 4 0 19321.90 18798.70 329.80 o
+-2 4 0 19293.20 18837.10 337.47 o
+4 4 0 75235.60 69373.60 460.19 o
+-4 4 0 75171.20 68806.00 475.53 o
+6 4 0 30648.80 30525.90 368.15 o
+-6 4 0 30740.30 29053.30 375.82 o
+8 4 0 1427.15 820.67 352.81 o
+-8 4 0 1464.62 943.39 322.13 o
+10 4 0 454632.00 463526.00 974.07 o
+-10 4 0 454234.00 465574.00 1280.86 o
+12 4 0 55431.90 54854.60 590.58 o
+-12 4 0 55408.30 53773.10 398.83 o
+14 4 0 71082.60 69327.50 705.62 o
+-14 4 0 71030.20 69350.50 421.84 o
+16 4 0 9608.82 9073.40 483.20 o
+-16 4 0 9615.56 9456.89 299.12 o
+18 4 0 40.33 713.29 536.89 <
+-18 4 0 42.61 291.45 299.12 <
+20 4 0 161781.00 164617.00 928.05 o
+-20 4 0 161657.00 163245.00 582.91 o
+22 4 0 68894.10 71206.60 697.95 o
+-22 4 0 68803.50 72272.70 460.19 o
+24 4 0 35959.80 37620.50 697.95 o
+-24 4 0 35895.00 39146.80 429.51 o
+26 4 0 3484.66 2876.18 636.59 o
+-26 4 0 3515.68 2531.04 406.50 o
+28 4 0 34.35 23.01 529.22 <
+-28 4 0 34.41 283.78 391.16 <
+30 4 0 34559.50 35327.20 728.63 o
+-30 4 0 34518.40 32872.90 444.85 o
+32 4 0 39583.80 40657.70 736.30 o
+-32 4 0 39538.80 37505.40 444.85 o
+34 4 0 8184.02 8628.55 536.89 o
+-34 4 0 8175.63 8191.37 375.82 o
+36 4 0 2136.38 1641.34 674.94 o
+-36 4 0 2140.43 1649.01 360.48 o
+1 5 0 25.76 605.92 268.44 o
+-1 5 0 25.92 836.01 299.12 o
+3 5 0 231.53 191.75 291.45 <
+-3 5 0 231.49 -322.13 283.78 <
+5 5 0 111.33 444.85 291.45 <
+-5 5 0 111.59 329.80 268.44 <
+7 5 0 459.48 -99.71 306.79 <
+-7 5 0 459.83 452.52 306.79 <
+9 5 0 71.22 521.55 322.13 <
+-9 5 0 71.09 421.84 314.46 <
+11 5 0 53.04 322.13 314.46 <
+-11 5 0 52.80 368.15 329.80 <
+13 5 0 9.55 697.95 421.84 <
+-13 5 0 9.53 214.76 360.48 <
+15 5 0 47.75 368.15 506.21 <
+-15 5 0 48.14 138.06 291.45 <
+17 5 0 381.46 1495.62 513.88 o
+-17 5 0 381.68 1127.46 291.45 o
+19 5 0 49.40 636.59 552.23 <
+-19 5 0 49.70 -38.35 291.45 <
+21 5 0 6.46 -521.55 490.87 <
+-21 5 0 6.16 306.79 322.13 <
+23 5 0 32.71 199.41 582.91 <
+-23 5 0 32.62 214.76 352.81 <
+25 5 0 30.31 1089.11 567.57 <
+-25 5 0 30.43 452.52 345.14 <
+27 5 0 142.05 1112.12 598.25 <
+-27 5 0 142.05 797.66 345.14 o
+29 5 0 28.76 552.23 636.59 <
+-29 5 0 28.97 1326.88 375.82 o
+31 5 0 6.06 222.43 659.60 <
+-31 5 0 5.92 375.82 383.49 <
+33 5 0 29.88 -598.25 536.89 <
+-33 5 0 29.90 559.90 391.16 <
+35 5 0 52.57 1050.77 621.26 <
+-35 5 0 52.52 452.52 406.50 <
+0 6 0 426722.00 424839.00 843.68 o
+2 6 0 30615.50 28800.20 375.82 o
+-2 6 0 30618.30 28830.90 391.16 o
+4 6 0 105576.00 99623.30 483.20 o
+-4 6 0 105539.00 101249.00 506.21 o
+6 6 0 95662.90 97353.10 498.54 o
+-6 6 0 95751.70 96095.20 490.87 o
+8 6 0 4222.08 3466.76 345.14 o
+-8 6 0 4248.45 3689.19 368.15 o
+10 6 0 308747.00 302651.00 759.31 o
+-10 6 0 308651.00 305850.00 766.98 o
+12 6 0 60069.50 56166.10 460.19 o
+-12 6 0 60097.60 57930.20 467.86 o
+14 6 0 56832.80 53880.50 682.61 o
+-14 6 0 56831.30 55728.90 467.86 o
+16 6 0 48842.40 46716.90 682.61 o
+-16 6 0 48894.20 47921.10 360.48 o
+18 6 0 402.24 214.76 559.90 <
+-18 6 0 410.32 245.43 306.79 <
+20 6 0 114366.00 114242.00 751.64 o
+-20 6 0 114373.00 118299.00 529.22 o
+22 6 0 53208.40 54846.90 713.29 o
+-22 6 0 53190.60 55874.70 429.51 o
+24 6 0 18387.30 18990.50 544.56 o
+-24 6 0 18369.40 19304.90 383.49 o
+26 6 0 15447.40 14864.10 690.28 o
+-26 6 0 15488.40 15255.30 391.16 o
+28 6 0 265.20 483.20 521.55 <
+-28 6 0 266.26 621.26 383.49 <
+30 6 0 25512.00 25341.10 736.30 o
+-30 6 0 25511.50 24014.20 467.86 o
+32 6 0 24185.00 25379.40 713.29 o
+-32 6 0 24175.30 23370.00 498.54 o
+1 7 0 438.02 582.91 291.45 <
+-1 7 0 438.78 414.17 322.13 <
+3 7 0 684.06 329.80 314.46 <
+-3 7 0 683.87 444.85 291.45 <
+5 7 0 72.06 161.07 291.45 <
+-5 7 0 72.48 552.23 314.46 <
+7 7 0 319.69 590.58 291.45 o
+-7 7 0 319.41 805.33 322.13 o
+9 7 0 567.52 590.58 314.46 <
+-9 7 0 567.07 836.01 329.80 o
+11 7 0 66.83 283.78 337.47 <
+-11 7 0 66.59 161.07 360.48 <
+13 7 0 743.88 529.22 322.13 <
+-13 7 0 743.65 383.49 368.15 <
+15 7 0 274.94 -207.09 529.22 <
+-15 7 0 274.64 214.76 375.82 <
+17 7 0 22.01 176.41 552.23 <
+-17 7 0 21.94 168.74 283.78 <
+19 7 0 361.88 299.12 460.19 <
+-19 7 0 362.29 -184.08 276.11 <
+21 7 0 24.15 -513.88 605.92 <
+-21 7 0 23.56 605.92 299.12 o
+23 7 0 344.86 989.41 506.21 <
+-23 7 0 344.42 1188.82 322.13 o
+25 7 0 320.44 874.36 613.59 <
+-25 7 0 320.26 345.14 352.81 <
+27 7 0 6.14 345.14 659.60 <
+-27 7 0 6.11 122.72 360.48 <
+29 7 0 74.09 851.35 559.90 <
+-29 7 0 74.18 1541.63 421.84 o
+0 8 0 5710.88 5437.90 329.80 o
+2 8 0 344.42 291.45 299.12 <
+-2 8 0 325.76 598.25 276.11 o
+4 8 0 983.44 1296.20 322.13 o
+-4 8 0 1016.23 1710.37 322.13 o
+6 8 0 1919.43 2032.50 314.46 o
+-6 8 0 1918.01 2439.00 314.46 o
+8 8 0 331.23 529.22 329.80 <
+-8 8 0 341.14 214.76 329.80 <
+10 8 0 6125.22 6573.04 322.13 o
+-10 8 0 6154.57 6243.24 375.82 o
+12 8 0 869.58 1066.11 352.81 o
+-12 8 0 863.64 1104.45 360.48 o
+14 8 0 860.26 989.41 329.80 o
+-14 8 0 885.71 628.93 337.47 <
+16 8 0 841.56 1227.17 598.25 o
+-16 8 0 866.02 1541.63 391.16 o
+18 8 0 232.51 -291.45 552.23 <
+-18 8 0 229.93 383.49 306.79 <
+20 8 0 6145.14 7777.20 506.21 o
+-20 8 0 6177.51 6350.61 352.81 o
+22 8 0 2553.64 3267.34 644.27 o
+-22 8 0 2553.33 1978.81 337.47 o
+24 8 0 1456.71 621.26 628.93 <
+-24 8 0 1462.56 1142.80 368.15 o
+26 8 0 559.31 314.46 567.57 <
+-26 8 0 581.43 743.97 414.17 <
+1 9 0 26.85 -314.46 329.80 <
+-1 9 0 26.84 291.45 314.46 <
+3 9 0 83.24 -337.47 329.80 <
+-3 9 0 83.30 -836.01 337.47 <
+5 9 0 29.94 69.03 306.79 <
+-5 9 0 30.31 245.43 329.80 <
+7 9 0 121.32 1296.20 337.47 o
+-7 9 0 121.44 605.92 375.82 <
+9 9 0 18.91 207.09 352.81 <
+-9 9 0 19.22 46.02 337.47 <
+11 9 0 51.46 138.06 360.48 <
+-11 9 0 51.49 345.14 360.48 <
+13 9 0 29.05 -429.51 352.81 <
+-13 9 0 29.27 245.43 391.16 <
+15 9 0 31.44 -53.69 483.20 <
+-15 9 0 31.94 -92.04 421.84 <
+17 9 0 128.45 0.00 513.88 <
+-17 9 0 128.65 -352.81 322.13 <
+19 9 0 17.64 1411.25 667.28 o
+-19 9 0 18.21 452.52 352.81 <
+0 10 0 62869.10 67394.70 506.21 o
+2 10 0 7637.35 8528.84 398.83 o
+-2 10 0 7644.37 7409.05 414.17 o
+4 10 0 26759.20 27596.00 452.52 o
+-4 10 0 26742.20 27043.80 444.85 o
+6 10 0 29597.80 32742.50 437.18 o
+-6 10 0 29589.00 31200.80 444.85 o
+8 10 0 3519.98 3505.11 398.83 o
+-8 10 0 3511.71 3252.01 398.83 o
+10 10 0 46555.20 46901.00 452.52 o
+-10 10 0 46525.30 48312.20 513.88 o
+12 10 0 9824.45 9886.40 414.17 o
+-12 10 0 9825.87 11151.90 475.53 o
+-39 1 1 1272.88 1050.77 406.50 o
+39 1 -1 1259.58 1718.04 452.52 o
+-37 1 1 896.63 1672.02 406.50 o
+37 1 -1 859.75 2285.61 429.51 o
+-35 1 1 13797.90 13621.60 414.17 o
+35 1 -1 13798.00 15216.90 437.18 o
+-33 1 1 71534.20 76913.00 536.89 o
+33 1 -1 71616.50 74581.40 567.57 o
+-31 1 1 41701.40 40696.10 475.53 o
+31 1 -1 41699.00 42705.60 506.21 o
+-29 1 1 126.12 168.74 391.16 <
+29 1 -1 123.34 69.03 429.51 <
+-27 1 1 2198.87 3182.98 452.52 o
+27 1 -1 2086.85 2439.00 475.53 o
+-25 1 1 47238.40 50544.10 506.21 o
+25 1 -1 47253.40 49945.90 567.57 o
+-23 1 1 108262.00 102814.00 667.27 o
+23 1 -1 108358.00 109349.00 697.95 o
+-21 1 1 221943.00 214118.00 843.68 o
+21 1 -1 221990.00 221765.00 843.68 o
+-19 1 1 2526.37 2254.93 421.84 o
+19 1 -1 2527.62 2830.17 506.21 o
+-17 1 1 3863.92 3213.66 444.85 o
+17 1 -1 3679.74 2968.22 460.19 o
+-15 1 1 61794.80 57470.00 582.91 o
+15 1 -1 61911.00 61304.90 674.95 o
+-13 1 1 57799.70 50613.20 628.92 o
+13 1 -1 57861.20 53926.50 720.96 o
+-11 1 1 666017.00 635407.00 2385.32 o
+11 1 -1 666082.00 650179.00 2431.33 o
+-9 1 1 6291.04 4256.75 674.94 o
+9 1 -1 6237.44 3635.50 667.28 o
+-7 1 1 4520.56 5568.29 667.28 o
+7 1 -1 4403.11 4816.65 628.93 o
+-5 1 1 61393.50 64043.00 697.95 o
+5 1 -1 61615.40 59372.10 1457.27 o
+-3 1 1 20862.40 24221.30 866.69 o
+3 1 -1 20803.50 23178.20 928.05 o
+1 1 1 26886.40 23768.80 905.04 o
+-1 1 -1 26807.50 23508.00 1288.53 o
+3 1 1 68100.60 63858.90 920.38 o
+-3 1 -1 68244.20 61933.80 943.39 o
+5 1 1 4851.75 5338.20 697.95 o
+-5 1 -1 5043.41 5123.44 1135.13 o
+7 1 1 3000.14 4962.38 659.60 o
+-7 1 -1 3011.54 4295.10 805.33 o
+-9 1 -1 647292.00 659244.00 2155.22 o
+11 1 1 56583.40 51104.00 797.66 o
+-11 1 -1 56550.90 50436.80 759.31 o
+13 1 1 57521.00 56196.80 759.31 o
+-13 1 -1 57481.50 58022.20 743.97 o
+15 1 1 3607.13 3620.16 521.55 o
+-15 1 -1 3839.61 3351.71 513.88 o
+17 1 1 1999.50 2546.38 536.89 o
+-17 1 -1 2001.93 1856.10 513.88 o
+19 1 1 217021.00 216711.00 958.73 o
+-19 1 -1 216973.00 210015.00 912.71 o
+21 1 1 108471.00 103474.00 751.64 o
+-21 1 -1 108418.00 98703.00 682.61 o
+23 1 1 47616.60 47829.00 598.25 o
+-23 1 -1 47584.90 46801.30 575.24 o
+25 1 1 2452.33 3313.36 467.86 o
+-25 1 -1 2594.40 2991.23 421.84 o
+27 1 1 31.95 391.16 460.19 <
+-27 1 -1 33.04 184.08 391.16 <
+29 1 1 41633.40 44446.60 544.56 o
+-29 1 -1 41625.30 39177.50 506.21 o
+31 1 1 71312.70 76790.30 621.26 o
+-31 1 -1 71269.90 70485.70 552.23 o
+33 1 1 13712.20 14756.70 452.52 o
+-33 1 -1 13709.80 13790.30 406.50 o
+35 1 1 939.49 1610.66 452.52 o
+-35 1 -1 983.04 1411.25 383.49 o
+37 1 1 1138.74 1649.01 437.18 o
+-37 1 -1 1147.57 1687.36 406.50 o
+-40 2 1 314.44 498.54 429.51 <
+40 2 -1 315.17 291.45 429.51 <
+-38 2 1 252.92 38.35 375.82 <
+38 2 -1 252.52 674.94 414.17 <
+-36 2 1 331.36 276.11 391.16 <
+36 2 -1 332.82 437.18 429.51 <
+-34 2 1 1912.23 1879.11 414.17 o
+34 2 -1 1912.42 2285.61 452.52 o
+-32 2 1 35.61 329.80 406.50 <
+32 2 -1 35.68 -299.12 429.51 <
+-30 2 1 4012.85 4356.46 406.50 o
+30 2 -1 4018.59 5284.51 398.83 o
+-28 2 1 3313.63 4210.73 414.17 o
+28 2 -1 3308.64 3589.48 414.17 o
+-26 2 1 1730.42 2055.51 467.86 o
+26 2 -1 1732.41 2415.99 460.19 o
+-24 2 1 18086.00 17395.20 490.87 o
+24 2 -1 18099.00 19481.40 506.21 o
+-22 2 1 905.24 1326.88 437.18 o
+22 2 -1 903.82 828.34 437.18 <
+-20 2 1 20820.80 22326.90 460.19 o
+20 2 -1 20829.80 23162.90 475.53 o
+-18 2 1 34148.30 33586.20 467.86 o
+18 2 -1 34129.70 34675.30 498.54 o
+-16 2 1 5597.45 5668.00 475.53 o
+16 2 -1 5605.63 4939.37 475.53 o
+-14 2 1 71924.00 68483.90 575.24 o
+14 2 -1 71951.20 69542.30 621.26 o
+-12 2 1 16059.80 18146.80 529.22 o
+12 2 -1 16075.90 17778.70 728.63 o
+-10 2 1 58545.90 63268.40 498.54 o
+10 2 -1 58563.60 66374.70 974.07 o
+-8 2 1 123569.00 120708.00 575.24 o
+8 2 -1 123536.00 130257.00 1196.49 o
+-6 2 1 151.35 789.99 437.18 <
+6 2 -1 152.23 1035.43 437.18 o
+-4 2 1 200067.00 203358.00 920.38 o
+4 2 -1 200120.00 205973.00 989.41 o
+-2 2 1 35776.60 41125.60 575.24 o
+2 2 -1 35755.10 42230.00 659.60 o
+0 2 1 41423.80 40128.50 521.55 o
+0 2 -1 41418.00 40680.70 628.92 o
+2 2 1 181097.00 192766.00 935.72 o
+-2 2 -1 181136.00 187489.00 1020.09 o
+4 2 1 2504.02 866.69 398.83 o
+-4 2 -1 2512.60 920.38 444.85 o
+6 2 1 118418.00 120317.00 843.68 o
+-6 2 -1 118448.00 117739.00 705.62 o
+8 2 1 68104.80 63835.90 697.95 o
+-8 2 -1 68080.10 64963.40 590.58 o
+10 2 1 16897.80 17886.00 605.92 o
+-10 2 -1 16905.60 17433.50 452.52 o
+12 2 1 71912.10 66175.20 636.59 o
+-12 2 -1 71930.50 69833.70 705.62 o
+14 2 1 4271.74 5284.51 475.53 o
+-14 2 -1 4283.21 5085.09 498.54 o
+16 2 1 31241.20 34345.50 582.91 o
+-16 2 -1 31233.70 32167.20 590.58 o
+18 2 1 23193.10 22526.30 590.58 o
+-18 2 -1 23201.00 21820.60 559.90 o
+20 2 1 1137.36 1319.21 529.22 o
+-20 2 -1 1137.13 1219.50 513.88 o
+22 2 1 15827.20 17962.70 567.57 o
+-22 2 -1 15833.40 16367.40 536.89 o
+24 2 1 2088.45 1963.47 498.54 o
+-24 2 -1 2092.85 1618.33 421.84 o
+26 2 1 3638.03 3313.36 498.54 o
+-26 2 -1 3635.18 3037.25 460.19 o
+28 2 1 4034.35 4433.16 490.87 o
+-28 2 -1 4038.40 4295.10 406.50 o
+30 2 1 18.87 398.83 429.51 <
+-30 2 -1 18.63 498.54 398.83 <
+32 2 1 1525.79 2109.20 452.52 o
+-32 2 -1 1526.32 1917.46 406.50 o
+34 2 1 425.52 598.25 452.52 <
+-34 2 -1 426.97 138.06 414.17 <
+36 2 1 172.89 498.54 444.85 <
+-36 2 -1 172.42 406.50 406.50 <
+38 2 1 370.12 951.06 429.51 o
+-38 2 -1 370.88 414.17 414.17 <
+-39 3 1 563.74 467.86 398.83 <
+39 3 -1 554.16 -383.49 613.59 <
+-37 3 1 2879.04 2569.39 414.17 o
+37 3 -1 2848.88 2561.72 598.25 o
+-35 3 1 10364.50 9548.93 398.83 o
+35 3 -1 10370.40 10730.10 544.56 o
+-33 3 1 61278.30 59640.50 521.55 o
+33 3 -1 61325.10 68092.70 736.30 o
+-31 3 1 47208.30 46187.70 521.55 o
+31 3 -1 47193.40 49784.80 690.28 o
+-29 3 1 450.17 1027.76 444.85 o
+29 3 -1 446.21 743.97 621.26 <
+-27 3 1 7619.78 8237.39 398.83 o
+27 3 -1 7539.08 9756.02 667.28 o
+-25 3 1 44060.20 43280.80 529.22 o
+25 3 -1 44076.80 44768.80 820.67 o
+-23 3 1 112385.00 108336.00 613.59 o
+23 3 -1 112404.00 105782.00 928.05 o
+-21 3 1 255196.00 254078.00 682.61 o
+21 3 -1 255218.00 251386.00 1142.80 o
+-19 3 1 1193.14 2185.90 314.46 o
+19 3 -1 1192.73 1449.60 559.90 o
+-17 3 1 28334.80 28677.50 360.48 o
+17 3 -1 28200.90 29973.70 705.62 o
+-15 3 1 101794.00 105115.00 467.86 o
+15 3 -1 101879.00 107807.00 912.71 o
+-13 3 1 107788.00 102990.00 467.86 o
+13 3 -1 107818.00 104870.00 866.69 o
+-9 3 1 754.04 774.65 337.47 o
+9 3 -1 760.19 951.06 391.16 o
+-7 3 1 85231.60 91547.00 552.23 o
+7 3 -1 85221.40 92145.30 605.92 o
+-5 3 1 142854.00 147974.00 644.27 o
+5 3 -1 142896.00 151724.00 713.29 o
+-3 3 1 41679.90 39821.70 452.52 o
+3 3 -1 41676.10 39821.70 490.87 o
+1 3 1 39265.70 38034.70 452.52 o
+-1 3 -1 39261.60 37735.50 467.86 o
+3 3 1 140072.00 144599.00 667.27 o
+-3 3 -1 140036.00 141708.00 697.95 o
+5 3 1 87980.30 89775.30 590.58 o
+-5 3 -1 87862.80 87129.20 621.26 o
+7 3 1 767.31 720.96 352.81 o
+-7 3 -1 768.34 1181.15 375.82 o
+11 3 1 105046.00 101004.00 697.95 o
+-11 3 -1 104995.00 102722.00 559.90 o
+13 3 1 104855.00 105590.00 759.31 o
+-13 3 -1 104777.00 105230.00 552.23 o
+15 3 1 26622.90 29459.80 575.24 o
+-15 3 -1 26616.10 28777.20 437.18 o
+17 3 1 1730.87 2017.16 536.89 o
+-17 3 -1 1740.15 1441.93 391.16 o
+19 3 1 256792.00 252989.00 1127.47 o
+-19 3 -1 256677.00 255819.00 828.34 o
+21 3 1 109525.00 105230.00 874.36 o
+-21 3 -1 109486.00 107454.00 613.59 o
+23 3 1 43954.00 42360.40 621.26 o
+-23 3 -1 43942.30 42705.60 567.57 o
+25 3 1 7050.22 8083.99 529.22 o
+-25 3 -1 7056.92 7547.11 498.54 o
+27 3 1 188.04 997.08 567.57 <
+-27 3 -1 189.67 720.96 452.52 <
+29 3 1 46575.80 45689.10 736.30 o
+-29 3 -1 46555.60 45965.20 536.89 o
+31 3 1 60482.90 63076.60 782.32 o
+-31 3 -1 60430.30 57447.00 552.23 o
+33 3 1 10138.60 10661.10 621.26 o
+-33 3 -1 10133.00 9364.85 421.84 o
+35 3 1 2650.87 3459.09 682.61 o
+-35 3 -1 2662.62 2991.23 414.17 o
+37 3 1 321.32 429.51 529.22 <
+-37 3 -1 325.45 521.55 437.18 <
+-38 4 1 312.77 -53.69 352.81 <
+38 4 -1 314.06 951.06 621.26 <
+-36 4 1 732.64 889.70 352.81 o
+36 4 -1 729.31 -153.40 605.92 <
+-34 4 1 2564.49 1902.12 360.48 o
+34 4 -1 2563.73 2853.17 544.56 o
+-32 4 1 77.46 122.72 368.15 <
+32 4 -1 78.47 1633.67 582.91 o
+-30 4 1 5769.70 6174.21 375.82 o
+30 4 -1 5759.82 6166.54 559.90 o
+-28 4 1 5809.76 6059.16 360.48 o
+28 4 -1 5817.03 4341.12 636.59 o
+-26 4 1 3632.42 3566.47 368.15 o
+26 4 -1 3623.79 4379.47 697.95 o
+-24 4 1 23091.80 23162.90 375.82 o
+24 4 -1 23077.70 22672.00 674.94 o
+-22 4 1 2936.74 2630.75 345.14 o
+22 4 -1 2941.68 3367.05 552.23 o
+-20 4 1 31747.00 30487.50 360.48 o
+20 4 -1 31725.30 28493.40 697.95 o
+-18 4 1 42774.60 42368.10 391.16 o
+18 4 -1 42788.10 41417.00 644.27 o
+-16 4 1 5396.53 4985.39 306.79 o
+16 4 -1 5382.94 5575.96 651.93 o
+-14 4 1 106232.00 111220.00 452.52 o
+14 4 -1 106197.00 109326.00 866.69 o
+-12 4 1 24522.90 24159.90 383.49 o
+12 4 -1 24513.20 23554.00 613.59 o
+-10 4 1 76757.30 75478.70 490.87 o
+10 4 -1 76728.40 74113.50 498.54 o
+-8 4 1 148443.00 146908.00 598.25 o
+8 4 -1 148452.00 143111.00 605.92 o
+-6 4 1 1945.05 2124.54 283.78 o
+6 4 -1 1939.98 1948.14 329.80 o
+-4 4 1 187827.00 193479.00 636.60 o
+4 4 -1 187776.00 193364.00 674.94 o
+-2 4 1 79816.60 80947.30 490.87 o
+2 4 -1 79806.70 79973.20 483.20 o
+0 4 1 82018.80 81906.00 490.87 o
+0 4 -1 82008.70 79045.20 529.22 o
+2 4 1 201070.00 192290.00 651.94 o
+-2 4 -1 201027.00 187527.00 690.28 o
+4 4 1 2682.39 1840.76 314.46 o
+-4 4 -1 2678.36 1595.32 337.47 o
+6 4 1 141122.00 142981.00 598.25 o
+-6 4 -1 141092.00 137666.00 628.93 o
+8 4 1 72946.70 72610.20 506.21 o
+-8 4 -1 72940.00 71367.70 513.88 o
+10 4 1 25266.40 23001.80 490.87 o
+-10 4 -1 25265.70 23316.30 398.83 o
+12 4 1 108697.00 105997.00 682.61 o
+-12 4 -1 108665.00 108712.00 529.22 o
+14 4 1 5295.44 5821.40 429.51 o
+-14 4 -1 5282.36 5253.83 329.80 o
+16 4 1 41435.70 40374.00 628.92 o
+-16 4 -1 41442.30 42230.00 429.51 o
+18 4 1 30700.70 30502.90 544.56 o
+-18 4 -1 30679.10 30510.60 398.83 o
+20 4 1 3242.13 2515.70 567.57 o
+-20 4 -1 3245.87 2922.20 337.47 o
+22 4 1 24398.70 24727.50 613.59 o
+-22 4 -1 24388.90 22940.40 429.51 o
+24 4 1 2543.46 3850.25 582.91 o
+-24 4 -1 2535.10 3359.38 406.50 o
+26 4 1 5543.37 5928.77 567.57 o
+-26 4 -1 5548.12 5537.61 406.50 o
+28 4 1 5574.65 5875.08 605.92 o
+-28 4 -1 5566.22 5967.12 421.84 o
+30 4 1 216.13 1012.42 567.57 <
+-30 4 -1 216.73 -7.67 406.50 <
+32 4 1 2763.79 2592.40 536.89 o
+-32 4 -1 2762.77 2086.19 391.16 o
+34 4 1 516.79 -122.72 674.94 <
+-34 4 -1 514.00 590.58 375.82 <
+36 4 1 395.62 813.00 575.24 <
+-36 4 -1 396.79 69.03 406.50 <
+-35 5 1 3816.33 3029.58 375.82 o
+35 5 -1 3817.70 5169.46 644.27 o
+-33 5 1 20826.80 17970.40 429.51 o
+33 5 -1 20854.20 22319.20 621.26 o
+-31 5 1 17519.90 16881.30 398.83 o
+31 5 -1 17509.20 19389.30 613.59 o
+-29 5 1 39.60 260.77 329.80 <
+29 5 -1 39.48 -46.02 628.93 <
+-27 5 1 1384.37 1940.47 337.47 o
+27 5 -1 1364.81 1756.39 644.27 o
+-25 5 1 11770.10 10308.20 329.80 o
+25 5 -1 11768.80 10638.00 667.28 o
+-23 5 1 28271.60 26982.40 375.82 o
+23 5 -1 28289.40 27695.70 621.26 o
+-21 5 1 66064.40 67640.20 421.84 o
+21 5 -1 66077.10 66167.60 705.62 o
+-19 5 1 145.33 84.37 306.79 <
+19 5 -1 140.97 1165.81 621.26 <
+-17 5 1 1422.11 2101.53 299.12 o
+17 5 -1 1390.74 1794.74 513.88 o
+-15 5 1 15765.30 16129.60 306.79 o
+15 5 -1 15782.70 17425.80 605.92 o
+-13 5 1 20364.90 20363.40 398.83 o
+13 5 -1 20405.90 19880.20 644.27 o
+-11 5 1 148060.00 148472.00 598.25 o
+11 5 -1 147984.00 142797.00 598.25 o
+-9 5 1 322.96 521.55 276.11 <
+9 5 -1 321.15 575.24 345.14 <
+-7 5 1 2358.19 2745.80 306.79 o
+7 5 -1 2410.12 2929.87 314.46 o
+-5 5 1 7741.09 7823.22 260.77 o
+5 5 -1 7729.15 8229.72 291.45 o
+-3 5 1 4988.65 4578.88 299.12 o
+3 5 -1 5018.70 4080.35 329.80 o
+-1 5 1 204658.00 200911.00 598.25 o
+1 5 -1 204705.00 199538.00 651.93 o
+1 5 1 4006.71 4256.75 291.45 o
+-1 5 -1 4000.79 4302.77 322.13 o
+3 5 1 6653.09 8505.83 291.45 o
+-3 5 -1 6704.48 8521.17 360.48 o
+5 5 1 2714.04 2392.98 314.46 o
+-5 5 -1 2713.69 2546.38 322.13 o
+7 5 1 255.85 506.21 314.46 <
+-7 5 -1 262.30 115.05 322.13 <
+9 5 1 149941.00 143725.00 598.25 o
+-9 5 -1 150121.00 147629.00 651.93 o
+11 5 1 19444.20 19565.70 360.48 o
+-11 5 -1 19429.80 19719.10 398.83 o
+13 5 1 16256.40 16704.90 444.85 o
+-13 5 -1 16270.60 15730.80 306.79 o
+15 5 1 1685.06 2116.87 490.87 o
+-15 5 -1 1774.76 2055.51 283.78 o
+17 5 1 208.93 -490.87 544.56 <
+-17 5 -1 215.29 475.53 314.46 <
+19 5 1 67969.00 66911.50 682.61 o
+-19 5 -1 68004.90 68000.70 483.20 o
+21 5 1 27424.20 25663.20 536.89 o
+-21 5 -1 27445.70 27864.50 421.84 o
+23 5 1 11776.50 12701.20 513.88 o
+-23 5 -1 11801.90 11297.70 421.84 o
+25 5 1 1736.23 1012.42 552.23 <
+-25 5 -1 1785.49 1764.06 360.48 o
+27 5 1 43.56 912.71 598.25 <
+-27 5 -1 43.87 260.77 406.50 <
+29 5 1 17955.70 19389.30 644.27 o
+-29 5 -1 17986.20 16889.00 475.53 o
+31 5 1 20826.70 20256.00 644.27 o
+-31 5 -1 20817.10 19105.50 483.20 o
+33 5 1 3836.16 3988.31 674.94 o
+-33 5 -1 3836.75 3543.46 421.84 o
+-32 6 1 107.64 199.41 383.49 <
+32 6 -1 106.25 774.65 575.24 <
+-30 6 1 1784.81 1902.12 352.81 o
+30 6 -1 1790.35 1978.81 667.28 o
+-28 6 1 2959.65 2983.56 352.81 o
+28 6 -1 2956.67 2531.04 682.61 o
+-26 6 1 428.21 628.93 314.46 <
+26 6 -1 432.56 1879.11 674.94 o
+-24 6 1 8357.18 7876.91 352.81 o
+24 6 -1 8362.86 8582.53 536.89 o
+-22 6 1 1686.02 1572.31 291.45 o
+22 6 -1 1680.81 575.24 513.88 <
+-20 6 1 9820.51 9832.71 314.46 o
+20 6 -1 9836.72 9548.93 651.93 o
+-18 6 1 15853.00 15592.80 299.12 o
+18 6 -1 15851.30 15347.30 613.59 o
+-16 6 1 691.83 928.05 268.44 o
+16 6 -1 696.86 743.97 575.24 <
+-14 6 1 34037.60 35127.80 429.51 o
+14 6 -1 34058.10 32558.40 414.17 o
+-12 6 1 9889.29 9955.43 368.15 o
+12 6 -1 9884.36 9150.10 368.15 o
+-10 6 1 22389.60 22641.30 352.81 o
+10 6 -1 22407.50 22779.40 360.48 o
+-8 6 1 46677.30 47752.30 414.17 o
+8 6 -1 46691.40 46640.20 414.17 o
+-6 6 1 373.58 245.43 322.13 <
+6 6 -1 375.35 889.70 360.48 o
+-4 6 1 60713.70 58927.30 437.18 o
+4 6 -1 60738.90 59609.90 460.19 o
+-2 6 1 25063.80 22702.70 352.81 o
+2 6 -1 25074.50 24221.30 383.49 o
+0 6 1 22580.50 23653.70 329.80 o
+0 6 -1 22589.30 23339.30 375.82 o
+2 6 1 59086.10 60346.20 437.18 o
+-2 6 -1 59109.40 60576.30 444.85 o
+4 6 1 240.56 483.20 299.12 <
+-4 6 -1 241.28 559.90 329.80 <
+6 6 1 49443.50 47537.60 383.49 o
+-6 6 -1 49458.10 48381.20 429.51 o
+8 6 1 23116.20 23139.90 352.81 o
+-8 6 -1 23136.50 22917.40 360.48 o
+10 6 1 8981.38 9449.22 337.47 o
+-10 6 -1 8978.32 9617.96 360.48 o
+12 6 1 33970.00 32220.90 375.82 o
+-12 6 -1 33987.70 33762.60 414.17 o
+14 6 1 1178.01 1733.38 429.51 o
+-14 6 -1 1183.39 797.66 291.45 o
+16 6 1 16720.00 16037.60 483.20 o
+-16 6 -1 16718.50 15339.60 352.81 o
+18 6 1 9534.14 9295.83 475.53 o
+-18 6 -1 9549.49 9372.52 345.14 o
+20 6 1 1582.18 2423.66 452.52 o
+-20 6 -1 1577.71 1917.46 337.47 o
+22 6 1 8833.51 7554.78 490.87 o
+-22 6 -1 8839.43 7953.61 345.14 o
+24 6 1 851.36 628.93 559.90 <
+-24 6 -1 856.25 536.89 406.50 <
+26 6 1 2485.76 3259.68 621.26 o
+-26 6 -1 2482.47 2369.98 406.50 o
+28 6 1 1901.45 1204.16 529.22 o
+-28 6 -1 1907.20 2224.25 452.52 o
+30 6 1 155.67 -99.71 636.59 <
+-30 6 -1 154.10 207.09 460.19 <
+-29 7 1 45.73 529.22 391.16 <
+29 7 -1 47.19 383.49 590.58 <
+-27 7 1 7164.60 7654.48 345.14 o
+27 7 -1 7169.53 7547.11 575.24 o
+-25 7 1 9061.43 8482.82 360.48 o
+25 7 -1 9062.81 8751.27 559.90 o
+-23 7 1 18549.40 18507.30 337.47 o
+23 7 -1 18560.50 16812.30 690.28 o
+-21 7 1 50139.50 49884.50 391.16 o
+21 7 -1 50163.60 48450.30 743.97 o
+-19 7 1 560.89 245.43 299.12 <
+19 7 -1 560.51 613.59 636.59 <
+-17 7 1 16389.70 16942.60 299.12 o
+17 7 -1 16399.20 17050.00 544.56 o
+-15 7 1 22175.50 21667.30 391.16 o
+15 7 -1 22191.70 20670.20 628.93 o
+-13 7 1 20278.10 20102.60 352.81 o
+13 7 -1 20297.90 20164.00 398.83 o
+-11 7 1 113337.00 111772.00 498.54 o
+11 7 -1 113356.00 107447.00 490.87 o
+-9 7 1 3181.73 2814.83 329.80 o
+9 7 -1 3182.90 3528.12 352.81 o
+-7 7 1 27768.40 27204.90 368.15 o
+7 7 -1 27791.30 26752.30 345.14 o
+-5 7 1 32244.60 33118.30 375.82 o
+5 7 -1 32250.90 33164.30 406.50 o
+-3 7 1 12042.50 12762.60 345.14 o
+3 7 -1 12049.10 12156.70 360.48 o
+-1 7 1 150565.00 149163.00 559.90 o
+1 7 -1 150587.00 147782.00 567.57 o
+1 7 1 11280.70 11888.20 337.47 o
+-1 7 -1 11277.90 12394.40 375.82 o
+3 7 1 31256.60 33685.90 352.81 o
+-3 7 -1 31248.90 32872.90 414.17 o
+5 7 1 28440.60 26215.50 345.14 o
+-5 7 -1 28424.90 27312.20 398.83 o
+7 7 1 3243.96 3328.70 283.78 o
+-7 7 -1 3239.93 2975.89 375.82 o
+9 7 1 112829.00 112409.00 513.88 o
+-9 7 -1 112834.00 112777.00 567.57 o
+11 7 1 19606.20 20033.60 360.48 o
+-11 7 -1 19590.90 21015.30 421.84 o
+13 7 1 22009.80 21590.60 375.82 o
+-13 7 -1 21983.50 21521.50 444.85 o
+15 7 1 16108.90 17947.40 544.56 o
+-15 7 -1 16098.00 17341.50 337.47 o
+17 7 1 480.87 -153.40 529.22 <
+-17 7 -1 480.00 345.14 322.13 <
+19 7 1 49663.70 50107.00 644.27 o
+-19 7 -1 49629.60 49547.10 460.19 o
+21 7 1 17792.60 18169.80 536.89 o
+-21 7 -1 17786.30 17402.80 398.83 o
+23 7 1 8846.59 8720.59 613.59 o
+-23 7 -1 8839.95 8037.98 406.50 o
+25 7 1 7039.57 8797.29 605.92 o
+-25 7 -1 7026.77 7968.95 429.51 o
+27 7 1 48.01 759.31 590.58 <
+-27 7 -1 46.28 736.30 444.85 <
+-26 8 1 180.42 498.54 360.48 <
+26 8 -1 181.49 1664.35 659.60 o
+-24 8 1 744.45 452.52 352.81 <
+24 8 -1 743.45 1380.57 644.27 o
+-22 8 1 292.82 -76.70 329.80 <
+22 8 -1 295.23 -107.38 552.23 <
+-20 8 1 337.08 207.09 283.78 <
+20 8 -1 335.97 -107.38 529.22 <
+-18 8 1 1074.31 1020.09 276.11 o
+18 8 -1 1074.57 1089.11 544.56 <
+-16 8 1 203.87 -38.35 375.82 <
+16 8 -1 204.72 521.55 575.24 <
+-14 8 1 1413.20 966.40 352.81 o
+14 8 -1 1409.91 882.03 368.15 o
+-12 8 1 777.60 866.69 322.13 o
+12 8 -1 779.86 882.03 352.81 o
+-10 8 1 678.11 1649.01 322.13 o
+10 8 -1 675.47 429.51 345.14 <
+-8 8 1 1985.46 2684.44 291.45 o
+8 8 -1 1982.08 2492.69 299.12 o
+-6 8 1 103.31 38.35 306.79 <
+6 8 -1 104.10 -76.70 337.47 <
+-4 8 1 2270.34 3021.91 314.46 o
+4 8 -1 2265.22 2623.08 345.14 o
+-2 8 1 626.72 590.58 299.12 <
+2 8 -1 625.54 1549.30 329.80 o
+0 8 1 789.40 674.94 314.46 o
+0 8 -1 787.94 605.92 337.47 <
+2 8 1 2225.32 2991.23 314.46 o
+-2 8 -1 2220.37 2208.91 329.80 o
+4 8 1 38.64 -168.74 276.11 <
+-4 8 -1 38.80 138.06 322.13 <
+6 8 1 2020.57 2270.27 329.80 o
+-6 8 -1 2017.68 2707.45 360.48 o
+8 8 1 503.36 1211.83 337.47 o
+-8 8 -1 500.44 782.32 360.48 o
+10 8 1 877.85 751.64 299.12 o
+-10 8 -1 879.56 1012.42 391.16 o
+12 8 1 1205.80 1227.17 345.14 o
+-12 8 -1 1202.40 1020.09 406.50 o
+14 8 1 59.27 -759.31 460.19 <
+-14 8 -1 60.38 -130.39 398.83 <
+16 8 1 1219.45 1902.12 590.58 o
+-16 8 -1 1219.61 1204.16 345.14 o
+18 8 1 239.65 306.79 559.90 <
+-18 8 -1 238.03 61.36 337.47 <
+20 8 1 413.10 559.90 544.56 <
+-20 8 -1 415.46 444.85 360.48 <
+22 8 1 381.53 713.29 582.91 <
+-22 8 -1 380.40 444.85 391.16 <
+24 8 1 34.86 429.51 651.93 <
+-24 8 -1 35.90 299.12 421.84 <
+-21 9 1 17662.40 16068.30 360.48 o
+21 9 -1 17647.20 17004.00 682.61 o
+-19 9 1 268.46 613.59 314.46 <
+19 9 -1 267.82 -406.50 613.59 <
+-17 9 1 11193.80 12992.70 437.18 o
+17 9 -1 11157.70 12716.60 636.59 o
+-15 9 1 8504.11 7899.92 360.48 o
+15 9 -1 8495.64 8022.64 375.82 o
+-13 9 1 8514.58 9157.77 375.82 o
+13 9 -1 8497.49 8444.48 383.49 o
+-11 9 1 37591.00 37758.50 429.51 o
+11 9 -1 37557.80 36523.70 437.18 o
+-9 9 1 1689.47 2239.59 329.80 o
+9 9 -1 1688.53 2293.28 360.48 o
+-7 9 1 16182.60 16329.10 360.48 o
+7 9 -1 16138.50 16881.30 368.15 o
+-5 9 1 15667.90 15692.50 352.81 o
+5 9 -1 15652.00 17134.40 375.82 o
+-3 9 1 5940.31 6488.67 345.14 o
+3 9 -1 5927.21 7025.56 368.15 o
+-1 9 1 47602.80 47644.90 406.50 o
+1 9 -1 47566.00 47414.80 467.86 o
+1 9 1 5981.16 6488.67 306.79 o
+-1 9 -1 5981.49 7240.31 391.16 o
+3 9 1 15537.10 16643.50 360.48 o
+-3 9 -1 15510.40 15707.80 406.50 o
+5 9 1 16428.00 16804.60 360.48 o
+-5 9 -1 16412.10 15876.50 406.50 o
+7 9 1 1988.91 943.39 322.13 o
+-7 9 -1 1987.47 2147.55 391.16 o
+9 9 1 37832.80 38870.70 444.85 o
+-9 9 -1 37812.80 38019.30 475.53 o
+11 9 1 8842.08 8268.07 368.15 o
+-11 9 -1 8838.75 9410.87 444.85 o
+13 9 1 8718.65 8360.11 360.48 o
+-13 9 -1 8714.48 8804.96 467.86 o
+15 9 1 11391.60 12785.60 621.26 o
+-15 9 -1 11386.80 12647.50 513.88 o
+17 9 1 592.34 1779.40 567.57 o
+-17 9 -1 592.89 -92.04 391.16 <
+19 9 1 17944.10 19251.30 575.24 o
+-19 9 -1 17939.00 17195.70 444.85 o
+-12 10 1 141.11 -69.03 406.50 <
+12 10 -1 141.69 -184.08 437.18 <
+-10 10 1 1186.79 1533.96 391.16 o
+10 10 -1 1182.80 2201.24 421.84 o
+-8 10 1 1407.84 1955.80 391.16 o
+8 10 -1 1405.65 1334.55 421.84 o
+-6 10 1 145.18 276.11 345.14 <
+6 10 -1 144.78 437.18 368.15 <
+-4 10 1 2182.35 2354.64 352.81 o
+4 10 -1 2177.76 2661.43 391.16 o
+-2 10 1 724.56 1495.62 329.80 o
+2 10 -1 723.73 1119.79 421.84 o
+0 10 1 719.45 1196.49 360.48 o
+0 10 -1 718.20 1526.29 398.83 o
+2 10 1 2146.48 2776.48 352.81 o
+-2 10 -1 2142.26 3244.34 421.84 o
+4 10 1 116.10 836.01 345.14 o
+-4 10 -1 115.59 406.50 391.16 <
+6 10 1 1456.13 2538.71 383.49 o
+-6 10 -1 1453.71 1472.61 429.51 o
+8 10 1 1287.98 843.68 368.15 o
+-8 10 -1 1284.14 1779.40 437.18 o
+10 10 1 111.45 7.67 368.15 <
+-10 10 -1 111.69 -30.68 475.53 <
+-40 0 2 1634.95 1510.96 621.26 o
+40 0 -2 1618.14 1135.13 659.60 <
+-38 0 2 1237.61 168.74 598.25 <
+38 0 -2 1159.43 406.50 582.91 <
+-36 0 2 9398.10 8053.31 567.57 o
+36 0 -2 9394.25 8720.59 490.87 o
+-34 0 2 48888.40 46471.50 659.60 o
+34 0 -2 48927.80 50475.10 690.28 o
+-32 0 2 21077.40 22848.40 674.94 o
+32 0 -2 21000.90 22572.30 659.60 o
+-30 0 2 107.26 866.69 605.92 <
+30 0 -2 104.65 -352.81 506.21 <
+-28 0 2 16230.70 13046.40 567.57 o
+28 0 -2 15931.40 14519.00 667.28 o
+-26 0 2 21740.70 22403.60 605.92 o
+26 0 -2 21737.20 22618.30 713.29 o
+-24 0 2 54456.70 52806.70 836.01 o
+24 0 -2 54465.80 56718.30 751.64 o
+-22 0 2 86594.90 82381.60 882.03 o
+22 0 -2 86450.80 89184.70 928.05 o
+-20 0 2 4667.31 4364.13 651.93 o
+20 0 -2 4673.02 4831.99 659.60 o
+-18 0 2 72494.50 76974.30 797.66 o
+18 0 -2 72017.40 79674.10 920.38 o
+-16 0 2 8462.81 9173.11 582.91 o
+16 0 -2 8270.91 9157.77 598.25 o
+-14 0 2 19618.70 21168.70 674.94 o
+14 0 -2 19531.10 21843.70 797.66 o
+-12 0 2 217288.00 235049.00 1372.90 o
+12 0 -2 217342.00 240648.00 1319.21 o
+-10 0 2 13580.80 17073.00 789.99 o
+10 0 -2 13585.30 17794.00 797.66 o
+-8 0 2 135607.00 142413.00 1219.50 o
+8 0 -2 135275.00 147751.00 1181.15 o
+-6 0 2 50418.30 52714.70 989.41 o
+6 0 -2 50047.90 52024.40 820.67 o
+-4 0 2 8386.88 12747.20 828.34 o
+4 0 -2 8431.50 12593.80 743.97 o
+0 0 2 15093.30 13207.40 720.96 o
+0 0 -2 15165.40 12563.20 805.33 o
+2 0 2 56015.30 54079.90 843.68 o
+-2 0 -2 55983.40 54102.90 958.73 o
+4 0 2 131862.00 143050.00 1234.84 o
+-4 0 -2 131913.00 147491.00 1303.87 o
+6 0 2 19235.10 16697.20 667.28 o
+-6 0 -2 19281.00 15999.30 659.60 o
+8 0 2 235206.00 240472.00 1541.63 o
+-8 0 -2 235425.00 213298.00 1426.59 o
+10 0 2 19469.10 21743.90 859.02 o
+-10 0 -2 19510.60 20616.50 782.32 o
+12 0 2 10356.40 9380.19 836.01 o
+-12 0 -2 10525.60 9257.48 697.95 o
+14 0 2 76838.40 80126.60 1119.79 o
+-14 0 -2 77066.50 79950.20 1066.11 o
+16 0 2 5935.60 4793.64 720.96 o
+-16 0 -2 5950.58 5529.94 766.98 o
+18 0 2 89920.50 84207.00 1035.43 o
+-18 0 -2 90022.00 85656.60 989.41 o
+20 0 2 52957.90 56380.90 997.08 o
+-20 0 -2 52946.00 54010.90 928.05 o
+22 0 2 20755.10 22756.40 751.64 o
+-22 0 -2 20826.50 19358.60 674.94 o
+24 0 2 12242.60 15424.00 697.95 o
+-24 0 -2 12418.80 12218.00 605.92 o
+26 0 2 16.55 513.88 728.63 <
+-26 0 -2 16.73 38.35 628.93 <
+28 0 2 20696.10 23162.90 759.31 o
+-28 0 -2 20746.30 19634.70 659.60 o
+30 0 2 47443.70 51756.00 859.02 o
+-30 0 -2 47397.00 43050.70 736.30 o
+32 0 2 8502.89 9472.23 621.26 o
+-32 0 -2 8510.48 7838.56 582.91 o
+34 0 2 887.98 -276.11 682.61 <
+-34 0 -2 950.78 789.99 582.91 <
+36 0 2 1223.46 1856.10 682.61 o
+-36 0 -2 1227.53 1296.20 613.59 o
+-41 1 2 359.02 720.96 414.17 <
+41 1 -2 358.62 467.86 429.51 <
+-39 1 2 176.56 375.82 345.14 <
+39 1 -2 176.83 306.79 383.49 <
+-37 1 2 386.80 851.35 406.50 o
+37 1 -2 386.13 245.43 406.50 <
+-35 1 2 1673.79 2270.27 398.83 o
+35 1 -2 1673.29 1718.04 406.50 o
+-33 1 2 64.99 107.38 368.15 <
+33 1 -2 65.14 168.74 414.17 <
+-31 1 2 4034.07 4555.88 429.51 o
+31 1 -2 4033.07 4494.52 406.50 o
+-29 1 2 3385.29 2799.49 437.18 o
+29 1 -2 3384.15 3558.80 460.19 o
+-27 1 2 1983.22 1978.81 368.15 o
+27 1 -2 1979.82 2032.50 452.52 o
+-25 1 2 16876.10 17809.30 506.21 o
+25 1 -2 16879.00 16873.60 475.53 o
+-23 1 2 1126.56 774.65 475.53 <
+23 1 -2 1127.89 667.28 460.19 <
+-21 1 2 21676.00 21889.70 429.51 o
+21 1 -2 21669.10 22963.50 475.53 o
+-19 1 2 32362.50 33532.50 498.54 o
+19 1 -2 32354.40 35189.10 529.22 o
+-17 1 2 5206.58 5460.91 452.52 o
+17 1 -2 5203.15 5353.54 490.87 o
+-15 1 2 71227.90 67103.30 582.91 o
+15 1 -2 71226.20 71237.30 605.92 o
+-13 1 2 17181.60 17149.70 506.21 o
+13 1 -2 17195.60 17433.50 475.53 o
+-11 1 2 60597.20 62723.80 720.96 o
+11 1 -2 60607.90 62532.10 628.93 o
+-9 1 2 121721.00 121314.00 874.36 o
+9 1 -2 121677.00 122763.00 820.67 o
+-7 1 2 525.09 958.73 460.19 o
+7 1 -2 523.08 836.01 774.65 <
+-5 1 2 191766.00 195450.00 805.33 o
+5 1 -2 191769.00 191654.00 1602.99 o
+-3 1 2 37845.70 42199.40 820.67 o
+3 1 -2 37836.60 39399.90 613.59 o
+-1 1 2 38148.30 42452.50 882.03 o
+1 1 -2 38147.90 40657.70 628.92 o
+1 1 2 190704.00 205060.00 1518.62 o
+-1 1 -2 190695.00 205958.00 1119.79 o
+3 1 2 593.88 905.04 544.56 <
+-3 1 -2 597.32 889.70 513.88 <
+5 1 2 119741.00 125432.00 1380.57 o
+-5 1 -2 119756.00 116052.00 889.70 o
+7 1 2 64933.10 62002.90 1050.77 o
+-7 1 -2 64899.50 60998.10 782.32 o
+9 1 2 16001.90 17165.10 797.66 o
+-9 1 -2 16007.40 16444.10 559.90 o
+11 1 2 73047.10 69856.80 882.03 o
+-11 1 -2 73038.70 68683.30 766.98 o
+13 1 2 4384.76 5338.20 628.93 o
+-13 1 -2 4387.21 4993.06 544.56 o
+15 1 2 33131.00 33241.00 628.93 o
+-15 1 -2 33131.40 33056.90 636.59 o
+17 1 2 22520.80 22687.30 582.91 o
+-17 1 -2 22513.00 21805.30 598.25 o
+19 1 2 922.00 659.60 521.55 <
+-19 1 -2 923.44 1119.79 498.54 o
+21 1 2 16967.90 17073.00 552.23 o
+-21 1 -2 16964.70 16045.30 529.22 o
+23 1 2 1835.90 2162.89 490.87 o
+-23 1 -2 1834.99 2377.65 460.19 o
+25 1 2 3575.22 3451.42 490.87 o
+-25 1 -2 3576.31 3113.95 460.19 o
+27 1 2 4049.62 3842.58 498.54 o
+-27 1 -2 4047.17 3252.01 467.86 o
+29 1 2 46.81 -207.09 467.86 <
+-29 1 -2 46.80 -46.02 414.17 <
+31 1 2 1688.76 1871.44 460.19 o
+-31 1 -2 1688.66 1695.03 414.17 o
+33 1 2 364.58 398.83 437.18 <
+-33 1 -2 363.87 805.33 398.83 o
+35 1 2 194.58 176.41 437.18 <
+-35 1 -2 194.81 912.71 368.15 o
+37 1 2 331.41 406.50 483.20 <
+-37 1 -2 331.06 605.92 429.51 <
+-40 2 2 663.47 521.55 398.83 <
+40 2 -2 652.53 659.60 444.85 <
+-38 2 2 3555.40 3397.73 414.17 o
+38 2 -2 3555.14 3390.06 398.83 o
+-36 2 2 13786.50 12010.90 444.85 o
+36 2 -2 13799.80 13506.60 460.19 o
+-34 2 2 71315.30 71820.20 521.55 o
+34 2 -2 71407.20 75110.60 567.57 o
+-32 2 2 59359.00 60706.70 513.88 o
+32 2 -2 59421.80 61013.40 567.57 o
+-30 2 2 206.62 1127.46 406.50 o
+30 2 -2 206.65 368.15 406.50 <
+-28 2 2 10999.80 9564.27 414.17 o
+28 2 -2 10980.10 11221.00 490.87 o
+-26 2 2 68855.80 70700.40 544.56 o
+26 2 -2 68940.70 73047.40 605.92 o
+-24 2 2 141624.00 148043.00 667.28 o
+24 2 -2 141764.00 155782.00 759.31 o
+-22 2 2 346183.00 357184.00 920.38 o
+22 2 -2 346428.00 363442.00 966.40 o
+-20 2 2 1352.80 1457.27 398.83 o
+20 2 -2 1353.99 2055.51 467.86 o
+-18 2 2 44665.80 42644.20 490.87 o
+18 2 -2 44701.90 40933.80 513.88 o
+-16 2 2 184655.00 185165.00 774.65 o
+16 2 -2 184693.00 187535.00 766.98 o
+-14 2 2 154693.00 161135.00 720.96 o
+14 2 -2 154717.00 165415.00 1173.48 o
+-10 2 2 2124.81 2853.17 345.14 o
+10 2 -2 2117.81 5292.18 989.41 o
+-8 2 2 147660.00 142989.00 843.68 o
+8 2 -2 147653.00 138555.00 1564.64 o
+-6 2 2 225684.00 230263.00 997.08 o
+6 2 -2 225512.00 219441.00 1035.43 o
+-4 2 2 46918.10 47583.60 621.26 o
+4 2 -2 46937.30 45113.90 736.30 o
+0 2 2 44361.20 47898.00 605.92 o
+0 2 -2 44391.70 43672.00 836.01 o
+2 2 2 221341.00 224933.00 1119.79 o
+-2 2 -2 221217.00 218904.00 1518.62 o
+4 2 2 145312.00 141424.00 874.36 o
+-4 2 -2 145239.00 135280.00 882.03 o
+6 2 2 2014.41 2116.87 460.19 o
+-6 2 -2 2030.65 1802.41 490.87 o
+10 2 2 156827.00 161657.00 889.70 o
+-10 2 -2 156820.00 157400.00 1533.96 o
+12 2 2 182777.00 186929.00 966.40 o
+-12 2 -2 182705.00 180072.00 1280.86 o
+14 2 2 43361.00 43464.90 682.61 o
+-14 2 -2 43285.40 39008.70 751.64 o
+16 2 2 1032.34 1549.30 536.89 o
+-16 2 -2 1036.45 1825.42 544.56 o
+18 2 2 344030.00 344567.00 1250.18 o
+-18 2 -2 343819.00 330692.00 1173.48 o
+20 2 2 141651.00 137359.00 859.02 o
+-20 2 -2 141577.00 136784.00 820.67 o
+22 2 2 65885.60 63590.50 659.60 o
+-22 2 -2 65824.20 66113.90 659.60 o
+24 2 2 11443.10 9249.81 498.54 o
+-24 2 -2 11456.70 8544.18 460.19 o
+26 2 2 118.80 23.01 475.53 <
+-26 2 -2 121.00 237.76 437.18 <
+28 2 2 59213.00 56403.90 605.92 o
+-28 2 -2 59147.90 55736.60 544.56 o
+30 2 2 69981.60 67479.10 659.60 o
+-30 2 -2 69924.50 64219.40 575.24 o
+32 2 2 12901.90 12609.20 498.54 o
+-32 2 -2 12885.90 12087.60 437.18 o
+34 2 2 3775.43 3505.11 467.86 o
+-34 2 -2 3787.97 2899.19 414.17 o
+36 2 2 462.29 989.41 490.87 o
+-36 2 -2 466.41 444.85 414.17 <
+-39 3 2 170.76 352.81 414.17 <
+39 3 -2 170.49 -7.67 621.26 <
+-37 3 2 73.37 -23.01 383.49 <
+37 3 -2 74.04 -828.34 506.21 <
+-35 3 2 308.93 -184.08 421.84 <
+35 3 -2 309.24 1595.32 536.89 o
+-33 3 2 47.89 153.40 414.17 <
+33 3 -2 47.16 -237.76 621.26 <
+-31 3 2 429.17 920.38 383.49 o
+31 3 -2 430.57 951.06 536.89 <
+-29 3 2 1261.54 882.03 360.48 o
+29 3 -2 1261.87 951.06 567.57 <
+-27 3 2 243.29 774.65 398.83 <
+27 3 -2 245.94 1388.24 713.29 <
+-25 3 2 2206.63 1856.10 437.18 o
+25 3 -2 2205.71 2998.90 690.28 o
+-23 3 2 733.83 1227.17 322.13 o
+23 3 -2 731.41 1050.77 567.57 <
+-21 3 2 2887.49 2707.45 337.47 o
+21 3 -2 2894.44 3167.64 713.29 o
+-19 3 2 4195.25 4072.68 345.14 o
+19 3 -2 4200.74 2975.89 751.64 o
+-17 3 2 339.77 460.19 306.79 <
+17 3 -2 340.59 444.85 575.24 <
+-15 3 2 12475.40 13966.70 306.79 o
+15 3 -2 12480.30 13107.70 636.59 o
+-13 3 2 4062.14 2929.87 276.11 o
+13 3 -2 4052.54 3014.24 621.26 o
+-11 3 2 6519.02 5959.45 276.11 o
+11 3 -2 6521.56 6772.45 766.98 o
+-9 3 2 14003.70 12900.60 421.84 o
+9 3 -2 14025.70 11918.90 475.53 o
+-7 3 2 450.75 598.25 306.79 <
+7 3 -2 453.05 559.90 437.18 <
+-5 3 2 12696.30 15270.60 398.83 o
+5 3 -2 12698.80 13997.40 498.54 o
+-3 3 2 16703.00 18821.70 391.16 o
+3 3 -2 16712.30 18607.00 498.54 o
+-1 3 2 18528.40 18599.30 375.82 o
+1 3 -2 18532.20 18699.00 529.22 o
+1 3 2 13270.10 13583.30 398.83 o
+-1 3 -2 13277.30 14258.20 582.91 o
+3 3 2 1078.66 805.33 352.81 o
+-3 3 -2 1076.68 1066.11 567.57 <
+5 3 2 13085.60 12141.30 421.84 o
+-5 3 -2 13080.20 12026.30 667.28 o
+7 3 2 5597.16 5338.20 360.48 o
+-7 3 -2 5613.63 5813.73 621.26 o
+9 3 2 3800.24 2600.07 421.84 o
+-9 3 -2 3797.33 2707.45 521.55 o
+11 3 2 12784.80 14058.80 406.50 o
+-11 3 -2 12793.60 13153.70 552.23 o
+13 3 2 553.62 375.82 368.15 <
+-13 3 -2 554.00 222.43 483.20 <
+15 3 2 3275.41 4141.70 498.54 o
+-15 3 -2 3275.32 3788.89 460.19 o
+17 3 2 2868.41 3896.27 544.56 o
+-17 3 -2 2874.71 2784.15 444.85 o
+19 3 2 966.49 1050.77 544.56 <
+-19 3 -2 962.16 1227.17 391.16 o
+21 3 2 2300.50 3313.36 582.91 o
+-21 3 -2 2303.13 2293.28 406.50 o
+23 3 2 461.23 1196.49 582.91 o
+-23 3 -2 463.03 644.27 414.17 <
+25 3 2 617.45 1464.94 567.57 o
+-25 3 -2 616.39 1672.02 460.19 o
+27 3 2 488.87 1204.16 552.23 o
+-27 3 -2 491.04 467.86 437.18 <
+29 3 2 121.16 705.62 582.91 <
+-29 3 -2 120.37 506.21 467.86 <
+31 3 2 319.64 720.96 590.58 <
+-31 3 -2 319.88 766.98 444.85 <
+33 3 2 118.18 -92.04 651.93 <
+-33 3 -2 118.77 0.00 444.85 <
+35 3 2 37.58 76.70 651.93 <
+-35 3 -2 37.34 276.11 437.18 <
+-38 4 2 1895.68 1664.35 375.82 o
+38 4 -2 1869.61 2768.81 544.56 o
+-36 4 2 4945.74 4701.60 375.82 o
+36 4 -2 4942.86 5422.56 674.94 o
+-34 4 2 32322.50 31822.10 429.51 o
+34 4 -2 32356.30 36692.40 797.66 o
+-32 4 2 24290.70 23776.50 414.17 o
+32 4 -2 24263.20 23837.80 736.30 o
+-30 4 2 61.55 621.26 345.14 <
+30 4 -2 61.11 7.67 559.90 <
+-28 4 2 2880.72 2975.89 329.80 o
+28 4 -2 2784.82 3037.25 559.90 o
+-26 4 2 18667.20 19105.50 352.81 o
+26 4 -2 18663.60 21368.10 736.30 o
+-24 4 2 52015.70 54271.70 414.17 o
+24 4 -2 52057.00 55468.20 874.36 o
+-22 4 2 103941.00 103481.00 475.53 o
+22 4 -2 103911.00 103136.00 989.41 o
+-20 4 2 1247.65 1257.85 306.79 o
+20 4 -2 1239.53 974.07 697.95 <
+-18 4 2 3763.11 4042.00 322.13 o
+18 4 -2 3633.03 3275.01 713.29 o
+-16 4 2 32929.20 32113.60 322.13 o
+16 4 -2 32884.20 32167.20 797.66 o
+-14 4 2 38890.40 40266.60 337.47 o
+14 4 -2 38882.90 39607.00 843.68 o
+-12 4 2 265191.00 276942.00 782.32 o
+12 4 -2 265333.00 277333.00 1342.22 o
+-10 4 2 1306.40 874.36 345.14 o
+10 4 -2 1261.18 797.66 383.49 o
+-8 4 2 9592.59 9272.82 322.13 o
+8 4 -2 9529.06 8996.70 352.81 o
+-6 4 2 21832.90 22395.90 375.82 o
+6 4 -2 21810.50 23124.50 475.53 o
+-4 4 2 6646.71 7600.79 329.80 o
+4 4 -2 6646.09 7800.21 437.18 o
+-2 4 2 376589.00 382210.00 1066.11 o
+2 4 -2 376728.00 397987.00 1073.78 o
+0 4 2 9079.64 7769.53 337.47 o
+0 4 -2 9045.47 7148.28 467.86 o
+2 4 2 25085.60 21859.00 360.48 o
+-2 4 -2 25188.40 22050.70 490.87 o
+4 4 2 8967.63 8444.48 329.80 o
+-4 4 -2 9117.94 8850.98 483.20 o
+6 4 2 725.76 621.26 322.13 <
+-6 4 -2 759.59 667.28 437.18 <
+8 4 2 261743.00 259148.00 882.03 o
+-8 4 -2 261720.00 258258.00 1050.77 o
+10 4 2 41327.90 39346.20 536.89 o
+-10 4 -2 41361.70 38663.60 483.20 o
+12 4 2 31369.10 30894.00 475.53 o
+-12 4 -2 31466.10 31170.20 475.53 o
+14 4 2 4559.35 5000.72 498.54 o
+-14 4 -2 4718.70 3528.12 391.16 o
+16 4 2 621.62 1250.18 498.54 o
+-16 4 -2 631.45 1227.17 406.50 o
+18 4 2 100808.00 105276.00 705.62 o
+-18 4 -2 100873.00 102990.00 697.95 o
+20 4 2 54097.30 55836.30 690.28 o
+-20 4 -2 54086.30 55123.00 590.58 o
+22 4 2 18846.50 20332.70 575.24 o
+-22 4 -2 18845.30 20263.70 490.87 o
+24 4 2 2993.68 3704.52 575.24 o
+-24 4 -2 3107.03 3712.19 406.50 o
+26 4 2 67.88 828.34 544.56 <
+-26 4 -2 67.58 -260.77 414.17 <
+28 4 2 24031.20 26361.20 613.59 o
+-28 4 -2 24047.50 23400.60 498.54 o
+30 4 2 31939.50 34598.60 743.97 o
+-30 4 -2 31931.80 31055.10 521.55 o
+32 4 2 4951.12 5836.74 705.62 o
+-32 4 -2 4952.94 4387.14 452.52 o
+34 4 2 1933.22 3482.10 690.28 o
+-34 4 -2 1962.31 1817.75 444.85 o
+-35 5 2 298.01 467.86 368.15 <
+35 5 -2 298.14 1188.82 697.95 <
+-33 5 2 19.59 368.15 368.15 <
+33 5 -2 20.27 1326.88 705.62 <
+-31 5 2 437.68 1227.17 352.81 o
+31 5 -2 439.98 1618.33 659.60 o
+-29 5 2 250.04 460.19 360.48 <
+29 5 -2 249.68 138.06 559.90 <
+-27 5 2 751.12 935.72 337.47 o
+27 5 -2 754.93 1533.96 552.23 o
+-25 5 2 1698.28 1917.46 306.79 o
+25 5 -2 1700.18 2661.43 559.90 o
+-23 5 2 56.95 38.35 314.46 <
+23 5 -2 56.85 490.87 559.90 <
+-21 5 2 2162.43 2116.87 306.79 o
+21 5 -2 2169.61 3198.32 575.24 o
+-19 5 2 1254.31 1641.34 299.12 o
+19 5 -2 1254.51 897.37 575.24 <
+-17 5 2 1474.16 882.03 276.11 o
+17 5 -2 1477.83 -191.75 567.57 <
+-15 5 2 5872.92 6020.81 299.12 o
+15 5 -2 5879.96 5253.83 590.58 o
+-13 5 2 951.32 859.02 368.15 o
+13 5 -2 948.84 928.05 360.48 o
+-11 5 2 4424.04 4256.75 329.80 o
+11 5 -2 4433.96 4264.42 398.83 o
+-9 5 2 5189.99 4755.29 329.80 o
+9 5 -2 5195.25 4678.59 398.83 o
+-7 5 2 913.76 375.82 306.79 <
+7 5 -2 913.60 720.96 375.82 <
+-5 5 2 8401.94 9058.06 299.12 o
+5 5 -2 8410.12 8122.34 375.82 o
+-3 5 2 3243.55 4241.41 299.12 o
+3 5 -2 3244.32 3773.55 368.15 o
+-1 5 2 4087.89 3873.26 291.45 o
+1 5 -2 4092.78 4080.35 383.49 o
+1 5 2 8255.73 7869.24 314.46 o
+-1 5 -2 8265.14 8183.70 383.49 o
+3 5 2 572.44 521.55 306.79 <
+-3 5 -2 572.43 153.40 406.50 <
+5 5 2 4800.92 4218.40 337.47 o
+-5 5 -2 4803.50 4525.20 444.85 o
+7 5 2 3591.17 4011.32 306.79 o
+-7 5 -2 3599.13 3965.30 421.84 o
+9 5 2 900.43 613.59 299.12 o
+-9 5 -2 898.76 1004.75 383.49 o
+11 5 2 4937.50 5299.85 375.82 o
+-11 5 -2 4944.71 5714.02 329.80 o
+13 5 2 828.57 912.71 467.86 <
+-13 5 -2 831.73 567.57 329.80 <
+15 5 2 1098.40 1035.43 467.86 o
+-15 5 -2 1098.71 1204.16 383.49 o
+17 5 2 1894.74 1480.28 490.87 o
+-17 5 -2 1900.98 2638.42 398.83 o
+19 5 2 179.28 -130.39 483.20 <
+-19 5 -2 178.31 -153.40 429.51 <
+21 5 2 997.81 2899.19 544.56 o
+-21 5 -2 999.97 1925.13 444.85 o
+23 5 2 461.86 1234.84 544.56 o
+-23 5 -2 464.89 682.61 444.85 <
+25 5 2 97.74 882.03 521.55 <
+-25 5 -2 97.31 859.02 444.85 <
+27 5 2 421.04 1380.57 536.89 o
+-27 5 -2 423.48 582.91 467.86 <
+29 5 2 120.35 866.69 575.24 <
+-29 5 -2 120.61 368.15 475.53 <
+31 5 2 92.65 1165.81 636.59 <
+-31 5 -2 92.87 1188.82 467.86 o
+-34 6 2 11031.30 9364.85 414.17 o
+34 6 -2 11038.10 14020.40 728.63 o
+-32 6 2 11927.80 10937.20 383.49 o
+32 6 -2 11919.10 12708.90 713.29 o
+-30 6 2 128.01 536.89 337.47 <
+30 6 -2 128.16 935.72 682.61 <
+-28 6 2 2085.07 2554.05 345.14 o
+28 6 -2 2040.97 2323.96 713.29 o
+-26 6 2 7669.68 8850.98 360.48 o
+26 6 -2 7681.69 8191.37 713.29 o
+-24 6 2 15159.30 15424.00 329.80 o
+24 6 -2 15160.40 14342.60 690.28 o
+-22 6 2 38086.00 37988.60 352.81 o
+22 6 -2 38062.20 38840.00 728.63 o
+-20 6 2 107.30 552.23 283.78 <
+20 6 -2 108.95 490.87 651.93 <
+-18 6 2 2360.08 2768.81 260.77 o
+18 6 -2 2283.17 2224.25 567.57 o
+-16 6 2 11708.10 11581.40 291.45 o
+16 6 -2 11705.90 9909.41 590.58 o
+-14 6 2 10225.30 10898.80 368.15 o
+14 6 -2 10206.20 10653.40 391.16 o
+-12 6 2 76982.90 79367.30 483.20 o
+12 6 -2 76952.60 75547.80 529.22 o
+-10 6 2 944.08 736.30 306.79 o
+10 6 -2 927.47 598.25 398.83 <
+-8 6 2 3942.06 3397.73 337.47 o
+8 6 -2 3858.24 3957.63 406.50 o
+-6 6 2 7471.22 7631.47 322.13 o
+6 6 -2 7434.66 7224.97 406.50 o
+-4 6 2 3021.30 5146.45 314.46 o
+4 6 -2 3012.09 5077.42 398.83 o
+-2 6 2 97715.20 100697.00 483.20 o
+2 6 -2 97614.40 97291.70 567.57 o
+0 6 2 4133.86 3620.16 306.79 o
+0 6 -2 4100.61 3067.93 375.82 o
+2 6 2 8618.47 7270.99 322.13 o
+-2 6 -2 8579.53 7677.49 383.49 o
+4 6 2 3206.19 3788.89 268.44 o
+-4 6 -2 3155.77 3474.43 391.16 o
+6 6 2 964.01 851.35 306.79 o
+-6 6 -2 973.34 966.40 375.82 o
+8 6 2 76544.60 76905.30 483.20 o
+-8 6 -2 76404.80 76905.30 582.91 o
+10 6 2 10812.70 10024.50 352.81 o
+-10 6 -2 10792.60 11451.00 460.19 o
+12 6 2 11663.30 11535.40 429.51 o
+-12 6 -2 11650.90 11566.10 498.54 o
+14 6 2 2176.31 2415.99 506.21 o
+-14 6 -2 2140.32 2354.64 352.81 o
+16 6 2 454.80 61.36 498.54 <
+-16 6 -2 453.09 322.13 360.48 <
+18 6 2 36810.60 38088.30 513.88 o
+-18 6 -2 36769.30 38510.20 483.20 o
+20 6 2 15966.20 16766.20 490.87 o
+-20 6 -2 15938.60 16490.10 483.20 o
+22 6 2 8089.85 8037.98 467.86 o
+-22 6 -2 8070.42 8735.93 498.54 o
+24 6 2 1780.54 1787.07 490.87 o
+-24 6 -2 1784.54 1533.96 506.21 o
+26 6 2 196.16 1388.24 544.56 o
+-26 6 -2 191.99 782.32 513.88 <
+28 6 2 11744.90 11688.80 628.93 o
+-28 6 -2 11731.70 11972.60 529.22 o
+30 6 2 10980.90 11313.00 682.61 o
+-30 6 -2 10970.20 10921.80 575.24 o
+-31 7 2 1040.34 1326.88 383.49 o
+31 7 -2 1035.53 1311.54 705.62 <
+-29 7 2 819.25 789.99 352.81 o
+29 7 -2 821.49 651.93 582.91 <
+-27 7 2 886.78 690.28 314.46 o
+27 7 -2 881.72 -23.01 590.58 <
+-25 7 2 2873.74 2776.48 329.80 o
+25 7 -2 2869.23 4348.79 590.58 o
+-23 7 2 185.44 130.39 299.12 <
+23 7 -2 187.59 690.28 659.60 <
+-21 7 2 4949.00 5100.43 306.79 o
+21 7 -2 4936.74 5560.62 628.93 o
+-19 7 2 4989.68 5430.24 299.12 o
+19 7 -2 4990.84 6411.97 659.60 o
+-17 7 2 1424.50 1449.60 268.44 o
+17 7 -2 1418.98 253.10 667.28 <
+-15 7 2 12565.10 13230.40 360.48 o
+15 7 -2 12553.30 12563.20 406.50 o
+-13 7 2 2299.44 2162.89 299.12 o
+13 7 -2 2302.64 2316.29 375.82 o
+-11 7 2 9417.16 8720.59 329.80 o
+11 7 -2 9399.08 8605.54 406.50 o
+-9 7 2 16427.50 17011.70 360.48 o
+9 7 -2 16423.90 15784.50 421.84 o
+-7 7 2 1093.45 460.19 306.79 <
+7 7 -2 1091.37 728.63 368.15 <
+-5 7 2 20776.20 20386.40 345.14 o
+5 7 -2 20758.40 20884.90 414.17 o
+-3 7 2 8946.54 8467.49 329.80 o
+3 7 -2 8944.74 7654.48 375.82 o
+-1 7 2 8193.00 8344.77 306.79 o
+1 7 -2 8186.00 8421.47 391.16 o
+1 7 2 20825.30 21214.70 329.80 o
+-1 7 -2 20810.00 20539.80 414.17 o
+3 7 2 469.63 452.52 291.45 <
+-3 7 -2 468.65 590.58 414.17 <
+5 7 2 16480.20 17702.00 337.47 o
+-5 7 -2 16470.90 17441.20 467.86 o
+7 7 2 9074.75 8467.49 352.81 o
+-7 7 -2 9064.63 9203.79 421.84 o
+9 7 2 2006.62 2224.25 345.14 o
+-9 7 -2 2008.82 2446.67 429.51 o
+11 7 2 12482.50 13153.70 383.49 o
+-11 7 -2 12469.70 13084.70 467.86 o
+13 7 2 889.52 1656.68 475.53 o
+-13 7 -2 885.26 1227.17 475.53 o
+15 7 2 4842.66 6289.26 506.21 o
+-15 7 -2 4842.68 5798.39 391.16 o
+17 7 2 4249.07 5138.78 521.55 o
+-17 7 -2 4239.01 4509.86 421.84 o
+19 7 2 212.24 751.64 521.55 <
+-19 7 -2 213.80 575.24 452.52 <
+21 7 2 3005.67 2185.90 483.20 o
+-21 7 -2 3002.12 2561.72 483.20 o
+23 7 2 558.73 981.74 483.20 o
+-23 7 -2 554.42 1204.16 498.54 o
+25 7 2 661.20 1687.36 613.59 o
+-25 7 -2 662.48 1357.56 529.22 o
+27 7 2 812.74 590.58 613.59 <
+-27 7 -2 809.15 1204.16 582.91 o
+-26 8 2 7839.44 7148.28 368.15 o
+26 8 -2 7853.25 7439.73 636.59 o
+-24 8 2 17365.40 16881.30 368.15 o
+24 8 -2 17382.90 15730.80 728.63 o
+-22 8 2 45580.40 46387.10 391.16 o
+22 8 -2 45621.40 43794.70 805.33 o
+-20 8 2 714.08 337.47 306.79 <
+20 8 -2 714.01 1173.48 690.28 <
+-18 8 2 31284.70 31269.90 337.47 o
+18 8 -2 31330.60 29352.40 720.96 o
+-16 8 2 26646.40 25893.30 375.82 o
+16 8 -2 26683.70 24781.20 605.92 o
+-14 8 2 22820.90 23178.20 375.82 o
+14 8 -2 22827.10 22978.80 414.17 o
+-12 8 2 109800.00 112302.00 513.88 o
+12 8 -2 109874.00 106028.00 552.23 o
+-10 8 2 4779.62 4509.86 306.79 o
+10 8 -2 4782.98 4701.60 391.16 o
+-8 8 2 54657.20 55636.90 414.17 o
+8 8 -2 54699.90 56449.90 483.20 o
+-6 8 2 50621.10 49301.60 406.50 o
+6 8 -2 50678.30 50214.30 475.53 o
+-4 8 2 14580.70 14710.70 352.81 o
+4 8 -2 14580.20 15393.30 398.83 o
+-2 8 2 150837.00 155230.00 552.23 o
+2 8 -2 150883.00 152913.00 644.27 o
+0 8 2 15144.70 14542.00 329.80 o
+0 8 -2 15160.80 16206.30 437.18 o
+2 8 2 51717.10 50912.30 414.17 o
+-2 8 -2 51732.60 50505.80 544.56 o
+4 8 2 54342.30 58045.20 437.18 o
+-4 8 -2 54386.30 56741.40 567.57 o
+6 8 2 4538.74 4463.84 322.13 o
+-6 8 -2 4539.68 4977.72 437.18 o
+8 8 2 110134.00 112969.00 521.55 o
+-8 8 -2 110132.00 116512.00 674.94 o
+10 8 2 22992.60 23531.00 406.50 o
+-10 8 -2 23016.90 24543.40 521.55 o
+12 8 2 27247.10 26552.90 437.18 o
+-12 8 -2 27243.40 27849.10 567.57 o
+14 8 2 31896.60 34874.70 536.89 o
+-14 8 -2 31909.60 32182.60 460.19 o
+16 8 2 760.57 989.41 521.55 <
+-16 8 -2 762.04 444.85 414.17 <
+18 8 2 45817.10 48665.00 682.61 o
+-18 8 -2 45810.50 45765.80 552.23 o
+20 8 2 17438.60 18584.00 544.56 o
+-20 8 -2 17446.80 17586.90 513.88 o
+22 8 2 8132.73 7769.53 644.27 o
+-22 8 -2 8126.44 6741.77 521.55 o
+-21 9 2 1511.29 1986.48 314.46 o
+21 9 -2 1517.55 475.53 720.96 <
+-19 9 2 2089.76 1457.27 314.46 o
+19 9 -2 2088.79 2270.27 720.96 o
+-17 9 2 265.51 115.05 375.82 <
+17 9 -2 267.95 337.47 582.91 <
+-15 9 2 4767.54 4448.50 337.47 o
+15 9 -2 4774.68 4486.85 406.50 o
+-13 9 2 1029.06 1672.02 352.81 o
+13 9 -2 1027.23 958.73 437.18 o
+-11 9 2 3381.58 3474.43 329.80 o
+11 9 -2 3390.66 3857.92 421.84 o
+-9 9 2 5816.10 6411.97 329.80 o
+9 9 -2 5818.87 5951.78 398.83 o
+-7 9 2 39.83 84.37 306.79 <
+7 9 -2 40.14 -76.70 406.50 <
+-5 9 2 8338.55 7984.29 329.80 o
+5 9 -2 8348.70 8045.65 414.17 o
+-3 9 2 2744.69 3244.34 322.13 o
+3 9 -2 2745.97 3213.66 414.17 o
+-1 9 2 3012.82 3336.37 322.13 o
+1 9 -2 3016.65 3850.25 414.17 o
+1 9 2 7977.76 7623.80 345.14 o
+-1 9 -2 7986.34 8467.49 421.84 o
+3 9 2 68.16 736.30 306.79 o
+-3 9 -2 68.51 207.09 437.18 <
+5 9 2 6119.73 6895.17 352.81 o
+-5 9 -2 6124.50 7071.58 444.85 o
+7 9 2 3416.75 4118.70 352.81 o
+-7 9 -2 3423.03 3850.25 498.54 o
+9 9 2 1307.62 1687.36 352.81 o
+-9 9 -2 1306.28 1587.65 521.55 o
+11 9 2 4735.39 4532.87 368.15 o
+-11 9 -2 4741.81 4563.54 536.89 o
+13 9 2 315.37 345.14 544.56 <
+-13 9 -2 317.25 590.58 552.23 <
+15 9 2 2176.24 2730.46 582.91 o
+-15 9 -2 2175.99 2139.88 429.51 o
+17 9 2 1677.28 1963.47 498.54 o
+-17 9 -2 1682.63 1434.26 444.85 o
+-12 10 2 4573.89 3988.31 383.49 o
+12 10 -2 4541.38 3658.51 452.52 o
+-10 10 2 522.88 928.05 368.15 o
+10 10 -2 517.39 536.89 414.17 <
+-8 10 2 1078.71 1311.54 368.15 o
+8 10 -2 1070.78 1150.47 444.85 o
+-6 10 2 1117.89 199.41 368.15 <
+6 10 -2 1091.51 1257.85 437.18 o
+-4 10 2 741.82 552.23 368.15 <
+4 10 -2 745.51 1066.11 452.52 o
+-2 10 2 4700.68 4103.36 368.15 o
+2 10 -2 4688.74 4693.93 467.86 o
+0 10 2 750.14 1311.54 345.14 o
+0 10 -2 742.50 1948.14 460.19 o
+2 10 2 1007.15 1119.79 337.47 o
+-2 10 -2 1019.85 966.40 483.20 <
+4 10 2 1028.79 1610.66 329.80 o
+-4 10 -2 1021.17 1633.67 506.21 o
+6 10 2 487.90 697.95 345.14 o
+-6 10 -2 491.46 897.37 498.54 <
+8 10 2 4211.62 4034.33 398.83 o
+-8 10 -2 4223.56 4502.19 529.22 o
+-41 1 3 623.02 628.93 421.84 <
+41 1 -3 611.43 168.74 368.15 <
+-39 1 3 2818.33 2768.81 444.85 o
+39 1 -3 2791.98 2607.74 421.84 o
+-37 1 3 10277.20 9065.73 444.85 o
+37 1 -3 10282.00 9464.56 460.19 o
+-35 1 3 60749.30 60269.50 506.21 o
+35 1 -3 60826.70 62102.60 529.22 o
+-33 1 3 47018.50 47944.10 460.19 o
+33 1 -3 47010.70 47322.80 536.89 o
+-31 1 3 546.90 -260.77 452.52 <
+31 1 -3 543.22 306.79 421.84 <
+-29 1 3 7183.27 8306.42 452.52 o
+29 1 -3 7134.72 8137.68 421.84 o
+-27 1 3 43773.60 43971.10 498.54 o
+27 1 -3 43772.50 43863.70 490.87 o
+-25 1 3 111343.00 108229.00 598.25 o
+25 1 -3 111396.00 111397.00 667.28 o
+-23 1 3 255496.00 253104.00 782.32 o
+23 1 -3 255574.00 262645.00 843.68 o
+-21 1 3 1550.46 1211.83 375.82 o
+21 1 -3 1553.44 2086.19 467.86 o
+-19 1 3 25671.70 27143.50 490.87 o
+19 1 -3 25596.40 28600.80 498.54 o
+-17 1 3 105793.00 102530.00 613.59 o
+17 1 -3 105924.00 102753.00 613.59 o
+-15 1 3 104785.00 99539.00 598.25 o
+15 1 -3 104843.00 99316.50 582.91 o
+-13 1 3 764543.00 739831.00 2139.88 o
+13 1 -3 764353.00 766982.00 2078.52 o
+-11 1 3 544.56 1227.17 483.20 o
+11 1 -3 524.14 682.61 360.48 <
+-9 1 3 85786.00 90166.40 513.88 o
+9 1 -3 85901.60 89675.60 851.35 o
+-7 1 3 142568.00 148143.00 613.59 o
+7 1 -3 142811.00 141301.00 1035.43 o
+-5 1 3 37173.90 39369.20 429.51 o
+5 1 -3 37081.50 37635.80 705.62 o
+-1 1 3 41675.10 39499.60 552.23 o
+1 1 -3 41584.10 38939.70 605.92 o
+1 1 3 149136.00 150083.00 728.63 o
+-1 1 -3 149346.00 147391.00 920.38 o
+3 1 3 88689.90 92375.40 659.60 o
+-3 1 -3 88698.60 89430.10 759.31 o
+5 1 3 1336.60 859.02 429.51 <
+-5 1 -3 1298.38 851.35 437.18 <
+9 1 3 103508.00 102745.00 928.05 o
+-9 1 -3 103480.00 100321.00 813.00 o
+11 1 3 101554.00 105222.00 928.05 o
+-11 1 -3 101585.00 98388.50 766.98 o
+13 1 3 29200.20 27948.80 690.28 o
+-13 1 -3 29274.10 26522.20 544.56 o
+15 1 3 1237.34 1441.93 552.23 o
+-15 1 -3 1247.44 1349.89 467.86 o
+17 1 3 250559.00 256586.00 1127.46 o
+-17 1 -3 250431.00 241438.00 1020.09 o
+19 1 3 109706.00 106403.00 805.33 o
+-19 1 -3 109711.00 103305.00 766.98 o
+21 1 3 43644.00 41861.90 613.59 o
+-21 1 -3 43628.00 41432.40 613.59 o
+23 1 3 7101.39 8007.30 521.55 o
+-23 1 -3 7151.14 7493.42 521.55 o
+25 1 3 183.73 7.67 483.20 <
+-25 1 -3 184.22 544.56 483.20 <
+27 1 3 46224.80 45574.10 636.59 o
+-27 1 -3 46190.60 38042.30 529.22 o
+29 1 3 59769.70 60292.50 659.60 o
+-29 1 -3 59752.30 50804.90 552.23 o
+31 1 3 9948.84 10438.60 506.21 o
+-31 1 -3 9941.76 8229.72 460.19 o
+33 1 3 2751.46 2392.98 490.87 o
+-33 1 -3 2774.41 2116.87 460.19 o
+35 1 3 273.88 253.10 490.87 <
+-35 1 -3 274.89 483.20 421.84 <
+-40 2 3 67.30 521.55 383.49 <
+40 2 -3 67.61 -161.07 398.83 <
+-38 2 3 133.83 214.76 444.85 <
+38 2 -3 133.26 429.51 437.18 <
+-36 2 3 353.79 559.90 375.82 <
+36 2 -3 353.72 613.59 360.48 <
+-34 2 3 36.24 314.46 414.17 <
+34 2 -3 36.56 115.05 437.18 <
+-32 2 3 579.48 882.03 383.49 o
+32 2 -3 577.83 882.03 444.85 <
+-30 2 3 664.05 1349.89 429.51 o
+30 2 -3 665.78 1104.45 452.52 o
+-28 2 3 776.82 15.34 437.18 <
+28 2 -3 775.05 659.60 421.84 <
+-26 2 3 2132.74 1764.06 360.48 o
+26 2 -3 2129.81 2914.53 437.18 o
+-24 2 3 754.37 1541.63 429.51 o
+24 2 -3 755.77 490.87 460.19 <
+-22 2 3 3098.14 2853.17 414.17 o
+22 2 -3 3095.00 2669.10 467.86 o
+-20 2 3 3867.65 3397.73 444.85 o
+20 2 -3 3871.02 4993.06 437.18 o
+-18 2 3 1106.68 7.67 352.81 <
+18 2 -3 1105.37 -23.01 575.24 <
+-16 2 3 12227.30 14304.20 398.83 o
+16 2 -3 12220.30 12900.60 743.97 o
+-14 2 3 2918.75 3374.72 291.45 o
+14 2 -3 2915.55 3037.25 774.65 o
+-12 2 3 5903.97 6373.62 345.14 o
+12 2 -3 5889.98 4801.31 813.00 o
+-10 2 3 14146.10 12547.80 391.16 o
+10 2 -3 14161.20 11842.20 820.67 o
+-8 2 3 2172.54 22871.40 598.25 o
+8 2 -3 2171.34 36539.00 905.04 o
+-6 2 3 13242.40 13544.90 513.88 o
+6 2 -3 13234.00 12916.00 406.50 o
+-4 2 3 16461.70 17993.40 529.22 o
+4 2 -3 16458.10 18169.80 483.20 o
+-2 2 3 18815.90 17916.70 605.92 o
+2 2 -3 18807.90 18323.20 475.53 o
+0 2 3 11974.60 13813.40 621.26 o
+0 2 -3 11974.00 13660.00 467.86 o
+2 2 3 2308.25 713.29 621.26 <
+-2 2 -3 2310.14 590.58 421.84 <
+4 2 3 12874.60 10952.50 429.51 o
+-4 2 -3 12861.40 11197.90 406.50 o
+6 2 3 6516.26 5821.40 452.52 o
+-6 2 -3 6521.07 5468.58 483.20 o
+8 2 3 3735.88 2600.07 437.18 o
+-8 2 -3 3737.96 2439.00 460.19 o
+10 2 3 12520.50 13913.10 475.53 o
+-10 2 -3 12516.00 13606.30 506.21 o
+12 2 3 504.65 391.16 437.18 <
+-12 2 -3 502.84 483.20 444.85 <
+14 2 3 2754.37 3528.12 659.60 o
+-14 2 -3 2752.04 3597.15 598.25 o
+16 2 3 3040.69 2983.56 590.58 o
+-16 2 -3 3037.89 2669.10 529.22 o
+18 2 3 1354.31 981.74 544.56 <
+-18 2 -3 1356.46 1035.43 559.90 <
+20 2 3 2105.94 2316.29 552.23 o
+-20 2 -3 2106.42 2646.09 567.57 o
+22 2 3 268.46 836.01 529.22 <
+-22 2 -3 266.79 368.15 513.88 <
+24 2 3 663.12 682.61 483.20 <
+-24 2 -3 662.99 1756.39 460.19 o
+26 2 3 422.27 1012.42 490.87 o
+-26 2 -3 421.51 905.04 483.20 <
+28 2 3 112.53 306.79 552.23 <
+-28 2 -3 112.95 -145.73 498.54 <
+30 2 3 269.39 690.28 513.88 <
+-30 2 -3 269.12 360.48 467.86 <
+32 2 3 57.93 130.39 506.21 <
+-32 2 -3 57.59 -214.76 490.87 <
+34 2 3 52.05 322.13 506.21 <
+-34 2 -3 52.29 360.48 460.19 <
+-39 3 3 569.61 253.10 398.83 <
+39 3 -3 538.50 314.46 598.25 <
+-37 3 3 4767.79 4808.98 452.52 o
+37 3 -3 4766.30 4655.58 628.93 o
+-35 3 3 22167.60 20340.40 460.19 o
+35 3 -3 22201.70 23661.40 690.28 o
+-33 3 3 13910.00 13782.70 437.18 o
+33 3 -3 13877.10 13813.40 720.96 o
+-31 3 3 385.94 720.96 398.83 <
+31 3 -3 382.68 429.51 521.55 <
+-29 3 3 4016.65 4371.80 329.80 o
+29 3 -3 3912.91 5499.26 651.93 o
+-27 3 3 9937.80 9825.04 360.48 o
+27 3 -3 9929.34 10714.70 743.97 o
+-25 3 3 21280.60 19880.20 383.49 o
+25 3 -3 21301.00 21406.50 659.60 o
+-23 3 3 42062.70 42728.60 375.82 o
+23 3 -3 42005.40 48304.50 759.31 o
+-21 3 3 83.49 935.72 314.46 o
+21 3 -3 80.90 1672.02 598.25 o
+-19 3 3 21579.50 20693.20 360.48 o
+19 3 -3 21403.70 23416.00 805.33 o
+-17 3 3 2567.38 3443.75 345.14 o
+17 3 -3 2547.49 2032.50 813.00 o
+-15 3 3 4882.07 3750.54 314.46 o
+15 3 -3 4900.80 3949.96 797.66 o
+-13 3 3 76866.20 73699.30 421.84 o
+13 3 -3 76695.70 77841.00 935.72 o
+-11 3 3 1686.43 2761.14 306.79 o
+11 3 -3 1658.34 2247.26 851.35 o
+-9 3 3 37277.60 37068.30 506.21 o
+9 3 -3 37191.30 35242.80 582.91 o
+-7 3 3 7286.78 8130.01 452.52 o
+7 3 -3 7249.70 6971.87 529.22 o
+-5 3 3 342.55 130.39 398.83 <
+5 3 -3 365.66 1273.19 498.54 o
+-3 3 3 78149.70 82872.40 598.25 o
+3 3 -3 78031.40 76061.60 728.63 o
+-1 3 3 856.59 1303.87 421.84 o
+1 3 -3 806.17 720.96 498.54 <
+1 3 3 8433.58 7685.16 414.17 o
+-1 3 -3 8489.64 6971.87 536.89 o
+3 3 3 34122.10 35081.80 536.89 o
+-3 3 -3 34068.90 35703.00 690.28 o
+5 3 3 1611.68 2323.96 383.49 o
+-5 3 -3 1631.05 2116.87 329.80 o
+7 3 3 75628.70 77426.90 605.92 o
+-7 3 -3 75704.30 69833.70 567.57 o
+9 3 3 4350.77 4149.37 398.83 o
+-9 3 -3 4306.41 4655.58 444.85 o
+11 3 3 3184.67 2952.88 444.85 o
+-11 3 -3 3245.95 3405.40 398.83 o
+13 3 3 20364.00 19857.20 529.22 o
+-13 3 -3 20435.70 19987.60 567.57 o
+15 3 3 360.84 191.75 506.21 <
+-15 3 -3 369.48 912.71 513.88 <
+17 3 3 42562.60 41938.60 575.24 o
+-17 3 -3 42572.00 40788.10 697.95 o
+19 3 3 19641.80 19466.00 598.25 o
+-19 3 -3 19646.20 20593.50 782.32 o
+21 3 3 10111.90 10070.50 544.56 o
+-21 3 -3 10146.50 10162.50 582.91 o
+23 3 3 3201.33 4425.49 529.22 o
+-23 3 -3 3268.93 3888.60 483.20 o
+25 3 3 273.58 751.64 552.23 <
+-25 3 -3 269.44 437.18 475.53 <
+27 3 3 13808.80 13821.00 659.60 o
+-27 3 -3 13825.70 12379.10 490.87 o
+29 3 3 21702.30 22303.80 690.28 o
+-29 3 -3 21693.70 17717.30 513.88 o
+31 3 3 4679.37 4647.91 667.28 o
+-31 3 -3 4682.72 4141.70 452.52 o
+33 3 3 574.67 1802.41 644.27 o
+-33 3 -3 606.28 329.80 444.85 <
+-38 4 3 31.12 214.76 368.15 <
+38 4 -3 31.79 383.49 697.95 <
+-36 4 3 579.54 651.93 375.82 <
+36 4 -3 579.92 713.29 559.90 <
+-34 4 3 36.97 452.52 352.81 <
+34 4 -3 36.26 322.13 651.93 <
+-32 4 3 975.40 912.71 360.48 o
+32 4 -3 978.75 322.13 598.25 <
+-30 4 3 1788.38 1357.56 329.80 o
+30 4 -3 1786.02 2485.02 682.61 o
+-28 4 3 129.20 145.73 306.79 <
+28 4 -3 130.71 191.75 567.57 <
+-26 4 3 4617.99 4356.46 337.47 o
+26 4 -3 4623.26 6342.94 743.97 o
+-24 4 3 689.08 981.74 322.13 o
+24 4 -3 685.82 1196.49 621.26 <
+-22 4 3 4996.04 4954.71 314.46 o
+22 4 -3 5004.21 5353.54 774.65 o
+-20 4 3 9730.98 9081.07 322.13 o
+20 4 -3 9726.09 10024.50 759.31 o
+-18 4 3 336.81 383.49 283.78 <
+18 4 -3 339.42 1234.84 644.27 <
+-16 4 3 16120.90 14764.40 352.81 o
+16 4 -3 16134.70 13567.90 874.36 o
+-14 4 3 4927.76 5269.17 306.79 o
+14 4 -3 4926.75 5200.14 851.35 o
+-12 4 3 12915.10 13000.40 406.50 o
+12 4 -3 12930.30 12678.20 751.64 o
+-10 4 3 26253.50 29099.30 421.84 o
+10 4 -3 26247.90 26913.40 513.88 o
+-8 4 3 317.32 214.76 299.12 <
+8 4 -3 317.43 391.16 452.52 <
+-6 4 3 35482.50 36638.70 429.51 o
+6 4 -3 35504.40 34828.70 552.23 o
+-4 4 3 9464.18 8007.30 368.15 o
+4 4 -3 9464.32 7777.20 544.56 o
+-2 4 3 7649.61 7585.46 345.14 o
+2 4 -3 7655.67 7432.06 567.57 o
+0 4 3 36904.60 36447.00 429.51 o
+0 4 -3 36916.30 32865.20 628.92 o
+2 4 3 382.44 199.41 329.80 <
+-2 4 -3 384.19 99.71 605.92 <
+4 4 3 26386.60 27987.20 452.52 o
+-4 4 -3 26404.10 25095.70 682.61 o
+6 4 3 12614.70 12563.20 452.52 o
+-6 4 -3 12619.30 11466.40 743.97 o
+8 4 3 4234.53 5138.78 414.17 o
+-8 4 -3 4231.93 4839.66 368.15 o
+10 4 3 15850.40 13936.10 406.50 o
+-10 4 -3 15858.80 13721.30 429.51 o
+12 4 3 618.17 513.88 444.85 <
+-12 4 -3 621.27 836.01 475.53 <
+14 4 3 9632.62 9541.26 490.87 o
+-14 4 -3 9634.42 9272.82 529.22 o
+16 4 3 4345.18 4931.70 421.84 o
+-16 4 -3 4352.27 5361.21 536.89 o
+18 4 3 751.57 667.28 490.87 <
+-18 4 -3 750.85 237.76 460.19 <
+20 4 3 4545.02 5108.10 529.22 o
+-20 4 -3 4547.28 4471.51 567.57 o
+22 4 3 210.78 306.79 521.55 <
+-22 4 -3 213.06 529.22 567.57 <
+24 4 3 1248.24 1066.11 498.54 o
+-24 4 -3 1247.35 1955.80 460.19 o
+26 4 3 889.06 935.72 552.23 <
+-26 4 -3 891.68 352.81 613.59 <
+28 4 3 126.74 874.36 621.26 <
+-28 4 -3 125.94 222.43 575.24 <
+30 4 3 485.82 644.27 598.25 <
+-30 4 -3 486.31 751.64 559.90 <
+32 4 3 113.18 928.05 613.59 <
+-32 4 -3 113.98 -145.73 575.24 <
+-35 5 3 27905.80 25594.20 421.84 o
+35 5 -3 27933.30 30679.30 697.95 o
+-33 5 3 32862.60 30725.30 421.84 o
+33 5 -3 32882.90 33655.20 797.66 o
+-31 5 3 79.36 437.18 352.81 <
+31 5 -3 78.89 368.15 598.25 <
+-29 5 3 21267.10 20631.80 391.16 o
+29 5 -3 21276.60 21828.30 828.34 o
+-27 5 3 26265.00 27458.00 360.48 o
+27 5 -3 26298.50 28570.10 766.98 o
+-25 5 3 62162.20 58750.80 398.83 o
+25 5 -3 62200.00 65109.10 874.36 o
+-23 5 3 156278.00 153297.00 513.88 o
+23 5 -3 156358.00 169104.00 1165.81 o
+-21 5 3 224.71 736.30 306.79 o
+21 5 -3 223.35 2017.16 651.93 o
+-19 5 3 74117.60 75754.80 414.17 o
+19 5 -3 74143.50 73684.00 1004.75 o
+-17 5 3 84049.50 87351.60 429.51 o
+17 5 -3 84126.10 84291.40 920.38 o
+-15 5 3 77927.10 71966.00 398.83 o
+15 5 -3 77949.10 72081.00 1035.43 o
+-13 5 3 432792.00 448010.00 951.06 o
+13 5 -3 432910.00 425062.00 1027.76 o
+-11 5 3 8089.27 8191.37 383.49 o
+11 5 -3 8094.41 8160.69 483.20 o
+-9 5 3 146510.00 152422.00 582.91 o
+9 5 -3 146510.00 149569.00 728.63 o
+-7 5 3 166300.00 167877.00 613.59 o
+7 5 -3 166380.00 168076.00 766.98 o
+-5 5 3 49880.60 46816.60 429.51 o
+5 5 -3 49884.90 46571.20 582.91 o
+3 5 -3 602803.00 586841.00 1296.20 o
+-1 5 3 45398.60 46195.30 437.18 o
+1 5 -3 45427.00 45489.70 659.60 o
+1 5 3 159744.00 166995.00 613.59 o
+-1 5 -3 159677.00 160652.00 897.37 o
+3 5 3 153263.00 150589.00 613.59 o
+-3 5 -3 153242.00 141247.00 882.03 o
+5 5 3 7862.62 7685.16 352.81 o
+-5 5 -3 7857.96 7332.35 598.25 o
+7 5 3 434349.00 436413.00 1112.12 o
+-7 5 -3 434308.00 382325.00 1388.24 o
+9 5 3 74759.40 74082.80 613.59 o
+-9 5 -3 74753.40 65830.10 897.37 o
+11 5 3 86437.60 85380.50 628.92 o
+-11 5 -3 86358.60 80625.20 1012.42 o
+13 5 3 73726.60 75823.90 644.27 o
+-13 5 -3 73684.60 74535.30 667.27 o
+15 5 3 426.71 230.10 452.52 <
+-15 5 -3 432.63 667.28 483.20 <
+17 5 3 158085.00 158006.00 774.65 o
+-17 5 -3 157981.00 154378.00 859.02 o
+19 5 3 58832.20 63544.50 659.60 o
+-19 5 -3 58828.20 62018.20 636.59 o
+21 5 3 25886.50 27365.90 559.90 o
+-21 5 -3 25866.60 26783.00 598.25 o
+23 5 3 21995.10 24627.80 552.23 o
+-23 5 -3 21961.20 21161.00 521.55 o
+25 5 3 158.53 529.22 559.90 <
+-25 5 -3 159.57 69.03 598.25 <
+27 5 3 32385.20 33524.80 682.61 o
+-27 5 -3 32350.60 31676.40 636.59 o
+29 5 3 26975.90 26867.40 697.95 o
+-29 5 -3 26961.10 27342.90 766.98 o
+-34 6 3 65.35 766.98 383.49 <
+34 6 -3 66.35 -391.16 613.59 <
+-32 6 3 619.89 245.43 352.81 <
+32 6 -3 617.21 1840.76 690.28 o
+-30 6 3 744.34 1311.54 329.80 o
+30 6 -3 746.15 122.72 736.30 <
+-28 6 3 458.08 260.77 322.13 <
+28 6 -3 456.05 46.02 598.25 <
+-26 6 3 2851.02 2891.52 306.79 o
+26 6 -3 2847.89 2722.79 774.65 o
+-24 6 3 633.20 690.28 306.79 o
+24 6 -3 636.26 2032.50 613.59 o
+-22 6 3 2627.25 2960.55 299.12 o
+22 6 -3 2620.31 4663.25 720.96 o
+-20 6 3 4873.21 5407.23 283.78 o
+20 6 -3 4874.75 4272.09 789.99 o
+-18 6 3 742.44 628.93 260.77 o
+18 6 -3 739.75 828.34 651.93 <
+-16 6 3 10036.50 9717.67 276.11 o
+16 6 -3 10025.20 10147.20 813.00 o
+-14 6 3 3145.62 3328.70 352.81 o
+14 6 -3 3149.75 2761.14 398.83 o
+-12 6 3 6255.76 6143.53 345.14 o
+12 6 -3 6247.71 6105.18 452.52 o
+-10 6 3 13512.70 13414.50 345.14 o
+10 6 -3 13506.10 13537.20 467.86 o
+-8 6 3 411.15 490.87 306.79 <
+8 6 -3 411.48 283.78 483.20 <
+-6 6 3 18310.00 17840.00 360.48 o
+6 6 -3 18294.80 18913.80 521.55 o
+-4 6 3 5899.96 5859.75 306.79 o
+4 6 -3 5897.48 6519.35 467.86 o
+-2 6 3 6140.30 6112.85 306.79 o
+2 6 -3 6136.74 6181.88 513.88 o
+0 6 3 18039.40 18315.50 314.46 o
+0 6 -3 18027.40 19013.50 506.21 o
+2 6 3 354.57 498.54 299.12 <
+-2 6 -3 354.58 268.44 460.19 <
+4 6 3 13157.00 13314.80 322.13 o
+-4 6 -3 13148.70 12808.60 544.56 o
+6 6 3 6085.96 6527.02 345.14 o
+-6 6 -3 6076.65 6059.16 552.23 o
+8 6 3 3137.77 2745.80 360.48 o
+-8 6 -3 3139.86 2799.49 567.57 o
+10 6 3 9599.55 10170.20 452.52 o
+-10 6 -3 9590.55 8789.62 605.92 o
+12 6 3 270.86 813.00 452.52 <
+-12 6 -3 269.15 253.10 467.86 <
+14 6 3 4662.81 4755.29 483.20 o
+-14 6 -3 4662.88 4778.30 598.25 o
+16 6 3 2426.38 2093.86 414.17 o
+-16 6 -3 2419.39 1955.80 529.22 o
+18 6 3 794.38 905.04 467.86 <
+-18 6 -3 796.54 92.04 506.21 <
+20 6 3 2493.56 3397.73 529.22 o
+-20 6 -3 2490.14 2078.52 475.53 o
+22 6 3 90.42 176.41 544.56 <
+-22 6 -3 88.97 736.30 552.23 <
+24 6 3 731.95 1449.60 529.22 o
+-24 6 -3 733.57 483.20 582.91 <
+26 6 3 485.13 352.81 590.58 <
+-26 6 -3 482.53 391.16 529.22 <
+28 6 3 204.67 559.90 628.93 <
+-28 6 -3 205.22 1802.41 674.94 o
+-29 7 3 2549.70 3359.38 375.82 o
+29 7 -3 2517.24 3689.19 636.59 o
+-27 7 3 2833.39 2991.23 345.14 o
+27 7 -3 2824.62 1986.48 766.98 o
+-25 7 3 9230.58 8329.43 329.80 o
+25 7 -3 9221.61 9487.57 736.30 o
+-23 7 3 18553.20 18545.60 352.81 o
+23 7 -3 18516.80 16958.00 797.66 o
+-21 7 3 130.96 222.43 276.11 <
+21 7 -3 128.71 30.68 728.63 <
+-19 7 3 3470.80 4394.81 260.77 o
+19 7 -3 3414.88 3551.13 605.92 o
+-17 7 3 4587.91 4540.54 268.44 o
+17 7 -3 4563.02 4893.35 720.96 o
+-15 7 3 7468.37 7654.48 360.48 o
+15 7 -3 7461.31 7462.74 383.49 o
+-13 7 3 34509.00 34782.60 383.49 o
+13 7 -3 34473.30 33363.70 490.87 o
+-11 7 3 667.38 751.64 329.80 o
+11 7 -3 658.51 697.95 414.17 <
+-9 7 3 3443.71 3620.16 314.46 o
+9 7 -3 3414.24 4295.10 421.84 o
+-7 7 3 5059.59 4693.93 291.45 o
+7 7 -3 5036.97 4233.74 444.85 o
+-5 7 3 3586.73 3742.87 306.79 o
+5 7 -3 3590.63 3811.90 444.85 o
+-3 7 3 40800.60 39407.60 360.48 o
+3 7 -3 40822.40 38732.60 567.57 o
+-1 7 3 3106.12 3750.54 306.79 o
+1 7 -3 3102.91 3098.61 460.19 o
+1 7 3 4462.81 4433.16 306.79 o
+-1 7 -3 4489.26 4394.81 536.89 o
+3 7 3 3910.88 4341.12 322.13 o
+-3 7 -3 3929.94 3819.57 536.89 o
+5 7 3 798.09 644.27 322.13 <
+-5 7 -3 806.86 1365.23 506.21 o
+7 7 3 34804.60 35250.50 421.84 o
+-7 7 -3 34880.70 33785.60 636.59 o
+9 7 3 7154.48 6910.51 352.81 o
+-9 7 -3 7160.57 6335.27 559.90 o
+11 7 3 4859.99 5108.10 375.82 o
+-11 7 -3 4896.94 4333.45 567.57 o
+13 7 3 3532.51 3850.25 406.50 o
+-13 7 -3 3587.41 3712.19 460.19 o
+15 7 3 291.07 360.48 421.84 <
+-15 7 -3 295.42 674.94 467.86 <
+17 7 3 19051.20 20938.60 483.20 o
+-17 7 -3 19098.00 17809.30 728.63 o
+19 7 3 8827.76 9234.47 475.53 o
+-19 7 -3 8843.63 10492.30 613.59 o
+21 7 3 3205.99 2914.53 452.52 o
+-21 7 -3 3226.11 2469.68 598.25 o
+23 7 3 2768.43 2423.66 529.22 o
+-23 7 -3 2802.47 3528.12 613.59 o
+-26 8 3 359.51 1027.76 337.47 o
+26 8 -3 360.55 -1058.44 766.98 <
+-24 8 3 185.64 375.82 314.46 <
+24 8 -3 183.82 421.84 613.59 <
+-22 8 3 392.80 383.49 314.46 <
+22 8 -3 396.16 -1081.45 743.97 <
+-20 8 3 907.23 935.72 299.12 o
+20 8 -3 906.73 1756.39 697.95 o
+-18 8 3 286.02 161.07 283.78 <
+18 8 -3 286.41 598.25 690.28 <
+-16 8 3 1562.29 2147.55 322.13 o
+16 8 -3 1566.56 2155.22 720.96 o
+-14 8 3 594.53 1142.80 337.47 o
+14 8 -3 592.55 490.87 414.17 <
+-12 8 3 1065.70 1288.53 306.79 o
+12 8 -3 1069.44 1610.66 421.84 o
+-10 8 3 2300.73 2270.27 314.46 o
+10 8 -3 2303.81 2822.49 444.85 o
+-8 8 3 154.67 -46.02 322.13 <
+8 8 -3 155.48 61.36 467.86 <
+-6 8 3 2684.81 3259.68 314.46 o
+6 8 -3 2689.84 2883.85 467.86 o
+-4 8 3 1499.21 1771.73 329.80 o
+4 8 -3 1501.11 2009.49 475.53 o
+-2 8 3 1507.37 1610.66 306.79 o
+2 8 -3 1509.64 2354.64 513.88 o
+0 8 3 2886.07 3198.32 329.80 o
+0 8 -3 2890.79 2623.08 513.88 o
+2 8 3 14.38 130.39 306.79 <
+-2 8 -3 14.35 613.59 513.88 <
+4 8 3 2723.94 2239.59 322.13 o
+-4 8 -3 2727.24 2968.22 567.57 o
+6 8 3 1214.57 1649.01 352.81 o
+-6 8 -3 1218.24 1027.76 529.22 <
+8 8 3 668.50 912.71 368.15 o
+-8 8 -3 667.69 1027.76 552.23 <
+10 8 3 2224.72 2147.55 352.81 o
+-10 8 -3 2228.76 1541.63 575.24 o
+12 8 3 32.18 291.45 429.51 <
+-12 8 -3 32.47 383.49 429.51 <
+14 8 3 1012.45 1587.65 529.22 o
+-14 8 -3 1012.28 598.25 460.19 <
+16 8 3 647.63 1012.42 567.57 <
+-16 8 -3 650.52 475.53 498.54 <
+18 8 3 243.16 -291.45 467.86 <
+-18 8 -3 241.52 820.67 644.27 <
+20 8 3 644.76 1702.70 506.21 o
+-20 8 -3 645.91 299.12 582.91 <
+-19 9 3 3908.90 4417.82 322.13 o
+19 9 -3 3925.76 4187.72 874.36 o
+-17 9 3 4852.40 4226.07 406.50 o
+17 9 -3 4859.19 3788.89 789.99 o
+-15 9 3 2980.47 2515.70 406.50 o
+15 9 -3 2993.53 2707.45 467.86 o
+-13 9 3 16908.80 16520.80 398.83 o
+13 9 -3 16925.20 16045.30 498.54 o
+-11 9 3 1551.74 1825.42 345.14 o
+11 9 -3 1554.31 2262.60 437.18 o
+-9 9 3 5158.69 5039.07 337.47 o
+9 9 -3 5175.09 6473.33 475.53 o
+-7 9 3 6155.52 6043.82 345.14 o
+7 9 -3 6150.52 6197.22 467.86 o
+-5 9 3 2547.31 2699.78 322.13 o
+5 9 -3 2552.10 2055.51 467.86 o
+-3 9 3 19963.00 21605.90 368.15 o
+3 9 -3 19963.90 20854.20 567.57 o
+-1 9 3 2602.04 2684.44 337.47 o
+1 9 -3 2595.14 2262.60 590.58 o
+1 9 3 5899.06 7278.66 329.80 o
+-1 9 -3 5900.24 6120.52 590.58 o
+3 9 3 5522.11 5836.74 352.81 o
+-3 9 -3 5498.75 6611.39 582.91 o
+5 9 3 1631.81 1649.01 337.47 o
+-5 9 -3 1626.88 1917.46 536.89 o
+7 9 3 17030.20 17978.10 406.50 o
+-7 9 -3 17013.20 15960.90 575.24 o
+9 9 3 3204.86 3152.30 368.15 o
+-9 9 -3 3190.33 2439.00 552.23 o
+11 9 3 4798.65 4264.42 567.57 o
+-11 9 -3 4789.98 3972.97 590.58 o
+13 9 3 4183.27 5928.77 490.87 o
+-13 9 -3 4161.15 3850.25 452.52 o
+-8 10 3 2.55 230.10 368.15 <
+8 10 -3 2.54 -1050.77 521.55 <
+-6 10 3 78.30 115.05 352.81 <
+6 10 -3 77.96 1012.42 529.22 <
+-4 10 3 0.77 345.14 345.14 <
+4 10 -3 0.76 -529.22 529.22 <
+-2 10 3 93.69 521.55 329.80 <
+2 10 -3 93.59 -628.93 544.56 <
+0 10 3 102.60 153.40 352.81 <
+0 10 -3 102.36 -268.44 582.91 <
+2 10 3 14.15 -153.40 360.48 <
+-2 10 -3 14.22 130.39 621.26 <
+-40 0 4 2015.41 1825.42 513.88 o
+40 0 -4 2014.19 1825.42 621.26 o
+-38 0 4 8555.40 8199.04 605.92 o
+38 0 -4 8562.37 5959.45 651.93 o
+-36 0 4 39486.70 36447.00 736.30 o
+36 0 -4 39553.00 41516.80 682.61 o
+-34 0 4 33669.10 32481.70 720.96 o
+34 0 -4 33720.90 34069.40 736.30 o
+-32 0 4 39.72 -222.43 659.60 <
+32 0 -4 38.86 1587.65 529.22 o
+-30 0 4 3452.85 2331.63 659.60 o
+30 0 -4 3411.32 2638.42 651.93 o
+-28 0 4 36261.30 37850.60 667.28 o
+28 0 -4 36334.50 39568.60 789.99 o
+-26 0 4 67214.90 71245.00 859.02 o
+26 0 -4 67336.50 72924.70 874.36 o
+-24 0 4 160533.00 160200.00 951.06 o
+24 0 -4 160688.00 168437.00 966.40 o
+-22 0 4 135.00 -268.44 605.92 <
+22 0 -4 131.25 -268.44 628.93 <
+-20 0 4 9482.94 9464.56 544.56 o
+20 0 -4 9464.18 9594.95 529.22 o
+-18 0 4 69277.90 69879.80 782.32 o
+18 0 -4 69265.30 67962.30 674.94 o
+-16 0 4 55804.50 55084.70 713.29 o
+16 0 -4 55814.90 53382.00 667.28 o
+-14 0 4 447337.00 444543.00 1411.25 o
+14 0 -4 447882.00 448846.00 1342.22 o
+-12 0 4 1823.04 1626.00 529.22 o
+12 0 -4 1788.07 690.28 460.19 <
+-10 0 4 30660.60 29268.00 559.90 o
+10 0 -4 30530.40 30226.80 567.57 o
+-8 0 4 71534.70 69005.40 690.28 o
+8 0 -4 71373.90 67831.90 605.92 o
+-6 0 4 21376.30 19143.90 391.16 o
+-2 0 4 19892.60 19680.80 414.17 o
+0 0 4 70331.10 73983.10 529.22 o
+2 0 4 28291.10 31024.40 552.23 o
+-2 0 -4 28165.80 29375.40 713.29 o
+4 0 4 1942.00 567.57 444.85 <
+-4 0 -4 1985.75 813.00 529.22 <
+8 0 4 55055.20 55913.00 728.63 o
+-8 0 -4 55063.50 55621.60 782.32 o
+10 0 4 68501.60 68384.10 866.69 o
+-10 0 -4 68424.50 68384.10 874.36 o
+12 0 4 9344.97 9035.05 667.28 o
+-12 0 -4 9255.68 9150.10 659.60 o
+14 0 4 105.92 590.58 628.93 <
+-14 0 -4 109.20 84.37 559.90 <
+16 0 4 157656.00 158374.00 1234.84 o
+-16 0 -4 157500.00 152453.00 1112.12 o
+18 0 4 66864.00 69964.10 958.73 o
+-18 0 -4 66823.50 68468.50 912.71 o
+20 0 4 33831.50 38448.80 897.37 o
+-20 0 -4 33788.90 38724.90 836.01 o
+22 0 4 3607.29 2462.01 782.32 o
+-22 0 -4 3620.34 1955.80 720.96 o
+24 0 4 108.20 506.21 736.30 <
+-24 0 -4 105.01 -398.83 728.63 <
+26 0 4 33919.20 35227.50 897.37 o
+-26 0 -4 33858.90 31300.60 874.36 o
+28 0 4 38024.60 41340.30 928.05 o
+-28 0 -4 38000.40 31599.70 805.33 o
+30 0 4 7514.43 7508.76 759.31 o
+-30 0 -4 7504.76 6135.86 651.93 o
+32 0 4 2278.08 1549.30 759.31 o
+-32 0 -4 2293.38 1587.65 636.59 o
+-41 1 4 401.89 383.49 452.52 <
+41 1 -4 401.61 -268.44 421.84 <
+-39 1 4 501.60 1718.04 444.85 o
+39 1 -4 502.36 1472.61 429.51 o
+-37 1 4 2643.91 2262.60 391.16 o
+37 1 -4 2644.25 2784.15 391.16 o
+-35 1 4 51.18 245.43 406.50 <
+35 1 -4 50.90 705.62 406.50 <
+-33 1 4 5611.17 6388.96 414.17 o
+33 1 -4 5613.28 6335.27 475.53 o
+-31 1 4 5799.60 5744.70 460.19 o
+31 1 -4 5798.98 5737.03 460.19 o
+-29 1 4 2804.29 3428.41 429.51 o
+29 1 -4 2806.77 3942.29 467.86 o
+-27 1 4 23767.90 23661.40 506.21 o
+27 1 -4 23768.90 24704.50 452.52 o
+-25 1 4 2672.05 1886.78 460.19 o
+25 1 -4 2670.46 2646.09 460.19 o
+-23 1 4 30013.60 30334.20 498.54 o
+23 1 -4 30020.80 29567.20 483.20 o
+-21 1 4 43008.00 41386.40 483.20 o
+21 1 -4 43008.50 41854.20 452.52 o
+-19 1 4 5281.64 4924.03 452.52 o
+19 1 -4 5284.98 5353.54 391.16 o
+-17 1 4 105015.00 108873.00 628.93 o
+17 1 -4 105024.00 105161.00 536.89 o
+-15 1 4 23472.70 24021.90 452.52 o
+15 1 -4 23465.30 23500.30 383.49 o
+-13 1 4 73422.40 74343.60 559.90 o
+13 1 -4 73416.20 69833.70 751.64 o
+-11 1 4 144844.00 141685.00 521.55 o
+11 1 -4 144867.00 140841.00 912.71 o
+-9 1 4 1226.09 1526.29 337.47 o
+9 1 -4 1228.06 1503.29 552.23 o
+-7 1 4 191696.00 196255.00 621.26 o
+7 1 -4 191709.00 192375.00 1043.10 o
+-5 1 4 77738.40 82174.50 452.52 o
+5 1 -4 77736.10 81545.60 820.67 o
+-3 1 4 82759.50 82519.60 613.59 o
+-1 1 4 188315.00 196762.00 697.95 o
+1 1 -4 188330.00 191500.00 989.41 o
+1 1 4 2346.95 1810.08 329.80 o
+-1 1 -4 2345.89 1894.45 483.20 o
+3 1 4 142063.00 146356.00 674.94 o
+-3 1 -4 142058.00 144868.00 905.04 o
+5 1 4 74212.30 74911.20 559.90 o
+-5 1 -4 74227.90 74765.40 720.96 o
+7 1 4 25402.90 23469.70 460.19 o
+-7 1 -4 25404.40 23569.40 582.91 o
+9 1 4 106528.00 109356.00 797.66 o
+-9 1 -4 106537.00 108651.00 797.66 o
+11 1 4 5009.97 4931.70 506.21 o
+-11 1 -4 5010.56 5169.46 437.18 o
+13 1 4 39946.20 41371.00 667.28 o
+-13 1 -4 39941.80 41325.00 575.24 o
+15 1 4 31307.30 29314.10 651.93 o
+-15 1 -4 31313.30 29789.60 552.23 o
+17 1 4 3195.93 3006.57 536.89 o
+-17 1 -4 3194.06 2630.75 460.19 o
+19 1 4 22885.90 23277.90 628.93 o
+-19 1 -4 22891.50 23362.30 559.90 o
+21 1 4 2996.49 3336.37 513.88 o
+-21 1 -4 2997.26 3512.78 490.87 o
+23 1 4 5725.22 5644.99 575.24 o
+-23 1 -4 5722.95 4947.04 559.90 o
+25 1 4 5475.54 5591.30 552.23 o
+-25 1 -4 5478.28 6204.89 544.56 o
+27 1 4 69.17 107.38 521.55 <
+-27 1 -4 69.00 774.65 513.88 <
+29 1 4 2484.92 2262.60 544.56 o
+-29 1 -4 2485.04 2078.52 498.54 o
+31 1 4 512.22 674.94 552.23 <
+-31 1 -4 512.93 897.37 498.54 <
+33 1 4 345.82 184.08 536.89 <
+-33 1 -4 345.57 283.78 498.54 <
+-40 2 4 2038.48 1280.86 444.85 o
+40 2 -4 2002.22 1395.91 414.17 o
+-38 2 4 5083.60 3627.83 460.19 o
+38 2 -4 5082.74 3474.43 467.86 o
+-36 2 4 32396.00 34629.30 444.85 o
+36 2 -4 32423.00 32696.50 536.89 o
+-34 2 4 23906.90 23600.00 490.87 o
+34 2 -4 23878.50 22771.70 498.54 o
+-32 2 4 90.69 544.56 398.83 <
+32 2 -4 90.48 690.28 437.18 <
+-30 2 4 3643.57 2876.18 421.84 o
+30 2 -4 3504.61 3136.96 437.18 o
+-28 2 4 18573.10 18975.10 452.52 o
+28 2 -4 18584.20 19887.90 460.19 o
+-26 2 4 52072.80 53711.80 490.87 o
+26 2 -4 52097.80 58605.10 567.57 o
+-24 2 4 101963.00 104892.00 605.92 o
+24 2 -4 101927.00 108283.00 605.92 o
+-22 2 4 915.74 805.33 360.48 o
+22 2 -4 914.13 1181.15 682.61 <
+-20 2 4 4720.12 4141.70 460.19 o
+20 2 -4 4534.92 3995.98 728.63 o
+-18 2 4 31213.80 32059.90 375.82 o
+18 2 -4 31150.30 31170.20 805.33 o
+-16 2 4 39916.80 39929.10 375.82 o
+16 2 -4 39873.20 39867.70 713.29 o
+-14 2 4 260564.00 266710.00 651.94 o
+14 2 -4 260754.00 258212.00 1265.52 o
+-12 2 4 420.67 713.29 352.81 o
+12 2 -4 397.83 1127.46 613.59 <
+-10 2 4 9296.35 8613.21 383.49 o
+10 2 -4 9195.68 9395.53 605.92 o
+-8 2 4 21815.80 21092.00 444.85 o
+8 2 -4 21701.90 20969.30 674.94 o
+-6 2 4 7687.33 7777.20 667.28 o
+6 2 -4 7686.80 7079.25 375.82 o
+-4 2 4 375989.00 375783.00 1296.20 o
+4 2 -4 376185.00 383345.00 958.73 o
+-2 2 4 8543.68 7393.71 613.59 o
+2 2 -4 8561.83 7501.09 375.82 o
+0 2 4 22677.00 21414.10 705.62 o
+0 2 -4 22756.20 22150.40 506.21 o
+2 2 4 8337.36 8252.73 513.88 o
+-2 2 -4 8400.39 9372.52 444.85 o
+4 2 4 1087.89 905.04 590.58 <
+-4 2 -4 1129.74 1296.20 429.51 o
+6 2 4 264102.00 263297.00 966.40 o
+-6 2 -4 264121.00 262293.00 1020.09 o
+8 2 4 41371.80 39729.70 536.89 o
+-8 2 -4 41431.60 38234.10 567.57 o
+10 2 4 31654.20 32167.20 529.22 o
+-10 2 -4 31758.90 30825.00 536.89 o
+12 2 4 3761.67 3919.28 460.19 o
+-12 2 -4 3865.73 4049.67 483.20 o
+14 2 4 874.14 859.02 490.87 <
+-14 2 -4 888.05 1311.54 521.55 o
+16 2 4 100970.00 107669.00 828.34 o
+-16 2 -4 101013.00 98772.00 805.33 o
+18 2 4 53094.70 53458.70 1050.77 o
+-18 2 -4 53099.60 55360.80 1004.75 o
+20 2 4 18400.70 18952.10 705.62 o
+-20 2 -4 18421.60 20294.40 682.61 o
+22 2 4 2830.34 2745.80 575.24 o
+-22 2 -4 2919.54 3044.92 575.24 o
+24 2 4 143.15 490.87 559.90 <
+-24 2 -4 141.85 291.45 598.25 <
+26 2 4 23745.00 21981.70 621.26 o
+-26 2 -4 23749.10 24574.10 659.60 o
+28 2 4 31329.50 29774.30 690.28 o
+-28 2 -4 31322.40 29858.60 697.95 o
+30 2 4 4715.98 4195.39 605.92 o
+-30 2 -4 4719.35 4348.79 590.58 o
+32 2 4 1991.52 2132.21 575.24 o
+-32 2 -4 2021.52 2001.82 567.57 o
+-39 3 4 128.77 951.06 337.47 o
+39 3 -4 128.08 -30.68 575.24 <
+-37 3 4 546.30 582.91 352.81 <
+37 3 -4 545.91 2155.22 567.57 o
+-35 3 4 91.35 291.45 360.48 <
+35 3 -4 91.92 -1518.62 628.93 <
+-33 3 4 1011.73 536.89 337.47 <
+33 3 -4 1009.23 1119.79 690.28 <
+-31 3 4 1319.43 1204.16 345.14 o
+31 3 -4 1320.86 2699.78 644.27 o
+-29 3 4 438.78 306.79 322.13 <
+29 3 -4 437.27 383.49 659.60 <
+-27 3 4 4233.82 4586.55 329.80 o
+27 3 -4 4232.20 5338.20 690.28 o
+-25 3 4 841.31 674.94 337.47 <
+25 3 -4 843.63 1779.40 598.25 o
+-23 3 4 5178.24 4724.61 337.47 o
+23 3 -4 5170.19 5529.94 605.92 o
+-21 3 4 8826.41 9717.67 329.80 o
+21 3 -4 8826.73 8873.99 743.97 o
+-19 3 4 887.17 1058.44 306.79 o
+19 3 -4 885.38 23.01 621.26 <
+-17 3 4 15772.50 14749.10 368.15 o
+17 3 -4 15766.20 14196.80 813.00 o
+-15 3 4 5512.32 5085.09 314.46 o
+15 3 -4 5517.67 5407.23 789.99 o
+-13 3 4 12764.40 12448.10 322.13 o
+13 3 -4 12759.40 12363.80 813.00 o
+-11 3 4 26216.40 27066.80 345.14 o
+11 3 -4 26201.30 26698.70 820.67 o
+-9 3 4 552.54 398.83 421.84 <
+9 3 -4 551.51 -138.06 360.48 <
+-7 3 4 35159.50 35779.70 529.22 o
+7 3 -4 35151.40 34322.50 460.19 o
+-5 3 4 9583.92 7685.16 483.20 o
+5 3 -4 9585.29 7194.29 406.50 o
+-3 3 4 7037.34 7876.91 460.19 o
+3 3 -4 7034.27 7639.14 375.82 o
+-1 3 4 38618.60 37336.70 536.89 o
+1 3 -4 38602.20 35595.70 467.86 o
+1 3 4 469.32 176.41 391.16 <
+-1 3 -4 467.09 368.15 383.49 <
+3 3 4 26756.10 27810.80 575.24 o
+-3 3 -4 26757.40 27557.70 483.20 o
+5 3 4 12371.90 12716.60 429.51 o
+-5 3 -4 12360.40 11374.30 460.19 o
+7 3 4 4385.36 4962.38 352.81 o
+-7 3 -4 4383.42 4486.85 368.15 o
+9 3 4 15837.40 14449.90 475.53 o
+-9 3 -4 15828.50 14166.20 498.54 o
+11 3 4 584.15 276.11 444.85 <
+-11 3 -4 583.22 728.63 483.20 <
+13 3 4 10291.30 8114.67 521.55 o
+-13 3 -4 10294.50 8651.56 521.55 o
+15 3 4 4477.09 5575.96 498.54 o
+-15 3 -4 4470.96 4486.85 513.88 o
+17 3 4 684.67 644.27 467.86 <
+-17 3 -4 684.86 1311.54 475.53 o
+19 3 4 4641.10 4433.16 498.54 o
+-19 3 -4 4636.17 3719.86 529.22 o
+21 3 4 123.70 720.96 475.53 <
+-21 3 -4 123.01 559.90 575.24 <
+23 3 4 1216.65 2331.63 605.92 o
+-23 3 -4 1218.68 1441.93 582.91 o
+25 3 4 1040.21 1227.17 628.93 <
+-25 3 -4 1037.67 820.67 628.93 <
+27 3 4 208.58 -513.88 613.59 <
+-27 3 -4 208.72 1273.19 613.59 o
+29 3 4 527.52 122.72 636.59 <
+-29 3 -4 527.29 759.31 621.26 <
+31 3 4 49.09 728.63 690.28 <
+-31 3 -4 48.55 567.57 621.26 <
+-36 4 4 21111.80 21283.80 421.84 o
+36 4 -4 21136.90 22173.50 743.97 o
+-34 4 4 21989.90 22181.10 391.16 o
+34 4 -4 21996.00 25256.70 751.64 o
+-32 4 4 99.49 -345.14 322.13 <
+32 4 -4 97.55 621.26 644.27 <
+-30 4 4 7095.22 7554.78 322.13 o
+30 4 -4 7066.68 8206.71 590.58 o
+-28 4 4 16524.00 17502.50 337.47 o
+28 4 -4 16547.80 19788.10 621.26 o
+-26 4 4 37469.60 40258.90 398.83 o
+26 4 -4 37481.20 45159.90 728.63 o
+-24 4 4 94599.30 98411.50 483.20 o
+24 4 -4 94644.70 109487.00 912.71 o
+-22 4 4 21.47 1027.76 283.78 o
+22 4 -4 20.94 1288.53 628.93 o
+-20 4 4 17377.50 17142.10 352.81 o
+20 4 -4 17330.50 18116.10 697.95 o
+-18 4 4 41694.40 42161.00 391.16 o
+18 4 -4 41721.50 47353.50 958.73 o
+-16 4 4 37782.90 39008.70 398.83 o
+16 4 -4 37755.80 42682.60 981.74 o
+-14 4 4 238048.00 237903.00 613.59 o
+14 4 -4 238103.00 261495.00 1533.96 o
+-12 4 4 1859.54 2738.13 414.17 o
+12 4 -4 1856.89 2024.83 866.69 o
+-10 4 4 40954.00 39024.10 475.53 o
+10 4 -4 40932.80 37812.20 575.24 o
+-8 4 4 48053.90 47790.70 490.87 o
+8 4 -4 47999.10 46034.30 559.90 o
+-6 4 4 12540.10 13890.10 414.17 o
+6 4 -4 12494.80 13008.00 521.55 o
+-4 4 4 349136.00 374962.00 943.39 o
+4 4 -4 349134.00 350779.00 1035.43 o
+-2 4 4 13845.90 13238.10 429.51 o
+2 4 -4 13838.00 12870.00 498.54 o
+0 4 4 50274.60 48872.10 475.53 o
+0 4 -4 50252.90 45397.70 567.57 o
+2 4 4 38627.70 38947.40 467.86 o
+-2 4 -4 38572.40 36416.30 544.56 o
+4 4 4 2410.80 2653.76 429.51 o
+-4 4 -4 2404.45 2761.14 513.88 o
+6 4 4 235564.00 235049.00 828.34 o
+-6 4 -4 235417.00 221067.00 851.35 o
+8 4 4 38725.20 38494.80 521.55 o
+-8 4 -4 38748.40 38525.50 490.87 o
+10 4 4 40119.70 39683.70 536.89 o
+-10 4 -4 40102.60 38165.00 567.57 o
+12 4 4 17492.40 17004.00 414.17 o
+-12 4 -4 17453.70 16428.80 429.51 o
+14 4 4 181.17 797.66 467.86 <
+-14 4 -4 183.31 -352.81 460.19 <
+16 4 4 92021.90 98296.50 705.62 o
+-16 4 -4 91946.50 88264.30 674.94 o
+18 4 4 38202.40 41371.00 598.25 o
+-18 4 -4 38200.10 38264.80 644.27 o
+20 4 4 16346.30 19028.80 544.56 o
+-20 4 -4 16322.50 16260.00 575.24 o
+22 4 4 6940.14 7922.93 544.56 o
+-22 4 -4 6946.56 6634.40 582.91 o
+24 4 4 87.90 268.44 452.52 <
+-24 4 -4 85.91 705.62 613.59 <
+26 4 4 21649.20 23155.20 651.93 o
+-26 4 -4 21623.80 21790.00 697.95 o
+28 4 4 20686.00 23277.90 651.93 o
+-28 4 -4 20679.30 20256.00 682.61 o
+-35 5 4 31.43 38.35 368.15 <
+35 5 -4 30.72 92.04 598.25 <
+-33 5 4 384.49 1089.11 368.15 o
+33 5 -4 382.18 1211.83 690.28 <
+-31 5 4 484.75 974.07 352.81 o
+31 5 -4 485.79 -912.71 743.97 <
+-29 5 4 615.96 1334.55 314.46 o
+29 5 -4 612.70 -130.39 621.26 <
+-27 5 4 792.25 1349.89 322.13 o
+27 5 -4 790.82 1464.94 644.27 o
+-25 5 4 52.91 230.10 322.13 <
+25 5 -4 52.69 199.41 720.96 <
+-23 5 4 1793.64 1932.80 299.12 o
+23 5 -4 1787.11 2500.36 805.33 o
+-21 5 4 1743.78 1794.74 337.47 o
+21 5 -4 1744.80 1365.23 836.01 <
+-19 5 4 1232.90 813.00 314.46 o
+19 5 -4 1229.17 766.98 813.00 <
+-17 5 4 3426.19 3275.01 299.12 o
+17 5 -4 3421.79 3420.74 859.02 o
+-15 5 4 532.34 575.24 276.11 o
+15 5 -4 533.74 2239.59 859.02 o
+-13 5 4 3327.46 3466.76 398.83 o
+13 5 -4 3318.93 4640.24 912.71 o
+-11 5 4 5127.61 5798.39 375.82 o
+11 5 -4 5124.47 5016.06 521.55 o
+-9 5 4 1021.10 874.36 375.82 o
+9 5 -4 1019.57 1150.47 513.88 o
+-7 5 4 6586.51 7224.97 329.80 o
+7 5 -4 6580.89 5997.80 552.23 o
+-5 5 4 2504.56 1695.03 314.46 o
+5 5 -4 2504.27 1641.34 506.21 o
+-3 5 4 1588.95 1955.80 329.80 o
+3 5 -4 1585.33 1871.44 429.51 o
+-1 5 4 7494.11 7025.56 306.79 o
+1 5 -4 7486.14 6404.30 498.54 o
+1 5 4 468.40 230.10 299.12 <
+-1 5 -4 467.34 375.82 444.85 <
+3 5 4 4752.68 5284.51 345.14 o
+-3 5 -4 4750.12 4931.70 521.55 o
+5 5 4 3730.18 3505.11 414.17 o
+-5 5 -4 3724.69 3459.09 552.23 o
+7 5 4 341.49 736.30 429.51 <
+-7 5 -4 341.33 889.70 368.15 o
+9 5 4 4112.52 3650.84 444.85 o
+-9 5 -4 4107.71 3205.99 460.19 o
+11 5 4 548.45 1043.10 429.51 o
+-11 5 -4 546.12 889.70 368.15 o
+13 5 4 1442.09 1441.93 444.85 o
+-13 5 -4 1441.97 1081.45 414.17 o
+15 5 4 1744.20 2538.71 383.49 o
+-15 5 -4 1739.45 1564.64 513.88 o
+17 5 4 197.86 605.92 437.18 <
+-17 5 -4 197.27 -15.34 490.87 <
+19 5 4 1183.88 1656.68 475.53 o
+-19 5 -4 1182.17 836.01 513.88 <
+21 5 4 308.21 452.52 398.83 <
+-21 5 -4 306.11 521.55 521.55 <
+23 5 4 180.39 483.20 559.90 <
+-23 5 -4 180.83 337.47 621.26 <
+25 5 4 331.97 1035.43 567.57 <
+-25 5 -4 330.11 -613.59 636.59 <
+27 5 4 147.68 375.82 582.91 <
+-27 5 -4 147.05 99.71 667.28 <
+-32 6 4 67.48 406.50 345.14 <
+32 6 -4 69.04 536.89 789.99 <
+-30 6 4 3994.84 4433.16 391.16 o
+30 6 -4 4003.55 4678.59 736.30 o
+-28 6 4 6226.84 6457.99 360.48 o
+28 6 -4 6225.97 8337.10 667.28 o
+-26 6 4 13060.80 12455.80 352.81 o
+26 6 -4 13088.70 15447.00 889.70 o
+-24 6 4 34180.30 32987.90 368.15 o
+24 6 -4 34205.60 39369.20 889.70 o
+-22 6 4 510.98 1234.84 276.11 o
+22 6 -4 508.05 398.83 751.64 <
+-20 6 4 6759.96 7754.19 314.46 o
+20 6 -4 6796.84 7823.22 705.62 o
+-18 6 4 13219.40 13445.20 314.46 o
+18 6 -4 13224.90 16014.60 751.64 o
+-16 6 4 12285.30 13575.60 291.45 o
+16 6 -4 12313.60 13314.80 736.30 o
+-14 6 4 69787.80 73055.10 483.20 o
+14 6 -4 69834.00 74558.40 966.40 o
+-12 6 4 2161.11 2446.67 322.13 o
+12 6 -4 2149.28 1718.04 467.86 o
+-10 6 4 12279.40 11727.20 329.80 o
+10 6 -4 12366.90 11895.90 513.88 o
+-8 6 4 13359.10 13982.10 322.13 o
+8 6 -4 13358.00 12793.30 513.88 o
+-6 6 4 4974.92 4993.06 299.12 o
+6 6 -4 4995.02 4532.87 544.56 o
+-4 6 4 94970.70 101894.00 506.21 o
+4 6 -4 95032.30 89368.80 682.61 o
+-2 6 4 5851.01 5123.44 337.47 o
+2 6 -4 5832.56 5000.72 521.55 o
+0 6 4 14951.30 13238.10 322.13 o
+0 6 -4 15034.50 12072.30 575.24 o
+2 6 4 11525.50 11673.50 352.81 o
+-2 6 -4 11541.90 10338.90 559.90 o
+4 6 4 2130.78 2531.04 329.80 o
+-4 6 -4 2141.23 2185.90 567.57 o
+6 6 4 70201.30 73078.10 582.91 o
+-6 6 -4 70223.60 66543.40 759.31 o
+8 6 4 12722.50 12816.30 460.19 o
+-8 6 -4 12729.50 12363.80 743.97 o
+10 6 4 13870.40 14005.10 460.19 o
+-10 6 -4 13912.30 12693.60 506.21 o
+12 6 4 7400.17 8498.17 452.52 o
+-12 6 -4 7418.23 8973.69 506.21 o
+14 6 4 661.01 1043.10 467.86 o
+-14 6 -4 661.81 168.74 414.17 <
+16 6 4 34104.80 35005.10 490.87 o
+-16 6 -4 34116.00 35695.40 605.92 o
+18 6 4 13476.90 14449.90 544.56 o
+-18 6 -4 13482.40 13376.20 498.54 o
+20 6 4 6737.30 6695.76 521.55 o
+-20 6 -4 6743.37 6112.85 483.20 o
+22 6 4 4325.93 6128.19 452.52 o
+-22 6 -4 4343.54 4939.37 498.54 o
+24 6 4 195.42 -145.73 552.23 <
+-24 6 -4 192.08 276.11 598.25 <
+-29 7 4 726.29 214.76 345.14 <
+29 7 -4 731.01 -789.99 782.32 <
+-27 7 4 4426.71 4517.53 360.48 o
+27 7 -4 4431.06 5422.56 751.64 o
+-25 7 4 285.56 552.23 329.80 <
+25 7 -4 283.29 951.06 644.27 <
+-23 7 4 5700.56 5621.98 306.79 o
+23 7 -4 5712.94 7953.61 782.32 o
+-21 7 4 6446.25 5729.36 268.44 o
+21 7 -4 6444.16 5391.89 828.34 o
+-19 7 4 1205.58 1012.42 276.11 o
+19 7 -4 1210.89 1058.44 797.66 <
+-17 7 4 16421.30 15792.20 276.11 o
+17 7 -4 16433.10 15178.60 836.01 o
+-15 7 4 3197.77 3021.91 360.48 o
+15 7 -4 3193.69 3090.94 820.67 o
+-13 7 4 12264.20 13184.40 368.15 o
+13 7 -4 12283.20 12417.40 483.20 o
+-11 7 4 19876.80 20286.70 360.48 o
+11 7 -4 19880.30 20179.30 521.55 o
+-9 7 4 306.15 391.16 306.79 <
+9 7 -4 306.59 905.04 475.53 <
+-7 7 4 28701.70 28225.00 368.15 o
+7 7 -4 28718.60 26652.60 567.57 o
+-5 7 4 9689.88 10469.30 345.14 o
+5 7 -4 9690.56 10668.70 628.93 o
+-3 7 4 10005.70 10661.10 352.81 o
+3 7 -4 10014.90 9479.90 559.90 o
+-1 7 4 28042.60 29183.70 375.82 o
+1 7 -4 28057.30 24290.30 582.91 o
+1 7 4 337.01 283.78 322.13 <
+-1 7 -4 337.65 360.48 536.89 <
+3 7 4 20119.60 20954.00 368.15 o
+-3 7 -4 20128.50 17418.20 544.56 o
+5 7 4 12064.30 13460.50 383.49 o
+-5 7 -4 12074.30 11926.60 559.90 o
+7 7 4 3492.41 3551.13 383.49 o
+-7 7 -4 3491.06 3129.29 559.90 o
+9 7 4 15842.70 17096.00 421.84 o
+-9 7 -4 15854.40 15700.10 690.28 o
+11 7 4 1278.61 1695.03 406.50 o
+-11 7 -4 1282.83 1641.34 467.86 o
+13 7 4 6428.86 6603.72 421.84 o
+-13 7 -4 6429.46 7048.57 521.55 o
+15 7 4 5540.29 6227.90 437.18 o
+-15 7 -4 5549.90 5967.12 467.86 o
+17 7 4 485.17 728.63 490.87 <
+-17 7 -4 483.89 -981.74 521.55 <
+19 7 4 4271.21 4371.80 513.88 o
+-19 7 -4 4274.69 3942.29 590.58 o
+21 7 4 704.59 199.41 513.88 <
+-21 7 -4 708.61 490.87 605.92 <
+-24 8 4 16081.20 13874.70 337.47 o
+24 8 -4 16054.60 15439.40 797.66 o
+-22 8 4 186.14 0.00 314.46 <
+22 8 -4 186.23 -1196.49 820.67 <
+-20 8 4 8090.01 7708.17 314.46 o
+20 8 -4 8049.84 7754.19 928.05 o
+-18 8 4 7055.18 7286.33 306.79 o
+18 8 -4 7041.06 7631.47 966.40 o
+-16 8 4 7022.91 6941.19 375.82 o
+16 8 -4 7002.68 6979.54 928.05 o
+-14 8 4 31839.30 31898.80 406.50 o
+14 8 -4 31794.60 29237.40 559.90 o
+-12 8 4 1405.13 1334.55 352.81 o
+12 8 -4 1403.43 2308.62 536.89 o
+-10 8 4 11638.30 11366.70 368.15 o
+10 8 -4 11598.10 11290.00 559.90 o
+-8 8 4 10835.20 10323.60 329.80 o
+8 8 -4 10809.10 9065.73 529.22 o
+-6 8 4 4005.59 4256.75 337.47 o
+6 8 -4 3993.22 4732.28 552.23 o
+-4 8 4 40565.30 42766.90 391.16 o
+4 8 -4 40514.30 38479.50 605.92 o
+-2 8 4 4187.58 4494.52 345.14 o
+2 8 -4 4184.29 3957.63 544.56 o
+0 8 4 11181.50 10967.80 360.48 o
+0 8 -4 11160.10 10016.80 529.22 o
+2 8 4 11257.50 11834.50 352.81 o
+-2 8 -4 11234.20 10599.70 567.57 o
+4 8 4 1553.60 1480.28 337.47 o
+-4 8 -4 1551.98 1188.82 529.22 o
+6 8 4 31129.90 33739.60 460.19 o
+-6 8 -4 31090.50 27749.40 636.59 o
+8 8 4 6875.69 7807.88 437.18 o
+-8 8 -4 6877.29 5974.79 598.25 o
+10 8 4 7319.99 6703.43 490.87 o
+-10 8 -4 7315.59 6388.96 536.89 o
+12 8 4 7845.12 8705.25 452.52 o
+-12 8 -4 7830.27 8628.55 552.23 o
+14 8 4 522.46 -805.33 429.51 <
+-14 8 -4 522.29 260.77 444.85 <
+16 8 4 15383.60 17318.50 559.90 o
+-16 8 -4 15369.50 16451.80 636.59 o
+-17 9 4 8240.33 8283.41 406.50 o
+17 9 -4 8232.25 6450.32 958.73 o
+-15 9 4 1978.94 1940.47 383.49 o
+15 9 -4 1982.23 1787.07 513.88 o
+-13 9 4 5422.51 5223.15 375.82 o
+13 9 -4 5412.12 5967.12 521.55 o
+-11 9 4 10760.60 11236.30 368.15 o
+11 9 -4 10757.40 9848.05 567.57 o
+-9 9 4 556.58 -92.04 345.14 <
+9 9 -4 555.54 605.92 536.89 <
+-7 9 4 13451.00 13721.30 360.48 o
+7 9 -4 13439.70 13997.40 590.58 o
+-5 9 4 5157.64 4187.72 337.47 o
+5 9 -4 5156.82 5069.75 621.26 o
+-3 9 4 4962.20 5414.90 337.47 o
+3 9 -4 4957.14 4157.04 529.22 o
+-1 9 4 13476.60 14871.80 391.16 o
+1 9 -4 13467.00 12356.10 567.57 o
+1 9 4 367.17 659.60 329.80 <
+-1 9 -4 366.79 -115.05 506.21 <
+3 9 4 10470.00 11259.30 391.16 o
+-3 9 -4 10463.70 9349.51 582.91 o
+5 9 4 5280.81 5821.40 360.48 o
+-5 9 -4 5274.33 4939.37 559.90 o
+7 9 4 1773.85 1856.10 421.84 o
+-7 9 -4 1774.88 1626.00 590.58 o
+9 9 4 7940.58 8628.55 490.87 o
+-9 9 -4 7932.78 6964.20 651.93 o
+-39 1 5 3756.79 2623.08 467.86 o
+39 1 -5 3758.50 4448.50 444.85 o
+-37 1 5 20519.80 19381.60 467.86 o
+37 1 -5 20549.20 19719.10 483.20 o
+-35 1 5 17580.60 17157.40 475.53 o
+35 1 -5 17557.80 18254.20 437.18 o
+-33 1 5 206.94 168.74 421.84 <
+33 1 -5 203.62 176.41 437.18 <
+-31 1 5 1803.09 1840.76 406.50 o
+31 1 -5 1736.51 1886.78 383.49 o
+-29 1 5 11461.20 9748.35 452.52 o
+29 1 -5 11449.00 10745.40 429.51 o
+-27 1 5 28465.10 25563.50 521.55 o
+27 1 -5 28460.50 27550.00 475.53 o
+-25 1 5 65070.60 64441.90 567.57 o
+25 1 -5 65059.70 68928.70 544.56 o
+-23 1 5 33.00 705.62 475.53 <
+23 1 -5 31.91 -76.70 444.85 <
+-21 1 5 2038.10 1741.05 437.18 o
+21 1 -5 1923.95 2346.97 352.81 o
+-19 1 5 15110.10 15339.60 475.53 o
+19 1 -5 15117.50 15600.40 398.83 o
+-17 1 5 19727.40 19412.30 467.86 o
+17 1 -5 19723.80 18929.10 529.22 o
+-15 1 5 146988.00 140695.00 506.21 o
+15 1 -5 146825.00 139315.00 874.36 o
+-13 1 5 272.98 905.04 306.79 o
+13 1 -5 264.14 322.13 506.21 <
+-11 1 5 2234.09 3090.94 306.79 o
+11 1 -5 2251.72 2500.36 483.20 o
+-9 1 5 7752.48 8183.70 314.46 o
+9 1 -5 7711.81 7723.51 467.86 o
+-7 1 5 4484.10 4739.95 306.79 o
+7 1 -5 4452.06 4042.00 444.85 o
+-5 1 5 198644.00 202261.00 521.55 o
+-3 1 5 4105.48 4279.76 253.10 o
+-1 1 5 7283.30 8475.16 314.46 o
+1 1 -5 7392.94 7892.25 467.86 o
+1 1 5 3091.54 2899.19 322.13 o
+-1 1 -5 3010.58 2469.68 437.18 o
+3 1 5 303.33 529.22 329.80 <
+-3 1 -5 291.49 621.26 429.51 <
+5 1 5 143108.00 147836.00 659.60 o
+-5 1 -5 143129.00 148963.00 935.72 o
+7 1 5 19310.40 20578.10 414.17 o
+-7 1 -5 19291.60 20670.20 552.23 o
+9 1 5 16368.60 16045.30 437.18 o
+-9 1 -5 16441.40 16988.70 529.22 o
+11 1 5 1338.44 1917.46 437.18 o
+-11 1 -5 1344.69 1672.02 444.85 o
+13 1 5 341.42 92.04 529.22 <
+-13 1 -5 350.42 544.56 498.54 <
+15 1 5 65823.50 66972.90 766.98 o
+-15 1 -5 65781.90 69948.80 720.96 o
+17 1 5 26659.80 26353.50 644.27 o
+-17 1 -5 26683.40 28317.00 605.92 o
+19 1 5 11456.00 11029.20 621.26 o
+-19 1 -5 11486.20 11727.20 559.90 o
+21 1 5 1536.98 2431.33 582.91 o
+-21 1 -5 1561.01 2032.50 536.89 o
+23 1 5 164.61 467.86 552.23 <
+-23 1 -5 160.54 475.53 559.90 <
+25 1 5 17126.00 16842.90 651.93 o
+-25 1 -5 17120.00 19320.30 659.60 o
+27 1 5 20115.50 18292.50 651.93 o
+-27 1 -5 20115.90 20117.90 659.60 o
+29 1 5 3658.08 3221.33 613.59 o
+-29 1 -5 3658.84 3712.19 598.25 o
+-38 2 5 93.91 -414.17 452.52 <
+38 2 -5 93.83 1764.06 636.59 o
+-36 2 5 55.88 352.81 398.83 <
+36 2 -5 55.53 1679.69 682.61 o
+-34 2 5 372.70 1541.63 467.86 o
+34 2 -5 371.77 115.05 559.90 <
+-32 2 5 299.38 76.70 375.82 <
+32 2 -5 299.58 912.71 644.27 <
+-30 2 5 456.15 406.50 421.84 <
+30 2 -5 454.28 966.40 605.92 <
+-28 2 5 1134.93 1695.03 398.83 o
+28 2 -5 1134.47 3014.24 697.95 o
+-26 2 5 135.30 -276.11 460.19 <
+26 2 -5 135.20 1112.12 590.58 <
+-24 2 5 1632.86 2178.23 414.17 o
+24 2 -5 1629.91 3627.83 598.25 o
+-22 2 5 1551.36 2024.83 337.47 o
+22 2 -5 1551.56 1556.97 582.91 o
+-20 2 5 950.28 805.33 314.46 o
+20 2 -5 948.30 1150.47 644.27 <
+-18 2 5 5021.61 6243.24 352.81 o
+18 2 -5 5018.94 6527.02 529.22 o
+-16 2 5 754.95 559.90 375.82 <
+16 2 -5 755.85 1288.53 529.22 o
+-14 2 5 3642.06 4318.11 375.82 o
+14 2 -5 3637.12 4417.82 590.58 o
+-12 2 5 5362.99 4778.30 368.15 o
+12 2 -5 5363.03 4072.68 529.22 o
+-10 2 5 234.93 -23.01 368.15 <
+10 2 -5 234.99 7.67 506.21 <
+-8 2 5 8361.96 8536.51 391.16 o
+8 2 -5 8358.52 6933.52 498.54 o
+-6 2 5 3258.45 4187.72 544.56 o
+6 2 -5 3256.92 4180.05 552.23 o
+-4 2 5 3964.12 3689.19 536.89 o
+4 2 -5 3961.93 3643.17 322.13 o
+-2 2 5 7715.07 7432.06 636.59 o
+2 2 -5 7714.32 8413.80 452.52 o
+0 2 5 517.00 437.18 460.19 <
+0 2 -5 517.40 199.41 414.17 <
+2 2 5 4932.32 4295.10 483.20 o
+-2 2 -5 4929.16 4670.92 421.84 o
+4 2 5 4397.17 4003.65 521.55 o
+-4 2 -5 4395.31 4494.52 437.18 o
+6 2 5 764.33 813.00 598.25 <
+-6 2 -5 765.47 697.95 452.52 <
+8 2 5 5602.00 5629.65 444.85 o
+-8 2 -5 5599.34 5322.86 498.54 o
+10 2 5 636.06 674.94 437.18 <
+-10 2 -5 634.96 644.27 483.20 <
+12 2 5 925.74 1234.84 429.51 o
+-12 2 -5 925.37 1150.47 467.86 o
+14 2 5 2215.26 2247.26 444.85 o
+-14 2 -5 2212.59 2339.30 475.53 o
+16 2 5 128.15 -253.10 552.23 <
+-16 2 -5 128.72 536.89 582.91 <
+18 2 5 1234.36 2638.42 605.92 o
+-18 2 -5 1234.60 2247.26 628.93 o
+20 2 5 407.78 122.72 598.25 <
+-20 2 -5 406.21 329.80 575.24 <
+22 2 5 132.48 843.68 513.88 <
+-22 2 -5 132.42 705.62 674.94 <
+24 2 5 355.85 1902.12 644.27 o
+-24 2 -5 355.20 1556.97 720.96 o
+26 2 5 59.51 191.75 628.93 <
+-26 2 -5 59.28 529.22 736.30 <
+28 2 5 114.65 974.07 659.60 <
+-28 2 -5 114.55 659.60 644.27 <
+-37 3 5 27294.20 25134.00 414.17 o
+37 3 -5 27336.40 28754.20 705.62 o
+-35 3 5 32265.10 30288.10 391.16 o
+35 3 -5 32293.70 34314.80 659.60 o
+-33 3 5 78.38 713.29 345.14 o
+33 3 -5 78.34 759.31 559.90 <
+-31 3 5 20737.30 21483.20 383.49 o
+31 3 -5 20768.50 23776.50 751.64 o
+-29 3 5 25643.00 26414.90 352.81 o
+29 3 -5 25669.40 29260.40 743.97 o
+-27 3 5 60665.10 60553.30 406.50 o
+27 3 -5 60723.00 65814.80 836.01 o
+-25 3 5 154176.00 155045.00 536.89 o
+25 3 -5 154295.00 165937.00 1020.09 o
+-23 3 5 183.20 628.93 314.46 <
+23 3 -5 180.93 1119.79 743.97 <
+-21 3 5 71626.80 78071.10 444.85 o
+21 3 -5 71696.80 69534.60 951.06 o
+-19 3 5 83344.50 87773.50 483.20 o
+19 3 -5 83431.60 84575.10 951.06 o
+-17 3 5 75871.00 74220.90 460.19 o
+17 3 -5 75908.90 71567.10 889.70 o
+-15 3 5 425807.00 439550.00 843.68 o
+15 3 -5 425970.00 420843.00 1541.64 o
+-13 3 5 7864.58 8214.38 375.82 o
+13 3 -5 7859.12 6703.43 667.28 o
+-11 3 5 144200.00 146202.00 567.57 o
+11 3 -5 144270.00 138947.00 989.41 o
+-9 3 5 162863.00 157692.00 774.65 o
+9 3 -5 162991.00 156802.00 1012.42 o
+-7 3 5 47643.70 45635.40 567.57 o
+7 3 -5 47633.30 43664.30 452.52 o
+-5 3 5 590187.00 581181.00 1334.55 o
+5 3 -5 590242.00 586910.00 1119.80 o
+-3 3 5 45453.90 45965.20 628.92 o
+3 3 -5 45469.30 44876.10 483.20 o
+-1 3 5 158667.00 164242.00 874.36 o
+1 3 -5 158681.00 162876.00 713.29 o
+1 3 5 150008.00 148894.00 713.29 o
+-1 3 -5 150028.00 149109.00 813.00 o
+3 3 5 7531.87 7531.77 421.84 o
+-3 3 -5 7514.30 8091.66 414.17 o
+5 3 5 424181.00 421764.00 1150.47 o
+-5 3 -5 424139.00 425905.00 1227.17 o
+7 3 5 73714.30 72433.80 628.93 o
+-7 3 -5 73726.80 70777.10 690.28 o
+9 3 5 84282.20 84352.70 644.27 o
+-9 3 -5 84239.20 81967.40 720.96 o
+11 3 5 73374.90 74489.30 582.91 o
+-11 3 -5 73364.60 72763.60 682.61 o
+13 3 5 446.39 299.12 406.50 <
+-13 3 -5 450.47 368.15 467.86 <
+15 3 5 154251.00 160391.00 813.00 o
+-15 3 -5 154143.00 141815.00 836.01 o
+17 3 5 58337.30 63214.70 644.27 o
+-17 3 -5 58357.00 55629.20 682.61 o
+19 3 5 25547.50 27918.20 598.25 o
+-19 3 -5 25526.80 25164.70 636.59 o
+21 3 5 21501.20 24528.10 621.26 o
+-21 3 -5 21489.50 20463.10 674.94 o
+23 3 5 232.98 958.73 559.90 <
+-23 3 -5 233.32 1549.30 613.59 o
+25 3 5 31981.20 35465.30 690.28 o
+-25 3 -5 31939.30 32581.40 751.64 o
+27 3 5 26471.00 29237.40 705.62 o
+-27 3 -5 26471.30 26215.50 797.66 o
+-36 4 5 37.73 859.02 383.49 o
+36 4 -5 38.19 621.26 690.28 <
+-34 4 5 539.79 467.86 360.48 <
+34 4 -5 541.71 -414.17 590.58 <
+-32 4 5 196.05 874.36 322.13 o
+32 4 -5 195.61 506.21 590.58 <
+-30 4 5 635.28 813.00 314.46 o
+30 4 -5 637.84 -414.17 582.91 <
+-28 4 5 1167.63 1319.21 329.80 o
+28 4 -5 1168.56 1879.11 682.61 o
+-26 4 5 123.25 184.08 314.46 <
+26 4 -5 123.18 -751.64 728.63 <
+-24 4 5 2251.66 2669.10 322.13 o
+24 4 -5 2257.33 2093.86 621.26 o
+-22 4 5 1191.87 1457.27 352.81 o
+22 4 -5 1191.31 2485.02 782.32 o
+-20 4 5 1267.30 1020.09 329.80 o
+20 4 -5 1269.97 981.74 759.31 <
+-18 4 5 3483.70 3129.29 299.12 o
+18 4 -5 3488.06 3313.36 736.30 o
+-16 4 5 629.74 253.10 329.80 <
+16 4 -5 628.33 559.90 774.65 <
+-14 4 5 3672.93 2485.02 337.47 o
+14 4 -5 3679.27 2830.17 774.65 o
+-12 4 5 4723.38 5407.23 314.46 o
+12 4 -5 4724.76 4939.37 705.62 o
+-10 4 5 1071.84 184.08 452.52 <
+10 4 -5 1073.23 291.45 368.15 <
+-8 4 5 6235.49 6527.02 414.17 o
+8 4 -5 6242.84 6166.54 352.81 o
+-6 4 5 2135.73 1787.07 406.50 o
+6 4 -5 2136.13 1879.11 383.49 o
+-4 4 5 1677.76 1418.92 375.82 o
+4 4 -5 1679.96 1533.96 360.48 o
+-2 4 5 7458.93 7040.90 398.83 o
+2 4 -5 7462.89 6534.69 360.48 o
+0 4 5 571.43 337.47 368.15 <
+0 4 -5 572.44 697.95 352.81 <
+2 4 5 4698.78 5016.06 406.50 o
+-2 4 -5 4703.30 4379.47 452.52 o
+4 4 5 3268.05 2883.85 421.84 o
+-4 4 -5 3271.91 2584.73 460.19 o
+6 4 5 562.24 828.34 337.47 o
+-6 4 -5 562.25 659.60 444.85 <
+8 4 5 3540.13 3903.94 421.84 o
+-8 4 -5 3543.39 2730.46 437.18 o
+10 4 5 848.54 813.00 360.48 o
+-10 4 -5 850.59 590.58 467.86 <
+12 4 5 1485.49 2883.85 437.18 o
+-12 4 -5 1486.07 1978.81 444.85 o
+14 4 5 1593.34 1886.78 437.18 o
+-14 4 -5 1597.01 2408.32 460.19 o
+16 4 5 376.02 214.76 421.84 <
+-16 4 -5 376.69 23.01 490.87 <
+18 4 5 893.14 99.71 475.53 <
+-18 4 -5 894.06 1265.52 521.55 o
+20 4 5 348.76 766.98 483.20 <
+-20 4 -5 350.86 1365.23 575.24 o
+22 4 5 96.80 452.52 490.87 <
+-22 4 -5 96.60 153.40 598.25 <
+24 4 5 384.68 391.16 567.57 <
+-24 4 -5 386.10 697.95 628.93 <
+26 4 5 148.59 -329.80 605.92 <
+-26 4 -5 148.91 314.46 705.62 <
+-33 5 5 63.60 912.71 352.81 o
+33 5 -5 63.41 1411.25 674.94 o
+-31 5 5 1086.70 1365.23 360.48 o
+31 5 -5 1016.35 1963.47 697.95 o
+-29 5 5 1678.39 1871.44 306.79 o
+29 5 -5 1662.95 2791.82 705.62 o
+-27 5 5 5324.20 5529.94 360.48 o
+27 5 -5 5311.50 4908.69 813.00 o
+-25 5 5 9109.20 8620.88 337.47 o
+25 5 -5 9029.40 8268.07 774.65 o
+-23 5 5 92.84 974.07 291.45 o
+23 5 -5 92.15 866.69 613.59 <
+-21 5 5 3241.37 3367.05 299.12 o
+21 5 -5 3128.42 2615.41 813.00 o
+-19 5 5 958.44 920.38 337.47 o
+19 5 -5 898.06 467.86 659.60 <
+-17 5 5 1544.54 997.08 299.12 o
+17 5 -5 1532.85 1104.45 805.33 <
+-15 5 5 9963.82 10523.00 306.79 o
+15 5 -5 9879.82 9940.09 797.66 o
+-13 5 5 577.74 1058.44 383.49 o
+13 5 -5 555.42 2063.18 751.64 o
+-11 5 5 6988.18 7232.64 391.16 o
+11 5 -5 6916.10 5621.98 429.51 o
+-9 5 5 2447.00 2469.68 383.49 o
+9 5 -5 2378.12 1779.40 375.82 o
+-7 5 5 506.80 874.36 337.47 o
+7 5 -5 521.70 759.31 375.82 o
+-5 5 5 6814.98 7025.56 345.14 o
+5 5 -5 6782.51 7915.26 406.50 o
+-3 5 5 618.37 843.68 314.46 o
+3 5 -5 591.47 437.18 360.48 <
+-1 5 5 2520.17 2369.98 352.81 o
+1 5 -5 2569.38 2761.14 398.83 o
+1 5 5 5875.10 7071.58 375.82 o
+-1 5 -5 5847.95 6887.50 421.84 o
+3 5 5 439.51 1112.12 414.17 o
+-3 5 -5 460.17 1104.45 460.19 o
+5 5 5 9586.63 9863.39 414.17 o
+-5 5 -5 9646.20 8973.69 383.49 o
+7 5 5 1443.60 1610.66 414.17 o
+-7 5 -5 1424.74 1664.35 460.19 o
+9 5 5 1123.70 1089.11 360.48 o
+-9 5 -5 1195.41 905.04 460.19 <
+11 5 5 2184.46 2707.45 375.82 o
+-11 5 -5 2226.60 3106.28 483.20 o
+13 5 5 387.91 697.95 398.83 <
+-13 5 -5 391.09 621.26 452.52 <
+15 5 5 8728.03 9226.80 467.86 o
+-15 5 -5 8778.50 7930.60 506.21 o
+17 5 5 4885.26 5537.61 475.53 o
+-17 5 -5 4890.42 5161.79 521.55 o
+19 5 5 2208.93 2017.16 475.53 o
+-19 5 -5 2240.54 2546.38 467.86 o
+21 5 5 604.26 1150.47 559.90 o
+-21 5 -5 644.64 1633.67 521.55 o
+23 5 5 203.42 759.31 544.56 <
+-23 5 -5 199.00 843.68 598.25 <
+-30 6 5 199.09 38.35 322.13 <
+30 6 -5 198.18 805.33 621.26 <
+-28 6 5 18.08 529.22 306.79 <
+28 6 -5 17.86 1579.98 628.93 o
+-26 6 5 18.59 -99.71 306.79 <
+26 6 -5 18.21 -820.67 713.29 <
+-24 6 5 38.62 -414.17 299.12 <
+24 6 -5 37.78 -1533.96 797.66 <
+-22 6 5 322.58 53.69 306.79 <
+22 6 -5 322.39 260.77 774.65 <
+-20 6 5 386.20 460.19 283.78 <
+20 6 -5 385.31 1020.09 628.93 <
+-18 6 5 74.03 360.48 268.44 <
+18 6 -5 73.24 1840.76 836.01 o
+-16 6 5 71.87 329.80 276.11 <
+16 6 -5 71.84 -406.50 774.65 <
+-14 6 5 48.48 222.43 352.81 <
+14 6 -5 47.84 575.24 813.00 <
+-12 6 5 63.08 -490.87 322.13 <
+12 6 -5 62.71 851.35 437.18 <
+-10 6 5 422.71 122.72 337.47 <
+10 6 -5 422.83 544.56 429.51 <
+-8 6 5 98.38 -15.34 329.80 <
+8 6 -5 97.32 291.45 490.87 <
+-6 6 5 162.15 -7.67 360.48 <
+6 6 -5 162.29 337.47 452.52 <
+-4 6 5 11.45 107.38 345.14 <
+4 6 -5 11.29 138.06 444.85 <
+-2 6 5 110.06 314.46 299.12 <
+2 6 -5 109.86 375.82 414.17 <
+0 6 5 298.88 -268.44 314.46 <
+0 6 -5 298.95 322.13 437.18 <
+2 6 5 78.26 245.43 337.47 <
+-2 6 -5 77.85 475.53 398.83 <
+4 6 5 177.75 429.51 375.82 <
+-4 6 -5 177.18 153.40 452.52 <
+6 6 5 35.33 621.26 429.51 <
+-6 6 -5 35.37 -61.36 368.15 <
+8 6 5 238.12 851.35 352.81 o
+-8 6 -5 237.74 337.47 368.15 <
+10 6 5 94.59 575.24 437.18 <
+-10 6 -5 94.05 559.90 368.15 <
+12 6 5 79.37 176.41 375.82 <
+-12 6 -5 79.36 421.84 460.19 <
+14 6 5 69.16 682.61 460.19 <
+-14 6 -5 68.47 544.56 498.54 <
+16 6 5 97.42 1150.47 444.85 o
+-16 6 -5 97.16 759.31 490.87 <
+18 6 5 100.35 843.68 498.54 <
+-18 6 -5 100.01 7.67 552.23 <
+20 6 5 16.26 7.67 544.56 <
+-20 6 -5 15.80 -245.43 590.58 <
+22 6 5 45.39 1464.94 536.89 o
+-22 6 -5 45.41 651.93 544.56 <
+-27 7 5 11894.60 10576.70 345.14 o
+27 7 -5 11903.70 12678.20 889.70 o
+-25 7 5 35926.50 33563.10 398.83 o
+25 7 -5 35967.90 41854.20 981.74 o
+-23 7 5 616.81 997.08 306.79 o
+23 7 -5 621.06 759.31 882.03 <
+-21 7 5 23858.90 22986.50 352.81 o
+21 7 -5 23879.10 25203.00 928.05 o
+-19 7 5 21554.20 19067.20 314.46 o
+19 7 -5 21590.50 23270.20 912.71 o
+-17 7 5 15526.60 14204.50 314.46 o
+17 7 -5 15525.70 18269.50 958.73 o
+-15 7 5 84533.50 87489.70 513.88 o
+15 7 -5 84587.50 98204.40 1288.53 o
+-13 7 5 3969.65 4095.69 383.49 o
+13 7 -5 3978.34 4893.35 536.89 o
+-11 7 5 40138.70 43219.50 444.85 o
+11 7 -5 40126.70 39361.50 582.91 o
+-9 7 5 41390.20 41869.60 429.51 o
+9 7 -5 41421.90 37712.50 552.23 o
+-7 7 5 12327.10 12394.40 352.81 o
+7 7 -5 12312.10 12041.60 467.86 o
+-5 7 5 111130.00 112570.00 544.56 o
+5 7 -5 111124.00 100728.00 690.28 o
+-3 7 5 11987.70 12440.50 368.15 o
+3 7 -5 12001.90 12080.00 498.54 o
+-1 7 5 40759.30 43825.40 437.18 o
+1 7 -5 40715.80 39100.80 559.90 o
+1 7 5 41706.50 44868.50 452.52 o
+-1 7 -5 41686.30 39054.70 575.24 o
+3 7 5 4329.95 4640.24 383.49 o
+-3 7 -5 4315.97 3850.25 483.20 o
+5 7 5 85236.50 91194.20 682.61 o
+-5 7 -5 85180.00 81077.70 782.32 o
+7 7 5 15897.80 15945.60 506.21 o
+-7 7 -5 15897.30 13805.70 490.87 o
+9 7 5 21961.70 21820.60 536.89 o
+-9 7 -5 21918.70 19872.50 467.86 o
+11 7 5 24878.30 26430.20 513.88 o
+-11 7 -5 24842.20 25088.00 544.56 o
+13 7 5 1017.90 513.88 398.83 <
+-13 7 -5 1011.75 314.46 521.55 <
+15 7 5 36369.60 39284.80 513.88 o
+-15 7 -5 36315.00 35756.70 613.59 o
+17 7 5 12154.00 12823.90 513.88 o
+-17 7 -5 12149.50 11013.90 521.55 o
+-22 8 5 493.29 590.58 337.47 <
+22 8 -5 493.76 1066.11 951.06 <
+-20 8 5 173.59 207.09 299.12 <
+20 8 -5 172.03 1510.96 920.38 <
+-18 8 5 1179.38 1142.80 291.45 o
+18 8 -5 1176.38 2814.83 920.38 o
+-16 8 5 277.12 414.17 368.15 <
+16 8 -5 278.31 -306.79 958.73 <
+-14 8 5 821.92 1104.45 352.81 o
+14 8 -5 818.37 2116.87 536.89 o
+-12 8 5 1501.90 2346.97 345.14 o
+12 8 -5 1500.45 1610.66 529.22 o
+-10 8 5 91.64 444.85 345.14 <
+10 8 -5 91.17 -245.43 506.21 <
+-8 8 5 2151.02 2377.65 337.47 o
+8 8 -5 2146.46 1664.35 544.56 o
+-6 8 5 749.59 544.56 345.14 <
+6 8 -5 749.46 659.60 513.88 <
+-4 8 5 692.38 429.51 306.79 <
+4 8 -5 690.73 843.68 483.20 <
+-2 8 5 1989.85 1825.42 345.14 o
+2 8 -5 1986.63 2354.64 490.87 o
+0 8 5 49.06 46.02 352.81 <
+0 8 -5 48.93 444.85 498.54 <
+2 8 5 1496.94 1418.92 337.47 o
+-2 8 -5 1494.38 1856.10 475.53 o
+4 8 5 858.79 920.38 383.49 o
+-4 8 -5 856.41 1020.09 513.88 <
+6 8 5 304.14 659.60 460.19 <
+-6 8 -5 304.45 260.77 559.90 <
+8 8 5 1041.31 2837.83 490.87 o
+-8 8 -5 1038.77 30.68 421.84 <
+10 8 5 71.54 -414.17 406.50 <
+-10 8 -5 70.73 314.46 529.22 <
+12 8 5 440.30 1303.87 429.51 o
+-12 8 -5 440.18 928.05 452.52 o
+-13 9 5 1065.72 805.33 375.82 o
+13 9 -5 1063.85 567.57 598.25 <
+-11 9 5 8150.79 7002.55 383.49 o
+11 9 -5 8163.34 7838.56 567.57 o
+-9 9 5 6965.07 6887.50 383.49 o
+9 9 -5 6969.21 5453.24 575.24 o
+-7 9 5 2942.90 3129.29 360.48 o
+7 9 -5 2944.42 2469.68 575.24 o
+-5 9 5 19708.00 19335.60 391.16 o
+5 9 -5 19734.00 16605.20 575.24 o
+-3 9 5 2792.84 2868.51 345.14 o
+3 9 -5 2797.93 2124.54 536.89 o
+-1 9 5 7189.87 7723.51 406.50 o
+1 9 -5 7214.00 6120.52 575.24 o
+1 9 5 8236.58 8490.49 375.82 o
+-1 9 -5 8257.23 7309.34 575.24 o
+3 9 5 1228.62 820.67 421.84 <
+-3 9 -5 1231.63 1342.22 559.90 o
+-38 0 6 23746.50 20654.80 797.66 o
+38 0 -6 23767.20 25647.90 682.61 o
+-36 0 6 24510.20 23277.90 759.31 o
+36 0 -6 24514.60 25072.70 674.94 o
+-34 0 6 225.52 76.70 667.28 <
+34 0 -6 226.72 1257.85 575.24 o
+-32 0 6 15186.10 15661.80 720.96 o
+32 0 -6 15137.30 15508.40 636.59 o
+-30 0 6 17453.90 18116.10 605.92 o
+30 0 -6 17475.20 19458.30 598.25 o
+-28 0 6 50636.10 51203.70 682.61 o
+28 0 -6 50664.80 56281.20 782.32 o
+-26 0 6 110950.00 110323.00 920.38 o
+26 0 -6 110994.00 118552.00 805.33 o
+-24 0 6 165.06 935.72 667.28 <
+24 0 -6 163.29 -84.37 559.90 <
+-22 0 6 45581.20 47307.50 720.96 o
+22 0 -6 45549.20 46594.20 582.91 o
+-20 0 6 54782.00 54693.50 674.94 o
+20 0 -6 54795.40 52845.10 628.92 o
+-18 0 6 57573.10 55621.60 766.98 o
+18 0 -6 57546.40 54754.90 582.91 o
+-16 0 6 296129.00 299499.00 1142.80 o
+16 0 -6 296383.00 283952.00 981.74 o
+-14 0 6 3085.54 4571.21 644.27 o
+-12 0 6 92256.50 91493.30 559.90 o
+-10 0 6 98425.70 97951.30 544.56 o
+-8 0 6 28576.00 29720.60 429.51 o
+-6 0 6 411119.00 427915.00 943.39 o
+-4 0 6 31409.80 29689.90 414.17 o
+-2 0 6 103420.00 102875.00 582.91 o
+0 0 6 90262.70 98848.70 559.90 o
+2 0 6 3891.41 3643.17 360.48 o
+4 0 6 298315.00 319694.00 935.72 o
+6 0 6 59434.60 55184.40 644.27 o
+8 0 6 54554.20 55215.10 659.60 o
+-8 0 -6 54599.50 55107.70 805.33 o
+10 0 6 49211.60 48174.20 697.95 o
+-10 0 -6 49305.20 50291.00 866.69 o
+12 0 6 559.19 360.48 590.58 <
+-12 0 -6 566.54 23.01 659.60 <
+14 0 6 108759.00 121781.00 1081.45 o
+-14 0 -6 108764.00 129283.00 1173.48 o
+16 0 6 52645.70 57692.40 935.72 o
+-16 0 -6 52679.50 58589.80 958.73 o
+18 0 6 17978.10 19051.80 836.01 o
+-18 0 -6 17974.40 20823.60 851.35 o
+20 0 6 15354.30 14572.70 912.71 o
+-20 0 -6 15412.70 16129.60 874.36 o
+22 0 6 468.28 720.96 874.36 <
+-22 0 -6 469.32 -329.80 820.67 <
+24 0 6 24741.40 22234.80 1004.75 o
+-24 0 -6 24724.10 27734.10 1027.76 o
+26 0 6 23033.70 25739.90 1096.78 o
+-26 0 -6 23044.40 26483.90 1012.42 o
+-37 1 6 86.27 897.37 467.86 <
+37 1 -6 86.48 1073.78 437.18 o
+-35 1 6 1927.49 2017.16 490.87 o
+35 1 -6 1926.08 2515.70 414.17 o
+-33 1 6 2443.80 2569.39 460.19 o
+33 1 -6 2445.03 2745.80 475.53 o
+-31 1 6 739.98 245.43 398.83 <
+31 1 -6 739.38 590.58 483.20 <
+-29 1 6 8134.83 8060.98 429.51 o
+29 1 -6 8132.94 7186.62 421.84 o
+-27 1 6 1521.38 1748.72 414.17 o
+27 1 -6 1522.48 2185.90 383.49 o
+-25 1 6 9773.69 9702.33 490.87 o
+25 1 -6 9770.57 9825.04 444.85 o
+-23 1 6 15447.50 15247.60 460.19 o
+23 1 -6 15449.20 14657.00 536.89 o
+-21 1 6 1106.26 1618.33 437.18 o
+21 1 -6 1105.28 1403.58 475.53 o
+-19 1 6 32714.30 32274.60 391.16 o
+19 1 -6 32711.60 30556.60 605.92 o
+-17 1 6 9205.23 9717.67 352.81 o
+17 1 -6 9205.31 8774.28 521.55 o
+-15 1 6 22090.80 22142.80 360.48 o
+15 1 -6 22084.90 22695.00 567.57 o
+-13 1 6 46113.00 46463.80 406.50 o
+13 1 -6 46114.40 42575.20 621.26 o
+-11 1 6 650.56 613.59 322.13 <
+11 1 -6 650.06 651.93 460.19 <
+-9 1 6 58048.90 59433.50 414.17 o
+-7 1 6 23310.70 23922.20 306.79 o
+-5 1 6 22218.90 24681.50 306.79 o
+-3 1 6 58617.40 60936.70 368.15 o
+-1 1 6 437.27 529.22 314.46 <
+1 1 6 47088.50 49424.30 429.51 o
+3 1 6 21923.90 23339.30 383.49 o
+-3 1 -6 21923.10 21621.20 559.90 o
+5 1 6 8894.86 9686.99 375.82 o
+-5 1 -6 8893.73 9418.54 521.55 o
+7 1 6 32629.30 34276.40 467.86 o
+-7 1 -6 32625.50 32642.80 659.60 o
+9 1 6 964.87 1242.51 414.17 o
+-9 1 -6 964.01 1411.25 467.86 o
+11 1 6 16089.90 16804.60 483.20 o
+-11 1 -6 16090.80 15830.50 567.57 o
+13 1 6 9210.58 10078.10 506.21 o
+-13 1 -6 9208.83 9878.73 567.57 o
+15 1 6 1539.88 1955.80 552.23 o
+-15 1 -6 1540.21 2316.29 613.59 o
+17 1 6 8311.59 7715.84 644.27 o
+-17 1 -6 8309.79 7109.93 682.61 o
+19 1 6 496.05 529.22 644.27 <
+-19 1 -6 495.54 1104.45 598.25 <
+21 1 6 2429.45 2162.89 636.59 o
+-21 1 -6 2430.13 3067.93 667.28 o
+23 1 6 1802.69 1756.39 659.60 o
+-23 1 -6 1801.81 2185.90 667.28 o
+25 1 6 124.02 283.78 697.95 <
+-25 1 -6 124.18 214.76 682.61 <
+-38 2 6 10709.80 10477.00 460.19 o
+38 2 -6 10726.30 11865.20 636.59 o
+-36 2 6 11363.70 10538.30 498.54 o
+36 2 -6 11368.30 10246.90 759.31 o
+-34 2 6 118.92 322.13 414.17 <
+34 2 -6 117.52 -92.04 582.91 <
+-32 2 6 1957.79 1510.96 360.48 o
+32 2 -6 1919.34 2607.74 582.91 o
+-30 2 6 7600.54 8268.07 360.48 o
+30 2 -6 7613.77 8567.19 728.63 o
+-28 2 6 14651.80 15822.80 360.48 o
+28 2 -6 14666.20 17494.90 766.98 o
+-26 2 6 36837.40 37597.50 368.15 o
+26 2 -6 36849.50 39660.70 759.31 o
+-24 2 6 175.45 199.41 360.48 <
+24 2 -6 173.96 291.45 552.23 <
+-22 2 6 2128.29 2615.41 352.81 o
+22 2 -6 2072.48 2300.95 613.59 o
+-20 2 6 11571.30 11036.90 375.82 o
+20 2 -6 11545.30 11826.90 590.58 o
+-18 2 6 10116.70 10914.20 391.16 o
+18 2 -6 10100.70 9794.36 598.25 o
+-16 2 6 74339.60 77595.60 483.20 o
+16 2 -6 74374.50 75762.50 759.31 o
+-14 2 6 1043.87 1319.21 391.16 o
+14 2 -6 1026.25 590.58 536.89 <
+-12 2 6 3552.92 3735.20 383.49 o
+12 2 -6 3498.68 3067.93 506.21 o
+-10 2 6 7848.46 7186.62 398.83 o
+10 2 -6 7742.86 7010.22 521.55 o
+-8 2 6 3203.87 4011.32 383.49 o
+8 2 -6 3197.16 3014.24 483.20 o
+-6 2 6 94228.30 102338.00 582.91 o
+-4 2 6 3950.97 3681.52 406.50 o
+-2 2 6 7901.89 7432.06 429.51 o
+2 2 -6 7884.50 6787.79 506.21 o
+0 2 6 3537.59 3934.62 429.51 o
+0 2 -6 3424.14 3681.52 483.20 o
+2 2 6 1119.90 851.35 437.18 <
+-2 2 -6 1130.25 1027.76 475.53 o
+4 2 6 73555.80 73699.30 682.61 o
+-4 2 -6 73430.10 75938.90 697.95 o
+6 2 6 10307.90 10461.60 605.92 o
+-6 2 -6 10302.80 10515.30 490.87 o
+8 2 6 10891.10 10845.10 467.86 o
+-8 2 -6 10898.30 11090.60 490.87 o
+10 2 6 2156.16 2715.12 475.53 o
+-10 2 -6 2100.84 2201.24 483.20 o
+12 2 6 647.77 153.40 444.85 <
+-12 2 -6 644.73 222.43 567.57 <
+14 2 6 35131.10 37075.90 605.92 o
+-14 2 -6 35073.60 36163.20 667.28 o
+16 2 6 15156.70 15891.90 590.58 o
+-16 2 -6 15149.90 15378.00 582.91 o
+18 2 6 7519.91 9426.21 575.24 o
+-18 2 -6 7513.96 9073.40 628.93 o
+20 2 6 1757.51 1710.37 621.26 o
+-20 2 -6 1763.43 2208.91 659.60 o
+22 2 6 346.08 -214.76 644.27 <
+-22 2 -6 339.28 -53.69 705.62 <
+24 2 6 11333.40 10898.80 682.61 o
+-24 2 -6 11312.50 10998.50 789.99 o
+26 2 6 10437.30 11834.50 813.00 o
+-26 2 -6 10435.80 11167.30 859.02 o
+-35 3 6 451.19 460.19 352.81 <
+35 3 -6 452.86 -391.16 667.28 <
+-33 3 6 942.16 360.48 345.14 <
+33 3 -6 940.98 789.99 690.28 <
+-31 3 6 168.28 552.23 337.47 <
+31 3 -6 169.18 1334.55 720.96 <
+-29 3 6 2607.72 2331.63 329.80 o
+29 3 -6 2610.05 3213.66 598.25 o
+-27 3 6 484.51 682.61 314.46 o
+27 3 -6 482.71 -337.47 559.90 <
+-25 3 6 2203.36 2485.02 337.47 o
+25 3 -6 2207.34 3121.62 674.94 o
+-23 3 6 4861.72 4716.94 352.81 o
+23 3 -6 4859.83 5238.49 590.58 o
+-21 3 6 397.76 483.20 352.81 <
+21 3 -6 399.55 467.86 659.60 <
+-19 3 6 9535.31 10239.20 368.15 o
+19 3 -6 9539.87 12271.70 552.23 o
+-17 3 6 2689.91 2661.43 375.82 o
+17 3 -6 2688.77 2676.77 598.25 o
+-15 3 6 5884.09 6442.65 398.83 o
+15 3 -6 5891.65 5307.52 490.87 o
+-13 3 6 12837.40 12379.10 414.17 o
+13 3 -6 12837.00 12662.90 605.92 o
+-11 3 6 422.75 559.90 368.15 <
+11 3 -6 422.30 651.93 498.54 <
+-9 3 6 17714.40 17395.20 421.84 o
+9 3 -6 17722.70 17395.20 552.23 o
+-7 3 6 5720.49 5898.09 521.55 o
+7 3 -6 5719.05 5583.63 467.86 o
+-5 3 6 6468.06 5936.44 490.87 o
+5 3 -6 6471.79 6189.55 314.46 o
+-3 3 6 17036.60 17571.60 544.56 o
+3 3 -6 17043.50 16712.50 490.87 o
+-1 3 6 375.07 383.49 368.15 <
+1 3 -6 374.91 368.15 444.85 <
+1 3 6 12930.30 13184.40 421.84 o
+-1 3 -6 12933.80 12939.00 490.87 o
+3 3 6 6026.35 6235.57 483.20 o
+-3 3 -6 6028.65 6112.85 460.19 o
+5 3 6 3216.87 2807.16 406.50 o
+-5 3 -6 3217.26 2699.78 460.19 o
+7 3 6 9868.67 10177.90 421.84 o
+-7 3 -6 9874.34 8674.57 460.19 o
+9 3 6 264.56 -7.67 391.16 <
+-9 3 -6 265.49 713.29 429.51 <
+11 3 6 4609.73 4816.65 429.51 o
+-11 3 -6 4608.87 4824.32 475.53 o
+13 3 6 2487.64 1963.47 437.18 o
+-13 3 -6 2490.47 2630.75 498.54 o
+15 3 6 653.77 598.25 498.54 <
+-15 3 -6 652.76 1027.76 544.56 <
+17 3 6 2503.75 2270.27 506.21 o
+-17 3 -6 2505.80 2837.83 552.23 o
+19 3 6 149.87 -452.52 521.55 <
+-19 3 -6 150.71 483.20 575.24 <
+21 3 6 882.79 1211.83 544.56 o
+-21 3 -6 882.01 1181.15 682.61 <
+23 3 6 458.80 951.06 598.25 <
+-23 3 -6 459.97 889.70 720.96 <
+25 3 6 82.54 -544.56 690.28 <
+-25 3 -6 82.14 -299.12 766.98 <
+-34 4 6 28.21 76.70 360.48 <
+34 4 -6 28.47 644.27 751.64 <
+-32 4 6 4035.95 4824.32 352.81 o
+32 4 -6 4020.32 4548.21 697.95 o
+-30 4 6 6038.13 5644.99 360.48 o
+30 4 -6 6038.54 7485.75 720.96 o
+-28 4 6 12732.00 13046.40 360.48 o
+28 4 -6 12743.80 13583.30 674.94 o
+-26 4 6 33310.10 33578.50 375.82 o
+26 4 -6 33318.50 34460.50 836.01 o
+-24 4 6 297.73 1219.50 352.81 o
+24 4 -6 295.70 -391.16 697.95 <
+-22 4 6 6710.46 8237.39 314.46 o
+22 4 -6 6705.74 7240.31 728.63 o
+-20 4 6 12592.60 14020.40 360.48 o
+20 4 -6 12583.60 13598.60 713.29 o
+-18 4 6 11736.70 13414.50 352.81 o
+18 4 -6 11741.40 12003.30 559.90 o
+-16 4 6 68424.40 71689.80 444.85 o
+16 4 -6 68444.30 69135.80 789.99 o
+-14 4 6 1756.80 2653.76 345.14 o
+14 4 -6 1749.82 2116.87 575.24 o
+-12 4 6 11663.50 11957.30 360.48 o
+12 4 -6 11712.40 10239.20 567.57 o
+-10 4 6 13213.00 13054.00 483.20 o
+10 4 -6 13168.40 13077.00 598.25 o
+-8 4 6 4710.41 4724.61 437.18 o
+8 4 -6 4716.02 4402.48 337.47 o
+-6 4 6 93775.90 99638.70 636.60 o
+6 4 -6 93809.50 95681.00 536.89 o
+-4 4 6 5442.27 4924.03 414.17 o
+4 4 -6 5429.21 4617.23 345.14 o
+-2 4 6 14229.50 13660.00 452.52 o
+2 4 -6 14289.90 14733.70 414.17 o
+0 4 6 11576.60 11780.80 452.52 o
+0 4 -6 11546.50 10799.10 467.86 o
+2 4 6 2152.37 2385.32 398.83 o
+-2 4 -6 2161.50 2584.73 421.84 o
+4 4 6 69644.70 70846.20 582.91 o
+-4 4 -6 69639.10 66742.80 598.25 o
+6 4 6 12696.00 12455.80 437.18 o
+-6 4 -6 12703.00 12394.40 475.53 o
+8 4 6 13748.00 13161.40 414.17 o
+-8 4 -6 13788.40 12693.60 467.86 o
+10 4 6 7324.89 8628.55 429.51 o
+-10 4 -6 7309.89 7347.69 398.83 o
+12 4 6 822.16 836.01 452.52 <
+-12 4 -6 823.60 751.64 475.53 <
+14 4 6 33993.40 35020.40 552.23 o
+-14 4 -6 33984.80 31707.00 590.58 o
+16 4 6 13292.10 13982.10 529.22 o
+-16 4 -6 13295.30 12172.00 590.58 o
+18 4 6 6573.53 6665.08 521.55 o
+-18 4 -6 6584.43 6987.21 582.91 o
+20 4 6 4383.64 5123.44 536.89 o
+-20 4 -6 4387.79 6465.66 651.93 o
+22 4 6 331.54 -69.03 567.57 <
+-22 4 -6 326.95 460.19 682.61 <
+-31 5 6 54.69 -168.74 337.47 <
+31 5 -6 55.15 130.39 728.63 <
+-29 5 6 36.55 7.67 360.48 <
+29 5 -6 36.82 122.72 697.95 <
+-27 5 6 171.61 30.68 329.80 <
+27 5 -6 171.69 -920.38 690.28 <
+-25 5 6 24.26 912.71 329.80 o
+25 5 -6 24.87 2216.58 705.62 o
+-23 5 6 50.81 92.04 345.14 <
+23 5 -6 50.81 467.86 728.63 <
+-21 5 6 109.26 -199.41 314.46 <
+21 5 -6 109.86 -851.35 697.95 <
+-19 5 6 37.48 483.20 306.79 <
+19 5 -6 37.92 153.40 697.95 <
+-17 5 6 256.38 -30.68 299.12 <
+17 5 -6 256.46 -306.79 659.60 <
+-15 5 6 96.83 69.03 283.78 <
+15 5 -6 97.45 820.67 605.92 <
+-13 5 6 16.78 421.84 306.79 <
+13 5 -6 16.83 935.72 674.94 <
+-11 5 6 171.98 153.40 391.16 <
+11 5 -6 171.80 483.20 590.58 <
+-9 5 6 58.10 276.11 406.50 <
+9 5 -6 58.41 452.52 375.82 <
+-7 5 6 183.67 191.75 398.83 <
+7 5 -6 183.83 -15.34 352.81 <
+-5 5 6 296.22 168.74 375.82 <
+5 5 -6 296.24 161.07 352.81 <
+-3 5 6 23.15 429.51 360.48 <
+3 5 -6 23.41 61.36 337.47 <
+-1 5 6 169.45 -30.68 360.48 <
+1 5 -6 169.26 153.40 345.14 <
+1 5 6 44.88 115.05 368.15 <
+-1 5 -6 44.95 782.32 437.18 <
+3 5 6 54.85 536.89 329.80 <
+-3 5 -6 55.24 690.28 352.81 <
+5 5 6 444.67 -276.11 345.14 <
+-5 5 -6 444.42 -214.76 452.52 <
+7 5 6 33.86 207.09 383.49 <
+-7 5 -6 34.24 345.14 437.18 <
+9 5 6 81.27 -92.04 406.50 <
+-9 5 -6 81.72 544.56 444.85 <
+11 5 6 14.57 222.43 414.17 <
+-11 5 -6 14.60 38.35 444.85 <
+13 5 6 29.52 -475.53 437.18 <
+-13 5 -6 29.98 789.99 483.20 <
+15 5 6 318.48 452.52 460.19 <
+-15 5 -6 318.47 -76.70 513.88 <
+17 5 6 15.32 582.91 483.20 <
+-17 5 -6 15.48 -544.56 582.91 <
+19 5 6 27.77 -130.39 521.55 <
+-19 5 -6 28.31 153.40 605.92 <
+21 5 6 0.79 -76.70 552.23 <
+-21 5 -6 0.79 -276.11 621.26 <
+-28 6 6 14595.50 14081.80 391.16 o
+28 6 -6 14587.90 15462.40 866.69 o
+-26 6 6 35944.10 33685.90 421.84 o
+26 6 -6 35953.90 39814.10 782.32 o
+-24 6 6 100.07 322.13 352.81 <
+24 6 -6 98.94 1480.28 828.34 <
+-22 6 6 24558.80 23454.30 352.81 o
+22 6 -6 24545.90 23784.10 912.71 o
+-20 6 6 19065.70 19128.50 337.47 o
+20 6 -6 19081.40 22211.80 836.01 o
+-18 6 6 19049.90 21007.60 329.80 o
+18 6 -6 19025.00 19174.60 805.33 o
+-16 6 6 85702.70 86362.20 414.17 o
+16 6 -6 85712.00 84429.40 1012.42 o
+-14 6 6 2591.28 2431.33 398.83 o
+14 6 -6 2599.29 2462.01 728.63 o
+-12 6 6 41924.60 41440.10 475.53 o
+12 6 -6 41921.80 37375.00 805.33 o
+-10 6 6 36495.50 35795.10 421.84 o
+10 6 -6 36509.00 35396.20 475.53 o
+-8 6 6 10653.10 11497.10 368.15 o
+8 6 -6 10624.80 10154.80 421.84 o
+-6 6 6 119751.00 125808.00 590.58 o
+6 6 -6 119759.00 117655.00 628.92 o
+-4 6 6 10774.70 11144.30 360.48 o
+4 6 -6 10795.60 10369.60 383.49 o
+-2 6 6 37057.30 37191.00 429.51 o
+2 6 -6 37045.10 33770.20 498.54 o
+0 6 6 41357.70 42000.00 475.53 o
+0 6 -6 41380.00 39906.10 521.55 o
+2 6 6 2899.48 3098.61 444.85 o
+-2 6 -6 2889.56 3006.57 421.84 o
+4 6 6 84709.70 89039.00 628.92 o
+-4 6 -6 84691.00 76951.30 621.26 o
+6 6 6 18746.90 21168.70 429.51 o
+-6 6 -6 18783.30 17257.10 452.52 o
+8 6 6 19600.20 21951.00 506.21 o
+-8 6 -6 19591.40 17157.40 506.21 o
+10 6 6 24389.10 27388.90 444.85 o
+-10 6 -6 24397.90 23208.90 552.23 o
+12 6 6 464.03 76.70 460.19 <
+-12 6 -6 466.57 859.02 513.88 <
+14 6 6 35320.30 36953.20 567.57 o
+-14 6 -6 35304.20 34567.90 621.26 o
+16 6 6 14106.10 15447.00 536.89 o
+-16 6 -6 14126.60 13537.20 536.89 o
+-25 7 6 1447.19 1794.74 337.47 o
+25 7 -6 1442.59 2577.06 889.70 o
+-23 7 6 1816.74 2201.24 337.47 o
+23 7 -6 1817.79 1319.21 843.68 <
+-21 7 6 780.98 237.76 306.79 <
+21 7 -6 779.03 1963.47 866.69 o
+-19 7 6 4012.27 3512.78 306.79 o
+19 7 -6 4007.81 4141.70 882.03 o
+-17 7 6 883.72 667.28 291.45 o
+17 7 -6 886.06 475.53 797.66 <
+-15 7 6 2707.19 2715.12 383.49 o
+15 7 -6 2700.87 2254.93 782.32 o
+-13 7 6 5129.60 5491.59 375.82 o
+13 7 -6 5127.44 5000.72 751.64 o
+-11 7 6 612.94 398.83 360.48 <
+11 7 -6 612.41 690.28 444.85 <
+-9 7 6 6661.56 6849.15 375.82 o
+9 7 -6 6655.73 6281.59 429.51 o
+-7 7 6 2363.33 2024.83 352.81 o
+7 7 -6 2363.22 1856.10 406.50 o
+-5 7 6 2122.18 1932.80 360.48 o
+5 7 -6 2118.69 2086.19 437.18 o
+-3 7 6 6714.78 6856.82 352.81 o
+3 7 -6 6709.07 6550.03 421.84 o
+-1 7 6 345.07 567.57 352.81 <
+1 7 -6 344.80 92.04 437.18 <
+1 7 6 4908.61 5905.76 414.17 o
+-1 7 -6 4905.35 5069.75 475.53 o
+3 7 6 2708.44 2914.53 513.88 o
+-3 7 -6 2704.72 2362.31 513.88 o
+5 7 6 724.72 713.29 375.82 <
+-5 7 -6 724.88 1441.93 444.85 o
+7 7 6 3806.41 4233.74 391.16 o
+-7 7 -6 3801.87 3911.61 498.54 o
+9 7 6 261.71 107.38 375.82 <
+-9 7 -6 260.50 -467.86 498.54 <
+11 7 6 1685.83 1733.38 444.85 o
+-11 7 -6 1685.45 1925.13 429.51 o
+13 7 6 1288.69 1211.83 521.55 o
+-13 7 -6 1285.12 2009.49 559.90 o
+-18 8 6 1066.31 1050.77 314.46 o
+18 8 -6 1076.10 943.39 951.06 <
+-16 8 6 4802.54 4264.42 322.13 o
+16 8 -6 4806.47 4095.69 928.05 o
+-14 8 6 719.60 1204.16 368.15 o
+14 8 -6 716.38 -713.29 820.67 <
+-12 8 6 886.47 1173.48 383.49 o
+12 8 -6 909.73 1326.88 467.86 o
+-10 8 6 1061.54 1441.93 375.82 o
+10 8 -6 1044.52 1487.95 490.87 o
+-8 8 6 888.77 429.51 345.14 <
+8 8 -6 899.79 920.38 437.18 o
+-6 8 6 5221.29 6151.20 368.15 o
+6 8 -6 5229.65 4525.20 460.19 o
+-4 8 6 969.81 1058.44 368.15 o
+4 8 -6 958.23 805.33 437.18 <
+-2 8 6 1234.44 1050.77 368.15 o
+2 8 -6 1263.39 1119.79 437.18 o
+0 8 6 922.98 759.31 375.82 o
+0 8 -6 910.45 836.01 460.19 <
+2 8 6 848.71 544.56 452.52 <
+-2 8 -6 852.60 813.00 506.21 <
+4 8 6 5016.55 6266.25 475.53 o
+-4 8 -6 5025.63 5238.49 444.85 o
+6 8 6 1205.93 1825.42 406.50 o
+-6 8 -6 1196.75 1081.45 429.51 o
+-35 1 7 11.71 1035.43 452.52 o
+35 1 -7 11.39 1349.89 605.92 o
+-33 1 7 6571.79 7424.39 437.18 o
+33 1 -7 6571.96 6910.51 613.59 o
+-31 1 7 8301.33 6273.92 498.54 o
+31 1 -7 8306.12 6826.14 605.92 o
+-29 1 7 17553.30 15960.90 536.89 o
+29 1 -7 17570.80 15730.80 720.96 o
+-27 1 7 46804.90 45228.90 513.88 o
+27 1 -7 46842.50 46210.70 621.26 o
+-25 1 7 385.56 682.61 322.13 o
+25 1 -7 384.58 1687.36 529.22 o
+-23 1 7 15299.90 16497.80 360.48 o
+23 1 -7 15308.70 14718.40 590.58 o
+-21 1 7 20057.50 20233.00 368.15 o
+21 1 -7 20070.10 18054.80 559.90 o
+-19 1 7 18844.80 18829.40 368.15 o
+19 1 -7 18854.30 18461.30 567.57 o
+-17 1 7 107694.00 108214.00 483.20 o
+17 1 -7 107719.00 100743.00 751.64 o
+-15 1 7 3010.90 2791.82 306.79 o
+-13 1 7 25572.10 26177.10 391.16 o
+-11 1 7 30445.00 32259.30 314.46 o
+-9 1 7 11127.20 11880.60 276.11 o
+-7 1 7 144070.00 149285.00 467.86 o
+-5 1 7 10429.50 12241.00 283.78 o
+-3 1 7 28953.50 33233.30 329.80 o
+-1 1 7 27970.30 27419.60 322.13 o
+1 1 7 3091.99 3374.72 291.45 o
+3 1 7 107977.00 113375.00 590.58 o
+5 1 7 18851.00 20087.30 421.84 o
+-5 1 -7 18848.00 20271.30 598.25 o
+7 1 7 21369.60 21874.30 452.52 o
+-7 1 -7 21376.60 22112.10 644.27 o
+9 1 7 15543.90 17809.30 460.19 o
+-9 1 -7 15507.90 18031.80 690.28 o
+11 1 7 710.19 651.93 467.86 <
+-11 1 -7 710.60 536.89 590.58 <
+13 1 7 48459.90 49869.20 651.93 o
+-13 1 -7 48406.30 49025.50 820.67 o
+15 1 7 16808.30 17748.00 621.26 o
+-15 1 -7 16818.00 18415.20 774.65 o
+17 1 7 8462.65 7938.27 674.94 o
+-17 1 -7 8467.96 8206.71 736.30 o
+19 1 7 7111.40 7163.62 751.64 o
+-19 1 -7 7099.68 8643.89 782.32 o
+21 1 7 298.08 -490.87 774.65 <
+-21 1 -7 293.91 337.47 828.34 <
+-36 2 7 918.97 1771.73 383.49 o
+36 2 -7 920.04 605.92 636.59 <
+-34 2 7 670.91 1196.49 383.49 o
+34 2 -7 670.74 2531.04 728.63 o
+-32 2 7 585.09 536.89 337.47 <
+32 2 -7 586.94 -552.23 736.30 <
+-30 2 7 2784.41 2883.85 375.82 o
+30 2 -7 2784.43 3926.95 720.96 o
+-28 2 7 180.19 828.34 352.81 o
+28 2 -7 179.58 452.52 590.58 <
+-26 2 7 4460.30 3850.25 352.81 o
+26 2 -7 4464.31 4632.57 590.58 o
+-24 2 7 4549.63 5238.49 291.45 o
+24 2 -7 4549.74 5253.83 483.20 o
+-22 2 7 980.37 1817.75 360.48 o
+22 2 -7 981.99 498.54 544.56 <
+-20 2 7 11455.50 13153.70 375.82 o
+20 2 -7 11459.30 12164.30 552.23 o
+-18 2 7 2242.94 2392.98 345.14 o
+18 2 -7 2240.24 2093.86 506.21 o
+-16 2 7 8838.27 8943.01 375.82 o
+16 2 -7 8840.33 8145.35 483.20 o
+-14 2 7 15490.60 17103.70 383.49 o
+14 2 -7 15495.70 16612.80 490.87 o
+-12 2 7 378.18 1027.76 368.15 o
+12 2 -7 379.54 720.96 437.18 <
+-10 2 7 19087.00 20969.30 414.17 o
+-8 2 7 8411.65 8199.04 306.79 o
+-6 2 7 7828.45 8406.13 306.79 o
+-4 2 7 19942.80 19473.70 360.48 o
+-2 2 7 347.61 728.63 398.83 <
+0 2 7 15335.60 15462.40 429.51 o
+0 2 -7 15338.00 14595.70 506.21 o
+2 2 7 8860.18 8022.64 444.85 o
+-2 2 -7 8864.58 8360.11 460.19 o
+4 2 7 1994.83 2070.85 437.18 o
+-4 2 -7 1994.36 2316.29 475.53 o
+6 2 7 11925.10 11865.20 521.55 o
+-6 2 -7 11927.60 12463.50 513.88 o
+8 2 7 992.48 1165.81 736.30 <
+-8 2 -7 992.89 1503.29 567.57 o
+10 2 7 4547.44 5154.12 437.18 o
+-10 2 -7 4548.07 5353.54 521.55 o
+12 2 7 4299.54 4479.18 498.54 o
+-12 2 -7 4302.45 4425.49 536.89 o
+14 2 7 213.64 667.28 452.52 <
+-14 2 -7 213.17 -460.19 590.58 <
+16 2 7 2836.04 2914.53 559.90 o
+-16 2 -7 2837.04 2415.99 590.58 o
+18 2 7 611.67 667.28 621.26 <
+-18 2 -7 612.53 1142.80 659.60 <
+20 2 7 592.20 1135.13 659.60 <
+-20 2 -7 591.91 306.79 659.60 <
+22 2 7 861.25 1441.93 743.97 <
+-22 2 -7 862.34 1564.64 797.66 <
+-33 3 7 2835.61 1925.13 375.82 o
+33 3 -7 2786.23 3006.57 766.98 o
+-31 3 7 2647.50 2868.51 329.80 o
+31 3 -7 2639.07 4624.90 736.30 o
+-29 3 7 9142.34 8429.14 322.13 o
+29 3 -7 9123.69 9334.17 736.30 o
+-27 3 7 18052.50 18169.80 352.81 o
+27 3 -7 18014.20 17310.80 759.31 o
+-25 3 7 19.18 199.41 337.47 <
+25 3 -7 18.66 475.53 521.55 <
+-23 3 7 3704.70 3520.45 329.80 o
+23 3 -7 3627.01 4831.99 582.91 o
+-21 3 7 4257.15 4018.99 329.80 o
+21 3 -7 4233.78 3528.12 529.22 o
+-19 3 7 7275.69 6994.88 375.82 o
+19 3 -7 7252.10 6120.52 521.55 o
+-17 3 7 33294.60 33754.90 429.51 o
+17 3 -7 33256.40 31492.30 598.25 o
+-15 3 7 498.24 851.35 360.48 o
+15 3 -7 492.06 575.24 467.86 <
+-13 3 7 3312.52 3735.20 375.82 o
+13 3 -7 3280.38 3612.49 475.53 o
+-11 3 7 4626.90 4525.20 414.17 o
+11 3 -7 4609.10 4379.47 483.20 o
+-9 3 7 3210.39 3643.17 398.83 o
+9 3 -7 3199.81 3198.32 460.19 o
+-7 3 7 39034.00 36301.30 421.84 o
+-5 3 7 2925.74 3305.69 398.83 o
+-3 3 7 4457.62 4433.16 398.83 o
+3 3 -7 4510.05 4256.75 391.16 o
+-1 3 7 3633.30 3673.85 383.49 o
+1 3 -7 3645.56 3551.13 452.52 o
+1 3 7 633.88 628.93 383.49 <
+-1 3 -7 637.23 314.46 437.18 <
+3 3 7 33017.20 34790.30 544.56 o
+-3 3 -7 33076.10 31354.20 513.88 o
+5 3 7 6896.45 7309.34 391.16 o
+-5 3 -7 6910.09 7355.36 460.19 o
+7 3 7 4984.25 4256.75 429.51 o
+-7 3 -7 5040.57 4801.31 521.55 o
+9 3 7 3288.36 4210.73 452.52 o
+-9 3 -7 3333.59 3926.95 529.22 o
+11 3 7 410.21 774.65 460.19 <
+-11 3 -7 414.62 751.64 529.22 <
+13 3 7 17967.80 18660.70 513.88 o
+-13 3 -7 17997.80 15884.20 590.58 o
+15 3 7 8579.06 9127.09 536.89 o
+-15 3 -7 8600.49 7823.22 590.58 o
+17 3 7 3231.08 1572.31 521.55 o
+-17 3 -7 3255.62 1610.66 613.59 o
+19 3 7 2588.52 3604.82 567.57 o
+-19 3 -7 2619.81 2837.83 651.93 o
+-32 4 7 836.94 1380.57 398.83 o
+32 4 -7 833.79 1725.71 605.92 o
+-30 4 7 4244.74 4525.20 368.15 o
+30 4 -7 4243.27 6204.89 766.98 o
+-28 4 7 239.84 621.26 306.79 o
+28 4 -7 241.07 720.96 720.96 <
+-26 4 7 5380.67 5829.07 375.82 o
+26 4 -7 5373.40 6734.11 705.62 o
+-24 4 7 6354.42 5767.71 360.48 o
+24 4 -7 6355.21 6496.34 605.92 o
+-22 4 7 1479.29 1012.42 368.15 o
+22 4 -7 1475.76 2638.42 598.25 o
+-20 4 7 16133.80 16658.90 391.16 o
+20 4 -7 16126.40 16605.20 613.59 o
+-18 4 7 3129.28 3735.20 360.48 o
+18 4 -7 3133.33 3321.03 582.91 o
+-16 4 7 11417.90 12540.20 368.15 o
+16 4 -7 11410.60 10891.10 567.57 o
+-14 4 7 19598.10 19711.40 368.15 o
+14 4 -7 19592.70 18238.80 567.57 o
+-12 4 7 460.38 628.93 375.82 <
+12 4 -7 459.61 368.15 521.55 <
+-10 4 7 28473.90 26660.30 437.18 o
+10 4 -7 28464.10 26483.90 628.93 o
+-8 4 7 9698.66 10400.30 521.55 o
+8 4 -7 9698.64 10016.80 598.25 o
+-6 4 7 9218.75 10154.80 475.53 o
+6 4 -7 9214.81 9771.36 375.82 o
+-4 4 7 27635.20 27688.10 536.89 o
+4 4 -7 27628.40 25724.60 498.54 o
+-2 4 7 509.92 222.43 345.14 <
+2 4 -7 510.13 621.26 429.51 <
+0 4 7 20038.40 20440.10 391.16 o
+0 4 -7 20031.80 18591.70 506.21 o
+2 4 7 12239.90 13084.70 483.20 o
+-2 4 -7 12233.70 11834.50 398.83 o
+4 4 7 2935.16 3282.68 337.47 o
+-4 4 -7 2935.96 3804.23 460.19 o
+6 4 7 15947.60 16006.90 467.86 o
+-6 4 -7 15942.10 15155.60 529.22 o
+8 4 7 1260.28 1549.30 429.51 o
+-8 4 -7 1258.85 966.40 483.20 <
+10 4 7 6313.64 6588.38 460.19 o
+-10 4 -7 6312.50 5898.09 521.55 o
+12 4 7 5721.76 6373.62 437.18 o
+-12 4 -7 5716.46 4632.57 529.22 o
+14 4 7 241.63 797.66 437.18 <
+-14 4 -7 242.38 460.19 513.88 <
+16 4 7 4187.90 4954.71 521.55 o
+-16 4 -7 4185.66 5261.50 613.59 o
+18 4 7 655.70 536.89 544.56 <
+-18 4 -7 653.93 1020.09 644.27 <
+-29 5 7 11559.70 10484.60 421.84 o
+29 5 -7 11576.30 13736.70 859.02 o
+-27 5 7 34993.80 34299.50 475.53 o
+27 5 -7 35046.50 39537.90 851.35 o
+-25 5 7 589.16 1058.44 337.47 o
+25 5 -7 591.69 406.50 728.63 <
+-23 5 7 23127.30 23270.20 406.50 o
+23 5 -7 23163.40 22104.40 813.00 o
+-21 5 7 20920.20 20394.10 375.82 o
+21 5 -7 20954.60 18821.70 728.63 o
+-19 5 7 15147.00 13997.40 375.82 o
+19 5 -7 15153.40 13920.70 659.60 o
+-17 5 7 82227.60 84958.60 490.87 o
+17 5 -7 82296.30 83255.90 905.04 o
+-15 5 7 3860.02 4210.73 360.48 o
+15 5 -7 3864.90 3006.57 674.94 o
+-13 5 7 39114.80 41992.30 391.16 o
+13 5 -7 39121.20 37658.80 682.61 o
+-11 5 7 40107.10 40956.90 360.48 o
+11 5 -7 40141.40 37428.70 667.28 o
+-9 5 7 11965.30 11934.20 414.17 o
+9 5 -7 11952.30 11128.90 621.26 o
+-7 5 7 107823.00 112340.00 644.27 o
+7 5 -7 107825.00 105636.00 582.91 o
+-5 5 7 11705.40 12110.70 421.84 o
+5 5 -7 11717.70 12018.60 406.50 o
+-3 5 7 39900.10 41194.60 483.20 o
+3 5 -7 39872.20 40481.30 452.52 o
+-1 5 7 40343.90 41877.20 460.19 o
+1 5 -7 40327.00 40381.60 575.24 o
+1 5 7 4192.66 3988.31 414.17 o
+-1 5 -7 4177.27 3758.21 421.84 o
+3 5 7 82780.00 86799.40 605.92 o
+-3 5 -7 82723.20 75340.70 582.91 o
+5 5 7 15363.30 14910.10 452.52 o
+-5 5 -7 15366.10 12256.40 460.19 o
+7 5 7 21336.20 21222.40 414.17 o
+-7 5 -7 21299.10 19251.30 506.21 o
+9 5 7 24183.90 26315.20 513.88 o
+-9 5 -7 24153.90 23784.10 521.55 o
+11 5 7 1051.62 383.49 490.87 <
+-11 5 -7 1044.40 951.06 567.57 <
+13 5 7 35265.20 35841.10 575.24 o
+-13 5 -7 35208.60 33156.60 628.93 o
+15 5 7 11865.60 12739.60 506.21 o
+-15 5 -7 11866.30 10661.10 613.59 o
+-26 6 7 1245.80 651.93 352.81 <
+26 6 -7 1250.01 1050.77 782.32 <
+-24 6 7 1669.38 1925.13 345.14 o
+24 6 -7 1668.39 1894.45 774.65 o
+-22 6 7 287.89 352.81 352.81 <
+22 6 -7 289.71 -789.99 751.64 <
+-20 6 7 3501.92 3972.97 337.47 o
+20 6 -7 3506.03 3804.23 690.28 o
+-18 6 7 841.06 567.57 314.46 <
+18 6 -7 839.18 789.99 659.60 <
+-16 6 7 2571.99 2300.95 291.45 o
+16 6 -7 2577.44 2615.41 628.93 o
+-14 6 7 4799.40 4870.34 299.12 o
+14 6 -7 4800.52 4824.32 613.59 o
+-12 6 7 151.51 15.34 383.49 <
+12 6 -7 151.92 414.17 628.93 <
+-10 6 7 6032.61 7332.35 398.83 o
+10 6 -7 6039.23 6810.80 651.93 o
+-8 6 7 2224.51 1487.95 383.49 o
+8 6 -7 2224.21 2132.21 391.16 o
+-6 6 7 2233.32 2362.31 383.49 o
+6 6 -7 2235.99 1748.72 345.14 o
+-4 6 7 6570.24 6780.12 421.84 o
+4 6 -7 6574.37 6350.61 421.84 o
+-2 6 7 89.90 774.65 391.16 <
+2 6 -7 89.90 467.86 421.84 <
+0 6 7 4652.36 5085.09 452.52 o
+0 6 -7 4656.62 4970.05 406.50 o
+2 6 7 2623.55 2692.11 429.51 o
+-2 6 -7 2626.35 2692.11 383.49 o
+4 6 7 940.37 1526.29 345.14 o
+-4 6 -7 940.23 -291.45 383.49 <
+6 6 7 3863.00 4348.79 452.52 o
+-6 6 -7 3866.60 3896.27 398.83 o
+8 6 7 229.03 368.15 460.19 <
+-8 6 -7 230.01 1365.23 506.21 o
+10 6 7 1688.74 1664.35 414.17 o
+-10 6 -7 1689.36 997.08 559.90 <
+12 6 7 1287.56 2109.20 513.88 o
+-12 6 -7 1290.45 782.32 536.89 <
+-19 7 7 1412.44 997.08 337.47 o
+19 7 -7 1417.52 2201.24 797.66 o
+-17 7 7 5111.25 5322.86 329.80 o
+17 7 -7 5088.52 5299.85 720.96 o
+-15 7 7 678.68 483.20 291.45 <
+15 7 -7 670.75 1672.02 736.30 o
+-13 7 7 903.65 1334.55 375.82 o
+13 7 -7 910.93 1349.89 697.95 <
+-11 7 7 1148.39 1441.93 398.83 o
+11 7 -7 1122.83 889.70 598.25 <
+-9 7 7 1073.02 1165.81 352.81 o
+9 7 -7 1084.29 1096.78 383.49 o
+-7 7 7 5069.99 6128.19 375.82 o
+7 7 -7 5075.88 4210.73 398.83 o
+-5 7 7 1109.06 1326.88 360.48 o
+5 7 -7 1099.08 498.54 414.17 <
+-3 7 7 1292.82 1119.79 391.16 o
+3 7 -7 1330.75 1027.76 421.84 o
+-1 7 7 999.50 1464.94 414.17 o
+1 7 -7 992.44 1181.15 460.19 o
+1 7 7 812.11 912.71 437.18 o
+-1 7 -7 821.01 -199.41 490.87 <
+3 7 7 5301.99 5583.63 391.16 o
+-3 7 -7 5334.80 4548.21 498.54 o
+5 7 7 1602.48 2109.20 383.49 o
+-5 7 -7 1597.69 1158.14 483.20 o
+-34 0 8 770.58 230.10 720.96 <
+34 0 -8 731.73 345.14 659.60 <
+-32 0 8 1306.66 1741.05 590.58 o
+-30 0 8 2429.70 2546.38 590.58 o
+-28 0 8 6097.13 5322.86 598.25 o
+-26 0 8 155.92 -145.73 674.94 <
+-24 0 8 1196.07 782.32 383.49 o
+-22 0 8 1127.02 736.30 398.83 <
+-20 0 8 838.84 966.40 375.82 o
+-18 0 8 6268.79 6741.77 383.49 o
+-16 0 8 421.67 184.08 368.15 <
+-14 0 8 1803.84 1472.61 360.48 o
+-12 0 8 1960.49 1250.18 352.81 o
+-10 0 8 152.51 -15.34 345.14 <
+-8 0 8 5515.05 6197.22 352.81 o
+-6 0 8 747.33 544.56 375.82 <
+-4 0 8 790.84 1649.01 421.84 o
+-2 0 8 2693.82 2554.05 437.18 o
+0 0 8 434.21 207.09 421.84 <
+2 0 8 5526.57 6296.92 437.18 o
+4 0 8 1087.73 1188.82 460.19 o
+6 0 8 919.92 981.74 483.20 o
+8 0 8 858.12 866.69 513.88 <
+10 0 8 669.39 575.24 529.22 <
+12 0 8 5197.95 6971.87 559.90 o
+14 0 8 2642.54 2508.03 628.93 o
+16 0 8 1538.11 1480.28 644.27 o
+18 0 8 443.03 644.27 974.07 <
+-33 1 8 26.46 329.80 360.48 <
+33 1 -8 26.36 -46.02 720.96 <
+-31 1 8 438.96 306.79 368.15 <
+31 1 -8 439.16 1089.11 621.26 <
+-29 1 8 266.33 168.74 360.48 <
+29 1 -8 265.94 598.25 598.25 <
+-27 1 8 215.60 53.69 345.14 <
+27 1 -8 215.85 498.54 467.86 <
+-25 1 8 940.70 651.93 368.15 <
+25 1 -8 940.39 1664.35 444.85 o
+-23 1 8 31.05 -475.53 337.47 <
+23 1 -8 30.90 912.71 475.53 <
+-21 1 8 1112.59 1204.16 299.12 o
+-19 1 8 666.90 1204.16 314.46 o
+-17 1 8 513.29 230.10 268.44 <
+-15 1 8 1807.17 2646.09 268.44 o
+-13 1 8 11.06 521.55 260.77 <
+-11 1 8 2218.13 2968.22 283.78 o
+-9 1 8 841.62 828.34 260.77 o
+-7 1 8 770.97 1142.80 291.45 o
+-5 1 8 2556.14 2684.44 283.78 o
+-3 1 8 27.64 230.10 291.45 <
+-1 1 8 2317.02 2669.10 314.46 o
+1 1 8 944.24 882.03 299.12 o
+3 1 8 831.55 851.35 314.46 o
+5 1 8 1797.78 1204.16 329.80 o
+7 1 8 61.45 414.17 421.84 <
+9 1 8 1376.15 1135.13 467.86 o
+11 1 8 480.03 15.34 506.21 <
+13 1 8 295.57 590.58 552.23 <
+-13 1 -8 295.43 -69.03 743.97 <
+15 1 8 690.97 490.87 697.95 <
+-15 1 -8 691.20 -30.68 759.31 <
+17 1 8 51.81 882.03 667.28 <
+-17 1 -8 51.67 1211.83 866.69 <
+-32 2 8 7038.43 5560.62 414.17 o
+32 2 -8 7048.12 5230.82 736.30 o
+-30 2 8 15891.70 14933.10 398.83 o
+30 2 -8 15903.40 14365.60 667.28 o
+-28 2 8 42542.40 39169.80 398.83 o
+28 2 -8 42584.40 42107.30 690.28 o
+-26 2 8 200.08 889.70 375.82 o
+26 2 -8 199.38 728.63 467.86 <
+-24 2 8 28764.50 28017.90 414.17 o
+24 2 -8 28793.20 26921.10 590.58 o
+-22 2 8 24336.10 23477.30 360.48 o
+22 2 -8 24362.00 23017.10 559.90 o
+-20 2 8 20716.80 21138.00 398.83 o
+20 2 -8 20712.50 20378.70 559.90 o
+-18 2 8 102319.00 106764.00 544.56 o
+18 2 -8 102400.00 102438.00 743.97 o
+-16 2 8 3437.27 4509.86 391.16 o
+-14 2 8 50918.30 54033.90 475.53 o
+-12 2 8 46610.10 47514.60 375.82 o
+-10 2 8 12968.00 14572.70 337.47 o
+-8 2 8 141263.00 146969.00 529.22 o
+-6 2 8 13708.10 15101.90 360.48 o
+-4 2 8 48913.00 48411.90 391.16 o
+-2 2 8 50614.90 52676.30 414.17 o
+0 2 8 4045.20 4149.37 352.81 o
+2 2 8 104237.00 100674.00 674.95 o
+4 2 8 21741.30 21483.20 529.22 o
+6 2 8 25596.20 23738.10 590.58 o
+-6 2 -8 25596.20 24673.80 674.94 o
+8 2 8 30561.20 31308.20 575.24 o
+-8 2 -8 30570.10 29735.90 697.95 o
+10 2 8 899.05 -168.74 467.86 <
+-10 2 -8 897.83 843.68 674.94 <
+12 2 8 43253.60 44768.80 667.28 o
+-12 2 -8 43229.80 41394.00 805.33 o
+14 2 8 16838.80 17725.00 628.93 o
+-14 2 -8 16857.00 14772.10 705.62 o
+16 2 8 7753.66 7332.35 644.27 o
+-16 2 -8 7747.75 7646.81 828.34 o
+-31 3 8 428.29 928.05 352.81 o
+31 3 -8 427.70 613.59 736.30 <
+-29 3 8 201.91 391.16 345.14 <
+29 3 -8 202.56 513.88 644.27 <
+-27 3 8 445.56 460.19 352.81 <
+27 3 -8 444.28 138.06 636.59 <
+-25 3 8 840.08 1457.27 368.15 o
+25 3 -8 840.73 882.03 513.88 <
+-23 3 8 90.75 406.50 345.14 <
+23 3 -8 90.48 705.62 521.55 <
+-21 3 8 1636.39 2477.35 368.15 o
+21 3 -8 1634.98 2101.53 490.87 o
+-19 3 8 618.03 1487.95 391.16 o
+19 3 -8 618.52 483.20 521.55 <
+-17 3 8 989.83 1395.91 398.83 o
+17 3 -8 987.10 1641.34 544.56 o
+-15 3 8 2390.54 2323.96 398.83 o
+15 3 -8 2391.40 2569.39 513.88 o
+-13 3 8 171.53 437.18 391.16 <
+13 3 -8 171.18 -69.03 483.20 <
+-11 3 8 2622.06 2531.04 368.15 o
+-9 3 8 1364.29 1787.07 306.79 o
+-7 3 8 1468.26 1764.06 314.46 o
+-5 3 8 2595.57 3067.93 306.79 o
+-3 3 8 105.89 337.47 391.16 <
+-1 3 8 2486.85 2055.51 406.50 o
+1 3 8 909.59 1027.76 414.17 o
+-1 3 -8 909.09 1150.47 513.88 o
+3 3 8 802.27 836.01 452.52 <
+-3 3 -8 801.97 958.73 529.22 <
+5 3 8 1645.39 2047.84 444.85 o
+-5 3 -8 1643.99 1879.11 536.89 o
+7 3 8 46.73 421.84 429.51 <
+-7 3 -8 46.61 383.49 521.55 <
+9 3 8 857.89 1902.12 483.20 o
+-9 3 -8 857.61 414.17 536.89 <
+11 3 8 416.81 498.54 467.86 <
+-11 3 -8 416.10 720.96 582.91 <
+13 3 8 326.92 429.51 529.22 <
+-13 3 -8 327.37 1096.78 659.60 <
+15 3 8 395.11 521.55 567.57 <
+-15 3 -8 394.67 943.39 636.59 <
+-28 4 8 14827.50 13069.40 421.84 o
+28 4 -8 14826.60 15216.90 805.33 o
+-26 4 8 186.64 636.59 360.48 <
+26 4 -8 186.32 851.35 644.27 <
+-24 4 8 7214.36 7240.31 421.84 o
+24 4 -8 7206.02 7439.73 667.28 o
+-22 4 8 6554.59 5859.75 391.16 o
+22 4 -8 6547.19 6895.17 598.25 o
+-20 4 8 6372.52 6956.53 391.16 o
+20 4 -8 6365.12 5875.08 598.25 o
+-18 4 8 29641.00 28432.00 429.51 o
+18 4 -8 29642.30 28838.50 644.27 o
+-16 4 8 1335.33 1257.85 360.48 o
+16 4 -8 1334.11 1495.62 521.55 o
+-14 4 8 10547.40 10745.40 383.49 o
+14 4 -8 10549.80 9740.68 521.55 o
+-12 4 8 10056.70 9955.43 345.14 o
+12 4 -8 10038.50 9372.52 536.89 o
+-10 4 8 3672.72 4026.66 360.48 o
+10 4 -8 3667.35 3811.90 460.19 o
+-8 4 8 38054.90 37658.80 421.84 o
+-6 4 8 3907.93 3712.19 383.49 o
+-4 4 8 10269.00 10231.50 398.83 o
+-2 4 8 10390.40 10691.70 421.84 o
+2 4 -8 10380.20 10285.20 467.86 o
+0 4 8 1502.72 1556.97 398.83 o
+0 4 -8 1502.78 1810.08 467.86 o
+2 4 8 29310.20 30924.70 506.21 o
+-2 4 -8 29299.70 27358.30 544.56 o
+4 4 8 6465.78 7846.23 467.86 o
+-4 4 -8 6477.79 6074.50 506.21 o
+6 4 8 6872.01 6734.11 452.52 o
+-6 4 -8 6883.40 7232.64 529.22 o
+8 4 8 7280.37 8881.66 475.53 o
+-8 4 -8 7279.11 6573.04 559.90 o
+10 4 8 551.18 391.16 475.53 <
+-10 4 -8 550.83 1817.75 567.57 o
+12 4 8 14618.80 14235.20 544.56 o
+-12 4 -8 14614.00 13399.20 659.60 o
+-25 5 8 460.69 605.92 383.49 <
+25 5 -8 460.14 506.21 697.95 <
+-23 5 8 365.70 644.27 383.49 <
+23 5 -8 366.80 544.56 598.25 <
+-21 5 8 1070.68 1135.13 375.82 o
+21 5 -8 1072.61 1127.46 590.58 <
+-19 5 8 189.21 306.79 345.14 <
+19 5 -8 188.48 -882.03 529.22 <
+-17 5 8 830.36 475.53 345.14 <
+17 5 -8 833.14 283.78 536.89 <
+-15 5 8 1323.27 1656.68 352.81 o
+15 5 -8 1323.53 1810.08 598.25 o
+-13 5 8 357.44 636.59 352.81 <
+13 5 -8 357.65 138.06 575.24 <
+-11 5 8 1915.83 2285.61 322.13 o
+11 5 -8 1918.62 1357.56 582.91 o
+-9 5 8 607.08 667.28 322.13 o
+9 5 -8 606.96 843.68 552.23 <
+-7 5 8 676.94 766.98 452.52 <
+-5 5 8 1801.68 1879.11 345.14 o
+5 5 -8 1803.62 2124.54 460.19 o
+-3 5 8 219.87 207.09 345.14 <
+3 5 -8 219.76 590.58 444.85 <
+-1 5 8 1374.54 1741.05 406.50 o
+1 5 -8 1375.98 1948.14 391.16 o
+1 5 8 700.97 1058.44 421.84 o
+-1 5 -8 702.03 1012.42 475.53 o
+3 5 8 218.66 -122.72 467.86 <
+-3 5 -8 218.75 230.10 429.51 <
+5 5 8 992.43 398.83 490.87 <
+-5 5 -8 994.06 928.05 521.55 <
+7 5 8 135.84 1380.57 444.85 o
+-7 5 -8 136.20 245.43 544.56 <
+9 5 8 434.00 920.38 483.20 <
+-9 5 -8 434.15 521.55 559.90 <
+-20 6 8 921.57 1089.11 345.14 o
+20 6 -8 921.98 1948.14 682.61 o
+-18 6 8 4818.37 4571.21 352.81 o
+18 6 -8 4802.97 4916.36 697.95 o
+-16 6 8 598.43 590.58 314.46 <
+16 6 -8 595.33 214.76 598.25 <
+-14 6 8 792.77 1165.81 337.47 o
+14 6 -8 795.76 1441.93 613.59 o
+-12 6 8 1176.57 1158.14 306.79 o
+12 6 -8 1145.65 935.72 590.58 <
+-10 6 8 723.84 245.43 414.17 <
+10 6 -8 728.95 974.07 575.24 <
+-8 6 8 5231.62 5691.01 398.83 o
+8 6 -8 5218.19 5752.37 605.92 o
+-6 6 8 942.85 145.73 398.83 <
+6 6 -8 930.38 935.72 391.16 o
+-4 6 8 1080.33 521.55 414.17 <
+4 6 -8 1096.74 1311.54 483.20 o
+-2 6 8 1047.49 1242.51 391.16 o
+2 6 -8 1018.38 1296.20 483.20 o
+0 6 8 813.24 582.91 452.52 <
+0 6 -8 815.77 398.83 498.54 <
+2 6 8 4949.20 4425.49 490.87 o
+-2 6 -8 4942.37 4433.16 544.56 o
+4 6 8 1267.91 1664.35 467.86 o
+-4 6 -8 1256.10 605.92 559.90 <
+-29 1 9 15993.00 13184.40 414.17 o
+-27 1 9 111.83 483.20 329.80 <
+-25 1 9 10015.60 10638.00 368.15 o
+-23 1 9 7357.33 6542.36 306.79 o
+-21 1 9 7694.12 7270.99 322.13 o
+-19 1 9 34110.20 32750.10 329.80 o
+-17 1 9 1334.44 1810.08 299.12 o
+-15 1 9 14168.60 14887.10 322.13 o
+-13 1 9 13771.70 14634.00 322.13 o
+-11 1 9 5214.47 5928.77 299.12 o
+-9 1 9 43575.90 44078.50 383.49 o
+-7 1 9 4934.15 6396.63 322.13 o
+-5 1 9 13680.00 15009.80 337.47 o
+-3 1 9 14841.00 16068.30 345.14 o
+-1 1 9 1594.82 1695.03 322.13 o
+1 1 9 34558.20 35810.40 406.50 o
+3 1 9 7743.36 8099.33 375.82 o
+5 1 9 8087.90 6872.16 391.16 o
+7 1 9 10223.70 10423.30 414.17 o
+9 1 9 531.25 690.28 437.18 <
+11 1 9 16577.30 15654.10 552.23 o
+-28 2 9 1371.60 1219.50 398.83 o
+28 2 -9 1370.10 1925.13 628.93 o
+-26 2 9 1903.69 1188.82 406.50 o
+26 2 -9 1903.92 1472.61 590.58 o
+-24 2 9 279.72 1066.11 383.49 o
+24 2 -9 279.19 23.01 567.57 <
+-22 2 9 4298.81 3405.40 360.48 o
+-20 2 9 989.62 805.33 368.15 o
+-18 2 9 2898.16 3551.13 322.13 o
+-16 2 9 5428.69 5790.72 329.80 o
+-14 2 9 101.13 268.44 322.13 <
+-12 2 9 7558.30 7585.46 360.48 o
+-10 2 9 2536.59 2814.83 314.46 o
+-8 2 9 2418.34 3505.11 337.47 o
+-6 2 9 7480.33 7577.79 337.47 o
+-4 2 9 105.90 751.64 337.47 o
+-2 2 9 5583.49 5928.77 360.48 o
+0 2 9 3077.33 3021.91 352.81 o
+2 2 9 976.65 1349.89 383.49 o
+4 2 9 4261.54 4417.82 421.84 o
+6 2 9 241.19 253.10 467.86 <
+8 2 9 2048.05 2093.86 513.88 o
+10 2 9 1399.61 1725.71 490.87 o
+-25 3 9 3573.94 3689.19 414.17 o
+25 3 -9 3578.78 3374.72 483.20 o
+-23 3 9 4303.69 4157.04 383.49 o
+23 3 -9 4297.56 3229.00 521.55 o
+-21 3 9 2576.49 2707.45 383.49 o
+21 3 -9 2582.45 3098.61 544.56 o
+-19 3 9 15772.40 14986.80 429.51 o
+19 3 -9 15767.80 15048.20 544.56 o
+-17 3 9 1443.40 1181.15 383.49 o
+-15 3 9 4732.74 4417.82 391.16 o
+-13 3 9 5920.17 5414.90 345.14 o
+-11 3 9 2290.41 2070.85 352.81 o
+-9 3 9 18991.10 18146.80 352.81 o
+-7 3 9 2631.17 2385.32 314.46 o
+-5 3 9 5472.35 5506.93 345.14 o
+-3 3 9 5788.85 4931.70 352.81 o
+-1 3 9 1643.14 1794.74 352.81 o
+1 3 9 16224.40 16704.90 398.83 o
+3 3 9 3348.01 2830.17 575.24 o
+5 3 9 4572.82 3865.59 483.20 o
+7 3 9 4253.11 4985.39 529.22 o
+-7 3 -9 4208.20 4241.41 628.93 o
+-22 4 9 7142.46 6596.05 414.17 o
+22 4 -9 7145.77 7056.24 559.90 o
+-20 4 9 1760.06 1273.19 398.83 o
+20 4 -9 1757.93 1464.94 559.90 o
+-18 4 9 4903.90 4018.99 398.83 o
+18 4 -9 4908.06 4739.95 544.56 o
+-16 4 9 9711.65 8950.68 398.83 o
+16 4 -9 9713.45 9042.72 544.56 o
+-14 4 9 79.00 352.81 352.81 <
+-12 4 9 12025.50 13000.40 391.16 o
+-10 4 9 4712.26 4149.37 314.46 o
+-8 4 9 4700.86 3827.24 314.46 o
+-6 4 9 12499.70 13261.10 352.81 o
+-4 4 9 100.50 544.56 329.80 <
+-2 4 9 9663.51 10561.30 437.18 o
+0 4 9 4993.67 4785.97 467.86 o
+2 4 9 1798.15 1518.62 460.19 o
+-2 4 -9 1798.17 1687.36 552.23 o
+4 4 9 7649.71 8620.88 452.52 o
+-4 4 -9 7652.68 5744.70 598.25 o
+-17 5 9 697.82 851.35 391.16 o
+17 5 -9 698.00 -15.34 552.23 <
+-15 5 9 7430.31 6757.11 375.82 o
+15 5 -9 7436.40 6350.61 590.58 o
+-13 5 9 6355.59 5836.74 375.82 o
+13 5 -9 6362.32 4885.68 552.23 o
+-11 5 9 2410.72 2009.49 345.14 o
+-9 5 9 18398.10 17333.80 329.80 o
+-7 5 9 2432.44 2561.72 314.46 o
+-5 5 9 6693.07 5898.09 398.83 o
+-3 5 9 7719.17 7370.70 421.84 o
+-1 5 9 990.92 1158.14 483.20 o
+1 5 -9 992.21 1280.86 552.23 o
+-22 0 10 8076.95 6665.08 483.20 o
+-20 0 10 41276.80 36700.10 575.24 o
+-18 0 10 2319.91 2623.08 452.52 o
+-16 0 10 26251.00 26844.40 513.88 o
+-14 0 10 23391.20 22250.20 521.55 o
+-12 0 10 6098.89 7278.66 483.20 o
+-10 0 10 56660.30 54110.60 628.93 o
+-8 0 10 6487.20 6603.72 483.20 o
+-6 0 10 24376.30 23607.70 529.22 o
+-4 0 10 26730.90 27189.50 598.25 o
+-2 0 10 2865.07 2722.79 536.89 o
+0 0 10 42905.50 40220.60 705.62 o
+2 0 10 9009.66 8444.48 598.25 o
+-21 1 10 85.90 598.25 337.47 <
+-19 1 10 877.71 805.33 322.13 o
+-17 1 10 1201.16 406.50 306.79 <
+-15 1 10 34.48 299.12 337.47 <
+-13 1 10 1807.97 1365.23 329.80 o
+-11 1 10 675.80 368.15 322.13 <
+-9 1 10 574.82 820.67 337.47 o
+-7 1 10 2106.80 1710.37 352.81 o
+-5 1 10 94.06 115.05 352.81 <
+-3 1 10 1426.15 1365.23 352.81 o
+-1 1 10 1213.13 1012.42 368.15 o
+1 1 10 168.02 697.95 383.49 <
+-18 2 10 365.15 866.69 352.81 o
+-16 2 10 880.38 636.59 375.82 <
+-14 2 10 987.43 329.80 337.47 <
+-12 2 10 551.01 966.40 337.47 o
+-10 2 10 4071.85 4448.50 360.48 o
+-8 2 10 714.44 1288.53 352.81 o
+-6 2 10 962.03 552.23 368.15 <
+-4 2 10 869.89 928.05 368.15 o
+-2 2 10 534.20 782.32 360.48 o
+-13 3 10 61.03 628.93 337.47 <
+-11 3 10 33.77 498.54 345.14 <
+-9 3 10 18.52 -15.34 352.81 <
+-7 3 10 69.42 -299.12 360.48 <
+
+loop_
+_twin_refln_datum_id
+_twin_refln_individual_id
+_twin_refln_index_h
+_twin_refln_index_k
+_twin_refln_index_l
+_twin_refln_F_squared_calc
+_twin_refln_F_squared_meas
+_twin_refln_F_squared_sigma
+_twin_refln_include_status
+? ? ? ? ? ? ? ? ?
+

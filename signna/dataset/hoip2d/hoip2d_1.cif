@@ -1,0 +1,56 @@
+data_6-TOPOS_VESTA_phase_1
+_audit_creation_date                2021-09-17
+_audit_creation_method              ToposPro
+_chemical_formula_structural        VESTA_phase_1
+_chemical_formula_sum               'H0 C800 I400 N200 Pb91'
+_citation_special_details
+;
+File: 1_vesta.cif. 
+;
+_cell_length_a                      8.8632
+_cell_length_b                      8.6816
+_cell_length_c                      27.57
+_cell_angle_alpha                   90
+_cell_angle_beta                    90
+_cell_angle_gamma                   90
+_cell_volume                        2121.422
+_cell_formula_units_Z               0.04
+_symmetry_space_group_name_H-M      'P b c a'
+_symmetry_Int_Tables_number         61
+_refine_ls_R_factor_all             0
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,-y,1/2+z
+3 1/2+x,1/2-y,-z
+4 -x,1/2+y,1/2-z
+5 -x,-y,-z
+6 1/2+x,y,1/2-z
+7 1/2-x,1/2+y,z
+8 x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+H1 H 8 0.85389 0.51589 0.10614 1.0000
+H2 H 8 0.08984 0.56145 0.18173 1.0000
+H3 H 8 0.75898 0.64432 0.18126 1.0000
+H4 H 8 0.90972 0.62884 0.27555 1.0000
+H5 H 8 0.18473 0.44841 0.10411 1.0000
+H6 H 8 0.05089 0.31643 0.10346 1.0000
+H7 H 8 0.06996 0.43530 0.05720 1.0000
+C1 C 8 0.96900 0.53900 0.11800 1.0000
+C2 C 8 0.98000 0.51900 0.17000 1.0000
+C3 C 8 0.86200 0.60100 0.19800 1.0000
+C4 C 8 0.88600 0.61500 0.23700 1.0000
+N1 N 8 0.07800 0.42500 0.09360 1.0000
+I1 I 8 0.03380 0.01520 0.11540 1.0000
+I2 I 8 0.19690 0.69480 0.99570 1.0000
+Pb1 Pb 4 0.00000 0.00000 0.00000 0.9100
+#End of data_6-TOPOS_VESTA_phase_1
+

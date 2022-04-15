@@ -1,0 +1,5371 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_BA2MA4Pb5I16
+_audit_block_doi                 10.5517/ccdc.csd.cc1nc6mv
+_database_code_depnum_ccdc_archive 'CCDC 1530117'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1016/j.chempr.2017.02.004 2017
+_audit_update_record             
+;
+2017-01-27 deposited with the CCDC.	2019-07-16 downloaded from the CCDC.
+;
+# start Validation Reply Form
+_vrf_PLAT342_BA2MA4Pb5I16        
+;
+PROBLEM: Low Bond Precision on  C-C Bonds ...............       0.14 Ang.
+RESPONSE: This cif file is given as reference. The proper cif file for this publication is the noncentrosymmetric one which has also been deposited. Please refer to the previous publication for further details (Chem. Mater.2016, 28,2852)
+;
+# Added during the CSD deposition process: Friday 27 January 2017 08:16 PM
+# end Validation Reply Form
+
+#=======================================================================
+
+# 5. CHEMICAL DATA
+
+_chemical_name_systematic        BA2MA4Pb5I16
+_chemical_name_common            'Butylammanium Mathylammonium Lead Iodide'
+_chemical_formula_moiety         (C4H9NH3)2(CH3NH3)4Pb5I16
+_chemical_formula_structural     ?
+_chemical_formula_analytical     ?
+_chemical_formula_iupac          ?
+_chemical_formula_sum            'C12 H48 I16 N6 Pb5'
+_chemical_formula_weight         3343
+_chemical_melting_point          ?
+_chemical_compound_source        ?
+_chemical_absolute_configuration ?
+
+#=======================================================================
+
+# 6. CRYSTAL DATA
+
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_H-M   'A c a m'
+_symmetry_space_group_name_Hall  '-A -2xab;-2yab;-2z'
+_symmetry_Int_Tables_number      64
+
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,z
+3 -x+1/2,y,-z+1/2
+4 x+1/2,-y+1/2,-z
+5 -x,-y,-z
+6 x,y,-z
+7 x+1/2,-y+1/2,z
+8 -x+1/2,y,z+1/2
+9 x,y+1/2,z+1/2
+10 -x,-y+1/2,z+1/2
+11 -x+1/2,y+1/2,-z
+12 x+1/2,-y,-z+1/2
+13 -x,-y+1/2,-z+1/2
+14 x,y+1/2,-z+1/2
+15 x+1/2,-y,z+1/2
+16 -x+1/2,y+1/2,z
+
+_cell_length_a                   8.9050(7)
+_cell_length_b                   77.013(4)
+_cell_length_c                   8.9313(4)
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     6125.1(6)
+
+loop_
+_twin_individual_id
+_twin_individual_mass_fraction_refined
+_twin_individual_twin_matrix_11
+_twin_individual_twin_matrix_12
+_twin_individual_twin_matrix_13
+_twin_individual_twin_matrix_21
+_twin_individual_twin_matrix_22
+_twin_individual_twin_matrix_23
+_twin_individual_twin_matrix_31
+_twin_individual_twin_matrix_32
+_twin_individual_twin_matrix_33
+1 0.958(12) 1 0 0 0 1 0 0 0 1
+2 0.042(12) 0 0 1 0 -1 0 1 0 0
+
+_cell_formula_units_Z            4
+
+_cell_measurement_reflns_used    5064
+_cell_measurement_theta_min      1.58
+_cell_measurement_theta_max      29.63
+_cell_measurement_temperature    293
+_cell_special_details            
+; ?
+;
+
+_exptl_crystal_density_diffrn    3.6252
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_method    ?
+_exptl_crystal_F_000             5680
+
+_exptl_absorpt_coefficient_mu    21.777
+_exptl_crystal_description       'rectangular plate'
+_exptl_crystal_size_max          0.1678
+_exptl_crystal_size_mid          0.0329
+_exptl_crystal_size_min          0.0095
+_exptl_crystal_size_rad          ?
+_exptl_crystal_colour            Black
+_exptl_absorpt_correction_type   integration
+_exptl_absorpt_process_details   X-SHAPE
+_exptl_absorpt_correction_T_min  0.0150
+_exptl_absorpt_correction_T_max  0.6478
+loop_
+_exptl_crystal_face_index_h
+_exptl_crystal_face_index_k
+_exptl_crystal_face_index_l
+_exptl_crystal_face_perp_dist
+? ? ? ?
+
+#=======================================================================
+
+# 7. EXPERIMENTAL DATA
+
+_exptl_special_details           ?
+
+_diffrn_ambient_temperature      293
+_diffrn_measurement_device       '2-circle goniometer'
+_diffrn_measurement_device_type  'STOE IPDS 2'
+_diffrn_detector                 'image plate (34 cm diameter)'
+_diffrn_detector_type            STOE
+_diffrn_detector_area_resol_mean 6.67
+_diffrn_source                   
+'sealed X-ray tube, 12 x 0.4 mm long-fine focus'
+_diffrn_source_voltage           50
+_diffrn_source_current           40
+_diffrn_source_power             1.20
+_diffrn_radiation_type           'Mo K\a'
+_diffrn_radiation_wavelength     0.71073
+_diffrn_radiation_monochromator  'plane graphite'
+_diffrn_radiation_polarisn_norm  0
+_diffrn_radiation_collimation    '0.3 mm diameter, monocapillary'
+_diffrn_measurement_method       'rotation method'
+_diffrn_measurement_details      
+; 180 frames, detector distance = 100 mm
+;
+
+_diffrn_reflns_number            24919
+_diffrn_reflns_theta_min         1.59
+_diffrn_reflns_theta_max         29.32
+_diffrn_reflns_theta_full        29.29
+_diffrn_measured_fraction_theta_max 0.98
+_diffrn_measured_fraction_theta_full 0.98
+_diffrn_reflns_av_R_equivalents  0.1369
+_diffrn_reflns_av_unetI/netI     0.0386
+_diffrn_reflns_limit_h_min       -12
+_diffrn_reflns_limit_h_max       12
+_diffrn_reflns_limit_k_min       -99
+_diffrn_reflns_limit_k_max       105
+_diffrn_reflns_limit_l_min       -11
+_diffrn_reflns_limit_l_max       12
+_diffrn_reflns_reduction_process ?
+
+_diffrn_standards_number         ?
+_diffrn_standards_interval_count ?
+_diffrn_standards_interval_time  ?
+_diffrn_standards_decay_%        ?
+loop_
+_diffrn_standard_refln_index_h
+_diffrn_standard_refln_index_k
+_diffrn_standard_refln_index_l
+? ? ?
+
+_diffrn_radiation_probe          X-ray
+
+#=======================================================================
+
+# 8. REFINEMENT DATA
+
+_refine_special_details          
+; ?
+;
+
+_reflns_number_total             2937
+_reflns_number_gt                1400
+_reflns_threshold_expression     I>2\s(I)
+
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_R_factor_gt           0.1051
+_refine_ls_wR_factor_gt          0.2031
+_refine_ls_R_factor_all          0.1806
+_refine_ls_wR_factor_ref         0.2117
+_refine_ls_goodness_of_fit_ref   3.54
+_refine_ls_goodness_of_fit_gt    5.00
+_refine_ls_restrained_S_gt       ?
+_refine_ls_restrained_S_all      ?
+_refine_ls_number_reflns         2937
+_refine_ls_number_parameters     84
+_refine_ls_number_restraints     9
+_refine_ls_number_constraints    100
+_refine_ls_weighting_scheme      sigma
+_refine_ls_weighting_details     w=1/(\s^2^(I)+0.0004I^2^)
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_shift/su_max          0.0361
+_refine_ls_shift/su_mean         0.0028
+_refine_diff_density_max         2.88
+_refine_diff_density_min         -4.32
+_refine_ls_extinction_method     none
+_refine_ls_extinction_coef       ?
+_refine_ls_abs_structure_details ?
+_refine_ls_abs_structure_Flack   ?
+_refine_ls_abs_structure_Rogers  ?
+
+loop_
+_atom_type_symbol
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C 0.0033 0.0016 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+H 0.0000 0.0000 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+I -0.4742 1.8119 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+N 0.0061 0.0033 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+Pb -3.3944 10.1111 'International Tables Vol C tables 4.2.6.8 and 6.1.1.1'
+
+_computing_data_collection       ?
+_computing_cell_refinement       ?
+_computing_data_reduction        ?
+_computing_structure_solution    ?
+_computing_structure_refinement  ?
+_computing_molecular_graphics    ?
+_computing_publication_material  ?
+
+loop_
+_restr_distance_atom_site_label_1
+_restr_distance_site_symmetry_1
+_restr_distance_atom_site_label_2
+_restr_distance_site_symmetry_2
+_restr_distance_target
+_restr_distance_target_weight_param
+C1 . N1 . 1.5 0.05
+C2 . N2 . 1.5 0.05
+C3 . N3 . 1.5 0.05
+C3 . C4 . 1.5 0.05
+C4 . C5 . 1.5 0.05
+C5 . C6 . 1.5 0.05
+
+loop_
+_restr_angle_atom_site_label_1
+_restr_angle_site_symmetry_1
+_restr_angle_atom_site_label_2
+_restr_angle_site_symmetry_2
+_restr_angle_atom_site_label_3
+_restr_angle_site_symmetry_3
+_restr_angle_target
+_restr_angle_target_weight_param
+N3 . C3 . C4 . 109.47 0.01
+C3 . C4 . C5 . 109.47 0.01
+C4 . C5 . C6 . 109.47 0.01
+
+loop_
+_restr_torsion_atom_site_label_1
+_restr_torsion_site_symmetry_1
+_restr_torsion_atom_site_label_2
+_restr_torsion_site_symmetry_2
+_restr_torsion_atom_site_label_3
+_restr_torsion_site_symmetry_3
+_restr_torsion_atom_site_label_4
+_restr_torsion_site_symmetry_4
+_restr_torsion_angle_target
+_restr_torsion_weight_param
+? ? ? ? ? ? ? ? ? ?
+
+loop_
+_restr_equal_distance_atom_site_label_1
+_restr_equal_distance_site_symmetry_1
+_restr_equal_distance_atom_site_label_2
+_restr_equal_distance_site_symmetry_2
+_restr_equal_distance_class_class_id
+_restr_equal_distance_class_target_weight_param
+? ? ? ? ? ?
+
+loop_
+_restr_equal_angle_atom_site_label_1
+_restr_equal_angle_site_symmetry_1
+_restr_equal_angle_atom_site_label_2
+_restr_equal_angle_site_symmetry_2
+_restr_equal_angle_atom_site_label_3
+_restr_equal_angle_site_symmetry_3
+_restr_equal_angle_class_class_id
+_restr_equal_angle_class_target_weight_param
+? ? ? ? ? ? ? ?
+
+loop_
+_restr_equal_torsion_atom_site_label_1
+_restr_equal_torsion_site_symmetry_1
+_restr_equal_torsion_atom_site_label_2
+_restr_equal_torsion_site_symmetry_2
+_restr_equal_torsion_atom_site_label_3
+_restr_equal_torsion_site_symmetry_3
+_restr_equal_torsion_atom_site_label_4
+_restr_equal_torsion_site_symmetry_4
+_restr_equal_torsion_class_class_id
+_restr_equal_torsion_class_target_weight_param
+? ? ? ? ? ? ? ? ? ?
+
+
+#=======================================================================
+
+# 9. ATOMIC COORDINATES AND DISPLACEMENT PARAMETERS
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_adp_type
+_atom_site_U_iso_or_equiv
+_atom_site_site_symmetry_multiplicity
+_atom_site_occupancy
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Pb1 Pb 0.5 0 0 Uani 0.0751(10) 4 1 d . . .
+Pb2 Pb 0.49982(16) 0.08214(2) 0 Uani 0.0763(8) 8 1 d . . .
+Pb3 Pb 0.50106(16) 0.16494(2) 0 Uani 0.0826(8) 8 1 d . . .
+I1 I 0.25 0.00330(7) 0.25 Uani 0.133(2) 8 1 d . . .
+I2 I 0.5394(4) 0.04076(5) 0 Uani 0.146(2) 8 1 d . . .
+I3 I 0.25 0.07845(7) 0.25 Uani 0.144(2) 8 1 d . . .
+I4 I 0.75 0.08541(6) 0.25 Uani 0.139(2) 8 1 d . . .
+I5 I 0.4578(4) 0.12224(5) 0 Uani 0.144(3) 8 1 d . . .
+I6 I 0.75 0.15950(6) 0.25 Uani 0.145(3) 8 1 d . . .
+I7 I 0.25 0.16795(6) 0.25 Uani 0.141(2) 8 1 d . . .
+I8 I 0.5576(4) 0.20386(5) 0 Uani 0.176(3) 8 1 d . . .
+N1 N -0.011(7) 0.0299(13) 0 Uiso 0.34(5) 8 1 d . . .
+N2 N 0.499(8) 0.1269(13) 0.5 Uiso 0.40(6) 8 1 d . . .
+N3 N 0.976(8) 0.1857(14) 0 Uiso 0.47(4) 8 1 d . . .
+C1 C 0.001(9) 0.0494(13) 0 Uiso 0.28(5) 8 1 d . . .
+C2 C 0.475(8) 0.1079(13) 0.5 Uiso 0.33(6) 8 1 d . . .
+C3 C 0.939(6) 0.2038(15) 0 Uiso 0.47(4) 8 1 d . . .
+C4 C 1.079(8) 0.2142(12) 0 Uiso 0.47(4) 8 1 d . . .
+C5 C 1.041(13) 0.2327(13) 0 Uiso 0.47(4) 8 1 d . . .
+C6 C 1.176(16) 0.2429(12) 0 Uiso 0.47(4) 8 1 d . . .
+H1c1 H -0.075331 0.05411 -0.064237 Uiso 0.3335 16 0.5 d . . .
+H2c1 H -0.01335 0.053626 0.099997 Uiso 0.3335 16 0.5 d . . .
+H3c1 H 0.097986 0.052755 -0.035761 Uiso 0.3335 16 0.5 d . . .
+H1c2 H 0.552677 0.102389 0.442089 Uiso 0.3908 16 0.5 d . . .
+H2c2 H 0.478647 0.103637 0.600977 Uiso 0.3908 16 0.5 d . . .
+H3c2 H 0.3791 0.105316 0.456934 Uiso 0.3908 16 0.5 d . . .
+H1c3 H 0.881105 0.206432 -0.087763 Uiso 0.5619 16 0.5 d . . .
+H2c3 H 0.881105 0.206432 0.087763 Uiso 0.5619 16 0.5 d . . .
+H1c4 H 1.136539 0.211533 0.087763 Uiso 0.5619 16 0.5 d . . .
+H2c4 H 1.136539 0.211533 -0.087763 Uiso 0.5619 16 0.5 d . . .
+H1c5 H 0.982867 0.235382 -0.087764 Uiso 0.5619 16 0.5 d . . .
+H2c5 H 0.982867 0.235382 0.087764 Uiso 0.5619 16 0.5 d . . .
+H1c6 H 1.199041 0.246456 0.10039 Uiso 0.5619 16 0.5 d . . .
+H2c6 H 1.257688 0.235966 -0.038206 Uiso 0.5619 16 0.5 d . . .
+H3c6 H 1.163008 0.252901 -0.062184 Uiso 0.5619 16 0.5 d . . .
+H1n1 H -0.104685 0.026873 -0.004322 Uiso 0.4038 16 0.5 d . . .
+H2n1 H 0.036759 0.025767 -0.077286 Uiso 0.4038 16 0.5 d . . .
+H3n1 H 0.029268 0.025826 0.081608 Uiso 0.4038 16 0.5 d . . .
+H1n2 H 0.427813 0.131866 0.449509 Uiso 0.4853 16 0.5 d . . .
+H2n2 H 0.498619 0.130672 0.591682 Uiso 0.4853 16 0.5 d . . .
+H3n2 H 0.585413 0.129208 0.458809 Uiso 0.4853 16 0.5 d . . .
+H1n3 H 0.919082 0.180259 0.063666 Uiso 0.5619 16 0.5 d . . .
+H2n3 H 0.962153 0.181446 -0.089155 Uiso 0.5619 16 0.5 d . . .
+H3n3 H 1.069735 0.184413 0.025489 Uiso 0.5619 16 0.5 d . . .
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_type_symbol
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+Pb1 Pb 0.0464(11) 0.0946(17) 0.084(2) 0.0001(12) 0 0
+Pb2 Pb 0.0467(8) 0.0962(13) 0.0859(18) 0.0000(9) 0 0
+Pb3 Pb 0.0471(8) 0.1019(13) 0.099(2) -0.0022(8) 0 0
+I1 I 0.084(2) 0.224(5) 0.093(3) 0 0.042(2) 0
+I2 I 0.122(3) 0.079(2) 0.237(6) -0.001(2) 0 0
+I3 I 0.091(2) 0.206(5) 0.136(5) 0 0.054(2) 0
+I4 I 0.088(3) 0.224(5) 0.105(5) 0 -0.051(2) 0
+I5 I 0.116(3) 0.085(3) 0.231(6) 0.0040(18) 0 0
+I6 I 0.083(2) 0.193(5) 0.158(6) 0 -0.046(2) 0
+I7 I 0.073(2) 0.206(5) 0.144(5) 0 0.035(2) 0
+I8 I 0.105(3) 0.098(3) 0.323(9) -0.0023(18) 0 0
+
+loop_
+_jana_atom_site_ADP_C_label
+_jana_atom_site_ADP_C_type_symbol
+_jana_atom_site_ADP_C_111
+_jana_atom_site_ADP_C_112
+_jana_atom_site_ADP_C_113
+_jana_atom_site_ADP_C_122
+_jana_atom_site_ADP_C_123
+_jana_atom_site_ADP_C_133
+_jana_atom_site_ADP_C_222
+_jana_atom_site_ADP_C_223
+_jana_atom_site_ADP_C_233
+_jana_atom_site_ADP_C_333
+? ? ? ? ? ? ? ? ? ? ? ?
+
+loop_
+_jana_atom_site_ADP_D_label
+_jana_atom_site_ADP_D_type_symbol
+_jana_atom_site_ADP_D_1111
+_jana_atom_site_ADP_D_1112
+_jana_atom_site_ADP_D_1113
+_jana_atom_site_ADP_D_1122
+_jana_atom_site_ADP_D_1123
+_jana_atom_site_ADP_D_1133
+_jana_atom_site_ADP_D_1222
+_jana_atom_site_ADP_D_1223
+_jana_atom_site_ADP_D_1233
+_jana_atom_site_ADP_D_1333
+_jana_atom_site_ADP_D_2222
+_jana_atom_site_ADP_D_2223
+_jana_atom_site_ADP_D_2233
+_jana_atom_site_ADP_D_2333
+_jana_atom_site_ADP_D_3333
+? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+loop_
+_jana_atom_site_ADP_E_label
+_jana_atom_site_ADP_E_type_symbol
+_jana_atom_site_ADP_E_11111
+_jana_atom_site_ADP_E_11112
+_jana_atom_site_ADP_E_11113
+_jana_atom_site_ADP_E_11122
+_jana_atom_site_ADP_E_11123
+_jana_atom_site_ADP_E_11133
+_jana_atom_site_ADP_E_11222
+_jana_atom_site_ADP_E_11223
+_jana_atom_site_ADP_E_11233
+_jana_atom_site_ADP_E_11333
+_jana_atom_site_ADP_E_12222
+_jana_atom_site_ADP_E_12223
+_jana_atom_site_ADP_E_12233
+_jana_atom_site_ADP_E_12333
+_jana_atom_site_ADP_E_13333
+_jana_atom_site_ADP_E_22222
+_jana_atom_site_ADP_E_22223
+_jana_atom_site_ADP_E_22233
+_jana_atom_site_ADP_E_22333
+_jana_atom_site_ADP_E_23333
+_jana_atom_site_ADP_E_33333
+? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+loop_
+_jana_atom_site_ADP_F_label
+_jana_atom_site_ADP_F_type_symbol
+_jana_atom_site_ADP_F_111111
+_jana_atom_site_ADP_F_111112
+_jana_atom_site_ADP_F_111113
+_jana_atom_site_ADP_F_111122
+_jana_atom_site_ADP_F_111123
+_jana_atom_site_ADP_F_111133
+_jana_atom_site_ADP_F_111222
+_jana_atom_site_ADP_F_111223
+_jana_atom_site_ADP_F_111233
+_jana_atom_site_ADP_F_111333
+_jana_atom_site_ADP_F_112222
+_jana_atom_site_ADP_F_112223
+_jana_atom_site_ADP_F_112233
+_jana_atom_site_ADP_F_112333
+_jana_atom_site_ADP_F_113333
+_jana_atom_site_ADP_F_122222
+_jana_atom_site_ADP_F_122223
+_jana_atom_site_ADP_F_122233
+_jana_atom_site_ADP_F_122333
+_jana_atom_site_ADP_F_123333
+_jana_atom_site_ADP_F_133333
+_jana_atom_site_ADP_F_222222
+_jana_atom_site_ADP_F_222223
+_jana_atom_site_ADP_F_222233
+_jana_atom_site_ADP_F_222333
+_jana_atom_site_ADP_F_223333
+_jana_atom_site_ADP_F_233333
+_jana_atom_site_ADP_F_333333
+? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ? ?
+
+
+#=======================================================================
+
+# 10. MOLECULAR GEOMETRY
+
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_distance
+_geom_bond_publ_flag
+Pb1 I1 . . 3.1633(5) ?
+Pb1 I1 . 2_655 3.1633(5) ?
+Pb1 I1 . 5_655 3.1633(5) ?
+Pb1 I1 . 6_555 3.1633(5) ?
+Pb1 I2 . . 3.159(4) ?
+Pb1 I2 . 2_655 3.159(4) ?
+Pb2 I2 . . 3.207(4) ?
+Pb2 I3 . . 3.1647(12) ?
+Pb2 I3 . 6_555 3.1647(12) ?
+Pb2 I4 . . 3.1642(11) ?
+Pb2 I4 . 6_555 3.1642(11) ?
+Pb2 I5 . . 3.111(4) ?
+Pb3 I5 . . 3.311(4) ?
+Pb3 I6 . . 3.1741(12) ?
+Pb3 I6 . 6_555 3.1741(12) ?
+Pb3 I7 . . 3.1682(11) ?
+Pb3 I7 . 6_555 3.1682(11) ?
+Pb3 I8 . . 3.039(4) ?
+I1 N1 . . 3.82(6) ?
+I1 N1 . 2_555 4.01(7) ?
+I1 N1 . 3_555 3.82(6) ?
+I1 N1 . 12_555 4.01(7) ?
+I6 N3 . . 3.62(7) ?
+I6 N3 . 3_655 3.62(7) ?
+I7 N3 . 1_455 3.58(6) ?
+I7 N3 . 3_655 3.58(6) ?
+I8 N3 . . 3.98(8) ?
+N1 C1 . . 1.50(14) ?
+N1 H1n1 . . 0.87 ?
+N1 H1n1 . 6_555 0.87 ?
+N2 C2 . . 1.48(14) ?
+N3 C3 . . 1.43(16) ?
+C1 H1c1 . . 0.96 ?
+C1 H1c1 . 6_555 0.96 ?
+C1 H2c1 . . 0.96 ?
+C1 H2c1 . 6_555 0.96 ?
+C1 H3c1 . . 0.96 ?
+C1 H3c1 . 6_555 0.96 ?
+C2 H1c2 . . 0.96 ?
+C2 H1c2 . 6_556 0.96 ?
+C2 H2c2 . . 0.96 ?
+C2 H2c2 . 6_556 0.96 ?
+C2 H3c2 . . 0.96 ?
+C2 H3c2 . 6_556 0.96 ?
+C3 C4 . . 1.48(11) ?
+C3 H1c3 . . 0.96 ?
+C3 H1c3 . 6_555 0.96 ?
+C4 C5 . . 1.46(14) ?
+C4 H1c4 . . 0.96 ?
+C4 H1c4 . 6_555 0.96 ?
+C5 C6 . . 1.44(17) ?
+C5 H1c5 . . 0.96 ?
+C5 H1c5 . 6_555 0.96 ?
+C6 H1c6 . . 0.96 ?
+C6 H1c6 . 6_555 0.96 ?
+C6 H2c6 . . 0.96 ?
+C6 H2c6 . 6_555 0.96 ?
+C6 H3c6 . . 0.96 ?
+C6 H3c6 . 6_555 0.96 ?
+H1c1 H2c1 . 6_555 0.6388 ?
+H3c1 H3c1 . 6_555 0.6388 ?
+H1c2 H2c2 . 6_556 0.7693 ?
+H3c2 H3c2 . 6_556 0.7693 ?
+H1c6 H3c6 . 6_555 0.6825 ?
+H2c6 H2c6 . 6_555 0.6825 ?
+H1n1 H1n1 . 6_555 0.0772 ?
+H2n1 N1 . . 0.87 ?
+H3n1 N1 . . 0.87 ?
+H1n2 N2 . . 0.87 ?
+H2n2 N2 . . 0.87 ?
+H3n2 N2 . . 0.87 ?
+H1n3 N3 . . 0.87 ?
+H2n3 N3 . . 0.87 ?
+H3n3 N3 . . 0.87 ?
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle
+_geom_angle_publ_flag
+I1 Pb1 I1 . . 2_655 90.202(12) ?
+I1 Pb1 I1 . . 5_655 180.0(5) ?
+I1 Pb1 I1 . . 6_555 89.798(12) ?
+I1 Pb1 I2 . . . 89.91(10) ?
+I1 Pb1 I2 . . 2_655 90.09(10) ?
+I1 Pb1 I1 2_655 . 5_655 89.798(12) ?
+I1 Pb1 I1 2_655 . 6_555 180.0(5) ?
+I1 Pb1 I2 2_655 . . 90.09(10) ?
+I1 Pb1 I2 2_655 . 2_655 89.91(10) ?
+I1 Pb1 I1 5_655 . 6_555 90.202(12) ?
+I1 Pb1 I2 5_655 . . 90.09(10) ?
+I1 Pb1 I2 5_655 . 2_655 89.91(10) ?
+I1 Pb1 I2 6_555 . . 89.91(10) ?
+I1 Pb1 I2 6_555 . 2_655 90.09(10) ?
+I2 Pb1 I2 . . 2_655 180.0(5) ?
+I2 Pb2 I3 . . . 89.32(11) ?
+I2 Pb2 I3 . . 6_555 89.32(11) ?
+I2 Pb2 I4 . . . 90.09(11) ?
+I2 Pb2 I4 . . 6_555 90.09(11) ?
+I2 Pb2 I5 . . . 179.41(11) ?
+I3 Pb2 I3 . . 6_555 89.75(4) ?
+I3 Pb2 I4 . . . 90.241(12) ?
+I3 Pb2 I4 . . 6_555 179.41(14) ?
+I3 Pb2 I5 . . . 90.26(11) ?
+I3 Pb2 I4 6_555 . . 179.41(14) ?
+I3 Pb2 I4 6_555 . 6_555 90.241(12) ?
+I3 Pb2 I5 6_555 . . 90.26(11) ?
+I4 Pb2 I4 . . 6_555 89.76(4) ?
+I4 Pb2 I5 . . . 90.33(11) ?
+I4 Pb2 I5 6_555 . . 90.33(11) ?
+I5 Pb3 I6 . . . 87.15(10) ?
+I5 Pb3 I6 . . 6_555 87.15(10) ?
+I5 Pb3 I7 . . . 89.45(11) ?
+I5 Pb3 I7 . . 6_555 89.45(11) ?
+I5 Pb3 I8 . . . 177.15(11) ?
+I6 Pb3 I6 . . 6_555 89.41(4) ?
+I6 Pb3 I7 . . . 90.385(14) ?
+I6 Pb3 I7 . . 6_555 176.60(14) ?
+I6 Pb3 I8 . . . 90.83(11) ?
+I6 Pb3 I7 6_555 . . 176.60(14) ?
+I6 Pb3 I7 6_555 . 6_555 90.385(14) ?
+I6 Pb3 I8 6_555 . . 90.83(11) ?
+I7 Pb3 I7 . . 6_555 89.62(4) ?
+I7 Pb3 I8 . . . 92.57(11) ?
+I7 Pb3 I8 6_555 . . 92.57(11) ?
+Pb1 I1 Pb1 . . 3_555 170.78(18) ?
+Pb1 I1 N1 . . . 93.3(6) ?
+Pb1 I1 N1 . . 2_555 86.0(6) ?
+Pb1 I1 N1 . . 3_555 91.6(6) ?
+Pb1 I1 N1 . . 12_555 88.2(6) ?
+Pb1 I1 N1 3_555 . . 91.6(6) ?
+Pb1 I1 N1 3_555 . 2_555 88.2(6) ?
+Pb1 I1 N1 3_555 . 3_555 93.3(6) ?
+Pb1 I1 N1 3_555 . 12_555 86.0(6) ?
+N1 I1 N1 . . 2_555 72.2(17) ?
+N1 I1 N1 . . 3_555 115.1(18) ?
+N1 I1 N1 . . 12_555 172.6(18) ?
+N1 I1 N1 2_555 . 3_555 172.6(18) ?
+N1 I1 N1 2_555 . 12_555 100.7(16) ?
+N1 I1 N1 3_555 . 12_555 72.2(17) ?
+Pb1 I2 Pb2 . . . 167.30(13) ?
+Pb2 I3 Pb2 . . 3_555 169.69(19) ?
+Pb2 I4 Pb2 . . 3_655 170.88(18) ?
+Pb2 I5 Pb3 . . . 166.41(14) ?
+Pb3 I6 Pb3 . . 3_655 164.83(18) ?
+Pb3 I6 N3 . . . 83.2(9) ?
+Pb3 I6 N3 . . 3_655 88.4(8) ?
+Pb3 I6 N3 3_655 . . 88.4(8) ?
+Pb3 I6 N3 3_655 . 3_655 83.2(9) ?
+N3 I6 N3 . . 3_655 112(2) ?
+Pb3 I7 Pb3 . . 3_555 171.62(18) ?
+Pb3 I7 N3 . . 1_455 94.0(7) ?
+Pb3 I7 N3 . . 3_655 89.2(8) ?
+Pb3 I7 N3 3_555 . 1_455 89.2(8) ?
+Pb3 I7 N3 3_555 . 3_655 94.0(7) ?
+N3 I7 N3 1_455 . 3_655 135(2) ?
+Pb3 I8 N3 . . . 79.0(15) ?
+I1 N1 I1 . . 2_555 69.8(12) ?
+I1 N1 I1 . . 5_555 108(2) ?
+I1 N1 I1 . . 6_555 71.6(14) ?
+I1 N1 C1 . . . 120(3) ?
+I1 N1 H1n1 . . . 117.81 ?
+I1 N1 H1n1 . . 6_555 114.49 ?
+I1 N1 I1 2_555 . 5_555 67.7(14) ?
+I1 N1 I1 2_555 . 6_555 108(2) ?
+I1 N1 C1 2_555 . . 132(3) ?
+I1 N1 H1n1 2_555 . . 48.82 ?
+I1 N1 H1n1 2_555 . 6_555 44.94 ?
+I1 N1 I1 5_555 . 6_555 69.8(12) ?
+I1 N1 C1 5_555 . . 132(3) ?
+I1 N1 H1n1 5_555 . . 44.94 ?
+I1 N1 H1n1 5_555 . 6_555 48.82 ?
+I1 N1 C1 6_555 . . 120(3) ?
+I1 N1 H1n1 6_555 . . 114.49 ?
+I1 N1 H1n1 6_555 . 6_555 117.81 ?
+C1 N1 H1n1 . . . 109.47 ?
+C1 N1 H1n1 . . 6_555 109.47 ?
+H1n1 N1 H1n1 . . 6_555 5.09 ?
+I6 N3 I6 . . 6_555 76.1(18) ?
+I6 N3 I7 . . 1_655 77.4(13) ?
+I6 N3 I7 . . 6_655 123(3) ?
+I6 N3 I8 . . . 71.0(12) ?
+I6 N3 C3 . . . 114(3) ?
+I6 N3 I7 6_555 . 1_655 123(3) ?
+I6 N3 I7 6_555 . 6_655 77.4(13) ?
+I6 N3 I8 6_555 . . 71.0(12) ?
+I6 N3 C3 6_555 . . 114(3) ?
+I7 N3 I7 1_655 . 6_655 77.2(16) ?
+I7 N3 I8 1_655 . . 140.6(8) ?
+I7 N3 C3 1_655 . . 122(3) ?
+I7 N3 I8 6_655 . . 140.6(8) ?
+I7 N3 C3 6_655 . . 122(3) ?
+I8 N3 C3 . . . 56(3) ?
+N1 C1 H1c1 . . . 109.47 ?
+N1 C1 H1c1 . . 6_555 109.47 ?
+N1 C1 H2c1 . . . 109.47 ?
+N1 C1 H2c1 . . 6_555 109.47 ?
+N1 C1 H3c1 . . . 109.47 ?
+N1 C1 H3c1 . . 6_555 109.47 ?
+H1c1 C1 H1c1 . . 6_555 73.4 ?
+H1c1 C1 H2c1 . . . 109.47 ?
+H1c1 C1 H2c1 . . 6_555 38.87 ?
+H1c1 C1 H3c1 . . . 109.47 ?
+H1c1 C1 H3c1 . . 6_555 136.98 ?
+H1c1 C1 H2c1 6_555 . . 38.87 ?
+H1c1 C1 H2c1 6_555 . 6_555 109.47 ?
+H1c1 C1 H3c1 6_555 . . 136.98 ?
+H1c1 C1 H3c1 6_555 . 6_555 109.47 ?
+H2c1 C1 H2c1 . . 6_555 136.97 ?
+H2c1 C1 H3c1 . . . 109.47 ?
+H2c1 C1 H3c1 . . 6_555 73.4 ?
+H2c1 C1 H3c1 6_555 . . 73.4 ?
+H2c1 C1 H3c1 6_555 . 6_555 109.47 ?
+H3c1 C1 H3c1 . . 6_555 38.87 ?
+N2 C2 H1c2 . . . 109.47 ?
+N2 C2 H1c2 . . 6_556 109.47 ?
+N2 C2 H2c2 . . . 109.47 ?
+N2 C2 H2c2 . . 6_556 109.47 ?
+N2 C2 H3c2 . . . 109.47 ?
+N2 C2 H3c2 . . 6_556 109.47 ?
+H1c2 C2 H1c2 . . 6_556 65.2 ?
+H1c2 C2 H2c2 . . . 109.47 ?
+H1c2 C2 H2c2 . . 6_556 47.24 ?
+H1c2 C2 H3c2 . . . 109.47 ?
+H1c2 C2 H3c2 . . 6_556 139.92 ?
+H1c2 C2 H2c2 6_556 . . 47.24 ?
+H1c2 C2 H2c2 6_556 . 6_556 109.47 ?
+H1c2 C2 H3c2 6_556 . . 139.92 ?
+H1c2 C2 H3c2 6_556 . 6_556 109.47 ?
+H2c2 C2 H2c2 . . 6_556 139.91 ?
+H2c2 C2 H3c2 . . . 109.47 ?
+H2c2 C2 H3c2 . . 6_556 65.2 ?
+H2c2 C2 H3c2 6_556 . . 65.2 ?
+H2c2 C2 H3c2 6_556 . 6_556 109.47 ?
+H3c2 C2 H3c2 . . 6_556 47.24 ?
+N3 C3 C4 . . . 109(6) ?
+N3 C3 H1c3 . . . 109.47 ?
+N3 C3 H1c3 . . 6_555 109.47 ?
+C4 C3 H1c3 . . . 109.47 ?
+C4 C3 H1c3 . . 6_555 109.47 ?
+H1c3 C3 H1c3 . . 6_555 109.47 ?
+C3 C4 C5 . . . 109(8) ?
+C3 C4 H1c4 . . . 109.47 ?
+C3 C4 H1c4 . . 6_555 109.47 ?
+C5 C4 H1c4 . . . 109.47 ?
+C5 C4 H1c4 . . 6_555 109.47 ?
+H1c4 C4 H1c4 . . 6_555 109.47 ?
+C4 C5 C6 . . . 109(9) ?
+C4 C5 H1c5 . . . 109.47 ?
+C4 C5 H1c5 . . 6_555 109.47 ?
+C6 C5 H1c5 . . . 109.47 ?
+C6 C5 H1c5 . . 6_555 109.47 ?
+H1c5 C5 H1c5 . . 6_555 109.47 ?
+C5 C6 H1c6 . . . 109.47 ?
+C5 C6 H1c6 . . 6_555 109.47 ?
+C5 C6 H2c6 . . . 109.47 ?
+C5 C6 H2c6 . . 6_555 109.47 ?
+C5 C6 H3c6 . . . 109.47 ?
+C5 C6 H3c6 . . 6_555 109.47 ?
+H1c6 C6 H1c6 . . 6_555 138.13 ?
+H1c6 C6 H2c6 . . . 109.47 ?
+H1c6 C6 H2c6 . . 6_555 70.69 ?
+H1c6 C6 H3c6 . . . 109.47 ?
+H1c6 C6 H3c6 . . 6_555 41.64 ?
+H1c6 C6 H2c6 6_555 . . 70.69 ?
+H1c6 C6 H2c6 6_555 . 6_555 109.47 ?
+H1c6 C6 H3c6 6_555 . . 41.64 ?
+H1c6 C6 H3c6 6_555 . 6_555 109.47 ?
+H2c6 C6 H2c6 . . 6_555 41.64 ?
+H2c6 C6 H3c6 . . . 109.47 ?
+H2c6 C6 H3c6 . . 6_555 138.13 ?
+H2c6 C6 H3c6 6_555 . . 138.13 ?
+H2c6 C6 H3c6 6_555 . 6_555 109.47 ?
+H3c6 C6 H3c6 . . 6_555 70.69 ?
+C1 H1c1 H2c1 . . 6_555 70.57 ?
+C1 H2c1 H1c1 . . 6_555 70.57 ?
+C1 H3c1 H3c1 . . 6_555 70.57 ?
+C2 H1c2 H2c2 . . 6_556 66.38 ?
+C2 H2c2 H1c2 . . 6_556 66.38 ?
+C2 H3c2 H3c2 . . 6_556 66.38 ?
+C6 H1c6 H3c6 . . 6_555 69.18 ?
+C6 H2c6 H2c6 . . 6_555 69.18 ?
+C6 H3c6 H1c6 . . 6_555 69.18 ?
+N1 H1n1 H1n1 . . 6_555 87.46 ?
+
+loop_
+_geom_torsion_atom_site_label_1
+_geom_torsion_atom_site_label_2
+_geom_torsion_atom_site_label_3
+_geom_torsion_atom_site_label_4
+_geom_torsion_site_symmetry_1
+_geom_torsion_site_symmetry_2
+_geom_torsion_site_symmetry_3
+_geom_torsion_site_symmetry_4
+_geom_torsion
+_geom_torsion_publ_flag
+? ? ? ? ? ? ? ? ? ?
+
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_site_symmetry_D
+_geom_hbond_site_symmetry_H
+_geom_hbond_site_symmetry_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_publ_flag
+? ? ? ? ? ? ? ? ? ? ?
+
+
+#=======================================================================
+
+# 11. STRUCTURE-FACTOR LIST
+
+loop_
+_refln_index_h
+_refln_index_k
+_refln_index_l
+_refln_F_squared_calc
+_refln_F_squared_meas
+_refln_F_squared_sigma
+_refln_observed_status
+? ? ? ? ? ? ?
+
+loop_
+_twin_refln_datum_id
+_twin_refln_individual_id
+_twin_refln_index_h
+_twin_refln_index_k
+_twin_refln_index_l
+_twin_refln_F_squared_calc
+_twin_refln_F_squared_meas
+_twin_refln_F_squared_sigma
+_twin_refln_include_status
+1 2 0 0 2 551928. 570583. 960. o
+1 1 2 0 0 551928. 570583. 960. o
+2 2 0 0 6 10646. 11505. 849. o
+2 1 6 0 0 10646. 11505. 849. o
+3 1 1 2 0 1311. 852. 852. <
+4 2 0 -2 2 1391. 3835. 850. o
+4 1 2 2 0 1391. 3835. 850. o
+5 1 3 2 0 598. 426. 426. <
+6 2 0 -2 4 310383. 327691. 6380. o
+6 1 4 2 0 310383. 327691. 6380. o
+7 1 5 2 0 288. 852. 426. <
+8 2 0 -2 6 8126. 12784. 392. o
+8 1 6 2 0 8126. 12784. 392. o
+9 1 7 2 0 2. -426. 426. <
+10 2 0 -2 8 31660. 29403. 873. o
+10 1 8 2 0 31660. 29403. 873. o
+11 1 9 2 0 41. 426. 426. <
+12 2 0 -2 10 1829. 2983. 851. o
+12 1 10 2 0 1829. 2983. 851. o
+13 1 1 4 0 4805. 2557. 855. o
+14 2 0 -4 2 2341. 4261. 850. o
+14 1 2 4 0 2341. 4261. 850. o
+15 1 3 4 0 8426. 7244. 432. o
+16 2 0 -4 4 239381. 241614. 663. o
+16 1 4 4 0 239381. 241614. 663. o
+17 1 5 4 0 1733. 4687. 419. o
+18 2 0 -4 6 1301. 1705. 852. <
+18 1 6 4 0 1301. 1705. 852. <
+19 1 7 4 0 137. 2983. 850. o
+20 1 9 4 0 205. 426. 426. <
+21 2 0 -4 10 689. 852. 426. <
+21 1 10 4 0 689. 852. 426. <
+22 2 0 -6 0 442828. 632372. 27966. o
+22 1 0 6 0 442828. 632372. 27966. o
+23 1 1 6 0 2919. 1705. 853. <
+24 2 0 -6 2 1642. 3835. 422. o
+24 1 2 6 0 1642. 3835. 422. o
+25 1 3 6 0 631497. 573566. 4467. o
+26 2 0 -6 4 197464. 193461. 1069. o
+26 1 4 6 0 197464. 193461. 1069. o
+27 1 5 6 0 83643. 93322. 511. o
+28 2 0 -6 6 561. 1705. 425. o
+28 1 6 6 0 561. 1705. 425. o
+29 2 0 -6 8 27006. 25994. 861. o
+29 1 8 6 0 27006. 25994. 861. o
+30 1 9 6 0 5. 852. 426. <
+31 2 0 -6 10 208. 852. 426. <
+31 1 10 6 0 208. 852. 426. <
+32 2 0 -8 0 408850. 510073. 20255. o
+32 1 0 8 0 408850. 510073. 20255. o
+33 1 1 8 0 921. 426. 852. <
+34 2 0 -8 2 901. 852. 852. <
+34 1 2 8 0 901. 852. 852. <
+35 1 3 8 0 8704. 8523. 427. o
+36 2 0 -8 4 119234. 121446. 764. o
+36 1 4 8 0 119234. 121446. 764. o
+37 1 5 8 0 3. 852. 426. <
+38 2 0 -8 6 383. 426. 426. <
+38 1 6 8 0 383. 426. 426. <
+39 1 7 8 0 4410. 5114. 851. o
+40 2 0 -8 8 13856. 14488. 849. o
+40 1 8 8 0 13856. 14488. 849. o
+41 1 9 8 0 113. -426. 426. <
+42 2 0 -8 10 710. 426. 852. <
+42 1 10 8 0 710. 426. 852. <
+43 2 0 -10 0 286667. 318743. 14305. o
+43 1 0 10 0 286667. 318743. 14305. o
+44 1 1 10 0 3412. 1278. 854. <
+45 2 0 -10 2 7373. 9801. 845. o
+45 1 2 10 0 7373. 9801. 845. o
+46 1 3 10 0 18785. 19602. 847. o
+47 2 0 -10 4 39292. 43039. 313. o
+47 1 4 10 0 39292. 43039. 313. o
+48 1 5 10 0 459. 426. 426. <
+49 2 0 -10 6 588. 852. 426. <
+49 1 6 10 0 588. 852. 426. <
+50 1 7 10 0 3067. 2557. 853. o
+51 1 9 10 0 40. 1278. 852. <
+52 2 0 -10 10 530. 852. 852. <
+52 1 10 10 0 530. 852. 852. <
+53 2 0 -12 0 3548100. 3977890. 77991. o
+53 1 0 12 0 3548100. 3977890. 77991. o
+54 1 1 12 0 2797. 1705. 853. <
+55 2 0 -12 2 1079970. 1178670. 22456. o
+55 1 2 12 0 1079970. 1178670. 22456. o
+56 1 3 12 0 21040. 23437. 835. o
+57 1 5 12 0 1161. 426. 426. <
+58 2 0 -12 6 41415. 43891. 818. o
+58 1 6 12 0 41415. 43891. 818. o
+59 1 7 12 0 1107. 1705. 2557. <
+60 2 0 -12 8 580869. 520726. 4678. o
+60 1 8 12 0 580869. 520726. 4678. o
+61 1 9 12 0 447. 852. 852. <
+62 2 0 -12 10 30295. 23011. 908. o
+62 1 10 12 0 30295. 23011. 908. o
+63 2 0 -14 0 422590. 477688. 9086. o
+63 1 0 14 0 422590. 477688. 9086. o
+64 1 1 14 0 105. 852. 852. <
+65 2 0 -14 2 98435. 96731. 903. o
+65 1 2 14 0 98435. 96731. 903. o
+66 1 3 14 0 18926. 20454. 407. o
+67 2 0 -14 4 231368. 214768. 1636. o
+67 1 4 14 0 231368. 214768. 1636. o
+68 1 5 14 0 38. 852. 426. <
+69 2 0 -14 6 741. 3835. 850. o
+69 1 6 14 0 741. 3835. 850. o
+70 1 7 14 0 8. 426. 426. <
+71 2 0 -14 8 36866. 55823. 1065. o
+71 1 8 14 0 36866. 55823. 1065. o
+72 1 9 14 0 396. 852. 852. <
+73 2 0 -14 10 2320. 1705. 2557. <
+73 1 10 14 0 2320. 1705. 2557. <
+74 2 0 -16 0 253975. 242892. 7344. o
+74 1 0 16 0 253975. 242892. 7344. o
+75 1 1 16 0 11794. 14914. 839. o
+76 2 0 -16 2 16688. 18750. 841. o
+76 1 2 16 0 16688. 18750. 841. o
+77 1 3 16 0 15265. 15340. 852. o
+78 2 0 -16 4 143438. 125707. 1404. o
+78 1 4 16 0 143438. 125707. 1404. o
+79 1 5 16 0 6096. 6392. 425. o
+80 2 0 -16 6 827. 426. 852. <
+80 1 6 16 0 827. 426. 852. <
+81 2 0 -16 8 23065. 22585. 856. o
+81 1 8 16 0 23065. 22585. 856. o
+82 1 9 16 0 39. -426. 426. <
+83 2 0 -16 10 930. 852. 426. <
+83 1 10 16 0 930. 852. 426. <
+84 2 0 -18 0 151739. 156814. 5502. o
+84 1 0 18 0 151739. 156814. 5502. o
+85 1 1 18 0 710480. 685637. 3966. o
+86 2 0 -18 2 1404. 2557. 851. o
+86 1 2 18 0 1404. 2557. 851. o
+87 1 3 18 0 3677. 3409. 427. o
+88 2 0 -18 4 115510. 99714. 1269. o
+88 1 4 18 0 115510. 99714. 1269. o
+89 1 5 18 0 374658. 343884. 2953. o
+90 2 0 -18 6 2550. 1705. 427. o
+90 1 6 18 0 2550. 1705. 427. o
+91 2 0 -18 8 21463. 21732. 422. o
+91 1 8 18 0 21463. 21732. 422. o
+92 1 9 18 0 7789. 8523. 850. o
+93 2 0 -18 10 518. 852. 426. <
+93 1 10 18 0 518. 852. 426. <
+94 2 0 -20 0 63429. 66476. 4249. o
+94 1 0 20 0 63429. 66476. 4249. o
+95 1 1 20 0 58729. 57527. 1293. o
+96 2 0 -20 2 1127. 1278. 852. <
+96 1 2 20 0 1127. 1278. 852. <
+97 1 3 20 0 2839. 2557. 427. o
+98 2 0 -20 4 69250. 61788. 991. o
+98 1 4 20 0 69250. 61788. 991. o
+99 1 5 20 0 30162. 30255. 851. o
+100 2 0 -20 6 9566. 9801. 425. o
+100 1 6 20 0 9566. 9801. 425. o
+101 1 7 20 0 428. 426. 426. <
+102 2 0 -20 8 12287. 11079. 435. o
+102 1 8 20 0 12287. 11079. 435. o
+103 1 9 20 0 1136. 1278. 852. <
+104 2 0 -20 10 1100. 852. 426. <
+104 1 10 20 0 1100. 852. 426. <
+105 2 0 -22 0 6201. -23863. 3806. <
+105 1 0 22 0 6201. -23863. 3806. <
+106 1 1 22 0 47998. 45169. 1305. o
+107 2 0 -22 2 605. 852. 852. <
+107 1 2 22 0 605. 852. 852. <
+108 1 3 22 0 5976. 2557. 434. o
+109 2 0 -22 4 8515. 4687. 859. o
+109 1 4 22 0 8515. 4687. 859. o
+110 1 5 22 0 20910. 20880. 427. o
+111 2 0 -22 6 9690. 12358. 407. o
+111 1 6 22 0 9690. 12358. 407. o
+112 1 7 22 0 1327. 1278. 852. <
+113 2 0 -22 8 3494. 1278. 429. o
+113 1 8 22 0 3494. 1278. 429. o
+114 1 9 22 0 731. 852. 426. <
+115 2 0 -22 10 752. 852. 852. <
+115 1 10 22 0 752. 852. 852. <
+116 1 1 24 0 30094. 28124. 1290. o
+117 2 0 -24 2 605601. 624701. 12358. o
+117 1 2 24 0 605601. 624701. 12358. o
+118 1 3 24 0 675. 426. 426. <
+119 1 5 24 0 13924. 13636. 429. o
+120 2 0 -24 6 49765. 44743. 922. o
+120 1 6 24 0 49765. 44743. 922. o
+121 1 9 24 0 392. 1705. 425. o
+122 2 0 -24 10 15792. 13636. 445. o
+122 1 10 24 0 15792. 13636. 445. o
+123 2 0 -26 0 1276310. 1583060. 28858. o
+123 1 0 26 0 1276310. 1583060. 28858. o
+124 1 1 26 0 11722. 9801. 859. o
+125 2 0 -26 2 61839. 66476. 752. o
+125 1 2 26 0 61839. 66476. 752. o
+126 1 3 26 0 3212. 2983. 427. o
+127 2 0 -26 4 420001. 414621. 1682. o
+127 1 4 26 0 420001. 414621. 1682. o
+128 1 5 26 0 6112. 6392. 425. o
+129 2 0 -26 6 8138. 8523. 424. o
+129 1 6 26 0 8138. 8523. 424. o
+130 1 7 26 0 6. -426. 426. <
+131 1 9 26 0 1. 852. 426. <
+132 2 0 -26 10 2399. 2557. 426. o
+132 1 10 26 0 2399. 2557. 426. o
+133 2 0 -28 0 298391. 295732. 4310. o
+133 1 0 28 0 298391. 295732. 4310. o
+134 1 1 28 0 44. 852. 1278. <
+135 2 0 -28 2 20568. 19602. 858. o
+135 1 2 28 0 20568. 19602. 858. o
+136 1 3 28 0 33245. 29403. 888. o
+137 2 0 -28 4 87926. 74146. 1142. o
+137 1 4 28 0 87926. 74146. 1142. o
+138 1 5 28 0 1750. 1705. 426. o
+139 2 0 -28 6 1233. 426. 426. <
+139 1 6 28 0 1233. 426. 426. <
+140 1 7 28 0 1893. 426. 427. <
+141 2 0 -28 8 8334. 7670. 429. o
+141 1 8 28 0 8334. 7670. 429. o
+142 1 9 28 0 304. 426. 426. <
+143 2 0 -28 10 521. 852. 426. <
+143 1 10 28 0 521. 852. 426. <
+144 2 0 -30 0 142354. 131247. 3114. o
+144 1 0 30 0 142354. 131247. 3114. o
+145 1 1 30 0 123837. 138491. 1364. o
+146 2 0 -30 2 22947. 21732. 861. o
+146 1 2 30 0 22947. 21732. 861. o
+147 1 3 30 0 525818. 454251. 4599. o
+148 2 0 -30 4 36095. 32386. 890. o
+148 1 4 30 0 36095. 32386. 890. o
+149 1 5 30 0 244. 852. 426. <
+150 2 0 -30 6 711. 0. 852. <
+150 1 6 30 0 711. 0. 852. <
+151 1 7 30 0 50273. 53692. 794. o
+152 1 9 30 0 2025. 2557. 425. o
+153 2 0 -30 10 359. 852. 426. <
+153 1 10 30 0 359. 852. 426. <
+154 2 0 -32 0 80382. 67754. 2241. o
+154 1 0 32 0 80382. 67754. 2241. o
+155 1 1 32 0 23242. 31960. 1664. o
+156 2 0 -32 2 23410. 20028. 874. o
+156 1 2 32 0 23410. 20028. 874. o
+157 1 3 32 0 122315. 129969. 454. o
+158 2 0 -32 4 11750. 10653. 434. o
+158 1 4 32 0 11750. 10653. 434. o
+159 1 5 32 0 75. 426. 426. <
+160 2 0 -32 6 551. 1278. 852. <
+160 1 6 32 0 551. 1278. 852. <
+161 1 7 32 0 16272. 17471. 413. o
+162 1 9 32 0 77. 852. 426. <
+163 2 0 -32 10 367. 852. 426. <
+163 1 10 32 0 367. 852. 426. <
+164 2 0 -34 0 17124. 14062. 2562. o
+164 1 0 34 0 17124. 14062. 2562. o
+165 1 1 34 0 14540. 11079. 1711. o
+166 2 0 -34 2 14776. 11079. 866. o
+166 1 2 34 0 14776. 11079. 866. o
+167 1 3 34 0 45207. 42613. 887. o
+168 2 0 -34 4 626. 0. 426. <
+168 1 4 34 0 626. 0. 426. <
+169 1 5 34 0 1107. 0. 426. <
+170 2 0 -34 6 688. 852. 426. <
+170 1 6 34 0 688. 852. 426. <
+171 1 7 34 0 4302. 4261. 426. o
+172 2 0 -34 8 968. -1705. 852. <
+172 1 8 34 0 968. -1705. 852. <
+173 1 9 34 0 523. 852. 426. <
+174 2 0 -36 0 450447. 553538. 1464. o
+174 1 0 36 0 450447. 553538. 1464. o
+175 1 1 36 0 1723. 852. 1705. <
+176 2 0 -36 2 8558. 8523. 852. o
+176 1 2 36 0 8558. 8523. 852. o
+177 1 3 36 0 17491. 14488. 867. o
+178 2 0 -36 4 493998. 495585. 1102. o
+178 1 4 36 0 493998. 495585. 1102. o
+179 1 5 36 0 193. 0. 426. <
+180 2 0 -36 6 87112. 87356. 846. o
+180 1 6 36 0 87112. 87356. 846. o
+181 1 7 36 0 739. 1705. 425. o
+182 2 0 -36 8 136707. 131247. 1422. o
+182 1 8 36 0 136707. 131247. 1422. o
+183 1 9 36 0 554. 426. 426. <
+184 2 0 -38 0 74400. 72868. 2145. o
+184 1 0 38 0 74400. 72868. 2145. o
+185 1 1 38 0 911. 1278. 1704. <
+186 2 0 -38 2 11869. 20028. 807. o
+186 1 2 38 0 11869. 20028. 807. o
+187 1 3 38 0 5787. 3835. 855. o
+188 2 0 -38 4 97346. 98009. 832. o
+188 1 4 38 0 97346. 98009. 832. o
+189 1 5 38 0 1080. 1705. 426. o
+190 2 0 -38 6 12932. 11932. 856. o
+190 1 6 38 0 12932. 11932. 856. o
+191 1 7 38 0 6. 1705. 425. o
+192 2 0 -38 8 30088. 23011. 907. o
+192 1 8 38 0 30088. 23011. 907. o
+193 1 9 38 0 82. 426. 426. <
+194 2 0 -40 0 6948. 5114. 1706. o
+194 1 0 40 0 6948. 5114. 1706. o
+195 1 1 40 0 14846. 14914. 1704. o
+196 2 0 -40 2 449. 1278. 852. <
+196 1 2 40 0 449. 1278. 852. <
+197 1 3 40 0 960. 852. 852. <
+198 2 0 -40 4 18485. 17045. 860. o
+198 1 4 40 0 18485. 17045. 860. o
+199 1 5 40 0 9945. 8949. 432. o
+200 2 0 -40 6 6260. 5540. 429. o
+200 1 6 40 0 6260. 5540. 429. o
+201 1 7 40 0 117. 426. 426. <
+202 2 0 -40 8 5922. 4261. 431. o
+202 1 8 40 0 5922. 4261. 431. o
+203 1 9 40 0 95. -426. 426. <
+204 2 0 -42 0 2645. 3409. 1278. o
+204 1 0 42 0 2645. 3409. 1278. o
+205 1 1 42 0 156668. 147866. 2692. o
+206 2 0 -42 2 2614. 3409. 851. o
+206 1 2 42 0 2614. 3409. 851. o
+207 1 3 42 0 1438. 2557. 851. o
+208 2 0 -42 4 11192. 10653. 854. o
+208 1 4 42 0 11192. 10653. 854. o
+209 1 5 42 0 94779. 90339. 971. o
+210 2 0 -42 6 5990. 5966. 426. o
+210 1 6 42 0 5990. 5966. 426. o
+211 1 7 42 0 163. 1278. 425. o
+212 2 0 -42 8 3658. 4261. 425. o
+212 1 8 42 0 3658. 4261. 425. o
+213 1 9 42 0 3206. 2557. 427. o
+214 2 0 -44 0 89. 852. 1278. <
+214 1 0 44 0 89. 852. 1278. <
+215 1 1 44 0 66553. 79686. 2003. o
+216 2 0 -44 2 552. 852. 852. <
+216 1 2 44 0 552. 852. 852. <
+217 1 3 44 0 175. 852. 852. <
+218 2 0 -44 4 4762. 5114. 852. o
+218 1 4 44 0 4762. 5114. 852. o
+219 1 5 44 0 44404. 44743. 848. o
+220 2 0 -44 6 4246. 5114. 423. o
+220 1 6 44 0 4246. 5114. 423. o
+221 1 7 44 0 34. 1278. 425. o
+222 2 0 -44 8 1810. 1705. 426. o
+222 1 8 44 0 1810. 1705. 426. o
+223 1 9 44 0 908. 852. 426. <
+224 2 0 -46 0 21733. 17471. 2141. o
+224 1 0 46 0 21733. 17471. 2141. o
+225 1 1 46 0 16642. 11505. 1715. o
+226 2 0 -46 2 7022. 6392. 1279. o
+226 1 2 46 0 7022. 6392. 1279. o
+227 1 3 46 0 103. 852. 852. <
+228 2 0 -46 4 1249. 426. 852. <
+228 1 4 46 0 1249. 426. 852. <
+229 1 5 46 0 9240. 6818. 858. o
+230 2 0 -46 6 147. 0. 852. <
+230 1 6 46 0 147. 0. 852. <
+231 1 7 46 0 237. 852. 426. <
+232 2 0 -46 8 15. -852. 426. <
+232 1 8 46 0 15. -852. 426. <
+233 1 9 46 0 206. 426. 426. <
+234 2 0 -48 0 770066. 977108. 17958. o
+234 1 0 48 0 770066. 977108. 17958. o
+235 1 1 48 0 3296. 2131. 1279. <
+236 2 0 -48 2 355308. 314481. 4675. o
+236 1 2 48 0 355308. 314481. 4675. o
+237 1 3 48 0 771. 1705. 852. <
+238 2 0 -48 4 274944. 295732. 5781. o
+238 1 4 48 0 274944. 295732. 5781. o
+239 1 5 48 0 2602. 2557. 426. o
+240 2 0 -48 6 58360. 58379. 852. o
+240 1 6 48 0 58360. 58379. 852. o
+241 1 7 48 0 7. 426. 426. <
+242 2 0 -48 8 34058. 34516. 847. o
+242 1 8 48 0 34058. 34516. 847. o
+243 1 9 48 0 37. 0. 426. <
+244 2 0 -50 0 395931. 482801. 2263. o
+244 1 0 50 0 395931. 482801. 2263. o
+245 1 1 50 0 287. 852. 1278. <
+246 2 0 -50 2 153606. 138491. 2387. o
+246 1 2 50 0 153606. 138491. 2387. o
+247 1 3 50 0 3441. 3409. 852. o
+248 2 0 -50 4 104540. 109941. 644. o
+248 1 4 50 0 104540. 109941. 644. o
+249 1 5 50 0 573. 1705. 425. o
+250 2 0 -50 6 13025. 12358. 855. o
+250 1 6 50 0 13025. 12358. 855. o
+251 1 7 50 0 155. 426. 426. <
+252 2 0 -50 8 8197. 6392. 856. o
+252 1 8 50 0 8197. 6392. 856. o
+253 2 0 -52 0 26223. 21306. 2145. o
+253 1 0 52 0 26223. 21306. 2145. o
+254 1 1 52 0 454. 1705. 852. <
+255 2 0 -52 2 17837. 15767. 1285. o
+255 1 2 52 0 17837. 15767. 1285. o
+256 1 3 52 0 8277. 8523. 852. o
+257 2 0 -52 4 4557. 2557. 854. o
+257 1 4 52 0 4557. 2557. 854. o
+258 1 5 52 0 58. -852. 426. <
+259 2 0 -52 6 1038. 852. 426. <
+259 1 6 52 0 1038. 852. 426. <
+260 1 7 52 0 678. 1278. 426. o
+261 2 0 -52 8 392. 426. 426. <
+261 1 8 52 0 392. 426. 426. <
+262 2 0 -54 0 11473. 12784. 1275. o
+262 1 0 54 0 11473. 12784. 1275. o
+263 1 1 54 0 5999. 6392. 851. o
+264 2 0 -54 2 8403. 8096. 1279. o
+264 1 2 54 0 8403. 8096. 1279. o
+265 1 3 54 0 35285. 33664. 1290. o
+266 2 0 -54 4 1756. 2557. 852. o
+266 1 4 54 0 1756. 2557. 852. o
+267 1 5 54 0 46. 426. 426. <
+268 2 0 -54 6 443. 1278. 426. o
+268 1 6 54 0 443. 1278. 426. o
+269 1 7 54 0 4284. 3409. 428. o
+270 2 0 -54 8 230. 0. 426. <
+270 1 8 54 0 230. 0. 426. <
+271 2 0 -56 0 6656. 9375. 845. o
+271 1 0 56 0 6656. 9375. 845. o
+272 1 1 56 0 808. 2557. 851. o
+273 2 0 -56 2 3203. 5540. 1276. o
+273 1 2 56 0 3203. 5540. 1276. o
+274 1 3 56 0 45807. 46448. 1272. o
+275 2 0 -56 4 598. 852. 852. <
+275 1 4 56 0 598. 852. 852. <
+276 1 5 56 0 2860. 1278. 428. o
+277 2 0 -56 6 28. 852. 426. <
+277 1 6 56 0 28. 852. 426. <
+278 1 7 56 0 5260. 3835. 430. o
+279 2 0 -56 8 29. 852. 426. <
+279 1 8 56 0 29. 852. 426. <
+280 2 0 -58 0 339. 2557. 851. o
+280 1 0 58 0 339. 2557. 851. o
+281 1 1 58 0 299. 426. 852. <
+282 2 0 -58 2 25. 852. 1704. <
+282 1 2 58 0 25. 852. 1704. <
+283 1 3 58 0 4391. 2983. 854. o
+284 2 0 -58 4 507. 852. 852. <
+284 1 4 58 0 507. 852. 852. <
+285 1 5 58 0 2. 0. 426. <
+286 2 0 -58 6 982. 852. 426. <
+286 1 6 58 0 982. 852. 426. <
+287 1 7 58 0 229. 852. 426. <
+288 2 0 -58 8 439. 426. 426. <
+288 1 8 58 0 439. 426. 426. <
+289 2 0 -60 0 28458. 46022. 1122. o
+289 1 0 60 0 28458. 46022. 1122. o
+290 1 1 60 0 75. 1278. 852. <
+291 2 0 -60 2 26208. 31533. 1680. o
+291 1 2 60 0 26208. 31533. 1680. o
+292 1 3 60 0 703. 1278. 852. <
+293 2 0 -60 4 33570. 36647. 1255. o
+293 1 4 60 0 33570. 36647. 1255. o
+294 1 5 60 0 54. 426. 852. <
+295 2 0 -60 6 23004. 25994. 829. o
+295 1 6 60 0 23004. 25994. 829. o
+296 1 7 60 0 0. 852. 426. <
+297 2 0 -60 8 13004. 10227. 862. o
+297 1 8 60 0 13004. 10227. 862. o
+298 2 0 -62 0 950. 1278. 852. <
+298 1 0 62 0 950. 1278. 852. <
+299 1 1 62 0 448. 426. 852. <
+300 2 0 -62 2 566. 2557. 1278. <
+300 1 2 62 0 566. 2557. 1278. <
+301 1 3 62 0 206. -852. 852. <
+302 2 0 -62 4 9423. 7670. 857. o
+302 1 4 62 0 9423. 7670. 857. o
+303 1 5 62 0 331. 1705. 852. <
+304 2 0 -62 6 11267. 11079. 853. o
+304 1 6 62 0 11267. 11079. 853. o
+305 1 7 62 0 10. 852. 426. <
+306 2 0 -64 0 41. 426. 852. <
+306 1 0 64 0 41. 426. 852. <
+307 1 1 64 0 1048. 1278. 852. <
+308 2 0 -64 2 1066. 852. 852. <
+308 1 2 64 0 1066. 852. 852. <
+309 1 3 64 0 54. 852. 852. <
+310 2 0 -64 4 943. -426. 852. <
+310 1 4 64 0 943. -426. 852. <
+311 1 5 64 0 922. 1705. 852. <
+312 2 0 -64 6 1612. 852. 853. <
+312 1 6 64 0 1612. 852. 853. <
+313 1 7 64 0 1. 852. 426. <
+314 2 0 -66 0 112. 2557. 851. o
+314 1 0 66 0 112. 2557. 851. o
+315 1 1 66 0 2782. 2557. 852. o
+316 2 0 -66 2 512. 852. 852. <
+316 1 2 66 0 512. 852. 852. <
+317 1 3 66 0 126. 426. 1278. <
+318 2 0 -66 4 782. 1278. 852. <
+318 1 4 66 0 782. 1278. 852. <
+319 1 5 66 0 2980. 2983. 852. o
+320 2 0 -66 6 786. 1278. 426. o
+320 1 6 66 0 786. 1278. 426. o
+321 1 7 66 0 104. 852. 426. <
+322 2 0 -68 0 10. -426. 852. <
+322 1 0 68 0 10. -426. 852. <
+323 1 1 68 0 6633. 9375. 845. o
+324 2 0 -68 2 5. 426. 852. <
+324 1 2 68 0 5. 426. 852. <
+325 1 3 68 0 3744. 3409. 1279. o
+326 2 0 -68 4 225. 1705. 852. <
+326 1 4 68 0 225. 1705. 852. <
+327 1 5 68 0 7834. 7244. 854. o
+328 2 0 -68 6 176. 1278. 852. <
+328 1 6 68 0 176. 1278. 852. <
+329 1 7 68 0 257. 0. 426. <
+330 2 0 -70 0 2249. 3835. 851. o
+330 1 0 70 0 2249. 3835. 851. o
+331 1 1 70 0 319. 426. 852. <
+332 2 0 -70 2 2225. 3835. 851. o
+332 1 2 70 0 2225. 3835. 851. o
+333 1 3 70 0 81. -852. 1278. <
+334 2 0 -70 4 585. 1278. 852. <
+334 1 4 70 0 585. 1278. 852. <
+335 1 5 70 0 263. 426. 852. <
+336 2 0 -70 6 258. 0. 852. <
+336 1 6 70 0 258. 0. 852. <
+337 2 0 -72 0 38827. 63919. 1470. o
+337 1 0 72 0 38827. 63919. 1470. o
+338 1 1 72 0 22. 0. 852. <
+339 2 0 -72 2 34211. 50283. 1118. o
+339 1 2 72 0 34211. 50283. 1118. o
+340 1 3 72 0 163. 852. 1278. <
+341 2 0 -72 4 18683. 16193. 1287. o
+341 1 4 72 0 18683. 16193. 1287. o
+342 1 5 72 0 48. 852. 852. <
+343 2 0 -72 6 8811. 8523. 853. o
+343 1 6 72 0 8811. 8523. 853. o
+344 2 0 -74 0 56632. 77555. 1937. o
+344 1 0 74 0 56632. 77555. 1937. o
+345 1 1 74 0 1. 852. 852. <
+346 2 0 -74 2 40346. 41334. 1270. o
+346 1 2 74 0 40346. 41334. 1270. o
+347 1 3 74 0 165. 852. 852. <
+348 2 0 -74 4 13264. 15767. 1271. o
+348 1 4 74 0 13264. 15767. 1271. o
+349 1 5 74 0 15. 1705. 852. <
+350 2 0 -74 6 3456. 2983. 853. o
+350 1 6 74 0 3456. 2983. 853. o
+351 2 0 -76 0 324. -426. 852. <
+351 1 0 76 0 324. -426. 852. <
+352 1 1 76 0 8. 852. 852. <
+353 2 0 -76 2 536. 426. 852. <
+353 1 2 76 0 536. 426. 852. <
+354 1 3 76 0 133. 852. 852. <
+355 2 0 -76 4 36. 852. 1278. <
+355 1 4 76 0 36. 852. 1278. <
+356 1 5 76 0 3. 426. 852. <
+357 2 0 -76 6 48. -426. 852. <
+357 1 6 76 0 48. -426. 852. <
+358 2 0 -78 0 377. 0. 852. <
+358 1 0 78 0 377. 0. 852. <
+359 1 1 78 0 8. 852. 852. <
+360 2 0 -78 2 251. 426. 852. <
+360 1 2 78 0 251. 426. 852. <
+361 1 3 78 0 224. 426. 852. <
+362 2 0 -78 4 74. 1705. 1278. <
+362 1 4 78 0 74. 1705. 1278. <
+363 1 5 78 0 31. 1705. 852. <
+364 2 0 -80 0 142. 852. 852. <
+364 1 0 80 0 142. 852. 852. <
+365 1 1 80 0 267. 852. 852. <
+366 2 0 -80 2 30. 1705. 852. <
+366 1 2 80 0 30. 1705. 852. <
+367 1 3 80 0 3980. 3835. 852. o
+368 2 0 -80 4 16. 0. 1278. <
+368 1 4 80 0 16. 0. 1278. <
+369 1 5 80 0 1346. 1705. 852. <
+370 2 0 -82 0 100. 1278. 852. <
+370 1 0 82 0 100. 1278. 852. <
+371 1 1 82 0 0. 0. 852. <
+372 2 0 -82 2 193. -426. 852. <
+372 1 2 82 0 193. -426. 852. <
+373 1 3 82 0 4. -426. 852. <
+374 2 0 -82 4 107. -426. 1278. <
+374 1 4 82 0 107. -426. 1278. <
+375 2 0 -84 0 2578. 4261. 850. o
+375 1 0 84 0 2578. 4261. 850. o
+376 1 1 84 0 4. -426. 426. <
+377 2 0 -84 2 2649. 2557. 852. o
+377 1 2 84 0 2649. 2557. 852. o
+378 1 3 84 0 0. 1705. 852. <
+379 2 0 -84 4 1866. 2131. 852. o
+379 1 4 84 0 1866. 2131. 852. o
+380 2 0 -86 0 373. 426. 426. <
+380 1 0 86 0 373. 426. 426. <
+381 1 1 86 0 4. 426. 426. <
+382 2 0 -86 2 91. 0. 852. <
+382 1 2 86 0 91. 0. 852. <
+383 1 3 86 0 2. 852. 852. <
+384 2 0 -88 0 115. 852. 852. <
+384 1 0 88 0 115. 852. 852. <
+385 1 1 88 0 3. -426. 426. <
+386 2 0 -88 2 166. 0. 852. <
+386 1 2 88 0 166. 0. 852. <
+387 1 3 88 0 1. 0. 852. <
+388 2 0 -90 0 40. 0. 852. <
+388 1 0 90 0 40. 0. 852. <
+389 1 1 90 0 2. 852. 426. <
+390 2 0 -90 2 34. 426. 426. <
+390 1 2 90 0 34. 426. 426. <
+391 2 0 -92 0 0. 426. 426. <
+391 1 0 92 0 0. 426. 426. <
+392 1 1 92 0 239. 1278. 426. o
+393 1 2 1 1 23798. 26846. 374. o
+394 2 1 -1 3 1574980. 1518290. 7281. o
+394 1 3 1 1 1574980. 1518290. 7281. o
+395 1 4 1 1 13295. 12358. 433. o
+396 2 1 -1 5 399668. 393741. 1406. o
+396 1 5 1 1 399668. 393741. 1406. o
+397 1 6 1 1 1753. 2131. 426. o
+398 2 1 -1 7 201201. 206671. 1519. o
+398 1 7 1 1 201201. 206671. 1519. o
+399 1 8 1 1 20. 426. 1278. <
+400 2 1 -1 9 41823. 38351. 894. o
+400 1 9 1 1 41823. 38351. 894. o
+401 1 10 1 1 10. 0. 426. <
+402 2 1 -3 1 168016. 156814. 1298. o
+402 1 1 3 1 168016. 156814. 1298. o
+403 1 2 3 1 28790. 31107. 380. o
+404 2 1 -3 3 97536. 76277. 1062. o
+404 1 3 3 1 97536. 76277. 1062. o
+405 1 4 3 1 17472. 17897. 421. o
+406 2 1 -3 5 14018. 21306. 329. o
+406 1 5 3 1 14018. 21306. 329. o
+407 1 6 3 1 3764. 3835. 426. o
+408 2 1 -3 7 5659. 11932. 833. o
+408 1 7 3 1 5659. 11932. 833. o
+409 1 8 3 1 62. 426. 1278. <
+410 2 1 -3 9 1346. 2557. 851. o
+410 1 9 3 1 1346. 2557. 851. o
+411 1 10 3 1 8. 0. 426. <
+412 2 1 -5 1 18847. 16619. 450. o
+412 1 1 5 1 18847. 16619. 450. o
+413 1 2 5 1 86012. 81390. 621. o
+414 2 1 -5 3 5729. 5540. 427. o
+414 1 3 5 1 5729. 5540. 427. o
+415 1 4 5 1 60222. 55823. 562. o
+416 2 1 -5 5 65. 1278. 425. o
+416 1 5 5 1 65. 1278. 425. o
+417 1 6 5 1 21028. 20880. 428. o
+418 2 1 -5 7 407. 1705. 852. <
+418 1 7 5 1 407. 1705. 852. <
+419 1 8 5 1 1076. 1705. 1278. <
+420 2 1 -5 9 6. 1705. 425. o
+420 1 9 5 1 6. 1705. 425. o
+421 1 10 5 1 12. 426. 426. <
+422 2 1 -7 1 549. 852. 426. <
+422 1 1 7 1 549. 852. 426. <
+423 1 2 7 1 95515. 84799. 829. o
+424 2 1 -7 3 2028. 2983. 425. o
+424 1 3 7 1 2028. 2983. 425. o
+425 1 4 7 1 119773. 98435. 1176. o
+426 2 1 -7 5 9155. 10227. 419. o
+426 1 5 7 1 9155. 10227. 419. o
+427 1 6 7 1 40210. 35368. 526. o
+428 2 1 -7 7 6072. 7670. 419. o
+428 1 7 7 1 6072. 7670. 419. o
+429 2 1 -7 9 1245. 1278. 426. o
+429 1 9 7 1 1245. 1278. 426. o
+430 1 10 7 1 230. 426. 426. <
+431 2 1 -9 1 31164. 34516. 816. o
+431 1 1 9 1 31164. 34516. 816. o
+432 1 2 9 1 15769. 13636. 445. o
+433 2 1 -9 3 40579. 37073. 503. o
+433 1 3 9 1 40579. 37073. 503. o
+434 1 4 9 1 16719. 15767. 436. o
+435 2 1 -9 5 34216. 37499. 343. o
+435 1 5 9 1 34216. 37499. 343. o
+436 1 6 9 1 3113. 4261. 423. o
+437 1 8 9 1 5. 426. 1278. <
+438 2 1 -9 9 6529. 6392. 853. o
+438 1 9 9 1 6529. 6392. 853. o
+439 1 10 9 1 62. 852. 426. <
+440 2 1 -11 1 282775. 288488. 872. o
+440 1 1 11 1 282775. 288488. 872. o
+441 1 2 11 1 8270. 7244. 431. o
+442 2 1 -11 3 363145. 325134. 2752. o
+442 1 3 11 1 363145. 325134. 2752. o
+443 1 4 11 1 7603. 8523. 421. o
+444 2 1 -11 5 211290. 193035. 1632. o
+444 1 5 11 1 211290. 193035. 1632. o
+445 1 6 11 1 500. 852. 426. <
+446 2 1 -11 7 183409. 193035. 1390. o
+446 1 7 11 1 183409. 193035. 1390. o
+447 1 10 11 1 185. 0. 426. <
+448 2 1 -13 1 171218. 182808. 727. o
+448 1 1 13 1 171218. 182808. 727. o
+449 1 2 13 1 7915. 7670. 427. o
+450 2 1 -13 3 414951. 408655. 1451. o
+450 1 3 13 1 414951. 408655. 1451. o
+451 1 4 13 1 6995. 8096. 421. o
+452 2 1 -13 5 302963. 288061. 1748. o
+452 1 5 13 1 302963. 288061. 1748. o
+453 1 6 13 1 587. 1278. 426. o
+454 2 1 -13 7 285503. 291897. 804. o
+454 1 7 13 1 285503. 291897. 804. o
+455 2 1 -13 9 73007. 71163. 893. o
+455 1 9 13 1 73007. 71163. 893. o
+456 1 10 13 1 114. 426. 426. <
+457 2 1 -15 1 1378. 426. 852. <
+457 1 1 15 1 1378. 426. 852. <
+458 1 2 15 1 8942. 11079. 412. o
+459 2 1 -15 3 10398. 11505. 418. o
+459 1 3 15 1 10398. 11505. 418. o
+460 1 4 15 1 12960. 13636. 420. o
+461 2 1 -15 5 21117. 25142. 361. o
+461 1 5 15 1 21117. 25142. 361. o
+462 1 6 15 1 1830. 2983. 424. o
+463 2 1 -15 7 15762. 18750. 392. o
+463 1 7 15 1 15762. 18750. 392. o
+464 1 8 15 1 293. 426. 852. <
+465 2 1 -15 9 3572. 2983. 427. o
+465 1 9 15 1 3572. 2983. 427. o
+466 1 10 15 1 6. 1278. 425. o
+467 2 1 -17 1 14392. 13636. 856. o
+467 1 1 17 1 14392. 13636. 856. o
+468 1 2 17 1 21608. 22159. 418. o
+469 2 1 -17 3 513. 852. 426. <
+469 1 3 17 1 513. 852. 426. <
+470 1 4 17 1 38701. 41334. 353. o
+471 2 1 -17 5 3153. 3409. 426. o
+471 1 5 17 1 3153. 3409. 426. o
+472 1 6 17 1 8096. 10653. 410. o
+473 2 1 -17 7 1393. 2131. 425. o
+473 1 7 17 1 1393. 2131. 425. o
+474 1 8 17 1 3155. 4261. 851. o
+475 2 1 -17 9 358. 852. 426. <
+475 1 9 17 1 358. 852. 426. <
+476 1 10 17 1 117. 0. 426. <
+477 2 1 -19 1 57621. 52840. 930. o
+477 1 1 19 1 57621. 52840. 930. o
+478 1 2 19 1 109268. 97583. 1166. o
+479 2 1 -19 3 16947. 14062. 452. o
+479 1 3 19 1 16947. 14062. 452. o
+480 1 4 19 1 149510. 129969. 1466. o
+481 2 1 -19 5 1704. 1705. 426. o
+481 1 5 19 1 1704. 1705. 426. o
+482 1 6 19 1 27263. 24289. 471. o
+483 2 1 -19 7 502. 1278. 852. <
+483 1 7 19 1 502. 1278. 852. <
+484 1 8 19 1 4046. 4261. 4261. <
+485 2 1 -19 9 218. 1278. 426. o
+485 1 9 19 1 218. 1278. 426. o
+486 1 10 19 1 41. 426. 426. <
+487 2 1 -21 1 182498. 184513. 1199. o
+487 1 1 21 1 182498. 184513. 1199. o
+488 1 2 21 1 13961. 14062. 425. o
+489 2 1 -21 3 100389. 86504. 925. o
+489 1 3 21 1 100389. 86504. 925. o
+490 1 4 21 1 13931. 12784. 435. o
+491 2 1 -21 5 27634. 25994. 453. o
+491 1 5 21 1 27634. 25994. 453. o
+492 1 6 21 1 1739. 2557. 425. o
+493 2 1 -21 7 12511. 10227. 442. o
+493 1 7 21 1 12511. 10227. 442. o
+494 1 8 21 1 85. 426. 426. <
+495 2 1 -21 9 3128. 2983. 852. o
+495 1 9 21 1 3128. 2983. 852. o
+496 1 10 21 1 18. 426. 426. <
+497 2 1 -23 1 902726. 862054. 4851. o
+497 1 1 23 1 902726. 862054. 4851. o
+498 1 2 23 1 6087. 7670. 419. o
+499 2 1 -23 3 593137. 555243. 3621. o
+499 1 3 23 1 593137. 555243. 3621. o
+500 1 4 23 1 4565. 5966. 421. o
+501 2 1 -23 5 213701. 198575. 1539. o
+501 1 5 23 1 213701. 198575. 1539. o
+502 1 6 23 1 794. 1705. 425. o
+503 2 1 -23 7 100059. 99287. 876. o
+503 1 7 23 1 100059. 99287. 876. o
+504 1 8 23 1 2. 426. 426. <
+505 2 1 -23 9 25404. 20880. 883. o
+505 1 9 23 1 25404. 20880. 883. o
+506 1 10 23 1 1. 852. 426. <
+507 2 1 -25 1 2586250. 2549940. 8233. o
+507 1 1 25 1 2586250. 2549940. 8233. o
+508 1 2 25 1 3880. 5966. 419. o
+509 2 1 -25 3 1369950. 1298830. 7285. o
+509 1 3 25 1 1369950. 1298830. 7285. o
+510 1 4 25 1 2700. 4261. 422. o
+511 2 1 -25 5 331289. 304254. 2290. o
+511 1 5 25 1 331289. 304254. 2290. o
+512 1 6 25 1 594. 1705. 1278. <
+513 2 1 -25 7 136620. 121020. 1333. o
+513 1 7 25 1 136620. 121020. 1333. o
+514 1 8 25 1 1. 426. 426. <
+515 2 1 -25 9 33929. 28977. 1310. o
+515 1 9 25 1 33929. 28977. 1310. o
+516 1 10 25 1 0. 426. 426. <
+517 2 1 -27 1 36145. 44743. 1201. o
+517 1 1 27 1 36145. 44743. 1201. o
+518 1 2 27 1 3024. 3835. 424. o
+519 2 1 -27 3 10175. 6818. 442. o
+519 1 3 27 1 10175. 6818. 442. o
+520 1 4 27 1 1360. 2983. 424. o
+521 2 1 -27 5 577. -426. 426. <
+521 1 5 27 1 577. -426. 426. <
+522 1 6 27 1 1080. 1278. 426. o
+523 2 1 -27 7 50. -852. 426. <
+523 1 7 27 1 50. -852. 426. <
+524 1 8 27 1 1. -426. 426. <
+525 2 1 -27 9 98. 0. 426. <
+525 1 9 27 1 98. 0. 426. <
+526 1 10 27 1 2. 852. 426. <
+527 2 1 -29 1 1771. 5114. 848. o
+527 1 1 29 1 1771. 5114. 848. o
+528 1 2 29 1 3712. 25568. 716. o
+529 2 1 -29 3 90. 426. 426. <
+529 1 3 29 1 90. 426. 426. <
+530 1 4 29 1 1478. 2983. 424. o
+531 2 1 -29 5 820. 852. 426. <
+531 1 5 29 1 820. 852. 426. <
+532 1 6 29 1 2676. 3409. 425. o
+533 2 1 -29 7 1009. 1705. 425. o
+533 1 7 29 1 1009. 1705. 425. o
+534 1 8 29 1 54. -426. 426. <
+535 2 1 -29 9 68. 852. 426. <
+535 1 9 29 1 68. 852. 426. <
+536 1 10 29 1 40. 0. 426. <
+537 2 1 -31 1 3641. 2557. 853. o
+537 1 1 31 1 3641. 2557. 853. o
+538 1 2 31 1 107164. 100140. 1421. o
+539 2 1 -31 3 5950. 3835. 432. o
+539 1 3 31 1 5950. 3835. 432. o
+540 1 4 31 1 91394. 87782. 947. o
+541 2 1 -31 5 6166. 4687. 431. o
+541 1 5 31 1 6166. 4687. 431. o
+542 1 6 31 1 38826. 36221. 483. o
+543 2 1 -31 7 3709. 3835. 426. o
+543 1 7 31 1 3709. 3835. 426. o
+544 1 8 31 1 1111. 1705. 426. o
+545 2 1 -31 9 984. 852. 426. <
+545 1 9 31 1 984. 852. 426. <
+546 1 10 31 1 169. 852. 426. <
+547 2 1 -33 1 31683. 33238. 1268. o
+547 1 1 33 1 31683. 33238. 1268. o
+548 1 2 33 1 3016. 2131. 853. o
+549 2 1 -33 3 28253. 25994. 462. o
+549 1 3 33 1 28253. 25994. 462. o
+550 1 4 33 1 1822. 3409. 423. o
+551 2 1 -33 5 17460. 16619. 435. o
+551 1 5 33 1 17460. 16619. 435. o
+552 1 6 33 1 110. -426. 426. <
+553 2 1 -33 7 11125. 9801. 435. o
+553 1 7 33 1 11125. 9801. 435. o
+554 1 8 33 1 192. 852. 426. <
+555 2 1 -33 9 3711. 3409. 427. o
+555 1 9 33 1 3711. 3409. 427. o
+556 2 1 -35 1 122088. 144883. 1694. o
+556 1 1 35 1 122088. 144883. 1694. o
+557 1 2 35 1 512. 852. 852. <
+558 2 1 -35 3 99094. 106105. 582. o
+558 1 3 35 1 99094. 106105. 582. o
+559 1 4 35 1 564. 852. 426. <
+560 2 1 -35 5 55018. 50709. 549. o
+560 1 5 35 1 55018. 50709. 549. o
+561 1 6 35 1 26. 426. 426. <
+562 2 1 -35 7 34688. 34516. 430. o
+562 1 7 35 1 34688. 34516. 430. o
+563 1 8 35 1 75. 426. 426. <
+564 2 1 -35 9 13004. 9375. 450. o
+564 1 9 35 1 13004. 9375. 450. o
+565 2 1 -37 1 26595. 32812. 2107. o
+565 1 1 37 1 26595. 32812. 2107. o
+566 1 2 37 1 378. 852. 426. <
+567 2 1 -37 3 126569. 138917. 2749. o
+567 1 3 37 1 126569. 138917. 2749. o
+568 1 4 37 1 533. 852. 426. <
+569 2 1 -37 5 164494. 160224. 1046. o
+569 1 5 37 1 164494. 160224. 1046. o
+570 1 6 37 1 21. 0. 426. <
+571 2 1 -37 7 134902. 144883. 2893. o
+571 1 7 37 1 134902. 144883. 2893. o
+572 1 8 37 1 6. 426. 426. <
+573 2 1 -37 9 44040. 40056. 902. o
+573 1 9 37 1 44040. 40056. 902. o
+574 2 1 -39 1 808. -1705. 1278. <
+574 1 1 39 1 808. -1705. 1278. <
+575 1 2 39 1 70. 852. 426. <
+576 2 1 -39 3 1626. 426. 427. <
+576 1 3 39 1 1626. 426. 427. <
+577 1 4 39 1 680. 426. 426. <
+578 2 1 -39 5 2701. 2131. 427. o
+578 1 5 39 1 2701. 2131. 427. o
+579 1 6 39 1 144. 426. 426. <
+580 2 1 -39 7 924. -2557. 423. <
+580 1 7 39 1 924. -2557. 423. <
+581 1 8 39 1 256. 0. 426. <
+582 2 1 -39 9 216. -426. 426. <
+582 1 9 39 1 216. -426. 426. <
+583 2 1 -41 1 1099. 1705. 1704. <
+583 1 1 41 1 1099. 1705. 1704. <
+584 1 2 41 1 23. 0. 852. <
+585 2 1 -41 3 329. 852. 426. <
+585 1 3 41 1 329. 852. 426. <
+586 1 4 41 1 379. -426. 426. <
+587 2 1 -41 5 11. 426. 426. <
+587 1 5 41 1 11. 426. 426. <
+588 1 6 41 1 219. 852. 426. <
+589 2 1 -41 7 14. 0. 426. <
+589 1 7 41 1 14. 0. 426. <
+590 1 8 41 1 537. 426. 426. <
+591 2 1 -41 9 8. 426. 426. <
+591 1 9 41 1 8. 426. 426. <
+592 2 1 -43 1 8901. 9801. 1277. o
+592 1 1 43 1 8901. 9801. 1277. o
+593 1 2 43 1 44542. 48578. 790. o
+594 2 1 -43 3 5700. 5966. 425. o
+594 1 3 43 1 5700. 5966. 425. o
+595 1 4 43 1 68758. 67754. 873. o
+596 2 1 -43 5 2693. 2983. 426. o
+596 1 5 43 1 2693. 2983. 426. o
+597 1 6 43 1 12974. 14062. 417. o
+598 2 1 -43 7 1195. 1705. 426. o
+598 1 7 43 1 1195. 1705. 426. o
+599 1 8 43 1 2245. 2557. 426. o
+600 2 1 -43 9 439. 852. 426. <
+600 1 9 43 1 439. 852. 426. <
+601 2 1 -45 1 28620. 28550. 1279. o
+601 1 1 45 1 28620. 28550. 1279. o
+602 1 2 45 1 197. 852. 852. <
+603 2 1 -45 3 23720. 25142. 404. o
+603 1 3 45 1 23720. 25142. 404. o
+604 1 4 45 1 145. 852. 426. <
+605 2 1 -45 5 13559. 13636. 425. o
+605 1 5 45 1 13559. 13636. 425. o
+606 1 6 45 1 5. 426. 426. <
+607 2 1 -45 7 6098. 5540. 428. o
+607 1 7 45 1 6098. 5540. 428. o
+608 1 8 45 1 3. 852. 426. <
+609 2 1 -45 9 1926. 2131. 426. o
+609 1 9 45 1 1926. 2131. 426. o
+610 2 1 -47 1 74622. 60510. 1843. o
+610 1 1 47 1 74622. 60510. 1843. o
+611 1 2 47 1 63. 852. 852. <
+612 2 1 -47 3 65146. 68180. 786. o
+612 1 3 47 1 65146. 68180. 786. o
+613 1 4 47 1 1. 0. 426. <
+614 2 1 -47 5 40353. 38778. 463. o
+614 1 5 47 1 40353. 38778. 463. o
+615 1 6 47 1 11. 0. 426. <
+616 2 1 -47 7 18693. 18323. 430. o
+616 1 7 47 1 18693. 18323. 430. o
+617 1 8 47 1 8. 426. 426. <
+618 2 1 -47 9 5961. 4261. 431. o
+618 1 9 47 1 5961. 4261. 431. o
+619 2 1 -49 1 703733. 663905. 4825. o
+619 1 1 49 1 703733. 663905. 4825. o
+620 1 2 49 1 0. 0. 852. <
+621 2 1 -49 3 366438. 404394. 7771. o
+621 1 3 49 1 366438. 404394. 7771. o
+622 1 4 49 1 12. 852. 426. <
+623 2 1 -49 5 110840. 118889. 477. o
+623 1 5 49 1 110840. 118889. 477. o
+624 1 6 49 1 1. 852. 426. <
+625 2 1 -49 7 36698. 37073. 417. o
+625 1 7 49 1 36698. 37073. 417. o
+626 1 8 49 1 5. 852. 426. <
+627 2 1 -49 9 12551. 9801. 444. o
+627 1 9 49 1 12551. 9801. 444. o
+628 2 1 -51 1 3249. 2557. 853. o
+628 1 1 51 1 3249. 2557. 853. o
+629 1 2 51 1 100. -426. 852. <
+630 2 1 -51 3 2507. 852. 428. <
+630 1 3 51 1 2507. 852. 428. <
+631 1 4 51 1 177. 852. 426. <
+632 2 1 -51 5 849. 426. 426. <
+632 1 5 51 1 849. 426. 426. <
+633 1 6 51 1 1. 852. 426. <
+634 2 1 -51 7 310. 0. 426. <
+634 1 7 51 1 310. 0. 426. <
+635 1 8 51 1 2. -852. 426. <
+636 2 1 -53 1 1489. 1705. 852. <
+636 1 1 53 1 1489. 1705. 852. <
+637 1 2 53 1 482. 2131. 851. o
+638 2 1 -53 3 1133. 1278. 426. o
+638 1 3 53 1 1133. 1278. 426. o
+639 1 4 53 1 521. 852. 426. <
+640 2 1 -53 5 480. 1705. 425. o
+640 1 5 53 1 480. 1705. 425. o
+641 1 6 53 1 8. 426. 426. <
+642 2 1 -53 7 185. 852. 426. <
+642 1 7 53 1 185. 852. 426. <
+643 1 8 53 1 3. 0. 426. <
+644 2 1 -55 1 4362. 5114. 424. o
+644 1 1 55 1 4362. 5114. 424. o
+645 1 2 55 1 21356. 22159. 1275. o
+646 2 1 -55 3 2693. 2131. 427. o
+646 1 3 55 1 2693. 2131. 427. o
+647 1 4 55 1 21404. 23011. 841. o
+648 2 1 -55 5 1344. 852. 426. <
+648 1 5 55 1 1344. 852. 426. <
+649 1 6 55 1 8415. 9375. 421. o
+650 2 1 -55 7 587. 852. 426. <
+650 1 7 55 1 587. 852. 426. <
+651 1 8 55 1 336. 852. 426. <
+652 2 1 -57 1 11549. 12784. 847. o
+652 1 1 57 1 11549. 12784. 847. o
+653 1 2 57 1 402. 0. 1278. <
+654 2 1 -57 3 6698. 7670. 422. o
+654 1 3 57 1 6698. 7670. 422. o
+655 1 4 57 1 633. 426. 426. <
+656 2 1 -57 5 3045. 3409. 425. o
+656 1 5 57 1 3045. 3409. 425. o
+657 1 6 57 1 479. 1278. 426. o
+658 2 1 -57 7 1465. 1278. 426. o
+658 1 7 57 1 1465. 1278. 426. o
+659 1 8 57 1 145. 0. 426. <
+660 2 1 -59 1 20471. 23437. 831. o
+660 1 1 59 1 20471. 23437. 831. o
+661 1 2 59 1 117. 2131. 851. o
+662 2 1 -59 3 11495. 12784. 847. o
+662 1 3 59 1 11495. 12784. 847. o
+663 1 4 59 1 104. 1278. 425. o
+664 2 1 -59 5 4885. 5540. 424. o
+664 1 5 59 1 4885. 5540. 424. o
+665 1 6 59 1 106. 1278. 425. o
+666 2 1 -59 7 2317. 2557. 426. o
+666 1 7 59 1 2317. 2557. 426. o
+667 1 8 59 1 11. 852. 426. <
+668 2 1 -61 1 6677. 9801. 844. o
+668 1 1 61 1 6677. 9801. 844. o
+669 1 2 61 1 62. 852. 852. <
+670 2 1 -61 3 20804. 24715. 823. o
+670 1 3 61 1 20804. 24715. 823. o
+671 1 4 61 1 29. 852. 426. <
+672 2 1 -61 5 32916. 36221. 815. o
+672 1 5 61 1 32916. 36221. 815. o
+673 1 6 61 1 2. 426. 426. <
+674 2 1 -61 7 24043. 27698. 361. o
+674 1 7 61 1 24043. 27698. 361. o
+675 2 1 -63 1 1116. 426. 426. <
+675 1 1 63 1 1116. 426. 426. <
+676 1 2 63 1 138. 1705. 852. <
+677 2 1 -63 3 167. 0. 852. <
+677 1 3 63 1 167. 0. 852. <
+678 1 4 63 1 48. 0. 426. <
+679 2 1 -63 5 31. 426. 426. <
+679 1 5 63 1 31. 426. 426. <
+680 1 6 63 1 1. 426. 426. <
+681 2 1 -63 7 172. 0. 426. <
+681 1 7 63 1 172. 0. 426. <
+682 2 1 -65 1 7. 852. 426. <
+682 1 1 65 1 7. 852. 426. <
+683 1 2 65 1 353. 426. 852. <
+684 2 1 -65 3 48. 1278. 852. <
+684 1 3 65 1 48. 1278. 852. <
+685 1 4 65 1 261. 1705. 425. o
+686 2 1 -65 5 141. 852. 426. <
+686 1 5 65 1 141. 852. 426. <
+687 1 6 65 1 13. 426. 426. <
+688 2 1 -65 7 112. 1278. 425. o
+688 1 7 65 1 112. 1278. 425. o
+689 2 1 -67 1 576. 426. 426. <
+689 1 1 67 1 576. 426. 426. <
+690 1 2 67 1 5787. 5540. 853. o
+691 2 1 -67 3 767. 2557. 851. o
+691 1 3 67 1 767. 2557. 851. o
+692 1 4 67 1 8365. 5966. 857. o
+693 2 1 -67 5 767. 1278. 426. o
+693 1 5 67 1 767. 1278. 426. o
+694 1 6 67 1 2307. 2131. 426. o
+695 2 1 -67 7 387. 852. 426. <
+695 1 7 67 1 387. 852. 426. <
+696 2 1 -69 1 1812. 2557. 425. o
+696 1 1 69 1 1812. 2557. 425. o
+697 1 2 69 1 518. 426. 426. <
+698 2 1 -69 3 2226. 852. 853. <
+698 1 3 69 1 2226. 852. 853. <
+699 1 4 69 1 738. 426. 426. <
+700 2 1 -69 5 1982. 2131. 426. o
+700 1 5 69 1 1982. 2131. 426. o
+701 1 6 69 1 206. 852. 426. <
+702 2 1 -69 7 992. 852. 426. <
+702 1 7 69 1 992. 852. 426. <
+703 2 1 -71 1 1912. 1278. 427. o
+703 1 1 71 1 1912. 1278. 427. o
+704 1 2 71 1 77. 426. 426. <
+705 2 1 -71 3 2625. 1278. 853. <
+705 1 3 71 1 2625. 1278. 853. <
+706 1 4 71 1 113. 1278. 852. <
+707 2 1 -71 5 2541. 2557. 426. o
+707 1 5 71 1 2541. 2557. 426. o
+708 1 6 71 1 18. 426. 426. <
+709 2 1 -73 1 74337. 90339. 29. o
+709 1 1 73 1 74337. 90339. 29. o
+710 1 2 73 1 69. 852. 426. <
+711 2 1 -73 3 40648. 41334. 1272. o
+711 1 3 73 1 40648. 41334. 1272. o
+712 1 4 73 1 74. 426. 852. <
+713 2 1 -73 5 14750. 14062. 855. o
+713 1 5 73 1 14750. 14062. 855. o
+714 1 6 73 1 12. 426. 426. <
+715 2 1 -75 1 6405. 7244. 422. o
+715 1 1 75 1 6405. 7244. 422. o
+716 1 2 75 1 105. 426. 426. <
+717 2 1 -75 3 2909. 2557. 853. o
+717 1 3 75 1 2909. 2557. 853. o
+718 1 4 75 1 107. 1705. 852. <
+719 2 1 -75 5 642. 426. 426. <
+719 1 5 75 1 642. 426. 426. <
+720 1 6 75 1 15. 852. 426. <
+721 2 1 -77 1 606. 0. 426. <
+721 1 1 77 1 606. 0. 426. <
+722 1 2 77 1 158. 426. 426. <
+723 2 1 -77 3 239. 852. 426. <
+723 1 3 77 1 239. 852. 426. <
+724 1 4 77 1 158. 2557. 851. o
+725 2 1 -77 5 49. 852. 852. <
+725 1 5 77 1 49. 852. 852. <
+726 2 1 -79 1 690. 1705. 425. o
+726 1 1 79 1 690. 1705. 425. o
+727 1 2 79 1 1339. 1705. 426. o
+728 2 1 -79 3 321. 426. 426. <
+728 1 3 79 1 321. 426. 426. <
+729 1 4 79 1 1648. 2131. 852. o
+730 2 1 -79 5 107. 1278. 852. <
+730 1 5 79 1 107. 1278. 852. <
+731 2 1 -81 1 1143. 426. 426. <
+731 1 1 81 1 1143. 426. 426. <
+732 1 2 81 1 519. 852. 426. <
+733 2 1 -81 3 567. 852. 426. <
+733 1 3 81 1 567. 852. 426. <
+734 1 4 81 1 685. 426. 852. <
+735 2 1 -81 5 202. 852. 852. <
+735 1 5 81 1 202. 852. 852. <
+736 2 1 -83 1 1084. 426. 426. <
+736 1 1 83 1 1084. 426. 426. <
+737 1 2 83 1 41. 852. 426. <
+738 2 1 -83 3 509. 1705. 425. o
+738 1 3 83 1 509. 1705. 425. o
+739 1 4 83 1 43. 426. 852. <
+740 2 1 -85 1 861. 2131. 425. o
+740 1 1 85 1 861. 2131. 425. o
+741 1 2 85 1 16. 852. 426. <
+742 2 1 -85 3 1748. 2983. 424. o
+742 1 3 85 1 1748. 2983. 424. o
+743 1 4 85 1 11. 0. 852. <
+744 2 1 -87 1 420. 852. 426. <
+744 1 1 87 1 420. 852. 426. <
+745 1 2 87 1 21. 852. 426. <
+746 2 1 -87 3 32. 426. 426. <
+746 1 3 87 1 32. 426. 426. <
+747 2 1 -89 1 1. 852. 426. <
+747 1 1 89 1 1. 852. 426. <
+748 1 2 89 1 33. 426. 426. <
+749 2 1 -91 1 28. 0. 426. <
+749 1 1 91 1 28. 0. 426. <
+750 2 2 0 0 740677. 910206. 8690. o
+750 1 0 0 2 740677. 910206. 8690. o
+751 2 2 0 4 34746. 44317. 719. o
+751 1 4 0 2 34746. 44317. 719. o
+752 2 2 0 6 1433040. 1441160. 28766. o
+752 1 6 0 2 1433040. 1441160. 28766. o
+753 2 2 -2 0 12761. 12358. 5114. o
+753 1 0 2 2 12761. 12358. 5114. o
+754 1 1 2 2 160. 852. 852. <
+755 2 2 -2 2 441173. 421013. 2497. o
+755 1 2 2 2 441173. 421013. 2497. o
+756 1 3 2 2 969. 1705. 425. o
+757 2 2 -2 4 3143. 7244. 411. o
+757 1 4 2 2 3143. 7244. 411. o
+758 1 5 2 2 2. 426. 426. <
+759 2 2 -2 6 94436. 141900. 2364. o
+759 1 6 2 2 94436. 141900. 2364. o
+760 1 7 2 2 5. 1278. 852. <
+761 2 2 -2 8 2690. 5114. 1703. o
+761 1 8 2 2 2690. 5114. 1703. o
+762 1 9 2 2 1. 852. 426. <
+763 2 2 -2 10 5924. 7244. 849. o
+763 1 10 2 2 5924. 7244. 849. o
+764 2 2 -4 0 7171. 8949. 6391. <
+764 1 0 4 2 7171. 8949. 6391. <
+765 1 1 4 2 756. 4687. 848. o
+766 2 2 -4 2 327283. 313203. 1765. o
+766 1 2 4 2 327283. 313203. 1765. o
+767 1 3 4 2 3321. 5966. 418. o
+768 2 2 -4 4 817. 852. 426. <
+768 1 4 4 2 817. 852. 426. <
+769 1 5 4 2 1209. 5114. 417. o
+770 2 2 -4 6 66389. 75424. 614. o
+770 1 6 4 2 66389. 75424. 614. o
+771 1 7 4 2 53. 426. 426. <
+772 2 2 -4 8 852. -426. 426. <
+772 1 8 4 2 852. -426. 426. <
+773 1 9 4 2 10. 852. 426. <
+774 2 2 -4 10 5106. 4687. 853. o
+774 1 10 4 2 5106. 4687. 853. o
+775 2 2 -6 0 4420. 8523. 5112. <
+775 1 0 6 2 4420. 8523. 5112. <
+776 1 1 6 2 194124. 171303. 1952. o
+777 2 2 -6 2 279928. 264624. 1711. o
+777 1 2 6 2 279928. 264624. 1711. o
+778 1 3 6 2 74973. 72868. 514. o
+779 2 2 -6 4 729. 1278. 426. o
+779 1 4 6 2 729. 1278. 426. o
+780 1 5 6 2 163894. 175990. 3385. o
+781 2 2 -6 6 58691. 67328. 1303. o
+781 1 6 6 2 58691. 67328. 1303. o
+782 2 2 -6 8 179. 426. 852. <
+782 1 8 6 2 179. 426. 852. <
+783 1 9 6 2 1918. 1705. 426. o
+784 2 2 -6 10 6023. 4261. 431. o
+784 1 10 6 2 6023. 4261. 431. o
+785 2 2 -8 0 652. 3835. 7670. <
+785 1 0 8 2 652. 3835. 7670. <
+786 1 1 8 2 10823. 6818. 862. o
+787 2 2 -8 2 204506. 204967. 822. o
+787 1 2 8 2 204506. 204967. 822. o
+788 1 3 8 2 573. 1278. 426. o
+789 2 2 -8 4 442. 852. 426. <
+789 1 4 8 2 442. 852. 426. <
+790 1 5 8 2 6634. 7670. 421. o
+791 2 2 -8 6 33089. 39204. 778. o
+791 1 6 8 2 33089. 39204. 778. o
+792 1 7 8 2 63. -426. 852. <
+793 2 2 -8 8 593. -426. 852. <
+793 1 8 8 2 593. -426. 852. <
+794 1 9 8 2 1227. 852. 426. <
+795 2 2 -8 10 3718. 3409. 427. o
+795 1 10 8 2 3718. 3409. 427. o
+796 2 2 -10 0 3920. 3835. 6818. <
+796 1 0 10 2 3920. 3835. 6818. <
+797 1 1 10 2 13795. 12358. 858. o
+798 2 2 -10 2 126999. 98861. 1533. o
+798 1 2 10 2 126999. 98861. 1533. o
+799 1 3 10 2 792. 426. 426. <
+800 2 2 -10 4 567. 1278. 426. o
+800 1 4 10 2 567. 1278. 426. o
+801 1 5 10 2 5720. 6392. 424. o
+802 2 2 -10 6 11021. 82668. 1102. o
+802 1 6 10 2 11021. 82668. 1102. o
+803 1 7 10 2 68. 426. 426. <
+804 2 2 -10 8 183. 1705. 852. <
+804 1 8 10 2 183. 1705. 852. <
+805 1 9 10 2 525. 1278. 426. o
+806 2 2 -10 10 1461. -426. 426. <
+806 1 10 10 2 1461. -426. 426. <
+807 2 2 -12 0 1102040. 1278380. 5260. o
+807 1 0 12 2 1102040. 1278380. 5260. o
+808 1 1 12 2 16800. 13210. 868. o
+809 1 3 12 2 1439. 852. 427. <
+810 2 2 -12 4 28834. 28977. 424. o
+810 1 4 12 2 28834. 28977. 424. o
+811 1 5 12 2 4004. 5540. 421. o
+812 2 2 -12 6 1283950. 1280940. 2229. o
+812 1 6 12 2 1283950. 1280940. 2229. o
+813 1 7 12 2 805. 852. 426. <
+814 2 2 -12 8 41520. 44743. 807. o
+814 1 8 12 2 41520. 44743. 807. o
+815 1 9 12 2 87. 426. 426. <
+816 2 2 -12 10 123070. 112923. 1164. o
+816 1 10 12 2 123070. 112923. 1164. o
+817 2 2 -14 0 110203. 102270. 6427. o
+817 1 0 14 2 110203. 102270. 6427. o
+818 1 1 14 2 12369. 10653. 858. o
+819 2 2 -14 2 323423. 276982. 2980. o
+819 1 2 14 2 323423. 276982. 2980. o
+820 1 3 14 2 83. 426. 426. <
+821 2 2 -14 4 10689. 8096. 440. o
+821 1 4 14 2 10689. 8096. 440. o
+822 1 5 14 2 1747. 2983. 424. o
+823 2 2 -14 6 92993. 97157. 717. o
+823 1 6 14 2 92993. 97157. 717. o
+824 2 2 -14 8 1717. 3409. 1704. <
+824 1 8 14 2 1717. 3409. 1704. <
+825 1 9 14 2 83. 0. 426. <
+826 2 2 -14 10 9321. 5966. 860. o
+826 1 10 14 2 9321. 5966. 860. o
+827 2 2 -16 0 18055. 16619. 4263. o
+827 1 0 16 2 18055. 16619. 4263. o
+828 1 1 16 2 3401. 2131. 853. o
+829 2 2 -16 2 168746. 148292. 1555. o
+829 1 2 16 2 168746. 148292. 1555. o
+830 1 3 16 2 9014. 8949. 426. o
+831 2 2 -16 4 708. 1278. 426. o
+831 1 4 16 2 708. 1278. 426. o
+832 1 5 16 2 858. 1278. 426. o
+833 2 2 -16 6 50831. 51987. 833. o
+833 1 6 16 2 50831. 51987. 833. o
+834 1 7 16 2 76. 852. 852. <
+835 2 2 -16 8 1141. 0. 426. <
+835 1 8 16 2 1141. 0. 426. <
+836 1 9 16 2 439. 426. 426. <
+837 2 2 -16 10 4941. 5114. 426. o
+837 1 10 16 2 4941. 5114. 426. o
+838 2 2 -18 0 2297. 3835. 2130. <
+838 1 0 18 2 2297. 3835. 2130. <
+839 1 1 18 2 75729. 72868. 916. o
+840 2 2 -18 2 119144. 106958. 1203. o
+840 1 2 18 2 119144. 106958. 1203. o
+841 1 3 18 2 525995. 454677. 4350. o
+842 2 2 -18 4 1393. 852. 426. <
+842 1 4 18 2 1393. 852. 426. <
+843 1 5 18 2 866. 852. 426. <
+844 2 2 -18 6 43292. 43891. 844. o
+844 1 6 18 2 43292. 43891. 844. o
+845 1 7 18 2 52429. 54118. 823. o
+846 2 2 -18 8 1084. 852. 426. <
+846 1 8 18 2 1084. 852. 426. <
+847 1 9 18 2 1237. 1705. 426. o
+848 2 2 -18 10 4234. 4261. 426. o
+848 1 10 18 2 4234. 4261. 426. o
+849 2 2 -20 0 468. 0. 1705. <
+849 1 0 20 2 468. 0. 1705. <
+850 1 1 20 2 20306. 15340. 878. o
+851 2 2 -20 2 63035. 56249. 627. o
+851 1 2 20 2 63035. 56249. 627. o
+852 1 3 20 2 48282. 43465. 545. o
+853 2 2 -20 4 7152. 5966. 431. o
+853 1 4 20 2 7152. 5966. 431. o
+854 1 5 20 2 1048. 426. 426. <
+855 2 2 -20 6 26887. 29829. 369. o
+855 1 6 20 2 26887. 29829. 369. o
+856 1 7 20 2 6098. 5966. 427. o
+857 2 2 -20 8 2812. 2557. 427. o
+857 1 8 20 2 2812. 2557. 427. o
+858 1 9 20 2 412. 1278. 426. o
+859 2 2 -20 10 2157. 2131. 426. o
+859 1 10 20 2 2157. 2131. 426. o
+860 2 2 -22 0 4586. 0. 1706. <
+860 1 0 22 2 4586. 0. 1706. <
+861 1 1 22 2 16442. 14488. 861. o
+862 2 2 -22 2 2094. -7670. 398. <
+862 1 2 22 2 2094. -7670. 398. <
+863 1 3 22 2 29310. 31533. 381. o
+864 2 2 -22 4 3515. 5114. 422. o
+864 1 4 22 2 3515. 5114. 422. o
+865 1 5 22 2 1776. 1278. 427. o
+866 2 2 -22 6 8010. 6818. 431. o
+866 1 6 22 2 8010. 6818. 431. o
+867 1 7 22 2 3362. 4261. 851. o
+868 2 2 -22 8 2264. 3835. 423. o
+868 1 8 22 2 2264. 3835. 423. o
+869 1 9 22 2 451. 1278. 426. o
+870 2 2 -22 10 497. 426. 426. <
+870 1 10 22 2 497. 426. 426. <
+871 2 2 -24 0 633123. 622145. 4671. o
+871 1 0 24 2 633123. 622145. 4671. o
+872 1 1 24 2 7008. 6818. 853. o
+873 1 3 24 2 20349. 20454. 425. o
+874 2 2 -24 4 136603. 129116. 1119. o
+874 1 4 24 2 136603. 129116. 1119. o
+875 1 5 24 2 775. 852. 426. <
+876 2 2 -24 6 622972. 561208. 4561. o
+876 1 6 24 2 622972. 561208. 4561. o
+877 1 7 24 2 1888. 2557. 425. o
+878 1 9 24 2 291. 852. 426. <
+879 2 2 -24 10 56776. 50283. 953. o
+879 1 10 24 2 56776. 50283. 953. o
+880 2 2 -26 0 58886. 59232. 2128. o
+880 1 0 26 2 58886. 59232. 2128. o
+881 1 1 26 2 259. 852. 852. <
+882 2 2 -26 2 698827. 692882. 2260. o
+882 1 2 26 2 698827. 692882. 2260. o
+883 1 3 26 2 10066. 8949. 433. o
+884 2 2 -26 4 16691. 14488. 447. o
+884 1 4 26 2 16691. 14488. 447. o
+885 1 5 26 2 245. 426. 426. <
+886 2 2 -26 6 106415. 97157. 1105. o
+886 1 6 26 2 106415. 97157. 1105. o
+887 1 7 26 2 277. 852. 426. <
+888 2 2 -26 8 3192. 3409. 426. o
+888 1 8 26 2 3192. 3409. 426. o
+889 1 9 26 2 15. 426. 426. <
+890 2 2 -26 10 8086. 5114. 437. o
+890 1 10 26 2 8086. 5114. 437. o
+891 2 2 -28 0 21930. 20028. 1711. o
+891 1 0 28 2 21930. 20028. 1711. o
+892 1 1 28 2 8684. 9801. 1276. o
+893 2 2 -28 2 146536. 144457. 942. o
+893 1 2 28 2 146536. 144457. 942. o
+894 1 3 28 2 2541. 1705. 427. o
+895 2 2 -28 4 4315. 3409. 428. o
+895 1 4 28 2 4315. 3409. 428. o
+896 1 5 28 2 7430. 6818. 429. o
+897 2 2 -28 6 21465. 21306. 428. o
+897 1 6 28 2 21465. 21306. 428. o
+898 1 7 28 2 48. 0. 426. <
+899 2 2 -28 8 654. 426. 426. <
+899 1 8 28 2 654. 426. 426. <
+900 1 9 28 2 88. 426. 426. <
+901 2 2 -30 0 23259. 20454. 1714. o
+901 1 0 30 2 23259. 20454. 1714. o
+902 1 1 30 2 302361. 295306. 3165. o
+903 2 2 -30 2 63843. 62214. 884. o
+903 1 2 30 2 63843. 62214. 884. o
+904 1 3 30 2 9606. 11932. 410. o
+905 2 2 -30 4 3663. 2557. 428. o
+905 1 4 30 2 3663. 2557. 428. o
+906 1 5 30 2 160270. 151701. 1197. o
+907 2 2 -30 6 9637. 9375. 428. o
+907 1 6 30 2 9637. 9375. 428. o
+908 1 7 30 2 2739. 3409. 425. o
+909 2 2 -30 8 496. 1278. 426. o
+909 1 8 30 2 496. 1278. 426. o
+910 1 9 30 2 4423. 3835. 428. o
+911 2 2 -32 0 25011. 20028. 1301. o
+911 1 0 32 2 25011. 20028. 1301. o
+912 1 1 32 2 74349. 86504. 2001. o
+913 2 2 -32 2 30094. 28977. 446. o
+913 1 2 32 2 30094. 28977. 446. o
+914 1 3 32 2 1499. 2983. 424. o
+915 2 2 -32 4 3409. 3835. 425. o
+915 1 4 32 2 3409. 3835. 425. o
+916 1 5 32 2 44759. 45169. 846. o
+917 2 2 -32 6 2401. 2557. 426. o
+917 1 6 32 2 2401. 2557. 426. o
+918 1 7 32 2 120. 426. 426. <
+919 2 2 -32 8 472. 0. 426. <
+919 1 8 32 2 472. 0. 426. <
+920 1 9 32 2 2129. 1705. 427. o
+921 2 2 -34 0 15786. 11932. 1289. o
+921 1 0 34 2 15786. 11932. 1289. o
+922 1 1 34 2 27289. 31107. 1254. o
+923 2 2 -34 2 3007. 426. 428. <
+923 1 2 34 2 3007. 426. 428. <
+924 1 3 34 2 2451. 2131. 427. o
+925 2 2 -34 4 109. 0. 426. <
+925 1 4 34 2 109. 0. 426. <
+926 1 5 34 2 12590. 13210. 421. o
+927 2 2 -34 6 1113. 426. 426. <
+927 1 6 34 2 1113. 426. 426. <
+928 1 7 34 2 823. 852. 426. <
+929 2 2 -34 8 133. -852. 426. <
+929 1 8 34 2 133. -852. 426. <
+930 1 9 34 2 426. 0. 426. <
+931 2 2 -36 0 6880. 9801. 1273. o
+931 1 0 36 2 6880. 9801. 1273. o
+932 1 1 36 2 8887. 10227. 1702. o
+933 2 2 -36 2 447951. 492176. 9410. o
+933 1 2 36 2 447951. 492176. 9410. o
+934 1 3 36 2 227. 426. 426. <
+935 2 2 -36 4 53623. 53266. 858. o
+935 1 4 36 2 53623. 53266. 858. o
+936 1 5 36 2 3499. 3835. 425. o
+937 2 2 -36 6 260669. 252693. 1346. o
+937 1 6 36 2 260669. 252693. 1346. o
+938 1 7 36 2 664. 426. 426. <
+939 2 2 -36 8 41904. 46448. 270. o
+939 1 8 36 2 41904. 46448. 270. o
+940 1 9 36 2 17. 426. 426. <
+941 2 2 -38 0 14102. 22159. 1245. o
+941 1 0 38 2 14102. 22159. 1245. o
+942 1 1 38 2 1321. 1278. 1278. <
+943 2 2 -38 2 79770. 91191. 440. o
+943 1 2 38 2 79770. 91191. 440. o
+944 1 3 38 2 1418. 1705. 426. o
+945 2 2 -38 4 3250. 2983. 427. o
+945 1 4 38 2 3250. 2983. 427. o
+946 1 5 38 2 546. 1278. 426. o
+947 2 2 -38 6 57560. 54970. 896. o
+947 1 6 38 2 57560. 54970. 896. o
+948 1 7 38 2 9. 426. 426. <
+949 2 2 -38 8 8188. 7244. 431. o
+949 1 8 38 2 8188. 7244. 431. o
+950 1 9 38 2 100. 852. 426. <
+951 2 2 -40 0 275. 426. 852. <
+951 1 0 40 2 275. 426. 852. <
+952 1 1 40 2 544. 2131. 1278. <
+953 2 2 -40 2 10920. 10653. 853. o
+953 1 2 40 2 10920. 10653. 853. o
+954 1 3 40 2 12644. 14914. 406. o
+955 2 2 -40 4 4061. 3835. 427. o
+955 1 4 40 2 4061. 3835. 427. o
+956 1 5 40 2 42. 426. 426. <
+957 2 2 -40 6 10492. 9801. 430. o
+957 1 6 40 2 10492. 9801. 430. o
+958 1 7 40 2 961. 852. 426. <
+959 2 2 -40 8 2208. 1278. 427. o
+959 1 8 40 2 2208. 1278. 427. o
+960 1 9 40 2 187. 426. 426. <
+961 2 2 -42 0 1847. 2131. 852. o
+961 1 0 42 2 1847. 2131. 852. o
+962 1 1 42 2 32165. 37073. 1677. o
+963 2 2 -42 2 5971. 6818. 851. o
+963 1 2 42 2 5971. 6818. 851. o
+964 1 3 42 2 126972. 131247. 1157. o
+965 2 2 -42 4 5501. 5966. 424. o
+965 1 4 42 2 5501. 5966. 424. o
+966 1 5 42 2 270. 426. 426. <
+967 2 2 -42 6 6298. 6818. 424. o
+967 1 6 42 2 6298. 6818. 424. o
+968 1 7 42 2 16647. 16193. 431. o
+969 2 2 -42 8 1611. 2131. 425. o
+969 1 8 42 2 1611. 2131. 425. o
+970 1 9 42 2 359. 852. 426. <
+971 2 2 -44 0 297. 0. 852. <
+971 1 0 44 2 297. 0. 852. <
+972 1 1 44 2 9506. 14488. 1265. o
+973 2 2 -44 2 1513. 1705. 852. <
+973 1 2 44 2 1513. 1705. 852. <
+974 1 3 44 2 60911. 71163. 597. o
+975 2 2 -44 4 3243. 4261. 424. o
+975 1 4 44 2 3243. 4261. 424. o
+976 1 5 44 2 21. 426. 426. <
+977 2 2 -44 6 3235. 3835. 425. o
+977 1 6 44 2 3235. 3835. 425. o
+978 1 7 44 2 6658. 5540. 430. o
+979 2 2 -44 8 1113. 2131. 425. o
+979 1 8 44 2 1113. 2131. 425. o
+980 1 9 44 2 305. 1705. 425. o
+981 2 2 -46 0 8257. 6392. 856. o
+981 1 0 46 2 8257. 6392. 856. o
+982 1 1 46 2 2710. 2983. 852. o
+983 2 2 -46 2 6032. 6818. 851. o
+983 1 2 46 2 6032. 6818. 851. o
+984 1 3 46 2 12210. 10653. 437. o
+985 2 2 -46 4 300. 0. 426. <
+985 1 4 46 2 300. 0. 426. <
+986 1 5 46 2 115. 852. 426. <
+987 2 2 -46 6 4. 426. 426. <
+987 1 6 46 2 4. 426. 426. <
+988 1 7 46 2 1233. 852. 426. <
+989 2 2 -46 8 28. 0. 426. <
+989 1 8 46 2 28. 0. 426. <
+990 1 9 46 2 138. 426. 426. <
+991 2 2 -48 0 339954. 354111. 1379. o
+991 1 0 48 2 339954. 354111. 1379. o
+992 1 1 48 2 35. 0. 852. <
+993 2 2 -48 2 430614. 487915. 9351. o
+993 1 2 48 2 430614. 487915. 9351. o
+994 1 3 48 2 3176. 2557. 427. o
+995 2 2 -48 4 123506. 143178. 2737. o
+995 1 4 48 2 123506. 143178. 2737. o
+996 1 5 48 2 53. 426. 426. <
+997 2 2 -48 6 80947. 86930. 675. o
+997 1 6 48 2 80947. 86930. 675. o
+998 1 7 48 2 247. 426. 426. <
+999 2 2 -48 8 18104. 16619. 442. o
+999 1 8 48 2 18104. 16619. 442. o
+1000 2 2 -50 0 154984. 144457. 1933. o
+1000 1 0 50 2 154984. 144457. 1933. o
+1001 1 1 50 2 674. 1705. 852. <
+1002 2 2 -50 2 196880. 210080. 1758. o
+1002 1 2 50 2 196880. 210080. 1758. o
+1003 1 3 50 2 719. 426. 426. <
+1004 2 2 -50 4 39352. 40482. 838. o
+1004 1 4 50 2 39352. 40482. 838. o
+1005 1 5 50 2 726. 1278. 426. o
+1006 2 2 -50 6 23458. 20880. 460. o
+1006 1 6 50 2 23458. 20880. 460. o
+1007 1 7 50 2 2. 426. 426. <
+1008 2 2 -50 8 3879. 3409. 427. o
+1008 1 8 50 2 3879. 3409. 427. o
+1009 2 2 -52 0 17862. 17471. 854. o
+1009 1 0 52 2 17862. 17471. 854. o
+1010 1 1 52 2 3344. 3835. 852. o
+1011 2 2 -52 2 10777. 9801. 1280. o
+1011 1 2 52 2 10777. 9801. 1280. o
+1012 1 3 52 2 24. 1278. 425. o
+1013 2 2 -52 4 3810. 3835. 426. o
+1013 1 4 52 2 3810. 3835. 426. o
+1014 1 5 52 2 2304. 2983. 425. o
+1015 2 2 -52 6 912. 426. 426. <
+1015 1 6 52 2 912. 426. 426. <
+1016 1 7 52 2 40. 0. 426. <
+1017 2 2 -52 8 385. 426. 426. <
+1017 1 8 52 2 385. 426. 426. <
+1018 2 2 -54 0 8227. 10653. 1273. o
+1018 1 0 54 2 8227. 10653. 1273. o
+1019 1 1 54 2 19031. 14062. 876. o
+1020 2 2 -54 2 4359. 6818. 1275. o
+1020 1 2 54 2 4359. 6818. 1275. o
+1021 1 3 54 2 248. -426. 852. <
+1022 2 2 -54 4 1678. 1705. 426. o
+1022 1 4 54 2 1678. 1705. 426. o
+1023 1 5 54 2 12433. 11932. 430. o
+1024 2 2 -54 6 412. 0. 426. <
+1024 1 6 54 2 412. 0. 426. <
+1025 1 7 54 2 77. 426. 426. <
+1026 2 2 -54 8 223. 852. 426. <
+1026 1 8 54 2 223. 852. 426. <
+1027 2 2 -56 0 3444. 4261. 851. o
+1027 1 0 56 2 3444. 4261. 851. o
+1028 1 1 56 2 17969. 17897. 853. o
+1029 2 2 -56 2 2261. 2557. 852. o
+1029 1 2 56 2 2261. 2557. 852. o
+1030 1 3 56 2 1344. 852. 852. <
+1031 2 2 -56 4 374. 426. 426. <
+1031 1 4 56 2 374. 426. 426. <
+1032 1 5 56 2 15918. 17045. 414. o
+1033 2 2 -56 6 77. 426. 426. <
+1033 1 6 56 2 77. 426. 426. <
+1034 1 7 56 2 84. 0. 426. <
+1035 2 2 -56 8 29. 852. 426. <
+1035 1 8 56 2 29. 852. 426. <
+1036 2 2 -58 0 42. 0. 852. <
+1036 1 0 58 2 42. 0. 852. <
+1037 1 1 58 2 1841. 1278. 853. <
+1038 2 2 -58 2 21. -426. 1278. <
+1038 1 2 58 2 21. -426. 1278. <
+1039 1 3 58 2 0. 0. 852. <
+1040 2 2 -58 4 519. 1278. 426. o
+1040 1 4 58 2 519. 1278. 426. o
+1041 1 5 58 2 1014. 852. 426. <
+1042 2 2 -58 6 576. 426. 426. <
+1042 1 6 58 2 576. 426. 426. <
+1043 1 7 58 2 71. -426. 426. <
+1044 2 2 -58 8 333. 852. 426. <
+1044 1 8 58 2 333. 852. 426. <
+1045 2 2 -60 0 22888. 23011. 1278. o
+1045 1 0 60 2 22888. 23011. 1278. o
+1046 1 1 60 2 134. 852. 426. <
+1047 2 2 -60 2 29651. 31107. 1269. o
+1047 1 2 60 2 29651. 31107. 1269. o
+1048 1 3 60 2 111. 1278. 852. <
+1049 2 2 -60 4 25433. 28550. 825. o
+1049 1 4 60 2 25433. 28550. 825. o
+1050 1 5 60 2 65. 0. 426. <
+1051 2 2 -60 6 21186. 21306. 425. o
+1051 1 6 60 2 21186. 21306. 425. o
+1052 1 7 60 2 25. 852. 426. <
+1053 2 2 -62 0 608. 1705. 852. <
+1053 1 0 62 2 608. 1705. 852. <
+1054 1 1 62 2 0. 1278. 425. o
+1055 2 2 -62 2 2343. 2557. 852. o
+1055 1 2 62 2 2343. 2557. 852. o
+1056 1 3 62 2 453. 1278. 852. <
+1057 2 2 -62 4 6518. 8096. 419. o
+1057 1 4 62 2 6518. 8096. 419. o
+1058 1 5 62 2 9. 1278. 425. o
+1059 2 2 -62 6 10473. 12358. 412. o
+1059 1 6 62 2 10473. 12358. 412. o
+1060 1 7 62 2 8. 0. 426. <
+1061 2 2 -64 0 748. 0. 852. <
+1061 1 0 64 2 748. 0. 852. <
+1062 1 1 64 2 61. 426. 426. <
+1063 2 2 -64 2 291. 852. 426. <
+1063 1 2 64 2 291. 852. 426. <
+1064 1 3 64 2 1054. 852. 852. <
+1065 2 2 -64 4 1501. 1278. 426. o
+1065 1 4 64 2 1501. 1278. 426. o
+1066 1 5 64 2 19. 0. 426. <
+1067 2 2 -64 6 697. 1705. 425. o
+1067 1 6 64 2 697. 1705. 425. o
+1068 1 7 64 2 143. 426. 426. <
+1069 2 2 -66 0 394. 426. 852. <
+1069 1 0 66 2 394. 426. 852. <
+1070 1 1 66 2 251. 0. 426. <
+1071 2 2 -66 2 380. 426. 426. <
+1071 1 2 66 2 380. 426. 426. <
+1072 1 3 66 2 3209. 2131. 853. o
+1073 2 2 -66 4 760. 852. 426. <
+1073 1 4 66 2 760. 852. 426. <
+1074 1 5 66 2 141. 1705. 425. o
+1075 2 2 -66 6 475. 426. 426. <
+1075 1 6 66 2 475. 426. 426. <
+1076 1 7 66 2 683. 426. 426. <
+1077 2 2 -68 0 10. 852. 852. <
+1077 1 0 68 2 10. 852. 852. <
+1078 1 1 68 2 5. -426. 426. <
+1079 2 2 -68 2 53. 0. 426. <
+1079 1 2 68 2 53. 0. 426. <
+1080 1 3 68 2 9061. 9801. 850. o
+1081 2 2 -68 4 98. 1278. 852. <
+1081 1 4 68 2 98. 1278. 852. <
+1082 1 5 68 2 1186. 852. 426. <
+1083 2 2 -68 6 181. 1278. 425. o
+1083 1 6 68 2 181. 1278. 425. o
+1084 2 2 -70 0 2155. 2131. 852. o
+1084 1 0 70 2 2155. 2131. 852. o
+1085 1 1 70 2 3. 1278. 425. o
+1086 2 2 -70 2 1096. 852. 426. <
+1086 1 2 70 2 1096. 852. 426. <
+1087 1 3 70 2 306. 1278. 852. <
+1088 2 2 -70 4 664. 0. 852. <
+1088 1 4 70 2 664. 0. 852. <
+1089 1 5 70 2 9. 426. 426. <
+1090 2 2 -70 6 126. 852. 426. <
+1090 1 6 70 2 126. 852. 426. <
+1091 2 2 -72 0 31834. 32812. 842. o
+1091 1 0 72 2 31834. 32812. 842. o
+1092 1 1 72 2 27. 426. 426. <
+1093 2 2 -72 2 24825. 28977. 816. o
+1093 1 2 72 2 24825. 28977. 816. o
+1094 1 3 72 2 45. 426. 852. <
+1095 2 2 -72 4 15459. 16193. 849. o
+1095 1 4 72 2 15459. 16193. 849. o
+1096 1 5 72 2 29. 852. 426. <
+1097 2 2 -72 6 6720. 6818. 426. o
+1097 1 6 72 2 6720. 6818. 426. o
+1098 2 2 -74 0 40278. 50283. 1176. o
+1098 1 0 74 2 40278. 50283. 1176. o
+1099 1 1 74 2 45. 0. 426. <
+1100 2 2 -74 2 27038. 29403. 831. o
+1100 1 2 74 2 27038. 29403. 831. o
+1101 1 3 74 2 15. 1278. 425. o
+1102 2 2 -74 4 10651. 11932. 848. o
+1102 1 4 74 2 10651. 11932. 848. o
+1103 1 5 74 2 41. 852. 426. <
+1104 2 2 -74 6 2748. 2983. 426. o
+1104 1 6 74 2 2748. 2983. 426. o
+1105 2 2 -76 0 500. 852. 852. <
+1105 1 0 76 2 500. 852. 852. <
+1106 1 1 76 2 55. 426. 426. <
+1107 2 2 -76 2 110. 1278. 425. o
+1107 1 2 76 2 110. 1278. 425. o
+1108 1 3 76 2 1. 0. 426. <
+1109 2 2 -76 4 133. 1278. 852. <
+1109 1 4 76 2 133. 1278. 852. <
+1110 1 5 76 2 49. 1278. 852. <
+1111 2 2 -78 0 233. 852. 852. <
+1111 1 0 78 2 233. 852. 852. <
+1112 1 1 78 2 90. 852. 426. <
+1113 2 2 -78 2 152. 426. 426. <
+1113 1 2 78 2 152. 426. 426. <
+1114 1 3 78 2 9. 852. 426. <
+1115 2 2 -78 4 62. 1278. 852. <
+1115 1 4 78 2 62. 1278. 852. <
+1116 1 5 78 2 120. 852. 852. <
+1117 2 2 -80 0 37. -852. 426. <
+1117 1 0 80 2 37. -852. 426. <
+1118 1 1 80 2 846. 1705. 425. o
+1119 2 2 -80 2 54. -426. 426. <
+1119 1 2 80 2 54. -426. 426. <
+1120 1 3 80 2 1183. 1278. 426. o
+1121 2 2 -80 4 2. 2557. 851. o
+1121 1 4 80 2 2. 2557. 851. o
+1122 2 2 -82 0 159. -426. 426. <
+1122 1 0 82 2 159. -426. 426. <
+1123 1 1 82 2 1. 0. 426. <
+1124 2 2 -82 2 87. 0. 426. <
+1124 1 2 82 2 87. 0. 426. <
+1125 1 3 82 2 1. 1278. 425. o
+1126 2 2 -82 4 141. 0. 852. <
+1126 1 4 82 2 141. 0. 852. <
+1127 2 2 -84 0 2489. 5114. 849. o
+1127 1 0 84 2 2489. 5114. 849. o
+1128 1 1 84 2 0. 426. 426. <
+1129 2 2 -84 2 2066. 2983. 425. o
+1129 1 2 84 2 2066. 2983. 425. o
+1130 1 3 84 2 1. 426. 426. <
+1131 2 2 -86 0 77. 0. 426. <
+1131 1 0 86 2 77. 0. 426. <
+1132 1 1 86 2 0. 426. 426. <
+1133 2 2 -86 2 112. 426. 426. <
+1133 1 2 86 2 112. 426. 426. <
+1134 1 3 86 2 5. 426. 426. <
+1135 2 2 -88 0 152. 852. 426. <
+1135 1 0 88 2 152. 852. 426. <
+1136 1 1 88 2 0. 426. 426. <
+1137 2 2 -88 2 78. 852. 426. <
+1137 1 2 88 2 78. 852. 426. <
+1138 2 2 -90 0 32. 0. 426. <
+1138 1 0 90 2 32. 0. 426. <
+1139 1 1 90 2 0. 426. 426. <
+1140 2 3 -1 1 1459950. 1522980. 29815. o
+1140 1 1 1 3 1459950. 1522980. 29815. o
+1141 1 2 1 3 4734. 2983. 430. o
+1142 2 3 -1 3 519274. 518170. 1393. o
+1142 1 3 1 3 519274. 518170. 1393. o
+1143 1 4 1 3 1889. 2983. 424. o
+1144 2 3 -1 5 517877. 542033. 10553. o
+1144 1 5 1 3 517877. 542033. 10553. o
+1145 1 6 1 3 676. 0. 426. <
+1146 2 3 -1 7 43743. 49857. 1216. o
+1146 1 7 1 3 43743. 49857. 1216. o
+1147 1 8 1 3 1. 852. 852. <
+1148 2 3 -1 9 71556. 56675. 1457. o
+1148 1 9 1 3 71556. 56675. 1457. o
+1149 1 10 1 3 1. 852. 426. <
+1150 2 3 -3 1 89764. 102696. 219. o
+1150 1 1 3 3 89764. 102696. 219. o
+1151 1 2 3 3 5315. 5540. 425. o
+1152 2 3 -3 3 31939. 40908. 14. o
+1152 1 3 3 3 31939. 40908. 14. o
+1153 1 4 3 3 5512. 6392. 423. o
+1154 2 3 -3 5 18581. 38778. 662. o
+1154 1 5 3 3 18581. 38778. 662. o
+1155 1 6 3 3 696. 1278. 426. o
+1156 2 3 -3 7 1412. 2131. 1278. <
+1156 1 7 3 3 1412. 2131. 1278. <
+1157 1 8 3 3 84. -852. 426. <
+1158 2 3 -3 9 2895. 4261. 423. o
+1158 1 9 3 3 2895. 4261. 423. o
+1159 1 10 3 3 16. 0. 426. <
+1160 2 3 -5 1 5633. 7670. 848. o
+1160 1 1 5 3 5633. 7670. 848. o
+1161 1 2 5 3 16632. 18323. 407. o
+1162 2 3 -5 3 2909. 3835. 424. o
+1162 1 3 5 3 2909. 3835. 424. o
+1163 1 4 5 3 28987. 31107. 384. o
+1164 2 3 -5 5 67. 2557. 423. o
+1164 1 5 5 3 67. 2557. 423. o
+1165 1 6 5 3 3520. 5540. 420. o
+1166 2 3 -5 7 16. 426. 852. <
+1166 1 7 5 3 16. 426. 852. <
+1167 1 8 5 3 1045. 2557. 424. o
+1168 2 3 -5 9 8. 1278. 425. o
+1168 1 9 5 3 8. 1278. 425. o
+1169 1 10 5 3 32. 426. 426. <
+1170 2 3 -7 1 866. 426. 852. <
+1170 1 1 7 3 866. 426. 852. <
+1171 1 2 7 3 26222. 30255. 346. o
+1172 2 3 -7 3 2620. 2983. 425. o
+1172 1 3 7 3 2620. 2983. 425. o
+1173 1 4 7 3 50640. 51987. 380. o
+1174 2 3 -7 5 4137. 6392. 418. o
+1174 1 5 7 3 4137. 6392. 418. o
+1175 1 6 7 3 8855. 8096. 430. o
+1176 2 3 -7 7 1982. 1705. 852. <
+1176 1 7 7 3 1982. 1705. 852. <
+1177 1 8 7 3 2792. 2557. 427. o
+1178 2 3 -7 9 762. 852. 852. <
+1178 1 9 7 3 762. 852. 852. <
+1179 1 10 7 3 1. 852. 426. <
+1180 2 3 -9 1 25945. 20028. 1305. o
+1180 1 1 9 3 25945. 20028. 1305. o
+1181 1 2 9 3 3269. 3835. 425. o
+1182 2 3 -9 3 15579. 19602. 377. o
+1182 1 3 9 3 15579. 19602. 377. o
+1183 1 4 9 3 5122. 6818. 419. o
+1184 2 3 -9 5 34160. 37499. 342. o
+1184 1 5 9 3 34160. 37499. 342. o
+1185 1 6 9 3 324. 852. 426. <
+1186 2 3 -9 7 7266. 9375. 415. o
+1186 1 7 9 3 7266. 9375. 415. o
+1187 1 8 9 3 7. 426. 426. <
+1188 2 3 -9 9 6848. 5540. 431. o
+1188 1 9 9 3 6848. 5540. 431. o
+1189 1 10 9 3 58. 426. 426. <
+1190 2 3 -11 1 290356. 227551. 3586. o
+1190 1 1 11 3 290356. 227551. 3586. o
+1191 1 2 11 3 1030. 2557. 424. o
+1192 2 3 -11 3 129545. 108662. 1419. o
+1192 1 3 11 3 129545. 108662. 1419. o
+1193 1 4 11 3 1340. 1278. 426. o
+1194 2 3 -11 5 300861. 291044. 1782. o
+1194 1 5 11 3 300861. 291044. 1782. o
+1195 1 6 11 3 1. 852. 426. <
+1196 2 3 -11 7 48575. 60936. 593. o
+1196 1 7 11 3 48575. 60936. 593. o
+1197 1 8 11 3 72. 852. 426. <
+1198 1 10 11 3 97. 426. 426. <
+1199 2 3 -13 1 283887. 266755. 2323. o
+1199 1 1 13 3 283887. 266755. 2323. o
+1200 1 2 13 3 1281. 2131. 425. o
+1201 2 3 -13 3 142678. 129542. 1290. o
+1201 1 3 13 3 142678. 129542. 1290. o
+1202 1 4 13 3 1362. 1705. 426. o
+1203 2 3 -13 5 427739. 423144. 1636. o
+1203 1 5 13 3 427739. 423144. 1636. o
+1204 1 6 13 3 43. 852. 426. <
+1205 2 3 -13 7 71000. 78833. 1147. o
+1205 1 7 13 3 71000. 78833. 1147. o
+1206 1 8 13 3 47. 426. 426. <
+1207 1 10 13 3 26. 426. 426. <
+1208 2 3 -15 1 2737. 2131. 853. o
+1208 1 1 15 3 2737. 2131. 853. o
+1209 1 2 15 3 4122. 4687. 425. o
+1210 2 3 -15 3 6800. 9801. 409. o
+1210 1 3 15 3 6800. 9801. 409. o
+1211 1 4 15 3 1448. 2557. 425. o
+1212 2 3 -15 5 13711. 22159. 799. o
+1212 1 5 15 3 13711. 22159. 799. o
+1213 1 6 15 3 2048. 1278. 427. o
+1214 2 3 -15 7 4803. 4687. 426. o
+1214 1 7 15 3 4803. 4687. 426. o
+1215 1 8 15 3 17. 852. 426. <
+1216 2 3 -15 9 2636. 426. 428. <
+1216 1 9 15 3 2636. 426. 428. <
+1217 1 10 15 3 53. 426. 426. <
+1218 2 3 -17 1 1771. 852. 853. <
+1218 1 1 17 3 1771. 852. 853. <
+1219 1 2 17 3 16145. 28550. 752. o
+1220 2 3 -17 3 544. 852. 426. <
+1220 1 3 17 3 544. 852. 426. <
+1221 1 4 17 3 4002. 7244. 413. o
+1222 2 3 -17 5 118. 426. 426. <
+1222 1 5 17 3 118. 426. 426. <
+1223 1 6 17 3 11197. 10653. 430. o
+1224 2 3 -17 7 1052. 426. 426. <
+1224 1 7 17 3 1052. 426. 426. <
+1225 1 8 17 3 36. 0. 426. <
+1226 2 3 -17 9 12. 852. 426. <
+1226 1 9 17 3 12. 852. 426. <
+1227 1 10 17 3 505. 852. 426. <
+1228 2 3 -19 1 17265. 15767. 860. o
+1228 1 1 19 3 17265. 15767. 860. o
+1229 1 2 19 3 52904. 50709. 887. o
+1230 2 3 -19 3 5776. 5540. 427. o
+1230 1 3 19 3 5776. 5540. 427. o
+1231 1 4 19 3 21177. 20454. 435. o
+1232 2 3 -19 5 1942. 2557. 425. o
+1232 1 5 19 3 1942. 2557. 425. o
+1233 1 6 19 3 25055. 25994. 411. o
+1234 2 3 -19 7 255. 852. 852. <
+1234 1 7 19 3 255. 852. 852. <
+1235 1 8 19 3 40. 426. 426. <
+1236 2 3 -19 9 456. 426. 426. <
+1236 1 9 19 3 456. 426. 426. <
+1237 1 10 19 3 373. 426. 426. <
+1238 2 3 -21 1 91467. 87356. 1352. o
+1238 1 1 21 3 91467. 87356. 1352. o
+1239 1 2 21 3 3973. 3835. 426. o
+1240 2 3 -21 3 38767. 37925. 446. o
+1240 1 3 21 3 38767. 37925. 446. o
+1241 1 4 21 3 2003. 2983. 424. o
+1242 2 3 -21 5 26794. 20880. 504. o
+1242 1 5 21 3 26794. 20880. 504. o
+1243 1 6 21 3 1036. 1278. 426. o
+1244 2 3 -21 7 4133. 3835. 427. o
+1244 1 7 21 3 4133. 3835. 427. o
+1245 1 8 21 3 4. -426. 426. <
+1246 2 3 -21 9 3951. 2557. 429. o
+1246 1 9 21 3 3951. 2557. 429. o
+1247 2 3 -23 1 531106. 455529. 5317. o
+1247 1 1 23 3 531106. 455529. 5317. o
+1248 1 2 23 3 808. 1278. 426. o
+1249 2 3 -23 3 247795. 207097. 2349. o
+1249 1 3 23 3 247795. 207097. 2349. o
+1250 1 4 23 3 1055. 2131. 425. o
+1251 2 3 -23 5 201893. 213915. 4205. o
+1251 1 5 23 3 201893. 213915. 4205. o
+1252 1 6 23 3 73. 852. 426. <
+1253 2 3 -23 7 35187. 34516. 860. o
+1253 1 7 23 3 35187. 34516. 860. o
+1254 1 8 23 3 13. 852. 426. <
+1255 2 3 -23 9 29003. 23011. 898. o
+1255 1 9 23 3 29003. 23011. 898. o
+1256 2 3 -25 1 1312200. 1358490. 3651. o
+1256 1 1 25 3 1312200. 1358490. 3651. o
+1257 1 2 25 3 635. 852. 426. <
+1258 2 3 -25 3 517849. 485358. 3199. o
+1258 1 3 25 3 517849. 485358. 3199. o
+1259 1 4 25 3 843. 1705. 425. o
+1260 2 3 -25 5 353160. 346867. 1675. o
+1260 1 5 25 3 353160. 346867. 1675. o
+1261 1 6 25 3 27. 852. 426. <
+1262 2 3 -25 7 44792. 40908. 902. o
+1262 1 7 25 3 44792. 40908. 902. o
+1263 1 8 25 3 27. 0. 426. <
+1264 2 3 -25 9 47762. 47726. 853. o
+1264 1 9 25 3 47762. 47726. 853. o
+1265 2 3 -27 1 10872. 3409. 1711. <
+1265 1 1 27 3 10872. 3409. 1711. <
+1266 1 2 27 3 139. 852. 426. <
+1267 2 3 -27 3 4486. 2983. 429. o
+1267 1 3 27 3 4486. 2983. 429. o
+1268 1 4 27 3 2332. 2557. 426. o
+1269 2 3 -27 5 400. 5966. 412. o
+1269 1 5 27 3 400. 5966. 412. o
+1270 1 6 27 3 30. 852. 426. <
+1271 2 3 -27 7 177. 0. 426. <
+1271 1 7 27 3 177. 0. 426. <
+1272 1 8 27 3 240. 0. 426. <
+1273 2 3 -27 9 127. -852. 426. <
+1273 1 9 27 3 127. -852. 426. <
+1274 2 3 -29 1 15. 0. 1705. <
+1274 1 1 29 3 15. 0. 1705. <
+1275 1 2 29 3 44. 852. 426. <
+1276 2 3 -29 3 4. 852. 426. <
+1276 1 3 29 3 4. 852. 426. <
+1277 1 4 29 3 5445. 11932. 384. o
+1278 2 3 -29 5 1330. 1278. 426. o
+1278 1 5 29 3 1330. 1278. 426. o
+1279 1 6 29 3 62. 1705. 425. o
+1280 2 3 -29 7 22. 0. 426. <
+1280 1 7 29 3 22. 0. 426. <
+1281 1 8 29 3 806. 1278. 426. o
+1282 2 3 -29 9 124. 426. 426. <
+1282 1 9 29 3 124. 426. 426. <
+1283 2 3 -31 1 3867. 2131. 1279. <
+1283 1 1 31 3 3867. 2131. 1279. <
+1284 1 2 31 3 16575. 17045. 421. o
+1285 2 3 -31 3 3742. 2983. 428. o
+1285 1 3 31 3 3742. 2983. 428. o
+1286 1 4 31 3 61003. 62214. 828. o
+1287 2 3 -31 5 3957. 3409. 427. o
+1287 1 5 31 3 3957. 3409. 427. o
+1288 1 6 31 3 2060. 3409. 424. o
+1289 2 3 -31 7 1405. 1278. 426. o
+1289 1 7 31 3 1405. 1278. 426. o
+1290 1 8 31 3 4433. 4687. 425. o
+1291 2 3 -31 9 739. 852. 426. <
+1291 1 9 31 3 739. 852. 426. <
+1292 2 3 -33 1 21403. 22159. 1702. o
+1292 1 1 33 3 21403. 22159. 1702. o
+1293 1 2 33 3 313. 1278. 426. o
+1294 2 3 -33 3 14584. 15767. 415. o
+1294 1 3 33 3 14584. 15767. 415. o
+1295 1 4 33 3 350. 1705. 425. o
+1296 2 3 -33 5 14658. 13636. 435. o
+1296 1 5 33 3 14658. 13636. 435. o
+1297 1 6 33 3 29. 426. 426. <
+1298 2 3 -33 7 5027. 4687. 427. o
+1298 1 7 33 3 5027. 4687. 427. o
+1299 1 8 33 3 42. 0. 426. <
+1300 2 3 -33 9 3100. 2131. 428. o
+1300 1 9 33 3 3100. 2131. 428. o
+1301 2 3 -35 1 89414. 106532. 2370. o
+1301 1 1 35 3 89414. 106532. 2370. o
+1302 1 2 35 3 154. 0. 426. <
+1303 2 3 -35 3 56101. 45169. 1005. o
+1303 1 3 35 3 56101. 45169. 1005. o
+1304 1 4 35 3 35. 0. 426. <
+1305 2 3 -35 5 54362. 55823. 827. o
+1305 1 5 35 3 54362. 55823. 827. o
+1306 1 6 35 3 2. 0. 426. <
+1307 2 3 -35 7 17887. 18750. 847. o
+1307 1 7 35 3 17887. 18750. 847. o
+1308 1 8 35 3 171. 426. 426. <
+1309 2 3 -35 9 12059. 10653. 857. o
+1309 1 9 35 3 12059. 10653. 857. o
+1310 2 3 -37 1 77172. 87356. 2466. o
+1310 1 1 37 3 77172. 87356. 2466. o
+1311 1 2 37 3 180. 426. 426. <
+1312 2 3 -37 3 83127. 83095. 853. o
+1312 1 3 37 3 83127. 83095. 853. o
+1313 1 4 37 3 12. 426. 426. <
+1314 2 3 -37 5 156215. 170451. 3330. o
+1314 1 5 37 3 156215. 170451. 3330. o
+1315 1 6 37 3 92. 852. 426. <
+1316 2 3 -37 7 57070. 53266. 915. o
+1316 1 7 37 3 57070. 53266. 915. o
+1317 1 8 37 3 30. 0. 426. <
+1318 2 3 -37 9 37040. 33238. 892. o
+1318 1 9 37 3 37040. 33238. 892. o
+1319 2 3 -39 1 559. 426. 852. <
+1319 1 1 39 3 559. 426. 852. <
+1320 1 2 39 3 457. 852. 852. <
+1321 2 3 -39 3 1453. 852. 427. <
+1321 1 3 39 3 1453. 852. 427. <
+1322 1 4 39 3 2. 426. 426. <
+1323 2 3 -39 5 384. -852. 426. <
+1323 1 5 39 3 384. -852. 426. <
+1324 1 6 39 3 723. 1278. 426. o
+1325 2 3 -39 7 494. -426. 426. <
+1325 1 7 39 3 494. -426. 426. <
+1326 1 8 39 3 1. 426. 426. <
+1327 2 3 -39 9 21. -1278. 425. <
+1327 1 9 39 3 21. -1278. 425. <
+1328 2 3 -41 1 378. 1278. 852. <
+1328 1 1 41 3 378. 1278. 852. <
+1329 1 2 41 3 408. -426. 1278. <
+1330 2 3 -41 3 11. 852. 852. <
+1330 1 3 41 3 11. 852. 852. <
+1331 1 4 41 3 12. 426. 426. <
+1332 2 3 -41 5 158. 852. 426. <
+1332 1 5 41 3 158. 852. 426. <
+1333 1 6 41 3 1094. 426. 426. <
+1334 2 3 -41 7 3. 852. 426. <
+1334 1 7 41 3 3. 852. 426. <
+1335 1 8 41 3 9. 426. 426. <
+1336 2 3 -41 9 57. 852. 426. <
+1336 1 9 41 3 57. 852. 426. <
+1337 2 3 -43 1 4742. 3835. 853. o
+1337 1 1 43 3 4742. 3835. 853. o
+1338 1 2 43 3 23647. 24715. 2127. o
+1339 2 3 -43 3 3162. 3835. 851. o
+1339 1 3 43 3 3162. 3835. 851. o
+1340 1 4 43 3 9463. 10653. 418. o
+1341 2 3 -43 5 1708. 852. 427. <
+1341 1 5 43 3 1708. 852. 427. <
+1342 1 6 43 3 12730. 14062. 415. o
+1343 2 3 -43 7 687. 852. 426. <
+1343 1 7 43 3 687. 852. 426. <
+1344 1 8 43 3 12. -426. 426. <
+1345 2 3 -45 1 19249. 18750. 855. o
+1345 1 1 45 3 19249. 18750. 855. o
+1346 1 2 45 3 3. 3835. 2556. <
+1347 2 3 -45 3 13824. 14914. 416. o
+1347 1 3 45 3 13824. 14914. 416. o
+1348 1 4 45 3 12. 426. 426. <
+1349 2 3 -45 5 8568. 9801. 419. o
+1349 1 5 45 3 8568. 9801. 419. o
+1350 1 6 45 3 3. 0. 426. <
+1351 2 3 -45 7 3235. 3409. 426. o
+1351 1 7 45 3 3235. 3409. 426. o
+1352 1 8 45 3 1. 852. 426. <
+1353 2 3 -47 1 52843. 48152. 1741. o
+1353 1 1 47 3 52843. 48152. 1741. o
+1354 1 2 47 3 24. 852. 1278. <
+1355 2 3 -47 3 39576. 32812. 923. o
+1355 1 3 47 3 39576. 32812. 923. o
+1356 1 4 47 3 44. 426. 426. <
+1357 2 3 -47 5 26606. 34090. 236. o
+1357 1 5 47 3 26606. 34090. 236. o
+1358 1 6 47 3 59. 426. 426. <
+1359 2 3 -47 7 10278. 8096. 438. o
+1359 1 7 47 3 10278. 8096. 438. o
+1360 1 8 47 3 19. 426. 426. <
+1361 2 3 -49 1 353764. 438058. 8546. o
+1361 1 1 49 3 353764. 438058. 8546. o
+1362 1 2 49 3 9. 426. 1278. <
+1363 2 3 -49 3 183651. 195592. 643. o
+1363 1 3 49 3 183651. 195592. 643. o
+1364 1 4 49 3 10. 426. 426. <
+1365 2 3 -49 5 81340. 98009. 1936. o
+1365 1 5 49 3 81340. 98009. 1936. o
+1366 1 6 49 3 22. 1278. 425. o
+1367 2 3 -49 7 22615. 21306. 444. o
+1367 1 7 49 3 22615. 21306. 444. o
+1368 1 8 49 3 7. 0. 426. <
+1369 2 3 -51 1 2486. -2983. 850. <
+1369 1 1 51 3 2486. -2983. 850. <
+1370 1 2 51 3 69. 1278. 1278. <
+1371 2 3 -51 3 1010. 852. 852. <
+1371 1 3 51 3 1010. 852. 852. <
+1372 1 4 51 3 16. 426. 426. <
+1373 2 3 -51 5 780. 0. 426. <
+1373 1 5 51 3 780. 0. 426. <
+1374 1 6 51 3 44. 426. 426. <
+1375 2 3 -51 7 56. 0. 426. <
+1375 1 7 51 3 56. 0. 426. <
+1376 1 8 51 3 18. 0. 426. <
+1377 2 3 -53 1 1078. 852. 852. <
+1377 1 1 53 3 1078. 852. 852. <
+1378 1 2 53 3 182. 0. 1278. <
+1379 2 3 -53 3 580. 1278. 852. <
+1379 1 3 53 3 580. 1278. 852. <
+1380 1 4 53 3 6. -852. 426. <
+1381 2 3 -53 5 355. 1278. 426. o
+1381 1 5 53 3 355. 1278. 426. o
+1382 1 6 53 3 39. 426. 426. <
+1383 2 3 -53 7 69. 426. 426. <
+1383 1 7 53 3 69. 426. 426. <
+1384 1 8 53 3 20. 426. 426. <
+1385 2 3 -55 1 2233. 1278. 427. o
+1385 1 1 55 3 2233. 1278. 427. o
+1386 1 2 55 3 4397. 5114. 1278. o
+1387 2 3 -55 3 1627. 2983. 851. o
+1387 1 3 55 3 1627. 2983. 851. o
+1388 1 4 55 3 11667. 12358. 421. o
+1389 2 3 -55 5 788. 1705. 425. o
+1389 1 5 55 3 788. 1705. 425. o
+1390 1 6 55 3 936. 2131. 425. o
+1391 2 3 -55 7 418. 852. 426. <
+1391 1 7 55 3 418. 852. 426. <
+1392 1 8 55 3 686. 0. 426. <
+1393 2 3 -57 1 5952. 6818. 423. o
+1393 1 1 57 3 5952. 6818. 423. o
+1394 1 2 57 3 178. 1705. 852. <
+1395 2 3 -57 3 4037. 5114. 851. o
+1395 1 3 57 3 4037. 5114. 851. o
+1396 1 4 57 3 509. 2131. 425. o
+1397 2 3 -57 5 2144. 1705. 427. o
+1397 1 5 57 3 2144. 1705. 427. o
+1398 1 6 57 3 168. 1278. 425. o
+1399 2 3 -57 7 1106. 1278. 426. o
+1399 1 7 57 3 1106. 1278. 426. o
+1400 2 3 -59 1 11685. 12358. 850. o
+1400 1 1 59 3 11685. 12358. 850. o
+1401 1 2 59 3 17. 852. 852. <
+1402 2 3 -59 3 7530. 6818. 854. o
+1402 1 3 59 3 7530. 6818. 854. o
+1403 1 4 59 3 159. 2557. 423. o
+1404 2 3 -59 5 3975. 3835. 426. o
+1404 1 5 59 3 3975. 3835. 426. o
+1405 1 6 59 3 6. 852. 426. <
+1406 2 3 -59 7 1900. 1705. 426. o
+1406 1 7 59 3 1900. 1705. 426. o
+1407 2 3 -61 1 13092. 15767. 840. o
+1407 1 1 61 3 13092. 15767. 840. o
+1408 1 2 61 3 3. 0. 852. <
+1409 2 3 -61 3 19756. 22159. 1268. o
+1409 1 3 61 3 19756. 22159. 1268. o
+1410 1 4 61 3 11. 1705. 425. o
+1411 2 3 -61 5 23297. 24715. 841. o
+1411 1 5 61 3 23297. 24715. 841. o
+1412 1 6 61 3 5. 852. 426. <
+1413 2 3 -61 7 14551. 14488. 427. o
+1413 1 7 61 3 14551. 14488. 427. o
+1414 2 3 -63 1 218. 1278. 426. o
+1414 1 1 63 3 218. 1278. 426. o
+1415 1 2 63 3 3. 1705. 425. o
+1416 2 3 -63 3 30. 1705. 1278. <
+1416 1 3 63 3 30. 1705. 1278. <
+1417 1 4 63 3 10. 852. 426. <
+1418 2 3 -63 5 131. 426. 426. <
+1418 1 5 63 3 131. 426. 426. <
+1419 1 6 63 3 25. 0. 426. <
+1420 2 3 -63 7 108. 0. 426. <
+1420 1 7 63 3 108. 0. 426. <
+1421 2 3 -65 1 14. 852. 426. <
+1421 1 1 65 3 14. 852. 426. <
+1422 1 2 65 3 55. 426. 426. <
+1423 2 3 -65 3 52. 0. 852. <
+1423 1 3 65 3 52. 0. 852. <
+1424 1 4 65 3 54. 2131. 851. o
+1425 2 3 -65 5 84. 426. 426. <
+1425 1 5 65 3 84. 426. 426. <
+1426 1 6 65 3 0. 0. 426. <
+1427 2 3 -67 1 521. 426. 426. <
+1427 1 1 67 3 521. 426. 426. <
+1428 1 2 67 3 2462. 2983. 425. o
+1429 2 3 -67 3 573. 852. 852. <
+1429 1 3 67 3 573. 852. 852. <
+1430 1 4 67 3 2028. 3835. 850. o
+1431 2 3 -67 5 386. 852. 426. <
+1431 1 5 67 3 386. 852. 426. <
+1432 1 6 67 3 1319. 2131. 425. o
+1433 2 3 -69 1 1606. 1705. 426. o
+1433 1 1 69 3 1606. 1705. 426. o
+1434 1 2 69 3 254. 0. 426. <
+1435 2 3 -69 3 1588. 852. 853. <
+1435 1 3 69 3 1588. 852. 853. <
+1436 1 4 69 3 223. 1705. 852. <
+1437 2 3 -69 5 1109. 1278. 426. o
+1437 1 5 69 3 1109. 1278. 426. o
+1438 1 6 69 3 112. 852. 426. <
+1439 2 3 -71 1 1863. 1278. 427. o
+1439 1 1 71 3 1863. 1278. 427. o
+1440 1 2 71 3 39. 426. 426. <
+1441 2 3 -71 3 1948. 2557. 852. o
+1441 1 3 71 3 1948. 2557. 852. o
+1442 1 4 71 3 18. 852. 852. <
+1443 2 3 -71 5 1554. 1705. 426. o
+1443 1 5 71 3 1554. 1705. 426. o
+1444 1 6 71 3 17. 1278. 425. o
+1445 2 3 -73 1 38442. 39204. 843. o
+1445 1 1 73 3 38442. 39204. 843. o
+1446 1 2 73 3 16. 0. 426. <
+1447 2 3 -73 3 23041. 21732. 861. o
+1447 1 3 73 3 23041. 21732. 861. o
+1448 1 4 73 3 12. 1705. 852. <
+1449 2 3 -73 5 9329. 11079. 846. o
+1449 1 5 73 3 9329. 11079. 846. o
+1450 2 3 -75 1 3118. 852. 428. <
+1450 1 1 75 3 3118. 852. 428. <
+1451 1 2 75 3 24. 852. 426. <
+1452 2 3 -75 3 1463. 852. 427. <
+1452 1 3 75 3 1463. 852. 427. <
+1453 1 4 75 3 17. 2131. 851. o
+1454 2 3 -75 5 419. 852. 852. <
+1454 1 5 75 3 419. 852. 852. <
+1455 2 3 -77 1 261. 852. 426. <
+1455 1 1 77 3 261. 852. 426. <
+1456 1 2 77 3 39. 0. 426. <
+1457 2 3 -77 3 132. 426. 426. <
+1457 1 3 77 3 132. 426. 426. <
+1458 1 4 77 3 41. 1705. 852. <
+1459 2 3 -77 5 29. 426. 852. <
+1459 1 5 77 3 29. 426. 852. <
+1460 2 3 -79 1 294. 852. 426. <
+1460 1 1 79 3 294. 852. 426. <
+1461 1 2 79 3 398. 852. 426. <
+1462 2 3 -79 3 179. 852. 426. <
+1462 1 3 79 3 179. 852. 426. <
+1463 1 4 79 3 663. 426. 852. <
+1464 2 3 -81 1 549. 852. 426. <
+1464 1 1 81 3 549. 852. 426. <
+1465 1 2 81 3 185. 426. 426. <
+1466 2 3 -81 3 335. 1278. 426. o
+1466 1 3 81 3 335. 1278. 426. o
+1467 1 4 81 3 298. 1278. 852. <
+1468 2 3 -83 1 569. 852. 426. <
+1468 1 1 83 3 569. 852. 426. <
+1469 1 2 83 3 10. 1278. 425. o
+1470 2 3 -83 3 317. 852. 426. <
+1470 1 3 83 3 317. 852. 426. <
+1471 2 3 -85 1 1220. 2131. 425. o
+1471 1 1 85 3 1220. 2131. 425. o
+1472 1 2 85 3 2. 0. 426. <
+1473 2 3 -87 1 70. 426. 426. <
+1473 1 1 87 3 70. 426. 426. <
+1474 1 2 87 3 3. 1278. 425. o
+1475 2 4 0 2 58241. 63067. 754. o
+1475 1 2 0 4 58241. 63067. 754. o
+1476 2 4 0 4 1989070. 2129780. 40942. o
+1476 1 4 0 4 1989070. 2129780. 40942. o
+1477 2 4 0 6 6489. 8523. 416. o
+1477 1 6 0 4 6489. 8523. 416. o
+1478 2 4 -2 0 259518. 410786. 7772. o
+1478 1 0 2 4 259518. 410786. 7772. o
+1479 1 1 2 4 390. 1278. 1278. <
+1480 2 4 -2 2 595. 5966. 412. o
+1480 1 2 2 4 595. 5966. 412. o
+1481 1 3 2 4 298. 1278. 426. o
+1482 2 4 -2 4 126693. 188348. 3210. o
+1482 1 4 2 4 126693. 188348. 3210. o
+1483 1 5 2 4 69. 0. 426. <
+1484 2 4 -2 6 544. 2131. 425. o
+1484 1 6 2 4 544. 2131. 425. o
+1485 1 7 2 4 44. 426. 426. <
+1486 2 4 -2 8 16878. 4261. 1300. o
+1486 1 8 2 4 16878. 4261. 1300. o
+1487 1 9 2 4 8. 426. 426. <
+1488 2 4 -4 0 134439. 176416. 2294. o
+1488 1 0 4 4 134439. 176416. 2294. o
+1489 1 1 4 4 66. 3835. 1276. o
+1490 2 4 -4 2 1743. 852. 427. <
+1490 1 2 4 4 1743. 852. 427. <
+1491 1 3 4 4 645. 4687. 418. o
+1492 2 4 -4 4 64787. 95452. 1725. o
+1492 1 4 4 4 64787. 95452. 1725. o
+1493 1 5 4 4 27. 426. 426. <
+1494 2 4 -4 6 718. 1278. 852. <
+1494 1 6 4 4 718. 1278. 852. <
+1495 1 7 4 4 63. 0. 426. <
+1496 1 9 4 4 26. 426. 426. <
+1497 2 4 -6 0 115032. 148292. 2026. o
+1497 1 0 6 4 115032. 148292. 2026. o
+1498 1 1 6 4 1244. 5966. 1701. o
+1499 2 4 -6 2 334. 1278. 426. o
+1499 1 2 6 4 334. 1278. 426. o
+1500 1 3 6 4 76938. 73720. 925. o
+1501 2 4 -6 4 54730. 72868. 1288. o
+1501 1 4 6 4 54730. 72868. 1288. o
+1502 1 5 6 4 3520. 4261. 424. o
+1503 2 4 -6 6 236. 426. 426. <
+1503 1 6 6 4 236. 426. 426. <
+1504 1 7 6 4 8154. 10653. 410. o
+1505 1 9 6 4 127. 852. 426. <
+1506 2 4 -8 0 75334. 102270. 1789. o
+1506 1 0 8 4 75334. 102270. 1789. o
+1507 1 1 8 4 2965. 4687. 1277. o
+1508 2 4 -8 2 1099. 426. 426. <
+1508 1 2 8 4 1099. 426. 426. <
+1509 1 3 8 4 7274. 7670. 424. o
+1510 2 4 -8 4 36033. 48152. 664. o
+1510 1 4 8 4 36033. 48152. 664. o
+1511 1 5 8 4 135. 426. 426. <
+1512 2 4 -8 6 627. 426. 426. <
+1512 1 6 8 4 627. 426. 426. <
+1513 1 7 8 4 2021. 1278. 427. o
+1514 2 4 -8 8 6550. 8523. 416. o
+1514 1 8 8 4 6550. 8523. 416. o
+1515 1 9 8 4 3. 852. 426. <
+1516 2 4 -10 0 80594. 64771. 2670. o
+1516 1 0 10 4 80594. 64771. 2670. o
+1517 1 1 10 4 451. 1278. 1278. <
+1518 2 4 -10 2 605. 2557. 424. o
+1518 1 2 10 4 605. 2557. 424. o
+1519 1 3 10 4 2331. 5114. 419. o
+1520 2 4 -10 4 32007. 56675. 298. o
+1520 1 4 10 4 32007. 56675. 298. o
+1521 1 5 10 4 3. 852. 426. <
+1522 2 4 -10 6 166. 426. 426. <
+1522 1 6 10 4 166. 426. 426. <
+1523 1 7 10 4 554. 426. 426. <
+1524 2 4 -10 8 4921. 6818. 419. o
+1524 1 8 10 4 4921. 6818. 419. o
+1525 1 9 10 4 4. 426. 426. <
+1526 2 4 -12 0 1842640. 1629080. 18056. o
+1526 1 0 12 4 1842640. 1629080. 18056. o
+1527 1 1 12 4 1960. 2983. 1278. o
+1528 2 4 -12 2 51497. 48578. 896. o
+1528 1 2 12 4 51497. 48578. 896. o
+1529 1 3 12 4 2553. 4261. 422. o
+1530 2 4 -12 4 1229810. 1295850. 25127. o
+1530 1 4 12 4 1229810. 1295850. 25127. o
+1531 1 5 12 4 725. 852. 426. <
+1532 2 4 -12 6 14290. 15340. 416. o
+1532 1 6 12 4 14290. 15340. 416. o
+1533 1 7 12 4 243. 426. 426. <
+1534 2 4 -12 8 245847. 282948. 5587. o
+1534 1 8 12 4 245847. 282948. 5587. o
+1535 1 9 12 4 139. 852. 426. <
+1536 2 4 -14 0 204243. 147014. 3737. o
+1536 1 0 14 4 204243. 147014. 3737. o
+1537 1 1 14 4 1442. 3409. 1704. <
+1538 2 4 -14 2 12138. 5966. 456. o
+1538 1 2 14 4 12138. 5966. 456. o
+1539 1 3 14 4 1438. 2131. 425. o
+1540 2 4 -14 4 121245. 147866. 965. o
+1540 1 4 14 4 121245. 147866. 965. o
+1541 1 5 14 4 860. 852. 426. <
+1542 2 4 -14 6 363. 2131. 424. o
+1542 1 6 14 4 363. 2131. 424. o
+1543 1 7 14 4 15. 0. 426. <
+1544 2 4 -14 8 22689. 36647. 1182. o
+1544 1 8 14 4 22689. 36647. 1182. o
+1545 1 9 14 4 199. 426. 426. <
+1546 2 4 -16 0 72797. 70737. 3420. o
+1546 1 0 16 4 72797. 70737. 3420. o
+1547 1 1 16 4 481. 1705. 2130. <
+1548 2 4 -16 2 375. 2131. 424. o
+1548 1 2 16 4 375. 2131. 424. o
+1549 1 3 16 4 229. 426. 426. <
+1550 2 4 -16 4 43725. 50283. 747. o
+1550 1 4 16 4 43725. 50283. 747. o
+1551 1 5 16 4 191. 2983. 850. o
+1552 2 4 -16 6 699. 426. 426. <
+1552 1 6 16 4 699. 426. 426. <
+1553 1 7 16 4 116. 426. 426. <
+1554 2 4 -16 8 8631. 8523. 427. o
+1554 1 8 16 4 8631. 8523. 427. o
+1555 1 9 16 4 9. -426. 426. <
+1556 2 4 -18 0 58406. 49431. 3025. o
+1556 1 0 18 4 58406. 49431. 3025. o
+1557 1 1 18 4 126937. 96305. 2877. o
+1558 2 4 -18 2 925. 426. 426. <
+1558 1 2 18 4 925. 426. 426. <
+1559 1 3 18 4 6046. 8949. 411. o
+1560 2 4 -18 4 33693. 36647. 819. o
+1560 1 4 18 4 33693. 36647. 819. o
+1561 1 5 18 4 73793. 76703. 780. o
+1562 2 4 -18 6 1099. 426. 426. <
+1562 1 6 18 4 1099. 426. 426. <
+1563 1 7 18 4 2003. 2983. 424. o
+1564 2 4 -18 8 6111. 7670. 419. o
+1564 1 8 18 4 6111. 7670. 419. o
+1565 1 9 18 4 3371. 3835. 425. o
+1566 2 4 -20 0 32137. 28550. 2992. o
+1566 1 0 20 4 32137. 28550. 2992. o
+1567 1 1 20 4 22043. 14062. 2571. o
+1568 2 4 -20 2 4875. 2983. 430. o
+1568 1 2 20 4 4875. 2983. 430. o
+1569 1 3 20 4 4534. 1705. 431. o
+1570 2 4 -20 4 20606. 25142. 818. o
+1570 1 4 20 4 20606. 25142. 818. o
+1571 1 5 20 4 10696. 9375. 434. o
+1572 2 4 -20 6 2686. 2557. 426. o
+1572 1 6 20 4 2686. 2557. 426. o
+1573 1 7 20 4 1074. 852. 426. <
+1574 2 4 -20 8 3749. 3835. 426. o
+1574 1 8 20 4 3749. 3835. 426. o
+1575 1 9 20 4 527. 852. 426. <
+1576 2 4 -22 0 7685. -52840. 6309. <
+1576 1 0 22 4 7685. -52840. 6309. <
+1577 1 1 22 4 6504. 11079. 1698. o
+1578 2 4 -22 2 206. 426. 426. <
+1578 1 2 22 4 206. 426. 426. <
+1579 1 3 22 4 1336. 2983. 424. o
+1580 2 4 -22 4 8449. 11932. 840. o
+1580 1 4 22 4 8449. 11932. 840. o
+1581 1 5 22 4 3386. 5114. 421. o
+1582 2 4 -22 6 837. 2557. 424. o
+1582 1 6 22 4 837. 2557. 424. o
+1583 1 7 22 4 398. 1278. 426. o
+1584 2 4 -22 8 1719. -852. 426. <
+1584 1 8 22 4 1719. -852. 426. <
+1585 1 9 22 4 197. 852. 426. <
+1586 1 1 24 4 5023. 7244. 1275. o
+1587 2 4 -24 2 144283. 149996. 1088. o
+1587 1 2 24 4 144283. 149996. 1088. o
+1588 1 3 24 4 1254. 1705. 426. o
+1589 2 4 -24 4 846412. 884638. 17372. o
+1589 1 4 24 4 846412. 884638. 17372. o
+1590 1 5 24 4 2184. 2557. 426. o
+1591 2 4 -24 6 24689. 26846. 834. o
+1591 1 6 24 4 24689. 26846. 834. o
+1592 1 7 24 4 331. 426. 426. <
+1593 2 4 -24 8 116393. 132525. 735. o
+1593 1 8 24 4 116393. 132525. 735. o
+1594 1 9 24 4 164. 852. 426. <
+1595 2 4 -26 0 362516. 312351. 6284. o
+1595 1 0 26 4 362516. 312351. 6284. o
+1596 1 1 26 4 1369. 3835. 1703. o
+1597 2 4 -26 2 16020. 17897. 842. o
+1597 1 2 26 4 16020. 17897. 842. o
+1598 1 3 26 4 38. 426. 426. <
+1599 2 4 -26 4 148916. 135082. 1632. o
+1599 1 4 26 4 148916. 135082. 1632. o
+1600 1 5 26 4 688. 852. 426. <
+1601 2 4 -26 6 2714. 3835. 424. o
+1601 1 6 26 4 2714. 3835. 424. o
+1602 1 7 26 4 42. 0. 426. <
+1603 2 4 -26 8 19110. 10653. 887. o
+1603 1 8 26 4 19110. 10653. 887. o
+1604 1 9 26 4 28. 852. 426. <
+1605 2 4 -28 0 63260. 55396. 2187. o
+1605 1 0 28 4 63260. 55396. 2187. o
+1606 1 1 28 4 59. -426. 1278. <
+1607 2 4 -28 2 6314. 3409. 856. o
+1607 1 2 28 4 6314. 3409. 856. o
+1608 1 3 28 4 2582. 2983. 425. o
+1609 2 4 -28 4 25573. 25142. 856. o
+1609 1 4 28 4 25573. 25142. 856. o
+1610 1 5 28 4 13. 0. 426. <
+1611 2 4 -28 6 976. 426. 426. <
+1611 1 6 28 4 976. 426. 426. <
+1612 1 7 28 4 250. -426. 426. <
+1613 2 4 -28 8 3692. 2983. 428. o
+1613 1 8 28 4 3692. 2983. 428. o
+1614 1 9 28 4 47. 426. 426. <
+1615 2 4 -30 0 26930. 25142. 1712. o
+1615 1 0 30 4 26930. 25142. 1712. o
+1616 1 1 30 4 46057. 44317. 2140. o
+1617 2 4 -30 2 4455. 3835. 428. o
+1617 1 2 30 4 4455. 3835. 428. o
+1618 1 3 30 4 104006. 109088. 1617. o
+1619 2 4 -30 4 11070. 11932. 420. o
+1619 1 4 30 4 11070. 11932. 420. o
+1620 1 5 30 4 5772. 6818. 422. o
+1621 2 4 -30 6 958. 852. 426. <
+1621 1 6 30 4 958. 852. 426. <
+1622 1 7 30 4 14351. 14914. 421. o
+1623 2 4 -30 8 2005. 2557. 425. o
+1623 1 8 30 4 2005. 2557. 425. o
+1624 1 9 30 4 1732. 1278. 427. o
+1625 2 4 -32 0 11962. 7670. 1286. o
+1625 1 0 32 4 11962. 7670. 1286. o
+1626 1 1 32 4 12577. 13210. 1703. o
+1627 2 4 -32 2 4990. 4687. 427. o
+1627 1 2 32 4 4990. 4687. 427. o
+1628 1 3 32 4 32325. 28124. 890. o
+1629 2 4 -32 4 4295. 5114. 424. o
+1629 1 4 32 4 4295. 5114. 424. o
+1630 1 5 32 4 994. 2131. 425. o
+1631 2 4 -32 6 925. 1278. 426. o
+1631 1 6 32 4 925. 1278. 426. o
+1632 1 7 32 4 5589. 5114. 428. o
+1633 2 4 -32 8 851. 1278. 426. o
+1633 1 8 32 4 851. 1278. 426. o
+1634 1 9 32 4 229. 852. 426. <
+1635 2 4 -34 0 2790. -5114. 1701. <
+1635 1 0 34 4 2790. -5114. 1701. <
+1636 1 1 34 4 3058. 5540. 1276. o
+1637 2 4 -34 2 438. 426. 852. <
+1637 1 2 34 4 438. 426. 852. <
+1638 1 3 34 4 6308. 8096. 418. o
+1639 2 4 -34 4 121. 0. 852. <
+1639 1 4 34 4 121. 0. 852. <
+1640 1 5 34 4 593. 852. 426. <
+1641 2 4 -34 6 61. -426. 426. <
+1641 1 6 34 4 61. -426. 426. <
+1642 1 7 34 4 915. 1278. 426. o
+1643 2 4 -34 8 21. -852. 426. <
+1643 1 8 34 4 21. -852. 426. <
+1644 1 9 34 4 171. 852. 426. <
+1645 2 4 -36 0 305447. 226699. 5033. o
+1645 1 0 36 4 305447. 226699. 5033. o
+1646 1 1 36 4 1168. 2131. 1278. <
+1647 2 4 -36 2 28427. 28124. 855. o
+1647 1 2 36 4 28427. 28124. 855. o
+1648 1 3 36 4 1817. 2131. 426. o
+1649 2 4 -36 4 233107. 265903. 5170. o
+1649 1 4 36 4 233107. 265903. 5170. o
+1650 1 5 36 4 470. 852. 426. <
+1651 2 4 -36 6 35343. 43039. 748. o
+1651 1 6 36 4 35343. 43039. 748. o
+1652 1 7 36 4 110. 1278. 425. o
+1653 2 4 -36 8 57875. 56675. 873. o
+1653 1 8 36 4 57875. 56675. 873. o
+1654 2 4 -38 0 57458. 40908. 2636. o
+1654 1 0 38 4 57458. 40908. 2636. o
+1655 1 1 38 4 1. 1278. 852. <
+1656 2 4 -38 2 1215. 2983. 851. o
+1656 1 2 38 4 1215. 2983. 851. o
+1657 1 3 38 4 201. 0. 426. <
+1658 2 4 -38 4 50703. 53692. 801. o
+1658 1 4 38 4 50703. 53692. 801. o
+1659 1 5 38 4 2. 852. 426. <
+1660 2 4 -38 6 5798. 6392. 424. o
+1660 1 6 38 4 5798. 6392. 424. o
+1661 1 7 38 4 9. 426. 426. <
+1662 2 4 -38 8 13639. 11505. 860. o
+1662 1 8 38 4 13639. 11505. 860. o
+1663 2 4 -40 0 6946. 7244. 1278. o
+1663 1 0 40 4 6946. 7244. 1278. o
+1664 1 1 40 4 1735. 1705. 852. <
+1665 2 4 -40 2 1849. 2131. 1278. <
+1665 1 2 40 4 1849. 2131. 1278. <
+1666 1 3 40 4 7. 852. 426. <
+1667 2 4 -40 4 6655. 6818. 425. o
+1667 1 4 40 4 6655. 6818. 425. o
+1668 1 5 40 4 1106. 1278. 426. o
+1669 2 4 -40 6 1891. 2131. 426. o
+1669 1 6 40 4 1891. 2131. 426. o
+1670 1 7 40 4 78. 426. 426. <
+1671 2 4 -40 8 1798. 1705. 426. o
+1671 1 8 40 4 1798. 1705. 426. o
+1672 2 4 -42 0 4487. 2557. 854. o
+1672 1 0 42 4 4487. 2557. 854. o
+1673 1 1 42 4 37561. 20028. 2187. o
+1674 2 4 -42 2 2944. 2983. 1278. o
+1674 1 2 42 4 2944. 2983. 1278. o
+1675 1 3 42 4 4298. 4261. 852. o
+1676 2 4 -42 4 3797. 4687. 424. o
+1676 1 4 42 4 3797. 4687. 424. o
+1677 1 5 42 4 22356. 21732. 435. o
+1678 2 4 -42 6 1638. 2131. 426. o
+1678 1 6 42 4 1638. 2131. 426. o
+1679 1 7 42 4 887. 426. 426. <
+1680 2 4 -42 8 896. 1278. 426. o
+1680 1 8 42 4 896. 1278. 426. o
+1681 2 4 -44 0 1592. 1705. 852. <
+1681 1 0 44 4 1592. 1705. 852. <
+1682 1 1 44 4 17125. 12784. 1714. o
+1683 2 4 -44 2 1673. 2557. 1278. <
+1683 1 2 44 4 1673. 2557. 1278. <
+1684 1 3 44 4 1162. 1705. 852. <
+1685 2 4 -44 4 1829. 2983. 424. o
+1685 1 4 44 4 1829. 2983. 424. o
+1686 1 5 44 4 10246. 10653. 423. o
+1687 2 4 -44 6 1096. 1278. 426. o
+1687 1 6 44 4 1096. 1278. 426. o
+1688 1 7 44 4 482. 1278. 426. o
+1689 2 4 -44 8 463. 0. 426. <
+1689 1 8 44 4 463. 0. 426. <
+1690 2 4 -46 0 1446. -852. 852. <
+1690 1 0 46 4 1446. -852. 852. <
+1691 1 1 46 4 2398. 3409. 851. o
+1692 2 4 -46 2 979. 1278. 2131. <
+1692 1 2 46 4 979. 1278. 2131. <
+1693 1 3 46 4 257. 852. 426. <
+1694 2 4 -46 4 93. -852. 426. <
+1694 1 4 46 4 93. -852. 426. <
+1695 1 5 46 4 1374. 1705. 426. o
+1696 2 4 -46 6 6. -426. 426. <
+1696 1 6 46 4 6. -426. 426. <
+1697 1 7 46 4 113. 426. 426. <
+1698 2 4 -46 8 2. 426. 426. <
+1698 1 8 46 4 2. 426. 426. <
+1699 2 4 -48 0 229438. 162780. 3334. o
+1699 1 0 48 4 229438. 162780. 3334. o
+1700 1 1 48 4 418. 426. 852. <
+1701 2 4 -48 2 107121. 120168. 2394. o
+1701 1 2 48 4 107121. 120168. 2394. o
+1702 1 3 48 4 4. 852. 426. <
+1703 2 4 -48 4 101703. 102270. 1266. o
+1703 1 4 48 4 101703. 102270. 1266. o
+1704 1 5 48 4 261. 852. 426. <
+1705 2 4 -48 6 25276. 25142. 428. o
+1705 1 6 48 4 25276. 25142. 428. o
+1706 1 7 48 4 8. 0. 426. <
+1707 2 4 -48 8 16862. 13210. 458. o
+1707 1 8 48 4 16862. 13210. 458. o
+1708 2 4 -50 0 99426. 59658. 2110. o
+1708 1 0 50 4 99426. 59658. 2110. o
+1709 1 1 50 4 1. 852. 852. <
+1710 2 4 -50 2 40376. 33664. 1742. o
+1710 1 2 50 4 40376. 33664. 1742. o
+1711 1 3 50 4 212. 426. 852. <
+1712 2 4 -50 4 36283. 24289. 953. o
+1712 1 4 50 4 36283. 24289. 953. o
+1713 1 5 50 4 14. 426. 426. <
+1714 2 4 -50 6 6471. 4687. 432. o
+1714 1 6 50 4 6471. 4687. 432. o
+1715 1 7 50 4 15. 852. 426. <
+1716 2 4 -50 8 4805. 3835. 429. o
+1716 1 8 50 4 4805. 3835. 429. o
+1717 2 4 -52 0 4749. 2983. 1280. o
+1717 1 0 52 4 4749. 2983. 1280. o
+1718 1 1 52 4 177. 1705. 852. <
+1719 2 4 -52 2 3853. 2557. 853. o
+1719 1 2 52 4 3853. 2557. 853. o
+1720 1 3 52 4 1021. 426. 852. <
+1721 2 4 -52 4 1578. 426. 427. <
+1721 1 4 52 4 1578. 426. 427. <
+1722 1 5 52 4 10. 426. 426. <
+1723 2 4 -52 6 656. 1278. 426. o
+1723 1 6 52 4 656. 1278. 426. o
+1724 1 7 52 4 119. 852. 426. <
+1725 2 4 -54 0 1765. 2557. 852. o
+1725 1 0 54 4 1765. 2557. 852. o
+1726 1 1 54 4 2750. 1278. 853. <
+1727 2 4 -54 2 1637. 1705. 852. <
+1727 1 2 54 4 1637. 1705. 852. <
+1728 1 3 54 4 7809. 3835. 1708. o
+1729 2 4 -54 4 660. 2983. 851. o
+1729 1 4 54 4 660. 2983. 851. o
+1730 1 5 54 4 254. 426. 426. <
+1731 2 4 -54 6 371. -426. 426. <
+1731 1 6 54 4 371. -426. 426. <
+1732 1 7 54 4 1172. 1278. 426. o
+1733 2 4 -56 0 949. 0. 852. <
+1733 1 0 56 4 949. 0. 852. <
+1734 1 1 56 4 1006. 426. 852. <
+1735 2 4 -56 2 589. 852. 852. <
+1735 1 2 56 4 589. 852. 852. <
+1736 1 3 56 4 8688. 7670. 1280. o
+1737 2 4 -56 4 267. 852. 426. <
+1737 1 4 56 4 267. 852. 426. <
+1738 1 5 56 4 22. 0. 426. <
+1739 2 4 -56 6 84. 852. 426. <
+1739 1 6 56 4 84. 852. 426. <
+1740 1 7 56 4 1351. 852. 426. <
+1741 2 4 -58 0 32. -426. 852. <
+1741 1 0 58 4 32. -426. 852. <
+1742 1 1 58 4 134. 426. 426. <
+1743 2 4 -58 2 152. 852. 852. <
+1743 1 2 58 4 152. 852. 852. <
+1744 1 3 58 4 434. 1705. 1278. <
+1745 2 4 -58 4 151. -426. 852. <
+1745 1 4 58 4 151. -426. 852. <
+1746 1 5 58 4 34. 426. 426. <
+1747 2 4 -58 6 254. 1278. 426. o
+1747 1 6 58 4 254. 1278. 426. o
+1748 1 7 58 4 34. 426. 426. <
+1749 2 4 -60 0 22255. 22585. 1277. o
+1749 1 0 60 4 22255. 22585. 1277. o
+1750 1 1 60 4 1. 852. 426. <
+1751 2 4 -60 2 18215. 15340. 867. o
+1751 1 2 60 4 18215. 15340. 867. o
+1752 1 3 60 4 13. 2131. 1278. <
+1753 2 4 -60 4 18459. 19602. 845. o
+1753 1 4 60 4 18459. 19602. 845. o
+1754 1 5 60 4 7. 426. 426. <
+1755 2 4 -60 6 10650. 8523. 438. o
+1755 1 6 60 4 10650. 8523. 438. o
+1756 1 7 60 4 5. 426. 426. <
+1757 2 4 -62 0 3430. 3409. 852. o
+1757 1 0 62 4 3430. 3409. 852. o
+1758 1 1 62 4 46. 0. 426. <
+1759 2 4 -62 2 3172. 3409. 852. o
+1759 1 2 62 4 3172. 3409. 852. o
+1760 1 3 62 4 0. 2983. 850. o
+1761 2 4 -62 4 6471. 8523. 847. o
+1761 1 4 62 4 6471. 8523. 847. o
+1762 1 5 62 4 17. 426. 426. <
+1763 2 4 -62 6 4707. 5966. 422. o
+1763 1 6 62 4 4707. 5966. 422. o
+1764 2 4 -64 0 287. -426. 852. <
+1764 1 0 64 4 287. -426. 852. <
+1765 1 1 64 4 173. 0. 426. <
+1766 2 4 -64 2 744. 426. 426. <
+1766 1 2 64 4 744. 426. 426. <
+1767 1 3 64 4 0. 2131. 851. o
+1768 2 4 -64 4 347. 1278. 852. <
+1768 1 4 64 4 347. 1278. 852. <
+1769 1 5 64 4 153. 852. 852. <
+1770 2 4 -64 6 407. 0. 426. <
+1770 1 6 64 4 407. 0. 426. <
+1771 2 4 -66 0 334. 0. 852. <
+1771 1 0 66 4 334. 0. 852. <
+1772 1 1 66 4 764. 852. 426. <
+1773 2 4 -66 2 429. 1278. 426. o
+1773 1 2 66 4 429. 1278. 426. o
+1774 1 3 66 4 0. 0. 852. <
+1775 2 4 -66 4 286. 1705. 852. <
+1775 1 4 66 4 286. 1705. 852. <
+1776 1 5 66 4 737. 852. 852. <
+1777 2 4 -66 6 201. 0. 426. <
+1777 1 6 66 4 201. 0. 426. <
+1778 2 4 -68 0 72. 426. 852. <
+1778 1 0 68 4 72. 426. 852. <
+1779 1 1 68 4 1270. 1278. 426. o
+1780 2 4 -68 2 42. 852. 426. <
+1780 1 2 68 4 42. 852. 426. <
+1781 1 3 68 4 167. 426. 852. <
+1782 2 4 -68 4 99. 1278. 852. <
+1782 1 4 68 4 99. 1278. 852. <
+1783 1 5 68 4 1283. 0. 852. <
+1784 2 4 -68 6 46. 426. 426. <
+1784 1 6 68 4 46. 426. 426. <
+1785 2 4 -70 0 516. 426. 852. <
+1785 1 0 70 4 516. 426. 852. <
+1786 1 1 70 4 31. 1278. 425. o
+1787 2 4 -70 2 588. 1278. 426. o
+1787 1 2 70 4 588. 1278. 426. o
+1788 1 3 70 4 0. 1705. 425. o
+1789 2 4 -70 4 174. 0. 852. <
+1789 1 4 70 4 174. 0. 852. <
+1790 1 5 70 4 24. 426. 852. <
+1791 2 4 -72 0 14179. 13210. 856. o
+1791 1 0 72 4 14179. 13210. 856. o
+1792 1 1 72 4 0. 426. 426. <
+1793 2 4 -72 2 12445. 12784. 851. o
+1793 1 2 72 4 12445. 12784. 851. o
+1794 1 3 72 4 6. 852. 426. <
+1795 2 4 -72 4 7298. 7670. 1278. o
+1795 1 4 72 4 7298. 7670. 1278. o
+1796 1 5 72 4 1. 426. 852. <
+1797 2 4 -74 0 13565. 12784. 855. o
+1797 1 0 74 4 13565. 12784. 855. o
+1798 1 1 74 4 1. 0. 426. <
+1799 2 4 -74 2 10669. 10653. 426. o
+1799 1 2 74 4 10669. 10653. 426. o
+1800 1 3 74 4 15. 1278. 425. o
+1801 2 4 -74 4 4627. 2131. 855. o
+1801 1 4 74 4 4627. 2131. 855. o
+1802 1 5 74 4 0. 1278. 852. <
+1803 2 4 -76 0 42. 426. 852. <
+1803 1 0 76 4 42. 426. 852. <
+1804 1 1 76 4 2. 852. 426. <
+1805 2 4 -76 2 109. 852. 426. <
+1805 1 2 76 4 109. 852. 426. <
+1806 1 3 76 4 24. 852. 426. <
+1807 2 4 -76 4 20. 2557. 851. o
+1807 1 4 76 4 20. 2557. 851. o
+1808 2 4 -78 0 60. 1278. 852. <
+1808 1 0 78 4 60. 1278. 852. <
+1809 1 1 78 4 5. 426. 426. <
+1810 2 4 -78 2 52. 426. 426. <
+1810 1 2 78 4 52. 426. 426. <
+1811 1 3 78 4 63. -426. 426. <
+1812 2 4 -78 4 32. 426. 852. <
+1812 1 4 78 4 32. 426. 852. <
+1813 2 4 -80 0 26. 426. 852. <
+1813 1 0 80 4 26. 426. 852. <
+1814 1 1 80 4 11. 426. 426. <
+1815 2 4 -80 2 6. 0. 426. <
+1815 1 2 80 4 6. 0. 426. <
+1816 1 3 80 4 560. 852. 426. <
+1817 2 4 -82 0 51. 426. 852. <
+1817 1 0 82 4 51. 426. 852. <
+1818 1 1 82 4 1. 1278. 425. o
+1819 2 4 -82 2 85. 426. 426. <
+1819 1 2 82 4 85. 426. 426. <
+1820 2 4 -84 0 1448. 2131. 425. o
+1820 1 0 84 4 1448. 2131. 425. o
+1821 1 1 84 4 0. 0. 426. <
+1822 2 5 -1 1 324446. 305959. 2760. o
+1822 1 1 1 5 324446. 305959. 2760. o
+1823 1 2 1 5 30. 426. 426. <
+1824 2 5 -1 3 430524. 447859. 8819. o
+1824 1 3 1 5 430524. 447859. 8819. o
+1825 1 4 1 5 326. 426. 426. <
+1826 2 5 -1 5 36958. 47300. 696. o
+1826 1 5 1 5 36958. 47300. 696. o
+1827 1 6 1 5 5. 426. 426. <
+1828 1 8 1 5 36. 0. 426. <
+1829 2 5 -1 9 3803. 2983. 428. o
+1829 1 9 1 5 3803. 2983. 428. o
+1830 2 5 -3 1 16974. 32812. 1635. o
+1830 1 1 3 5 16974. 32812. 1635. o
+1831 1 2 3 5 651. 852. 426. <
+1832 2 5 -3 3 13868. 29829. 720. o
+1832 1 3 3 5 13868. 29829. 720. o
+1833 1 4 3 5 88. 426. 426. <
+1834 2 5 -3 5 2791. 8096. 842. o
+1834 1 5 3 5 2791. 8096. 842. o
+1835 1 6 3 5 352. 426. 426. <
+1836 1 8 3 5 25. 852. 426. <
+1837 2 5 -3 9 306. 426. 426. <
+1837 1 9 3 5 306. 426. 426. <
+1838 2 5 -5 1 732. 2557. 1278. <
+1838 1 1 5 5 732. 2557. 1278. <
+1839 1 2 5 5 3328. 10653. 833. o
+1840 2 5 -5 3 27. 2557. 423. o
+1840 1 3 5 5 27. 2557. 423. o
+1841 1 4 5 5 1006. 1705. 425. o
+1842 2 5 -5 5 302. 852. 426. <
+1842 1 5 5 5 302. 852. 426. <
+1843 1 6 5 5 1648. 1705. 426. o
+1844 2 5 -5 7 6. 2557. 423. o
+1844 1 7 5 5 6. 2557. 423. o
+1845 1 8 5 5 15. 426. 426. <
+1846 2 5 -5 9 56. 426. 426. <
+1846 1 9 5 5 56. 426. 426. <
+1847 2 5 -7 1 1542. 2557. 1704. <
+1847 1 1 7 5 1542. 2557. 1704. <
+1848 1 2 7 5 5965. 11079. 837. o
+1849 2 5 -7 3 1158. 2983. 423. o
+1849 1 3 7 5 1158. 2983. 423. o
+1850 1 4 7 5 2089. 2557. 425. o
+1851 2 5 -7 5 1028. 1278. 426. o
+1851 1 5 7 5 1028. 1278. 426. o
+1852 1 6 7 5 4253. 3835. 427. o
+1853 2 5 -7 7 438. 1278. 426. o
+1853 1 7 7 5 438. 1278. 426. o
+1854 1 8 7 5 2. 852. 426. <
+1855 2 5 -7 9 98. 0. 426. <
+1855 1 9 7 5 98. 0. 426. <
+1856 2 5 -9 1 10407. 11932. 1702. o
+1856 1 1 9 5 10407. 11932. 1702. o
+1857 1 2 9 5 191. 852. 426. <
+1858 2 5 -9 3 14784. 20454. 819. o
+1858 1 3 9 5 14784. 20454. 819. o
+1859 1 4 9 5 250. 426. 426. <
+1860 2 5 -9 5 4509. 5114. 424. o
+1860 1 5 9 5 4509. 5114. 424. o
+1861 1 6 9 5 9. 426. 426. <
+1862 2 5 -9 7 6311. 10653. 840. o
+1862 1 7 9 5 6311. 10653. 840. o
+1863 1 8 9 5 1. 426. 426. <
+1864 2 5 -9 9 689. 426. 426. <
+1864 1 9 9 5 689. 426. 426. <
+1865 2 5 -11 1 105722. 97583. 1439. o
+1865 1 1 11 5 105722. 97583. 1439. o
+1866 1 2 11 5 40. 852. 426. <
+1867 2 5 -11 3 210490. 197296. 2080. o
+1867 1 3 11 5 210490. 197296. 2080. o
+1868 1 4 11 5 32. 426. 426. <
+1869 2 5 -11 5 26028. 35795. 746. o
+1869 1 5 11 5 26028. 35795. 746. o
+1870 1 6 11 5 1. 0. 426. <
+1871 1 8 11 5 87. 1705. 425. o
+1872 2 5 -13 1 123703. 124855. 1682. o
+1872 1 1 13 5 123703. 124855. 1682. o
+1873 1 2 13 5 69. 426. 426. <
+1874 2 5 -13 3 274487. 307237. 6093. o
+1874 1 3 13 5 274487. 307237. 6093. o
+1875 1 4 13 5 0. 426. 426. <
+1876 2 5 -13 5 34438. 35795. 837. o
+1876 1 5 13 5 34438. 35795. 837. o
+1877 1 6 13 5 1. 426. 426. <
+1878 1 8 13 5 24. 852. 426. <
+1879 2 5 -13 9 6452. 6818. 425. o
+1879 1 9 13 5 6452. 6818. 425. o
+1880 2 5 -15 1 3845. 5966. 1276. o
+1880 1 1 15 5 3845. 5966. 1276. o
+1881 1 2 15 5 16. 426. 852. <
+1882 2 5 -15 3 4158. 8949. 841. o
+1882 1 3 15 5 4158. 8949. 841. o
+1883 1 4 15 5 1261. 852. 426. <
+1884 2 5 -15 5 2696. 4261. 422. o
+1884 1 5 15 5 2696. 4261. 422. o
+1885 1 6 15 5 51. 426. 426. <
+1886 2 5 -15 7 1736. 6392. 845. o
+1886 1 7 15 5 1736. 6392. 845. o
+1887 1 8 15 5 240. 852. 426. <
+1888 2 5 -15 9 360. 852. 426. <
+1888 1 9 15 5 360. 852. 426. <
+1889 2 5 -17 1 232. 2557. 1704. <
+1889 1 1 17 5 232. 2557. 1704. <
+1890 1 2 17 5 73. 0. 852. <
+1891 2 5 -17 3 47. 852. 426. <
+1891 1 3 17 5 47. 852. 426. <
+1892 1 4 17 5 6592. 11932. 391. o
+1893 2 5 -17 5 610. 852. 426. <
+1893 1 5 17 5 610. 852. 426. <
+1894 1 6 17 5 57. 426. 426. <
+1895 2 5 -17 7 39. 0. 426. <
+1895 1 7 17 5 39. 0. 426. <
+1896 1 8 17 5 1367. 426. 427. <
+1897 2 5 -17 9 69. 426. 426. <
+1897 1 9 17 5 69. 426. 426. <
+1898 2 5 -19 1 2441. 1705. 1705. <
+1898 1 1 19 5 2441. 1705. 1705. <
+1899 1 2 19 5 492. 426. 852. <
+1900 2 5 -19 3 1668. 2131. 426. o
+1900 1 3 19 5 1668. 2131. 426. o
+1901 1 4 19 5 15006. 14914. 853. o
+1902 2 5 -19 5 502. 1278. 426. o
+1902 1 5 19 5 502. 1278. 426. o
+1903 1 6 19 5 311. 852. 426. <
+1904 2 5 -19 7 445. 1278. 426. o
+1904 1 7 19 5 445. 1278. 426. o
+1905 1 8 19 5 2167. 2131. 426. o
+1906 2 5 -19 9 68. 852. 426. <
+1906 1 9 19 5 68. 852. 426. <
+1907 2 5 -21 1 21477. 14488. 1723. o
+1907 1 1 21 5 21477. 14488. 1723. o
+1908 1 2 21 5 160. 426. 852. <
+1909 2 5 -21 3 18565. 12358. 479. o
+1909 1 3 21 5 18565. 12358. 479. o
+1910 1 4 21 5 191. 426. 426. <
+1911 2 5 -21 5 4774. 4261. 428. o
+1911 1 5 21 5 4774. 4261. 428. o
+1912 1 6 21 5 39. 0. 426. <
+1913 2 5 -21 7 4461. 5114. 424. o
+1913 1 7 21 5 4461. 5114. 424. o
+1914 1 8 21 5 10. 426. 426. <
+1915 2 5 -21 9 611. 426. 426. <
+1915 1 9 21 5 611. 426. 426. <
+1916 2 5 -23 1 144982. 125707. 2810. o
+1916 1 1 23 5 144982. 125707. 2810. o
+1917 1 2 23 5 29. 0. 852. <
+1918 2 5 -23 3 159874. 164059. 1594. o
+1918 1 3 23 5 159874. 164059. 1594. o
+1919 1 4 23 5 9. 0. 426. <
+1920 2 5 -23 5 29273. 36647. 769. o
+1920 1 5 23 5 29273. 36647. 769. o
+1921 1 6 23 5 15. 426. 426. <
+1922 2 5 -23 7 45547. 50709. 769. o
+1922 1 7 23 5 45547. 50709. 769. o
+1923 1 8 23 5 1. 0. 426. <
+1924 2 5 -23 9 3837. 2557. 429. o
+1924 1 9 23 5 3837. 2557. 429. o
+1925 2 5 -25 1 296807. 248006. 3972. o
+1925 1 1 25 5 296807. 248006. 3972. o
+1926 1 2 25 5 40. 426. 852. <
+1927 2 5 -25 3 305081. 337066. 6665. o
+1927 1 3 25 5 305081. 337066. 6665. o
+1928 1 4 25 5 11. 426. 426. <
+1929 2 5 -25 5 47352. 51135. 791. o
+1929 1 5 25 5 47352. 51135. 791. o
+1930 1 6 25 5 23. 426. 426. <
+1931 2 5 -25 7 77732. 95878. 875. o
+1931 1 7 25 5 77732. 95878. 875. o
+1932 1 8 25 5 5. 426. 426. <
+1933 2 5 -27 1 1559. -1705. 1278. <
+1933 1 1 27 5 1559. -1705. 1278. <
+1934 1 2 27 5 435. 852. 852. <
+1935 2 5 -27 3 400. 1278. 852. <
+1935 1 3 27 5 400. 1278. 852. <
+1936 1 4 27 5 81. 852. 426. <
+1937 2 5 -27 5 534. 852. 426. <
+1937 1 5 27 5 534. 852. 426. <
+1938 1 6 27 5 469. 852. 426. <
+1939 2 5 -27 7 41. -852. 426. <
+1939 1 7 27 5 41. -852. 426. <
+1940 1 8 27 5 160. 426. 426. <
+1941 2 5 -29 1 101. 0. 1278. <
+1941 1 1 29 5 101. 0. 1278. <
+1942 1 2 29 5 1339. 14062. 1685. o
+1943 2 5 -29 3 647. 1705. 425. o
+1943 1 3 29 5 647. 1705. 425. o
+1944 1 4 29 5 363. 0. 426. <
+1945 2 5 -29 5 12. 852. 426. <
+1945 1 5 29 5 12. 852. 426. <
+1946 1 6 29 5 1551. 1278. 426. o
+1947 2 5 -29 7 251. 852. 426. <
+1947 1 7 29 5 251. 852. 426. <
+1948 1 8 29 5 389. 0. 426. <
+1949 2 5 -31 1 1974. 2983. 1278. o
+1949 1 1 31 5 1974. 2983. 1278. o
+1950 1 2 31 5 8913. 9801. 2130. o
+1951 2 5 -31 3 1843. 1278. 427. o
+1951 1 3 31 5 1843. 1278. 427. o
+1952 1 4 31 5 9. 426. 426. <
+1953 2 5 -31 5 899. 852. 426. <
+1953 1 5 31 5 899. 852. 426. <
+1954 1 6 31 5 8045. 7244. 430. o
+1955 2 5 -31 7 629. 1278. 426. o
+1955 1 7 31 5 629. 1278. 426. o
+1956 1 8 31 5 771. 426. 426. <
+1957 2 5 -33 1 8168. 5966. 1281. o
+1957 1 1 33 5 8168. 5966. 1281. o
+1958 1 2 33 5 2. 3835. 1276. o
+1959 2 5 -33 3 8258. 8523. 425. o
+1959 1 3 33 5 8258. 8523. 425. o
+1960 1 4 33 5 0. 426. 426. <
+1961 2 5 -33 5 3930. 3835. 426. o
+1961 1 5 33 5 3930. 3835. 426. o
+1962 1 6 33 5 47. 426. 426. <
+1963 2 5 -33 7 3052. 3409. 425. o
+1963 1 7 33 5 3052. 3409. 425. o
+1964 1 8 33 5 18. 426. 426. <
+1965 2 5 -35 1 37323. 20028. 1773. o
+1965 1 1 35 5 37323. 20028. 1773. o
+1966 1 2 35 5 48. 2557. 1277. <
+1967 2 5 -35 3 42944. 40908. 878. o
+1967 1 3 35 5 42944. 40908. 878. o
+1968 1 4 35 5 1. 426. 426. <
+1969 2 5 -35 5 14578. 15767. 847. o
+1969 1 5 35 5 14578. 15767. 847. o
+1970 1 6 35 5 133. 426. 426. <
+1971 2 5 -35 7 16451. 14914. 441. o
+1971 1 7 35 5 16451. 14914. 441. o
+1972 1 8 35 5 1. 0. 426. <
+1973 2 5 -37 1 62984. 46874. 2233. o
+1973 1 1 37 5 62984. 46874. 2233. o
+1974 1 2 37 5 0. 1278. 1278. <
+1975 2 5 -37 3 93424. 99287. 1153. o
+1975 1 3 37 5 93424. 99287. 1153. o
+1976 1 4 37 5 34. 852. 426. <
+1977 2 5 -37 5 35783. 44743. 726. o
+1977 1 5 37 5 35783. 44743. 726. o
+1978 1 6 37 5 15. 0. 426. <
+1979 2 5 -37 7 44381. 36221. 946. o
+1979 1 7 37 5 44381. 36221. 946. o
+1980 1 8 37 5 12. 426. 426. <
+1981 2 5 -39 1 382. -1278. 1278. <
+1981 1 1 39 5 382. -1278. 1278. <
+1982 1 2 39 5 2. -426. 1278. <
+1983 2 5 -39 3 29. 0. 852. <
+1983 1 3 39 5 29. 0. 852. <
+1984 1 4 39 5 446. 426. 426. <
+1985 2 5 -39 5 250. 426. 426. <
+1985 1 5 39 5 250. 426. 426. <
+1986 1 6 39 5 23. 0. 426. <
+1987 2 5 -39 7 9. -852. 426. <
+1987 1 7 39 5 9. -852. 426. <
+1988 1 8 39 5 164. 852. 426. <
+1989 2 5 -41 1 19. 2557. 1277. <
+1989 1 1 41 5 19. 2557. 1277. <
+1990 1 2 41 5 27. 1705. 1278. <
+1991 2 5 -41 3 160. 1278. 852. <
+1991 1 3 41 5 160. 1278. 852. <
+1992 1 4 41 5 814. 852. 426. <
+1993 2 5 -41 5 2. 426. 426. <
+1993 1 5 41 5 2. 426. 426. <
+1994 1 6 41 5 53. 426. 426. <
+1995 2 5 -41 7 116. 852. 426. <
+1995 1 7 41 5 116. 852. 426. <
+1996 1 8 41 5 313. 0. 426. <
+1997 2 5 -43 1 1498. 426. 853. <
+1997 1 1 43 5 1498. 426. 853. <
+1998 1 2 43 5 218. 0. 1705. <
+1999 2 5 -43 3 1089. 1278. 852. <
+1999 1 3 43 5 1089. 1278. 852. <
+2000 1 4 43 5 7319. 8523. 420. o
+2001 2 5 -43 5 595. 426. 426. <
+2001 1 5 43 5 595. 426. 426. <
+2002 1 6 43 5 132. 426. 426. <
+2003 2 5 -43 7 297. 426. 426. <
+2003 1 7 43 5 297. 426. 426. <
+2004 1 8 43 5 1196. 1278. 426. o
+2005 2 5 -45 1 7378. 5966. 855. o
+2005 1 1 45 5 7378. 5966. 855. o
+2006 1 2 45 5 2. 1278. 1704. <
+2007 2 5 -45 3 5540. 5966. 851. o
+2007 1 3 45 5 5540. 5966. 851. o
+2008 1 4 45 5 34. 1278. 425. o
+2009 2 5 -45 5 2837. 2983. 426. o
+2009 1 5 45 5 2837. 2983. 426. o
+2010 1 6 45 5 12. 426. 426. <
+2011 2 5 -45 7 1370. 852. 426. <
+2011 1 7 45 5 1370. 852. 426. <
+2012 2 5 -47 1 22320. 15340. 1304. o
+2012 1 1 47 5 22320. 15340. 1304. o
+2013 1 2 47 5 5. 2557. 1277. <
+2014 2 5 -47 3 19017. 17471. 1284. o
+2014 1 3 47 5 19017. 17471. 1284. o
+2015 1 4 47 5 57. 426. 426. <
+2016 2 5 -47 5 8732. 6818. 435. o
+2016 1 5 47 5 8732. 6818. 435. o
+2017 1 6 47 5 23. 426. 426. <
+2018 2 5 -47 7 5446. 5540. 426. o
+2018 1 7 47 5 5446. 5540. 426. o
+2019 2 5 -49 1 98168. 71589. 1666. o
+2019 1 1 49 5 98168. 71589. 1666. o
+2020 1 2 49 5 3. 852. 1278. <
+2021 2 5 -49 3 71811. 47726. 2293. o
+2021 1 3 49 5 71811. 47726. 2293. o
+2022 1 4 49 5 9. 426. 426. <
+2023 2 5 -49 5 26509. 28977. 380. o
+2023 1 5 49 5 26509. 28977. 380. o
+2024 1 6 49 5 7. 0. 426. <
+2025 2 5 -49 7 15540. 14914. 432. o
+2025 1 7 49 5 15540. 14914. 432. o
+2026 2 5 -51 1 782. -1278. 852. <
+2026 1 1 51 5 782. -1278. 852. <
+2027 1 2 51 5 17. 852. 852. <
+2028 2 5 -51 3 733. -2131. 1704. <
+2028 1 3 51 5 733. -2131. 1704. <
+2029 1 4 51 5 27. 1278. 425. o
+2030 2 5 -51 5 79. 0. 426. <
+2030 1 5 51 5 79. 0. 426. <
+2031 1 6 51 5 29. 852. 426. <
+2032 2 5 -51 7 131. 426. 426. <
+2032 1 7 51 5 131. 426. 426. <
+2033 2 5 -53 1 357. 852. 852. <
+2033 1 1 53 5 357. 852. 852. <
+2034 1 2 53 5 9. 0. 852. <
+2035 2 5 -53 3 289. 0. 852. <
+2035 1 3 53 5 289. 0. 852. <
+2036 1 4 53 5 49. 426. 852. <
+2037 2 5 -53 5 68. 426. 426. <
+2037 1 5 53 5 68. 426. 426. <
+2038 1 6 53 5 32. 426. 426. <
+2039 2 5 -53 7 53. 852. 426. <
+2039 1 7 53 5 53. 852. 426. <
+2040 2 5 -55 1 736. 426. 852. <
+2040 1 1 55 5 736. 426. 852. <
+2041 1 2 55 5 1489. 1278. 852. <
+2042 2 5 -55 3 508. 2131. 851. o
+2042 1 3 55 5 508. 2131. 851. o
+2043 1 4 55 5 116. 426. 852. <
+2044 2 5 -55 5 353. 1278. 426. o
+2044 1 5 55 5 353. 1278. 426. o
+2045 1 6 55 5 1179. 2557. 424. o
+2046 2 5 -57 1 2073. 852. 853. <
+2046 1 1 57 5 2073. 852. 853. <
+2047 1 2 57 5 105. 1705. 852. <
+2048 2 5 -57 3 1560. 1705. 852. <
+2048 1 3 57 5 1560. 1705. 852. <
+2049 1 4 57 5 44. 1278. 852. <
+2050 2 5 -57 5 1034. 852. 426. <
+2050 1 5 57 5 1034. 852. 426. <
+2051 1 6 57 5 119. 1278. 425. o
+2052 2 5 -59 1 4701. 2557. 854. o
+2052 1 1 59 5 4701. 2557. 854. o
+2053 1 2 59 5 29. -426. 426. <
+2054 2 5 -59 3 3692. 5114. 1277. o
+2054 1 3 59 5 3692. 5114. 1277. o
+2055 1 4 59 5 1. 0. 852. <
+2056 2 5 -59 5 2075. 426. 427. <
+2056 1 5 59 5 2075. 426. 427. <
+2057 1 6 59 5 38. 1278. 425. o
+2058 2 5 -61 1 13361. 14062. 849. o
+2058 1 1 61 5 13361. 14062. 849. o
+2059 1 2 61 5 0. 426. 426. <
+2060 2 5 -61 3 13758. 21732. 1246. o
+2060 1 3 61 5 13758. 21732. 1246. o
+2061 1 4 61 5 3. 1278. 852. <
+2062 2 5 -61 5 10451. 10653. 852. o
+2062 1 5 61 5 10451. 10653. 852. o
+2063 1 6 61 5 0. 0. 426. <
+2064 2 5 -63 1 12. 426. 852. <
+2064 1 1 63 5 12. 426. 852. <
+2065 1 2 63 5 0. 1705. 425. o
+2066 2 5 -63 3 80. 852. 852. <
+2066 1 3 63 5 80. 852. 852. <
+2067 1 4 63 5 16. -426. 1278. <
+2068 2 5 -63 5 77. 852. 852. <
+2068 1 5 63 5 77. 852. 852. <
+2069 1 6 63 5 1. 852. 426. <
+2070 2 5 -65 1 28. 426. 426. <
+2070 1 1 65 5 28. 426. 426. <
+2071 1 2 65 5 3. -426. 426. <
+2072 2 5 -65 3 34. 1278. 852. <
+2072 1 3 65 5 34. 1278. 852. <
+2073 1 4 65 5 1. -426. 1278. <
+2074 2 5 -65 5 39. 1705. 852. <
+2074 1 5 65 5 39. 1705. 852. <
+2075 2 5 -67 1 290. 0. 852. <
+2075 1 1 67 5 290. 0. 852. <
+2076 1 2 67 5 129. 426. 426. <
+2077 2 5 -67 3 208. 426. 426. <
+2077 1 3 67 5 208. 426. 426. <
+2078 1 4 67 5 604. 2131. 851. o
+2079 2 5 -67 5 157. 852. 852. <
+2079 1 5 67 5 157. 852. 852. <
+2080 2 5 -69 1 867. 426. 426. <
+2080 1 1 69 5 867. 426. 426. <
+2081 1 2 69 5 20. -426. 426. <
+2082 2 5 -69 3 661. 0. 426. <
+2082 1 3 69 5 661. 0. 426. <
+2083 1 4 69 5 65. 852. 852. <
+2084 2 5 -69 5 434. 1705. 852. <
+2084 1 5 69 5 434. 1705. 852. <
+2085 2 5 -71 1 1155. 0. 852. <
+2085 1 1 71 5 1155. 0. 852. <
+2086 1 2 71 5 1. 426. 426. <
+2087 2 5 -71 3 980. 852. 426. <
+2087 1 3 71 5 980. 852. 426. <
+2088 1 4 71 5 9. 852. 852. <
+2089 2 5 -73 1 12172. 11079. 856. o
+2089 1 1 73 5 12172. 11079. 856. o
+2090 1 2 73 5 0. 852. 426. <
+2091 2 5 -73 3 8025. 6818. 855. o
+2091 1 3 73 5 8025. 6818. 855. o
+2092 1 4 73 5 1. 1705. 852. <
+2093 2 5 -75 1 825. 426. 852. <
+2093 1 1 75 5 825. 426. 852. <
+2094 1 2 75 5 0. 852. 426. <
+2095 2 5 -75 3 476. 426. 426. <
+2095 1 3 75 5 476. 426. 426. <
+2096 2 5 -77 1 65. 426. 426. <
+2096 1 1 77 5 65. 426. 426. <
+2097 1 2 77 5 2. 426. 426. <
+2098 2 5 -77 3 33. 426. 426. <
+2098 1 3 77 5 33. 426. 426. <
+2099 2 5 -79 1 79. 0. 426. <
+2099 1 1 79 5 79. 0. 426. <
+2100 1 2 79 5 68. 426. 426. <
+2101 2 5 -81 1 177. 426. 426. <
+2101 1 1 81 5 177. 426. 426. <
+2102 2 6 0 0 21843. 20880. 1708. o
+2102 1 0 0 6 21843. 20880. 1708. o
+2103 2 6 0 2 943684. 745721. 10576. o
+2103 1 2 0 6 943684. 745721. 10576. o
+2104 2 6 0 4 6654. 8523. 848. o
+2104 1 4 0 6 6654. 8523. 848. o
+2105 2 6 0 8 1772. 852. 427. <
+2105 1 8 0 6 1772. 852. 427. <
+2106 2 6 -2 0 659. 4687. 848. o
+2106 1 0 2 6 659. 4687. 848. o
+2107 1 1 2 6 346. 1278. 852. <
+2108 2 6 -2 2 74390. 134656. 1690. o
+2108 1 2 2 6 74390. 134656. 1690. o
+2109 1 3 2 6 170. 426. 426. <
+2110 2 6 -2 4 270. 2557. 424. o
+2110 1 4 2 6 270. 2557. 424. o
+2111 1 5 2 6 198. 426. 426. <
+2112 2 6 -2 6 22782. 30681. 780. o
+2112 1 6 2 6 22782. 30681. 780. o
+2113 1 7 2 6 81. 0. 426. <
+2114 2 6 -2 8 61. 426. 426. <
+2114 1 8 2 6 61. 426. 426. <
+2115 2 6 -4 0 2940. 0. 853. <
+2115 1 0 4 6 2940. 0. 853. <
+2116 1 1 4 6 391. 1278. 852. <
+2117 2 6 -4 2 22565. 44317. 1573. o
+2117 1 2 4 6 22565. 44317. 1573. o
+2118 1 3 4 6 279. 852. 426. <
+2119 2 6 -4 4 1205. 852. 426. <
+2119 1 4 4 6 1205. 852. 426. <
+2120 1 5 4 6 153. 426. 426. <
+2121 2 6 -4 6 6847. 14062. 826. o
+2121 1 6 4 6 6847. 14062. 826. o
+2122 1 7 4 6 47. 0. 426. <
+2123 2 6 -4 8 186. 852. 426. <
+2123 1 8 4 6 186. 852. 426. <
+2124 2 6 -6 0 252. 426. 852. <
+2124 1 0 6 6 252. 426. 852. <
+2125 1 1 6 6 6002. 7244. 1277. o
+2126 2 6 -6 2 21335. 30255. 1227. o
+2126 1 2 6 6 21335. 30255. 1227. o
+2127 1 3 6 6 38. 852. 426. <
+2128 2 6 -6 4 288. 426. 426. <
+2128 1 4 6 6 288. 426. 426. <
+2129 1 5 6 6 4799. 4687. 852. o
+2130 2 6 -6 6 5673. 10227. 840. o
+2130 1 6 6 6 5673. 10227. 840. o
+2131 1 7 6 6 125. 426. 426. <
+2132 2 6 -6 8 177. 426. 426. <
+2132 1 8 6 6 177. 426. 426. <
+2133 2 6 -8 0 1883. 426. 853. <
+2133 1 0 8 6 1883. 426. 853. <
+2134 1 1 8 6 3280. 2983. 1279. o
+2135 2 6 -8 2 12210. 19176. 1254. o
+2135 1 2 8 6 12210. 19176. 1254. o
+2136 1 3 8 6 962. 852. 426. <
+2137 2 6 -8 4 1110. 426. 426. <
+2137 1 4 8 6 1110. 426. 426. <
+2138 1 5 8 6 2050. 852. 427. <
+2139 2 6 -8 6 4730. 8523. 844. o
+2139 1 6 8 6 4730. 8523. 844. o
+2140 1 7 8 6 152. 0. 426. <
+2141 2 6 -8 8 284. -426. 426. <
+2141 1 8 8 6 284. -426. 426. <
+2142 2 6 -10 0 874. 1278. 852. <
+2142 1 0 10 6 874. 1278. 852. <
+2143 1 1 10 6 17. 852. 852. <
+2144 2 6 -10 2 27446. 64771. 2344. o
+2144 1 2 10 6 27446. 64771. 2344. o
+2145 1 3 10 6 60. 1278. 425. o
+2146 2 6 -10 4 451. 1278. 426. o
+2146 1 4 10 6 451. 1278. 426. o
+2147 1 5 10 6 54. 852. 426. <
+2148 2 6 -10 6 9517. 26846. 729. o
+2148 1 6 10 6 9517. 26846. 729. o
+2149 1 7 10 6 20. 1705. 425. o
+2150 2 6 -10 8 36. 426. 426. <
+2150 1 8 10 6 36. 426. 426. <
+2151 2 6 -12 0 5379. 7244. 848. o
+2151 1 0 12 6 5379. 7244. 848. o
+2152 1 1 12 6 487. 1278. 852. <
+2153 2 6 -12 2 586415. 486210. 6777. o
+2153 1 2 12 6 586415. 486210. 6777. o
+2154 1 3 12 6 347. 852. 426. <
+2155 2 6 -12 4 5158. 5966. 423. o
+2155 1 4 12 6 5158. 5966. 423. o
+2156 1 5 12 6 141. 426. 426. <
+2157 2 6 -12 6 222714. 256528. 4980. o
+2157 1 6 12 6 222714. 256528. 4980. o
+2158 1 7 12 6 92. 426. 426. <
+2159 2 6 -12 8 3420. 2983. 427. o
+2159 1 8 12 6 3420. 2983. 427. o
+2160 2 6 -14 0 1511. 2131. 852. o
+2160 1 0 14 6 1511. 2131. 852. o
+2161 1 1 14 6 390. 1278. 852. <
+2162 2 6 -14 2 69542. 74998. 2947. o
+2162 1 2 14 6 69542. 74998. 2947. o
+2163 1 3 14 6 616. 1278. 426. o
+2164 2 6 -14 4 411. 852. 426. <
+2164 1 4 14 6 411. 852. 426. <
+2165 1 5 14 6 101. 426. 426. <
+2166 2 6 -14 6 26908. 34090. 1230. o
+2166 1 6 14 6 26908. 34090. 1230. o
+2167 1 7 14 6 279. 852. 426. <
+2168 2 6 -14 8 122. 426. 426. <
+2168 1 8 14 6 122. 426. 426. <
+2169 2 6 -16 0 904. 852. 852. <
+2169 1 0 16 6 904. 852. 852. <
+2170 1 1 16 6 23. 852. 852. <
+2171 2 6 -16 2 14917. 17471. 2125. o
+2171 1 2 16 6 14917. 17471. 2125. o
+2172 1 3 16 6 20. 2131. 424. o
+2173 2 6 -16 4 728. 426. 426. <
+2173 1 4 16 6 728. 426. 426. <
+2174 1 5 16 6 32. 852. 426. <
+2175 2 6 -16 6 5786. 8949. 410. o
+2175 1 6 16 6 5786. 8949. 410. o
+2176 1 7 16 6 2. 852. 426. <
+2177 2 6 -16 8 219. 0. 426. <
+2177 1 8 16 6 219. 0. 426. <
+2178 2 6 -18 0 801. 2131. 1278. <
+2178 1 0 18 6 801. 2131. 1278. <
+2179 1 1 18 6 12138. 14914. 840. o
+2180 2 6 -18 2 13391. 15767. 1699. o
+2180 1 2 18 6 13391. 15767. 1699. o
+2181 1 3 18 6 22760. 20028. 870. o
+2182 2 6 -18 4 698. 0. 426. <
+2182 1 4 18 6 698. 0. 426. <
+2183 1 5 18 6 2985. 4261. 423. o
+2184 2 6 -18 6 3634. 5114. 850. o
+2184 1 6 18 6 3634. 5114. 850. o
+2185 1 7 18 6 4874. 4687. 427. o
+2186 2 6 -18 8 255. 426. 426. <
+2186 1 8 18 6 255. 426. 426. <
+2187 2 6 -20 0 4033. 2557. 2131. <
+2187 1 0 20 6 4033. 2557. 2131. <
+2188 1 1 20 6 5272. 3409. 1280. o
+2189 2 6 -20 2 7535. 10227. 1273. o
+2189 1 2 20 6 7535. 10227. 1273. o
+2190 1 3 20 6 6227. 5540. 853. o
+2191 2 6 -20 4 2038. 1278. 427. o
+2191 1 4 20 6 2038. 1278. 427. o
+2192 1 5 20 6 1859. 852. 427. <
+2193 2 6 -20 6 2490. 3835. 851. o
+2193 1 6 20 6 2490. 3835. 851. o
+2194 1 7 20 6 1201. 852. 426. <
+2195 2 6 -20 8 356. 426. 426. <
+2195 1 8 20 6 356. 426. 426. <
+2196 2 6 -22 0 546. 3835. 2130. <
+2196 1 0 22 6 546. 3835. 2130. <
+2197 1 1 22 6 183. 852. 852. <
+2198 2 6 -22 2 7999. 26420. 1645. o
+2198 1 2 22 6 7999. 26420. 1645. o
+2199 1 3 22 6 410. 1705. 425. o
+2200 2 6 -22 4 61. 1705. 425. o
+2200 1 4 22 6 61. 1705. 425. o
+2201 1 5 22 6 48. 426. 426. <
+2202 2 6 -22 6 2979. 5114. 420. o
+2202 1 6 22 6 2979. 5114. 420. o
+2203 1 7 22 6 82. 852. 426. <
+2204 2 6 -22 8 15. 426. 426. <
+2204 1 8 22 6 15. 426. 426. <
+2205 2 6 -24 0 48945. 24715. 2638. o
+2205 1 0 24 6 48945. 24715. 2638. o
+2206 1 1 24 6 677. 2557. 851. o
+2207 2 6 -24 2 415502. 348145. 4713. o
+2207 1 2 24 6 415502. 348145. 4713. o
+2208 1 3 24 6 628. 426. 426. <
+2209 2 6 -24 4 20635. 19602. 859. o
+2209 1 4 24 6 20635. 19602. 859. o
+2210 1 5 24 6 199. 852. 426. <
+2211 2 6 -24 6 121359. 144457. 2880. o
+2211 1 6 24 6 121359. 144457. 2880. o
+2212 1 7 24 6 133. 0. 426. <
+2213 2 6 -24 8 4435. 3835. 428. o
+2213 1 8 24 6 4435. 3835. 428. o
+2214 2 6 -26 0 5903. 3835. 2558. <
+2214 1 0 26 6 5903. 3835. 2558. <
+2215 1 1 26 6 139. -852. 852. <
+2216 2 6 -26 2 77040. 72442. 2173. o
+2216 1 2 26 6 77040. 72442. 2173. o
+2217 1 3 26 6 183. 852. 426. <
+2218 2 6 -26 4 2115. 3409. 424. o
+2218 1 4 26 6 2115. 3409. 424. o
+2219 1 5 26 6 80. 426. 426. <
+2220 2 6 -26 6 22224. 32812. 749. o
+2220 1 6 26 6 22224. 32812. 749. o
+2221 1 7 26 6 80. 426. 426. <
+2222 2 6 -26 8 436. 426. 426. <
+2222 1 8 26 6 436. 426. 426. <
+2223 2 6 -28 0 2789. 2983. 2983. <
+2223 1 0 28 6 2789. 2983. 2983. <
+2224 1 1 28 6 83. 426. 852. <
+2225 2 6 -28 2 9909. 8523. 1281. o
+2225 1 2 28 6 9909. 8523. 1281. o
+2226 1 3 28 6 0. 852. 852. <
+2227 2 6 -28 4 1170. 852. 426. <
+2227 1 4 28 6 1170. 852. 426. <
+2228 1 5 28 6 64. 426. 426. <
+2229 2 6 -28 6 2891. 2983. 426. o
+2229 1 6 28 6 2891. 2983. 426. o
+2230 1 7 28 6 3. 0. 426. <
+2231 2 6 -28 8 199. 852. 426. <
+2231 1 8 28 6 199. 852. 426. <
+2232 2 6 -30 0 1199. 3409. 2556. <
+2232 1 0 30 6 1199. 3409. 2556. <
+2233 1 1 30 6 18958. 13210. 1718. o
+2234 2 6 -30 2 4638. 5114. 1278. o
+2234 1 2 30 6 4638. 5114. 1278. o
+2235 1 3 30 6 7025. 9375. 846. o
+2236 2 6 -30 4 816. 1705. 425. o
+2236 1 4 30 6 816. 1705. 425. o
+2237 1 5 30 6 10443. 11079. 850. o
+2238 2 6 -30 6 1341. 2131. 425. o
+2238 1 6 30 6 1341. 2131. 425. o
+2239 1 7 30 6 2317. 1705. 427. o
+2240 2 6 -30 8 256. 852. 426. <
+2240 1 8 30 6 256. 852. 426. <
+2241 2 6 -32 0 1924. 2131. 2557. <
+2241 1 0 32 6 1924. 2131. 2557. <
+2242 1 1 32 6 7621. 9375. 1702. o
+2243 2 6 -32 2 1826. 4261. 1277. o
+2243 1 2 32 6 1826. 4261. 1277. o
+2244 1 3 32 6 2399. 1705. 853. <
+2245 2 6 -32 4 1051. 1278. 426. o
+2245 1 4 32 6 1051. 1278. 426. o
+2246 1 5 32 6 4646. 5114. 425. o
+2247 2 6 -32 6 727. 1278. 426. o
+2247 1 6 32 6 727. 1278. 426. o
+2248 1 7 32 6 610. 852. 426. <
+2249 2 6 -32 8 248. 0. 426. <
+2249 1 8 32 6 248. 0. 426. <
+2250 2 6 -34 0 37. -852. 1704. <
+2250 1 0 34 6 37. -852. 1704. <
+2251 1 1 34 6 467. 2557. 851. o
+2252 2 6 -34 2 1075. -3835. 1276. <
+2252 1 2 34 6 1075. -3835. 1276. <
+2253 1 3 34 6 136. 852. 852. <
+2254 2 6 -34 4 33. 426. 426. <
+2254 1 4 34 6 33. 426. 426. <
+2255 1 5 34 6 286. 852. 426. <
+2256 2 6 -34 6 232. 852. 426. <
+2256 1 6 34 6 232. 852. 426. <
+2257 1 7 34 6 60. 426. 426. <
+2258 2 6 -36 0 24166. 10653. 2156. o
+2258 1 0 36 6 24166. 10653. 2156. o
+2259 1 1 36 6 313. 1705. 852. <
+2260 2 6 -36 2 119590. 64345. 2642. o
+2260 1 2 36 6 119590. 64345. 2642. o
+2261 1 3 36 6 265. 1278. 852. <
+2262 2 6 -36 4 19136. 16193. 868. o
+2262 1 4 36 6 19136. 16193. 868. o
+2263 1 5 36 6 64. 852. 426. <
+2264 2 6 -36 6 49454. 49431. 853. o
+2264 1 6 36 6 49454. 49431. 853. o
+2265 1 7 36 6 87. 426. 426. <
+2266 2 6 -38 0 2930. 2557. 2131. <
+2266 1 0 38 6 2930. 2557. 2131. <
+2267 1 1 38 6 3. -852. 1278. <
+2268 2 6 -38 2 26504. 21732. 1722. o
+2268 1 2 38 6 26504. 21732. 1722. o
+2269 1 3 38 6 16. 2131. 851. o
+2270 2 6 -38 4 3040. 5114. 420. o
+2270 1 4 38 6 3040. 5114. 420. o
+2271 1 5 38 6 0. 852. 426. <
+2272 2 6 -38 6 12170. 11505. 855. o
+2272 1 6 38 6 12170. 11505. 855. o
+2273 1 7 38 6 30. 852. 426. <
+2274 2 6 -40 0 1317. 852. 1705. <
+2274 1 0 40 6 1317. 852. 1705. <
+2275 1 1 40 6 41. 1705. 852. <
+2276 2 6 -40 2 2585. 852. 1279. <
+2276 1 2 40 6 2585. 852. 1279. <
+2277 1 3 40 6 136. 426. 852. <
+2278 2 6 -40 4 919. 852. 426. <
+2278 1 4 40 6 919. 852. 426. <
+2279 1 5 40 6 12. 426. 426. <
+2280 2 6 -40 6 1087. 852. 426. <
+2280 1 6 40 6 1087. 852. 426. <
+2281 1 7 40 6 21. 0. 426. <
+2282 2 6 -42 0 1348. 3835. 1703. o
+2282 1 0 42 6 1348. 3835. 1703. o
+2283 1 1 42 6 4717. 3835. 853. o
+2284 2 6 -42 2 1643. 1705. 1278. <
+2284 1 2 42 6 1643. 1705. 1278. <
+2285 1 3 42 6 7680. 4687. 858. o
+2286 2 6 -42 4 814. 852. 426. <
+2286 1 4 42 6 814. 852. 426. <
+2287 1 5 42 6 1291. 2131. 425. o
+2288 2 6 -42 6 490. 852. 426. <
+2288 1 6 42 6 490. 852. 426. <
+2289 1 7 42 6 1892. 1705. 426. o
+2290 2 6 -44 0 1085. -852. 1704. <
+2290 1 0 44 6 1085. -852. 1704. <
+2291 1 1 44 6 2306. 1278. 853. <
+2292 2 6 -44 2 816. 0. 1278. <
+2292 1 2 44 6 816. 0. 1278. <
+2293 1 3 44 6 3831. 6818. 1275. o
+2294 2 6 -44 4 623. 852. 426. <
+2294 1 4 44 6 623. 852. 426. <
+2295 1 5 44 6 716. 426. 426. <
+2296 2 6 -44 6 296. 1278. 426. o
+2296 1 6 44 6 296. 1278. 426. o
+2297 1 7 44 6 764. 1705. 425. o
+2298 2 6 -46 0 241. 852. 1704. <
+2298 1 0 46 6 241. 852. 1704. <
+2299 1 1 46 6 104. 2131. 851. o
+2300 2 6 -46 2 0. 852. 1278. <
+2300 1 2 46 6 0. 852. 1278. <
+2301 1 3 46 6 212. -852. 1278. <
+2302 2 6 -46 4 57. 426. 426. <
+2302 1 4 46 6 57. 426. 426. <
+2303 1 5 46 6 29. 852. 426. <
+2304 2 6 -46 6 10. 852. 426. <
+2304 1 6 46 6 10. 852. 426. <
+2305 1 7 46 6 54. 1278. 425. o
+2306 2 6 -48 0 36173. 22585. 2176. o
+2306 1 0 48 6 36173. 22585. 2176. o
+2307 1 1 48 6 41. 2131. 851. o
+2308 2 6 -48 2 53018. 31107. 1831. o
+2308 1 2 48 6 53018. 31107. 1831. o
+2309 1 3 48 6 51. -852. 1278. <
+2310 2 6 -48 4 18465. 17897. 855. o
+2310 1 4 48 6 18465. 17897. 855. o
+2311 1 5 48 6 6. 1278. 425. o
+2312 2 6 -48 6 16303. 14488. 443. o
+2312 1 6 48 6 16303. 14488. 443. o
+2313 2 6 -50 0 12982. 11505. 1282. o
+2313 1 0 50 6 12982. 11505. 1282. o
+2314 1 1 50 6 9. 852. 852. <
+2315 2 6 -50 2 19218. 8096. 1305. o
+2315 1 2 50 6 19218. 8096. 1305. o
+2316 1 3 50 6 0. 1705. 1278. <
+2317 2 6 -50 4 5778. 4261. 855. o
+2317 1 4 50 6 5778. 4261. 855. o
+2318 1 5 50 6 4. 426. 426. <
+2319 2 6 -50 6 5237. 3409. 431. o
+2319 1 6 50 6 5237. 3409. 431. o
+2320 2 6 -52 0 989. 1278. 852. <
+2320 1 0 52 6 989. 1278. 852. <
+2321 1 1 52 6 66. 1705. 852. <
+2322 2 6 -52 2 748. 852. 852. <
+2322 1 2 52 6 748. 852. 852. <
+2323 1 3 52 6 8. 0. 1278. <
+2324 2 6 -52 4 493. -426. 852. <
+2324 1 4 52 6 493. -426. 852. <
+2325 1 5 52 6 44. 1278. 425. o
+2326 2 6 -52 6 222. 0. 426. <
+2326 1 6 52 6 222. 0. 426. <
+2327 2 6 -54 0 405. 0. 852. <
+2327 1 0 54 6 405. 0. 852. <
+2328 1 1 54 6 1429. 852. 852. <
+2329 2 6 -54 2 303. 426. 852. <
+2329 1 2 54 6 303. 426. 852. <
+2330 1 3 54 6 460. 1278. 1278. <
+2331 2 6 -54 4 261. 852. 1278. <
+2331 1 4 54 6 261. 852. 1278. <
+2332 1 5 54 6 842. 426. 852. <
+2333 2 6 -54 6 115. 0. 426. <
+2333 1 6 54 6 115. 0. 426. <
+2334 2 6 -56 0 191. 852. 852. <
+2334 1 0 56 6 191. 852. 852. <
+2335 1 1 56 6 1170. 1278. 852. <
+2336 2 6 -56 2 158. 2557. 851. o
+2336 1 2 56 6 158. 2557. 851. o
+2337 1 3 56 6 127. 426. 1278. <
+2338 2 6 -56 4 105. 0. 1278. <
+2338 1 4 56 6 105. 0. 1278. <
+2339 1 5 56 6 895. 426. 852. <
+2340 2 6 -56 6 59. 426. 426. <
+2340 1 6 56 6 59. 426. 426. <
+2341 2 6 -58 0 113. -1278. 852. <
+2341 1 0 58 6 113. -1278. 852. <
+2342 1 1 58 6 27. 426. 852. <
+2343 2 6 -58 2 37. 1705. 852. <
+2343 1 2 58 6 37. 1705. 852. <
+2344 1 3 58 6 14. 1278. 852. <
+2345 2 6 -58 4 91. 0. 852. <
+2345 1 4 58 6 91. 0. 852. <
+2346 1 5 58 6 11. 852. 852. <
+2347 2 6 -60 0 9452. 5114. 861. o
+2347 1 0 60 6 9452. 5114. 861. o
+2348 1 1 60 6 1. 852. 852. <
+2349 2 6 -60 2 10346. 5966. 862. o
+2349 1 2 60 6 10346. 5966. 862. o
+2350 1 3 60 6 6. 1278. 852. <
+2351 2 6 -60 4 6671. 3409. 1281. o
+2351 1 4 60 6 6671. 3409. 1281. o
+2352 1 5 60 6 2. 852. 852. <
+2353 2 6 -62 0 2962. 2557. 853. o
+2353 1 0 62 6 2962. 2557. 853. o
+2354 1 1 62 6 4. 0. 852. <
+2355 2 6 -62 2 3571. 3835. 852. o
+2355 1 2 62 6 3571. 3835. 852. o
+2356 1 3 62 6 2. 852. 852. <
+2357 2 6 -62 4 2604. 2983. 1278. o
+2357 1 4 62 6 2604. 2983. 1278. o
+2358 1 5 62 6 3. 1278. 852. <
+2359 2 6 -64 0 298. 852. 852. <
+2359 1 0 64 6 298. 852. 852. <
+2360 1 1 64 6 4. 426. 852. <
+2361 2 6 -64 2 150. 426. 852. <
+2361 1 2 64 6 150. 426. 852. <
+2362 1 3 64 6 26. -426. 852. <
+2363 2 6 -64 4 171. 1278. 1278. <
+2363 1 4 64 6 171. 1278. 1278. <
+2364 2 6 -66 0 186. 852. 852. <
+2364 1 0 66 6 186. 852. 852. <
+2365 1 1 66 6 63. 426. 852. <
+2366 2 6 -66 2 131. 852. 426. <
+2366 1 2 66 6 131. 852. 426. <
+2367 1 3 66 6 218. 852. 852. <
+2368 2 6 -66 4 99. 852. 852. <
+2368 1 4 66 6 99. 852. 852. <
+2369 2 6 -68 0 39. -852. 852. <
+2369 1 0 68 6 39. -852. 852. <
+2370 1 1 68 6 43. 0. 852. <
+2371 2 6 -68 2 50. 852. 852. <
+2371 1 2 68 6 50. 852. 852. <
+2372 1 3 68 6 296. 852. 852. <
+2373 2 6 -68 4 26. 426. 852. <
+2373 1 4 68 6 26. 426. 852. <
+2374 2 6 -70 0 159. 1278. 852. <
+2374 1 0 70 6 159. 1278. 852. <
+2375 1 1 70 6 1. 426. 852. <
+2376 2 6 -70 2 75. 426. 852. <
+2376 1 2 70 6 75. 426. 852. <
+2377 1 3 70 6 2. -852. 852. <
+2378 2 6 -72 0 4601. 852. 855. <
+2378 1 0 72 6 4601. 852. 855. <
+2379 1 1 72 6 0. 852. 852. <
+2380 2 6 -72 2 3864. 0. 854. <
+2380 1 2 72 6 3864. 0. 854. <
+2381 1 3 72 6 0. 852. 852. <
+2382 2 6 -74 0 3317. 4261. 851. o
+2382 1 0 74 6 3317. 4261. 851. o
+2383 1 1 74 6 1. 852. 852. <
+2384 2 6 -74 2 2563. 852. 428. <
+2384 1 2 74 6 2563. 852. 428. <
+2385 2 6 -76 0 24. 0. 852. <
+2385 1 0 76 6 24. 0. 852. <
+2386 1 1 76 6 2. 852. 426. <
+2387 2 7 -1 1 110706. 100566. 1862. o
+2387 1 1 1 7 110706. 100566. 1862. o
+2388 1 2 1 7 25. 1278. 1278. <
+2389 2 7 -1 3 25655. 22585. 1293. o
+2389 1 3 1 7 25655. 22585. 1293. o
+2390 1 4 1 7 28. 1278. 425. o
+2391 2 7 -1 5 87023. 82668. 1353. o
+2391 1 5 1 7 87023. 82668. 1353. o
+2392 1 6 1 7 55. 0. 426. <
+2393 2 7 -1 7 1550. 2131. 425. o
+2393 1 7 1 7 1550. 2131. 425. o
+2394 1 8 1 7 10. 426. 426. <
+2395 2 7 -3 1 2631. 8949. 839. o
+2395 1 1 3 7 2631. 8949. 839. o
+2396 1 2 3 7 15. 852. 1278. <
+2397 2 7 -3 3 1999. 4261. 1277. o
+2397 1 3 3 7 1999. 4261. 1277. o
+2398 1 4 3 7 195. 852. 426. <
+2399 2 7 -3 5 959. 5966. 845. o
+2399 1 5 3 7 959. 5966. 845. o
+2400 1 6 3 7 79. 426. 426. <
+2401 2 7 -3 7 479. 0. 426. <
+2401 1 7 3 7 479. 0. 426. <
+2402 1 8 3 7 76. 0. 426. <
+2403 2 7 -5 1 25. 3409. 850. o
+2403 1 1 5 7 25. 3409. 850. o
+2404 1 2 5 7 17. 852. 1278. <
+2405 2 7 -5 3 88. 852. 852. <
+2405 1 3 5 7 88. 852. 852. <
+2406 1 4 5 7 246. 852. 426. <
+2407 2 7 -5 5 7. 2557. 423. o
+2407 1 5 5 7 7. 2557. 423. o
+2408 1 6 5 7 5. 852. 426. <
+2409 2 7 -5 7 72. 852. 426. <
+2409 1 7 5 7 72. 852. 426. <
+2410 1 8 5 7 18. 426. 426. <
+2411 2 7 -7 1 519. 1705. 852. <
+2411 1 1 7 7 519. 1705. 852. <
+2412 1 2 7 7 1. 852. 1278. <
+2413 2 7 -7 3 328. 1278. 852. <
+2413 1 3 7 7 328. 1278. 852. <
+2414 1 4 7 7 1220. 1705. 426. o
+2415 2 7 -7 5 105. 1705. 425. o
+2415 1 5 7 7 105. 1705. 425. o
+2416 1 6 7 7 75. 852. 426. <
+2417 2 7 -7 7 76. 0. 426. <
+2417 1 7 7 7 76. 0. 426. <
+2418 1 8 7 7 365. 0. 426. <
+2419 2 7 -9 1 3959. 7244. 846. o
+2419 1 1 9 7 3959. 7244. 846. o
+2420 1 2 9 7 48. 852. 1278. <
+2421 2 7 -9 3 2541. 2557. 852. o
+2421 1 3 9 7 2541. 2557. 852. o
+2422 1 4 9 7 59. 852. 426. <
+2423 2 7 -9 5 1878. 8523. 399. o
+2423 1 5 9 7 1878. 8523. 399. o
+2424 1 6 9 7 64. 426. 426. <
+2425 2 7 -9 7 692. 426. 426. <
+2425 1 7 9 7 692. 426. 426. <
+2426 1 8 9 7 55. 426. 426. <
+2427 2 7 -11 1 65013. 67754. 1240. o
+2427 1 1 11 7 65013. 67754. 1240. o
+2428 1 2 11 7 30. 852. 1278. <
+2429 2 7 -11 3 16502. 21306. 1258. o
+2429 1 3 11 7 16502. 21306. 1258. o
+2430 1 4 11 7 3. 852. 426. <
+2431 2 7 -11 5 61085. 78407. 981. o
+2431 1 5 11 7 61085. 78407. 981. o
+2432 1 6 11 7 70. 426. 426. <
+2433 2 7 -11 7 1774. 2131. 426. o
+2433 1 7 11 7 1774. 2131. 426. o
+2434 2 7 -13 1 84921. 90765. 1165. o
+2434 1 1 13 7 84921. 90765. 1165. o
+2435 1 2 13 7 12. 426. 1278. <
+2436 2 7 -13 3 22118. 25568. 1261. o
+2436 1 3 13 7 22118. 25568. 1261. o
+2437 1 4 13 7 5. -426. 426. <
+2438 2 7 -13 5 79541. 90339. 1065. o
+2438 1 5 13 7 79541. 90339. 1065. o
+2439 1 6 13 7 33. 426. 426. <
+2440 2 7 -13 7 2561. 2983. 425. o
+2440 1 7 13 7 2561. 2983. 425. o
+2441 2 7 -15 1 1327. 6392. 845. o
+2441 1 1 15 7 1327. 6392. 845. o
+2442 1 2 15 7 115. -426. 1278. <
+2443 2 7 -15 3 1162. 3835. 850. o
+2443 1 3 15 7 1162. 3835. 850. o
+2444 1 4 15 7 66. 426. 426. <
+2445 2 7 -15 5 283. 5540. 413. o
+2445 1 5 15 7 283. 5540. 413. o
+2446 1 6 15 7 204. 0. 426. <
+2447 2 7 -15 7 360. 426. 426. <
+2447 1 7 15 7 360. 426. 426. <
+2448 2 7 -17 1 62. 852. 852. <
+2448 1 1 17 7 62. 852. 852. <
+2449 1 2 17 7 536. 5114. 1275. o
+2450 2 7 -17 3 136. 426. 852. <
+2450 1 3 17 7 136. 426. 852. <
+2451 1 4 17 7 118. 0. 426. <
+2452 2 7 -17 5 64. 1705. 425. o
+2452 1 5 17 7 64. 1705. 425. o
+2453 1 6 17 7 861. 426. 426. <
+2454 2 7 -17 7 64. 426. 426. <
+2454 1 7 17 7 64. 426. 426. <
+2455 2 7 -19 1 344. 1705. 852. <
+2455 1 1 19 7 344. 1705. 852. <
+2456 1 2 19 7 1271. 2557. 1278. <
+2457 2 7 -19 3 217. 852. 852. <
+2457 1 3 19 7 217. 852. 852. <
+2458 1 4 19 7 617. 1278. 426. o
+2459 2 7 -19 5 190. 852. 426. <
+2459 1 5 19 7 190. 852. 426. <
+2460 1 6 19 7 1892. 1705. 426. o
+2461 2 7 -19 7 61. 852. 426. <
+2461 1 7 19 7 61. 852. 426. <
+2462 2 7 -21 1 4455. 3835. 853. o
+2462 1 1 21 7 4455. 3835. 853. o
+2463 1 2 21 7 9. 1705. 1278. <
+2464 2 7 -21 3 2888. 1278. 853. <
+2464 1 3 21 7 2888. 1278. 853. <
+2465 1 4 21 7 96. 852. 426. <
+2466 2 7 -21 5 1851. 2983. 424. o
+2466 1 5 21 7 1851. 2983. 424. o
+2467 1 6 21 7 27. 852. 426. <
+2468 2 7 -21 7 653. 852. 426. <
+2468 1 7 21 7 653. 852. 426. <
+2469 2 7 -23 1 47286. 52414. 1663. o
+2469 1 1 23 7 47286. 52414. 1663. o
+2470 1 2 23 7 1. 1705. 852. <
+2471 2 7 -23 3 16486. 15340. 1282. o
+2471 1 3 23 7 16486. 15340. 1282. o
+2472 1 4 23 7 1. 852. 426. <
+2473 2 7 -23 5 32322. 29829. 876. o
+2473 1 5 23 7 32322. 29829. 876. o
+2474 1 6 23 7 4. 852. 426. <
+2475 2 7 -23 7 2039. 2557. 425. o
+2475 1 7 23 7 2039. 2557. 425. o
+2476 2 7 -25 1 83338. 65624. 1892. o
+2476 1 1 25 7 83338. 65624. 1892. o
+2477 1 2 25 7 0. -852. 852. <
+2478 2 7 -25 3 29649. 23011. 1313. o
+2478 1 3 25 7 29649. 23011. 1313. o
+2479 1 4 25 7 0. 426. 426. <
+2480 2 7 -25 5 54165. 44743. 983. o
+2480 1 5 25 7 54165. 44743. 983. o
+2481 1 6 25 7 0. 426. 426. <
+2482 2 7 -25 7 3689. 4261. 425. o
+2482 1 7 25 7 3689. 4261. 425. o
+2483 2 7 -27 1 40. 2131. 851. o
+2483 1 1 27 7 40. 2131. 851. o
+2484 1 2 27 7 22. 426. 852. <
+2485 2 7 -27 3 212. 1278. 1278. <
+2485 1 3 27 7 212. 1278. 1278. <
+2486 1 4 27 7 136. 852. 426. <
+2487 2 7 -27 5 6. 1278. 425. o
+2487 1 5 27 7 6. 1278. 425. o
+2488 1 6 27 7 98. 0. 426. <
+2489 2 7 -27 7 108. 1278. 425. o
+2489 1 7 27 7 108. 1278. 425. o
+2490 2 7 -29 1 163. 2557. 851. o
+2490 1 1 29 7 163. 2557. 851. o
+2491 1 2 29 7 116. 1278. 852. <
+2492 2 7 -29 3 2. 852. 852. <
+2492 1 3 29 7 2. 852. 852. <
+2493 1 4 29 7 567. 426. 426. <
+2494 2 7 -29 5 152. 1278. 425. o
+2494 1 5 29 7 152. 1278. 425. o
+2495 1 6 29 7 387. 426. 426. <
+2496 2 7 -29 7 17. 426. 426. <
+2496 1 7 29 7 17. 426. 426. <
+2497 2 7 -31 1 562. 852. 852. <
+2497 1 1 31 7 562. 852. 852. <
+2498 1 2 31 7 171. -852. 852. <
+2499 2 7 -31 3 336. 852. 852. <
+2499 1 3 31 7 336. 852. 852. <
+2500 1 4 31 7 2519. 2983. 425. o
+2501 2 7 -31 5 240. 0. 426. <
+2501 1 5 31 7 240. 0. 426. <
+2502 1 6 31 7 870. 1278. 426. o
+2503 2 7 -31 7 77. 426. 426. <
+2503 1 7 31 7 77. 426. 426. <
+2504 2 7 -33 1 2529. 1278. 853. <
+2504 1 1 33 7 2529. 1278. 853. <
+2505 1 2 33 7 7. 1705. 852. <
+2506 2 7 -33 3 1934. 2131. 852. o
+2506 1 3 33 7 1934. 2131. 852. o
+2507 1 4 33 7 91. 852. 426. <
+2508 2 7 -33 5 1258. 1705. 426. o
+2508 1 5 33 7 1258. 1705. 426. o
+2509 1 6 33 7 13. 426. 426. <
+2510 2 7 -33 7 594. 852. 426. <
+2510 1 7 33 7 594. 852. 426. <
+2511 2 7 -35 1 16068. 11079. 1292. o
+2511 1 1 35 7 16068. 11079. 1292. o
+2512 1 2 35 7 1. 2131. 851. o
+2513 2 7 -35 3 7974. 6392. 1281. o
+2513 1 3 35 7 7974. 6392. 1281. o
+2514 1 4 35 7 24. 852. 426. <
+2515 2 7 -35 5 11436. 10227. 434. o
+2515 1 5 35 7 11436. 10227. 434. o
+2516 1 6 35 7 1. 852. 426. <
+2517 2 7 -35 7 1805. 1705. 426. o
+2517 1 7 35 7 1805. 1705. 426. o
+2518 2 7 -37 1 36311. 23437. 1351. o
+2518 1 1 37 7 36311. 23437. 1351. o
+2519 1 2 37 7 1. 0. 852. <
+2520 2 7 -37 3 18931. 20454. 1272. o
+2520 1 3 37 7 18931. 20454. 1272. o
+2521 1 4 37 7 2. 852. 852. <
+2522 2 7 -37 5 25986. 21732. 883. o
+2522 1 5 37 7 25986. 21732. 883. o
+2523 1 6 37 7 2. 0. 426. <
+2524 2 7 -39 1 45. 1705. 852. <
+2524 1 1 39 7 45. 1705. 852. <
+2525 1 2 39 7 40. 1705. 852. <
+2526 2 7 -39 3 40. 426. 852. <
+2526 1 3 39 7 40. 426. 852. <
+2527 1 4 39 7 10. 426. 852. <
+2528 2 7 -39 5 55. 852. 426. <
+2528 1 5 39 7 55. 852. 426. <
+2529 1 6 39 7 81. 0. 426. <
+2530 2 7 -41 1 34. 426. 852. <
+2530 1 1 41 7 34. 426. 852. <
+2531 1 2 41 7 115. 1278. 852. <
+2532 2 7 -41 3 3. 0. 1278. <
+2532 1 3 41 7 3. 0. 1278. <
+2533 1 4 41 7 66. 1278. 852. <
+2534 2 7 -41 5 75. 852. 426. <
+2534 1 5 41 7 75. 852. 426. <
+2535 1 6 41 7 236. 426. 426. <
+2536 2 7 -43 1 315. 1278. 852. <
+2536 1 1 43 7 315. 1278. 852. <
+2537 1 2 43 7 586. 2131. 851. o
+2538 2 7 -43 3 234. 1278. 1278. <
+2538 1 3 43 7 234. 1278. 1278. <
+2539 1 4 43 7 242. 426. 852. <
+2540 2 7 -43 5 135. 852. 426. <
+2540 1 5 43 7 135. 852. 426. <
+2541 1 6 43 7 920. 1278. 426. o
+2542 2 7 -45 1 1775. 1705. 852. <
+2542 1 1 45 7 1775. 1705. 852. <
+2543 1 2 45 7 16. 852. 852. <
+2544 2 7 -45 3 1338. 852. 1278. <
+2544 1 3 45 7 1338. 852. 1278. <
+2545 1 4 45 7 25. 1278. 852. <
+2546 2 7 -45 5 684. 852. 426. <
+2546 1 5 45 7 684. 852. 426. <
+2547 1 6 45 7 20. 0. 426. <
+2548 2 7 -47 1 7089. 5966. 854. o
+2548 1 1 47 7 7089. 5966. 854. o
+2549 1 2 47 7 4. -426. 852. <
+2550 2 7 -47 3 4358. 4261. 1278. o
+2550 1 3 47 7 4358. 4261. 1278. o
+2551 1 4 47 7 4. -852. 852. <
+2552 2 7 -47 5 3712. 5114. 850. o
+2552 1 5 47 7 3712. 5114. 850. o
+2553 2 7 -49 1 23091. 9375. 910. o
+2553 1 1 49 7 23091. 9375. 910. o
+2554 1 2 49 7 1. 2983. 850. o
+2555 2 7 -49 3 14286. 8949. 1290. o
+2555 1 3 49 7 14286. 8949. 1290. o
+2556 1 4 49 7 1. 426. 1278. <
+2557 2 7 -49 5 10921. 8949. 858. o
+2557 1 5 49 7 10921. 8949. 858. o
+2558 2 7 -51 1 267. 1705. 852. <
+2558 1 1 51 7 267. 1705. 852. <
+2559 1 2 51 7 2. 1705. 852. <
+2560 2 7 -51 3 96. 852. 852. <
+2560 1 3 51 7 96. 852. 852. <
+2561 1 4 51 7 8. 2131. 1278. <
+2562 2 7 -51 5 131. 1278. 852. <
+2562 1 5 51 7 131. 1278. 852. <
+2563 2 7 -53 1 86. 852. 852. <
+2563 1 1 53 7 86. 852. 852. <
+2564 1 2 53 7 9. 0. 852. <
+2565 2 7 -53 3 38. 0. 852. <
+2565 1 3 53 7 38. 0. 852. <
+2566 1 4 53 7 21. 1705. 852. <
+2567 2 7 -53 5 37. 1278. 852. <
+2567 1 5 53 7 37. 1278. 852. <
+2568 2 7 -55 1 154. 0. 852. <
+2568 1 1 55 7 154. 0. 852. <
+2569 1 2 55 7 6. 1705. 852. <
+2570 2 7 -55 3 133. 426. 1278. <
+2570 1 3 55 7 133. 426. 1278. <
+2571 1 4 55 7 315. 426. 1278. <
+2572 2 7 -55 5 66. 852. 852. <
+2572 1 5 55 7 66. 852. 852. <
+2573 2 7 -57 1 544. 1278. 852. <
+2573 1 1 57 7 544. 1278. 852. <
+2574 1 2 57 7 0. 2131. 851. o
+2575 2 7 -57 3 474. 852. 1278. <
+2575 1 3 57 7 474. 852. 1278. <
+2576 1 4 57 7 42. 852. 1278. <
+2577 2 7 -59 1 1579. 1278. 852. <
+2577 1 1 59 7 1579. 1278. 852. <
+2578 1 2 59 7 0. 0. 852. <
+2579 2 7 -59 3 1166. 0. 1278. <
+2579 1 3 59 7 1166. 0. 1278. <
+2580 1 4 59 7 8. 852. 1278. <
+2581 2 7 -61 1 6470. 3409. 856. o
+2581 1 1 61 7 6470. 3409. 856. o
+2582 1 2 61 7 0. 852. 852. <
+2583 2 7 -61 3 5128. 3409. 1280. o
+2583 1 3 61 7 5128. 3409. 1280. o
+2584 2 7 -63 1 77. -852. 852. <
+2584 1 1 63 7 77. -852. 852. <
+2585 1 2 63 7 2. -852. 852. <
+2586 2 7 -63 3 64. 0. 852. <
+2586 1 3 63 7 64. 0. 852. <
+2587 2 7 -65 1 17. 426. 852. <
+2587 1 1 65 7 17. 426. 852. <
+2588 1 2 65 7 1. 0. 852. <
+2589 2 7 -67 1 74. 426. 426. <
+2589 1 1 67 7 74. 426. 426. <
+2590 1 2 67 7 36. -426. 852. <
+2591 2 7 -69 1 248. 426. 852. <
+2591 1 1 69 7 248. 426. 852. <
+2592 2 8 0 0 190493. 193035. 2505. o
+2592 1 0 0 8 190493. 193035. 2505. o
+2593 2 8 0 2 5446. 6392. 1277. o
+2593 1 2 0 8 5446. 6392. 1277. o
+2594 2 8 0 4 117667. 85225. 2137. o
+2594 1 4 0 8 117667. 85225. 2137. o
+2595 2 8 0 6 930. 1705. 852. <
+2595 1 6 0 8 930. 1705. 852. <
+2596 2 8 -2 0 19825. 58805. 826. o
+2596 1 0 2 8 19825. 58805. 826. o
+2597 1 1 2 8 121. 852. 426. <
+2598 2 8 -2 2 220. 2983. 850. o
+2598 1 2 2 8 220. 2983. 850. o
+2599 1 3 2 8 133. 0. 852. <
+2600 2 8 -2 4 12773. 24289. 1228. o
+2600 1 4 2 8 12773. 24289. 1228. o
+2601 1 5 2 8 110. 852. 426. <
+2602 2 8 -2 6 143. 1278. 425. o
+2602 1 6 2 8 143. 1278. 425. o
+2603 1 7 2 8 59. 426. 426. <
+2604 2 8 -4 0 3326. 11932. 827. o
+2604 1 0 4 8 3326. 11932. 827. o
+2605 1 1 4 8 190. 852. 426. <
+2606 2 8 -4 2 1167. 852. 852. <
+2606 1 2 4 8 1167. 852. 852. <
+2607 1 3 4 8 155. 852. 852. <
+2608 2 8 -4 4 1867. 4687. 849. o
+2608 1 4 4 8 1867. 4687. 849. o
+2609 1 5 4 8 83. 852. 426. <
+2610 2 8 -4 6 255. 426. 426. <
+2610 1 6 4 8 255. 426. 426. <
+2611 1 7 4 8 67. 426. 426. <
+2612 2 8 -6 0 4283. 6818. 848. o
+2612 1 0 6 8 4283. 6818. 848. o
+2613 1 1 6 8 303. 1278. 426. o
+2614 2 8 -6 2 102. 426. 852. <
+2614 1 2 6 8 102. 426. 852. <
+2615 1 3 6 8 651. 426. 852. <
+2616 2 8 -6 4 1960. 2557. 852. o
+2616 1 4 6 8 1960. 2557. 852. o
+2617 1 5 6 8 124. 852. 426. <
+2618 2 8 -6 6 120. 426. 426. <
+2618 1 6 6 8 120. 426. 426. <
+2619 1 7 6 8 195. 426. 426. <
+2620 2 8 -8 0 1840. 5966. 846. o
+2620 1 0 8 8 1840. 5966. 846. o
+2621 1 1 8 8 738. 852. 426. <
+2622 2 8 -8 2 1046. 852. 852. <
+2622 1 2 8 8 1046. 852. 852. <
+2623 1 3 8 8 895. 1705. 852. <
+2624 2 8 -8 4 1247. 2983. 851. o
+2624 1 4 8 8 1247. 2983. 851. o
+2625 1 5 8 8 312. 852. 426. <
+2626 2 8 -8 6 314. 852. 426. <
+2626 1 6 8 8 314. 852. 426. <
+2627 1 7 8 8 344. 426. 426. <
+2628 2 8 -10 0 9491. 33664. 629. o
+2628 1 0 10 8 9491. 33664. 629. o
+2629 1 1 10 8 86. 426. 426. <
+2630 2 8 -10 2 213. 2557. 851. o
+2630 1 2 10 8 213. 2557. 851. o
+2631 1 3 10 8 36. 1705. 852. <
+2632 2 8 -10 4 6646. 16619. 1250. o
+2632 1 4 10 8 6646. 16619. 1250. o
+2633 1 5 10 8 84. 426. 426. <
+2634 2 8 -10 6 143. 426. 426. <
+2634 1 6 10 8 143. 426. 426. <
+2635 1 7 10 8 17. 0. 426. <
+2636 2 8 -12 0 147426. 152127. 1590. o
+2636 1 0 12 8 147426. 152127. 1590. o
+2637 1 1 12 8 62. 1278. 425. o
+2638 2 8 -12 2 5788. 7244. 849. o
+2638 1 2 12 8 5788. 7244. 849. o
+2639 1 3 12 8 34. 1278. 852. <
+2640 2 8 -12 4 94378. 71163. 1970. o
+2640 1 4 12 8 94378. 71163. 1970. o
+2641 1 5 12 8 28. 852. 426. <
+2642 2 8 -12 6 1376. 1705. 426. o
+2642 1 6 12 8 1376. 1705. 426. o
+2643 2 8 -14 0 19578. 44317. 1076. o
+2643 1 0 14 8 19578. 44317. 1076. o
+2644 1 1 14 8 104. 426. 426. <
+2645 2 8 -14 2 187. 1705. 852. <
+2645 1 2 14 8 187. 1705. 852. <
+2646 1 3 14 8 55. 1278. 852. <
+2647 2 8 -14 4 13621. 25142. 1226. o
+2647 1 4 14 8 13621. 25142. 1226. o
+2648 1 5 14 8 141. 1278. 425. o
+2649 2 8 -14 6 59. 426. 426. <
+2649 1 6 14 8 59. 426. 426. <
+2650 2 8 -16 0 2623. 5966. 847. o
+2650 1 0 16 8 2623. 5966. 847. o
+2651 1 1 16 8 7. 1278. 425. o
+2652 2 8 -16 2 715. -426. 852. <
+2652 1 2 16 8 715. -426. 852. <
+2653 1 3 16 8 15. 1278. 852. <
+2654 2 8 -16 4 1590. 2983. 851. o
+2654 1 4 16 8 1590. 2983. 851. o
+2655 1 5 16 8 0. 0. 426. <
+2656 2 8 -16 6 204. 852. 426. <
+2656 1 6 16 8 204. 852. 426. <
+2657 2 8 -18 0 2941. 4261. 851. o
+2657 1 0 18 8 2941. 4261. 851. o
+2658 1 1 18 8 2550. 2557. 426. o
+2659 2 8 -18 2 222. 1278. 852. <
+2659 1 2 18 8 222. 1278. 852. <
+2660 1 3 18 8 1414. 2131. 852. o
+2661 2 8 -18 4 1268. 2131. 852. o
+2661 1 4 18 8 1268. 2131. 852. o
+2662 1 5 18 8 1823. 1278. 427. o
+2663 2 8 -18 6 146. 426. 426. <
+2663 1 6 18 8 146. 426. 426. <
+2664 2 8 -20 0 1381. 2557. 1278. <
+2664 1 0 20 8 1381. 2557. 1278. <
+2665 1 1 20 8 1509. 2131. 852. o
+2666 2 8 -20 2 1178. 426. 852. <
+2666 1 2 20 8 1178. 426. 852. <
+2667 1 3 20 8 1136. 1705. 852. <
+2668 2 8 -20 4 718. 2557. 851. o
+2668 1 4 20 8 718. 2557. 851. o
+2669 1 5 20 8 865. 426. 426. <
+2670 2 8 -20 6 311. 426. 426. <
+2670 1 6 20 8 311. 426. 426. <
+2671 2 8 -22 0 3569. 11932. 1692. o
+2671 1 0 22 8 3569. 11932. 1692. o
+2672 1 1 22 8 8. 1705. 852. <
+2673 2 8 -22 2 158. 1705. 852. <
+2673 1 2 22 8 158. 1705. 852. <
+2674 1 3 22 8 16. 852. 852. <
+2675 2 8 -22 4 2384. 6392. 1274. o
+2675 1 4 22 8 2384. 6392. 1274. o
+2676 1 5 22 8 4. 426. 426. <
+2677 2 8 -22 6 46. 426. 426. <
+2677 1 6 22 8 46. 426. 426. <
+2678 2 8 -24 0 89509. 51987. 2415. o
+2678 1 0 24 8 89509. 51987. 2415. o
+2679 1 1 24 8 96. 1278. 852. <
+2680 2 8 -24 2 9775. 8949. 855. o
+2680 1 2 24 8 9775. 8949. 855. o
+2681 1 3 24 8 59. 426. 852. <
+2682 2 8 -24 4 54716. 38351. 1813. o
+2682 1 4 24 8 54716. 38351. 1813. o
+2683 1 5 24 8 40. 1278. 425. o
+2684 2 8 -24 6 2458. 2131. 427. o
+2684 1 6 24 8 2458. 2131. 427. o
+2685 2 8 -26 0 17456. 35368. 2064. o
+2685 1 0 26 8 17456. 35368. 2064. o
+2686 1 1 26 8 19. 852. 852. <
+2687 2 8 -26 2 1245. 2557. 851. o
+2687 1 2 26 8 1245. 2557. 851. o
+2688 1 3 26 8 23. 1705. 1278. <
+2689 2 8 -26 4 10826. 17471. 1257. o
+2689 1 4 26 8 10826. 17471. 1257. o
+2690 1 5 26 8 37. 852. 426. <
+2691 2 8 -26 6 237. 1278. 426. o
+2691 1 6 26 8 237. 1278. 426. o
+2692 2 8 -28 0 1548. 1278. 1278. <
+2692 1 0 28 8 1548. 1278. 1278. <
+2693 1 1 28 8 0. 852. 852. <
+2694 2 8 -28 2 598. 1278. 852. <
+2694 1 2 28 8 598. 1278. 852. <
+2695 1 3 28 8 0. 1278. 1704. <
+2696 2 8 -28 4 908. 1278. 1278. <
+2696 1 4 28 8 908. 1278. 1278. <
+2697 1 5 28 8 1. 426. 426. <
+2698 2 8 -28 6 156. 426. 426. <
+2698 1 6 28 8 156. 426. 426. <
+2699 2 8 -30 0 960. 2983. 1277. o
+2699 1 0 30 8 960. 2983. 1277. o
+2700 1 1 30 8 2026. 852. 853. <
+2701 2 8 -30 2 212. 1278. 852. <
+2701 1 2 30 8 212. 1278. 852. <
+2702 1 3 30 8 2222. 1278. 1279. <
+2703 2 8 -30 4 485. 852. 1278. <
+2703 1 4 30 8 485. 852. 1278. <
+2704 1 5 30 8 1191. 1705. 426. o
+2705 2 8 -30 6 137. 0. 426. <
+2705 1 6 30 8 137. 0. 426. <
+2706 2 8 -32 0 325. 2557. 1278. <
+2706 1 0 32 8 325. 2557. 1278. <
+2707 1 1 32 8 1093. 2131. 852. o
+2708 2 8 -32 2 515. 426. 852. <
+2708 1 2 32 8 515. 426. 852. <
+2709 1 3 32 8 1330. 3409. 1277. o
+2710 2 8 -32 4 241. 1278. 852. <
+2710 1 4 32 8 241. 1278. 852. <
+2711 1 5 32 8 537. 1278. 852. <
+2712 2 8 -32 6 192. 852. 426. <
+2712 1 6 32 8 192. 852. 426. <
+2713 2 8 -34 0 691. -1278. 1278. <
+2713 1 0 34 8 691. -1278. 1278. <
+2714 1 1 34 8 0. 2131. 851. o
+2715 2 8 -34 2 29. 852. 852. <
+2715 1 2 34 8 29. 852. 852. <
+2716 1 3 34 8 0. -1278. 852. <
+2717 2 8 -34 4 425. 1705. 852. <
+2717 1 4 34 8 425. 1705. 852. <
+2718 1 5 34 8 0. 852. 426. <
+2719 2 8 -36 0 34884. 17471. 1767. o
+2719 1 0 36 8 34884. 17471. 1767. o
+2720 1 1 36 8 51. 852. 852. <
+2721 2 8 -36 2 9002. 8096. 855. o
+2721 1 2 36 8 9002. 8096. 855. o
+2722 1 3 36 8 19. 0. 852. <
+2723 2 8 -36 4 22140. 15767. 1302. o
+2723 1 4 36 8 22140. 15767. 1302. o
+2724 1 5 36 8 26. 852. 852. <
+2725 2 8 -38 0 8286. 11932. 1698. o
+2725 1 0 38 8 8286. 11932. 1698. o
+2726 1 1 38 8 1. 1278. 852. <
+2727 2 8 -38 2 1828. 4687. 849. o
+2727 1 2 38 8 1828. 4687. 849. o
+2728 1 3 38 8 0. 2557. 851. o
+2729 2 8 -38 4 5555. 8949. 1273. o
+2729 1 4 38 8 5555. 8949. 1273. o
+2730 1 5 38 8 10. 426. 852. <
+2731 2 8 -40 0 650. 1705. 1278. <
+2731 1 0 40 8 650. 1705. 1278. <
+2732 1 1 40 8 0. 852. 852. <
+2733 2 8 -40 2 362. 426. 852. <
+2733 1 2 40 8 362. 426. 852. <
+2734 1 3 40 8 0. 852. 852. <
+2735 2 8 -40 4 352. 1278. 852. <
+2735 1 4 40 8 352. 1278. 852. <
+2736 1 5 40 8 0. 2131. 851. o
+2737 2 8 -42 0 435. 426. 1278. <
+2737 1 0 42 8 435. 426. 1278. <
+2738 1 1 42 8 994. 426. 852. <
+2739 2 8 -42 2 242. 1278. 852. <
+2739 1 2 42 8 242. 1278. 852. <
+2740 1 3 42 8 578. 852. 852. <
+2741 2 8 -42 4 180. 426. 852. <
+2741 1 4 42 8 180. 426. 852. <
+2742 1 5 42 8 738. 852. 852. <
+2743 2 8 -44 0 228. 852. 852. <
+2743 1 0 44 8 228. 852. 852. <
+2744 1 1 44 8 584. 2557. 851. o
+2745 2 8 -44 2 269. 852. 852. <
+2745 1 2 44 8 269. 852. 852. <
+2746 1 3 44 8 388. 852. 852. <
+2747 2 8 -44 4 111. 3409. 1277. o
+2747 1 4 44 8 111. 3409. 1277. o
+2748 2 8 -46 0 41. 1705. 852. <
+2748 1 0 46 8 41. 1705. 852. <
+2749 1 1 46 8 1. 2131. 851. o
+2750 2 8 -46 2 22. 852. 852. <
+2750 1 2 46 8 22. 852. 852. <
+2751 1 3 46 8 0. 852. 852. <
+2752 2 8 -46 4 35. -852. 1278. <
+2752 1 4 46 8 35. -852. 1278. <
+2753 2 8 -48 0 13141. 3835. 1292. o
+2753 1 0 48 8 13141. 3835. 1292. o
+2754 1 1 48 8 9. 2131. 851. o
+2755 2 8 -48 2 6742. 5966. 854. o
+2755 1 2 48 8 6742. 5966. 854. o
+2756 1 3 48 8 4. 0. 852. <
+2757 2 8 -48 4 7814. 4261. 1282. o
+2757 1 4 48 8 7814. 4261. 1282. o
+2758 2 8 -50 0 4415. 5540. 1277. o
+2758 1 0 50 8 4415. 5540. 1277. o
+2759 1 1 50 8 1. 426. 852. <
+2760 2 8 -50 2 2278. 1705. 853. <
+2760 1 2 50 8 2278. 1705. 853. <
+2761 1 3 50 8 1. 852. 852. <
+2762 2 8 -50 4 2601. 4261. 1277. o
+2762 1 4 50 8 2601. 4261. 1277. o
+2763 2 8 -52 0 139. 852. 852. <
+2763 1 0 52 8 139. 852. 852. <
+2764 1 1 52 8 0. 0. 852. <
+2765 2 8 -52 2 132. 426. 852. <
+2765 1 2 52 8 132. 426. 852. <
+2766 1 3 52 8 1. -426. 852. <
+2767 2 8 -54 0 67. 426. 852. <
+2767 1 0 54 8 67. 426. 852. <
+2768 1 1 54 8 163. 1278. 852. <
+2769 2 8 -54 2 68. 1705. 852. <
+2769 1 2 54 8 68. 1705. 852. <
+2770 1 3 54 8 183. -852. 852. <
+2771 2 8 -56 0 40. 2983. 850. o
+2771 1 0 56 8 40. 2983. 850. o
+2772 1 1 56 8 105. 852. 852. <
+2773 2 8 -56 2 46. 2131. 851. o
+2773 1 2 56 8 46. 2131. 851. o
+2774 2 8 -58 0 20. -426. 852. <
+2774 1 0 58 8 20. -426. 852. <
+2775 1 1 58 8 0. 0. 852. <
+2776 2 8 -58 2 30. 1278. 852. <
+2776 1 2 58 8 30. 1278. 852. <
+2777 2 8 -60 0 3507. 1278. 854. <
+2777 1 0 60 8 3507. 1278. 854. <
+2778 1 1 60 8 1. 1278. 852. <
+2779 2 9 -1 1 12069. 17045. 375. o
+2779 1 1 1 9 12069. 17045. 375. o
+2780 1 2 1 9 5. 426. 426. <
+2781 2 9 -1 3 23996. 21306. 1291. o
+2781 1 3 1 9 23996. 21306. 1291. o
+2782 1 4 1 9 20. 426. 1278. <
+2783 2 9 -1 5 1060. 1705. 1278. <
+2783 1 5 1 9 1060. 1705. 1278. <
+2784 2 9 -3 1 375. 2983. 423. o
+2784 1 1 3 9 375. 2983. 423. o
+2785 1 2 3 9 27. 852. 426. <
+2786 2 9 -3 3 175. 4261. 849. o
+2786 1 3 3 9 175. 4261. 849. o
+2787 1 4 3 9 55. 426. 852. <
+2788 2 9 -3 5 338. 1705. 852. <
+2788 1 5 3 9 338. 1705. 852. <
+2789 2 9 -5 1 1. 852. 426. <
+2789 1 1 5 9 1. 852. 426. <
+2790 1 2 5 9 2. 852. 426. <
+2791 2 9 -5 3 1. 2557. 851. o
+2791 1 3 5 9 1. 2557. 851. o
+2792 1 4 5 9 0. 852. 1278. <
+2793 2 9 -5 5 10. 852. 852. <
+2793 1 5 5 9 10. 852. 852. <
+2794 2 9 -7 1 73. 852. 426. <
+2794 1 1 7 9 73. 852. 426. <
+2795 1 2 7 9 79. 426. 426. <
+2796 2 9 -7 3 50. 2131. 851. o
+2796 1 3 7 9 50. 2131. 851. o
+2797 1 4 7 9 69. 1278. 1278. <
+2798 2 9 -7 5 14. 0. 852. <
+2798 1 5 7 9 14. 0. 852. <
+2799 2 9 -9 1 746. 2131. 425. o
+2799 1 1 9 9 746. 2131. 425. o
+2800 1 2 9 9 30. 1278. 425. o
+2801 2 9 -9 3 443. 2983. 851. o
+2801 1 3 9 9 443. 2983. 851. o
+2802 1 4 9 9 68. -426. 852. <
+2803 2 9 -9 5 441. 2131. 851. o
+2803 1 5 9 9 441. 2131. 851. o
+2804 2 9 -11 1 9350. 14914. 378. o
+2804 1 1 11 9 9350. 14914. 378. o
+2805 1 2 11 9 2. 0. 426. <
+2806 2 9 -11 3 17791. 20454. 836. o
+2806 1 3 11 9 17791. 20454. 836. o
+2807 1 4 11 9 26. 2131. 851. o
+2808 2 9 -11 5 994. 2131. 852. o
+2808 1 5 11 9 994. 2131. 852. o
+2809 2 9 -13 1 12678. 18750. 820. o
+2809 1 1 13 9 12678. 18750. 820. o
+2810 1 2 13 9 1. 1278. 425. o
+2811 2 9 -13 3 22644. 21732. 859. o
+2811 1 3 13 9 22644. 21732. 859. o
+2812 1 4 13 9 12. 1278. 852. <
+2813 2 9 -13 5 1518. 1705. 852. <
+2813 1 5 13 9 1518. 1705. 852. <
+2814 2 9 -15 1 261. 1705. 425. o
+2814 1 1 15 9 261. 1705. 425. o
+2815 1 2 15 9 11. 426. 426. <
+2816 2 9 -15 3 118. 2131. 851. o
+2816 1 3 15 9 118. 2131. 851. o
+2817 1 4 15 9 46. 2131. 851. o
+2818 2 9 -15 5 181. 1278. 1278. <
+2818 1 5 15 9 181. 1278. 1278. <
+2819 2 9 -17 1 16. 852. 426. <
+2819 1 1 17 9 16. 852. 426. <
+2820 1 2 17 9 15. 852. 426. <
+2821 2 9 -17 3 9. 852. 852. <
+2821 1 3 17 9 9. 852. 852. <
+2822 1 4 17 9 125. 426. 852. <
+2823 2 9 -17 5 9. 426. 852. <
+2823 1 5 17 9 9. 426. 852. <
+2824 2 9 -19 1 34. 0. 426. <
+2824 1 1 19 9 34. 0. 426. <
+2825 1 2 19 9 107. 426. 426. <
+2826 2 9 -19 3 51. 1278. 852. <
+2826 1 3 19 9 51. 1278. 852. <
+2827 1 4 19 9 396. 2131. 851. o
+2828 2 9 -19 5 14. 852. 852. <
+2828 1 5 19 9 14. 852. 852. <
+2829 2 9 -21 1 677. 1278. 852. <
+2829 1 1 21 9 677. 1278. 852. <
+2830 1 2 21 9 29. 852. 426. <
+2831 2 9 -21 3 403. 852. 852. <
+2831 1 3 21 9 403. 852. 852. <
+2832 1 4 21 9 55. 1278. 852. <
+2833 2 9 -21 5 399. 2131. 1278. <
+2833 1 5 21 9 399. 2131. 1278. <
+2834 2 9 -23 1 6367. 7670. 849. o
+2834 1 1 23 9 6367. 7670. 849. o
+2835 1 2 23 9 2. 0. 852. <
+2836 2 9 -23 3 9869. 10653. 850. o
+2836 1 3 23 9 9869. 10653. 850. o
+2837 1 4 23 9 7. 426. 852. <
+2838 2 9 -23 5 1028. 2131. 1278. <
+2838 1 5 23 9 1028. 2131. 1278. <
+2839 2 9 -25 1 10767. 14914. 835. o
+2839 1 1 25 9 10767. 14914. 835. o
+2840 1 2 25 9 0. -426. 852. <
+2841 2 9 -25 3 15676. 15340. 854. o
+2841 1 3 25 9 15676. 15340. 854. o
+2842 1 4 25 9 1. 1278. 852. <
+2843 2 9 -25 5 2096. 3409. 1278. o
+2843 1 5 25 9 2096. 3409. 1278. o
+2844 2 9 -27 1 8. 852. 852. <
+2844 1 1 27 9 8. 852. 852. <
+2845 1 2 27 9 6. 852. 852. <
+2846 2 9 -27 3 25. 1278. 852. <
+2846 1 3 27 9 25. 1278. 852. <
+2847 1 4 27 9 16. 852. 852. <
+2848 2 9 -29 1 11. 0. 852. <
+2848 1 1 29 9 11. 0. 852. <
+2849 1 2 29 9 36. 1705. 852. <
+2850 2 9 -29 3 31. 852. 852. <
+2850 1 3 29 9 31. 852. 852. <
+2851 1 4 29 9 95. 852. 1278. <
+2852 2 9 -31 1 81. 2557. 851. o
+2852 1 1 31 9 81. 2557. 851. o
+2853 1 2 31 9 157. 852. 852. <
+2854 2 9 -31 3 70. 1278. 852. <
+2854 1 3 31 9 70. 1278. 852. <
+2855 1 4 31 9 260. 1705. 1278. <
+2856 2 9 -33 1 525. 426. 852. <
+2856 1 1 33 9 525. 426. 852. <
+2857 1 2 33 9 21. 426. 852. <
+2858 2 9 -33 3 332. 852. 852. <
+2858 1 3 33 9 332. 852. 852. <
+2859 1 4 33 9 27. 426. 1278. <
+2860 2 9 -35 1 3062. 4687. 850. o
+2860 1 1 35 9 3062. 4687. 850. o
+2861 1 2 35 9 0. 1278. 852. <
+2862 2 9 -35 3 3885. 3835. 852. o
+2862 1 3 35 9 3885. 3835. 852. o
+2863 1 4 35 9 2. 426. 1278. <
+2864 2 9 -37 1 7528. 7670. 852. o
+2864 1 1 37 9 7528. 7670. 852. o
+2865 1 2 37 9 0. 852. 852. <
+2866 2 9 -37 3 8392. 6392. 857. o
+2866 1 3 37 9 8392. 6392. 857. o
+2867 2 9 -39 1 19. 1278. 852. <
+2867 1 1 39 9 19. 1278. 852. <
+2868 1 2 39 9 0. 1278. 852. <
+2869 2 9 -39 3 39. 1705. 852. <
+2869 1 3 39 9 39. 1705. 852. <
+2870 2 9 -41 1 6. 1705. 852. <
+2870 1 1 41 9 6. 1705. 852. <
+2871 1 2 41 9 9. 426. 852. <
+2872 2 9 -41 3 17. 852. 852. <
+2872 1 3 41 9 17. 852. 852. <
+2873 2 9 -43 1 48. 1278. 852. <
+2873 1 1 43 9 48. 1278. 852. <
+2874 1 2 43 9 38. -852. 852. <
+2875 2 9 -45 1 318. 0. 852. <
+2875 1 1 45 9 318. 0. 852. <
+2876 1 2 45 9 7. 0. 852. <
+2877 2 9 -47 1 1365. 3409. 851. o
+2877 1 1 47 9 1365. 3409. 851. o
+2878 1 2 47 9 0. 1278. 852. <
+2879 2 9 -49 1 3969. 1705. 854. <
+2879 1 1 49 9 3969. 1705. 854. <
+2880 2 10 0 0 2399. 2983. 852. o
+2880 1 0 0 10 2399. 2983. 852. o
+2881 2 10 0 2 24466. 18750. 888. o
+2881 1 2 0 10 24466. 18750. 888. o
+2882 2 10 -2 0 103. 2131. 851. o
+2882 1 0 2 10 103. 2131. 851. o
+2883 1 1 2 10 30. 426. 426. <
+2884 2 10 -2 2 3095. 10227. 390. o
+2884 1 2 2 10 3095. 10227. 390. o
+2885 1 3 2 10 38. 426. 426. <
+2886 2 10 -4 0 363. 852. 426. <
+2886 1 0 4 10 363. 852. 426. <
+2887 1 1 4 10 42. 852. 426. <
+2888 2 10 -4 2 326. 2131. 424. o
+2888 1 2 4 10 326. 2131. 424. o
+2889 1 3 4 10 35. 426. 426. <
+2890 2 10 -6 0 17. 0. 426. <
+2890 1 0 6 10 17. 0. 426. <
+2891 1 1 6 10 42. 0. 426. <
+2892 2 10 -6 2 521. 1278. 426. o
+2892 1 2 6 10 521. 1278. 426. o
+2893 1 3 6 10 31. 1278. 425. o
+2894 2 10 -8 0 358. 426. 426. <
+2894 1 0 8 10 358. 426. 426. <
+2895 1 1 8 10 157. 426. 426. <
+2896 2 10 -8 2 229. 1278. 426. o
+2896 1 2 8 10 229. 1278. 426. o
+2897 1 3 8 10 125. 852. 426. <
+2898 2 10 -10 0 42. 1278. 852. <
+2898 1 0 10 10 42. 1278. 852. <
+2899 1 1 10 10 35. 426. 426. <
+2900 2 10 -10 2 1835. 7670. 405. o
+2900 1 2 10 10 1835. 7670. 405. o
+2901 1 3 10 10 44. 0. 426. <
+2902 2 10 -12 0 3093. 4261. 851. o
+2902 1 0 12 10 3093. 4261. 851. o
+2903 1 1 12 10 6. 426. 426. <
+2904 2 10 -12 2 21198. 16193. 880. o
+2904 1 2 12 10 21198. 16193. 880. o
+2905 1 3 12 10 5. 852. 426. <
+2906 2 10 -14 0 190. 2131. 851. o
+2906 1 0 14 10 190. 2131. 851. o
+2907 1 1 14 10 10. 426. 426. <
+2908 2 10 -14 2 3244. 8949. 400. o
+2908 1 2 14 10 3244. 8949. 400. o
+2909 1 3 14 10 21. 426. 426. <
+2910 2 10 -16 0 251. 426. 852. <
+2910 1 0 16 10 251. 426. 852. <
+2911 1 1 16 10 2. 852. 426. <
+2912 2 10 -16 2 314. 852. 426. <
+2912 1 2 16 10 314. 852. 426. <
+2913 1 3 16 10 1. 0. 426. <
+2914 2 10 -18 0 37. 426. 852. <
+2914 1 0 18 10 37. 426. 852. <
+2915 1 1 18 10 196. 0. 852. <
+2916 2 10 -18 2 351. 852. 426. <
+2916 1 2 18 10 351. 852. 426. <
+2917 1 3 18 10 231. 426. 426. <
+2918 2 10 -20 0 305. 0. 852. <
+2918 1 0 20 10 305. 0. 852. <
+2919 1 1 20 10 222. 0. 852. <
+2920 2 10 -20 2 142. 0. 852. <
+2920 1 2 20 10 142. 0. 852. <
+2921 1 3 20 10 210. 426. 852. <
+2922 2 10 -22 0 42. 0. 852. <
+2922 1 0 22 10 42. 0. 852. <
+2923 1 1 22 10 24. 852. 852. <
+2924 2 10 -22 2 758. 1278. 852. <
+2924 1 2 22 10 758. 1278. 852. <
+2925 2 10 -24 0 2813. 2557. 852. o
+2925 1 0 24 10 2813. 2557. 852. o
+2926 1 1 24 10 10. 0. 852. <
+2927 2 10 -24 2 12173. 9375. 861. o
+2927 1 2 24 10 12173. 9375. 861. o
+2928 2 10 -26 0 434. 2557. 1278. <
+2928 1 0 26 10 434. 2557. 1278. <
+2929 1 1 26 10 1. 426. 852. <
+2930 2 10 -26 2 2486. 7244. 844. o
+2930 1 2 26 10 2486. 7244. 844. o
+2931 2 10 -28 0 138. 852. 852. <
+2931 1 0 28 10 138. 852. 852. <
+2932 1 1 28 10 1. 1705. 852. <
+2933 2 10 -28 2 169. 0. 852. <
+2933 1 2 28 10 169. 0. 852. <
+2934 2 10 -30 0 34. 426. 852. <
+2934 1 0 30 10 34. 426. 852. <
+2935 1 1 30 10 210. -426. 852. <
+2936 2 10 -32 0 135. 426. 1278. <
+2936 1 0 32 10 135. 426. 1278. <
+2937 1 1 32 10 171. 1278. 852. <
+
+_exptl_crystal_recrystallization_method 
+'Re-crystallisation from solvent: conc. Hydroiodic acid'

@@ -1,0 +1,112 @@
+data_3-TOPOS_VESTA_phase_1
+_audit_creation_date                2021-09-17
+_audit_creation_method              ToposPro
+_chemical_formula_structural        VESTA_phase_1
+_chemical_formula_sum               'H0 C6 Cl4 Mn1 N2'
+_citation_special_details
+;
+File: 12_vesta.cif. 
+;
+_cell_length_a                      7.29
+_cell_length_b                      25.94
+_cell_length_c                      7.51
+_cell_angle_alpha                   90
+_cell_angle_beta                    90
+_cell_angle_gamma                   90
+_cell_volume                        1420.161
+_cell_formula_units_Z               4
+_symmetry_space_group_name_H-M      'C m c a'
+_symmetry_Int_Tables_number         64
+_refine_ls_R_factor_all             0
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,-y,1/2+z
+3 x,-y,-z
+4 1/2-x,y,1/2-z
+5 -x,-y,-z
+6 1/2+x,y,1/2-z
+7 -x,y,z
+8 1/2+x,-y,1/2+z
+9 1/2+x,1/2+y,z
+10 -x,1/2-y,1/2+z
+11 1/2+x,1/2-y,-z
+12 -x,1/2+y,1/2-z
+13 1/2-x,1/2-y,-z
+14 x,1/2+y,1/2-z
+15 1/2-x,1/2+y,z
+16 x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+H1 H 8 0.00000 0.23918 0.00851 1.0000
+H2 H 16 0.12208 0.27019 0.18361 1.0000
+H3 H 8 0.00000 0.31947 0.85003 1.0000
+H4 H 8 0.00000 0.36935 0.21807 1.0000
+H5 H 8 0.00000 0.44748 0.05109 1.0000
+H6 H 8 0.00000 0.41418 0.84852 1.0000
+C1 C 8 0.00000 0.27180 0.10000 1.0000
+C2 C 8 0.00000 0.32150 0.99500 1.0000
+C3 C 8 0.00000 0.36800 0.07300 1.0000
+N1 N 8 0.00000 0.41390 0.98300 1.0000
+Cl1 Cl 8 0.25000 0.98990 0.25000 1.0000
+Cl2 Cl 8 0.00000 0.09440 0.04670 1.0000
+Mn1 Mn 4 0.00000 0.00000 0.00000 1.0000
+loop_
+_topol_link.node_label_1
+_topol_link.node_label_2
+_topol_link.distance
+_topol_link.site_symmetry_symop_1
+_topol_link.site_symmetry_translation_1_x
+_topol_link.site_symmetry_translation_1_y
+_topol_link.site_symmetry_translation_1_z
+_topol_link.site_symmetry_symop_2
+_topol_link.site_symmetry_translation_2_x
+_topol_link.site_symmetry_translation_2_y
+_topol_link.site_symmetry_translation_2_z
+_topol_link.type
+_topol_link.multiplicity
+_topol_link.voronoi_solidangle
+H1 C1 1.0900 1 0 0 0 1 0 0 0 V 8 26.45
+H1 H3 2.3987 1 0 0 0 1 0 0 -1 W 8 6.61
+H1 H2 2.6086 1 0 0 0 10 0 0 -1 W 16 8.98
+H1 H3 2.9821 1 0 0 0 10 0 0 -1 W 8 7.19
+H1 H2 3.1194 1 0 0 0 11 -1 0 0 W 16 5.98
+H1 H4 3.5614 1 0 0 0 10 0 0 -1 W 8 3.69
+H1 Cl2 3.7665 1 0 0 0 1 0 0 0 W 8 5.10
+H2 C1 1.0900 1 0 0 0 1 0 0 0 V 16 26.29
+H2 H2 2.1149 1 0 0 0 4 0 0 0 W 8 20.72
+H2 H4 2.7341 1 0 0 0 1 0 0 0 W 16 7.25
+H2 H3 2.7861 1 0 0 0 10 0 0 -1 W 16 7.33
+H3 C2 1.0900 1 0 0 0 1 0 0 0 V 8 32.87
+H3 H6 2.4570 1 0 0 0 1 0 0 0 W 8 13.02
+H3 Cl2 3.1908 1 0 0 0 10 0 0 0 W 8 7.53
+H3 H3 3.9425 1 0 0 0 4 -1 0 1 W 8 4.94
+H4 C3 1.0900 1 0 0 0 1 0 0 0 V 8 32.42
+H4 Cl2 2.6411 1 0 0 0 10 0 0 0 W 8 18.24
+H4 H4 3.6764 1 0 0 0 4 0 0 0 W 8 5.60
+H5 N1 1.0100 1 0 0 0 1 0 0 -1 V 8 32.72
+H5 H5 2.8309 1 0 0 0 3 0 1 0 W 4 10.36
+H5 Cl1 3.3277 1 0 0 0 13 0 1 0 W 16 3.83
+H5 Cl1 2.6008 1 0 0 0 14 0 -1 0 H 16 15.73
+H6 N1 1.0100 1 0 0 0 1 0 0 0 V 8 32.56
+H6 Cl1 3.1717 1 0 0 0 10 0 1 0 W 16 7.56
+H6 Cl2 3.7356 1 0 0 0 11 -1 0 1 W 16 3.13
+H6 H6 3.9339 1 0 0 0 4 -1 0 1 W 8 2.43
+H6 Cl2 2.2775 1 0 0 0 10 0 0 0 H 8 19.71
+C1 C2 1.5113 1 0 0 0 1 0 0 -1 V 8 20.28
+C2 C3 1.3409 1 0 0 0 1 0 0 1 V 8 28.29
+C3 N1 1.3691 1 0 0 0 1 0 0 -1 V 8 27.80
+C3 Cl2 3.8788 1 0 0 0 11 -1 0 0 W 16 2.66
+N1 Cl2 3.6582 1 0 0 0 11 -1 0 1 W 16 3.44
+Cl1 Mn1 2.6297 1 0 0 0 2 0 1 0 V 16 15.20
+Cl1 Cl2 3.6056 1 0 0 0 4 0 1 0 W 16 1.61
+Cl2 Mn1 2.4737 1 0 0 0 1 0 0 0 V 8 17.01
+#End of data_3-TOPOS_VESTA_phase_1
+

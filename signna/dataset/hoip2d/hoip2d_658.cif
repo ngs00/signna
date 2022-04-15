@@ -1,0 +1,338 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_compound1
+_audit_block_doi                 10.5517/cc12f3by
+_database_code_depnum_ccdc_archive 'CCDC 995699'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1039/C4DT01181C 2014
+_audit_update_record             
+;
+2014-04-05 deposited with the CCDC.	2021-01-28 downloaded from the CCDC.
+;
+
+_audit_creation_method           SHELXL-97
+_chemical_name_systematic        
+; 
+ ? 
+;
+_chemical_name_common            ?
+_chemical_melting_point          ?
+_chemical_formula_moiety         'Pb I4, C5 H16 N2'
+_chemical_formula_sum            'C5 H16 I4 N2 Pb'
+_chemical_formula_weight         818.99
+
+loop_
+_atom_type_symbol
+_atom_type_description
+_atom_type_scat_dispersion_real
+_atom_type_scat_dispersion_imag
+_atom_type_scat_source
+C C 0.0033 0.0016 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+H H 0.0000 0.0000 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+N N 0.0061 0.0033 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+I I -0.4742 1.8119 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+Pb Pb -3.3944 10.1111 'International Tables Vol C Tables 4.2.6.8 and 6.1.1.4'
+
+_symmetry_cell_setting           orthorhombic
+_symmetry_space_group_name_H-M   'Pbca '
+_symmetry_space_group_name_Hall  '-P 2ac 2ab'
+
+loop_
+_symmetry_equiv_pos_as_xyz
+'x, y, z'
+'-x+1/2, -y, z+1/2'
+'-x, y+1/2, -z+1/2'
+'x+1/2, -y+1/2, -z'
+'-x, -y, -z'
+'x-1/2, y, -z-1/2'
+'x, -y-1/2, z-1/2'
+'-x-1/2, y-1/2, z'
+
+_cell_length_a                   18.4679(6)
+_cell_length_b                   8.6405(3)
+_cell_length_c                   20.7717(8)
+_cell_angle_alpha                90.00
+_cell_angle_beta                 90.00
+_cell_angle_gamma                90.00
+_cell_volume                     3314.6(2)
+_cell_formula_units_Z            8
+_cell_measurement_temperature    293(2)
+_cell_measurement_reflns_used    3355
+_cell_measurement_theta_min      3.2330
+_cell_measurement_theta_max      30.6010
+
+_exptl_crystal_description       plate
+_exptl_crystal_colour            red
+_exptl_crystal_size_max          0.20
+_exptl_crystal_size_mid          0.14
+_exptl_crystal_size_min          0.08
+_exptl_crystal_density_meas      ?
+_exptl_crystal_density_diffrn    3.282
+_exptl_crystal_density_method    'not measured'
+_exptl_crystal_F_000             2832
+_exptl_absorpt_coefficient_mu    17.601
+_exptl_absorpt_correction_type   multi-scan
+_exptl_absorpt_correction_T_min  0.1267
+_exptl_absorpt_correction_T_max  0.3333
+_exptl_absorpt_process_details   
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.28 (release 01-02-2013 CrysAlis171 .NET)
+(compiled Feb  1 2013,16:14:44)
+Empirical absorption correction using spherical harmonics,
+ implemented in SCALE3 ABSPACK scaling algorithm.
+;
+
+_exptl_special_details           
+; 
+ ? 
+;
+
+_diffrn_ambient_temperature      293(2)
+_diffrn_radiation_wavelength     0.71073
+_diffrn_radiation_type           MoK\a
+_diffrn_radiation_source         'fine-focus sealed tube'
+_diffrn_radiation_monochromator  graphite
+_diffrn_measurement_device_type  'Xcalibur, Eos, Gemini'
+_diffrn_measurement_method       '\w scans'
+_diffrn_detector_area_resol_mean 16.0710
+_diffrn_standards_number         ?
+_diffrn_standards_interval_count ?
+_diffrn_standards_interval_time  ?
+_diffrn_standards_decay_%        ?
+_diffrn_reflns_number            9114
+_diffrn_reflns_av_R_equivalents  0.0285
+_diffrn_reflns_av_sigmaI/netI    0.0322
+_diffrn_reflns_limit_h_min       -22
+_diffrn_reflns_limit_h_max       10
+_diffrn_reflns_limit_k_min       -10
+_diffrn_reflns_limit_k_max       10
+_diffrn_reflns_limit_l_min       -25
+_diffrn_reflns_limit_l_max       15
+_diffrn_reflns_theta_min         2.78
+_diffrn_reflns_theta_max         25.99
+_reflns_number_total             3255
+_reflns_number_gt                2752
+_reflns_threshold_expression     >2sigma(I)
+
+_computing_data_collection       
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.28 (release 01-02-2013 CrysAlis171 .NET)
+(compiled Feb  1 2013,16:14:44)
+;
+_computing_cell_refinement       
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.28 (release 01-02-2013 CrysAlis171 .NET)
+(compiled Feb  1 2013,16:14:44)
+;
+_computing_data_reduction        
+;
+CrysAlisPro, Agilent Technologies,
+Version 1.171.36.28 (release 01-02-2013 CrysAlis171 .NET)
+(compiled Feb  1 2013,16:14:44)
+;
+_computing_structure_solution    'SHELXS-97 (Sheldrick, 1990)'
+_computing_structure_refinement  'SHELXL-97 (Sheldrick, 1997)'
+_computing_molecular_graphics    ?
+_computing_publication_material  ?
+
+_refine_special_details          
+; 
+ Refinement of F^2^ against ALL reflections.  The weighted R-factor wR and 
+ goodness of fit S are based on F^2^, conventional R-factors R are based 
+ on F, with F set to zero for negative F^2^. The threshold expression of 
+ F^2^ > 2sigma(F^2^) is used only for calculating R-factors(gt) etc. and is 
+ not relevant to the choice of reflections for refinement.  R-factors based 
+ on F^2^ are statistically about twice as large as those based on F, and R- 
+ factors based on ALL data will be even larger. 
+;
+
+_refine_ls_structure_factor_coef Fsqd
+_refine_ls_matrix_type           full
+_refine_ls_weighting_scheme      calc
+_refine_ls_weighting_details     
+'calc w=1/[\s^2^(Fo^2^)+(0.0347P)^2^+0.0000P] where P=(Fo^2^+2Fc^2^)/3'
+_atom_sites_solution_primary     direct
+_atom_sites_solution_secondary   difmap
+_atom_sites_solution_hydrogens   geom
+_refine_ls_hydrogen_treatment    constr
+_refine_ls_extinction_method     SHELXL
+_refine_ls_extinction_coef       0.00174(5)
+_refine_ls_extinction_expression Fc^*^=kFc[1+0.001xFc^2^\l^3^/sin(2\q)]^-1/4^
+_refine_ls_number_reflns         3255
+_refine_ls_number_parameters     113
+_refine_ls_number_restraints     26
+_refine_ls_R_factor_all          0.0400
+_refine_ls_R_factor_gt           0.0310
+_refine_ls_wR_factor_ref         0.0752
+_refine_ls_wR_factor_gt          0.0710
+_refine_ls_goodness_of_fit_ref   1.138
+_refine_ls_restrained_S_all      1.143
+_refine_ls_shift/su_max          0.001
+_refine_ls_shift/su_mean         0.000
+
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+_atom_site_symmetry_multiplicity
+_atom_site_calc_flag
+_atom_site_refinement_flags
+_atom_site_disorder_assembly
+_atom_site_disorder_group
+Pb1 Pb 0.377339(12) 0.12825(3) 0.729838(14) 0.02966(11) Uani 1 1 d . . .
+I1 I 0.39908(3) 0.12302(6) 0.58059(3) 0.04642(16) Uani 1 1 d . . .
+I2 I 0.26589(3) -0.15191(6) 0.71599(3) 0.04874(17) Uani 1 1 d . . .
+I3 I 0.48918(3) 0.40828(6) 0.74422(3) 0.04711(18) Uani 1 1 d . . .
+I4 I 0.34557(3) 0.16366(7) 0.88608(3) 0.05500(18) Uani 1 1 d . . .
+N1 N 0.1223(3) 0.2896(8) 1.0509(4) 0.0464(17) Uani 1 1 d . . .
+H1A H 0.1322 0.1915 1.0642 0.056 Uiso 1 1 calc R . .
+N2 N 0.1605(4) 0.0688(8) 0.8382(4) 0.059(2) Uani 1 1 d . . .
+H2A H 0.2050 0.1081 0.8396 0.088 Uiso 1 1 calc R . .
+H2B H 0.1435 0.0753 0.7982 0.088 Uiso 1 1 calc R . .
+H2C H 0.1616 -0.0299 0.8503 0.088 Uiso 1 1 calc R . .
+C1 C 0.1909(6) 0.3770(12) 1.0527(7) 0.086(3) Uani 1 1 d U . .
+H1B H 0.1846 0.4746 1.0314 0.129 Uiso 1 1 calc R . .
+H1C H 0.2281 0.3187 1.0313 0.129 Uiso 1 1 calc R . .
+H1D H 0.2047 0.3945 1.0967 0.129 Uiso 1 1 calc R . .
+C2 C 0.0709(6) 0.3574(11) 1.0977(6) 0.078(3) Uani 1 1 d U . .
+H2D H 0.0577 0.4597 1.0839 0.117 Uiso 1 1 calc R . .
+H2E H 0.0934 0.3627 1.1393 0.117 Uiso 1 1 calc R . .
+H2F H 0.0284 0.2939 1.1001 0.117 Uiso 1 1 calc R . .
+C3 C 0.0918(4) 0.2787(11) 0.9859(4) 0.059(2) Uani 1 1 d D . .
+H3A H 0.0858 0.3815 0.9679 0.070 Uiso 1 1 calc R . .
+H3B H 0.0446 0.2293 0.9876 0.070 Uiso 1 1 calc R . .
+C4 C 0.1426(6) 0.1846(13) 0.9439(5) 0.083(3) Uani 1 1 d DU . .
+H4A H 0.1881 0.2397 0.9396 0.100 Uiso 1 1 calc R . .
+H4B H 0.1525 0.0867 0.9650 0.100 Uiso 1 1 calc R . .
+C5 C 0.1140(6) 0.1548(15) 0.8810(6) 0.097(4) Uani 1 1 d DU . .
+H5A H 0.1026 0.2532 0.8609 0.116 Uiso 1 1 calc R . .
+H5B H 0.0689 0.0983 0.8857 0.116 Uiso 1 1 calc R . .
+
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_23
+_atom_site_aniso_U_13
+_atom_site_aniso_U_12
+Pb1 0.02481(16) 0.02517(16) 0.0390(2) -0.00013(12) -0.00126(12) -0.00037(9)
+I1 0.0443(3) 0.0560(3) 0.0390(3) -0.0001(3) 0.0007(3) -0.0083(2)
+I2 0.0434(3) 0.0373(3) 0.0655(4) -0.0043(3) 0.0079(3) -0.0189(2)
+I3 0.0405(3) 0.0369(3) 0.0640(4) -0.0068(3) -0.0004(3) -0.0169(2)
+I4 0.0504(3) 0.0741(4) 0.0405(3) 0.0056(3) -0.0021(3) 0.0008(3)
+N1 0.042(4) 0.043(4) 0.054(5) 0.005(4) 0.009(4) 0.004(3)
+N2 0.062(4) 0.066(4) 0.049(5) -0.018(4) 0.003(4) -0.007(4)
+C1 0.074(6) 0.105(7) 0.079(7) 0.011(6) -0.019(6) -0.023(5)
+C2 0.086(6) 0.081(6) 0.066(6) -0.010(5) 0.004(6) 0.010(5)
+C3 0.039(5) 0.091(6) 0.046(6) -0.015(5) 0.004(4) -0.016(4)
+C4 0.070(6) 0.105(7) 0.075(7) -0.009(6) 0.009(6) 0.000(5)
+C5 0.082(7) 0.114(7) 0.093(8) -0.024(6) 0.002(6) 0.006(5)
+
+_geom_special_details            
+; 
+ All esds (except the esd in the dihedral angle between two l.s. planes) 
+ are estimated using the full covariance matrix.  The cell esds are taken 
+ into account individually in the estimation of esds in distances, angles 
+ and torsion angles; correlations between esds in cell parameters are only 
+ used when they are defined by crystal symmetry.  An approximate (isotropic) 
+ treatment of cell esds is used for estimating esds involving l.s. planes. 
+;
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Pb1 I1 3.1264(7) . ?
+Pb1 I3 3.1590(5) 3_646 ?
+Pb1 I2 3.1904(5) . ?
+Pb1 I3 3.1953(5) . ?
+Pb1 I2 3.2692(5) 8_665 ?
+Pb1 I4 3.3121(7) . ?
+I2 Pb1 3.2692(5) 8_655 ?
+I3 Pb1 3.1590(5) 3_656 ?
+N1 C3 1.467(11) . ?
+N1 C1 1.476(11) . ?
+N1 C2 1.479(12) . ?
+N2 C5 1.442(13) . ?
+C3 C4 1.517(11) . ?
+C4 C5 1.433(13) . ?
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+I1 Pb1 I3 93.453(17) . 3_646 ?
+I1 Pb1 I2 88.998(16) . . ?
+I3 Pb1 I2 93.570(15) 3_646 . ?
+I1 Pb1 I3 91.182(16) . . ?
+I3 Pb1 I3 86.286(6) 3_646 . ?
+I2 Pb1 I3 179.78(2) . . ?
+I1 Pb1 I2 91.439(17) . 8_665 ?
+I3 Pb1 I2 174.848(19) 3_646 8_665 ?
+I2 Pb1 I2 84.891(6) . 8_665 ?
+I3 Pb1 I2 95.237(14) . 8_665 ?
+I1 Pb1 I4 174.691(16) . . ?
+I3 Pb1 I4 91.527(17) 3_646 . ?
+I2 Pb1 I4 92.530(17) . . ?
+I3 Pb1 I4 87.302(17) . . ?
+I2 Pb1 I4 83.638(17) 8_665 . ?
+Pb1 I2 Pb1 162.73(2) . 8_655 ?
+Pb1 I3 Pb1 167.41(2) 3_656 . ?
+C3 N1 C1 112.8(8) . . ?
+C3 N1 C2 112.6(7) . . ?
+C1 N1 C2 109.3(8) . . ?
+N1 C3 C4 109.0(7) . . ?
+C5 C4 C3 113.1(10) . . ?
+C4 C5 N2 115.8(10) . . ?
+
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_site_symmetry_A
+N2 H2A I4 0.89 2.81 3.653(7) 158.5 .
+N1 H1A I1 0.91 2.80 3.640(7) 154.2 2
+N2 H2B I3 0.89 3.06 3.657(7) 126.5 8_655
+N2 H2C I4 0.89 2.75 3.641(7) 175.8 8_655
+
+_diffrn_measured_fraction_theta_max 0.999
+_diffrn_reflns_theta_full        25.99
+_diffrn_measured_fraction_theta_full 0.999
+_refine_diff_density_max         1.359
+_refine_diff_density_min         -1.368
+_refine_diff_density_rms         0.232

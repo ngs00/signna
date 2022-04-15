@@ -1,0 +1,230 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_GUA3PbI5-3-II
+_audit_block_doi                 10.5517/ccdc.csd.cc20g7rh
+_database_code_depnum_ccdc_archive 'CCDC 1860736'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1002/chem.201804066 2018
+loop_
+_audit_author_name
+_audit_author_address
+'Manuel Wilke'
+;Paul Scherrer Institute
+Switzerland
+;
+_audit_update_record             
+;
+2018-08-07 deposited with the CCDC.	2019-12-02 downloaded from the CCDC.
+;
+_chemical_name_mineral           ?
+_cell_length_a                   13.32939(7)
+_cell_length_b                   13.14556(7)
+_cell_length_c                   12.88785(8)
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     2258.24(2)
+_symmetry_space_group_name_H-M   Cmc21
+_cell_formula_units_Z            4
+_space_group_crystal_system      orthorhombic
+_space_group_IT_number           36
+_space_group_name_Hall           'C 2c -2'
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 -x,-y,1/2+z
+3 -x,y,z
+4 x,-y,1/2+z
+5 1/2+x,1/2+y,z
+6 1/2-x,1/2-y,1/2+z
+7 1/2-x,1/2+y,z
+8 1/2+x,1/2-y,1/2+z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_symmetry_multiplicity
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Pb1 Pb 4 0.5 1.0000(3) 0.9499(15) 1 5.48231
+I1 I 4 0.5 0.7535(5) 0.9664(15) 1 5.48231
+I2 I 4 0.5 1.2376(5) 0.9054(15) 1 5.48231
+I3 I 4 0.5 1.0436(2) 1.1940(16) 1 5.48231
+I4 I 8 0.25894(16) 0.9999(4) 0.9568(15) 1 5.48231
+C1 C 8 0.75552 -0.77942 0.69844 1 8
+N1 N 8 0.7756(14) -0.7087(11) 0.6322(13) 1 8
+N2 N 8 0.8019(15) -0.7820(18) 0.7863(9) 1 8
+N3 N 8 0.6891(13) -0.8476(12) 0.6768(16) 1 8
+H1 H 8 0.846(2) -0.737(3) 0.8007(18) 1 8
+H2 H 8 0.788(2) -0.829(2) 0.8304(11) 1 8
+H3 H 8 0.658(2) -0.846(2) 0.618(2) 1 8
+H4 H 8 0.6757(19) -0.8947(13) 0.721(2) 1 8
+H5 H 8 0.745(2) -0.707(2) 0.5737(13) 1 8
+H6 H 8 0.8199(19) -0.6632(13) 0.647(2) 1 8
+C2 C 4 0.5 0.46742 0.1947 1 8
+N4 N 4 0.5 0.3654(7) 0.1489(17) 1 8
+N5 N 4 0.5 0.5466(10) 0.1355(13) 1 8
+N6 N 4 0.5 0.4781(16) 0.29420(19) 1 8
+H7 H 4 0.5 0.539(2) 0.0692(12) 1 8
+H8 H 4 0.5 0.6065(5) 0.162(2) 1 8
+H9 H 4 0.5 0.425(2) 0.3337(7) 1 8
+H10 H 4 0.5 0.538(2) 0.3211(12) 1 8
+H11 H 4 0.5 0.31259(8) 0.188(3) 1 8
+H12 H 4 0.5 0.3583(18) 0.0825(18) 1 8
+
+
+
+_chemical_formula_moiety         '(C1 H6 N3)3 (I5 Pb1) '
+_chemical_formula_sum            'C3 H18  I5 N9 Pb1 '
+_diffrn_ambient_temperature      420
+_cell_measurement_temperature    420
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     0.4938745
+_diffrn_radiation_source         synchrotron
+_diffrn_measurement_device_type  'MS beamline, PSI'
+_chemical_formula_weight         1021.95
+_exptl_crystal_description       block
+_exptl_crystal_colour            orange
+_exptl_crystal_density_diffrn    3.006
+
+_pd_meas_2theta_range_min        1
+_pd_meas_2theta_range_max        25
+_pd_proc_2theta_range_inc        0.0036
+
+_pd_proc_ls_background_function  ?
+_pd_proc_number_of_points        6667
+_pd_spec_mount_mode              transmission
+_pd_spec_mounting                '0.5 mm glass capillary'
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              10
+_pd_spec_size_equat              0.5
+_pd_spec_size_thick              0.5
+_pd_proc_ls_prof_wR_factor       5.30
+_refine_ls_goodness_of_fit_all   6.52
+_refine_ls_R_I_factor            5.93
+
+_pd_block_diffractogram_id       GUA3PbI5-1-II_Riet_data
+
+
+_pd_proc_info_excluded_regions   none
+_pd_proc_info_data_reduction     ?
+
+
+
+_computing_data_collection       Topas
+_computing_cell_refinement       Topas
+_computing_data_reduction        Topas
+_computing_structure_solution    'EXPO2014 and Topas'
+_computing_structure_refinement  Topas
+_computing_molecular_graphics    'Crystal Maker'
+_computing_publication_material  ?
+
+_geom_special_details            
+;
+ Bond distances, angles etc. have been calculated using the
+ rounded fractional coordinates. All su's are estimated
+ from the variances of the (full) variance-covariance matrix.
+ The cell esds are taken into account in the estimation of
+ distances, angles and torsion angles
+;
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Pb1 I1 3.247(8) . . yes
+Pb1 I2 3.176(9) . . yes
+Pb1 I3 3.20(3) . . yes
+Pb1 I4 3.214(2) . . yes
+Pb1 I3 3.35(3) . 2_674 yes
+Pb1 I4 3.214(2) . 3_655 yes
+N1 C1 1.290(16) . . yes
+N2 C1 1.291(14) . . yes
+N3 C1 1.290(17) . . yes
+N1 H5 0.86(3) . . no
+N1 H6 0.86(3) . . no
+N2 H1 0.85(4) . . no
+N2 H2 0.86(3) . . no
+N3 H3 0.86(3) . . no
+N3 H4 0.86(3) . . no
+N4 C2 1.465(12) . . yes
+N5 C2 1.291(14) . . yes
+N6 C2 1.290(3) . . yes
+N4 H11 0.86(3) . . no
+N4 H12 0.86(3) . . no
+N5 H7 0.86(2) . . no
+N5 H8 0.858(18) . . no
+N6 H9 0.86(3) . . no
+N6 H10 0.86(3) . . no
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+I1 Pb1 I2 173.4(8) . . . yes
+I1 Pb1 I3 96.6(5) . . . yes
+I1 Pb1 I4 89.87(12) . . . yes
+I1 Pb1 I3 83.9(5) . . 2_674 yes
+I1 Pb1 I4 89.87(12) . . 3_655 yes
+I2 Pb1 I3 90.1(5) . . . yes
+I2 Pb1 I4 90.31(14) . . . yes
+I2 Pb1 I3 89.5(5) . . 2_674 yes
+I2 Pb1 I4 90.31(14) . . 3_655 yes
+I3 Pb1 I4 88.4(5) . . . yes
+I3 Pb1 I3 179.5(2) . . 2_674 yes
+I3 Pb1 I4 88.4(5) . . 3_655 yes
+I3 Pb1 I4 91.6(5) 2_674 . . yes
+I4 Pb1 I4 176.8(8) . . 3_655 yes
+I3 Pb1 I4 91.6(5) 2_674 . 3_655 yes
+Pb1 I3 Pb1 159.82(16) . . 2_675 yes
+N1 C1 N2 120.0(12) . . . yes
+N1 C1 N3 120.0(12) . . . yes
+N2 C1 N3 120.0(13) . . . yes
+C1 N1 H5 120(2) . . . no
+C1 N1 H6 120(2) . . . no
+H5 N1 H6 120(3) . . . no
+C1 N2 H1 120(3) . . . no
+C1 N2 H2 120(3) . . . no
+H1 N2 H2 120(3) . . . no
+C1 N3 H3 120(2) . . . no
+C1 N3 H4 120(3) . . . no
+H3 N3 H4 120(3) . . . no
+N4 C2 N5 120.0(11) . . . yes
+N4 C2 N6 120.0(12) . . . yes
+N5 C2 N6 120.0(12) . . . yes
+C2 N4 H11 120(3) . . . no
+C2 N4 H12 120(2) . . . no
+H11 N4 H12 120(3) . . . no
+C2 N5 H7 120(2) . . . no
+C2 N5 H8 120(2) . . . no
+H7 N5 H8 120(3) . . . no
+C2 N6 H9 120(2) . . . no
+C2 N6 H10 120.0(19) . . . no
+H9 N6 H10 120.1(17) . . . no

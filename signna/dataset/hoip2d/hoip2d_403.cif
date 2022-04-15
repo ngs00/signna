@@ -1,0 +1,99 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_JEPLEV
+#This CIF has been generated from an entry in the Cambridge Structural Database
+_database_code_depnum_ccdc_archive 'CCDC 1184819'
+_database_code_CSD               JEPLEV
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1107/S0108270189012680 1990
+_audit_creation_method           'Created from the CSD'
+_audit_update_record             
+;
+2020-05-04 downloaded from the CCDC.
+;
+_database_code_NBS               595647
+_chemical_formula_moiety         'C5 H16 N2 2+,Cl4 Cu1 2-'
+_chemical_name_systematic        '1,5-Pentanediammonium tetrachloro-copper(ii)'
+_chemical_absolute_configuration unk
+_diffrn_ambient_temperature      295
+_exptl_crystal_density_diffrn    1.732
+#These two values have been output from a single CSD field.
+_refine_ls_R_factor_gt           0.0925
+_refine_ls_wR_factor_gt          0.0925
+_diffrn_radiation_probe          x-ray
+_symmetry_cell_setting           monoclinic
+_symmetry_space_group_name_H-M   'P 21/n'
+_symmetry_Int_Tables_number      14
+_space_group_name_Hall           '-P 2yn'
+loop_
+_symmetry_equiv_pos_site_id
+_symmetry_equiv_pos_as_xyz
+1 x,y,z
+2 1/2-x,1/2+y,1/2-z
+3 -x,-y,-z
+4 1/2+x,1/2-y,1/2+z
+_cell_length_a                   7.747(3)
+_cell_length_b                   7.203(2)
+_cell_length_c                   21.761(6)
+_cell_angle_alpha                90
+_cell_angle_beta                 102.12(2)
+_cell_angle_gamma                90
+_cell_volume                     1187.23
+_cell_formula_units_Z            4
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+Cu1 Cu 0.0000 0.0000 0.0000
+Cl1 Cl 0.1095(11) -0.0289(12) 0.1062(3)
+Cl3 Cl 0.1990(11) -0.2177(13) -0.0164(4)
+Cl1B Cl -0.1095(11) 0.0289(12) -0.1062(3)
+Cl3B Cl -0.1990(11) 0.2177(13) 0.0164(4)
+Cu2 Cu 0.5000 0.5000 0.0000
+Cl2 Cl 0.5191(11) 0.4825(14) 0.1070(3)
+Cl4 Cl 0.7152(11) 0.7266(15) 0.0140(3)
+Cl2B Cl 0.4809(11) 0.5175(14) -0.1070(3)
+Cl4B Cl 0.2848(11) 0.2734(15) -0.0140(3)
+N1 N 0.5343(37) 0.0238(43) 0.0987(11)
+C1 C 0.6767(47) -0.0289(55) 0.1577(13)
+C2 C 0.6458(52) 0.0559(61) 0.2160(17)
+C3 C 0.5009(63) -0.0194(88) 0.2387(18)
+C4 C 0.5125(78) 0.0459(89) 0.3099(23)
+C5 C 0.3693(78) -0.0265(87) 0.3373(24)
+N2 N 0.4061(30) 0.0277(37) 0.4012(9)
+H1 H 0.5470 -0.0335 0.0613
+H2 H 0.5216 0.1562 0.0936
+H3 H 0.4125 -0.0182 0.1058
+H4 H 0.2992 0.0269 0.4169
+H5 H 0.4565 0.1499 0.4055
+H6 H 0.4888 -0.0592 0.4244
+H7 H 0.7882 0.0129 0.1502
+H8 H 0.6790 -0.1614 0.1624
+H9 H 0.6255 0.1861 0.2083
+H10 H 0.7503 0.0390 0.2482
+H11 H 0.3928 0.0246 0.2128
+H12 H 0.5038 -0.1525 0.2371
+H13 H 0.5080 0.1791 0.3105
+H14 H 0.6231 0.0045 0.3348
+H15 H 0.3645 -0.1594 0.3338
+H16 H 0.2584 0.0253 0.3163
+
+#END

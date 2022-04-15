@@ -1,0 +1,254 @@
+####################################################################### 
+# 
+# This file contains crystal structure data downloaded from the 
+# Cambridge Structural Database (CSD) hosted by the Cambridge 
+# Crystallographic Data Centre (CCDC).
+# 
+# Full information about CCDC data access policies and citation 
+# guidelines are available at http://www.ccdc.cam.ac.uk/access/V1 
+# 
+# Audit and citation data items may have been added by the CCDC. 
+# Please retain this information to preserve the provenance of 
+# this file and to allow appropriate attribution of the data. 
+# 
+#######################################################################
+
+data_GUA3PbI5-3-III
+_audit_block_doi                 10.5517/ccdc.csd.cc20g7sj
+_database_code_depnum_ccdc_archive 'CCDC 1860737'
+loop_
+_citation_id
+_citation_doi
+_citation_year
+1 10.1002/chem.201804066 2018
+loop_
+_audit_author_name
+_audit_author_address
+'Manuel Wilke'
+;Paul Scherrer Institute
+Switzerland
+;
+_audit_update_record             
+;
+2018-08-07 deposited with the CCDC.	2019-12-02 downloaded from the CCDC.
+;
+_chemical_name_mineral           ?
+_cell_length_a                   9.42475(5)
+_cell_length_b                   9.42475(5)
+_cell_length_c                   6.47682(5)
+_cell_angle_alpha                90
+_cell_angle_beta                 90
+_cell_angle_gamma                90
+_cell_volume                     575.309(7)
+_symmetry_space_group_name_H-M   P-4m2
+_cell_formula_units_Z            1
+_space_group_crystal_system      tetragonal
+_space_group_IT_number           115
+_space_group_name_Hall           'P -4 -2'
+loop_
+_space_group_symop_id
+_space_group_symop_operation_xyz
+1 x,y,z
+2 y,-x,-z
+3 -x,-y,z
+4 -y,x,-z
+5 -x,y,z
+6 y,x,-z
+7 x,-y,z
+8 -y,-x,-z
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_occupancy
+_atom_site_B_iso_or_equiv
+Pb1 Pb 0 0 0.5 1 8.38(7)
+I1 I 0 0 0 1 8.38(7)
+I2 I -0.2393(2) 0.2393(2) 0.5 1 8.38(7)
+C1 C 0.5 0.5 0 1 25(3)
+N1 N 0.381(8) 0.5 -0.100(7) 0.5 25(3)
+N2 N 0.5 0.5 0.199(18) 0.5 25(3)
+H1 H 0.5790383 0.5 0.266(18) 0.5 25(3)
+H2 H 0.381(8) 0.5 -0.232(7) 0.5 25(3)
+H3 H 0.302(8) 0.5 -0.033(7) 0.5 25(3)
+C2 C 0 0.5 1.000(14) 1 25(3)
+N4 N 0 0.5 1.199(18) 1 25(3)
+N5 N -0.084(5) 0.416(5) 0.900(15) 0.5 25(3)
+H4 H 0.05588852 0.5558885 1.266(18) 0.5 25(3)
+H5 H -0.084(5) 0.416(5) 0.768(15) 0.5 25(3)
+H6 H -0.140(5) 0.360(5) 0.967(15) 0.5 25(3)
+
+
+
+
+_chemical_formula_moiety         'I5 Pb, 3(C H6 N3)  '
+_chemical_formula_sum            'C3 H18  I5 N9 Pb '
+_diffrn_ambient_temperature      500
+_cell_measurement_temperature    500
+_diffrn_radiation_probe          x-ray
+_diffrn_radiation_wavelength     0.4938745
+_diffrn_radiation_source         synchrotron
+_diffrn_measurement_device_type  'MS beamline, PSI'
+_chemical_formula_weight         1021.95
+_exptl_crystal_description       block
+_exptl_crystal_colour            orange
+_exptl_crystal_density_diffrn    2.950
+
+_pd_meas_2theta_range_min        1
+_pd_meas_2theta_range_max        25
+_pd_proc_2theta_range_inc        0.0036
+
+_pd_proc_ls_background_function  ?
+_pd_proc_number_of_points        6667
+_pd_spec_mount_mode              transmission
+_pd_spec_mounting                '0.5 mm glass capillary'
+_pd_spec_shape                   cylinder
+_pd_spec_size_axial              10
+_pd_spec_size_equat              0.5
+_pd_spec_size_thick              0.5
+_pd_proc_ls_prof_wR_factor       6.20
+_refine_ls_goodness_of_fit_all   7.35
+_refine_ls_R_I_factor            7.19
+
+_pd_block_diffractogram_id       GUA3PbI5-1-III_Riet_data
+
+
+_pd_proc_info_excluded_regions   none
+_pd_proc_info_data_reduction     ?
+
+
+
+_computing_data_collection       Topas
+_computing_cell_refinement       Topas
+_computing_data_reduction        Topas
+_computing_structure_solution    'EXPO2014 and Topas'
+_computing_structure_refinement  Topas
+_computing_molecular_graphics    'Crystal Maker'
+_computing_publication_material  ?
+
+_geom_special_details            
+;
+ Bond distances, angles etc. have been calculated using the
+ rounded fractional coordinates. All su's are estimated
+ from the variances of the (full) variance-covariance matrix.
+ The cell esds are taken into account in the estimation of
+ distances, angles and torsion angles
+;
+
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_1
+_geom_bond_site_symmetry_2
+_geom_bond_publ_flag
+Pb1 I1 3.2384(1) . . yes
+Pb1 I2 3.1895(19) . . yes
+Pb1 I1 3.2384(1) . 1_556 yes
+Pb1 I2 3.1895(19) . 2_556 yes
+Pb1 I2 3.1895(19) . 3_555 yes
+Pb1 I2 3.1895(19) . 4_556 yes
+N1 C1 1.30(7) . . yes
+N1 N2 1.29(9) . 2_565 yes
+N2 C1 1.29(12) . . yes
+N1 H2 0.86(6) . . no
+N1 H3 0.86(10) . . no
+N2 H1 0.86(8) . . no
+N2 H2 1.14(8) . 2_565 no
+N2 H1 0.86(8) . 3_665 no
+N2 H2 1.14(8) . 4_655 no
+N4 C2 1.29(15) . . yes
+N5 C2 1.29(8) . . yes
+N4 H4 0.86(8) . . no
+N5 H5 0.86(14) . . no
+N5 H6 0.86(9) . . no
+
+loop_
+_geom_angle_atom_site_label_1
+_geom_angle_atom_site_label_2
+_geom_angle_atom_site_label_3
+_geom_angle
+_geom_angle_site_symmetry_1
+_geom_angle_site_symmetry_2
+_geom_angle_site_symmetry_3
+_geom_angle_publ_flag
+I1 Pb1 I2 90.00 . . . yes
+I1 Pb1 I1 180.00 . . 1_556 yes
+I1 Pb1 I2 90.00 . . 2_556 yes
+I1 Pb1 I2 90.00 . . 3_555 yes
+I1 Pb1 I2 90.00 . . 4_556 yes
+I1 Pb1 I2 90.00 1_556 . . yes
+I2 Pb1 I2 90.00(5) . . 2_556 yes
+I2 Pb1 I2 180.00 . . 3_555 yes
+I2 Pb1 I2 90.00(5) . . 4_556 yes
+I1 Pb1 I2 90.00 1_556 . 2_556 yes
+I1 Pb1 I2 90.00 1_556 . 3_555 yes
+I1 Pb1 I2 90.00 1_556 . 4_556 yes
+I2 Pb1 I2 90.00(5) 2_556 . 3_555 yes
+I2 Pb1 I2 180.00 2_556 . 4_556 yes
+I2 Pb1 I2 90.00(5) 3_555 . 4_556 yes
+Pb1 I1 Pb1 180.00 . . 1_554 yes
+N2 N1 C1 60(6) 2_565 . . yes
+N1 N2 C1 60(5) 2_565 . . yes
+N1 N2 C1 60(5) 4_655 . . yes
+N1 N2 N1 121(9) 2_565 . 4_655 yes
+N1 C1 N2 120(2) . . . yes
+N1 C1 N1 104.5(15) . . 2_565 yes
+N1 C1 N2 60(2) . . 2_565 yes
+N1 C1 N1 120(3) . . 3_665 yes
+N1 C1 N1 104.5(16) . . 4_655 yes
+N1 C1 N2 60(2) 2_565 . . yes
+N2 C1 N2 180.00 . . 2_565 yes
+N1 C1 N2 120(2) 3_665 . . yes
+N1 C1 N2 60(2) 4_655 . . yes
+N1 C1 N2 120(2) 2_565 . 2_565 yes
+N1 C1 N1 104.5(15) 2_565 . 3_665 yes
+N1 C1 N1 120(3) 2_565 . 4_655 yes
+N1 C1 N2 60(2) 3_665 . 2_565 yes
+N1 C1 N2 120(2) 4_655 . 2_565 yes
+N1 C1 N1 104.5(15) 3_665 . 4_655 yes
+C1 N1 H2 120(9) . . . no
+C1 N1 H3 120(6) . . . no
+H2 N1 H3 120(10) . . . no
+N2 N1 H2 60(8) 2_565 . . no
+N2 N1 H3 180(8) 2_565 . . no
+C1 N2 H1 120(9) . . . no
+C1 N2 H2 101(6) . . 2_565 no
+C1 N2 H1 120(9) . . 3_665 no
+C1 N2 H2 101(6) . . 4_655 no
+N1 N2 H1 105(3) 2_565 . . no
+H1 N2 H2 85(4) . . 2_565 no
+H1 N2 H1 120(17) . . 3_665 no
+N1 N2 H1 105(3) 4_655 . . no
+H1 N2 H2 85(4) . . 4_655 no
+N1 N2 H2 41(4) 2_565 . 2_565 no
+N1 N2 H1 105(3) 2_565 . 3_665 no
+N1 N2 H2 161(11) 2_565 . 4_655 no
+H1 N2 H2 85(4) 3_665 . 2_565 no
+N1 N2 H2 161(11) 4_655 . 2_565 no
+H2 N2 H2 158(12) 2_565 . 4_655 no
+N1 N2 H1 105(3) 4_655 . 3_665 no
+H1 N2 H2 85(4) 3_665 . 4_655 no
+N1 N2 H2 41(4) 4_655 . 4_655 no
+N4 C2 N5 120(5) . . . yes
+C2 N4 H4 120(9) . . . no
+C2 N5 H5 120(7) . . . no
+C2 N5 H6 120(12) . . . no
+H5 N5 H6 120(10) . . . no
+
+loop_
+_geom_hbond_atom_site_label_D
+_geom_hbond_atom_site_label_H
+_geom_hbond_atom_site_label_A
+_geom_hbond_distance_DH
+_geom_hbond_distance_HA
+_geom_hbond_distance_DA
+_geom_hbond_angle_DHA
+_geom_hbond_site_symmetry_A
+_geom_hbond_publ_flag
+#
+#D   H   A   D - H  H...A   D...A    D - H...A  symm(A)
+#
+N5 H5 I2 0.86(14) 2.82(7) 3.41(8) 128(5) . yes

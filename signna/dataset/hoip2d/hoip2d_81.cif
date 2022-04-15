@@ -1,0 +1,97 @@
+data_81
+_audit_creation_date              2020-05-03
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P21/C'
+_symmetry_Int_Tables_number       14
+_symmetry_cell_setting            monoclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+  -x,y+1/2,-z+1/2
+  -x,-y,-z
+  x,-y+1/2,z+1/2
+_cell_length_a                    16.2583
+_cell_length_b                    8.9028
+_cell_length_c                    8.6261
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0710
+_cell_angle_gamma                 90.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+C1     C     0.19970   1.04320   0.52580   0.03167  Uani   1.00
+H1D    H     0.17120   1.04890   0.62700   0.03800  Uiso   1.00
+H1E    H     0.19330   1.14150   0.47360   0.03800  Uiso   1.00
+C2     C     0.28880   1.01300   0.55220   0.03300  Uani   1.00
+H2A    H     0.31690   1.00890   0.45060   0.04000  Uiso   1.00
+H2B    H     0.29470   0.91320   0.60170   0.04000  Uiso   1.00
+C3     C     0.33120   1.12910   0.65270   0.03133  Uani   1.00
+H3A    H     0.29980   1.14200   0.75010   0.03700  Uiso   1.00
+H3B    H     0.33180   1.22670   0.59790   0.03700  Uiso   1.00
+C4     C     0.41900   1.08320   0.69130   0.03401  Uani   1.00
+H4A    H     0.41870   0.98130   0.73720   0.04100  Uiso   1.00
+H4B    H     0.45160   1.07910   0.59450   0.04100  Uiso   1.00
+C5     C     0.45940   1.19000   0.80200   0.03801  Uani   1.00
+H5A    H     0.42590   1.19570   0.89810   0.04600  Uiso   1.00
+H5B    H     0.46050   1.29140   0.75550   0.04600  Uiso   1.00
+N1     N     0.16060   0.92520   0.42990   0.03400  Uani   1.00
+H1A    H     0.10600   0.94550   0.41930   0.05100  Uiso   1.00
+H1B    H     0.16710   0.83440   0.47670   0.05100  Uiso   1.00
+H1C    H     0.18460   0.92330   0.33470   0.05100  Uiso   1.00
+I1     I     0.19612   0.96908   0.01775   0.02807  Uani   1.00
+I2     I    -0.00337   0.80542  -0.30808   0.02814  Uani   1.00
+Pb1    Pb    0.00000   1.00000   0.00000   0.01750  Uani   1.00
+loop_
+_atom_site_aniso_label
+_atom_site_aniso_U_11
+_atom_site_aniso_U_22
+_atom_site_aniso_U_33
+_atom_site_aniso_U_12
+_atom_site_aniso_U_13
+_atom_site_aniso_U_23
+C1        0.02800   0.04000   0.02700   0.00300  -0.00400  -0.00300
+C2        0.02900   0.03500   0.03500   0.00600  -0.00400  -0.00200
+C3        0.02700   0.03100   0.03600  -0.00500  -0.00100   0.00400
+C4        0.03400   0.03200   0.03600   0.00300  -0.00800  -0.00500
+C5        0.02900   0.02600   0.05900   0.00100  -0.01100  -0.00900
+N1        0.03600   0.03000   0.03600  -0.00300  -0.00200   0.00200
+I1        0.01890   0.03030   0.03500  -0.00230  -0.00040   0.00130
+I2        0.03760   0.02170   0.02510   0.00530  -0.00210  -0.00920
+Pb1       0.01850   0.01420   0.01980   0.00040  -0.00040  -0.00026
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+C1     N1      1.480   .     S
+C1     C2      1.491   .     S
+C1     H1D     0.990   .     S
+C1     H1E     0.990   .     S
+C2     C3      1.514   .     S
+C2     H2A     0.990   .     S
+C2     H2B     0.990   .     S
+C3     C4      1.521   .     S
+C3     H3A     0.990   .     S
+C3     H3B     0.989   .     S
+C4     C5      1.499   .     S
+C4     H4A     0.990   .     S
+C4     H4B     0.990   .     S
+C5     H5A     0.994   .     S
+C5     H5B     0.988   .     S
+N1     H1A     0.910   .     S
+N1     H1B     0.910   .     S
+N1     H1C     0.910   .     S
+I1     Pb1     3.204   .     S
+I2     Pb1     3.173   .     S
+I2     Pb1     3.184   2_544 S
+Pb1    I1      3.204   3_575 S
+Pb1    I2      3.173   3_575 S
+Pb1    I2      3.184   2_554 S
+Pb1    I2      3.184   4_565 S
