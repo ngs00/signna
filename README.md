@@ -21,4 +21,5 @@ You can access the full benchmark datasets throught the following references.
 
 ## Employing Chemically Motivated Features
 We can customize the initial node features of the virtual nodes in SIGNNA.
-To this end, you should implement a function that returns a node-feature vector of ``numpy.array`` for an input crystal structure and atom.
+To this end, you should implement a function that returns a node-feature vector of ``numpy.array`` for an input ``pymatgen.Structure`` object and an atomic symbol.
+Passing the implemented function through ``vn_method`` when calling the ``load_dataset`` or ``load_cathub_dataset`` function to load the dataset.
