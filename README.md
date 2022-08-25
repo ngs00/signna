@@ -6,6 +6,19 @@ Complex chemical systems of multiple heterogeneous substructures are common in c
 ## Run
 You can train and evaluate SIGNNA on the benchmark datasets.
 The following Python scripts provide the SIGNNA implementation for each benchmark dataset.
-- exec_hoip.py: HOIP dataset.
-- exec_hoip.py: HOIP2d dataset.
-- exec_cathub.py: CatHub dataset.
+- exec_hoip.py: HOIP dataset containing hybrid organic-inorganic perovskites and their band gaps.
+- exec_hoip.py: HOIP2d dataset containing hybrid halide perovskites and their band gaps.
+- exec_cathub.py: CatHub dataset containing chemical systems of inorganic catalsysts.
+
+
+## Datasets
+We provide the metadata files and the example data of the datasets rather than the full datasets due to the licenses of the benchmark datasets.
+You can access the full benchmark datasets throught the following references.
+- HOIP dataset: https://www.nature.com/articles/sdata201757
+- HOIP2d dataset: https://pubs.acs.org/doi/10.1021/acs.chemmater.0c02290
+- CatHub dataset: https://www.nature.com/articles/s41597-019-0081-y
+
+
+## Employing Chemically Motivated Features
+We can customize the initial node features of the virtual nodes in SIGNNA.
+To this end, you should implement a function that returns a node-feature vector of ``numpy.array`` for an input crystal structure and atom.
