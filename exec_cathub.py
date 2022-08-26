@@ -10,8 +10,8 @@ from ml.models import SIGNNA
 dataset_name = 'cathub'
 dim_emb = 32
 n_epochs = 1000
-dataset = load_dataset_cathub(path_metadata_file='../../data/chem_data/' + dataset_name + '/metadata_2_2_3.xlsx',
-                              path_structs='../../data/chem_data/' + dataset_name,
+dataset = load_dataset_cathub(path_metadata_file='datasets/' + dataset_name + '/metadata_2_1_3.xlsx',
+                              path_structs='datasets/' + dataset_name,
                               idx_target=1,
                               n_bond_feats=128)
 torch.save(dataset, 'save/' + dataset_name + '/dataset.pt')
@@ -31,16 +31,12 @@ for n in range(0, 5):
     gnn_react_surf = CGCNN(n_node_feats=dataset[0].struct_react[1].x.shape[1],
                            n_edge_feats=dataset[0].struct_react[1].edge_attr.shape[1],
                            dim_out=dim_emb)
-    gnn_prod1 = CGCNN(n_node_feats=dataset[0].struct_env[0].x.shape[1],
-                      n_edge_feats=dataset[0].struct_env[0].edge_attr.shape[1],
-                      dim_out=dim_emb)
-    gnn_prod2 = CGCNN(n_node_feats=dataset[0].struct_env[1].x.shape[1],
-                      n_edge_feats=dataset[0].struct_env[1].edge_attr.shape[1],
-                      dim_out=dim_emb)
+    gnn_prod = CGCNN(n_node_feats=dataset[0].struct_env[0].x.shape[1],
+                     n_edge_feats=dataset[0].struct_env[0].edge_attr.shape[1],
+                     dim_out=dim_emb)
 
     gnns_react = [gnn_react_mol, gnn_react_surf]
-    gnns_prod = [gnn_prod1, gnn_prod2]
-    model = SIGNNA(gnn_c=gnns_react, gnn_e=gnns_prod, dim_emb=dim_emb, dim_out=1).cuda()
+    model = SIGNNA(gnn_c=gnns_react, gnn_e=gnn_prod, dim_emb=dim_emb, dim_out=1).cuda()
 
     optimizer = torch.optim.AdamW(model.parameters(), lr=5e-4, weight_decay=5e-6)
     criterion = torch.nn.L1Loss()

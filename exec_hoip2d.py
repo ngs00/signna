@@ -10,8 +10,8 @@ from ml.models import SIGNNA
 dataset_name = 'hoip2d'
 dim_emb = 16
 n_epochs = 1000
-dataset = load_dataset(path_metadata_file='../../data/chem_data/' + dataset_name + '/metadata.xlsx',
-                       path_structs='../../data/chem_data/' + dataset_name,
+dataset = load_dataset(path_metadata_file='datasets/' + dataset_name + '/metadata.xlsx',
+                       path_structs='datasets/' + dataset_name,
                        idx_target=1,
                        n_bond_feats=128)
 torch.save(dataset, 'save/' + dataset_name + '/dataset.pt')
