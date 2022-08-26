@@ -46,8 +46,7 @@ def load_dataset_cathub(path_metadata_file, path_structs, idx_target, n_bond_fea
     metadata = numpy.array(pandas.read_excel(path_metadata_file))
     elem_attrs_react_mol = load_elem_attrs('res/matscholar-embedding.json')
     elem_attrs_react_surf = load_elem_attrs('res/cgcnn-embedding.json')
-    elem_attrs_prod1 = load_elem_attrs('res/cgcnn-embedding.json')
-    elem_attrs_prod2 = load_elem_attrs('res/cgcnn-embedding.json')
+    elem_attrs_prod = load_elem_attrs('res/cgcnn-embedding.json')
     rbf_means = numpy.linspace(start=1.0, stop=atomic_cutoff, num=n_bond_feats)
     dataset = list()
 
@@ -58,21 +57,18 @@ def load_dataset_cathub(path_metadata_file, path_structs, idx_target, n_bond_fea
 
         fname_react_mol = path_structs + '/' + sys_id + '/' + react_ids[0] + '.mol'
         fname_react_surf = path_structs + '/' + sys_id + '/' + react_ids[1] + '.cif'
-        fname_prod1 = path_structs + '/' + sys_id + '/' + prod_ids[0] + '.cif'
-        fname_prod2 = path_structs + '/' + sys_id + '/' + prod_ids[1] + '.cif'
+        fname_prod = path_structs + '/' + sys_id + '/' + prod_ids[0] + '.cif'
 
-        if not validate_files([fname_react_mol, fname_react_surf, fname_prod1, fname_prod2]):
+        if not validate_files([fname_react_mol, fname_react_surf, fname_prod]):
             continue
 
         g_react_mol = get_mol_graph(MolFromMolFile(fname_react_mol), elem_attrs_react_mol)
         g_react_surf = get_crystal_graph(fname_react_surf, elem_attrs_react_surf, rbf_means, atomic_cutoff)
-        g_prod1 = get_crystal_graph(fname_prod1, elem_attrs_prod1, rbf_means, atomic_cutoff)
-        g_prod2 = get_crystal_graph(fname_prod2, elem_attrs_prod2, rbf_means, atomic_cutoff)
+        g_prod = get_crystal_graph(fname_prod, elem_attrs_prod, rbf_means, atomic_cutoff)
 
-        if g_react_mol is not None and g_react_surf is not None and g_prod1 is not None and g_prod2 is not None:
+        if g_react_mol is not None and g_react_surf is not None and g_prod is not None:
             g_reacts = [g_react_mol, g_react_surf]
-            g_prods = [g_prod1, g_prod2]
-            dataset.append(ChemSystem(g_reacts, g_prods, i, metadata[i, idx_target]))
+            dataset.append(ChemSystem(g_reacts, g_prod, i, metadata[i, idx_target]))
 
     return dataset
 
