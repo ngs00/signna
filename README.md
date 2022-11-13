@@ -7,7 +7,7 @@ Complex chemical systems of multiple heterogeneous substructures are common in c
 You can train and evaluate SIGNNA on the benchmark datasets.
 The following Python scripts provide the SIGNNA implementation for each benchmark dataset.
 - exec_hoip.py: HOIP dataset containing hybrid organic-inorganic perovskites and their band gaps.
-- exec_hoip.py: HOIP2d dataset containing hybrid halide perovskites and their band gaps.
+- exec_hoip2d.py: HOIP2d dataset containing hybrid halide perovskites and their band gaps.
 - exec_cathub.py: CatHub dataset containing chemical systems of inorganic catalsysts.
 
 
